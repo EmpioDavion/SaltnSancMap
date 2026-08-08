@@ -1,0 +1,14 @@
+world state and npc spawning will be based on game save
+player controls and gates will be based on AP save
+received AP items will be added to AP save
+
+disabledflag
+
+masterless	- "villageenter&masterless_quest_no"		ignore flag
+nomad		- "dragon"					ignore flag
+oldman		- "castledoor"					add & dialogue flag
+oldman		- "jester_rune"					add & dialogue flag
+oldman		- "dragon"					add & dialogue flag
+jester		- "jester_rune"					add & dialogue flag
+choppy		- "choppy_prison_no&ruinaxe"			ignore flag
+domefriend	= "mummy"					add & dialogue flag

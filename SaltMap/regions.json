@@ -1,0 +1,219 @@
+{
+	"menu": {
+		"connections": [
+			{ "region": "ship" },
+			{ "region": "shivering_shore" }
+		]
+	},
+	"ship": {
+		"connections": [
+			{ "region": "shivering_shore", "items": [ "leviathon" ] }
+		]
+	},
+	"shivering_shore": {
+		"connections": [ 
+			{ "region": "shivering_shore_roof", "items": [ "dart" ] }
+			{ "region": "the_festering_banquet", "items": [ "sanctuary_key" ] },
+			{ "region": "village_of_smiles", "items": [ "sanctuary_key" ] }
+		]
+	},
+	"the_festering_banquet": {
+		"connections": [
+			{ "region": "village_of_smiles" },
+			{ "region": "sunken_keep", "items": [ "SEQUENCE" ] },
+			{ "region": "bandits_pass" }
+		]
+	},
+	"village_of_smiles": {
+		"connections": [
+			{ "region": "the_festering_banquet" },
+			{ "region": "the_watching_woods" }
+			]
+	},
+	"the_watching_woods": {
+		"connections": [
+			{ "region": "village_of_smiles" },
+			{ "region": "sunken_keep" }
+			]
+	},
+	"sunken_keep": {
+		"connections": [ 
+			{ "region": "the_festering_banquet", "items": [ "the_false_jester" ] },
+			{ "region": "the_festering_banquet", "items": [ "green_key" ] },
+			{ "region": "the_watching_woods" },
+			{ "region": "bandits_pass", "items": [ "SEQUENCE" ] },
+			{ "region": "red_hall_of_cages", "items": [ "SEQUENCE" ] },
+			{ "region": "hagers_cavern", "items": [ "SEQUENCE" ] }
+			]
+	},
+	"bandits_pass": {
+		"connections": [
+			{ "region": "the_festering_banquet" },
+			{ "region": "sunken_keep", "items": [ "SEQUENCE" ] },
+			{ "region": "castle_of_storms", "items": [ "vertigo" ] }
+			]
+	},
+	"castle_of_storms": {
+		"connections": [
+			{ "region": "bandits_pass", "items": [ "vertigo" ] },
+			{ "region": "red_hall_of_cages", "items": [ "SEQUENCE" ] },
+			{ "region": "mals_floating_castle", "items": [ "hardlight", "dart" ] }
+			]
+	},
+	"red_hall_of_cages": {
+		"connections": [
+			{ "region": "castle_of_storms", "items": [ "SEQUENCE" ] },
+			{ "region": "sunken_keep", "items": [ "SEQUENCE" ] },
+			{ "region": "hagers_cavern", "items": [ "torturetree" ] },
+			{ "region": "hagers_cavern", "items": [ "redshift" ] },
+			{ "region": "dome_of_the_forgotten" },
+			{ "region": "the_ruined_temple_upper", "items": [ "redshift", "SEQUENCE" ] },
+			{ "region": "the_ruined_temple_lower", "items": [ "SEQUENCE" ] },
+			{ "region": "the_ruined_temple_lower", "items": [ "SEQUENCE" ] },
+			{ "region": "crans_pass", "items": [ "shadowflip", "redshift", "hardlight" ] },
+			{ "region": "crans_pass", "items": [ "shadowflip", "redshift", "dart" ] },
+			{ "region": "mals_floating_castle", "items": [ "shadowflip", "hardlight", "dart" ] },
+			{ "region": "salt_alkymancery_upper", "items": [ "SEQUENCE" ] }
+			]
+	},
+	"hagers_cavern": {
+		"connections": [
+			{ "region": "sunken_keep", "items": [ "SEQUENCE" ] },
+			{ "region": "red_hall_of_cages", "items": [ "redshift" ] },
+			{ "region": "red_hall_of_cages", "items": [ "dart" ] },
+			{ "region": "mire_of_stench", "items": [ "SPIKED_KEY" ] },
+			{ "region": "fort_beyond_the_mire", "items": [ "hardlight" ] },
+			{ "region": "crypt_of_dead_gods_upper", "items": [ "SEQUENCE" ] }
+		]
+	},
+	"mire_of_stench": {
+		"connections": [
+			{ "region": "hagers_cavern", "items": [ "SPIKED_KEY" ] },
+			{ "region": "fort_beyond_the_mire", "items": [ "redshift" ] }
+			]
+	},
+	"fort_beyond_the_mire": {
+		"connections": [
+			{ "region": "hagers_cavern", "items": [ "hardlight" ] },
+			{ "region": "mire_of_stench", "items": [ "redshift" ] },
+			{ "region": "the_far_beach" }
+			]
+	},
+	"the_far_beach": {
+		"connections": [
+			{ "region": "fort_beyond_the_mire" },
+			{ "region": "dome_of_the_forgotten", "items": [ "hardlight", "SEQUENCE" ] },
+			{ "region": "ziggurat_of_dust_upper", "items": [ "WEST_ENTRANCE" ] },
+			{ "region": "the_ruined_temple_upper", "items": [ "redshift" ] },
+			{ "region": "pitchwoods", "items": [ "dart" ] }
+			]
+	},
+	"dome_of_the_forgotten": {
+		"connections": [
+			{ "region": "the_far_beach", "items": [ "hardlight" ] },
+			{ "region": "the_ruined_temple_upper", "items": [ "redshift" ] },
+			{ "region": "the_ruined_temple_lower", "items": [ "SEQUENCE" ] },
+			{ "region": "mals_floating_castle", "items": [ "shadowflip", "hardlight", "dart" ] }
+			]
+	},
+	"ziggurat_of_dust_upper": {
+		"connections": [
+			{ "region": "the_far_beach", "items": [ "WEST_ENTRANCE" ] },
+			{ "region": "ziggurat_of_dust_lower", "items": [ "dart" ] }
+			]
+	},
+	"ziggurat_of_dust_lower": {
+		"connections": [
+			{ "region": "ziggurat_of_dust_upper", "items": [ "shadowflip", "dart" ] },
+			{ "region": "the_ruined_temple_lower", "items": [ "the_forgotten_knight", "the_forgotten_king", "the_forgotten_judge" ] }
+			]
+	},
+	"the_ruined_temple_upper": {
+		"connections": [
+			{ "region": "red_hall_of_cages", "items": [ "redshift" ] },
+			{ "region": "the_far_beach", "items": [ "redshift" ] },
+			{ "region": "dome_of_the_forgotten", "items": [ "redshift" ] },
+			{ "region": "the_ruined_temple_lower", "items": [ "redshift", "DOOR" ] }
+			]
+	},
+	"the_ruined_temple_lower": {
+		"connections": [
+			{ "region": "red_hall_of_cages" },
+			{ "region": "the_far_beach" },
+			{ "region": "dome_of_the_forgotten" },
+			{ "region": "ziggurat_of_dust_lower" },
+			{ "region": "the_ruined_temple_upper", "items": [ "redshift", "DOOR" ] },
+			{ "region": "crans_pass" },
+			{ "region": "mals_floating_castle", "items": [ "shadowflip", "hardlight", "dart" ] },
+			{ "region": "pitchwoods" },
+			{ "region": "siam_lake" }
+		]
+	},
+	"crans_pass": {
+		"connections": [
+			{ "region": "red_hall_of_cages", "items": [ "redshift" ] },
+			{ "region": "the_ruined_temple_lower", "items": [ "redshift", "hardlight" ] },
+			{ "region": "the_ruined_temple_lower", "items": [ "redshift", "shadowflip", "dart" ] },
+			{ "region": "salt_alkymancery_upper", "items": [ "hardlight", "dart" ] }
+			]
+	},
+	"mals_floating_castle": {
+		"connections": [
+			{ "region": "castle_of_storms", "items": [ "hardlight", "dart" ] }
+			]
+	},
+	"pitchwoods": {
+		"connections": [
+			{ "region": "the_far_beach", "items": [ "shadowflip", "hardlight", "dart" ] },
+			{ "region": "the_blackest_vault" },
+			{ "region": "salt_alkymancery_lower", "items": [ "SEQUENCE" ] },
+			{ "region": "the_still_palace", "items": [ "SEQUENCE" ] }
+			]
+	},
+	"the_blackest_vault": {
+		"connections": []
+	},
+	"siam_lake": {
+		"connections": [ 
+			{ "region": "the_ruined_temple_lower" },
+			{ "region": "the_blackest_vault" },
+			{ "region": "salt_alkymancery_upper", "items": [ "lakewitch" ] },
+			{ "region": "salt_alkymancery_lower", "items": [ "SEQUENCE" ] },
+			{ "region": "the_still_palace", "items": [ "SEQUENCE" ] }
+			]
+	},
+	"salt_alkymancery_upper": {
+		"connections": [
+			{ "region": "red_hall_of_cages", "items": [ "shadowflip", "dart" ] },
+			{ "region": "crans_pass", "items": [ "shadowflip", "hardlight", "dart" ] },
+			{ "region": "siam_lake" },
+			{ "region": "salt_alkymancery_lower", "items": [ "shadowflip", "dart" ] }
+			]
+	},
+	"salt_alkymancery_lower": {
+		"connections": [
+			{ "region": "pitchwoods", "items": [ "SEQUENCE" ] },
+			{ "region": "siam_lake", "items": [ "SEQUENCE" ] },
+			{ "region": "crypt_of_dead_gods_upper", "items": [ "shadowflip" ] },
+			{ "region": "the_still_palace" }
+			]
+	},
+	"crypt_of_dead_gods_upper": {
+		"connections": [
+			{ "region": "hagers_cavern", "items": [ "dart", "DOOR_WALL" ] },
+			{ "region": "salt_alkymancery_lower", "items": [ "dart" ] },
+			{ "region": "crypt_of_dead_gods_lower" }
+			]
+	},
+	"crypt_of_dead_gods_lower": {
+		"connections": [
+			{ "region": "crypt_of_dead_gods_upper", "items": [ "shadowflip", "dart", "CLIMB" ] },
+			{ "region": "the_still_palace", "items": [ "squiddragon" ] }
+			]
+	},
+	"the_still_palace": {
+		"connections": [
+			{ "region": "crypt_of_dead_gods_lower", "items": [ "squiddragon" ] }
+			]
+	}
+}
