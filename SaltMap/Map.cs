@@ -4,8 +4,8 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading;
+using WinPoint = System.Drawing.Point;
 
 // TODO: controls for setting the region of checks
 // maybe add list dialogs to MapTest and expose Map classes
@@ -23,12 +23,19 @@ namespace SaltMap
 			Collected
 		}
 
-		private class Check
+		public class Check
 		{
 			public int id;
 			public Vector2 loc;
 			public string region;
 			public CheckState checkState;
+
+			[NonSerialized]
+			public string key;
+
+			public Region GetRegion(Map map) => map.regions[region];
+
+			public override string ToString() => key;
 		}
 
 		private class Sequence : Check
@@ -59,17 +66,22 @@ namespace SaltMap
 			public string[] scripts;
 		}
 
-		private class Region
+		public class Region
 		{
 			public List<string> checks = new List<string>();
-			public Connection[] connections;
+			public List<Connection> connections = new List<Connection>();
 			public bool updated;
+
+			[NonSerialized]
+			public string key;
+
+			public override string ToString() => key;
 		}
 
-		private class Connection
+		public class Connection
 		{
 			public string region;
-			public string[] items;
+			public List<string> items = new List<string>();
 
 			public Region GetRegion(Dictionary<string, Region> regions) => regions[region];
 
@@ -82,6 +94,8 @@ namespace SaltMap
 
 				return true;
 			}
+
+			public override string ToString() => region;
 		}
 
 		private class SegmentData
@@ -92,7 +106,7 @@ namespace SaltMap
 			public bool loading = false;
 		}
 
-		private enum DrawMode
+		public enum DrawMode
 		{
 			Zoomable,
 			Full
@@ -115,7 +129,7 @@ namespace SaltMap
 		private Dictionary<string, Boss> bosses;
 		private Dictionary<string, NPC> npcs;
 
-		private Dictionary<string, Region> regions;
+		public Dictionary<string, Region> regions;
 
 		private GraphicsDevice graphicsDevice;
 		private SpriteBatch spriteBatch;
@@ -124,20 +138,23 @@ namespace SaltMap
 
 		private SpriteFont font;
 		private Texture2D map;
-		private Texture2D pixel;
+		public Texture2D pixel;
 		private int zoom = 5;
 
 		private Vector2 mapPosition = new Vector2(-49.0f, -86.0f);
 		private Matrix camera = Matrix.Identity;
-		private readonly float itemScale = 0.115f;
+		public readonly float itemScale = 0.115f;
 
-		private DrawMode drawMode = DrawMode.Zoomable;
+		public DrawMode drawMode = DrawMode.Zoomable;
 
 		private readonly Stack<Region> updateStack = new Stack<Region>();
 
 		private readonly HashSet<string> flags = new HashSet<string>();
 
 		private readonly Dictionary<string, Check> locations = new Dictionary<string, Check>();
+
+		private string regionFilter = "menu";
+		private string locationFilter = "";
 
 		public Map()
 		{
@@ -191,6 +208,9 @@ namespace SaltMap
 
 			regions = LoadJson<Dictionary<string, Region>>("regions.json");
 
+			foreach (KeyValuePair<string, Region> kvp in regions)
+				kvp.Value.key = kvp.Key;
+
 			AddLocations(chests);
 			AddLocations(sacks);
 			AddLocations(mimics);
@@ -211,7 +231,10 @@ namespace SaltMap
 		private void AddLocations<T>(Dictionary<string, T> checks) where T : Check
 		{
 			foreach (KeyValuePair<string, T> kvp in checks)
+			{
+				kvp.Value.key = kvp.Key;
 				locations.TryAdd(kvp.Key, kvp.Value);
+			}
 		}
 
 		public void Update(bool isActive)
@@ -311,22 +334,27 @@ namespace SaltMap
 
 		public void Zoom(Point mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
 		public void Zoom(Vector2 mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
+		public void Zoom(WinPoint mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
 
 		public void ZoomIn(float mouseX, float mouseY) => Zoom(mouseX, mouseY, 1);
 		public void ZoomIn(Point mousePos) => Zoom(mousePos, 1);
 		public void ZoomIn(Vector2 mousePos) => Zoom(mousePos, 1);
+		public void ZoomIn(WinPoint mousePos) => Zoom(mousePos, 1);
 
 		public void ZoomOut(float mouseX, float mouseY) => Zoom(mouseX, mouseY, -1);
 		public void ZoomOut(Point mousePos) => Zoom(mousePos, -1);
 		public void ZoomOut(Vector2 mousePos) => Zoom(mousePos, -1);
+		public void ZoomOut(WinPoint mousePos) => Zoom(mousePos, -1);
 
+		public void Move(float x, float y) => camera.Translation += new Vector3(x, y, 0.0f);
 		public void Move(Point point) => camera.Translation += new Vector3(point.X, point.Y, 0.0f);
 		public void Move(Vector2 vec) => camera.Translation += new Vector3(vec.X, vec.Y, 0.0f);
-		public void Move(float x, float y) => camera.Translation += new Vector3(x, y, 0.0f);
+		public void Move(WinPoint point) => camera.Translation += new Vector3(point.X, point.Y, 0.0f);
 
+		public void Offset(float x, float y) => mapPosition += new Vector2(x, y);
 		public void Offset(Point point) => mapPosition += new Vector2(point.X, point.Y);
 		public void Offset(Vector2 vec) => mapPosition += new Vector2(vec.X, vec.Y);
-		public void Offset(float x, float y) => mapPosition += new Vector2(x, y);
+		public void Offset(WinPoint point) => mapPosition += new Vector2(point.X, point.Y);
 
 		private void LoadSegment(SegmentData segmentData)
 		{
@@ -334,12 +362,24 @@ namespace SaltMap
 			segmentData.loading = false;
 		}
 
-		public void ToggleNode(Vector2 pos)
+		public void Filter(string region, string location)
 		{
-			float sqrLength = float.MaxValue;
-			Check check = null;
-			string name = null;
+			regionFilter = region;
+			locationFilter = location;
+		}
 
+		public void SetCameraPosition(Vector2 worldPos)
+		{
+			worldPos *= -itemScale;
+			worldPos += mapPosition;
+			worldPos *= zoom * 0.1f;
+			worldPos += new Vector2(ScreenWidth, ScreenHeight) * 0.5f;
+
+			camera.Translation = new Vector3(worldPos, 0.0f);
+		}
+
+		public Vector2 GetMapPosition(Vector2 pos)
+		{
 			if (drawMode == DrawMode.Full)
 			{
 				// find by pos
@@ -351,7 +391,25 @@ namespace SaltMap
 				Matrix inv = Matrix.Invert(camera);
 				pos = Vector2.Transform(pos, inv);
 				pos /= itemScale;
-			}	
+			}
+
+			return pos;
+		}
+
+		public Vector2 GetMapPosition(float x, float y) => GetMapPosition(new Vector2(x, y));
+		public Vector2 GetMapPosition(Point pos) => GetMapPosition(new Vector2(pos.X, pos.Y));
+		public Vector2 GetMapPosition(WinPoint pos) => GetMapPosition(new Vector2(pos.X, pos.Y));
+
+		public bool GetLocation(string location, out Check check) =>
+			locations.TryGetValue(location, out check);
+
+		public bool GetCheck(Vector2 pos, out Check check, out string name)
+		{
+			float sqrLength = float.MaxValue;
+			Check _check = null;
+			string _name = null;
+
+			pos = GetMapPosition(pos);
 
 			foreach (KeyValuePair<string, Check> kvp in locations)
 			{
@@ -362,12 +420,36 @@ namespace SaltMap
 				if (diffSq < sqrLength)
 				{
 					sqrLength = diffSq;
-					check = kvp.Value;
-					name = kvp.Key;
+					_check = kvp.Value;
+					_name = kvp.Key;
 				}
 			}
 
-			if (check != null && sqrLength < 120f * 120f)
+			if (_check != null && sqrLength < 120f * 120f)
+			{
+				check = _check;
+				name = _name;
+				return true;
+			}
+
+			check = null;
+			name = null;
+
+			return false;
+		}
+
+		public bool GetCheck(float x, float y, out Check check, out string name) =>
+			GetCheck(new Vector2(x, y), out check, out name);
+
+		public bool GetCheck(Point point, out Check check, out string name) =>
+			GetCheck(new Vector2(point.X, point.Y), out check, out name);
+
+		public bool GetCheck(WinPoint point, out Check check, out string name) =>
+			GetCheck(new Vector2(point.X, point.Y), out check, out name);
+
+		public void ToggleCheck(Vector2 pos)
+		{
+			if (GetCheck(pos, out Check check, out string name))
 			{
 				flags.Remove(name);
 
@@ -383,7 +465,9 @@ namespace SaltMap
 			}
 		}
 
-		public void ToggleNode(Point point) => ToggleNode(new Vector2(point.X, point.Y));
+		public void ToggleCheck(float x, float y) => ToggleCheck(new Vector2(x, y));
+		public void ToggleCheck(Point point) => ToggleCheck(new Vector2(point.X, point.Y));
+		public void ToggleCheck(WinPoint point) => ToggleCheck(new Vector2(point.X, point.Y));
 
 		private void DrawEntryBlock(Check check, Color color, float scale)
 		{
@@ -403,7 +487,12 @@ namespace SaltMap
 				_ => Color.Magenta,
 			};
 
-			spriteBatch.Draw(pixel, loc4, null, Color.Black, 0.0f, Vector2.One * 0.5f, 40.0f * scale, SpriteEffects.None, 0.0f);
+			if (regionFilter != "menu")
+				color = check.region == regionFilter ? Color.Green : Color.Red;
+
+			Color borderColor = locationFilter == check.key ? Color.Yellow : Color.Black;
+
+			spriteBatch.Draw(pixel, loc4, null, borderColor, 0.0f, Vector2.One * 0.5f, 40.0f * scale, SpriteEffects.None, 0.0f);
 			spriteBatch.Draw(pixel, loc4, null, color, 0.0f, Vector2.One * 0.5f, 30.0f * scale, SpriteEffects.None, 0.0f);
 		}
 

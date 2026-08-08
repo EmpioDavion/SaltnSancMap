@@ -4,7 +4,7 @@
 		"monster": 21,
 		"npc": 0,
 		"loc": "17922.123, 11601.01",
-		"region": "The Festering Banquet",
+		"region": "the_festering_banquet",
 		"scripts": [ 
 			"disabledflag", "villageenter&masterless_quest_no",
 			"disabledflag", "villageenter&masterless_quest_yes"
@@ -15,7 +15,7 @@
 		"monster": 22,
 		"npc": 1,
 		"loc": "17464.4941, 13519.4131",
-		"region": "The Festering Banquet",
+		"region": "the_festering_banquet",
 		"scripts": [ 
 			"disabledflag", "dragon",
 			"npcstyle", "0"
@@ -26,7 +26,7 @@
 		"monster": 79,
 		"npc": 5,
 		"loc": "3047.75244, 14576.8574",
-		"region": "Shivering Shore",
+		"region": "shivering_shore",
 		"scripts": [ 
 			"disabledflag", "castledoor",
 			"npcstyle", "4"
@@ -37,7 +37,7 @@
 		"monster": 65,
 		"npc": 3,
 		"loc": "21623.9961, 15220.2568",
-		"region": "Sunken Keep",
+		"region": "sunken_keep",
 		"scripts": [ 
 			"disabledflag", "jester_rune",
 			"npcstyle", "2",
@@ -49,7 +49,7 @@
 		"monster": 67,
 		"npc": 4,
 		"loc": "38548.2422, 3490.707",
-		"region": "Castle of Storms",
+		"region": "castle_of_storms",
 		"scripts": [ 
 			"disabledflag", "castlebridgedropf&despondent_talk_2",
 			"npcstyle", "3",
@@ -61,7 +61,7 @@
 		"monster": 96,
 		"npc": 6,
 		"loc": "16679.1426, 28266.07",
-		"region": "Mire of Stench",
+		"region": "mire_of_stench",
 		"scripts": [ 
 			"npcstyle", "0"
 		]
@@ -71,7 +71,7 @@
 		"monster": 21,
 		"npc": 0,
 		"loc": "31442.2852, 5655.355",
-		"region": "Castle of Storms",
+		"region": "castle_of_storms",
 		"scripts": [ 
 			"enabledflag", "villageenter",
 			"enabledflag", "masterless_quest_yes",
@@ -85,7 +85,7 @@
 		"monster": 99,
 		"npc": 8,
 		"loc": "11193.792, 20307.8027",
-		"region": "The Watching Woods",
+		"region": "the_watching_woods",
 		"scripts": [ 
 			"npcstyle", "1"
 		]
@@ -95,7 +95,7 @@
 		"monster": 107,
 		"npc": 9,
 		"loc": "80167.27, 7922.661",
-		"region": "Ziggurat of Dust",
+		"region": "ziggurat_of_dust",
 		"scripts": [ 
 			"disabledflag", "choppy_prison_yes&ruinaxe",
 			"disabledflag", "choppy_prison_no&ruinaxe",
@@ -108,7 +108,7 @@
 		"monster": 126,
 		"npc": 10,
 		"loc": "8353.15, 10995.8223",
-		"region": "Shivering Shore",
+		"region": "shivering_shore",
 		"scripts": [ 
 			"npcstyle", "1"
 		]
@@ -118,7 +118,7 @@
 		"monster": 136,
 		"npc": 12,
 		"loc": "6755.98926, 16998.1777",
-		"region": "Village of Smiles",
+		"region": "village_of_smiles",
 		"scripts": [ 
 			"disabledflag", "scare_talk2&bull"
 		]
@@ -128,7 +128,7 @@
 		"monster": 146,
 		"npc": 13,
 		"loc": "5213.568, 5129.353",
-		"region": "Shivering Shore",
+		"region": "shivering_shore",
 		"scripts": [ 
 			"npcstyle", "6"
 		]
@@ -138,7 +138,7 @@
 		"monster": 147,
 		"npc": 14,
 		"loc": "1850.3927, 28927.2773",
-		"region": "Fort-Beyond-The-Mire",
+		"region": "fort_beyond_the_mire",
 		"scripts": [ 
 			"npcstyle", "7"
 		]
@@ -148,7 +148,7 @@
 		"monster": 148,
 		"npc": 15,
 		"loc": "99470.97, 14764.4922",
-		"region": "The Far Beach",
+		"region": "the_far_beach",
 		"scripts": [ 
 			"npcstyle", "7"
 		]
@@ -158,7 +158,7 @@
 		"monster": 150,
 		"npc": 17,
 		"loc": "16580.5723, 25804.4375",
-		"region": "Mire of Stench",
+		"region": "mire_of_stench",
 		"scripts": [ 
 			"npcstyle", "1",
 			"brandfire", "0"
@@ -169,7 +169,7 @@
 		"monster": 149,
 		"npc": 16,
 		"loc": "56759.0938, 9237.674",
-		"region": "Dome of the Forgotten",
+		"region": "dome_of_the_forgotten",
 		"scripts": [ 
 			"npcstyle", "1",
 			"brandfire", "0",
@@ -181,7 +181,7 @@
 		"monster": 156,
 		"npc": 18,
 		"loc": "17158.0488, 23384.2754",
-		"region": "The Watching Woods",
+		"region": "the_watching_woods",
 		"scripts": [ 
 			"npcstyle", "1"
 		]
@@ -191,7 +191,7 @@
 		"monster": 21,
 		"npc": 0,
 		"loc": "45017.54, 13809.3467",
-		"region": "Red Hall of Cages",
+		"region": "red_hall_of_cages",
 		"scripts": [ 
 			"enabledflag", "dragon",
 			"enabledflag", "masterless_2_talk_3",
@@ -204,7 +204,7 @@
 		"monster": 21,
 		"npc": 0,
 		"loc": "38007.46, 27299.5469",
-		"region": "Hager's Cavern",
+		"region": "hagers_cavern",
 		"scripts": [ 
 			"enabledflag", "torturetree",
 			"enabledflag", "masterless_3_talk_3",
@@ -218,7 +218,7 @@
 		"monster": 136,
 		"npc": 12,
 		"loc": "42792.0078, 9544.357",
-		"region": "Castle of Storms",
+		"region": "castle_of_storms",
 		"scripts": [ 
 			"enabledflag", "dragon",
 			"enabledflag", "scare_talk2",
@@ -231,7 +231,7 @@
 		"monster": 21,
 		"npc": 0,
 		"loc": "63140.5039, 28981.1934",
-		"region": "Siam Lake",
+		"region": "siam_lake",
 		"scripts": [ 
 			"enabledflag", "pirate",
 			"enabledflag", "masterless_4_talk_3",
@@ -244,7 +244,7 @@
 		"monster": 79,
 		"npc": 5,
 		"loc": "33268.19, 9751.742",
-		"region": "Bandits' Pass",
+		"region": "bandits_pass",
 		"scripts": [ 
 			"enabledflag", "castledoor",
 			"disabledflag", "jester_rune",
@@ -257,7 +257,7 @@
 		"monster": 65,
 		"npc": 3,
 		"loc": "43263.94, 12013.2539",
-		"region": "Red Hall of Cages",
+		"region": "red_hall_of_cages",
 		"scripts": [ 
 			"enabledflag", "jester_rune",
 			"enabledflag", "dragon",
@@ -270,7 +270,7 @@
 		"monster": 107,
 		"npc": 9,
 		"loc": "58136.87, 24537.6953",
-		"region": "Cran's Pass",
+		"region": "crans_pass",
 		"scripts": [ 
 			"enabledflag", "choppy_prison_yes",
 			"disabledflag", "lakewitch&2_choppy_talk_3",
@@ -283,7 +283,7 @@
 		"monster": 67,
 		"npc": 4,
 		"loc": "46148.91, 21525.7383",
-		"region": "Red Hall of Cages",
+		"region": "red_hall_of_cages",
 		"scripts": [ 
 			"enabledflag", "castlebridgedropf",
 			"enabledflag", "despondent_talk_2",
@@ -297,7 +297,7 @@
 		"monster": 188,
 		"npc": 19,
 		"loc": "72860.63, 38632.9727",
-		"region": "The Blackest Vault",
+		"region": "the_blackest_vault",
 		"scripts": [ 
 			"npcstyle", "1"
 		]
@@ -307,7 +307,7 @@
 		"monster": 21,
 		"npc": 0,
 		"loc": "98122.61, 30280.9551",
-		"region": "Pitchwoods",
+		"region": "pitchwoods",
 		"scripts": [ 
 			"enabledflag", "cloak",
 			"enabledflag", "masterless_5_talk_3",
@@ -320,7 +320,7 @@
 		"monster": 67,
 		"npc": 4,
 		"loc": "36553.5039, 24302.6",
-		"region": "Sunken Keep",
+		"region": "sunken_keep",
 		"scripts": [ 
 			"enabledflag", "torturetree",
 			"enabledflag", "2_desp_talk_3",
@@ -334,7 +334,7 @@
 		"monster": 67,
 		"npc": 4,
 		"loc": "97415.26, 14634.3857",
-		"region": "The Far Beach",
+		"region": "the_far_beach",
 		"scripts": [ 
 			"enabledflag", "3_desp_talk_3_yes",
 			"enabledflag", "pirate",
@@ -348,7 +348,7 @@
 		"monster": 195,
 		"npc": 20,
 		"loc": "6150.11328, 4240.38135",
-		"region": "Shivering Shore",
+		"region": "shivering_shore",
 		"scripts": [ 
 			"npcstyle", "8"
 		]
@@ -358,7 +358,7 @@
 		"monster": 196,
 		"npc": 21,
 		"loc": "6086.257, 4249.875",
-		"region": "Shivering Shore",
+		"region": "shivering_shore",
 		"scripts": [ 
 			"npcstyle", "9"
 		]
@@ -368,7 +368,7 @@
 		"monster": 136,
 		"npc": 12,
 		"loc": "67147.19, 17996.3223",
-		"region": "The Ruined Temple",
+		"region": "the_ruined_temple",
 		"scripts": [ 
 			"enabledflag", "scare_talk3",
 			"enabledflag", "griffin",
@@ -381,7 +381,7 @@
 		"monster": 136,
 		"npc": 12,
 		"loc": "43554.4922, 33482.7969",
-		"region": "Crypt of Dead Gods",
+		"region": "crypt_of_dead_gods",
 		"scripts": [ 
 			"enabledflag", "lakewitch",
 			"enabledflag", "scare_talk4",
@@ -394,7 +394,7 @@
 		"monster": 107,
 		"npc": 9,
 		"loc": "989.893433, 14865.2373",
-		"region": "Shivering Shore",
+		"region": "shivering_shore",
 		"scripts": [ 
 			"enabledflag", "choppy_prison_yes",
 			"enabledflag", "lakewitch",
@@ -409,7 +409,7 @@
 		"monster": 79,
 		"npc": 5,
 		"loc": "60534.0156, 29507.752",
-		"region": "Siam Lake",
+		"region": "siam_lake",
 		"scripts": [ 
 			"enabledflag", "castledoor",
 			"enabledflag", "jester_rune",
@@ -423,7 +423,7 @@
 		"monster": 149,
 		"npc": 16,
 		"loc": "83745.11, 11081.1807",
-		"region": "Ziggurat of Dust",
+		"region": "ziggurat_of_dust",
 		"scripts": [ 
 			"npcstyle", "1",
 			"enabledflag", "mummy",
@@ -435,7 +435,7 @@
 		"monster": 22,
 		"npc": 1,
 		"loc": "43696.9141, 7031.3125",
-		"region": "Castle of Storms",
+		"region": "castle_of_storms",
 		"scripts": [ 
 			"enabledflag", "dragon",
 			"npcstyle", "0"
@@ -446,7 +446,7 @@
 		"monster": 79,
 		"npc": 5,
 		"loc": "49048.4727, 37693.11",
-		"region": "The Still Palace",
+		"region": "the_still_palace",
 		"scripts": [ 
 			"enabledflag", "castledoor",
 			"enabledflag", "jester_rune",
@@ -461,7 +461,7 @@
 		"monster": 136,
 		"npc": 12,
 		"loc": "67602.8359, 46979.77",
-		"region": "The Still Palace",
+		"region": "the_still_palace",
 		"scripts": [ 
 			"enabledflag", "scare_talk5",
 			"enabledflag", "squiddragon",

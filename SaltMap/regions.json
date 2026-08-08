@@ -12,11 +12,12 @@
 	},
 	"shivering_shore": {
 		"connections": [ 
-			{ "region": "shivering_shore_roof", "items": [ "dart" ] }
+			{ "region": "shivering_shore_roof", "items": [ "dart" ] },
 			{ "region": "the_festering_banquet", "items": [ "sanctuary_key" ] },
 			{ "region": "village_of_smiles", "items": [ "sanctuary_key" ] }
 		]
 	},
+	"shivering_shore_roof": { },
 	"the_festering_banquet": {
 		"connections": [
 			{ "region": "village_of_smiles" },
