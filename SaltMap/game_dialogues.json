@@ -124,7 +124,8 @@
         "postSetFlagStr": "wise_woman_diag_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "talk2",
@@ -238,7 +239,8 @@
         "postSetFlagStr": "wise_woman_diag_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "talk3",
@@ -434,7 +436,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "iron_check",
@@ -586,7 +589,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "three_check",
@@ -738,7 +742,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "cleric_check",
@@ -890,7 +895,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "forest_check",
@@ -1042,7 +1048,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "fire_sky_check",
@@ -1194,7 +1201,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "three_confirm",
@@ -1296,7 +1304,8 @@
         "giveScript": [
           "icon_three"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "iron_confirm",
@@ -1399,7 +1408,8 @@
         "giveScript": [
           "icon_iron"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "cleric_confirm",
@@ -1501,7 +1511,8 @@
         "giveScript": [
           "icon_cleric"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "forest_confirm",
@@ -1603,7 +1614,8 @@
         "giveScript": [
           "icon_wood"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "fire_sky_confirm",
@@ -1705,7 +1717,8 @@
         "giveScript": [
           "icon_fire"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "no_creed",
@@ -1888,7 +1901,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       },
       {
         "name": "talk4",
@@ -1988,7 +2002,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110000
       }
     ],
     "rune": -1
@@ -2133,7 +2148,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "quest_yes",
@@ -2285,7 +2301,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "quest_no",
@@ -2411,7 +2428,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "my_quest_yes",
@@ -2524,7 +2542,8 @@
         "postSetFlagStr": "masterless_quest_yes",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "my_quest_no",
@@ -2611,7 +2630,8 @@
         "postSetFlagStr": "masterless_quest_no",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "talk2",
@@ -2698,7 +2718,8 @@
         "postSetFlagStr": "masterless_quest_yes_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "talk3",
@@ -2785,7 +2806,8 @@
         "postSetFlagStr": "masterless_quest_yes_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "talk4",
@@ -2872,7 +2894,8 @@
         "postSetFlagStr": "masterless_quest_yes_4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "talk5",
@@ -2959,7 +2982,8 @@
         "postSetFlagStr": "masterless_quest_yes_5",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "talk6",
@@ -3046,7 +3070,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "2_talk",
@@ -3146,7 +3171,8 @@
         "postSetFlagStr": "masterless_2_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "2_talk_2",
@@ -3246,7 +3272,8 @@
         "postSetFlagStr": "masterless_2_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "2_talk_3",
@@ -3346,7 +3373,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "3_talk",
@@ -3472,7 +3500,8 @@
         "postSetFlagStr": "masterless_3_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "3_talk_2",
@@ -3596,7 +3625,8 @@
         "postSetFlagStr": "masterless_3_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "3_talk_3",
@@ -3683,7 +3713,8 @@
         "postSetFlagStr": "masterless_3_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "3_talk_4",
@@ -3770,7 +3801,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "4_talk",
@@ -3883,7 +3915,8 @@
         "postSetFlagStr": "masterless_4_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "4_talk_2",
@@ -4009,7 +4042,8 @@
         "postSetFlagStr": "masterless_4_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "4_talk_3",
@@ -4096,7 +4130,8 @@
         "postSetFlagStr": "masterless_4_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "4_talk_4",
@@ -4183,7 +4218,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "5_talk",
@@ -4308,7 +4344,8 @@
         "postSetFlagStr": "masterless_5_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "5_talk_2",
@@ -4408,7 +4445,8 @@
         "postSetFlagStr": "masterless_5_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "5_talk_3",
@@ -4508,7 +4546,8 @@
         "postSetFlagStr": "masterless_5_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "5_talk_4",
@@ -4595,7 +4634,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "6_talk",
@@ -4708,7 +4748,8 @@
         "postSetFlagStr": "masterless_6_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "6_talk_2",
@@ -4811,7 +4852,8 @@
         "giveScript": [
           "white_nova"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "6_talk_3",
@@ -4898,7 +4940,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       },
       {
         "name": "coop2talk",
@@ -4998,7 +5041,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110001
       }
     ],
     "rune": -1
@@ -5104,7 +5148,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "talk_talk",
@@ -5217,7 +5262,8 @@
         "postSetFlagStr": "nomad_talk2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "leave",
@@ -5304,7 +5350,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "menu",
@@ -5423,7 +5470,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "shop",
@@ -5524,7 +5572,8 @@
           "nameless|nameless_boots",
           "nameless|nameless_gloves",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110002
       },
       {
         "name": "talk_talk2",
@@ -5637,7 +5686,8 @@
         "postSetFlagStr": "nomad_talk3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "talk_talk3",
@@ -5764,7 +5814,8 @@
         "postSetFlagStr": "nomad_talk4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "talk_coop",
@@ -5851,7 +5902,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "talk_talk4",
@@ -5964,7 +6016,8 @@
         "postSetFlagStr": "nomad_talk5",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "talk_talk5",
@@ -6051,7 +6104,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "2_talk",
@@ -6138,7 +6192,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "2_talktalk",
@@ -6251,7 +6306,8 @@
         "postSetFlagStr": "nomad_talk2_1",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       },
       {
         "name": "2_talktalk2",
@@ -6338,7 +6394,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110002
       }
     ],
     "rune": -1
@@ -6431,7 +6488,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110003
       },
       {
         "name": "talk_talk",
@@ -6518,7 +6576,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110003
       },
       {
         "name": "buy",
@@ -6591,7 +6650,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110003
       },
       {
         "name": "leave",
@@ -6678,7 +6738,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110003
       },
       {
         "name": "transmute",
@@ -6742,7 +6803,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110003
       },
       {
         "name": "menu",
@@ -6880,7 +6942,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110003
       },
       {
         "name": "upgrade",
@@ -6944,7 +7007,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110003
       },
       {
         "name": "apostate_talk",
@@ -7031,7 +7095,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110003
       }
     ],
     "rune": -1
@@ -7124,7 +7189,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110004
       },
       {
         "name": "talk_talk",
@@ -7223,7 +7289,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110004
       },
       {
         "name": "buy",
@@ -7307,7 +7374,8 @@
           "3:knight_boots",
           "3:knight_gloves",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110004
       },
       {
         "name": "leave",
@@ -7394,7 +7462,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110004
       },
       {
         "name": "transmute",
@@ -7458,7 +7527,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110004
       },
       {
         "name": "menu",
@@ -7596,7 +7666,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110004
       },
       {
         "name": "upgrade",
@@ -7660,7 +7731,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110004
       },
       {
         "name": "strange_talk",
@@ -7747,7 +7819,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110004
       },
       {
         "name": "apostate_talk",
@@ -7847,7 +7920,8 @@
         "postSetFlagStr": "smith_3_apos1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110004
       },
       {
         "name": "apostate_talk2",
@@ -7934,7 +8008,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110004
       }
     ],
     "rune": -1
@@ -8027,7 +8102,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110005
       },
       {
         "name": "menu",
@@ -8165,7 +8241,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110005
       },
       {
         "name": "talk_talk",
@@ -8252,7 +8329,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110005
       },
       {
         "name": "leave",
@@ -8339,7 +8417,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110005
       },
       {
         "name": "prayers",
@@ -8408,7 +8487,8 @@
           "alchemist|holy_cleanse",
           "5:holy_blade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110005
       },
       {
         "name": "shop",
@@ -8476,7 +8556,8 @@
           "cleric_armor",
           "cleric_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110005
       }
     ],
     "rune": -1
@@ -8569,7 +8650,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110006
       },
       {
         "name": "menu",
@@ -8707,7 +8789,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110006
       },
       {
         "name": "talk_talk",
@@ -8846,7 +8929,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110006
       },
       {
         "name": "leave",
@@ -8933,7 +9017,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110006
       },
       {
         "name": "prayers",
@@ -9008,7 +9093,8 @@
           "alchemist|holy_cleanse",
           "5:holy_blade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110006
       },
       {
         "name": "shop",
@@ -9074,7 +9160,8 @@
           "buff_holy",
           "bull|ring_mp_moat",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110006
       }
     ],
     "rune": -1
@@ -9167,7 +9254,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "menu",
@@ -9305,7 +9393,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "talk_talk",
@@ -9418,7 +9507,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "leave",
@@ -9505,7 +9595,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "prayers",
@@ -9586,7 +9677,8 @@
           "alchemist|holy_cleanse",
           "5:holy_blade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110007
       },
       {
         "name": "shop",
@@ -9659,7 +9751,8 @@
           "2:ring_wisdom",
           "bull|ring_mp_moat",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110007
       },
       {
         "name": "strange_talk",
@@ -9785,7 +9878,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "apostate_talk",
@@ -9885,7 +9979,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "strange_yes",
@@ -9998,7 +10093,8 @@
         "postSetFlagStr": "priest_cleric_strange1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "strange_no",
@@ -10111,7 +10207,8 @@
         "postSetFlagStr": "priest_cleric_strange1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "strange_talk2",
@@ -10198,7 +10295,8 @@
         "postSetFlagStr": "priest_cleric_strange2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       },
       {
         "name": "strange_talk3",
@@ -10285,7 +10383,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110007
       }
     ],
     "rune": -1
@@ -10376,7 +10475,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110008
       },
       {
         "name": "talk_talk",
@@ -10463,7 +10563,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110008
       },
       {
         "name": "menu",
@@ -10601,7 +10702,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110008
       },
       {
         "name": "leave",
@@ -10688,7 +10790,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110008
       },
       {
         "name": "shop",
@@ -10765,7 +10868,8 @@
           "antidote",
           "charm_lantern",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110008
       },
       {
         "name": "sell",
@@ -10829,7 +10933,8 @@
         "storeScript": [
           "sell",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110008
       }
     ],
     "rune": -1
@@ -10922,7 +11027,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110009
       },
       {
         "name": "menu",
@@ -11079,7 +11185,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110009
       },
       {
         "name": "talk_talk",
@@ -11166,7 +11273,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110009
       },
       {
         "name": "leave",
@@ -11253,7 +11361,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110009
       },
       {
         "name": "spells",
@@ -11322,7 +11431,8 @@
           "lakewitch|mag_firestar",
           "griffin|lit_ball",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110009
       },
       {
         "name": "incantations",
@@ -11389,7 +11499,8 @@
           "mag_vision_buff",
           "torturetree|fire_oribts",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110009
       },
       {
         "name": "items",
@@ -11455,7 +11566,8 @@
           "ring_magic",
           "wand_wood",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110009
       },
       {
         "name": "leave_2",
@@ -11542,7 +11654,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110009
       }
     ],
     "rune": -1
@@ -11635,7 +11748,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110010
       },
       {
         "name": "talk_talk",
@@ -11722,7 +11836,8 @@
         "postSetFlagStr": "merchant_cleric2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110010
       },
       {
         "name": "menu",
@@ -11860,7 +11975,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110010
       },
       {
         "name": "leave",
@@ -11947,7 +12063,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110010
       },
       {
         "name": "shop",
@@ -12027,7 +12144,8 @@
           "charm_lantern",
           "throw_potato",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110010
       },
       {
         "name": "talk_talk2",
@@ -12114,7 +12232,8 @@
         "postSetFlagStr": "merchant_cleric3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110010
       },
       {
         "name": "talk_talk3",
@@ -12201,7 +12320,8 @@
         "postSetFlagStr": "merchant_cleric4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110010
       },
       {
         "name": "talk_talk4",
@@ -12288,7 +12408,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110010
       },
       {
         "name": "sell",
@@ -12352,7 +12473,8 @@
         "storeScript": [
           "sell",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110010
       },
       {
         "name": "talk_coop",
@@ -12439,7 +12561,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110010
       }
     ],
     "rune": -1
@@ -12532,7 +12655,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       },
       {
         "name": "talk_talk",
@@ -12632,7 +12756,8 @@
         "postSetFlagStr": "mthree_talk2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       },
       {
         "name": "menu",
@@ -12770,7 +12895,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       },
       {
         "name": "leave",
@@ -12857,7 +12983,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       },
       {
         "name": "shop",
@@ -12946,7 +13073,8 @@
           "charm_lantern",
           "throw_potato",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110011
       },
       {
         "name": "talk_talk2",
@@ -13046,7 +13174,8 @@
         "postSetFlagStr": "mthree_talk3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       },
       {
         "name": "talk_talk3",
@@ -13146,7 +13275,8 @@
         "postSetFlagStr": "mthree_talk4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       },
       {
         "name": "talk_talk4",
@@ -13245,7 +13375,8 @@
         "postSetFlagStr": "mthree_talk5",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       },
       {
         "name": "talk_talk5",
@@ -13332,7 +13463,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       },
       {
         "name": "sell",
@@ -13396,7 +13528,8 @@
         "storeScript": [
           "sell",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110011
       },
       {
         "name": "talk_coop",
@@ -13496,7 +13629,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110011
       }
     ],
     "rune": -1
@@ -13589,7 +13723,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110012
       },
       {
         "name": "menu",
@@ -13746,7 +13881,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110012
       },
       {
         "name": "talk_talk",
@@ -13845,7 +13981,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110012
       },
       {
         "name": "leave",
@@ -13932,7 +14069,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110012
       },
       {
         "name": "spells",
@@ -14002,7 +14140,8 @@
           "lakewitch|mag_firestar",
           "griffin|lit_ball",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110012
       },
       {
         "name": "incantations",
@@ -14069,7 +14208,8 @@
           "mag_vision_buff",
           "torturetree|fire_oribts",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110012
       },
       {
         "name": "items",
@@ -14135,7 +14275,8 @@
           "ring_magic",
           "wand_wood",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110012
       },
       {
         "name": "leave_2",
@@ -14222,7 +14363,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110012
       }
     ],
     "rune": -1
@@ -14315,7 +14457,8 @@
         "postSetFlagStr": "jester_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "talk_2",
@@ -14402,7 +14545,8 @@
         "postSetFlagStr": "jester_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "talk_3",
@@ -14528,7 +14672,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "talk_yes",
@@ -14617,7 +14762,8 @@
         "giveScript": [
           "rune_upside_down"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "talk_no",
@@ -14704,7 +14850,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "talk_done",
@@ -14791,7 +14938,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "2_talk",
@@ -14878,7 +15026,8 @@
         "postSetFlagStr": "2_jester_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "2_talk_2",
@@ -14965,7 +15114,8 @@
         "postSetFlagStr": "2_jester_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "2_talk_3",
@@ -15052,7 +15202,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       },
       {
         "name": "coop2talk",
@@ -15140,7 +15291,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110013
       }
     ],
     "rune": 0
@@ -15285,7 +15437,8 @@
         "postSetFlagStr": "despondent_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "talk_2",
@@ -15400,7 +15553,8 @@
         "giveScript": [
           "rune_wall_jump"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "talk_3",
@@ -15487,7 +15641,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "2_talk_1",
@@ -15600,7 +15755,8 @@
         "postSetFlagStr": "2_desp_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "2_talk_2",
@@ -15739,7 +15895,8 @@
         "postSetFlagStr": "2_desp_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "2_talk_3",
@@ -15839,7 +15996,8 @@
         "postSetFlagStr": "2_desp_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "2_talk_4",
@@ -15926,7 +16084,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "3_talk_1",
@@ -16038,7 +16197,8 @@
         "postSetFlagStr": "3_desp_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "3_talk_2",
@@ -16190,7 +16350,8 @@
         "postSetFlagStr": "3_desp_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "3_talk_3",
@@ -16290,7 +16451,8 @@
         "postSetFlagStr": "",
         "postGoto": "3_talk_yesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "3_talk_yesno",
@@ -16390,7 +16552,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "3_talk_yes",
@@ -16503,7 +16666,8 @@
         "postSetFlagStr": "3_desp_talk_3_yes",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "3_talk_no",
@@ -16616,7 +16780,8 @@
         "postSetFlagStr": "3_desp_talk_3_no",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "3_talk_4",
@@ -16716,7 +16881,8 @@
         "postSetFlagStr": "3_desp_talk_4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "3_talk_5",
@@ -16803,7 +16969,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "4_talk_1",
@@ -16902,7 +17069,8 @@
         "postSetFlagStr": "4_desp_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "4_talk_2",
@@ -17002,7 +17170,8 @@
         "postSetFlagStr": "4_desp_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "4_talk_3",
@@ -17091,7 +17260,8 @@
         "giveScript": [
           "blue_nova"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "4_talk_4",
@@ -17190,7 +17360,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       },
       {
         "name": "coop2talk",
@@ -17277,7 +17448,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110014
       }
     ],
     "rune": 2
@@ -17461,7 +17633,8 @@
         "postSetFlagStr": "oldman_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "talk2",
@@ -17574,7 +17747,8 @@
         "postSetFlagStr": "oldman_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "talk3",
@@ -17700,7 +17874,8 @@
         "postSetFlagStr": "oldman_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "iron_check",
@@ -17852,7 +18027,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "three_check",
@@ -18004,7 +18180,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "cleric_check",
@@ -18156,7 +18333,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "forest_check",
@@ -18308,7 +18486,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "fire_sky_check",
@@ -18460,7 +18639,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "three_confirm",
@@ -18562,7 +18742,8 @@
         "giveScript": [
           "icon_three"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "iron_confirm",
@@ -18665,7 +18846,8 @@
         "giveScript": [
           "icon_iron"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "cleric_confirm",
@@ -18767,7 +18949,8 @@
         "giveScript": [
           "icon_cleric"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "forest_confirm",
@@ -18869,7 +19052,8 @@
         "giveScript": [
           "icon_wood"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "fire_sky_confirm",
@@ -18971,7 +19155,8 @@
         "giveScript": [
           "icon_fire"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "no_creed",
@@ -19116,7 +19301,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "talk4",
@@ -19242,7 +19428,8 @@
         "postSetFlagStr": "oldman_talk_4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "talk5",
@@ -19329,7 +19516,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "talk_not_new",
@@ -19468,7 +19656,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "talk_no_gods",
@@ -19620,7 +19809,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "2_talk_1",
@@ -19732,7 +19922,8 @@
         "postSetFlagStr": "oldman_2_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "2_talk_2",
@@ -19832,7 +20023,8 @@
         "postSetFlagStr": "oldman_2_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "2_talk_3",
@@ -19932,7 +20124,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "coop2talk",
@@ -20019,7 +20212,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "3_talk_1",
@@ -20157,7 +20351,8 @@
         "postSetFlagStr": "oldman_3_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "3_talk_2",
@@ -20283,7 +20478,8 @@
         "postSetFlagStr": "oldman_3_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "3_talk_3",
@@ -20396,7 +20592,8 @@
         "postSetFlagStr": "oldman_3_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "3_talk_4",
@@ -20483,7 +20680,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "4_talk_1",
@@ -20622,7 +20820,8 @@
         "postSetFlagStr": "oldman_4_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "4_talk_2",
@@ -20761,7 +20960,8 @@
         "postSetFlagStr": "oldman_4_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "4_talk_3",
@@ -20887,7 +21087,8 @@
         "postSetFlagStr": "oldman_4_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "4_talk_4",
@@ -21026,7 +21227,8 @@
         "postSetFlagStr": "oldman_4_4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "4_talk_5",
@@ -21139,7 +21341,8 @@
         "postSetFlagStr": "oldman_4_5",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       },
       {
         "name": "4_talk_6",
@@ -21226,7 +21429,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110015
       }
     ],
     "rune": -1
@@ -21319,7 +21523,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110016
       },
       {
         "name": "talk_talk",
@@ -21419,7 +21624,8 @@
         "postSetFlagStr": "smith_woods2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110016
       },
       {
         "name": "buy",
@@ -21511,7 +21717,8 @@
           "hawk_armor",
           "hawk_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110016
       },
       {
         "name": "leave",
@@ -21598,7 +21805,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110016
       },
       {
         "name": "transmute",
@@ -21662,7 +21870,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110016
       },
       {
         "name": "menu",
@@ -21800,7 +22009,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110016
       },
       {
         "name": "upgrade",
@@ -21864,7 +22074,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110016
       },
       {
         "name": "talk_talk2",
@@ -21951,7 +22162,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110016
       },
       {
         "name": "talk_coop",
@@ -22038,7 +22250,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110016
       }
     ],
     "rune": -1
@@ -22131,7 +22344,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110017
       },
       {
         "name": "talk_talk",
@@ -22218,7 +22432,8 @@
         "postSetFlagStr": "mwoods_talk_2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110017
       },
       {
         "name": "menu",
@@ -22356,7 +22571,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110017
       },
       {
         "name": "leave",
@@ -22443,7 +22659,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110017
       },
       {
         "name": "shop",
@@ -22530,7 +22747,8 @@
           "charm_lantern",
           "throw_potato",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110017
       },
       {
         "name": "talk_talk2",
@@ -22630,7 +22848,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110017
       },
       {
         "name": "talk_coop",
@@ -22717,7 +22936,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110017
       },
       {
         "name": "sell",
@@ -22781,7 +23001,8 @@
         "storeScript": [
           "sell",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110017
       }
     ],
     "rune": -1
@@ -22874,7 +23095,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110018
       },
       {
         "name": "menu",
@@ -23031,7 +23253,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110018
       },
       {
         "name": "talk_talk",
@@ -23131,7 +23354,8 @@
         "postSetFlagStr": "magwoods_2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110018
       },
       {
         "name": "leave",
@@ -23218,7 +23442,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110018
       },
       {
         "name": "spells",
@@ -23287,7 +23512,8 @@
           "lakewitch|mag_firestar",
           "griffin|lit_ball",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110018
       },
       {
         "name": "incantations",
@@ -23355,7 +23581,8 @@
           "mag_poison_gas",
           "torturetree|fire_oribts",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110018
       },
       {
         "name": "items",
@@ -23422,7 +23649,8 @@
           "wand_wood",
           "2:wand_stag",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110018
       },
       {
         "name": "talk_talk2",
@@ -23522,7 +23750,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110018
       }
     ],
     "rune": -1
@@ -23615,7 +23844,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110019
       },
       {
         "name": "talk_talk",
@@ -23702,7 +23932,8 @@
         "postSetFlagStr": "smith_i_t2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110019
       },
       {
         "name": "buy",
@@ -23783,7 +24014,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110019
       },
       {
         "name": "leave",
@@ -23870,7 +24102,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110019
       },
       {
         "name": "transmute",
@@ -23934,7 +24167,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110019
       },
       {
         "name": "menu",
@@ -24072,7 +24306,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110019
       },
       {
         "name": "upgrade",
@@ -24136,7 +24371,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110019
       },
       {
         "name": "talk_talk2",
@@ -24249,7 +24485,8 @@
         "postSetFlagStr": "smith_i_t3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110019
       },
       {
         "name": "talk_talk3",
@@ -24401,7 +24638,8 @@
         "postSetFlagStr": "smith_i_t4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110019
       },
       {
         "name": "talk_talk4",
@@ -24488,7 +24726,8 @@
         "postSetFlagStr": "smith_i_t5",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110019
       },
       {
         "name": "talk_talk5",
@@ -24575,7 +24814,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110019
       }
     ],
     "rune": -1
@@ -24668,7 +24908,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110020
       },
       {
         "name": "menu",
@@ -24806,7 +25047,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110020
       },
       {
         "name": "talk_talk",
@@ -24893,7 +25135,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110020
       },
       {
         "name": "leave",
@@ -24980,7 +25223,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110020
       },
       {
         "name": "prayers",
@@ -25056,7 +25300,8 @@
           "alchemist|holy_cleanse",
           "5:holy_blade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110020
       },
       {
         "name": "shop",
@@ -25123,7 +25368,8 @@
           "horn_will",
           "bull|ring_mp_moat",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110020
       },
       {
         "name": "talk_yesno",
@@ -25223,7 +25469,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110020
       },
       {
         "name": "talk_yes",
@@ -25351,7 +25598,8 @@
         "giveScript": [
           "horn_will"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110020
       },
       {
         "name": "talk_no",
@@ -25438,7 +25686,8 @@
         "postSetFlagStr": "priest_i_t2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110020
       },
       {
         "name": "talk_talk2",
@@ -25525,7 +25774,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110020
       }
     ],
     "rune": -1
@@ -25618,7 +25868,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110021
       },
       {
         "name": "menu",
@@ -25775,7 +26026,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110021
       },
       {
         "name": "talk_talk",
@@ -25875,7 +26127,8 @@
         "postSetFlagStr": "mgtalk_2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110021
       },
       {
         "name": "leave",
@@ -25962,7 +26215,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110021
       },
       {
         "name": "spells",
@@ -26031,7 +26285,8 @@
           "lakewitch|mag_firestar",
           "griffin|lit_ball",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110021
       },
       {
         "name": "incantations",
@@ -26101,7 +26356,8 @@
           "mag_vision_buff",
           "torturetree|fire_oribts",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110021
       },
       {
         "name": "items",
@@ -26167,7 +26423,8 @@
           "ring_magic",
           "wand_wood",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110021
       },
       {
         "name": "talk_talk2",
@@ -26254,7 +26511,8 @@
         "postSetFlagStr": "mgtalk_3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110021
       },
       {
         "name": "talk_talk3",
@@ -26354,7 +26612,8 @@
         "postSetFlagStr": "mgtalk_4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110021
       },
       {
         "name": "talk_talk4",
@@ -26441,7 +26700,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110021
       }
     ],
     "rune": -1
@@ -26534,7 +26794,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110022
       },
       {
         "name": "talk_talk",
@@ -26621,7 +26882,8 @@
         "postSetFlagStr": "miron_talk2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110022
       },
       {
         "name": "menu",
@@ -26759,7 +27021,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110022
       },
       {
         "name": "leave",
@@ -26846,7 +27109,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110022
       },
       {
         "name": "shop",
@@ -26935,7 +27199,8 @@
           "4:charm_poise",
           "throw_potato",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110022
       },
       {
         "name": "talk_talk2",
@@ -27022,7 +27287,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110022
       },
       {
         "name": "sell",
@@ -27086,7 +27352,8 @@
         "storeScript": [
           "sell",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110022
       },
       {
         "name": "talk_coop",
@@ -27173,7 +27440,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110022
       }
     ],
     "rune": -1
@@ -27266,7 +27534,8 @@
         "postSetFlagStr": "oldgreg_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk_talk",
@@ -27353,7 +27622,8 @@
         "postSetFlagStr": "gregtalk1",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "menu",
@@ -27472,7 +27742,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "shop",
@@ -27549,7 +27820,8 @@
           "salad_armor",
           "salad_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110023
       },
       {
         "name": "talk2",
@@ -27636,7 +27908,8 @@
         "postSetFlagStr": "oldgreg_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk3",
@@ -27723,7 +27996,8 @@
         "postSetFlagStr": "oldgreg_4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk4",
@@ -27810,7 +28084,8 @@
         "postSetFlagStr": "oldgreg_5",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk5",
@@ -27910,7 +28185,8 @@
         "postSetFlagStr": "",
         "postGoto": "fond",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "fond",
@@ -28010,7 +28286,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "fondyes",
@@ -28110,7 +28387,8 @@
         "postSetFlagStr": "greg_like",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "fondno",
@@ -28197,7 +28475,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk_like",
@@ -28284,7 +28563,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "leave",
@@ -28371,7 +28651,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk_talk1",
@@ -28458,7 +28739,8 @@
         "postSetFlagStr": "gregtalk2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk_talk2",
@@ -28545,7 +28827,8 @@
         "postSetFlagStr": "gregtalk3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk_talk3",
@@ -28632,7 +28915,8 @@
         "postSetFlagStr": "gregtalk4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk_talk4",
@@ -28719,7 +29003,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "coop2talk",
@@ -28806,7 +29091,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "coop2talklike",
@@ -28893,7 +29179,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       },
       {
         "name": "talk_coop",
@@ -28980,7 +29267,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110023
       }
     ],
     "rune": -1
@@ -29099,7 +29387,8 @@
         "postSetFlagStr": "memories_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "talk2",
@@ -29212,7 +29501,8 @@
         "postSetFlagStr": "",
         "postGoto": "yesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "yesno",
@@ -29312,7 +29602,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "harvest",
@@ -29399,7 +29690,8 @@
         "postSetFlagStr": "memories_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "plant",
@@ -29499,7 +29791,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "talk_good",
@@ -29599,7 +29892,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "menu",
@@ -29718,7 +30012,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "talk3",
@@ -29806,7 +30101,8 @@
         "postSetFlagStr": "memories_3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "leave",
@@ -29891,7 +30187,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "shop",
@@ -29964,7 +30261,8 @@
           "red_flame",
           "drowned_spark",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110024
       },
       {
         "name": "talk_talk",
@@ -30064,7 +30362,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "talk_bad",
@@ -30164,7 +30463,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "harvestprove",
@@ -30264,7 +30564,8 @@
         "postSetFlagStr": "",
         "postGoto": "proveyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "proveyesno",
@@ -30364,7 +30665,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "proveno",
@@ -30451,7 +30753,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "coop2talk",
@@ -30551,7 +30854,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "coop2talkgood",
@@ -30638,7 +30942,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       },
       {
         "name": "talk_coop",
@@ -30725,7 +31030,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110024
       }
     ],
     "rune": -1
@@ -30844,7 +31150,8 @@
         "postSetFlagStr": "zen_talk",
         "postGoto": "talk_trinket",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "lookingyesno",
@@ -30944,7 +31251,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "lookingyes",
@@ -31044,7 +31352,8 @@
         "postSetFlagStr": "",
         "postGoto": "lfoundyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "lookingno",
@@ -31157,7 +31466,8 @@
         "postSetFlagStr": "",
         "postGoto": "warfoundyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "waryesno",
@@ -31257,7 +31567,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "waryes",
@@ -31357,7 +31668,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "warno",
@@ -31418,7 +31730,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "warfoundyesno",
@@ -31518,7 +31831,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "warfoundyes",
@@ -31633,7 +31947,8 @@
         "giveScript": [
           "axe_great"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "warfoundno",
@@ -31748,7 +32063,8 @@
         "giveScript": [
           "dagger_jagged"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "lfoundyesno",
@@ -31848,7 +32164,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "lfoundyes",
@@ -31963,7 +32280,8 @@
         "giveScript": [
           "shield_tree"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "lfoundno",
@@ -32068,7 +32386,8 @@
           "white_gloves",
           "white_boots"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk_p_y",
@@ -32167,7 +32486,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk_p_n",
@@ -32266,7 +32586,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk_w_y",
@@ -32365,7 +32686,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk_w_n",
@@ -32464,7 +32786,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk_got",
@@ -32551,7 +32874,8 @@
         "postSetFlagStr": "",
         "postGoto": "lookingyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk_trinket",
@@ -32651,7 +32975,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk_trinketyes",
@@ -32764,7 +33089,8 @@
         "postSetFlagStr": "trinket_yes",
         "postGoto": "talk_got",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk_trinketno",
@@ -32851,7 +33177,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "talk2",
@@ -32938,7 +33265,8 @@
         "postSetFlagStr": "",
         "postGoto": "talk_trinket",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       },
       {
         "name": "coop2talk",
@@ -33038,7 +33366,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110025
       }
     ],
     "rune": -1
@@ -33144,7 +33473,8 @@
         "postSetFlagStr": "chop_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "talk_2",
@@ -33270,7 +33600,8 @@
         "postSetFlagStr": "chop_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "talk_3",
@@ -33396,7 +33727,8 @@
         "postSetFlagStr": "chop_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "talk_4",
@@ -33547,7 +33879,8 @@
         "postSetFlagStr": "chop_talk_4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "talk_5",
@@ -33649,7 +33982,8 @@
         "giveScript": [
           "rune_dash"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "talk_6",
@@ -33749,7 +34083,8 @@
         "postSetFlagStr": "",
         "postGoto": "impyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "2_talk",
@@ -33875,7 +34210,8 @@
         "postSetFlagStr": "2_choppy_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "2_talk_2",
@@ -33975,7 +34311,8 @@
         "postSetFlagStr": "2_choppy_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "2_talk_3",
@@ -34088,7 +34425,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "impyesno",
@@ -34188,7 +34526,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "impyes",
@@ -34275,7 +34614,8 @@
         "postSetFlagStr": "choppy_prison_yes",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "impno",
@@ -34362,7 +34702,8 @@
         "postSetFlagStr": "choppy_prison_no",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "imp_yes_2",
@@ -34449,7 +34790,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "imp_no_2",
@@ -34536,7 +34878,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "coop2talk",
@@ -34623,7 +34966,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "3_talk",
@@ -34788,7 +35132,8 @@
         "postSetFlagStr": "3_choppy_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "3_talk_2",
@@ -34927,7 +35272,8 @@
         "postSetFlagStr": "3_choppy_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "3_talk_3",
@@ -35040,7 +35386,8 @@
         "postSetFlagStr": "3_choppy_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "3_talk_4",
@@ -35129,7 +35476,8 @@
         "giveScript": [
           "red_nova"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       },
       {
         "name": "3_talk_5",
@@ -35216,7 +35564,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110026
       }
     ],
     "rune": 1
@@ -35309,7 +35658,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110027
       },
       {
         "name": "talk_talk",
@@ -35396,7 +35746,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110027
       },
       {
         "name": "buy",
@@ -35468,7 +35819,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110027
       },
       {
         "name": "leave",
@@ -35555,7 +35907,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110027
       },
       {
         "name": "transmute",
@@ -35619,7 +35972,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110027
       },
       {
         "name": "menu",
@@ -35738,7 +36092,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110027
       },
       {
         "name": "upgrade",
@@ -35802,7 +36157,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110027
       }
     ],
     "rune": -1
@@ -35895,7 +36251,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110028
       },
       {
         "name": "talk_talk",
@@ -35982,7 +36339,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110028
       },
       {
         "name": "menu",
@@ -36120,7 +36478,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110028
       },
       {
         "name": "leave",
@@ -36205,7 +36564,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110028
       },
       {
         "name": "fasttravel",
@@ -36269,7 +36629,8 @@
         "storeScript": [
           "fasttravel",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110028
       },
       {
         "name": "shop",
@@ -36333,7 +36694,8 @@
         "storeScript": [
           "horn_guide",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110028
       }
     ],
     "rune": -1
@@ -36426,7 +36788,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110029
       },
       {
         "name": "strange_talk",
@@ -36513,7 +36876,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110029
       },
       {
         "name": "menu",
@@ -36632,7 +36996,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110029
       },
       {
         "name": "talk_talk",
@@ -36732,7 +37097,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110029
       },
       {
         "name": "work",
@@ -36802,7 +37168,8 @@
           "dice_eyeball/3 1",
           "dice_bandages/3 1",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110029
       },
       {
         "name": "leave",
@@ -36889,7 +37256,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110029
       }
     ],
     "rune": -1
@@ -36982,7 +37350,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110030
       },
       {
         "name": "talk_talk",
@@ -37082,7 +37451,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110030
       },
       {
         "name": "buy",
@@ -37154,7 +37524,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110030
       },
       {
         "name": "leave",
@@ -37241,7 +37612,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110030
       },
       {
         "name": "transmute",
@@ -37305,7 +37677,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110030
       },
       {
         "name": "menu",
@@ -37424,7 +37797,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110030
       },
       {
         "name": "upgrade",
@@ -37488,7 +37862,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110030
       }
     ],
     "rune": -1
@@ -37581,7 +37956,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110031
       },
       {
         "name": "talk_talk",
@@ -37681,7 +38057,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110031
       },
       {
         "name": "buy",
@@ -37753,7 +38130,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110031
       },
       {
         "name": "leave",
@@ -37838,7 +38216,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110031
       },
       {
         "name": "transmute",
@@ -37904,7 +38283,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110031
       },
       {
         "name": "menu",
@@ -38023,7 +38403,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110031
       },
       {
         "name": "upgrade",
@@ -38087,7 +38468,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110031
       }
     ],
     "rune": -1
@@ -38180,7 +38562,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110032
       },
       {
         "name": "talk_talk",
@@ -38293,7 +38676,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110032
       },
       {
         "name": "buy",
@@ -38365,7 +38749,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110032
       },
       {
         "name": "leave",
@@ -38452,7 +38837,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110032
       },
       {
         "name": "transmute",
@@ -38516,7 +38902,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110032
       },
       {
         "name": "menu",
@@ -38635,7 +39022,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110032
       },
       {
         "name": "upgrade",
@@ -38699,7 +39087,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110032
       }
     ],
     "rune": -1
@@ -38792,7 +39181,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "talk_talk",
@@ -38879,7 +39269,8 @@
         "postSetFlagStr": "woods_alc_talk1",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "buy",
@@ -38951,7 +39342,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110033
       },
       {
         "name": "leave",
@@ -39038,7 +39430,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "transmute",
@@ -39102,7 +39495,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110033
       },
       {
         "name": "menu",
@@ -39221,7 +39615,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "upgrade",
@@ -39285,7 +39680,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110033
       },
       {
         "name": "strange_talk",
@@ -39437,7 +39833,8 @@
         "postSetFlagStr": "chemist_str1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "woodmeetyes",
@@ -39564,7 +39961,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "woodmeetno",
@@ -39678,7 +40076,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "strange_talk2",
@@ -39806,7 +40205,8 @@
         "postSetFlagStr": "chemist_str2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "strange_talk3",
@@ -39919,7 +40319,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "talk_talk2",
@@ -40059,7 +40460,8 @@
         "postSetFlagStr": "woods_alc_talk2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       },
       {
         "name": "talk_talk3",
@@ -40146,7 +40548,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110033
       }
     ],
     "rune": -1
@@ -40239,7 +40642,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110034
       },
       {
         "name": "talk_talk",
@@ -40326,7 +40730,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110034
       },
       {
         "name": "menu",
@@ -40464,7 +40869,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110034
       },
       {
         "name": "leave",
@@ -40551,7 +40957,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110034
       },
       {
         "name": "fasttravel",
@@ -40615,7 +41022,8 @@
         "storeScript": [
           "fasttravel",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110034
       },
       {
         "name": "shop",
@@ -40679,7 +41087,8 @@
         "storeScript": [
           "horn_guide",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110034
       }
     ],
     "rune": -1
@@ -40772,7 +41181,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110035
       },
       {
         "name": "talk_talk",
@@ -40859,7 +41269,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110035
       },
       {
         "name": "menu",
@@ -40997,7 +41408,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110035
       },
       {
         "name": "leave",
@@ -41084,7 +41496,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110035
       },
       {
         "name": "fasttravel",
@@ -41148,7 +41561,8 @@
         "storeScript": [
           "fasttravel",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110035
       },
       {
         "name": "shop",
@@ -41212,7 +41626,8 @@
         "storeScript": [
           "horn_guide",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110035
       }
     ],
     "rune": -1
@@ -41305,7 +41720,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110036
       },
       {
         "name": "talk_talk",
@@ -41392,7 +41808,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110036
       },
       {
         "name": "menu",
@@ -41530,7 +41947,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110036
       },
       {
         "name": "leave",
@@ -41617,7 +42035,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110036
       },
       {
         "name": "fasttravel",
@@ -41681,7 +42100,8 @@
         "storeScript": [
           "fasttravel",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110036
       },
       {
         "name": "shop",
@@ -41745,7 +42165,8 @@
         "storeScript": [
           "horn_guide",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110036
       }
     ],
     "rune": -1
@@ -41838,7 +42259,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110037
       },
       {
         "name": "talk_talk",
@@ -41925,7 +42347,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110037
       },
       {
         "name": "menu",
@@ -42063,7 +42486,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110037
       },
       {
         "name": "leave",
@@ -42150,7 +42574,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110037
       },
       {
         "name": "fasttravel",
@@ -42214,7 +42639,8 @@
         "storeScript": [
           "fasttravel",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110037
       },
       {
         "name": "shop",
@@ -42278,7 +42704,8 @@
         "storeScript": [
           "horn_guide",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110037
       }
     ],
     "rune": -1
@@ -42371,7 +42798,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110038
       },
       {
         "name": "strange_talk",
@@ -42458,7 +42886,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110038
       },
       {
         "name": "menu",
@@ -42577,7 +43006,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110038
       },
       {
         "name": "talk_talk",
@@ -42677,7 +43107,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110038
       },
       {
         "name": "work",
@@ -42747,7 +43178,8 @@
           "dice_skeleton/3 1",
           "dice_crab/1 1",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110038
       },
       {
         "name": "leave",
@@ -42834,7 +43266,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110038
       }
     ],
     "rune": -1
@@ -42927,7 +43360,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110039
       },
       {
         "name": "strange_talk",
@@ -43026,7 +43460,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110039
       },
       {
         "name": "menu",
@@ -43145,7 +43580,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110039
       },
       {
         "name": "talk_talk",
@@ -43233,7 +43669,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110039
       },
       {
         "name": "work",
@@ -43303,7 +43740,8 @@
           "dice_greenspider/3 1",
           "dice_lich/3 1",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110039
       },
       {
         "name": "leave",
@@ -43390,7 +43828,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110039
       }
     ],
     "rune": -1
@@ -43483,7 +43922,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110040
       },
       {
         "name": "talk_talk",
@@ -43583,7 +44023,8 @@
         "postSetFlagStr": "smithfire_talk2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110040
       },
       {
         "name": "buy",
@@ -43660,7 +44101,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110040
       },
       {
         "name": "leave",
@@ -43747,7 +44189,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110040
       },
       {
         "name": "transmute",
@@ -43811,7 +44254,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110040
       },
       {
         "name": "menu",
@@ -43949,7 +44393,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110040
       },
       {
         "name": "upgrade",
@@ -44013,7 +44458,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110040
       },
       {
         "name": "talk_talk2",
@@ -44126,7 +44572,8 @@
         "postSetFlagStr": "smithfire_talk3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110040
       },
       {
         "name": "talk_talk3",
@@ -44213,7 +44660,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110040
       },
       {
         "name": "talk_coop",
@@ -44300,7 +44748,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110040
       }
     ],
     "rune": -1
@@ -44393,7 +44842,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110041
       },
       {
         "name": "strange_talk",
@@ -44480,7 +44930,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110041
       },
       {
         "name": "menu",
@@ -44599,7 +45050,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110041
       },
       {
         "name": "talk_talk",
@@ -44699,7 +45151,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110041
       },
       {
         "name": "work",
@@ -44769,7 +45222,8 @@
           "dice_split/3 1",
           "dice_angler/3 1",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110041
       },
       {
         "name": "leave",
@@ -44856,7 +45310,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110041
       }
     ],
     "rune": -1
@@ -44949,7 +45404,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110042
       },
       {
         "name": "strange_talk",
@@ -45036,7 +45492,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110042
       },
       {
         "name": "menu",
@@ -45155,7 +45612,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110042
       },
       {
         "name": "talk_talk",
@@ -45255,7 +45713,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110042
       },
       {
         "name": "work",
@@ -45325,7 +45784,8 @@
           "dice_arms/3 1",
           "dice_eyescorpion/3 1",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110042
       },
       {
         "name": "leave",
@@ -45412,7 +45872,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110042
       }
     ],
     "rune": -1
@@ -45505,7 +45966,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110043
       },
       {
         "name": "talk_talk",
@@ -45592,7 +46054,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110043
       },
       {
         "name": "menu",
@@ -45730,7 +46193,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110043
       },
       {
         "name": "leave",
@@ -45817,7 +46281,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110043
       },
       {
         "name": "hire",
@@ -45881,7 +46346,8 @@
         "storeScript": [
           "hire",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110043
       },
       {
         "name": "cooptalk",
@@ -45968,7 +46434,8 @@
         "postSetFlagStr": "",
         "postGoto": "coopmenu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110043
       },
       {
         "name": "coop2talk",
@@ -46055,7 +46522,8 @@
         "postSetFlagStr": "",
         "postGoto": "coopmenu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110043
       },
       {
         "name": "shop",
@@ -46119,7 +46587,8 @@
         "storeScript": [
           "egg_wrath",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110043
       },
       {
         "name": "coopmenu",
@@ -46238,7 +46707,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110043
       },
       {
         "name": "coopshop",
@@ -46302,7 +46772,8 @@
         "storeScript": [
           "egg_wrath",
           "returnlevel coopmenu"
-        ]
+        ],
+        "id": 110043
       }
     ],
     "rune": -1
@@ -46395,7 +46866,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110044
       },
       {
         "name": "menu",
@@ -46495,7 +46967,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110044
       },
       {
         "name": "leave",
@@ -46582,7 +47055,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110044
       },
       {
         "name": "shop",
@@ -46741,7 +47215,8 @@
           "samurai_boots",
           "samurai_gloves",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110044
       }
     ],
     "rune": -1
@@ -46847,7 +47322,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110045
       }
     ],
     "rune": -1
@@ -46979,7 +47455,8 @@
         "postSetFlagStr": "",
         "postGoto": "kneelyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "kneelyesno",
@@ -47079,7 +47556,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "kneelyes",
@@ -47218,7 +47696,8 @@
         "postSetFlagStr": "scare_talk2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "kneelno",
@@ -47357,7 +47836,8 @@
         "postSetFlagStr": "scare_talk2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "talk2",
@@ -47444,7 +47924,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "2_talk",
@@ -47544,7 +48025,8 @@
         "postSetFlagStr": "",
         "postGoto": "2_joinyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "2_joinyesno",
@@ -47644,7 +48126,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "2_joinyes",
@@ -47809,7 +48292,8 @@
         "postSetFlagStr": "scare_talk3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "2_joinno",
@@ -47935,7 +48419,8 @@
         "postSetFlagStr": "scare_talk3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "3_talk",
@@ -48022,7 +48507,8 @@
         "postSetFlagStr": "",
         "postGoto": "3_doneyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "3_doneyesno",
@@ -48122,7 +48608,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "3_doneyes",
@@ -48261,7 +48748,8 @@
         "postSetFlagStr": "scare_talk4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "3_doneno",
@@ -48387,7 +48875,8 @@
         "postSetFlagStr": "scare_talk4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "coop2talk",
@@ -48474,7 +48963,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "4_talk",
@@ -48626,7 +49116,8 @@
         "postSetFlagStr": "",
         "postGoto": "4_fleeyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "4_fleeyesno",
@@ -48726,7 +49217,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "4_talk_survive",
@@ -48865,7 +49357,8 @@
         "postSetFlagStr": "scare_talk5",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "4_talk_rule",
@@ -49030,7 +49523,8 @@
         "postSetFlagStr": "scare_talk5",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "5_talk",
@@ -49156,7 +49650,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "5_helmno",
@@ -49217,7 +49712,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110046
       },
       {
         "name": "5_helmyes",
@@ -49280,7 +49776,8 @@
         "giveScript": null,
         "storeScript": [
           "takehelm"
-        ]
+        ],
+        "id": 110046
       }
     ],
     "rune": -1
@@ -49414,7 +49911,8 @@
         "giveScript": null,
         "storeScript": [
           "captainstabbed"
-        ]
+        ],
+        "id": 110047
       },
       {
         "name": "talk2",
@@ -49501,7 +49999,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110047
       }
     ],
     "rune": -1
@@ -49607,7 +50106,8 @@
         "postSetFlagStr": "",
         "postGoto": "yesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110048
       },
       {
         "name": "yesno",
@@ -49707,7 +50207,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110048
       },
       {
         "name": "travelyes",
@@ -49796,7 +50297,8 @@
         "giveScript": null,
         "storeScript": [
           "saileast"
-        ]
+        ],
+        "id": 110048
       },
       {
         "name": "travelno",
@@ -49883,7 +50385,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110048
       },
       {
         "name": "coop2talk",
@@ -49970,7 +50473,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110048
       }
     ],
     "rune": -1
@@ -50076,7 +50580,8 @@
         "postSetFlagStr": "",
         "postGoto": "yesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110049
       },
       {
         "name": "yesno",
@@ -50176,7 +50681,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110049
       },
       {
         "name": "travelyes",
@@ -50265,7 +50771,8 @@
         "giveScript": null,
         "storeScript": [
           "sailwest"
-        ]
+        ],
+        "id": 110049
       },
       {
         "name": "travelno",
@@ -50352,7 +50859,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110049
       },
       {
         "name": "coop2talk",
@@ -50439,7 +50947,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110049
       }
     ],
     "rune": -1
@@ -50571,7 +51080,8 @@
         "postSetFlagStr": "",
         "postGoto": "lightyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "lightyesno",
@@ -50671,7 +51181,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "lightyes",
@@ -50797,7 +51308,8 @@
         "postSetFlagStr": "",
         "postGoto": "helpyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "lightno",
@@ -50935,7 +51447,8 @@
         "postSetFlagStr": "",
         "postGoto": "helpyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "helpyesno",
@@ -51035,7 +51548,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "helpyes",
@@ -51150,7 +51664,8 @@
         "giveScript": [
           "rune_blue_ether"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "helpno",
@@ -51250,7 +51765,8 @@
         "postSetFlagStr": "",
         "postGoto": "helpyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "talk2",
@@ -51363,7 +51879,8 @@
         "postSetFlagStr": "dome_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "talk3",
@@ -51450,7 +51967,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "coop2talk",
@@ -51537,7 +52055,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "2_talk",
@@ -51667,7 +52186,8 @@
           "bluering_helm",
           "bluering_gloves"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       },
       {
         "name": "2_talk2",
@@ -51754,7 +52274,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110050
       }
     ],
     "rune": 5
@@ -51873,7 +52394,8 @@
         "postSetFlagStr": "",
         "postGoto": "talkyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "talkyesno",
@@ -51973,7 +52495,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "talkyes",
@@ -52139,7 +52662,8 @@
         "postSetFlagStr": "",
         "postGoto": "readyyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "talkno",
@@ -52291,7 +52815,8 @@
         "postSetFlagStr": "",
         "postGoto": "readyyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "readyyesno",
@@ -52391,7 +52916,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "readyyes",
@@ -52480,7 +53006,8 @@
         "giveScript": [
           "rune_red_block"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "readyno",
@@ -52593,7 +53120,8 @@
         "postSetFlagStr": "",
         "postGoto": "readyyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "talk2",
@@ -52680,7 +53208,8 @@
         "postSetFlagStr": "swamp_talk_2",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "coop2talk",
@@ -52767,7 +53296,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "talk3",
@@ -52880,7 +53410,8 @@
         "postSetFlagStr": "swamp_talk_3",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "talk4",
@@ -52993,7 +53524,8 @@
         "postSetFlagStr": "swamp_talk_4",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "talk5",
@@ -53093,7 +53625,8 @@
         "postSetFlagStr": "swamp_talk_5",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       },
       {
         "name": "talk6",
@@ -53180,7 +53713,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110051
       }
     ],
     "rune": 4
@@ -53299,7 +53833,8 @@
         "postSetFlagStr": "treelady_talk_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110052
       },
       {
         "name": "talk2",
@@ -53399,7 +53934,8 @@
         "postSetFlagStr": "treelady_talk_2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110052
       },
       {
         "name": "talk3",
@@ -53486,7 +54022,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110052
       },
       {
         "name": "menu",
@@ -53643,7 +54180,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110052
       },
       {
         "name": "talk_talk",
@@ -53730,7 +54268,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110052
       },
       {
         "name": "leave",
@@ -53817,7 +54356,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110052
       },
       {
         "name": "buy",
@@ -53883,7 +54423,8 @@
           "whitedress_helm",
           "whitedress_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110052
       },
       {
         "name": "coop2talk",
@@ -53970,7 +54511,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110052
       },
       {
         "name": "cleanse",
@@ -54034,7 +54576,8 @@
         "storeScript": [
           "cleanse",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110052
       },
       {
         "name": "forgivesin",
@@ -54098,7 +54641,8 @@
         "storeScript": [
           "forgivesin",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110052
       }
     ],
     "rune": -1
@@ -54191,7 +54735,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110053
       },
       {
         "name": "menu",
@@ -54329,7 +54874,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110053
       },
       {
         "name": "talk_talk",
@@ -54429,7 +54975,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110053
       },
       {
         "name": "leave",
@@ -54516,7 +55063,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110053
       },
       {
         "name": "prayers",
@@ -54592,7 +55140,8 @@
           "monsterwitch|holy_orbits",
           "5:holy_blade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110053
       },
       {
         "name": "shop",
@@ -54659,7 +55208,8 @@
           "5:dagger_white",
           "bull|ring_mp_moat",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110053
       }
     ],
     "rune": -1
@@ -54752,7 +55302,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "menu",
@@ -54909,7 +55460,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "talk_talk",
@@ -55035,7 +55587,8 @@
         "postSetFlagStr": "mage_fire_talk_1",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "leave",
@@ -55122,7 +55675,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "spells",
@@ -55196,7 +55750,8 @@
           "lakewitch|mag_firestar",
           "griffin|lit_ball",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110054
       },
       {
         "name": "incantations",
@@ -55267,7 +55822,8 @@
           "mag_vision_buff",
           "torturetree|fire_oribts",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110054
       },
       {
         "name": "items",
@@ -55335,7 +55891,8 @@
           "2:ring_fire_dmg",
           "wand_wood",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110054
       },
       {
         "name": "talk_talk2",
@@ -55463,7 +56020,8 @@
         "postSetFlagStr": "mage_fire_talk_2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "talk_talk3",
@@ -55550,7 +56108,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "strange_talk",
@@ -55676,7 +56235,8 @@
         "postSetFlagStr": "mage_fire_strange_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "apostate_talk",
@@ -55763,7 +56323,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "strange_talk2",
@@ -55850,7 +56411,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       },
       {
         "name": "talk_coop",
@@ -55937,7 +56499,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110054
       }
     ],
     "rune": -1
@@ -56030,7 +56593,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       },
       {
         "name": "talk_talk",
@@ -56130,7 +56694,8 @@
         "postSetFlagStr": "mdark_talk2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       },
       {
         "name": "menu",
@@ -56268,7 +56833,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       },
       {
         "name": "leave",
@@ -56355,7 +56921,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       },
       {
         "name": "shop",
@@ -56446,7 +57013,8 @@
           "charm_lantern",
           "throw_potato",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110055
       },
       {
         "name": "talk_talk2",
@@ -56546,7 +57114,8 @@
         "postSetFlagStr": "mdark_talk3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       },
       {
         "name": "talk_talk3",
@@ -56659,7 +57228,8 @@
         "postSetFlagStr": "mdark_talk4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       },
       {
         "name": "talk_talk4",
@@ -56759,7 +57329,8 @@
         "postSetFlagStr": "mdark_talk5",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       },
       {
         "name": "talk_talk5",
@@ -56846,7 +57417,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       },
       {
         "name": "sell",
@@ -56910,7 +57482,8 @@
         "storeScript": [
           "sell",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110055
       },
       {
         "name": "talk_coop",
@@ -56997,7 +57570,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110055
       }
     ],
     "rune": -1
@@ -57090,7 +57664,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "talk_talk",
@@ -57177,7 +57752,8 @@
         "postSetFlagStr": "dark_smith_talk1",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "buy",
@@ -57265,7 +57841,8 @@
           "3:knight_boots",
           "3:knight_gloves",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110056
       },
       {
         "name": "leave",
@@ -57352,7 +57929,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "transmute",
@@ -57416,7 +57994,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110056
       },
       {
         "name": "menu",
@@ -57554,7 +58133,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "upgrade",
@@ -57618,7 +58198,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110056
       },
       {
         "name": "strange_talk",
@@ -57705,7 +58286,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "apostate_talk",
@@ -57792,7 +58374,8 @@
         "postSetFlagStr": "smith_dark_apos1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "apostate_talk2",
@@ -57879,7 +58462,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "talk_talk2",
@@ -57979,7 +58563,8 @@
         "postSetFlagStr": "dark_smith_talk2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "talk_talk3",
@@ -58066,7 +58651,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       },
       {
         "name": "talk_coop",
@@ -58153,7 +58739,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110056
       }
     ],
     "rune": -1
@@ -58246,7 +58833,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110057
       },
       {
         "name": "menu",
@@ -58384,7 +58972,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110057
       },
       {
         "name": "talk_talk",
@@ -58484,7 +59073,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110057
       },
       {
         "name": "leave",
@@ -58571,7 +59161,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110057
       },
       {
         "name": "prayers",
@@ -58645,7 +59236,8 @@
           "alchemist|holy_cleanse",
           "5:holy_blade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110057
       },
       {
         "name": "shop",
@@ -58712,7 +59304,8 @@
           "bull|ring_mp_moat",
           "monsterwitch|holy_orbits",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110057
       }
     ],
     "rune": -1
@@ -58805,7 +59398,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       },
       {
         "name": "menu",
@@ -58962,7 +59556,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       },
       {
         "name": "talk_talk",
@@ -59062,7 +59657,8 @@
         "postSetFlagStr": "mage_dark_talk_1",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       },
       {
         "name": "leave",
@@ -59149,7 +59745,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       },
       {
         "name": "spells",
@@ -59226,7 +59823,8 @@
           "lakewitch|mag_firestar",
           "griffin|lit_ball",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110058
       },
       {
         "name": "incantations",
@@ -59298,7 +59896,8 @@
           "torturetree|fire_oribts",
           "mag_dark_witch",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110058
       },
       {
         "name": "items",
@@ -59364,7 +59963,8 @@
           "ring_magic",
           "wand_wood",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110058
       },
       {
         "name": "talk_talk2",
@@ -59477,7 +60077,8 @@
         "postSetFlagStr": "mage_dark_talk_2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       },
       {
         "name": "talk_talk3",
@@ -59577,7 +60178,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       },
       {
         "name": "strange_talk",
@@ -59702,7 +60304,8 @@
         "postSetFlagStr": "mage_dark_strange_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       },
       {
         "name": "apostate_talk",
@@ -59789,7 +60392,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       },
       {
         "name": "strange_talk2",
@@ -59876,7 +60480,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110058
       }
     ],
     "rune": -1
@@ -59969,7 +60574,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110059
       },
       {
         "name": "talk_talk",
@@ -60070,7 +60676,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110059
       },
       {
         "name": "menu",
@@ -60208,7 +60815,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110059
       },
       {
         "name": "leave",
@@ -60295,7 +60903,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110059
       },
       {
         "name": "fasttravel",
@@ -60359,7 +60968,8 @@
         "storeScript": [
           "fasttravel",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110059
       },
       {
         "name": "shop",
@@ -60423,7 +61033,8 @@
         "storeScript": [
           "horn_guide",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110059
       }
     ],
     "rune": -1
@@ -60516,7 +61127,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110060
       },
       {
         "name": "talk_talk",
@@ -60603,7 +61215,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110060
       },
       {
         "name": "buy",
@@ -60675,7 +61288,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110060
       },
       {
         "name": "leave",
@@ -60762,7 +61376,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110060
       },
       {
         "name": "transmute",
@@ -60826,7 +61441,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110060
       },
       {
         "name": "menu",
@@ -60945,7 +61561,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110060
       },
       {
         "name": "upgrade",
@@ -61009,7 +61626,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110060
       }
     ],
     "rune": -1
@@ -61102,7 +61720,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       },
       {
         "name": "talk_talk",
@@ -61202,7 +61821,8 @@
         "postSetFlagStr": "msplend_talk2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       },
       {
         "name": "menu",
@@ -61340,7 +61960,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       },
       {
         "name": "leave",
@@ -61427,7 +62048,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       },
       {
         "name": "shop",
@@ -61514,7 +62136,8 @@
           "charm_lantern",
           "throw_potato",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110061
       },
       {
         "name": "talk_talk2",
@@ -61627,7 +62250,8 @@
         "postSetFlagStr": "msplend_talk3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       },
       {
         "name": "talk_talk3",
@@ -61740,7 +62364,8 @@
         "postSetFlagStr": "msplend_talk4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       },
       {
         "name": "talk_talk4",
@@ -61853,7 +62478,8 @@
         "postSetFlagStr": "msplend_talk5",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       },
       {
         "name": "talk_talk5",
@@ -61940,7 +62566,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       },
       {
         "name": "sell",
@@ -62004,7 +62631,8 @@
         "storeScript": [
           "sell",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110061
       },
       {
         "name": "talk_coop",
@@ -62091,7 +62719,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110061
       }
     ],
     "rune": -1
@@ -62184,7 +62813,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110062
       },
       {
         "name": "talk_talk",
@@ -62271,7 +62901,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110062
       },
       {
         "name": "buy",
@@ -62361,7 +62992,8 @@
           "7:heavygold_gloves",
           "7:heavygold_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110062
       },
       {
         "name": "leave",
@@ -62448,7 +63080,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110062
       },
       {
         "name": "transmute",
@@ -62512,7 +63145,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110062
       },
       {
         "name": "menu",
@@ -62650,7 +63284,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110062
       },
       {
         "name": "upgrade",
@@ -62714,7 +63349,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110062
       },
       {
         "name": "strange_talk",
@@ -62801,7 +63437,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110062
       },
       {
         "name": "apostate_talk",
@@ -62901,7 +63538,8 @@
         "postSetFlagStr": "smith_splend_apos1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110062
       },
       {
         "name": "apostate_talk2",
@@ -62988,7 +63626,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110062
       }
     ],
     "rune": -1
@@ -63081,7 +63720,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110063
       },
       {
         "name": "menu",
@@ -63219,7 +63859,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110063
       },
       {
         "name": "talk_talk",
@@ -63319,7 +63960,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110063
       },
       {
         "name": "leave",
@@ -63406,7 +64048,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110063
       },
       {
         "name": "prayers",
@@ -63481,7 +64124,8 @@
           "alchemist|holy_cleanse",
           "5:holy_blade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110063
       },
       {
         "name": "shop",
@@ -63548,7 +64192,8 @@
           "bull|ring_mp_moat",
           "monsterwitch|holy_orbits",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110063
       }
     ],
     "rune": -1
@@ -63641,7 +64286,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "menu",
@@ -63798,7 +64444,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "talk_talk",
@@ -63885,7 +64532,8 @@
         "postSetFlagStr": "mage_splendor_talk_1",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "leave",
@@ -63972,7 +64620,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "spells",
@@ -64046,7 +64695,8 @@
           "lakewitch|mag_firestar",
           "griffin|lit_ball",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110064
       },
       {
         "name": "incantations",
@@ -64117,7 +64767,8 @@
           "mag_vision_buff",
           "torturetree|fire_oribts",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110064
       },
       {
         "name": "items",
@@ -64183,7 +64834,8 @@
           "ring_magic",
           "wand_wood",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110064
       },
       {
         "name": "talk_talk2",
@@ -64296,7 +64948,8 @@
         "postSetFlagStr": "mage_splendor_talk_2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "talk_talk3",
@@ -64383,7 +65036,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "strange_talk",
@@ -64470,7 +65124,8 @@
         "postSetFlagStr": "mage_splendor_strange_1",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "apostate_talk",
@@ -64557,7 +65212,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "strange_talk2",
@@ -64644,7 +65300,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       },
       {
         "name": "talk_coop",
@@ -64731,7 +65388,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110064
       }
     ],
     "rune": -1
@@ -64824,7 +65482,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110065
       },
       {
         "name": "talk_talk",
@@ -64911,7 +65570,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110065
       },
       {
         "name": "menu",
@@ -65049,7 +65709,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110065
       },
       {
         "name": "leave",
@@ -65136,7 +65797,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110065
       },
       {
         "name": "fasttravel",
@@ -65200,7 +65862,8 @@
         "storeScript": [
           "fasttravel",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110065
       },
       {
         "name": "shop",
@@ -65264,7 +65927,8 @@
         "storeScript": [
           "horn_guide",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110065
       }
     ],
     "rune": -1
@@ -65357,7 +66021,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110066
       },
       {
         "name": "talk_talk",
@@ -65457,7 +66122,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110066
       },
       {
         "name": "buy",
@@ -65529,7 +66195,8 @@
           "tunic_armor",
           "tunic_boots",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110066
       },
       {
         "name": "leave",
@@ -65616,7 +66283,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110066
       },
       {
         "name": "transmute",
@@ -65680,7 +66348,8 @@
         "storeScript": [
           "transmute",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110066
       },
       {
         "name": "menu",
@@ -65799,7 +66468,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110066
       },
       {
         "name": "upgrade",
@@ -65863,7 +66533,8 @@
         "storeScript": [
           "upgrade",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110066
       }
     ],
     "rune": -1
@@ -65956,7 +66627,8 @@
         "postSetFlagStr": "",
         "postGoto": "markyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "markyesno",
@@ -66056,7 +66728,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "markno",
@@ -66143,7 +66816,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "markyes",
@@ -66282,7 +66956,8 @@
         "postSetFlagStr": "",
         "postGoto": "joinyesno",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "joinyesno",
@@ -66382,7 +67057,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "joinyes",
@@ -66484,7 +67160,8 @@
         "giveScript": [
           "icon_dark"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "joinno",
@@ -66571,7 +67248,8 @@
         "postSetFlagStr": "dark_talk_bad",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "joinyes2",
@@ -66660,7 +67338,8 @@
         "giveScript": [
           "key_bones"
         ],
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "joinyes3",
@@ -66760,7 +67439,8 @@
         "postSetFlagStr": "dark_talk_good",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "talkgood",
@@ -66847,7 +67527,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "talkbad",
@@ -66934,7 +67615,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "coop2talk",
@@ -67021,7 +67703,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       },
       {
         "name": "coop2talkgood",
@@ -67108,7 +67791,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110067
       }
     ],
     "rune": -1
@@ -67201,7 +67885,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110068
       },
       {
         "name": "strange_talk",
@@ -67288,7 +67973,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110068
       },
       {
         "name": "menu",
@@ -67407,7 +68093,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110068
       },
       {
         "name": "talk_talk",
@@ -67507,7 +68194,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110068
       },
       {
         "name": "work",
@@ -67577,7 +68265,8 @@
           "expunged_heart/2 1",
           "expunged_heart/3 1",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110068
       },
       {
         "name": "leave",
@@ -67664,7 +68353,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110068
       }
     ],
     "rune": -1
@@ -67757,7 +68447,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110069
       },
       {
         "name": "talk_talk",
@@ -67857,7 +68548,8 @@
         "postSetFlagStr": "guide_three_talk_1",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110069
       },
       {
         "name": "menu",
@@ -67995,7 +68687,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110069
       },
       {
         "name": "leave",
@@ -68082,7 +68775,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110069
       },
       {
         "name": "fasttravel",
@@ -68146,7 +68840,8 @@
         "storeScript": [
           "fasttravel",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110069
       },
       {
         "name": "shop",
@@ -68210,7 +68905,8 @@
         "storeScript": [
           "horn_guide",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110069
       },
       {
         "name": "talk_talk2",
@@ -68310,7 +69006,8 @@
         "postSetFlagStr": "guide_three_talk_2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110069
       },
       {
         "name": "talk_talk3",
@@ -68410,7 +69107,8 @@
         "postSetFlagStr": "guide_three_talk_3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110069
       },
       {
         "name": "talk_talk4",
@@ -68497,7 +69195,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110069
       }
     ],
     "rune": -1
@@ -68590,7 +69289,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110070
       },
       {
         "name": "menu",
@@ -68728,7 +69428,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110070
       },
       {
         "name": "talk_talk",
@@ -68854,7 +69555,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110070
       },
       {
         "name": "leave",
@@ -68941,7 +69643,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110070
       },
       {
         "name": "prayers",
@@ -69016,7 +69719,8 @@
           "fauxjester|holy_revive",
           "alchemist|holy_cleanse",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110070
       },
       {
         "name": "shop",
@@ -69082,7 +69786,8 @@
           "buff_holy",
           "bull|ring_mp_moat",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110070
       }
     ],
     "rune": -1
@@ -69175,7 +69880,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110071
       },
       {
         "name": "talk_talk",
@@ -69275,7 +69981,8 @@
         "postSetFlagStr": "merchant_fire2",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110071
       },
       {
         "name": "menu",
@@ -69413,7 +70120,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110071
       },
       {
         "name": "leave",
@@ -69500,7 +70208,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110071
       },
       {
         "name": "shop",
@@ -69586,7 +70295,8 @@
           "charm_lantern",
           "throw_potato",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110071
       },
       {
         "name": "talk_talk2",
@@ -69686,7 +70396,8 @@
         "postSetFlagStr": "merchant_fire3",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110071
       },
       {
         "name": "talk_talk3",
@@ -69773,7 +70484,8 @@
         "postSetFlagStr": "merchant_fire4",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110071
       },
       {
         "name": "talk_talk4",
@@ -69860,7 +70572,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110071
       },
       {
         "name": "sell",
@@ -69924,7 +70637,8 @@
         "storeScript": [
           "sell",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110071
       },
       {
         "name": "talk_coop",
@@ -70011,7 +70725,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110071
       }
     ],
     "rune": -1
@@ -70104,7 +70819,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110072
       },
       {
         "name": "talk_talk",
@@ -70191,7 +70907,8 @@
         "postSetFlagStr": "",
         "postGoto": "menu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110072
       },
       {
         "name": "menu",
@@ -70331,7 +71048,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110072
       },
       {
         "name": "leave",
@@ -70418,7 +71136,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110072
       },
       {
         "name": "hire",
@@ -70484,7 +71203,8 @@
         "storeScript": [
           "summon",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110072
       },
       {
         "name": "cooptalk",
@@ -70571,7 +71291,8 @@
         "postSetFlagStr": "",
         "postGoto": "coopmenu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110072
       },
       {
         "name": "coop2talk",
@@ -70658,7 +71379,8 @@
         "postSetFlagStr": "",
         "postGoto": "coopmenu",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110072
       },
       {
         "name": "shop",
@@ -70724,7 +71446,8 @@
         "storeScript": [
           "egg_wrath",
           "returnlevel menu"
-        ]
+        ],
+        "id": 110072
       },
       {
         "name": "coopmenu",
@@ -70845,7 +71568,8 @@
         "postSetFlagStr": "",
         "postGoto": "",
         "giveScript": null,
-        "storeScript": null
+        "storeScript": null,
+        "id": 110072
       },
       {
         "name": "coopshop",
@@ -70911,7 +71635,8 @@
         "storeScript": [
           "egg_wrath",
           "returnlevel coopmenu"
-        ]
+        ],
+        "id": 110072
       }
     ],
     "rune": -1

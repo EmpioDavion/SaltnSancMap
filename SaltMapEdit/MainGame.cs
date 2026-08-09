@@ -1,9 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using System.Collections.Generic;
+using SaltMap;
+using WinForm = System.Windows.Forms.Form;
 
-namespace SaltMap
+namespace SaltMapEdit
 {
     internal class MainGame : Game
     {
@@ -12,20 +12,50 @@ namespace SaltMap
 
 		private readonly Map map = new Map();
 
-		private bool tab = false;
-		private bool middleClick = false;
-		private bool rightClick = false;
+		private readonly MainForm form;
 
-		private int lastMouseWheel;
-		private Point lastMousePos;
+		private SpriteFont font;
 
-		public MainGame()
+		public MainGame(MainForm form)
 		{
+			WinForm winForm = (WinForm)WinForm.FromHandle(Window.Handle);
+			winForm.Activated += (sender, e) => winForm.Hide();
+			winForm.VisibleChanged += (sender, e) => winForm.Hide();
+
+			Map.ScreenWidth = form.pnlMap.Size.Width;
+			Map.ScreenHeight = form.pnlMap.Size.Height;
+
+			this.form = form;
+			form.map = map;
+			form.FormClosing += Form_FormClosing;
+			form.pnlMap.SizeChanged += PnlMap_SizeChanged;
+
 			_graphics = new GraphicsDeviceManager(this);
+			_graphics.PreparingDeviceSettings += PreparingDeviceSettings;
 			_graphics.PreferredBackBufferWidth = Map.ScreenWidth;
 			_graphics.PreferredBackBufferHeight = Map.ScreenHeight;
+			_graphics.ApplyChanges();
 			Content.RootDirectory = "Content";
 			IsMouseVisible = true;
+		}
+
+		private void PnlMap_SizeChanged(object sender, System.EventArgs e)
+		{
+			Map.ScreenWidth = form.pnlMap.Size.Width;
+			Map.ScreenHeight = form.pnlMap.Size.Height;
+			_graphics.PreferredBackBufferWidth = form.pnlMap.Size.Width;
+			_graphics.PreferredBackBufferHeight = form.pnlMap.Size.Height;
+			_graphics.ApplyChanges();
+		}
+
+		private void Form_FormClosing(object sender, System.Windows.Forms.FormClosingEventArgs e)
+		{
+			Exit();
+		}
+
+		private void PreparingDeviceSettings(object sender, PreparingDeviceSettingsEventArgs e)
+		{
+			e.GraphicsDeviceInformation.PresentationParameters.DeviceWindowHandle = form.pnlMap.Handle;
 		}
 
 		protected override void Initialize()
@@ -37,70 +67,17 @@ namespace SaltMap
 
 		protected override void LoadContent()
 		{
-			SpriteFont font = Content.Load<SpriteFont>("DefaultFont");
+			font = Content.Load<SpriteFont>("DefaultFont");
 			map.Init(GraphicsDevice, _spriteBatch, font);
+
+			form.MapLoaded();
 
 			base.LoadContent();
 		}
 
 		protected override void Update(GameTime gameTime)
 		{
-			MouseState mouseState = Mouse.GetState();
-
-			if (!IsActive)
-			{
-				lastMouseWheel = mouseState.ScrollWheelValue;
-				lastMousePos = mouseState.Position;
-				return;
-			}
-
-			int wheel = mouseState.ScrollWheelValue;
-			int wheelDelta = wheel - lastMouseWheel;
-			Point mousePos = mouseState.Position;
-			Point mousePosDelta = mousePos - lastMousePos;
-
-			if (wheelDelta != 0)
-				map.Zoom(mousePos, wheelDelta > 0 ? 1 : -1);
-
-			if (mouseState.LeftButton == ButtonState.Pressed)
-				map.Move(mousePosDelta);
-
-			if (mouseState.MiddleButton == ButtonState.Pressed)
-			{
-				if (!middleClick)
-					map.ToggleNode(mousePos);
-
-				middleClick = true;
-			}
-			else
-				middleClick = false;
-
-			if (mouseState.RightButton == ButtonState.Pressed)
-			{
-				if (!rightClick)
-					map.GetNode(mousePos);
-
-				rightClick = true;
-			}
-			else
-				rightClick = false;
-
-			lastMouseWheel = wheel;
-			lastMousePos = mousePos;
-
-			KeyboardState keyboardState = Keyboard.GetState();
-
-			if (keyboardState.IsKeyDown(Keys.Tab))
-			{
-				if (!tab)
-					map.ToggleMode();
-
-				tab = true;
-			}
-			else
-				tab = false;
-
-			map.Update(IsActive);
+			map.Update(form.pnlMap.Focused);
 			base.Update(gameTime);
 		}
 
@@ -108,8 +85,14 @@ namespace SaltMap
 		{
 			_spriteBatch.Begin();
 			
-			map.Draw();
-			
+			map.Draw(form.mousePos);
+
+			Vector2 mousePos = map.GetMapPosition(form.mousePos);
+
+			_spriteBatch.Draw(map.pixel, new Vector2(14, 14), null, new Color(0,0,0,0.3f), 0.0f,
+				Vector2.Zero, new Vector2(220, 20), SpriteEffects.None, 0.0f);
+			_spriteBatch.DrawString(font, mousePos.ToString(), new Vector2(16, 16), Color.White);
+
 			_spriteBatch.End();
 
 			base.Draw(gameTime);

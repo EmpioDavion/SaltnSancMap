@@ -7,14 +7,22 @@ using System.IO;
 using System.Threading;
 using WinPoint = System.Drawing.Point;
 
-// TODO: controls for setting the region of checks
-// maybe add list dialogs to MapTest and expose Map classes
-// include null region for fixing upper and lower regions
-
 namespace SaltMap
 {
 	public class Map
 	{
+		[Flags]
+		public enum Rune
+		{
+			None,
+			Vertigo		= 1 << 0,
+			Dart		= 1 << 1,
+			Shadowflip	= 1 << 2,
+			DoubleJump	= 1 << 3,	// unused
+			Redshift	= 1 << 4,
+			Hardlight	= 1 << 5
+		}
+
 		public enum CheckState
 		{
 			Available,
@@ -27,13 +35,24 @@ namespace SaltMap
 		{
 			public int id;
 			public Vector2 loc;
-			public string region;
+
+			[JsonProperty]
+			internal string region;
+
 			public CheckState checkState;
 
 			[NonSerialized]
 			public string key;
 
-			public Region GetRegion(Map map) => map.regions[region];
+			[NonSerialized]
+			internal Region _region;
+
+			[JsonIgnore]
+			public Region Region
+			{
+				get => _region;
+				set { _region = value; region = value.key; }
+			}
 
 			public override string ToString() => key;
 		}
@@ -66,9 +85,50 @@ namespace SaltMap
 			public string[] scripts;
 		}
 
+		private class Dialogue : Check
+		{
+			[JsonIgnore]
+			public NPC NPC { get; internal set; }
+		}
+
+		private class GameDialogue
+		{
+			public class Node
+			{
+				public class Text
+				{
+					public string[] text;				// text per language
+				}
+
+				public class Option
+				{
+					public string[] text;				// text per language
+					public string action;				// the node to go to
+					public string coopAction;			// the node to go to
+				}
+
+				public int id;							// custom data added for check id
+				public string name;						// label for precheckFlagGoto
+				public Text[] text;						// dialogue text
+				public Option[] option;					// player replies
+				public string[] precheckFlagStr;		// skips to node in precheckFlagGoto if player has flag
+				public string[] precheckFlagGoto;		// goes to the node if player has flag in precheckFlagStr
+				public string postSetFlagStr;			// adds the flag to the player
+				public string postGoto;					// goes to the node after this node
+				public string[] giveScript;				// gives the player items
+				public string[] storeScript;			// lists the shop items
+			}
+
+			public string name;                     // internal name of the NPC
+			public Node[] nodeList;					// list of dialogues for the NPC
+			public int rune;						// unused value
+		}
+
 		public class Region
 		{
+			[NonSerialized]
 			public List<string> checks = new List<string>();
+
 			public List<Connection> connections = new List<Connection>();
 			public bool updated;
 
@@ -80,10 +140,19 @@ namespace SaltMap
 
 		public class Connection
 		{
-			public string region;
+			[JsonProperty]
+			internal string region;
 			public List<string> items = new List<string>();
 
-			public Region GetRegion(Dictionary<string, Region> regions) => regions[region];
+			[NonSerialized]
+			internal Region _region;
+
+			[JsonIgnore]
+			public Region Region
+			{
+				get => _region;
+				set { _region = value; region = value?.key; }
+			}
 
 			public bool CanEnter(HashSet<string> flags)
 			{
@@ -95,7 +164,7 @@ namespace SaltMap
 				return true;
 			}
 
-			public override string ToString() => region;
+			public override string ToString() => Region.ToString();
 		}
 
 		private class SegmentData
@@ -115,8 +184,8 @@ namespace SaltMap
 		private const int SEGMENTS_X = 12;
 		private const int SEGMENTS_Y = 6;
 
-		private const int MIN_ZOOM = 5;
-		private const int MAX_ZOOM = 20;
+		private const int MIN_ZOOM = 6;
+		private const int MAX_ZOOM = 11;
 
 		public static int ScreenWidth = 1178;
 		public static int ScreenHeight = 570;
@@ -128,6 +197,7 @@ namespace SaltMap
 		private Dictionary<string, Sanctuary> sanctuaries;
 		private Dictionary<string, Boss> bosses;
 		private Dictionary<string, NPC> npcs;
+		private Dictionary<string, Dialogue> dialogues;
 
 		public Dictionary<string, Region> regions;
 
@@ -139,7 +209,7 @@ namespace SaltMap
 		private SpriteFont font;
 		private Texture2D map;
 		public Texture2D pixel;
-		private int zoom = 5;
+		private int zoom = 6;
 
 		private Vector2 mapPosition = new Vector2(-49.0f, -86.0f);
 		private Matrix camera = Matrix.Identity;
@@ -153,18 +223,14 @@ namespace SaltMap
 
 		private readonly Dictionary<string, Check> locations = new Dictionary<string, Check>();
 
-		private string regionFilter = "menu";
-		private string locationFilter = "";
+		private Region regionFilter = null;
+		private string locationFilter = null;
+
+		private Rune runes;
 
 		public Map()
 		{
 			camera = Matrix.CreateTranslation(new Vector3(-mapPosition * (zoom * 0.1f), 0.0f));
-		}
-
-		private static T LoadJson<T>(string path)
-		{
-			string json = File.ReadAllText(path);
-			return JsonConvert.DeserializeObject<T>(json);
 		}
 
 		public void Init(GraphicsDevice graphicsDevice, SpriteBatch spriteBatch, SpriteFont font)
@@ -206,10 +272,20 @@ namespace SaltMap
 			bosses = LoadJson<Dictionary<string, Boss>>("bosses.json");
 			npcs = LoadJson<Dictionary<string, NPC>>("npcs.json");
 
+			if (!File.Exists("dialogues.json"))
+				CreateDialogues();
+			else
+				dialogues = LoadJson<Dictionary<string, Dialogue>>("dialogues.json");
+
 			regions = LoadJson<Dictionary<string, Region>>("regions.json");
 
 			foreach (KeyValuePair<string, Region> kvp in regions)
+			{
 				kvp.Value.key = kvp.Key;
+
+				foreach (Connection connection in kvp.Value.connections)
+					connection._region = regions[connection.region];
+			}
 
 			AddLocations(chests);
 			AddLocations(sacks);
@@ -218,14 +294,171 @@ namespace SaltMap
 			AddLocations(sanctuaries);
 			AddLocations(bosses);
 			AddLocations(npcs);
+			AddLocations(dialogues);
 
 			foreach (KeyValuePair<string, Check> kvp in locations)
 			{
-				string region = kvp.Value.region.ToLower().Replace(' ', '_').Replace('-', '_').Replace("'", "");
-
-				if (regions.TryGetValue(region, out Region r))
-					r.checks.Add(kvp.Key);
+				kvp.Value._region = regions[kvp.Value.region];
+				kvp.Value._region.checks.Add(kvp.Key);
 			}
+		}
+
+		private void CreateDialogues()
+		{
+			List<GameDialogue> gameDialogues = LoadJson<List<GameDialogue>>("game_dialogues.json");
+
+			dialogues = new Dictionary<string, Dialogue>();
+
+			Stack<GameDialogue.Node> nodeStack = new Stack<GameDialogue.Node>();
+
+			foreach (KeyValuePair<string, NPC> kvp in npcs)
+			{
+				string name = kvp.Key.Substring(0, kvp.Key.Length - 2);
+
+				GameDialogue gameDialogue = gameDialogues.Find((x) => x.name == name);
+
+				if (gameDialogue == null)
+					continue;
+
+				int talkIndex = Array.IndexOf(kvp.Value.scripts, "talkphase");
+				string talkPhase = talkIndex >= 0 ? kvp.Value.scripts[talkIndex + 1] : "talk";
+
+				GameDialogue.Node start = Array.Find(gameDialogue.nodeList, (x) => x.name == talkPhase);
+				nodeStack.Push(start);
+
+				string key = $"{name}_{start.name}";
+
+				// some npcs may have the same initial greeting
+				if (!dialogues.ContainsKey(key))
+				{
+					dialogues.Add(key, new Dialogue()
+					{
+						id = start.id,
+						loc = kvp.Value.loc,
+						region = kvp.Value.region,
+						key = key,
+						NPC = kvp.Value
+					});
+				}
+
+				while (nodeStack.Count > 0)
+				{
+					GameDialogue.Node node = nodeStack.Pop();
+
+					if (node.option != null)
+					{
+						foreach (GameDialogue.Node.Option option in node.option)
+						{
+							key = $"{name}_{option.action}";
+
+							if (!dialogues.ContainsKey(key))
+							{
+								GameDialogue.Node optionNode = Array.Find(gameDialogue.nodeList, (x) => x.name == option.action);
+
+								dialogues.Add(key, new Dialogue()
+								{
+									id = node.id,
+									loc = kvp.Value.loc,
+									region = kvp.Value.region,
+									key = key,
+									NPC = kvp.Value
+								});
+
+								nodeStack.Push(optionNode);
+							}
+						}
+					}
+
+					foreach (string precheck in node.precheckFlagGoto)
+					{
+						if (string.IsNullOrEmpty(precheck))
+							continue;
+
+						key = $"{name}_{precheck}";
+
+						if (!dialogues.ContainsKey(key))
+						{
+							GameDialogue.Node gotoNode = Array.Find(gameDialogue.nodeList, (x) => x.name == precheck);
+
+							dialogues.Add(key, new Dialogue()
+							{
+								id = node.id,
+								loc = kvp.Value.loc,
+								region = kvp.Value.region,
+								key = key,
+								NPC = kvp.Value
+							});
+
+							nodeStack.Push(gotoNode);
+						}
+					}
+
+					if (string.IsNullOrEmpty(node.postGoto))
+						continue;
+
+					key = $"{name}_{node.postGoto}";
+
+					if (!dialogues.ContainsKey(key))
+					{
+						GameDialogue.Node gotoNode = Array.Find(gameDialogue.nodeList, (x) => x.name == node.postGoto);
+
+						dialogues.Add(key, new Dialogue()
+						{
+							id = node.id,
+							loc = kvp.Value.loc,
+							region = kvp.Value.region,
+							key = name,
+							NPC = kvp.Value
+						});
+
+						nodeStack.Push(gotoNode);
+					}
+				}
+			}
+		}
+
+		// pass in player.runes
+		public void UpdateRunes(bool[] playerRunes)
+		{
+			runes = Rune.None;
+
+			for (int i = 0; i < playerRunes.Length; i++)
+				if (playerRunes[i])
+					runes = (Rune)((int)runes | (1 << i));
+		}
+
+		public void Save()
+		{
+			SaveChecks("chests.json", chests);
+			SaveChecks("sacks.json", sacks);
+			SaveChecks("mimics.json", mimics);
+			SaveChecks("sequences.json", sequences);
+			SaveChecks("sanctuaries.json", sanctuaries);
+			SaveChecks("bosses.json", bosses);
+			SaveChecks("npcs.json", npcs);
+			SaveChecks("dialogues.json", dialogues);
+
+			SaveJson("regions.json", regions);
+		}
+
+		private void SaveChecks<T>(string path, Dictionary<string, T> checks) where T : Check
+		{
+			foreach (KeyValuePair<string, T> kvp in checks)
+				kvp.Value.region = kvp.Value.Region.key;
+
+			SaveJson(path, checks);
+		}
+
+		private void SaveJson<T>(string path, Dictionary<string, T> dict)
+		{
+			string json = JsonConvert.SerializeObject(dict, Formatting.Indented);
+			File.WriteAllText(path, json);
+		}
+
+		private static T LoadJson<T>(string path)
+		{
+			string json = File.ReadAllText(path);
+			return JsonConvert.DeserializeObject<T>(json);
 		}
 
 		private void AddLocations<T>(Dictionary<string, T> checks) where T : Check
@@ -280,8 +513,8 @@ namespace SaltMap
 				}
 
 				foreach (Connection connection in current.connections)
-					if (!connection.GetRegion(regions).updated && connection.CanEnter(flags))
-						updateStack.Push(connection.GetRegion(regions));
+					if (!connection.Region.updated && connection.CanEnter(flags))
+						updateStack.Push(connection.Region);
 
 				if (updateStack.Peek() == current)
 					updateStack.Pop();
@@ -362,7 +595,7 @@ namespace SaltMap
 			segmentData.loading = false;
 		}
 
-		public void Filter(string region, string location)
+		public void Filter(Region region, string location)
 		{
 			regionFilter = region;
 			locationFilter = location;
@@ -378,22 +611,29 @@ namespace SaltMap
 			camera.Translation = new Vector3(worldPos, 0.0f);
 		}
 
+		public Color GetCheckColor(Check check)
+		{
+			return check.checkState switch
+			{
+				CheckState.Available => Color.LightGreen,
+				CheckState.Blocked => Color.IndianRed,
+				CheckState.OutOfLogic => Color.LightGoldenrodYellow,
+				CheckState.Collected => Color.Gray,
+				_ => Color.Magenta,
+			};
+		}
+
 		public Vector2 GetMapPosition(Vector2 pos)
 		{
 			if (drawMode == DrawMode.Full)
-			{
-				// find by pos
-				pos = (pos - mapPosition) * zoom * 0.1f;
-				pos /= itemScale;
-			}
+				pos = pos * 10.0f + mapPosition;
 			else
 			{
 				Matrix inv = Matrix.Invert(camera);
 				pos = Vector2.Transform(pos, inv);
-				pos /= itemScale;
 			}
 
-			return pos;
+			return pos / itemScale;
 		}
 
 		public Vector2 GetMapPosition(float x, float y) => GetMapPosition(new Vector2(x, y));
@@ -403,12 +643,28 @@ namespace SaltMap
 		public bool GetLocation(string location, out Check check) =>
 			locations.TryGetValue(location, out check);
 
-		public bool GetCheck(Vector2 pos, out Check check, out string name)
+		public void GetChecks(Vector2 pos, List<Check> checks)
+		{
+			float maxRange = 120f * 120f;
+
+			pos = GetMapPosition(pos);
+
+			foreach (KeyValuePair<string, Check> kvp in locations)
+			{
+				Vector2 diff = kvp.Value.loc - pos;
+
+				float diffSq = diff.LengthSquared();
+
+				if (diffSq < maxRange)
+					checks.Add(kvp.Value);
+			}
+		}
+
+		public bool GetCheck(Vector2 pos, out Check check)
 		{
 			float sqrLength = float.MaxValue;
 			Check _check = null;
-			string _name = null;
-
+			
 			pos = GetMapPosition(pos);
 
 			foreach (KeyValuePair<string, Check> kvp in locations)
@@ -421,44 +677,41 @@ namespace SaltMap
 				{
 					sqrLength = diffSq;
 					_check = kvp.Value;
-					_name = kvp.Key;
 				}
 			}
 
 			if (_check != null && sqrLength < 120f * 120f)
 			{
 				check = _check;
-				name = _name;
 				return true;
 			}
 
 			check = null;
-			name = null;
 
 			return false;
 		}
 
-		public bool GetCheck(float x, float y, out Check check, out string name) =>
-			GetCheck(new Vector2(x, y), out check, out name);
+		public bool GetCheck(float x, float y, out Check check) =>
+			GetCheck(new Vector2(x, y), out check);
 
-		public bool GetCheck(Point point, out Check check, out string name) =>
-			GetCheck(new Vector2(point.X, point.Y), out check, out name);
+		public bool GetCheck(Point point, out Check check) =>
+			GetCheck(new Vector2(point.X, point.Y), out check);
 
-		public bool GetCheck(WinPoint point, out Check check, out string name) =>
-			GetCheck(new Vector2(point.X, point.Y), out check, out name);
+		public bool GetCheck(WinPoint point, out Check check) =>
+			GetCheck(new Vector2(point.X, point.Y), out check);
 
 		public void ToggleCheck(Vector2 pos)
 		{
-			if (GetCheck(pos, out Check check, out string name))
+			if (GetCheck(pos, out Check check))
 			{
-				flags.Remove(name);
+				flags.Remove(check.key);
 
 				if (check.checkState == CheckState.Collected)
 					check.checkState = CheckState.Blocked;
 				else
 				{
 					check.checkState = CheckState.Collected;
-					flags.Add(name);
+					flags.Add(check.key);
 				}
 
 				UpdateAvailable();
@@ -478,17 +731,10 @@ namespace SaltMap
 			else
 				loc4 = Vector2.Transform(loc4, camera);
 
-			color = check.checkState switch
-			{
-				CheckState.Available => Color.Green,
-				CheckState.Blocked => Color.Red,
-				CheckState.OutOfLogic => Color.Yellow,
-				CheckState.Collected => Color.Gray,
-				_ => Color.Magenta,
-			};
+			color = GetCheckColor(check);
 
-			if (regionFilter != "menu")
-				color = check.region == regionFilter ? Color.Green : Color.Red;
+			if (regionFilter != null)
+				color = check.Region == regionFilter ? Color.LightGreen : Color.IndianRed;
 
 			Color borderColor = locationFilter == check.key ? Color.Yellow : Color.Black;
 
@@ -496,18 +742,24 @@ namespace SaltMap
 			spriteBatch.Draw(pixel, loc4, null, color, 0.0f, Vector2.One * 0.5f, 30.0f * scale, SpriteEffects.None, 0.0f);
 		}
 
-		private void DrawEntryText(string text, Vector2 loc, float scale)
+		private void DrawEntryText(string text, Vector2 loc, float scale, Color? color = null)
 		{
 			Vector2 loc4 = loc * itemScale;
+			float sizeScale = scale * 1.2f;
+			Vector2 size = font.MeasureString(text);
 
 			if (drawMode == DrawMode.Full)
+			{
 				loc4 = (loc4 - mapPosition) * scale;
+				sizeScale = 1.0f;
+			}
 			else
 				loc4 = Vector2.Transform(loc4, camera);
 
-			Vector2 size = font.MeasureString(text);
-			spriteBatch.Draw(pixel, loc4 + Vector2.UnitY * 30.0f * scale, null, new Color(0, 0, 0, 0.4f), 0.0f, Vector2.One * 0.5f, (size + Vector2.One * 4.0f) * scale, SpriteEffects.None, 0.0f);
-			spriteBatch.DrawString(font, text, loc4 + Vector2.UnitY * 30.0f * scale, Color.White, 0.0f, size * 0.5f, scale, SpriteEffects.None, 0.0f);
+			color ??= Color.White;
+
+			spriteBatch.Draw(pixel, loc4 + Vector2.UnitY * 30.0f * scale, null, new Color(0, 0, 0, 0.4f), 0.0f, Vector2.One * 0.5f, (size + Vector2.One * 4.0f) * sizeScale, SpriteEffects.None, 0.0f);
+			spriteBatch.DrawString(font, text, loc4 + Vector2.UnitY * 30.0f * scale, color.Value, 0.0f, size * 0.5f, sizeScale, SpriteEffects.None, 0.0f);
 		}
 
 		private void DrawCSMBlocks(Dictionary<string, CSM> csms, Color color, float scale)
@@ -539,6 +791,9 @@ namespace SaltMap
 
 			foreach (KeyValuePair<string, NPC> kvp in npcs)
 				DrawEntryBlock(kvp.Value, Color.White, scale);
+
+			foreach (KeyValuePair<string, Dialogue> kvp in dialogues)
+				DrawEntryBlock(kvp.Value, Color.White, scale);
 		}
 
 		private void DrawTexts(float scale)
@@ -558,13 +813,38 @@ namespace SaltMap
 
 			foreach (KeyValuePair<string, NPC> kvp in npcs)
 				DrawEntryText(kvp.Key, kvp.Value.loc, scale);
+
+			foreach (KeyValuePair<string, Dialogue> kvp in dialogues)
+				DrawEntryText(kvp.Key, kvp.Value.loc, scale);
 		}
 
-		public void Draw()
+		private List<Check> hoveredChecks = new List<Check>();
+
+		private void DrawHovered(Vector2 pos, float scale)
+		{
+			hoveredChecks.Clear();
+			GetChecks(pos, hoveredChecks);
+
+			if (hoveredChecks.Count == 0)
+				return;
+
+			Vector2 gap = new Vector2(1800.0f, 250.0f);
+			Vector2 loc = hoveredChecks[0].loc;
+			int maxY = 7;
+
+			for (int i = 0; i < hoveredChecks.Count; i++)
+			{
+				Color color = GetCheckColor(hoveredChecks[i]);
+
+				int x = i / maxY;
+				int y = i % maxY;
+				DrawEntryText(hoveredChecks[i].key, loc + gap * new Vector2(x, y), scale, color);
+			}
+		}
+
+		public void Draw(Vector2 pos)
 		{
 			graphicsDevice.Clear(Color.Black);
-
-			Vector2 mapPos = Vector2.Transform(mapPosition, camera);
 
 			float scale = zoom * 0.1f;
 
@@ -575,6 +855,9 @@ namespace SaltMap
 			}
 			else
 			{
+				Vector2 mapPos = Vector2.Transform(mapPosition, camera);
+
+				// get top left map segment and bottom right map segment on screen
 				Vector2 tl = -mapPos / scale / 1024;
 				Vector2 wh = new Vector2(ScreenWidth, ScreenHeight);
 				Vector2 br = (wh - mapPos) / scale / 1024;
@@ -610,7 +893,16 @@ namespace SaltMap
 			}
 
 			DrawBlocks(scale);
+
+#if DEBUG
 			DrawTexts(scale);
+#else
+			DrawHovered(pos, scale);
+#endif
 		}
+
+		public void Draw(float x, float y) => Draw(new Vector2(x, y));
+		public void Draw(Point point) => Draw(new Vector2(point.X, point.Y));
+		public void Draw(WinPoint point) => Draw(new Vector2(point.X, point.Y));
 	}
 }

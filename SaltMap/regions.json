@@ -17,7 +17,8 @@
 			{ "region": "village_of_smiles", "items": [ "sanctuary_key" ] }
 		]
 	},
-	"shivering_shore_roof": { },
+	"shivering_shore_roof": {},
+	"shivering_shore_choppy": {},
 	"the_festering_banquet": {
 		"connections": [
 			{ "region": "village_of_smiles" },
@@ -117,6 +118,7 @@
 			{ "region": "mals_floating_castle", "items": [ "shadowflip", "hardlight", "dart" ] }
 			]
 	},
+	"ziggurat_of_dust": {},
 	"ziggurat_of_dust_upper": {
 		"connections": [
 			{ "region": "the_far_beach", "items": [ "WEST_ENTRANCE" ] },
@@ -129,6 +131,7 @@
 			{ "region": "the_ruined_temple_lower", "items": [ "the_forgotten_knight", "the_forgotten_king", "the_forgotten_judge" ] }
 			]
 	},
+	"the_ruined_temple": {},
 	"the_ruined_temple_upper": {
 		"connections": [
 			{ "region": "red_hall_of_cages", "items": [ "redshift" ] },
@@ -183,6 +186,7 @@
 			{ "region": "the_still_palace", "items": [ "SEQUENCE" ] }
 			]
 	},
+	"salt_alkymancery": {},
 	"salt_alkymancery_upper": {
 		"connections": [
 			{ "region": "red_hall_of_cages", "items": [ "shadowflip", "dart" ] },
@@ -199,6 +203,7 @@
 			{ "region": "the_still_palace" }
 			]
 	},
+	"crypt_of_dead_gods": {},
 	"crypt_of_dead_gods_upper": {
 		"connections": [
 			{ "region": "hagers_cavern", "items": [ "dart", "DOOR_WALL" ] },
