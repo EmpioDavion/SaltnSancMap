@@ -4,8 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.14.37516.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaltMap", "SaltMap\SaltMap.csproj", "{24789DD6-88B3-4875-999D-C5E5AFC1AA91}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E381843-7A28-49AE-BED8-3BC7D99558C1} = {9E381843-7A28-49AE-BED8-3BC7D99558C1}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaltMapEdit", "SaltMapEdit\SaltMapEdit.csproj", "{2024DCAA-2422-E191-D384-B8B29AAD9EC4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E381843-7A28-49AE-BED8-3BC7D99558C1} = {9E381843-7A28-49AE-BED8-3BC7D99558C1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profiler", "Profiler\Profiler.csproj", "{9E381843-7A28-49AE-BED8-3BC7D99558C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,10 @@ Global
 		{2024DCAA-2422-E191-D384-B8B29AAD9EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2024DCAA-2422-E191-D384-B8B29AAD9EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2024DCAA-2422-E191-D384-B8B29AAD9EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E381843-7A28-49AE-BED8-3BC7D99558C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E381843-7A28-49AE-BED8-3BC7D99558C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E381843-7A28-49AE-BED8-3BC7D99558C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E381843-7A28-49AE-BED8-3BC7D99558C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,6 +43,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Profiler\Profiler.csproj" />
     <ProjectReference Include="..\SaltMap\SaltMap.csproj" />
   </ItemGroup>
   <ItemGroup>

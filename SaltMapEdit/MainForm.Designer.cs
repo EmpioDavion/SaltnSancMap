@@ -49,6 +49,7 @@
 			lblLocations = new System.Windows.Forms.Label();
 			pnlItems = new System.Windows.Forms.Panel();
 			lblItems = new System.Windows.Forms.Label();
+			lbSelectCheck = new System.Windows.Forms.ListBox();
 			pnlConnections.SuspendLayout();
 			pnlRegions.SuspendLayout();
 			pnlLocations.SuspendLayout();
@@ -74,7 +75,7 @@
 			tbEdit.AcceptsReturn = true;
 			tbEdit.BackColor = System.Drawing.Color.Gray;
 			tbEdit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			tbEdit.Location = new System.Drawing.Point(160, 20);
+			tbEdit.Location = new System.Drawing.Point(150, 20);
 			tbEdit.Name = "tbEdit";
 			tbEdit.Size = new System.Drawing.Size(100, 23);
 			tbEdit.TabIndex = 0;
@@ -319,12 +320,29 @@
 			lblItems.TabIndex = 9;
 			lblItems.Text = "Items";
 			// 
+			// lbSelectCheck
+			// 
+			lbSelectCheck.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			lbSelectCheck.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			lbSelectCheck.FormattingEnabled = true;
+			lbSelectCheck.Location = new System.Drawing.Point(260, 20);
+			lbSelectCheck.Name = "lbSelectCheck";
+			lbSelectCheck.Size = new System.Drawing.Size(120, 94);
+			lbSelectCheck.TabIndex = 0;
+			lbSelectCheck.TabStop = false;
+			lbSelectCheck.Visible = false;
+			lbSelectCheck.Click += lbSelectCheck_Click;
+			lbSelectCheck.SelectedIndexChanged += lbSelectCheck_SelectedIndexChanged;
+			lbSelectCheck.KeyDown += lbSelectCheck_KeyDown;
+			lbSelectCheck.Leave += lbSelectCheck_Leave;
+			// 
 			// MainForm
 			// 
 			AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			BackColor = System.Drawing.Color.FromArgb(74, 88, 104);
 			ClientSize = new System.Drawing.Size(1224, 901);
+			Controls.Add(lbSelectCheck);
 			Controls.Add(pnlItems);
 			Controls.Add(pnlConnections);
 			Controls.Add(btnRedo);
@@ -372,5 +390,6 @@
 		private System.Windows.Forms.Label lblConnections;
 		private System.Windows.Forms.Label lblLocations;
 		private System.Windows.Forms.Label lblItems;
+		private System.Windows.Forms.ListBox lbSelectCheck;
 	}
 }

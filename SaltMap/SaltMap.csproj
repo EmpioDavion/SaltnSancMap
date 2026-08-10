@@ -12,6 +12,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Profiler\Profiler.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="bosses.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

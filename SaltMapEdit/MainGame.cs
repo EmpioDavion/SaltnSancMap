@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Profiler;
 using SaltMap;
+using System.Text;
 using WinForm = System.Windows.Forms.Form;
 
 namespace SaltMapEdit
@@ -70,6 +72,7 @@ namespace SaltMapEdit
 			font = Content.Load<SpriteFont>("DefaultFont");
 			map.Init(GraphicsDevice, _spriteBatch, font);
 
+			form.spriteFont = font;
 			form.MapLoaded();
 
 			base.LoadContent();
@@ -77,25 +80,44 @@ namespace SaltMapEdit
 
 		protected override void Update(GameTime gameTime)
 		{
+			Profile profile = Profiler.Profiler.Start("MainGame.Update");
+
 			map.Update(form.pnlMap.Focused);
 			base.Update(gameTime);
+
+			Profiler.Profiler.End(profile);
 		}
+
+		private readonly StringBuilder mousePosText = new StringBuilder();
+		private readonly StringBuilder fpsText = new StringBuilder();
 
 		protected override void Draw(GameTime gameTime)
 		{
+			Profile profile = Profiler.Profiler.Start("MainGame.Draw");
+
 			_spriteBatch.Begin();
 			
 			map.Draw(form.mousePos);
 
 			Vector2 mousePos = map.GetMapPosition(form.mousePos);
+			mousePosText.Clear();
+			mousePosText.Append(mousePos);
+
+			double milliseconds = gameTime.ElapsedGameTime.TotalMilliseconds;
+			fpsText.Clear();
+			fpsText.Append(1000.0 / System.Math.Max(1, milliseconds));
 
 			_spriteBatch.Draw(map.pixel, new Vector2(14, 14), null, new Color(0,0,0,0.3f), 0.0f,
 				Vector2.Zero, new Vector2(220, 20), SpriteEffects.None, 0.0f);
-			_spriteBatch.DrawString(font, mousePos.ToString(), new Vector2(16, 16), Color.White);
+			_spriteBatch.DrawString(font, mousePosText, new Vector2(16, 16), Color.White);
+
+			_spriteBatch.DrawString(font, fpsText, new Vector2(16, 80), Color.White);
 
 			_spriteBatch.End();
 
 			base.Draw(gameTime);
+
+			Profiler.Profiler.End(profile);
 		}
     }
 }

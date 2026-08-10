@@ -6,8 +6,6 @@ using System.Windows.Forms;
 
 namespace SaltMapEdit
 {
-	// TODO: context menu for clicking stacked checks
-	// TODO: group stacked checks and draw multicoloured blocks for mixed states
 	public partial class MainForm : Form
 	{
 		private enum DragState
@@ -50,6 +48,10 @@ namespace SaltMapEdit
 
 		public readonly BindingList<Map.Region> regionSelect = new BindingList<Map.Region>();
 
+		private BindingList<Map.Check> stackedChecks = new BindingList<Map.Check>();
+
+		public Microsoft.Xna.Framework.Graphics.SpriteFont spriteFont;
+
 		private System.Action editAction;
 
 		private Drag regionDrag; // drag action for reordering regions
@@ -77,6 +79,7 @@ namespace SaltMapEdit
 			lbItems.DataSource = itemList;
 
 			lbSelectRegion.DataSource = regionSelect;
+			lbSelectCheck.DataSource = stackedChecks;
 		}
 
 		private void Track(UndoAction action)
@@ -97,7 +100,7 @@ namespace SaltMapEdit
 			this.editAction = editAction;
 		}
 
-		private void ShowDropdown(Rectangle rect, Map.Region region, System.Action editAction)
+		private void ShowRegions(Rectangle rect, Map.Region region)
 		{
 			int index = regionSelect.IndexOf(region);
 			lbSelectRegion.SelectedIndex = index;
@@ -105,6 +108,15 @@ namespace SaltMapEdit
 			lbSelectRegion.Size = new Size(rect.Size.Width, lbSelectRegion.Size.Height);
 			lbSelectRegion.Visible = true;
 			lbSelectRegion.Focus();
+		}
+
+		private void ShowChecks(Rectangle rect)
+		{
+			lbSelectCheck.SelectedIndex = -1;
+			lbSelectCheck.Location = rect.Location;
+			lbSelectCheck.Size = rect.Size;
+			lbSelectCheck.Visible = true;
+			lbSelectCheck.Focus();
 		}
 
 		private void EditRegion()
@@ -118,11 +130,15 @@ namespace SaltMapEdit
 
 		private void EditConnection()
 		{
-			int index = lbConnections.SelectedIndex;
-			Map.Connection connection = connectionList[index];
-			Map.Region oldRegion = connection.Region;
+			Map.Connection connection = (Map.Connection)lbConnections.SelectedValue;
 			Map.Region newRegion = regionSelect[lbSelectRegion.SelectedIndex];
 			Track(new ChangeConnectionAction(this, connection, newRegion, false));
+		}
+
+		private void EditCheck()
+		{
+			Map.Check check = (Map.Check)lbSelectCheck.SelectedValue;
+			Track(new ChangeCheckRegionAction(this, check, currentRegion, false));
 		}
 
 		private void EditItem()
@@ -204,16 +220,57 @@ namespace SaltMapEdit
 			}
 			else if (e.Button == MouseButtons.Right)
 			{
-				if (currentRegion != null &&
-					map.GetCheck(e.Location, out Map.Check check))
+				if (currentRegion != null)
 				{
-					Map.Region oldRegion = check.Region;
+					map.GetCheckGroup(e.Location, out Map.CheckGroup checkGroup);
 
-					if (oldRegion != currentRegion)
+					if (checkGroup == null)
+						return;
+
+					lbSelectCheck.DataSource = null;
+					stackedChecks.Clear();
+
+					foreach (Map.Check check in checkGroup.checks)
+						if (check.Region != currentRegion)
+							stackedChecks.Add(check);
+
+					lbSelectCheck.DataSource = stackedChecks;
+
+					if (stackedChecks.Count > 0)
 					{
-						int oldIndex = oldRegion.checks.IndexOf(check.key);
-						int newIndex = currentRegion.checks.Count;
-						Track(new ChangeCheckRegionAction(this, check, currentRegion, false));
+						if (stackedChecks.Count == 1)
+						{
+							Map.Check check = stackedChecks[0];
+							Map.Region oldRegion = check.Region;
+
+							if (oldRegion != currentRegion)
+								Track(new ChangeCheckRegionAction(this, check, currentRegion, false));
+						}
+						else
+						{
+							Microsoft.Xna.Framework.Vector2 size = default;
+
+							foreach (Map.Check check in stackedChecks)
+							{
+								Microsoft.Xna.Framework.Vector2 size2 = spriteFont.MeasureString(check.key);
+								size.X = System.Math.Max(size.X, size2.X);
+							}
+
+							size.Y = lbSelectCheck.ItemHeight * stackedChecks.Count;
+
+							Point loc = pnlMap.PointToScreen(new Point(e.X, e.Y));
+							loc = PointToClient(loc);
+
+							Rectangle rect = new Rectangle()
+							{
+								X = loc.X,
+								Y = loc.Y,
+								Width = (int)size.X + 4,
+								Height = (int)size.Y + 4,
+							};
+
+							ShowChecks(rect);
+						}
 					}
 				}
 			}
@@ -373,7 +430,7 @@ namespace SaltMapEdit
 				Rectangle rect = lbConnections.GetItemRectangle(index);
 				rect.Location = lbConnections.PointToScreen(rect.Location);
 				rect.Location = PointToClient(rect.Location);
-				ShowDropdown(rect, connectionList[index].Region, EditConnection);
+				ShowRegions(rect, connectionList[index].Region);
 			}
 		}
 
@@ -390,7 +447,7 @@ namespace SaltMapEdit
 			if (check != null && map.drawMode == Map.DrawMode.Zoomable)
 				map.SetCameraPosition(check.loc);
 
-			map.Filter(currentRegion, check?.key);
+			map.Filter(currentRegion, check);
 		}
 
 		#endregion
@@ -443,6 +500,32 @@ namespace SaltMapEdit
 		{
 			EditConnection();
 			lbSelectRegion.Visible = false;
+			Focus();
+		}
+
+		#endregion
+
+		#region lbSelectCheck
+
+		private void lbSelectCheck_Leave(object sender, System.EventArgs e)
+		{
+			lbSelectCheck.Visible = false;
+		}
+
+		private void lbSelectCheck_KeyDown(object sender, KeyEventArgs e)
+		{
+
+		}
+
+		private void lbSelectCheck_SelectedIndexChanged(object sender, System.EventArgs e)
+		{
+
+		}
+
+		private void lbSelectCheck_Click(object sender, System.EventArgs e)
+		{
+			EditCheck();
+			lbSelectCheck.Visible = false;
 			Focus();
 		}
 
