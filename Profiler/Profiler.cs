@@ -13,10 +13,10 @@ namespace Profiler
 
 		public static Profile Start(string name)
 		{
-#if DEBUG
-
 			if (!Profiles.TryGetValue(name, out Profile profile))
 				Profiles.Add(name, profile = new Profile(name));
+
+#if DEBUG
 
 			profile.startTime = GetCurrentTime();
 			profile.endTime = 0;

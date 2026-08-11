@@ -245,6 +245,14 @@ namespace SaltMap
 
 		private Rune runes;
 
+		public Func<bool> saveRegions = () => true;
+
+#if !DEBUG
+
+		private CheckGroup hoveredCheckGroup = null;
+
+#endif
+
 		public Map()
 		{
 			camera = Matrix.CreateTranslation(new Vector3(-mapPosition * (zoom * 0.1f), 0.0f));
@@ -339,6 +347,8 @@ namespace SaltMap
 					kvp.Value.group.checks.Add(kvp.Value);
 				}
 			}
+
+			UpdateAvailable();
 		}
 
 		private void CreateDialogues()
@@ -476,7 +486,7 @@ namespace SaltMap
 			SaveChecks("npcs.json", npcs);
 			SaveChecks("dialogues.json", dialogues);
 
-			SaveJson("regions.json", regions);
+			SaveRegions();
 		}
 
 		private void SaveChecks<T>(string path, Dictionary<string, T> checks) where T : Check
@@ -485,6 +495,12 @@ namespace SaltMap
 				kvp.Value.region = kvp.Value.Region.key;
 
 			SaveJson(path, checks);
+		}
+
+		private void SaveRegions()
+		{
+			if (saveRegions())
+				SaveJson("regions.json", regions);
 		}
 
 		private void SaveJson<T>(string path, Dictionary<string, T> dict)
@@ -528,7 +544,7 @@ namespace SaltMap
 			}
 		}
 
-		private void UpdateAvailable()
+		public void UpdateAvailable()
 		{
 			Region menu = regions["menu"];
 			updateStack.Push(menu);
@@ -583,6 +599,8 @@ namespace SaltMap
 
 			return false;
 		}
+
+		public bool HasFlag(string flag) => flags.Contains(flag);
 
 		public void ClearFlags() => flags.Clear();
 
@@ -851,26 +869,6 @@ namespace SaltMap
 		public void ToggleCheck(Point point) => ToggleCheck(new Vector2(point.X, point.Y));
 		public void ToggleCheck(WinPoint point) => ToggleCheck(new Vector2(point.X, point.Y));
 
-		private void DrawEntryBlock(Check check, Color color, float scale)
-		{
-			Vector2 loc4 = check.loc * itemScale;
-
-			if (drawMode == DrawMode.Full)
-				loc4 = (loc4 - mapPosition) * scale;
-			else
-				loc4 = Vector2.Transform(loc4, camera);
-
-			color = GetCheckColor(check);
-
-			if (regionFilter != null)
-				color = check.Region == regionFilter ? Color.LightGreen : Color.IndianRed;
-
-			Color borderColor = checkFilter == check ? Color.DarkMagenta : Color.Black;
-
-			spriteBatch.Draw(pixel, loc4, null, borderColor, 0.0f, Vector2.One * 0.5f, 40.0f * scale, SpriteEffects.None, 0.0f);
-			spriteBatch.Draw(pixel, loc4, null, color, 0.0f, Vector2.One * 0.5f, 30.0f * scale, SpriteEffects.None, 0.0f);
-		}
-
 		private void DrawEntryText(string text, Vector2 loc, float scale, Color? color = null)
 		{
 			Vector2 loc4 = loc * itemScale;
@@ -951,18 +949,6 @@ namespace SaltMap
 			}
 		}
 
-		private void DrawCSMBlocks(Dictionary<string, CSM> csms, Color color, float scale)
-		{
-			foreach (KeyValuePair<string, CSM> kvp in csms)
-				DrawEntryBlock(kvp.Value, color, scale);
-		}
-
-		private void DrawCSMTexts(Dictionary<string, CSM> csms, Color color, float scale)
-		{
-			foreach (KeyValuePair<string, CSM> kvp in csms)
-				DrawEntryText(kvp.Key, kvp.Value.loc, scale);
-		}
-
 		private void DrawBlocks(float scale)
 		{
 			Profiler.Profile profile = Profiler.Profiler.Start("Map.DrawBlocks");
@@ -971,26 +957,9 @@ namespace SaltMap
 				DrawCheckGroupBlock(checkGroup, scale);
 
 			Profiler.Profiler.End(profile);
-
-			//DrawCSMBlocks(chests, Color.Cyan, scale);
-			//DrawCSMBlocks(sacks, Color.Yellow, scale);
-			//DrawCSMBlocks(mimics, Color.Magenta, scale);
-
-			//foreach (KeyValuePair<string, Sequence> kvp in sequences)
-			//	DrawEntryBlock(kvp.Value, Color.Green, scale);
-
-			//foreach (KeyValuePair<string, Sanctuary> kvp in sanctuaries)
-			//	DrawEntryBlock(kvp.Value, Color.HotPink, scale);
-
-			//foreach (KeyValuePair<string, Boss> kvp in bosses)
-			//	DrawEntryBlock(kvp.Value, Color.Purple, scale);
-
-			//foreach (KeyValuePair<string, NPC> kvp in npcs)
-			//	DrawEntryBlock(kvp.Value, Color.White, scale);
-
-			//foreach (KeyValuePair<string, Dialogue> kvp in dialogues)
-			//	DrawEntryBlock(kvp.Value, Color.White, scale);
 		}
+
+#if DEBUG
 
 		private void DrawTexts(float scale)
 		{
@@ -1001,54 +970,36 @@ namespace SaltMap
 				DrawEntryText(checkGroup.checks[0].key, checkGroup.loc, scale);
 
 				if (checkGroup.checks.Count > 1)
-					DrawEntryText("+", checkGroup.loc - new Vector2(0.0f, 40.0f), scale);
+					DrawEntryText("+", checkGroup.loc - new Vector2(0.0f, blockFillSize / itemScale), scale);
 			}
-
-			//DrawCSMTexts(chests, Color.Cyan, scale);
-			//DrawCSMTexts(sacks, Color.Yellow, scale);
-			//DrawCSMTexts(mimics, Color.Magenta, scale);
-
-			//foreach (KeyValuePair<string, Sequence> kvp in sequences)
-			//	DrawEntryText(kvp.Key, kvp.Value.loc, scale);
-
-			//foreach (KeyValuePair<string, Sanctuary> kvp in sanctuaries)
-			//	DrawEntryText(kvp.Key, kvp.Value.loc, scale);
-
-			//foreach (KeyValuePair<string, Boss> kvp in bosses)
-			//	DrawEntryText(kvp.Key, kvp.Value.loc, scale);
-
-			//foreach (KeyValuePair<string, NPC> kvp in npcs)
-			//	DrawEntryText(kvp.Key, kvp.Value.loc, scale);
-
-			//foreach (KeyValuePair<string, Dialogue> kvp in dialogues)
-			//	DrawEntryText(kvp.Key, kvp.Value.loc, scale);
 
 			Profiler.Profiler.End(profile);
 		}
 
-		private List<Check> hoveredChecks = new List<Check>();
+#else
 
 		private void DrawHovered(Vector2 pos, float scale)
 		{
-			hoveredChecks.Clear();
-			GetChecks(pos, hoveredChecks);
+			GetCheckGroup(pos, out hoveredCheckGroup);
 
-			if (hoveredChecks.Count == 0)
+			if (hoveredCheckGroup == null)
 				return;
 
 			Vector2 gap = new Vector2(1800.0f, 250.0f);
-			Vector2 loc = hoveredChecks[0].loc;
+			Vector2 loc = hoveredCheckGroup.loc;
 			int maxY = 7;
 
-			for (int i = 0; i < hoveredChecks.Count; i++)
+			for (int i = 0; i < hoveredCheckGroup.checks.Count; i++)
 			{
-				Color color = GetCheckColor(hoveredChecks[i]);
+				Color color = GetCheckColor(hoveredCheckGroup.checks[i]);
 
 				int x = i / maxY;
 				int y = i % maxY;
-				DrawEntryText(hoveredChecks[i].key, loc + gap * new Vector2(x, y), scale, color);
+				DrawEntryText(hoveredCheckGroup.checks[i].key, loc + gap * new Vector2(x, y), scale, color);
 			}
 		}
+
+#endif
 
 		public void Draw(Vector2 pos)
 		{

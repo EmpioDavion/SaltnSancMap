@@ -99,19 +99,25 @@ namespace SaltMapEdit
 			
 			map.Draw(form.mousePos);
 
+#if DEBUG
+
 			Vector2 mousePos = map.GetMapPosition(form.mousePos);
 			mousePosText.Clear();
 			mousePosText.Append(mousePos);
 
 			double milliseconds = gameTime.ElapsedGameTime.TotalMilliseconds;
 			fpsText.Clear();
-			fpsText.Append(1000.0 / System.Math.Max(1, milliseconds));
+			fpsText.AppendFormat("{0:0.####}", 1000.0 / System.Math.Max(1, milliseconds));
 
 			_spriteBatch.Draw(map.pixel, new Vector2(14, 14), null, new Color(0,0,0,0.3f), 0.0f,
 				Vector2.Zero, new Vector2(220, 20), SpriteEffects.None, 0.0f);
 			_spriteBatch.DrawString(font, mousePosText, new Vector2(16, 16), Color.White);
+			
+			_spriteBatch.Draw(map.pixel, new Vector2(14, 38), null, new Color(0,0,0,0.3f), 0.0f,
+				Vector2.Zero, new Vector2(64, 20), SpriteEffects.None, 0.0f);
+			_spriteBatch.DrawString(font, fpsText, new Vector2(16, 40), Color.White);
 
-			_spriteBatch.DrawString(font, fpsText, new Vector2(16, 80), Color.White);
+#endif
 
 			_spriteBatch.End();
 

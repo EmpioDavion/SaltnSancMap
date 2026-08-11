@@ -1,7 +1,10 @@
-﻿using SaltMap;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using SaltMap;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace SaltMapEdit
@@ -48,6 +51,8 @@ namespace SaltMapEdit
 
 		public readonly BindingList<Map.Region> regionSelect = new BindingList<Map.Region>();
 
+		public readonly List<string> progressList = new List<string>();
+
 		private BindingList<Map.Check> stackedChecks = new BindingList<Map.Check>();
 
 		public Microsoft.Xna.Framework.Graphics.SpriteFont spriteFont;
@@ -80,6 +85,21 @@ namespace SaltMapEdit
 
 			lbSelectRegion.DataSource = regionSelect;
 			lbSelectCheck.DataSource = stackedChecks;
+
+			map.saveRegions = SaveRegions;
+		}
+
+		private bool SaveRegions()
+		{
+			OrderedDictionary<string, Map.Region> regions = new OrderedDictionary<string, Map.Region>();
+
+			foreach (Map.Region region in regionList)
+				regions[region.key] = region;
+
+			string json = JsonConvert.SerializeObject(regions, Formatting.Indented);
+			File.WriteAllText("regions.json", json);
+
+			return false;
 		}
 
 		private void Track(UndoAction action)
@@ -146,7 +166,25 @@ namespace SaltMapEdit
 			int index = lbItems.SelectedIndex;
 			string oldItem = itemList[index];
 			string newItem = tbEdit.Text;
+
+			if (itemList.Contains(newItem))
+				return;
+
 			Track(new RenameItemAction(this, currentConnection, oldItem, newItem, false));
+		}
+
+		private void EditProgress()
+		{
+			int index = lbProgress.SelectedIndex;
+			string oldItem = progressList[index];
+			string newItem = tbEdit.Text;
+
+			// if the flag is already set, this is a duplicate
+			// if the flag is a check, should be toggling the check instead
+			if (map.HasFlag(newItem) || map.GetLocation(newItem, out _))
+				return;
+
+			Track(new RenameProgressAction(this, oldItem, newItem, false));
 		}
 
 		internal int CompareConnections(Map.Connection a, Map.Connection b)
@@ -170,10 +208,11 @@ namespace SaltMapEdit
 
 		internal int CompareChecks(string a, string b)
 		{
-			map.GetLocation(a, out Map.Check ca);
-			map.GetLocation(b, out Map.Check cb);
+			//map.GetLocation(a, out Map.Check ca);
+			//map.GetLocation(b, out Map.Check cb);
 
-			return ca.id - cb.id;
+			//return ca.id - cb.id;
+			return a.CompareTo(b);
 		}
 
 		internal void SortLocations()
@@ -207,6 +246,16 @@ namespace SaltMapEdit
 			lbItems.DataSource = itemList;
 		}
 
+		internal void SortProgress()
+		{
+			progressList.Sort();
+
+			lbProgress.Items.Clear();
+
+			foreach (string progress in progressList)
+				lbProgress.Items.Add(progress);
+		}
+
 		#region Events
 
 		#region pnlMap
@@ -216,7 +265,7 @@ namespace SaltMapEdit
 			if (e.Button == MouseButtons.Middle)
 			{
 				if (map.GetCheck(e.Location, out Map.Check check))
-					Track(new ToggleCheckAction(check, false));
+					Track(new ToggleCheckAction(this, check, false));
 			}
 			else if (e.Button == MouseButtons.Right)
 			{
@@ -386,7 +435,14 @@ namespace SaltMapEdit
 				newIndex = lbRegions.Items.Count - 1;
 
 			if (oldIndex != newIndex)
+			{
 				Track(new ReorderRegionAction(this, oldIndex, newIndex, false));
+
+				foreach (Map.Region mapRegion in regionList)
+					mapRegion.connections.Sort(CompareConnections);
+
+				SortConnections();
+			}
 
 			regionDrag.state = DragState.None;
 		}
@@ -405,6 +461,8 @@ namespace SaltMapEdit
 		#endregion
 
 		#region lbConnections
+
+		// connections are auto sorted by region order
 
 		private void lbConnections_SelectedValueChanged(object sender, System.EventArgs e)
 		{
@@ -431,6 +489,15 @@ namespace SaltMapEdit
 				rect.Location = lbConnections.PointToScreen(rect.Location);
 				rect.Location = PointToClient(rect.Location);
 				ShowRegions(rect, connectionList[index].Region);
+			}
+		}
+
+		private void lbConnections_KeyDown(object sender, KeyEventArgs e)
+		{
+			if (e.KeyCode == Keys.Delete)
+			{
+				if (currentConnection != null)
+					Track(new AddConnectionAction(this, currentRegion, currentConnection, true));
 			}
 		}
 
@@ -474,6 +541,33 @@ namespace SaltMapEdit
 				rect.Location = lbItems.PointToScreen(rect.Location);
 				rect.Location = PointToClient(rect.Location);
 				ShowEdit(rect, itemList[index], EditItem);
+			}
+		}
+
+		#endregion
+
+		#region lbProgress
+
+		private void lbProgress_KeyDown(object sender, KeyEventArgs e)
+		{
+			if (e.KeyCode == Keys.Delete)
+			{
+				int i = lbProgress.SelectedIndex;
+
+				Track(new AddProgressAction(this, progressList[i], true));
+			}
+		}
+
+		private void lbProgress_DoubleClick(object sender, System.EventArgs e)
+		{
+			int index = lbProgress.SelectedIndex;
+
+			if (index >= 0)
+			{
+				Rectangle rect = lbProgress.GetItemRectangle(index);
+				rect.Location = lbProgress.PointToScreen(rect.Location);
+				rect.Location = PointToClient(rect.Location);
+				ShowEdit(rect, progressList[index], EditProgress);
 			}
 		}
 
@@ -553,12 +647,13 @@ namespace SaltMapEdit
 			}
 			else
 			{
-				// allowed keys are A-Z, 0-9, arrow keys, underscore
+				// allowed keys are A-Z, 0-9, arrow keys, underscore, backspace, delete
 				bool validKey = e.KeyCode >= Keys.A && e.KeyCode <= Keys.Z ||
 					e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9 && !e.Shift ||
 					e.KeyCode >= Keys.NumPad0 && e.KeyCode <= Keys.NumPad9 ||
 					e.KeyCode >= Keys.Left && e.KeyCode <= Keys.Down ||
-					e.KeyCode == Keys.OemMinus && e.Shift;
+					e.KeyCode == Keys.OemMinus && e.Shift ||
+					e.KeyCode == Keys.Back || e.KeyCode == Keys.Delete;
 
 				validKey &= !e.Control; // control is not pressed
 
@@ -570,6 +665,11 @@ namespace SaltMapEdit
 		#endregion
 
 		#region Buttons
+
+		private void btnClearFilter_Click(object sender, System.EventArgs e)
+		{
+			map.Filter(null, null);
+		}
 
 		private void btnAddRegion_Click(object sender, System.EventArgs e)
 		{
@@ -611,6 +711,11 @@ namespace SaltMapEdit
 				Track(new AddItemAction(this, currentConnection, "new_item", false));
 		}
 
+		private void btnAddProgress_Click(object sender, System.EventArgs e)
+		{
+			Track(new AddProgressAction(this, "new_progress", false));
+		}
+
 		private void btnSave_Click(object sender, System.EventArgs e)
 		{
 			map.Save();
@@ -639,13 +744,23 @@ namespace SaltMapEdit
 
 	#region Undo
 
-	public class ToggleCheckAction : UndoAction
+	public abstract class MainFormUndoAction : UndoAction
+	{
+		protected readonly MainForm form;
+
+		public MainFormUndoAction(MainForm form, bool inverted) : base(inverted)
+		{
+			this.form = form;
+		}
+	}
+
+	public class ToggleCheckAction : MainFormUndoAction
 	{
 		private readonly Map.Check check;
 		private readonly Map.CheckState oldCheckState;
 		private readonly Map.CheckState newCheckState;
 
-		public ToggleCheckAction(Map.Check check, bool inverted) : base(inverted)
+		public ToggleCheckAction(MainForm form, Map.Check check, bool inverted) : base(form, inverted)
 		{
 			this.check = check;
 			oldCheckState = check.checkState;
@@ -656,24 +771,24 @@ namespace SaltMapEdit
 		public override void Undo()
 		{
 			check.checkState = oldCheckState;
+			form.map.RemoveFlag(check.key);
 		}
 
 		public override void Redo()
 		{
 			check.checkState = newCheckState;
+			form.map.AddFlag(check.key);
 		}
 	}
 
-	public class ChangeCheckRegionAction : UndoAction
+	public class ChangeCheckRegionAction : MainFormUndoAction
 	{
-		private readonly MainForm form;
 		private readonly Map.Check check;
 		private readonly Map.Region oldRegion;
 		private readonly Map.Region newRegion;
 
-		public ChangeCheckRegionAction(MainForm form, Map.Check check, Map.Region newRegion, bool inverted) : base(inverted)
+		public ChangeCheckRegionAction(MainForm form, Map.Check check, Map.Region newRegion, bool inverted) : base(form, inverted)
 		{
-			this.form = form;
 			this.check = check;
 			oldRegion = check.Region;
 			this.newRegion = newRegion;
@@ -709,15 +824,13 @@ namespace SaltMapEdit
 		}
 	}
 
-	public class AddRegionAction : UndoAction
+	public class AddRegionAction : MainFormUndoAction
 	{
-		private readonly MainForm form;
 		private readonly Map.Region region;
 		private readonly int index;
 
-		public AddRegionAction(MainForm form, Map.Region region, int index, bool inverted) : base(inverted)
+		public AddRegionAction(MainForm form, Map.Region region, int index, bool inverted) : base(form, inverted)
 		{
-			this.form = form;
 			this.region = region;
 			this.index = index;
 		}
@@ -737,15 +850,13 @@ namespace SaltMapEdit
 		}
 	}
 
-	public class AddConnectionAction : UndoAction
+	public class AddConnectionAction : MainFormUndoAction
 	{
-		private readonly MainForm form;
 		private readonly Map.Region region;
 		private readonly Map.Connection connection;
 
-		public AddConnectionAction(MainForm form, Map.Region region, Map.Connection connection, bool inverted) : base(inverted)
+		public AddConnectionAction(MainForm form, Map.Region region, Map.Connection connection, bool inverted) : base(form, inverted)
 		{
-			this.form = form;
 			this.region = region;
 			this.connection = connection;
 		}
@@ -763,15 +874,13 @@ namespace SaltMapEdit
 		}
 	}
 
-	public class AddItemAction : UndoAction
+	public class AddItemAction : MainFormUndoAction
 	{
-		private readonly MainForm form;
 		private readonly Map.Connection connection;
 		private readonly string item;
 
-		public AddItemAction(MainForm form, Map.Connection connection, string item, bool inverted) : base(inverted)
+		public AddItemAction(MainForm form, Map.Connection connection, string item, bool inverted) : base(form, inverted)
 		{
-			this.form = form;
 			this.connection = connection;
 			this.item = item;
 		}
@@ -795,17 +904,41 @@ namespace SaltMapEdit
 		}
 	}
 
-	public class RenameRegionAction : UndoAction
+	public class AddProgressAction : MainFormUndoAction
 	{
-		private readonly MainForm form;
+		private readonly string progress;
+
+		public AddProgressAction(MainForm form, string progress, bool inverted) : base(form, inverted)
+		{
+			this.progress = progress;
+		}
+
+		public override void Undo()
+		{
+			form.progressList.Remove(progress);
+			form.SortProgress();
+
+			form.map.UpdateAvailable();
+		}
+
+		public override void Redo()
+		{
+			form.progressList.Add(progress);
+			form.SortProgress();
+
+			form.map.UpdateAvailable();
+		}
+	}
+
+	public class RenameRegionAction : MainFormUndoAction
+	{
 		private readonly Map.Region region;
 		private readonly string oldItem;
 		private readonly string newItem;
 		private readonly int index;
 
-		public RenameRegionAction(MainForm form, Map.Region region, string oldItem, string newItem, int index, bool inverted) : base(inverted)
+		public RenameRegionAction(MainForm form, Map.Region region, string oldItem, string newItem, int index, bool inverted) : base(form, inverted)
 		{
-			this.form = form;
 			this.region = region;
 			this.oldItem = oldItem;
 			this.newItem = newItem;
@@ -831,16 +964,14 @@ namespace SaltMapEdit
 		}
 	}
 
-	public class ChangeConnectionAction : UndoAction
+	public class ChangeConnectionAction : MainFormUndoAction
 	{
-		private readonly MainForm form;
 		private readonly Map.Connection connection;
 		private readonly Map.Region oldRegion;
 		private readonly Map.Region newRegion;
 
-		public ChangeConnectionAction(MainForm form, Map.Connection connection, Map.Region newRegion, bool inverted) : base(inverted)
+		public ChangeConnectionAction(MainForm form, Map.Connection connection, Map.Region newRegion, bool inverted) : base(form, inverted)
 		{
-			this.form = form;
 			this.connection = connection;
 			oldRegion = connection.Region;
 			this.newRegion = newRegion;
@@ -859,16 +990,14 @@ namespace SaltMapEdit
 		}
 	}
 
-	public class RenameItemAction : UndoAction
+	public class RenameItemAction : MainFormUndoAction
 	{
-		private readonly MainForm form;
 		private readonly Map.Connection connection;
 		private readonly string oldItem;
 		private readonly string newItem;
 
-		public RenameItemAction(MainForm form, Map.Connection connection, string oldItem, string newItem, bool inverted) : base(inverted)
+		public RenameItemAction(MainForm form, Map.Connection connection, string oldItem, string newItem, bool inverted) : base(form, inverted)
 		{
-			this.form = form;
 			this.connection = connection;
 			this.oldItem = oldItem;
 			this.newItem = newItem;
@@ -895,18 +1024,51 @@ namespace SaltMapEdit
 		}
 	}
 
+	public class RenameProgressAction : MainFormUndoAction
+	{
+		private readonly string oldItem;
+		private readonly string newItem;
+
+		public RenameProgressAction(MainForm form, string oldItem, string newItem, bool inverted) : base(form, inverted)
+		{
+			this.oldItem = oldItem;
+			this.newItem = newItem;
+		}
+
+		private void ChangeItem(string oldValue, string newValue)
+		{
+			int index = form.progressList.IndexOf(oldValue);
+			form.progressList[index] = newValue;
+
+			form.SortProgress();
+
+			form.map.RemoveFlag(oldValue);
+			form.map.AddFlag(newValue);
+
+			form.map.UpdateAvailable();
+		}
+
+		public override void Undo()
+		{
+			ChangeItem(newItem, oldItem);
+		}
+
+		public override void Redo()
+		{
+			ChangeItem(oldItem, newItem);
+		}
+	}
+
 	// if old index is less than new index, new index will
 	// need to be shifted back 1 to account for the removal
 	// regions are saved in a dictionary, so does order matter?
-	public class ReorderRegionAction : UndoAction
+	public class ReorderRegionAction : MainFormUndoAction
 	{
-		private readonly MainForm form;
 		private readonly int oldIndex;
 		private readonly int newIndex;
 
-		public ReorderRegionAction(MainForm form, int oldIndex, int newIndex, bool inverted) : base(inverted)
+		public ReorderRegionAction(MainForm form, int oldIndex, int newIndex, bool inverted) : base(form, inverted)
 		{
-			this.form = form;
 			this.oldIndex = oldIndex;
 			this.newIndex = newIndex + (oldIndex < newIndex ? -1 : 0);
 		}
