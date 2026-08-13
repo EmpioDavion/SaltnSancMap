@@ -1,18 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net452</TargetFramework>
+	  <LangVersion>10.0</LangVersion>
+	  <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="Game1.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*">
-      <PrivateAssets>All</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Profiler\Profiler.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Update="bosses.json">
@@ -223,4 +224,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="SET TAR=F:/Program Files/Steam/steamapps/common/Salt and Sanctuary/BepInEx/plugins/SaltnSancAP&#xD;&#xA;MKDIR &quot;%25TAR%25&quot;&#xD;&#xA;MKDIR &quot;%25TAR%25/map_cut&quot;&#xD;&#xA;COPY &quot;$(TargetPath)&quot; &quot;%25TAR%25/$(TargetName)$(TargetExt)&quot;&#xD;&#xA;COPY &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;%25TAR%25/$(TargetName).pdb&quot;&#xD;&#xA;COPY &quot;$(TargetDir)map_full_low.jpg&quot; &quot;%25TAR%25/map_full_low.jpg&quot;&#xD;&#xA;ROBOCOPY $(TargetDir) &quot;%25TAR%25/&quot; *.json&#xD;&#xA;ROBOCOPY /XO $(TargetDir)map_cut/ &quot;%25TAR%25/map_cut/&quot; *.jpg /XF &quot;%25TAR%25/SaltMap.deps.json&quot;" />
+  </Target>
 </Project>

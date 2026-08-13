@@ -1,7 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Profiler;
 using SaltMap;
+using System.Collections.Generic;
 using System.Text;
 using WinForm = System.Windows.Forms.Form;
 
@@ -17,6 +19,9 @@ namespace SaltMapEdit
 		private readonly MainForm form;
 
 		private SpriteFont font;
+
+		private readonly StringBuilder mousePosText = new StringBuilder();
+		private readonly StringBuilder fpsText = new StringBuilder();
 
 		public MainGame(MainForm form)
 		{
@@ -70,7 +75,7 @@ namespace SaltMapEdit
 		protected override void LoadContent()
 		{
 			font = Content.Load<SpriteFont>("DefaultFont");
-			map.Init(GraphicsDevice, _spriteBatch, font);
+			map.Init(".", GraphicsDevice, _spriteBatch, font);
 
 			form.spriteFont = font;
 			form.MapLoaded();
@@ -82,14 +87,11 @@ namespace SaltMapEdit
 		{
 			Profile profile = Profiler.Profiler.Start("MainGame.Update");
 
-			map.Update(form.pnlMap.Focused);
+			map.Update();
 			base.Update(gameTime);
 
 			Profiler.Profiler.End(profile);
 		}
-
-		private readonly StringBuilder mousePosText = new StringBuilder();
-		private readonly StringBuilder fpsText = new StringBuilder();
 
 		protected override void Draw(GameTime gameTime)
 		{

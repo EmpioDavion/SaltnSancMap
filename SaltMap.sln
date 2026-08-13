@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaltMapEdit", "SaltMapEdit\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profiler", "Profiler\Profiler.csproj", "{9E381843-7A28-49AE-BED8-3BC7D99558C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentBuilder", "ContentBuilder\ContentBuilder.csproj", "{DC6AFF09-E845-B7AE-1651-C6A33862E4E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9E381843-7A28-49AE-BED8-3BC7D99558C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E381843-7A28-49AE-BED8-3BC7D99558C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E381843-7A28-49AE-BED8-3BC7D99558C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6AFF09-E845-B7AE-1651-C6A33862E4E3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DC6AFF09-E845-B7AE-1651-C6A33862E4E3}.Debug|Any CPU.Build.0 = Debug|x86
+		{DC6AFF09-E845-B7AE-1651-C6A33862E4E3}.Release|Any CPU.ActiveCfg = Release|x86
+		{DC6AFF09-E845-B7AE-1651-C6A33862E4E3}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

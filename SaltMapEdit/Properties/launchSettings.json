@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaltMapEdit": {
+      "commandName": "Project",
+      "workingDirectory": "$(TargetDir)../../Shared"
+    }
+  }
+}

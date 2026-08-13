@@ -28,419 +28,451 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			pnlMap = new System.Windows.Forms.Panel();
-			tbEdit = new System.Windows.Forms.TextBox();
-			pnlConnections = new System.Windows.Forms.Panel();
-			lbConnections = new System.Windows.Forms.ListBox();
-			lblConnections = new System.Windows.Forms.Label();
-			btnAddConnection = new System.Windows.Forms.Button();
-			btnAddRegion = new System.Windows.Forms.Button();
-			btnRedo = new System.Windows.Forms.Button();
-			btnUndo = new System.Windows.Forms.Button();
-			btnSave = new System.Windows.Forms.Button();
-			lbLocations = new System.Windows.Forms.ListBox();
-			btnAddItem = new System.Windows.Forms.Button();
-			lbItems = new System.Windows.Forms.ListBox();
-			lbRegions = new System.Windows.Forms.ListBox();
-			lblRegions = new System.Windows.Forms.Label();
-			lbSelectRegion = new System.Windows.Forms.ListBox();
-			pnlRegions = new System.Windows.Forms.Panel();
-			btnClearFilter = new System.Windows.Forms.Button();
-			pnlLocations = new System.Windows.Forms.Panel();
-			lblLocations = new System.Windows.Forms.Label();
-			pnlItems = new System.Windows.Forms.Panel();
-			lblItems = new System.Windows.Forms.Label();
-			lbSelectCheck = new System.Windows.Forms.ListBox();
-			pnlProgress = new System.Windows.Forms.Panel();
-			btnAddProgress = new System.Windows.Forms.Button();
-			lbProgress = new System.Windows.Forms.ListBox();
-			lblProgress = new System.Windows.Forms.Label();
-			pnlConnections.SuspendLayout();
-			pnlRegions.SuspendLayout();
-			pnlLocations.SuspendLayout();
-			pnlItems.SuspendLayout();
-			pnlProgress.SuspendLayout();
-			SuspendLayout();
+			this.pnlMap = new System.Windows.Forms.Panel();
+			this.tbEdit = new System.Windows.Forms.TextBox();
+			this.pnlConnections = new System.Windows.Forms.Panel();
+			this.lbConnections = new System.Windows.Forms.ListBox();
+			this.lblConnections = new System.Windows.Forms.Label();
+			this.btnAddConnection = new System.Windows.Forms.Button();
+			this.btnAddRegion = new System.Windows.Forms.Button();
+			this.btnRedo = new System.Windows.Forms.Button();
+			this.btnUndo = new System.Windows.Forms.Button();
+			this.btnSave = new System.Windows.Forms.Button();
+			this.lbLocations = new System.Windows.Forms.ListBox();
+			this.btnAddItem = new System.Windows.Forms.Button();
+			this.lbItems = new System.Windows.Forms.ListBox();
+			this.lbRegions = new System.Windows.Forms.ListBox();
+			this.lblRegions = new System.Windows.Forms.Label();
+			this.lbSelectRegion = new System.Windows.Forms.ListBox();
+			this.pnlRegions = new System.Windows.Forms.Panel();
+			this.btnClearFilter = new System.Windows.Forms.Button();
+			this.pnlLocations = new System.Windows.Forms.Panel();
+			this.lblLocations = new System.Windows.Forms.Label();
+			this.pnlItems = new System.Windows.Forms.Panel();
+			this.lblItems = new System.Windows.Forms.Label();
+			this.lbSelectCheck = new System.Windows.Forms.ListBox();
+			this.pnlProgress = new System.Windows.Forms.Panel();
+			this.btnAddProgress = new System.Windows.Forms.Button();
+			this.lbProgress = new System.Windows.Forms.ListBox();
+			this.lblProgress = new System.Windows.Forms.Label();
+			this.pnlConnections.SuspendLayout();
+			this.pnlRegions.SuspendLayout();
+			this.pnlLocations.SuspendLayout();
+			this.pnlItems.SuspendLayout();
+			this.pnlProgress.SuspendLayout();
+			this.SuspendLayout();
 			// 
 			// pnlMap
 			// 
-			pnlMap.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			pnlMap.Location = new System.Drawing.Point(12, 12);
-			pnlMap.Name = "pnlMap";
-			pnlMap.Size = new System.Drawing.Size(1240, 577);
-			pnlMap.TabIndex = 0;
-			pnlMap.TabStop = true;
-			pnlMap.KeyDown += pnlMap_KeyDown;
-			pnlMap.MouseClick += pnlMap_MouseClick;
-			pnlMap.MouseDown += pnlMap_MouseDown;
-			pnlMap.MouseMove += pnlMap_MouseMove;
-			pnlMap.MouseWheel += pnlMap_MouseWheel;
+			this.pnlMap.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.pnlMap.Location = new System.Drawing.Point(10, 10);
+			this.pnlMap.Name = "pnlMap";
+			this.pnlMap.Size = new System.Drawing.Size(1063, 500);
+			this.pnlMap.TabIndex = 0;
+			this.pnlMap.TabStop = true;
+			this.pnlMap.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlMap_MouseClick);
+			this.pnlMap.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlMap_MouseDown);
+			this.pnlMap.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlMap_MouseMove);
 			// 
 			// tbEdit
 			// 
-			tbEdit.AcceptsReturn = true;
-			tbEdit.BackColor = System.Drawing.Color.Gray;
-			tbEdit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			tbEdit.Location = new System.Drawing.Point(150, 20);
-			tbEdit.Name = "tbEdit";
-			tbEdit.Size = new System.Drawing.Size(100, 23);
-			tbEdit.TabIndex = 0;
-			tbEdit.TabStop = false;
-			tbEdit.Text = "tbEdit";
-			tbEdit.Visible = false;
-			tbEdit.KeyDown += tbEdit_KeyDown;
-			tbEdit.Leave += tbEdit_Leave;
+			this.tbEdit.AcceptsReturn = true;
+			this.tbEdit.BackColor = System.Drawing.Color.Gray;
+			this.tbEdit.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.tbEdit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.tbEdit.Location = new System.Drawing.Point(241, 17);
+			this.tbEdit.Name = "tbEdit";
+			this.tbEdit.Size = new System.Drawing.Size(86, 23);
+			this.tbEdit.TabIndex = 0;
+			this.tbEdit.TabStop = false;
+			this.tbEdit.Text = "tbEdit";
+			this.tbEdit.Visible = false;
+			this.tbEdit.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbEdit_KeyDown);
+			this.tbEdit.Leave += new System.EventHandler(this.tbEdit_Leave);
 			// 
 			// pnlConnections
 			// 
-			pnlConnections.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
-			pnlConnections.Controls.Add(lbConnections);
-			pnlConnections.Controls.Add(lblConnections);
-			pnlConnections.Controls.Add(btnAddConnection);
-			pnlConnections.Location = new System.Drawing.Point(225, 595);
-			pnlConnections.Name = "pnlConnections";
-			pnlConnections.Size = new System.Drawing.Size(210, 294);
-			pnlConnections.TabIndex = 1;
+			this.pnlConnections.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.pnlConnections.Controls.Add(this.lbConnections);
+			this.pnlConnections.Controls.Add(this.lblConnections);
+			this.pnlConnections.Controls.Add(this.btnAddConnection);
+			this.pnlConnections.Location = new System.Drawing.Point(193, 516);
+			this.pnlConnections.Name = "pnlConnections";
+			this.pnlConnections.Size = new System.Drawing.Size(180, 255);
+			this.pnlConnections.TabIndex = 1;
 			// 
 			// lbConnections
 			// 
-			lbConnections.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			lbConnections.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			lbConnections.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lbConnections.Location = new System.Drawing.Point(3, 18);
-			lbConnections.Name = "lbConnections";
-			lbConnections.Size = new System.Drawing.Size(204, 244);
-			lbConnections.TabIndex = 4;
-			lbConnections.SelectedValueChanged += lbConnections_SelectedValueChanged;
-			lbConnections.DoubleClick += lbConnections_DoubleClick;
-			lbConnections.KeyDown += lbConnections_KeyDown;
+			this.lbConnections.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.lbConnections.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lbConnections.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.lbConnections.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbConnections.ItemHeight = 15;
+			this.lbConnections.Location = new System.Drawing.Point(3, 16);
+			this.lbConnections.Name = "lbConnections";
+			this.lbConnections.Size = new System.Drawing.Size(175, 199);
+			this.lbConnections.TabIndex = 4;
+			this.lbConnections.SelectedValueChanged += new System.EventHandler(this.lbConnections_SelectedValueChanged);
+			this.lbConnections.DoubleClick += new System.EventHandler(this.lbConnections_DoubleClick);
+			this.lbConnections.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lbConnections_KeyDown);
 			// 
 			// lblConnections
 			// 
-			lblConnections.AutoSize = true;
-			lblConnections.BackColor = System.Drawing.Color.Transparent;
-			lblConnections.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			lblConnections.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lblConnections.Location = new System.Drawing.Point(0, 0);
-			lblConnections.Name = "lblConnections";
-			lblConnections.Size = new System.Drawing.Size(75, 15);
-			lblConnections.TabIndex = 0;
-			lblConnections.Text = "Connections";
+			this.lblConnections.AutoSize = true;
+			this.lblConnections.BackColor = System.Drawing.Color.Transparent;
+			this.lblConnections.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblConnections.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lblConnections.Location = new System.Drawing.Point(0, 0);
+			this.lblConnections.Name = "lblConnections";
+			this.lblConnections.Size = new System.Drawing.Size(75, 15);
+			this.lblConnections.TabIndex = 0;
+			this.lblConnections.Text = "Connections";
 			// 
 			// btnAddConnection
 			// 
-			btnAddConnection.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			btnAddConnection.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			btnAddConnection.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			btnAddConnection.Location = new System.Drawing.Point(45, 267);
-			btnAddConnection.Name = "btnAddConnection";
-			btnAddConnection.Size = new System.Drawing.Size(120, 24);
-			btnAddConnection.TabIndex = 5;
-			btnAddConnection.Text = "Add";
-			btnAddConnection.UseVisualStyleBackColor = false;
-			btnAddConnection.Click += btnAddConnection_Click;
+			this.btnAddConnection.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnAddConnection.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnAddConnection.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnAddConnection.Location = new System.Drawing.Point(39, 231);
+			this.btnAddConnection.Name = "btnAddConnection";
+			this.btnAddConnection.Size = new System.Drawing.Size(103, 21);
+			this.btnAddConnection.TabIndex = 5;
+			this.btnAddConnection.Text = "Add";
+			this.btnAddConnection.UseVisualStyleBackColor = false;
+			this.btnAddConnection.Click += new System.EventHandler(this.btnAddConnection_Click);
 			// 
 			// btnAddRegion
 			// 
-			btnAddRegion.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
-			btnAddRegion.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			btnAddRegion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			btnAddRegion.Location = new System.Drawing.Point(87, 267);
-			btnAddRegion.Name = "btnAddRegion";
-			btnAddRegion.Size = new System.Drawing.Size(120, 24);
-			btnAddRegion.TabIndex = 3;
-			btnAddRegion.Text = "Add";
-			btnAddRegion.UseVisualStyleBackColor = false;
-			btnAddRegion.Click += btnAddRegion_Click;
+			this.btnAddRegion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnAddRegion.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnAddRegion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnAddRegion.Location = new System.Drawing.Point(75, 231);
+			this.btnAddRegion.Name = "btnAddRegion";
+			this.btnAddRegion.Size = new System.Drawing.Size(103, 21);
+			this.btnAddRegion.TabIndex = 3;
+			this.btnAddRegion.Text = "Add";
+			this.btnAddRegion.UseVisualStyleBackColor = false;
+			this.btnAddRegion.Click += new System.EventHandler(this.btnAddRegion_Click);
 			// 
 			// btnRedo
 			// 
-			btnRedo.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
-			btnRedo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			btnRedo.Enabled = false;
-			btnRedo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			btnRedo.Location = new System.Drawing.Point(1092, 823);
-			btnRedo.Name = "btnRedo";
-			btnRedo.Size = new System.Drawing.Size(160, 34);
-			btnRedo.TabIndex = 13;
-			btnRedo.Text = "Redo";
-			btnRedo.UseVisualStyleBackColor = false;
-			btnRedo.Click += btnRedo_Click;
+			this.btnRedo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnRedo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnRedo.Enabled = false;
+			this.btnRedo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnRedo.Location = new System.Drawing.Point(936, 713);
+			this.btnRedo.Name = "btnRedo";
+			this.btnRedo.Size = new System.Drawing.Size(137, 29);
+			this.btnRedo.TabIndex = 13;
+			this.btnRedo.Text = "Redo";
+			this.btnRedo.UseVisualStyleBackColor = false;
+			this.btnRedo.Click += new System.EventHandler(this.btnRedo_Click);
 			// 
 			// btnUndo
 			// 
-			btnUndo.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
-			btnUndo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			btnUndo.Enabled = false;
-			btnUndo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			btnUndo.Location = new System.Drawing.Point(1092, 718);
-			btnUndo.Name = "btnUndo";
-			btnUndo.Size = new System.Drawing.Size(160, 34);
-			btnUndo.TabIndex = 12;
-			btnUndo.Text = "Undo";
-			btnUndo.UseVisualStyleBackColor = false;
-			btnUndo.Click += btnUndo_Click;
+			this.btnUndo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnUndo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnUndo.Enabled = false;
+			this.btnUndo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnUndo.Location = new System.Drawing.Point(936, 622);
+			this.btnUndo.Name = "btnUndo";
+			this.btnUndo.Size = new System.Drawing.Size(137, 29);
+			this.btnUndo.TabIndex = 12;
+			this.btnUndo.Text = "Undo";
+			this.btnUndo.UseVisualStyleBackColor = false;
+			this.btnUndo.Click += new System.EventHandler(this.btnUndo_Click);
 			// 
 			// btnSave
 			// 
-			btnSave.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
-			btnSave.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			btnSave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			btnSave.Location = new System.Drawing.Point(1092, 613);
-			btnSave.Name = "btnSave";
-			btnSave.Size = new System.Drawing.Size(160, 34);
-			btnSave.TabIndex = 11;
-			btnSave.Text = "Save";
-			btnSave.UseVisualStyleBackColor = false;
-			btnSave.Click += btnSave_Click;
+			this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnSave.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnSave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnSave.Location = new System.Drawing.Point(936, 531);
+			this.btnSave.Name = "btnSave";
+			this.btnSave.Size = new System.Drawing.Size(137, 29);
+			this.btnSave.TabIndex = 11;
+			this.btnSave.Text = "Save";
+			this.btnSave.UseVisualStyleBackColor = false;
+			this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
 			// 
 			// lbLocations
 			// 
-			lbLocations.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			lbLocations.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			lbLocations.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lbLocations.Location = new System.Drawing.Point(3, 18);
-			lbLocations.Name = "lbLocations";
-			lbLocations.Size = new System.Drawing.Size(203, 244);
-			lbLocations.TabIndex = 6;
-			lbLocations.SelectedValueChanged += lbLocations_SelectedValueChanged;
+			this.lbLocations.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.lbLocations.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lbLocations.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.lbLocations.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbLocations.ItemHeight = 15;
+			this.lbLocations.Location = new System.Drawing.Point(3, 16);
+			this.lbLocations.Name = "lbLocations";
+			this.lbLocations.Size = new System.Drawing.Size(175, 199);
+			this.lbLocations.TabIndex = 6;
+			this.lbLocations.Click += new System.EventHandler(this.lbLocations_Click);
 			// 
 			// btnAddItem
 			// 
-			btnAddItem.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			btnAddItem.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			btnAddItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			btnAddItem.Location = new System.Drawing.Point(45, 267);
-			btnAddItem.Name = "btnAddItem";
-			btnAddItem.Size = new System.Drawing.Size(120, 24);
-			btnAddItem.TabIndex = 8;
-			btnAddItem.Text = "Add";
-			btnAddItem.UseVisualStyleBackColor = false;
-			btnAddItem.Click += btnAddItem_Click;
+			this.btnAddItem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnAddItem.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnAddItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnAddItem.Location = new System.Drawing.Point(39, 231);
+			this.btnAddItem.Name = "btnAddItem";
+			this.btnAddItem.Size = new System.Drawing.Size(103, 21);
+			this.btnAddItem.TabIndex = 8;
+			this.btnAddItem.Text = "Add";
+			this.btnAddItem.UseVisualStyleBackColor = false;
+			this.btnAddItem.Click += new System.EventHandler(this.btnAddItem_Click);
 			// 
 			// lbItems
 			// 
-			lbItems.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			lbItems.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			lbItems.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lbItems.Location = new System.Drawing.Point(3, 18);
-			lbItems.Name = "lbItems";
-			lbItems.Size = new System.Drawing.Size(204, 244);
-			lbItems.TabIndex = 7;
-			lbItems.DoubleClick += lbItems_DoubleClick;
-			lbItems.KeyDown += lbItems_KeyDown;
+			this.lbItems.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.lbItems.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lbItems.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.lbItems.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbItems.ItemHeight = 15;
+			this.lbItems.Location = new System.Drawing.Point(3, 16);
+			this.lbItems.Name = "lbItems";
+			this.lbItems.Size = new System.Drawing.Size(175, 199);
+			this.lbItems.TabIndex = 7;
+			this.lbItems.DoubleClick += new System.EventHandler(this.lbItems_DoubleClick);
+			this.lbItems.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lbItems_KeyDown);
 			// 
 			// lbRegions
 			// 
-			lbRegions.AllowDrop = true;
-			lbRegions.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			lbRegions.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			lbRegions.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			lbRegions.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lbRegions.FormattingEnabled = true;
-			lbRegions.Location = new System.Drawing.Point(3, 18);
-			lbRegions.Name = "lbRegions";
-			lbRegions.Size = new System.Drawing.Size(204, 244);
-			lbRegions.TabIndex = 1;
-			lbRegions.SelectedValueChanged += lbRegions_SelectedValueChanged;
-			lbRegions.DragDrop += lbRegions_DragDrop;
-			lbRegions.DragOver += lbRegions_DragOver;
-			lbRegions.DoubleClick += lbRegions_DoubleClick;
-			lbRegions.KeyDown += lbRegions_KeyDown;
-			lbRegions.MouseDown += lbRegions_MouseDown;
-			lbRegions.MouseMove += lbRegions_MouseMove;
+			this.lbRegions.AllowDrop = true;
+			this.lbRegions.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.lbRegions.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lbRegions.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbRegions.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbRegions.FormattingEnabled = true;
+			this.lbRegions.ItemHeight = 15;
+			this.lbRegions.Location = new System.Drawing.Point(3, 16);
+			this.lbRegions.Name = "lbRegions";
+			this.lbRegions.Size = new System.Drawing.Size(175, 199);
+			this.lbRegions.TabIndex = 1;
+			this.lbRegions.Click += new System.EventHandler(this.lbRegions_Click);
+			this.lbRegions.DragDrop += new System.Windows.Forms.DragEventHandler(this.lbRegions_DragDrop);
+			this.lbRegions.DragOver += new System.Windows.Forms.DragEventHandler(this.lbRegions_DragOver);
+			this.lbRegions.DoubleClick += new System.EventHandler(this.lbRegions_DoubleClick);
+			this.lbRegions.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lbRegions_KeyDown);
+			this.lbRegions.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lbRegions_DoubleClick);
+			this.lbRegions.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbRegions_MouseDown);
+			this.lbRegions.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lbRegions_MouseMove);
 			// 
 			// lblRegions
 			// 
-			lblRegions.AutoSize = true;
-			lblRegions.BackColor = System.Drawing.Color.Transparent;
-			lblRegions.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			lblRegions.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lblRegions.Location = new System.Drawing.Point(3, 0);
-			lblRegions.Name = "lblRegions";
-			lblRegions.Size = new System.Drawing.Size(51, 15);
-			lblRegions.TabIndex = 0;
-			lblRegions.Text = "Regions";
+			this.lblRegions.AutoSize = true;
+			this.lblRegions.BackColor = System.Drawing.Color.Transparent;
+			this.lblRegions.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblRegions.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lblRegions.Location = new System.Drawing.Point(3, 0);
+			this.lblRegions.Name = "lblRegions";
+			this.lblRegions.Size = new System.Drawing.Size(51, 15);
+			this.lblRegions.TabIndex = 0;
+			this.lblRegions.Text = "Regions";
 			// 
 			// lbSelectRegion
 			// 
-			lbSelectRegion.BackColor = System.Drawing.Color.Gray;
-			lbSelectRegion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lbSelectRegion.FormattingEnabled = true;
-			lbSelectRegion.Location = new System.Drawing.Point(20, 20);
-			lbSelectRegion.Name = "lbSelectRegion";
-			lbSelectRegion.Size = new System.Drawing.Size(120, 94);
-			lbSelectRegion.TabIndex = 0;
-			lbSelectRegion.TabStop = false;
-			lbSelectRegion.Visible = false;
-			lbSelectRegion.Click += lbSelectRegion_Click;
-			lbSelectRegion.SelectedIndexChanged += lbSelectRegion_SelectedIndexChanged;
-			lbSelectRegion.KeyDown += lbSelectRegion_KeyDown;
-			lbSelectRegion.Leave += lbSelectRegion_Leave;
+			this.lbSelectRegion.BackColor = System.Drawing.Color.Gray;
+			this.lbSelectRegion.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.lbSelectRegion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbSelectRegion.FormattingEnabled = true;
+			this.lbSelectRegion.ItemHeight = 15;
+			this.lbSelectRegion.Location = new System.Drawing.Point(17, 17);
+			this.lbSelectRegion.Name = "lbSelectRegion";
+			this.lbSelectRegion.Size = new System.Drawing.Size(103, 79);
+			this.lbSelectRegion.TabIndex = 0;
+			this.lbSelectRegion.TabStop = false;
+			this.lbSelectRegion.Visible = false;
+			this.lbSelectRegion.Click += new System.EventHandler(this.lbRegions_Click);
+			this.lbSelectRegion.DragDrop += new System.Windows.Forms.DragEventHandler(this.lbRegions_DragDrop);
+			this.lbSelectRegion.DragOver += new System.Windows.Forms.DragEventHandler(this.lbRegions_DragOver);
+			this.lbSelectRegion.DoubleClick += new System.EventHandler(this.lbRegions_DoubleClick);
+			this.lbSelectRegion.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lbRegions_KeyDown);
+			this.lbSelectRegion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbRegions_MouseDown);
+			this.lbSelectRegion.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lbRegions_MouseMove);
 			// 
 			// pnlRegions
 			// 
-			pnlRegions.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
-			pnlRegions.Controls.Add(btnClearFilter);
-			pnlRegions.Controls.Add(btnAddRegion);
-			pnlRegions.Controls.Add(lbRegions);
-			pnlRegions.Controls.Add(lblRegions);
-			pnlRegions.Location = new System.Drawing.Point(12, 595);
-			pnlRegions.Name = "pnlRegions";
-			pnlRegions.Size = new System.Drawing.Size(210, 294);
-			pnlRegions.TabIndex = 11;
+			this.pnlRegions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.pnlRegions.Controls.Add(this.btnClearFilter);
+			this.pnlRegions.Controls.Add(this.btnAddRegion);
+			this.pnlRegions.Controls.Add(this.lbRegions);
+			this.pnlRegions.Controls.Add(this.lblRegions);
+			this.pnlRegions.Location = new System.Drawing.Point(10, 516);
+			this.pnlRegions.Name = "pnlRegions";
+			this.pnlRegions.Size = new System.Drawing.Size(180, 255);
+			this.pnlRegions.TabIndex = 11;
 			// 
 			// btnClearFilter
 			// 
-			btnClearFilter.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
-			btnClearFilter.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			btnClearFilter.Location = new System.Drawing.Point(3, 267);
-			btnClearFilter.Name = "btnClearFilter";
-			btnClearFilter.Size = new System.Drawing.Size(75, 23);
-			btnClearFilter.TabIndex = 2;
-			btnClearFilter.Text = "Clear Filter";
-			btnClearFilter.UseVisualStyleBackColor = false;
-			btnClearFilter.Click += btnClearFilter_Click;
+			this.btnClearFilter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.btnClearFilter.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnClearFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
+			this.btnClearFilter.Location = new System.Drawing.Point(3, 231);
+			this.btnClearFilter.Name = "btnClearFilter";
+			this.btnClearFilter.Size = new System.Drawing.Size(64, 20);
+			this.btnClearFilter.TabIndex = 2;
+			this.btnClearFilter.Text = "Clear Filter";
+			this.btnClearFilter.UseVisualStyleBackColor = false;
+			this.btnClearFilter.Click += new System.EventHandler(this.btnClearFilter_Click);
 			// 
 			// pnlLocations
 			// 
-			pnlLocations.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
-			pnlLocations.Controls.Add(lbLocations);
-			pnlLocations.Controls.Add(lblLocations);
-			pnlLocations.Location = new System.Drawing.Point(438, 595);
-			pnlLocations.Name = "pnlLocations";
-			pnlLocations.Size = new System.Drawing.Size(210, 294);
-			pnlLocations.TabIndex = 10;
+			this.pnlLocations.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.pnlLocations.Controls.Add(this.lbLocations);
+			this.pnlLocations.Controls.Add(this.lblLocations);
+			this.pnlLocations.Location = new System.Drawing.Point(375, 516);
+			this.pnlLocations.Name = "pnlLocations";
+			this.pnlLocations.Size = new System.Drawing.Size(180, 255);
+			this.pnlLocations.TabIndex = 10;
 			// 
 			// lblLocations
 			// 
-			lblLocations.AutoSize = true;
-			lblLocations.BackColor = System.Drawing.Color.Transparent;
-			lblLocations.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			lblLocations.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lblLocations.Location = new System.Drawing.Point(0, 0);
-			lblLocations.Name = "lblLocations";
-			lblLocations.Size = new System.Drawing.Size(59, 15);
-			lblLocations.TabIndex = 0;
-			lblLocations.Text = "Locations";
+			this.lblLocations.AutoSize = true;
+			this.lblLocations.BackColor = System.Drawing.Color.Transparent;
+			this.lblLocations.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblLocations.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lblLocations.Location = new System.Drawing.Point(0, 0);
+			this.lblLocations.Name = "lblLocations";
+			this.lblLocations.Size = new System.Drawing.Size(59, 15);
+			this.lblLocations.TabIndex = 0;
+			this.lblLocations.Text = "Locations";
 			// 
 			// pnlItems
 			// 
-			pnlItems.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
-			pnlItems.Controls.Add(lbItems);
-			pnlItems.Controls.Add(lblItems);
-			pnlItems.Controls.Add(btnAddItem);
-			pnlItems.Location = new System.Drawing.Point(651, 595);
-			pnlItems.Name = "pnlItems";
-			pnlItems.Size = new System.Drawing.Size(210, 294);
-			pnlItems.TabIndex = 7;
+			this.pnlItems.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.pnlItems.Controls.Add(this.lbItems);
+			this.pnlItems.Controls.Add(this.lblItems);
+			this.pnlItems.Controls.Add(this.btnAddItem);
+			this.pnlItems.Location = new System.Drawing.Point(558, 516);
+			this.pnlItems.Name = "pnlItems";
+			this.pnlItems.Size = new System.Drawing.Size(180, 255);
+			this.pnlItems.TabIndex = 7;
 			// 
 			// lblItems
 			// 
-			lblItems.AutoSize = true;
-			lblItems.BackColor = System.Drawing.Color.Transparent;
-			lblItems.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			lblItems.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lblItems.Location = new System.Drawing.Point(0, 0);
-			lblItems.Name = "lblItems";
-			lblItems.Size = new System.Drawing.Size(39, 15);
-			lblItems.TabIndex = 0;
-			lblItems.Text = "Items";
+			this.lblItems.AutoSize = true;
+			this.lblItems.BackColor = System.Drawing.Color.Transparent;
+			this.lblItems.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblItems.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lblItems.Location = new System.Drawing.Point(0, 0);
+			this.lblItems.Name = "lblItems";
+			this.lblItems.Size = new System.Drawing.Size(39, 15);
+			this.lblItems.TabIndex = 0;
+			this.lblItems.Text = "Items";
 			// 
 			// lbSelectCheck
 			// 
-			lbSelectCheck.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			lbSelectCheck.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lbSelectCheck.FormattingEnabled = true;
-			lbSelectCheck.Location = new System.Drawing.Point(260, 20);
-			lbSelectCheck.Name = "lbSelectCheck";
-			lbSelectCheck.Size = new System.Drawing.Size(120, 94);
-			lbSelectCheck.TabIndex = 0;
-			lbSelectCheck.TabStop = false;
-			lbSelectCheck.Visible = false;
-			lbSelectCheck.Click += lbSelectCheck_Click;
-			lbSelectCheck.SelectedIndexChanged += lbSelectCheck_SelectedIndexChanged;
-			lbSelectCheck.KeyDown += lbSelectCheck_KeyDown;
-			lbSelectCheck.Leave += lbSelectCheck_Leave;
+			this.lbSelectCheck.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lbSelectCheck.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.lbSelectCheck.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbSelectCheck.FormattingEnabled = true;
+			this.lbSelectCheck.ItemHeight = 15;
+			this.lbSelectCheck.Location = new System.Drawing.Point(129, 17);
+			this.lbSelectCheck.Name = "lbSelectCheck";
+			this.lbSelectCheck.Size = new System.Drawing.Size(103, 79);
+			this.lbSelectCheck.TabIndex = 0;
+			this.lbSelectCheck.TabStop = false;
+			this.lbSelectCheck.Visible = false;
+			this.lbSelectCheck.Click += new System.EventHandler(this.lbSelectCheck_Click);
+			this.lbSelectCheck.SelectedIndexChanged += new System.EventHandler(this.lbSelectCheck_SelectedIndexChanged);
+			this.lbSelectCheck.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lbSelectCheck_KeyDown);
+			this.lbSelectCheck.Leave += new System.EventHandler(this.lbSelectCheck_Leave);
 			// 
 			// pnlProgress
 			// 
-			pnlProgress.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
-			pnlProgress.Controls.Add(btnAddProgress);
-			pnlProgress.Controls.Add(lbProgress);
-			pnlProgress.Controls.Add(lblProgress);
-			pnlProgress.Location = new System.Drawing.Point(867, 595);
-			pnlProgress.Name = "pnlProgress";
-			pnlProgress.Size = new System.Drawing.Size(210, 294);
-			pnlProgress.TabIndex = 12;
+			this.pnlProgress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.pnlProgress.Controls.Add(this.btnAddProgress);
+			this.pnlProgress.Controls.Add(this.lbProgress);
+			this.pnlProgress.Controls.Add(this.lblProgress);
+			this.pnlProgress.Location = new System.Drawing.Point(743, 516);
+			this.pnlProgress.Name = "pnlProgress";
+			this.pnlProgress.Size = new System.Drawing.Size(180, 255);
+			this.pnlProgress.TabIndex = 12;
 			// 
 			// btnAddProgress
 			// 
-			btnAddProgress.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			btnAddProgress.Location = new System.Drawing.Point(45, 267);
-			btnAddProgress.Name = "btnAddProgress";
-			btnAddProgress.Size = new System.Drawing.Size(120, 24);
-			btnAddProgress.TabIndex = 10;
-			btnAddProgress.Text = "Add";
-			btnAddProgress.UseVisualStyleBackColor = false;
-			btnAddProgress.Click += btnAddProgress_Click;
+			this.btnAddProgress.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnAddProgress.Location = new System.Drawing.Point(39, 231);
+			this.btnAddProgress.Name = "btnAddProgress";
+			this.btnAddProgress.Size = new System.Drawing.Size(103, 21);
+			this.btnAddProgress.TabIndex = 10;
+			this.btnAddProgress.Text = "Add";
+			this.btnAddProgress.UseVisualStyleBackColor = false;
+			this.btnAddProgress.Click += new System.EventHandler(this.btnAddProgress_Click);
 			// 
 			// lbProgress
 			// 
-			lbProgress.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			lbProgress.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			lbProgress.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			lbProgress.Location = new System.Drawing.Point(3, 18);
-			lbProgress.Name = "lbProgress";
-			lbProgress.Size = new System.Drawing.Size(204, 244);
-			lbProgress.TabIndex = 9;
-			lbProgress.DoubleClick += lbProgress_DoubleClick;
-			lbProgress.KeyDown += lbProgress_KeyDown;
+			this.lbProgress.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.lbProgress.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lbProgress.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.lbProgress.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbProgress.ItemHeight = 15;
+			this.lbProgress.Location = new System.Drawing.Point(3, 16);
+			this.lbProgress.Name = "lbProgress";
+			this.lbProgress.Size = new System.Drawing.Size(175, 199);
+			this.lbProgress.TabIndex = 9;
+			this.lbProgress.DoubleClick += new System.EventHandler(this.lbProgress_DoubleClick);
+			this.lbProgress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lbProgress_KeyDown);
 			// 
 			// lblProgress
 			// 
-			lblProgress.AutoSize = true;
-			lblProgress.BackColor = System.Drawing.Color.Transparent;
-			lblProgress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-			lblProgress.Location = new System.Drawing.Point(0, 0);
-			lblProgress.Name = "lblProgress";
-			lblProgress.Size = new System.Drawing.Size(55, 15);
-			lblProgress.TabIndex = 0;
-			lblProgress.Text = "Progress";
+			this.lblProgress.AutoSize = true;
+			this.lblProgress.BackColor = System.Drawing.Color.Transparent;
+			this.lblProgress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+			this.lblProgress.Location = new System.Drawing.Point(0, 0);
+			this.lblProgress.Name = "lblProgress";
+			this.lblProgress.Size = new System.Drawing.Size(55, 15);
+			this.lblProgress.TabIndex = 0;
+			this.lblProgress.Text = "Progress";
 			// 
 			// MainForm
 			// 
-			AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			BackColor = System.Drawing.Color.FromArgb(74, 88, 104);
-			ClientSize = new System.Drawing.Size(1264, 901);
-			Controls.Add(lbSelectCheck);
-			Controls.Add(lbSelectRegion);
-			Controls.Add(tbEdit);
-			Controls.Add(pnlRegions);
-			Controls.Add(pnlConnections);
-			Controls.Add(pnlLocations);
-			Controls.Add(pnlItems);
-			Controls.Add(pnlProgress);
-			Controls.Add(btnSave);
-			Controls.Add(btnUndo);
-			Controls.Add(btnRedo);
-			Controls.Add(pnlMap);
-			ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			Name = "MainForm";
-			Text = "MainForm";
-			pnlConnections.ResumeLayout(false);
-			pnlConnections.PerformLayout();
-			pnlRegions.ResumeLayout(false);
-			pnlRegions.PerformLayout();
-			pnlLocations.ResumeLayout(false);
-			pnlLocations.PerformLayout();
-			pnlItems.ResumeLayout(false);
-			pnlItems.PerformLayout();
-			pnlProgress.ResumeLayout(false);
-			pnlProgress.PerformLayout();
-			ResumeLayout(false);
-			PerformLayout();
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(88)))), ((int)(((byte)(104)))));
+			this.ClientSize = new System.Drawing.Size(1083, 781);
+			this.Controls.Add(this.lbSelectCheck);
+			this.Controls.Add(this.lbSelectRegion);
+			this.Controls.Add(this.tbEdit);
+			this.Controls.Add(this.pnlRegions);
+			this.Controls.Add(this.pnlConnections);
+			this.Controls.Add(this.pnlLocations);
+			this.Controls.Add(this.pnlItems);
+			this.Controls.Add(this.pnlProgress);
+			this.Controls.Add(this.btnSave);
+			this.Controls.Add(this.btnUndo);
+			this.Controls.Add(this.btnRedo);
+			this.Controls.Add(this.pnlMap);
+			this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.Name = "MainForm";
+			this.Text = "MainForm";
+			this.pnlConnections.ResumeLayout(false);
+			this.pnlConnections.PerformLayout();
+			this.pnlRegions.ResumeLayout(false);
+			this.pnlRegions.PerformLayout();
+			this.pnlLocations.ResumeLayout(false);
+			this.pnlLocations.PerformLayout();
+			this.pnlItems.ResumeLayout(false);
+			this.pnlItems.PerformLayout();
+			this.pnlProgress.ResumeLayout(false);
+			this.pnlProgress.PerformLayout();
+			this.ResumeLayout(false);
+			this.PerformLayout();
+
 		}
 
 		#endregion
@@ -458,18 +490,18 @@
 		private System.Windows.Forms.Button btnUndo;
 		private System.Windows.Forms.Button btnAddRegion;
 		private System.Windows.Forms.TextBox tbEdit;
-		private System.Windows.Forms.ListBox lbSelectRegion;
 		private System.Windows.Forms.Panel pnlRegions;
 		private System.Windows.Forms.Panel pnlLocations;
 		private System.Windows.Forms.Panel pnlItems;
 		private System.Windows.Forms.Label lblConnections;
 		private System.Windows.Forms.Label lblLocations;
 		private System.Windows.Forms.Label lblItems;
-		private System.Windows.Forms.ListBox lbSelectCheck;
 		private System.Windows.Forms.Button btnClearFilter;
 		private System.Windows.Forms.Panel pnlProgress;
 		private System.Windows.Forms.Label lblProgress;
 		private System.Windows.Forms.Button btnAddProgress;
 		public System.Windows.Forms.ListBox lbProgress;
+		public System.Windows.Forms.ListBox lbSelectRegion;
+		public System.Windows.Forms.ListBox lbSelectCheck;
 	}
 }

@@ -33,6 +33,18 @@ namespace SaltMap
 			Collected	= 1 << 3
 		}
 
+		public enum CheckType
+		{
+			Chest,
+			Sack,
+			Mimic,
+			Sequence,
+			Sanctuary,
+			Boss,
+			NPC,
+			Dialogue
+		}
+
 		public class Check
 		{
 			public int id;
@@ -42,6 +54,9 @@ namespace SaltMap
 			internal string region;
 
 			public CheckState checkState;
+
+			[NonSerialized]
+			public CheckType checkType;
 
 			[NonSerialized]
 			public string key;
@@ -62,27 +77,27 @@ namespace SaltMap
 			public override string ToString() => key;
 		}
 
-		private class Sequence : Check
+		public class Sequence : Check
 		{
 			public string type;
 		}
 
-		private class CSM : Check
+		public class CSM : Check
 		{
 			public string[] items;
 		}
 
-		private class Sanctuary : Check
+		public class Sanctuary : Check
 		{
 			public int shrine;
 		}
 
-		private class Boss : Check
+		public class Boss : Check
 		{
 			public string[] items;
 		}
 
-		private class NPC : Check
+		public class NPC : Check
 		{
 			public int seg;
 			public int monster;
@@ -90,7 +105,7 @@ namespace SaltMap
 			public string[] scripts;
 		}
 
-		private class Dialogue : Check
+		public class Dialogue : Check
 		{
 			[JsonIgnore]
 			public NPC NPC { get; internal set; }
@@ -198,6 +213,8 @@ namespace SaltMap
 		private const int MIN_ZOOM = 6;
 		private const int MAX_ZOOM = 11;
 
+		public const float FULL_SCALE = 0.1f;
+
 		public static int ScreenWidth = 1178;
 		public static int ScreenHeight = 570;
 
@@ -221,6 +238,8 @@ namespace SaltMap
 		private Texture2D map;
 		public Texture2D pixel;
 		private int zoom = 6;
+
+		public float ZoomScale => zoom * 0.1f;
 
 		private Vector2 mapPosition = new Vector2(-49.0f, -86.0f);
 		private Matrix camera = Matrix.Identity;
@@ -247,7 +266,9 @@ namespace SaltMap
 
 		public Func<bool> saveRegions = () => true;
 
-#if !DEBUG
+		private string subfolder = "";
+
+#if !DEBUGa
 
 		private CheckGroup hoveredCheckGroup = null;
 
@@ -255,24 +276,27 @@ namespace SaltMap
 
 		public Map()
 		{
-			camera = Matrix.CreateTranslation(new Vector3(-mapPosition * (zoom * 0.1f), 0.0f));
+			camera = Matrix.CreateTranslation(new Vector3(-mapPosition * ZoomScale, 0.0f));
 		}
 
-		public void Init(GraphicsDevice graphicsDevice, SpriteBatch spriteBatch, SpriteFont font)
+		public void Init(string subfolder, GraphicsDevice graphicsDevice,
+			SpriteBatch spriteBatch, SpriteFont font)
 		{
-			camera.M11 = camera.M22 = zoom * 0.1f;
-
+			this.subfolder = subfolder;
 			this.graphicsDevice = graphicsDevice;
 			this.spriteBatch = spriteBatch;
+			this.font = font;
 
-			string[] files = Directory.GetFiles("map_cut/");
+			camera.M11 = camera.M22 = ZoomScale;
+
+			string[] files = Directory.GetFiles($"{subfolder}/map_cut/");
 
 			segments = new SegmentData[SEGMENTS_X, SEGMENTS_Y];
 
+			int a = subfolder.Length + 18;
+
 			foreach (string file in files)
 			{
-				int a = 17;
-
 				char x1 = file[a];
 				char x2 = file[a + 1];
 				char y1 = file[a + 3];
@@ -284,25 +308,26 @@ namespace SaltMap
 				segments[x, y] = new SegmentData() { file = file };
 			}
 
-			this.font = font;
-			map = Texture2D.FromFile(graphicsDevice, "map_full_low.jpg");
+			using (FileStream fs = new FileStream($"{subfolder}/map_full_low.jpg", FileMode.Open))
+				map = Texture2D.FromStream(graphicsDevice, fs);
+
 			pixel = new Texture2D(graphicsDevice, 1, 1);
 			pixel.SetData(new Color[] { Color.White });
 
-			chests = LoadJson<Dictionary<string, CSM>>("chests.json");
-			sacks = LoadJson<Dictionary<string, CSM>>("sacks.json");
-			mimics = LoadJson<Dictionary<string, CSM>>("mimics.json");
-			sequences = LoadJson<Dictionary<string, Sequence>>("sequences.json");
-			sanctuaries = LoadJson<Dictionary<string, Sanctuary>>("sanctuaries.json");
-			bosses = LoadJson<Dictionary<string, Boss>>("bosses.json");
-			npcs = LoadJson<Dictionary<string, NPC>>("npcs.json");
+			chests = LoadJson<Dictionary<string, CSM>>($"{subfolder}/chests.json");
+			sacks = LoadJson<Dictionary<string, CSM>>($"{subfolder}/sacks.json");
+			mimics = LoadJson<Dictionary<string, CSM>>($"{subfolder}/mimics.json");
+			sequences = LoadJson<Dictionary<string, Sequence>>($"{subfolder}/sequences.json");
+			sanctuaries = LoadJson<Dictionary<string, Sanctuary>>($"{subfolder}/sanctuaries.json");
+			bosses = LoadJson<Dictionary<string, Boss>>($"{subfolder}/bosses.json");
+			npcs = LoadJson<Dictionary<string, NPC>>($"{subfolder}/npcs.json");
 
-			if (!File.Exists("dialogues.json"))
+			if (!File.Exists($"{subfolder}/dialogues.json"))
 				CreateDialogues();
 			else
-				dialogues = LoadJson<Dictionary<string, Dialogue>>("dialogues.json");
+				dialogues = LoadJson<Dictionary<string, Dialogue>>($"{subfolder}/dialogues.json");
 
-			regions = LoadJson<Dictionary<string, Region>>("regions.json");
+			regions = LoadJson<Dictionary<string, Region>>($"{subfolder}/regions.json");
 
 			foreach (KeyValuePair<string, Region> kvp in regions)
 			{
@@ -312,14 +337,14 @@ namespace SaltMap
 					connection._region = regions[connection.region];
 			}
 
-			AddLocations(chests);
-			AddLocations(sacks);
-			AddLocations(mimics);
-			AddLocations(sequences);
-			AddLocations(sanctuaries);
-			AddLocations(bosses);
-			AddLocations(npcs);
-			AddLocations(dialogues);
+			AddLocations(chests, CheckType.Chest);
+			AddLocations(sacks, CheckType.Sack);
+			AddLocations(mimics, CheckType.Mimic);
+			AddLocations(sequences, CheckType.Sequence);
+			AddLocations(sanctuaries, CheckType.Sanctuary);
+			AddLocations(bosses, CheckType.Boss);
+			AddLocations(npcs, CheckType.NPC);
+			AddLocations(dialogues, CheckType.Dialogue);
 
 			float maxRange = 10f * 10f;
 
@@ -353,7 +378,7 @@ namespace SaltMap
 
 		private void CreateDialogues()
 		{
-			List<GameDialogue> gameDialogues = LoadJson<List<GameDialogue>>("game_dialogues.json");
+			List<GameDialogue> gameDialogues = LoadJson<List<GameDialogue>>($"{subfolder}/game_dialogues.json");
 
 			dialogues = new Dictionary<string, Dialogue>();
 
@@ -515,16 +540,17 @@ namespace SaltMap
 			return JsonConvert.DeserializeObject<T>(json);
 		}
 
-		private void AddLocations<T>(Dictionary<string, T> checks) where T : Check
+		private void AddLocations<T>(Dictionary<string, T> checks, CheckType checkType) where T : Check
 		{
 			foreach (KeyValuePair<string, T> kvp in checks)
 			{
 				kvp.Value.key = kvp.Key;
-				locations.TryAdd(kvp.Key, kvp.Value);
+				kvp.Value.checkType = checkType;
+				locations.Add(kvp.Key, kvp.Value);
 			}
 		}
 
-		public void Update(bool isActive)
+		public void Update()
 		{
 			foreach (SegmentData segment in segments)
 			{
@@ -538,7 +564,7 @@ namespace SaltMap
 					else if (segment.visible && segment.texture == null && !segment.loading)
 					{
 						segment.loading = true;
-						ThreadPool.QueueUserWorkItem(LoadSegment, segment, true);
+						ThreadPool.QueueUserWorkItem(LoadSegmentO, segment);
 					}
 				}
 			}
@@ -606,34 +632,49 @@ namespace SaltMap
 
 		public void ToggleMode() => drawMode = (DrawMode)(DrawMode.Full - drawMode);
 
-		public void Zoom(float mouseX, float mouseY, int dir)
+		public bool SetZoom(int newZoom, float mouseX, float mouseY)
 		{
+			int oldZoom = zoom;
+
 			// need to make mouse the same world point after zoom
 			Vector2 cameraPos = new Vector2(camera.Translation.X, camera.Translation.Y);
 			Vector2 mouseVec = new Vector2(mouseX, mouseY);
-			Vector2 oldPoint = (mouseVec - cameraPos) / (zoom * 0.1f);
-			zoom = MathHelper.Clamp(zoom + dir, MIN_ZOOM, MAX_ZOOM);
-			Vector2 newPoint = (mouseVec - cameraPos) / (zoom * 0.1f);
+			Vector2 oldPoint = (mouseVec - cameraPos) / ZoomScale;
+			zoom = MathHelper.Clamp(newZoom, MIN_ZOOM, MAX_ZOOM);
+			Vector2 newPoint = (mouseVec - cameraPos) / ZoomScale;
 
-			cameraPos += (newPoint - oldPoint) * (zoom * 0.1f);
+			cameraPos += (newPoint - oldPoint) * ZoomScale;
 			camera.Translation = new Vector3(cameraPos, 0.0f);
 
-			camera.M11 = camera.M22 = zoom * 0.1f;
+			camera.M11 = camera.M22 = ZoomScale;
+
+			return zoom != oldZoom;
 		}
 
-		public void Zoom(Point mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
-		public void Zoom(Vector2 mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
-		public void Zoom(WinPoint mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
+		public bool SetZoom(int newZoom)
+		{
+			float centreX = ScreenWidth / 2;
+			float centreY = ScreenHeight / 2;
 
-		public void ZoomIn(float mouseX, float mouseY) => Zoom(mouseX, mouseY, 1);
-		public void ZoomIn(Point mousePos) => Zoom(mousePos, 1);
-		public void ZoomIn(Vector2 mousePos) => Zoom(mousePos, 1);
-		public void ZoomIn(WinPoint mousePos) => Zoom(mousePos, 1);
+			return SetZoom(newZoom, centreX, centreY);
+		}
 
-		public void ZoomOut(float mouseX, float mouseY) => Zoom(mouseX, mouseY, -1);
-		public void ZoomOut(Point mousePos) => Zoom(mousePos, -1);
-		public void ZoomOut(Vector2 mousePos) => Zoom(mousePos, -1);
-		public void ZoomOut(WinPoint mousePos) => Zoom(mousePos, -1);
+		public bool Zoom(float mouseX, float mouseY, int dir) =>
+			SetZoom(zoom + dir, mouseX, mouseY);
+
+		public bool Zoom(Point mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
+		public bool Zoom(Vector2 mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
+		public bool Zoom(WinPoint mousePos, int dir) => Zoom(mousePos.X, mousePos.Y, dir);
+
+		public bool ZoomIn(float mouseX, float mouseY) => Zoom(mouseX, mouseY, 1);
+		public bool ZoomIn(Point mousePos) => Zoom(mousePos, 1);
+		public bool ZoomIn(Vector2 mousePos) => Zoom(mousePos, 1);
+		public bool ZoomIn(WinPoint mousePos) => Zoom(mousePos, 1);
+
+		public bool ZoomOut(float mouseX, float mouseY) => Zoom(mouseX, mouseY, -1);
+		public bool ZoomOut(Point mousePos) => Zoom(mousePos, -1);
+		public bool ZoomOut(Vector2 mousePos) => Zoom(mousePos, -1);
+		public bool ZoomOut(WinPoint mousePos) => Zoom(mousePos, -1);
 
 		public void Move(float x, float y) => camera.Translation += new Vector3(x, y, 0.0f);
 		public void Move(Point point) => camera.Translation += new Vector3(point.X, point.Y, 0.0f);
@@ -645,9 +686,13 @@ namespace SaltMap
 		public void Offset(Vector2 vec) => mapPosition += new Vector2(vec.X, vec.Y);
 		public void Offset(WinPoint point) => mapPosition += new Vector2(point.X, point.Y);
 
+		private void LoadSegmentO(object segmentData) => LoadSegment((SegmentData)segmentData);
+
 		private void LoadSegment(SegmentData segmentData)
 		{
-			segmentData.texture = Texture2D.FromFile(graphicsDevice, segmentData.file);
+			using (FileStream fs = new FileStream(segmentData.file, FileMode.Open))
+				segmentData.texture = Texture2D.FromStream(graphicsDevice, fs);
+
 			segmentData.loading = false;
 		}
 
@@ -661,7 +706,7 @@ namespace SaltMap
 		{
 			worldPos *= -itemScale;
 			worldPos += mapPosition;
-			worldPos *= zoom * 0.1f;
+			worldPos *= ZoomScale;
 			worldPos += new Vector2(ScreenWidth, ScreenHeight) * 0.5f;
 
 			camera.Translation = new Vector3(worldPos, 0.0f);
@@ -737,6 +782,22 @@ namespace SaltMap
 		public Vector2 GetMapPosition(float x, float y) => GetMapPosition(new Vector2(x, y));
 		public Vector2 GetMapPosition(Point pos) => GetMapPosition(new Vector2(pos.X, pos.Y));
 		public Vector2 GetMapPosition(WinPoint pos) => GetMapPosition(new Vector2(pos.X, pos.Y));
+
+		public Vector2 GetScreenPosition(Vector2 pos)
+		{
+			pos *= itemScale;
+
+			if (drawMode == DrawMode.Full)
+				pos = (pos - mapPosition) * FULL_SCALE;
+			else
+				pos = Vector2.Transform(pos, camera);
+
+			return pos;
+		}
+
+		public Vector2 GetScreenPosition(float x, float y) => GetScreenPosition(new Vector2(x, y));
+		public Vector2 GetScreenPosition(Point pos) => GetScreenPosition(new Vector2(pos.X, pos.Y));
+		public Vector2 GetScreenPosition(WinPoint pos) => GetScreenPosition(new Vector2(pos.X, pos.Y));
 
 		public bool GetLocation(string location, out Check check) =>
 			locations.TryGetValue(location, out check);
@@ -959,7 +1020,7 @@ namespace SaltMap
 			Profiler.Profiler.End(profile);
 		}
 
-#if DEBUG
+#if DEBUGa
 
 		private void DrawTexts(float scale)
 		{
@@ -1003,13 +1064,13 @@ namespace SaltMap
 
 		public void Draw(Vector2 pos)
 		{
-			graphicsDevice.Clear(Color.Black);
+			graphicsDevice.Clear(Color.Transparent);
 
-			float scale = zoom * 0.1f;
+			float scale = ZoomScale;
 
 			if (drawMode == DrawMode.Full)
 			{
-				scale = 0.1f;
+				scale = FULL_SCALE;
 				spriteBatch.Draw(map, Vector2.Zero, null, Color.White, 0.0f, Vector2.Zero, scale * 10.0f, SpriteEffects.None, 0.0f);
 			}
 			else
@@ -1023,10 +1084,10 @@ namespace SaltMap
 				Point tli = new Point((int)tl.X, (int)tl.Y);
 				Point bri = new Point((int)br.X, (int)br.Y);
 
-				int segmentTop = Math.Clamp(tli.Y, 0, SEGMENTS_Y - 1);
-				int segmentBottom = Math.Clamp(bri.Y, 0, SEGMENTS_Y - 1);
-				int segmentLeft = Math.Clamp(tli.X, 0, SEGMENTS_X - 1);
-				int segmentRight = Math.Clamp(bri.X, 0, SEGMENTS_X - 1);
+				int segmentTop = MathHelper.Clamp(tli.Y, 0, SEGMENTS_Y - 1);
+				int segmentBottom = MathHelper.Clamp(bri.Y, 0, SEGMENTS_Y - 1);
+				int segmentLeft = MathHelper.Clamp(tli.X, 0, SEGMENTS_X - 1);
+				int segmentRight = MathHelper.Clamp(bri.X, 0, SEGMENTS_X - 1);
 
 				spriteBatch.Draw(map, mapPos, null, Color.White, 0.0f, Vector2.Zero, scale * 10.0f, SpriteEffects.None, 0.0f);
 
@@ -1053,7 +1114,7 @@ namespace SaltMap
 
 			DrawBlocks(scale);
 
-#if DEBUG
+#if DEBUGa
 			DrawTexts(scale);
 #else
 			DrawHovered(pos, scale);
