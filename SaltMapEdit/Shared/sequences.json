@@ -1,0 +1,476 @@
+{
+  "castledoor": {
+    "type": "Wood Door",
+    "id": 90000,
+    "loc": "13743.3467, 12547.749",
+    "region": "the_festering_banquet"
+  },
+  "castlegate": {
+    "type": "None",
+    "id": 90001,
+    "loc": "16199.6719, 11490.6445",
+    "region": "the_festering_banquet"
+  },
+  "castleladder": {
+    "type": "Ladder",
+    "id": 90002,
+    "loc": "13243.7861, 12049.4141",
+    "region": "the_festering_banquet"
+  },
+  "cavedoor": {
+    "type": "Wood Door",
+    "id": 90003,
+    "loc": "11241.8652, 13180.4844",
+    "region": "shivering_shore"
+  },
+  "sancdoor": {
+    "type": "Wood Door",
+    "id": 90004,
+    "loc": "8226.782, 13381.8965",
+    "region": "shivering_shore"
+  },
+  "sancexit": {
+    "type": "None",
+    "id": 90005,
+    "loc": "9891.893, 13338.8594",
+    "region": "shivering_shore"
+  },
+  "castleexit": {
+    "type": "Wood Door",
+    "id": 90006,
+    "loc": "17016.5684, 11660.5684",
+    "region": "the_festering_banquet"
+  },
+  "castledungeongate": {
+    "type": "None",
+    "id": 90007,
+    "loc": "16945.1152, 12336.7871",
+    "region": "the_festering_banquet"
+  },
+  "secretundervillagegate": {
+    "type": "None",
+    "id": 90008,
+    "loc": "6098.741, 18286.42",
+    "region": "village_of_smiles"
+  },
+  "tunneltoforesttop": {
+    "type": "None",
+    "id": 90009,
+    "loc": "11709.1582, 20057.37",
+    "region": "the_watching_woods"
+  },
+  "tunneltoforestbottom": {
+    "type": "None",
+    "id": 90010,
+    "loc": "12341.5586, 21237.4785",
+    "region": "the_watching_woods"
+  },
+  "castledrawdoor": {
+    "type": "Wood Door",
+    "id": 90011,
+    "loc": "32921.9766, 9173.211",
+    "region": "bandits_pass"
+  },
+  "castlebridgedrop": {
+    "type": "Ladder",
+    "id": 90012,
+    "loc": "42402.6836, 7977.37061",
+    "region": "castle_of_storms"
+  },
+  "forttoundervillagegate": {
+    "type": "None",
+    "id": 90013,
+    "loc": "19205.2012, 13751.7168",
+    "region": "the_festering_banquet"
+  },
+  "treestocave": {
+    "type": "Wood Door",
+    "id": 90014,
+    "loc": "25891.4141, 19656.9277",
+    "region": "sunken_keep"
+  },
+  "bluecaveentrance": {
+    "type": "None",
+    "id": 90015,
+    "loc": "31433.4629, 23554.3438",
+    "region": "hagers_cavern"
+  },
+  "cavefortdoor": {
+    "type": "Wood Door",
+    "id": 90016,
+    "loc": "32054.0586, 26569.6074",
+    "region": "hagers_cavern"
+  },
+  "bluvillagesecret": {
+    "type": "None",
+    "id": 90017,
+    "loc": "32554.4414, 19787.541",
+    "region": "sunken_keep"
+  },
+  "dungeonsecpos": {
+    "type": "None",
+    "id": 90018,
+    "loc": "35976.78, 16895.0566",
+    "region": "sunken_keep"
+  },
+  "ccaverollingrock": {
+    "type": "Stone Door",
+    "id": 90019,
+    "loc": "12686.9141, 14360.9238",
+    "region": "village_of_smiles"
+  },
+  "villagerollingrock": {
+    "type": "Stone Door",
+    "id": 90020,
+    "loc": "3216.664, 16947.707",
+    "region": "village_of_smiles"
+  },
+  "dungeonsec2": {
+    "type": "None",
+    "id": 90021,
+    "loc": "47711.6875, 24360.3281",
+    "region": "red_hall_of_cages"
+  },
+  "villageenter": {
+    "type": "Wood Door",
+    "id": 90022,
+    "loc": "11100.335, 15425.2168",
+    "region": "village_of_smiles"
+  },
+  "skycastleleftdoor": {
+    "type": "Wood Door",
+    "id": 90023,
+    "loc": "47838.1875, 4001.26953",
+    "region": "mals_floating_castle"
+  },
+  "skycastlerightdoor": {
+    "type": "Wood Door",
+    "id": 90024,
+    "loc": "50138.8672, 4531.26953",
+    "region": "mals_floating_castle"
+  },
+  "skycastlegate": {
+    "type": "None",
+    "id": 90025,
+    "loc": "49859.082, 2743.90381",
+    "region": "mals_floating_castle"
+  },
+  "bodiespit1": {
+    "type": "None",
+    "id": 90026,
+    "loc": "49550.1328, 16634.041",
+    "region": "red_hall_of_cages"
+  },
+  "bodiespit2": {
+    "type": "None",
+    "id": 90027,
+    "loc": "48864.75, 16444.4277",
+    "region": "red_hall_of_cages"
+  },
+  "cavebossdoor": {
+    "type": "None",
+    "id": 90028,
+    "loc": "31478.0859, 28356.1953",
+    "region": "hagers_cavern"
+  },
+  "ruinstwinleft": {
+    "type": "None",
+    "id": 90029,
+    "loc": "62535.6875, 20433.3711",
+    "region": "the_ruined_temple"
+  },
+  "ruinstwinright": {
+    "type": "None",
+    "id": 90030,
+    "loc": "62852.93, 20435.5547",
+    "region": "the_ruined_temple"
+  },
+  "domegate": {
+    "type": "None",
+    "id": 90031,
+    "loc": "59249.6367, 13009.17",
+    "region": "dome_of_the_forgotten"
+  },
+  "castlekeydoor": {
+    "type": "Wood Door",
+    "id": 90032,
+    "loc": "33175.65, 7294.92627",
+    "region": "castle_of_storms"
+  },
+  "cavespidoor": {
+    "type": "Wood Door",
+    "id": 90033,
+    "loc": "31964.7422, 28545.36",
+    "region": "hagers_cavern"
+  },
+  "cavespigate": {
+    "type": "None",
+    "id": 90034,
+    "loc": "37507.3633, 31984.54",
+    "region": "crypt_of_dead_gods"
+  },
+  "cavedungeondoor": {
+    "type": "Wood Door",
+    "id": 90035,
+    "loc": "40032.89, 30572.4648",
+    "region": "red_hall_of_cages"
+  },
+  "cavemagestatue": {
+    "type": "Stone Door",
+    "id": 90036,
+    "loc": "16769.28, 13496.5391",
+    "region": "the_festering_banquet"
+  },
+  "zigguratgates": {
+    "type": "Stone Door",
+    "id": 90037,
+    "loc": "79449.06, 11170.3125",
+    "region": "ziggurat_of_dust"
+  },
+  "zigguratupgate": {
+    "type": "None",
+    "id": 90038,
+    "loc": "78965.24, 10230.6582",
+    "region": "ziggurat_of_dust"
+  },
+  "swampgate": {
+    "type": "None",
+    "id": 90039,
+    "loc": "21892.875, 24046.2441",
+    "region": "the_watching_woods"
+  },
+  "dungeon2cave": {
+    "type": "None",
+    "id": 90040,
+    "loc": "33105.9922, 15144.665",
+    "region": "red_hall_of_cages"
+  },
+  "pyramidrightout": {
+    "type": "None",
+    "id": 90041,
+    "loc": "80710.625, 7977.422",
+    "region": "ziggurat_of_dust"
+  },
+  "swampgate2": {
+    "type": "None",
+    "id": 90042,
+    "loc": "24594.2461, 24082.5",
+    "region": "sunken_keep"
+  },
+  "zigguratshortgate": {
+    "type": "None",
+    "id": 90044,
+    "loc": "84681.17, 13512.8145",
+    "region": "ziggurat_of_dust"
+  },
+  "dungeontolab": {
+    "type": "None",
+    "id": 90045,
+    "loc": "46349.6953, 26482.1211",
+    "region": "red_hall_of_cages"
+  },
+  "dungeontoruins": {
+    "type": "None",
+    "id": 90046,
+    "loc": "52306.6641, 18324.0781",
+    "region": "red_hall_of_cages"
+  },
+  "labladder": {
+    "type": "Ladder",
+    "id": 90047,
+    "loc": "51005.93, 27987.2266",
+    "region": "siam_lake"
+  },
+  "labtunnelgate": {
+    "type": "None",
+    "id": 90048,
+    "loc": "46954.7031, 31473.1621",
+    "region": "salt_alkymancery"
+  },
+  "lakelabruins": {
+    "type": "Wood Door",
+    "id": 90049,
+    "loc": "65161.2969, 30512.7969",
+    "region": "the_ruined_temple"
+  },
+  "cave2dungeonb": {
+    "type": "None",
+    "id": 90050,
+    "loc": "42015.6523, 25868.7188",
+    "region": "red_hall_of_cages"
+  },
+  "cavetombgate2": {
+    "type": "Stone Door",
+    "id": 90051,
+    "loc": "28071.7344, 31807.0352",
+    "region": "hagers_cavern"
+  },
+  "labsecretlake": {
+    "type": "Stone Door",
+    "id": 90052,
+    "loc": "51674.68, 26447.7813",
+    "region": "crans_pass"
+  },
+  "tombbackgate": {
+    "type": "None",
+    "id": 90053,
+    "loc": "35589.83, 33063.09",
+    "region": "crypt_of_dead_gods"
+  },
+  "pitchwoodcut": {
+    "type": "None",
+    "id": 90054,
+    "loc": "75902.34, 29287.7",
+    "region": "pitchwoods"
+  },
+  "lpitchlakeshortcut": {
+    "type": "None",
+    "id": 90055,
+    "loc": "68802.16, 30403.1875",
+    "region": "pitchwoods"
+  },
+  "rpitchlakeshortcut": {
+    "type": "None",
+    "id": 90056,
+    "loc": "71419.7344, 30396.4961",
+    "region": "pitchwoods"
+  },
+  "stormdualgate": {
+    "type": "None",
+    "id": 90058,
+    "loc": "38498.375, 6104.42969",
+    "region": "castle_of_storms"
+  },
+  "darkruinsdoor": {
+    "type": "Wood Door",
+    "id": 90059,
+    "loc": "73765.42, 38804.2578",
+    "region": "the_blackest_vault"
+  },
+  "villageatkexit": {
+    "type": "Wood Door",
+    "id": 90060,
+    "loc": "4138.54639, 19479.7676",
+    "region": "village_of_smiles"
+  },
+  "bladebanditgate": {
+    "type": "None",
+    "id": 90061,
+    "loc": "22786.07, 12284.7383",
+    "region": "bandits_pass"
+  },
+  "bladebanditrock": {
+    "type": "Stone Door",
+    "id": 90062,
+    "loc": "21260.83, 11706.5918",
+    "region": "bandits_pass"
+  },
+  "dungeontopdoor": {
+    "type": "Wood Door",
+    "id": 90063,
+    "loc": "36708.3438, 15591.8945",
+    "region": "red_hall_of_cages"
+  },
+  "dungeonbotdoor": {
+    "type": "Wood Door",
+    "id": 90064,
+    "loc": "37746.3047, 18561.9277",
+    "region": "sunken_keep"
+  },
+  "fortblackset": {
+    "type": "None",
+    "id": 90065,
+    "loc": "17662.6719, 12032.8115",
+    "region": "the_festering_banquet"
+  },
+  "cryptgodswall": {
+    "type": "Stone Door",
+    "id": 90066,
+    "loc": "38143.0039, 38609.48",
+    "region": "crypt_of_dead_gods"
+  },
+  "zigropes1": {
+    "type": "None",
+    "id": 90067,
+    "loc": "82788.72, 15088.5322",
+    "region": "ziggurat_of_dust"
+  },
+  "zigropes2": {
+    "type": "None",
+    "id": 90068,
+    "loc": "83054, 14611.8633",
+    "region": "ziggurat_of_dust"
+  },
+  "ruincaveshort1": {
+    "type": "Wood Door",
+    "id": 90069,
+    "loc": "58367.043, 17245.39",
+    "region": "the_ruined_temple"
+  },
+  "ruincaveshort2": {
+    "type": "Wood Door",
+    "id": 90070,
+    "loc": "57129.59, 15514.4824",
+    "region": "the_ruined_temple"
+  },
+  "labtogold": {
+    "type": "Stone Door",
+    "id": 90071,
+    "loc": "53598.8125, 23253.9766",
+    "region": "crans_pass"
+  },
+  "caveswampshrine": {
+    "type": "None",
+    "id": 90072,
+    "loc": "32525.5762, 25081.2",
+    "region": "hagers_cavern"
+  },
+  "dungeonshrtdr": {
+    "type": "None",
+    "id": 90073,
+    "loc": "45194.8047, 13909.8652",
+    "region": "red_hall_of_cages"
+  },
+  "dungeonmidshrt": {
+    "type": "None",
+    "id": 90074,
+    "loc": "44297.9766, 18430.125",
+    "region": "red_hall_of_cages"
+  },
+  "forestkeygate": {
+    "type": "Wood Door",
+    "id": 90075,
+    "loc": "25562.2461, 17606.65",
+    "region": "sunken_keep"
+  },
+  "forestshrinegate": {
+    "type": "None",
+    "id": 90076,
+    "loc": "23303.7383, 16217.81",
+    "region": "sunken_keep"
+  },
+  "skyladdershrt": {
+    "type": "Ladder",
+    "id": 90077,
+    "loc": "51519.9453, 2157.49561",
+    "region": "mals_floating_castle"
+  },
+  "skysideshrt": {
+    "type": "Stone Door",
+    "id": 90078,
+    "loc": "50852.2969, 2191.3623",
+    "region": "mals_floating_castle"
+  },
+  "ruinblockfloor": {
+    "type": "Stone Door",
+    "id": 90079,
+    "loc": "65558.7656, 20814.3066",
+    "region": "the_ruined_temple"
+  },
+  "palaceescape": {
+    "type": "Stone Door",
+    "id": 90080,
+    "loc": "61981.9336, 34587.69",
+    "region": "salt_alkymancery"
+  }
+}

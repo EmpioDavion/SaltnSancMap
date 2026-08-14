@@ -1,0 +1,659 @@
+{
+  "masterless_1": {
+    "seg": 42,
+    "monster": 21,
+    "npc": 0,
+    "scripts": [
+      "disabledflag",
+      "villageenter&masterless_quest_no",
+      "disabledflag",
+      "villageenter&masterless_quest_yes"
+    ],
+    "id": 0,
+    "loc": "17922.123, 11601.01",
+    "region": "npcs"
+  },
+  "nomad_1": {
+    "seg": 61,
+    "monster": 22,
+    "npc": 1,
+    "scripts": [
+      "disabledflag",
+      "dragon",
+      "npcstyle",
+      "0"
+    ],
+    "id": 0,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "oldman_1": {
+    "seg": 372,
+    "monster": 79,
+    "npc": 5,
+    "scripts": [
+      "disabledflag",
+      "castledoor",
+      "npcstyle",
+      "4"
+    ],
+    "id": 0,
+    "loc": "3047.75244, 14576.8574",
+    "region": "npcs"
+  },
+  "jester_1": {
+    "seg": 423,
+    "monster": 65,
+    "npc": 3,
+    "scripts": [
+      "disabledflag",
+      "jester_rune",
+      "npcstyle",
+      "2",
+      "brandfire",
+      "0"
+    ],
+    "id": 0,
+    "loc": "21623.9961, 15220.2568",
+    "region": "npcs"
+  },
+  "despondent_1": {
+    "seg": 424,
+    "monster": 67,
+    "npc": 4,
+    "scripts": [
+      "disabledflag",
+      "castlebridgedropf&despondent_talk_2",
+      "npcstyle",
+      "3",
+      "brandfire",
+      "1"
+    ],
+    "id": 0,
+    "loc": "38548.2422, 3490.707",
+    "region": "npcs"
+  },
+  "oldgreg_1": {
+    "seg": 664,
+    "monster": 96,
+    "npc": 6,
+    "scripts": [
+      "npcstyle",
+      "0"
+    ],
+    "id": 0,
+    "loc": "16679.1426, 28266.07",
+    "region": "npcs"
+  },
+  "memories_1": {
+    "seg": 665,
+    "monster": 97,
+    "npc": 7,
+    "scripts": [],
+    "id": 0,
+    "loc": "43752.7266, 29231.957",
+    "region": "npcs"
+  },
+  "masterless_2": {
+    "seg": 667,
+    "monster": 21,
+    "npc": 0,
+    "scripts": [
+      "enabledflag",
+      "villageenter",
+      "enabledflag",
+      "masterless_quest_yes",
+      "disabledflag",
+      "dragon&masterless_2_talk_3",
+      "talkphase",
+      "2_talk",
+      "npcstyle",
+      "5"
+    ],
+    "id": 0,
+    "loc": "31442.2852, 5655.355",
+    "region": "npcs"
+  },
+  "zenfern_1": {
+    "seg": 669,
+    "monster": 99,
+    "npc": 8,
+    "scripts": [
+      "npcstyle",
+      "1"
+    ],
+    "id": 0,
+    "loc": "11193.792, 20307.8027",
+    "region": "npcs"
+  },
+  "choppy_1": {
+    "seg": 702,
+    "monster": 107,
+    "npc": 9,
+    "scripts": [
+      "disabledflag",
+      "choppy_prison_yes&ruinaxe",
+      "disabledflag",
+      "choppy_prison_no&ruinaxe",
+      "brandfire",
+      "1",
+      "npcstyle",
+      "1"
+    ],
+    "id": 0,
+    "loc": "80167.27, 7922.661",
+    "region": "npcs"
+  },
+  "shellshop_1": {
+    "seg": 735,
+    "monster": 126,
+    "npc": 10,
+    "scripts": [
+      "npcstyle",
+      "1"
+    ],
+    "id": 0,
+    "loc": "8353.15, 10995.8223",
+    "region": "disabled"
+  },
+  "catmerch_1": {
+    "seg": 767,
+    "monster": 135,
+    "npc": 11,
+    "scripts": [],
+    "id": 0,
+    "loc": "8732.532, 11001.6113",
+    "region": "disabled"
+  },
+  "scarecrow_1": {
+    "seg": 768,
+    "monster": 136,
+    "npc": 12,
+    "scripts": [],
+    "id": 0,
+    "loc": "8577.139, 10981.53",
+    "region": "disabled"
+  },
+  "scarecrow_2": {
+    "seg": 770,
+    "monster": 136,
+    "npc": 12,
+    "scripts": [
+      "disabledflag",
+      "scare_talk2&bull"
+    ],
+    "id": 0,
+    "loc": "6755.98926, 16998.1777",
+    "region": "npcs"
+  },
+  "shipcaptain_1": {
+    "seg": 803,
+    "monster": 146,
+    "npc": 13,
+    "scripts": [
+      "npcstyle",
+      "6"
+    ],
+    "id": 0,
+    "loc": "5213.568, 5129.353",
+    "region": "ship"
+  },
+  "boatman_1": {
+    "seg": 804,
+    "monster": 147,
+    "npc": 14,
+    "scripts": [
+      "npcstyle",
+      "7"
+    ],
+    "id": 0,
+    "loc": "1850.3927, 28927.2773",
+    "region": "npcs"
+  },
+  "rightboatman_1": {
+    "seg": 805,
+    "monster": 148,
+    "npc": 15,
+    "scripts": [
+      "npcstyle",
+      "7"
+    ],
+    "id": 0,
+    "loc": "99470.97, 14764.4922",
+    "region": "npcs"
+  },
+  "swampfriend_1": {
+    "seg": 806,
+    "monster": 150,
+    "npc": 17,
+    "scripts": [
+      "npcstyle",
+      "1",
+      "brandfire",
+      "0"
+    ],
+    "id": 0,
+    "loc": "16580.5723, 25804.4375",
+    "region": "npcs"
+  },
+  "domefriend_1": {
+    "seg": 807,
+    "monster": 149,
+    "npc": 16,
+    "scripts": [
+      "npcstyle",
+      "1",
+      "brandfire",
+      "0",
+      "disabledflag",
+      "mummy"
+    ],
+    "id": 0,
+    "loc": "56759.0938, 9237.674",
+    "region": "npcs"
+  },
+  "treelady_1": {
+    "seg": 852,
+    "monster": 156,
+    "npc": 18,
+    "scripts": [
+      "npcstyle",
+      "1"
+    ],
+    "id": 0,
+    "loc": "17158.0488, 23384.2754",
+    "region": "npcs"
+  },
+  "masterless_3": {
+    "seg": 991,
+    "monster": 21,
+    "npc": 0,
+    "scripts": [
+      "enabledflag",
+      "dragon",
+      "enabledflag",
+      "masterless_2_talk_3",
+      "disabledflag",
+      "torturetree&masterless_3_talk_3",
+      "talkphase",
+      "3_talk"
+    ],
+    "id": 0,
+    "loc": "45017.54, 13809.3467",
+    "region": "npcs"
+  },
+  "masterless_4": {
+    "seg": 992,
+    "monster": 21,
+    "npc": 0,
+    "scripts": [
+      "enabledflag",
+      "torturetree",
+      "enabledflag",
+      "masterless_3_talk_3",
+      "disabledflag",
+      "pirate&masterless_4_talk_3",
+      "talkphase",
+      "4_talk",
+      "npcstyle",
+      "0"
+    ],
+    "id": 0,
+    "loc": "38007.46, 27299.5469",
+    "region": "npcs"
+  },
+  "scarecrow_3": {
+    "seg": 995,
+    "monster": 136,
+    "npc": 12,
+    "scripts": [
+      "enabledflag",
+      "dragon",
+      "enabledflag",
+      "scare_talk2",
+      "disabledflag",
+      "scare_talk3&griffin",
+      "talkphase",
+      "2_talk"
+    ],
+    "id": 0,
+    "loc": "42792.0078, 9544.357",
+    "region": "npcs"
+  },
+  "masterless_5": {
+    "seg": 996,
+    "monster": 21,
+    "npc": 0,
+    "scripts": [
+      "enabledflag",
+      "pirate",
+      "enabledflag",
+      "masterless_4_talk_3",
+      "disabledflag",
+      "cloak&masterless_5_talk_3",
+      "talkphase",
+      "5_talk"
+    ],
+    "id": 0,
+    "loc": "63140.5039, 28981.1934",
+    "region": "npcs"
+  },
+  "oldman_2": {
+    "seg": 997,
+    "monster": 79,
+    "npc": 5,
+    "scripts": [
+      "enabledflag",
+      "castledoor",
+      "disabledflag",
+      "jester_rune",
+      "disabledflag",
+      "dragon",
+      "npcstyle",
+      "4"
+    ],
+    "id": 0,
+    "loc": "33268.19, 9751.742",
+    "region": "npcs"
+  },
+  "jester_2": {
+    "seg": 998,
+    "monster": 65,
+    "npc": 3,
+    "scripts": [
+      "enabledflag",
+      "jester_rune",
+      "enabledflag",
+      "dragon",
+      "talkphase",
+      "2_talk",
+      "npcstyle",
+      "2"
+    ],
+    "id": 0,
+    "loc": "43263.94, 12013.2539",
+    "region": "npcs"
+  },
+  "choppy_2": {
+    "seg": 999,
+    "monster": 107,
+    "npc": 9,
+    "scripts": [
+      "enabledflag",
+      "choppy_prison_yes",
+      "disabledflag",
+      "lakewitch&2_choppy_talk_3",
+      "talkphase",
+      "2_talk",
+      "npcstyle",
+      "0"
+    ],
+    "id": 0,
+    "loc": "58136.87, 24537.6953",
+    "region": "npcs"
+  },
+  "despondent_2": {
+    "seg": 1000,
+    "monster": 67,
+    "npc": 4,
+    "scripts": [
+      "enabledflag",
+      "castlebridgedropf",
+      "enabledflag",
+      "despondent_talk_2",
+      "disabledflag",
+      "torturetree&2_desp_talk_3",
+      "talkphase",
+      "2_talk_1",
+      "npcstyle",
+      "0"
+    ],
+    "id": 0,
+    "loc": "46148.91, 21525.7383",
+    "region": "npcs"
+  },
+  "dark_gatekeeper_1": {
+    "seg": 1001,
+    "monster": 188,
+    "npc": 19,
+    "scripts": [
+      "npcstyle",
+      "1"
+    ],
+    "id": 0,
+    "loc": "72860.63, 38632.9727",
+    "region": "npcs"
+  },
+  "masterless_6": {
+    "seg": 1046,
+    "monster": 21,
+    "npc": 0,
+    "scripts": [
+      "enabledflag",
+      "cloak",
+      "enabledflag",
+      "masterless_5_talk_3",
+      "disabledflag",
+      "masterless_6_talk_2",
+      "talkphase",
+      "6_talk"
+    ],
+    "id": 0,
+    "loc": "98122.61, 30280.9551",
+    "region": "npcs"
+  },
+  "despondent_3": {
+    "seg": 1054,
+    "monster": 67,
+    "npc": 4,
+    "scripts": [
+      "enabledflag",
+      "torturetree",
+      "enabledflag",
+      "2_desp_talk_3",
+      "disabledflag",
+      "pirate&3_desp_talk_4",
+      "talkphase",
+      "3_talk_1",
+      "npcstyle",
+      "0"
+    ],
+    "id": 0,
+    "loc": "36553.5039, 24302.6",
+    "region": "npcs"
+  },
+  "despondent_4": {
+    "seg": 1055,
+    "monster": 67,
+    "npc": 4,
+    "scripts": [
+      "enabledflag",
+      "3_desp_talk_3_yes",
+      "enabledflag",
+      "pirate",
+      "disabledflag",
+      "4_desp_talk_3",
+      "talkphase",
+      "4_talk_1",
+      "npcstyle",
+      "5"
+    ],
+    "id": 0,
+    "loc": "97415.26, 14634.3857",
+    "region": "npcs"
+  },
+  "princess_1": {
+    "seg": 1090,
+    "monster": 195,
+    "npc": 20,
+    "scripts": [
+      "npcstyle",
+      "8"
+    ],
+    "id": 0,
+    "loc": "6150.11328, 4240.38135",
+    "region": "npcs"
+  },
+  "princess_maid_1": {
+    "seg": 1091,
+    "monster": 196,
+    "npc": 21,
+    "scripts": [
+      "npcstyle",
+      "9"
+    ],
+    "id": 0,
+    "loc": "6086.257, 4249.875",
+    "region": "npcs"
+  },
+  "scarecrow_4": {
+    "seg": 1094,
+    "monster": 136,
+    "npc": 12,
+    "scripts": [
+      "enabledflag",
+      "scare_talk3",
+      "enabledflag",
+      "griffin",
+      "disabledflag",
+      "lakewitch&scare_talk4",
+      "talkphase",
+      "3_talk"
+    ],
+    "id": 0,
+    "loc": "67147.19, 17996.3223",
+    "region": "npcs"
+  },
+  "scarecrow_5": {
+    "seg": 1095,
+    "monster": 136,
+    "npc": 12,
+    "scripts": [
+      "enabledflag",
+      "lakewitch",
+      "enabledflag",
+      "scare_talk4",
+      "disabledflag",
+      "scare_talk5&squiddragon",
+      "talkphase",
+      "4_talk"
+    ],
+    "id": 0,
+    "loc": "43554.4922, 33482.7969",
+    "region": "npcs"
+  },
+  "choppy_3": {
+    "seg": 1098,
+    "monster": 107,
+    "npc": 9,
+    "scripts": [
+      "enabledflag",
+      "choppy_prison_yes",
+      "enabledflag",
+      "lakewitch",
+      "enabledflag",
+      "2_choppy_talk_3",
+      "disabledflag",
+      "3_choppy_talk_4",
+      "talkphase",
+      "3_talk",
+      "npcstyle",
+      "1"
+    ],
+    "id": 0,
+    "loc": "989.893433, 14865.2373",
+    "region": "npcs"
+  },
+  "oldman_3": {
+    "seg": 1159,
+    "monster": 79,
+    "npc": 5,
+    "scripts": [
+      "enabledflag",
+      "castledoor",
+      "enabledflag",
+      "jester_rune",
+      "enabledflag",
+      "dragon",
+      "disabledflag",
+      "lakewitch",
+      "npcstyle",
+      "4"
+    ],
+    "id": 0,
+    "loc": "60534.0156, 29507.752",
+    "region": "npcs"
+  },
+  "domefriend_2": {
+    "seg": 1196,
+    "monster": 149,
+    "npc": 16,
+    "scripts": [
+      "npcstyle",
+      "1",
+      "enabledflag",
+      "mummy",
+      "enabledflag",
+      "dome_talk_2"
+    ],
+    "id": 0,
+    "loc": "83745.11, 11081.1807",
+    "region": "npcs"
+  },
+  "nomad_2": {
+    "seg": 1220,
+    "monster": 22,
+    "npc": 1,
+    "scripts": [
+      "enabledflag",
+      "dragon",
+      "npcstyle",
+      "0"
+    ],
+    "id": 0,
+    "loc": "43696.9141, 7031.3125",
+    "region": "npcs"
+  },
+  "oldman_4": {
+    "seg": 1221,
+    "monster": 79,
+    "npc": 5,
+    "scripts": [
+      "enabledflag",
+      "castledoor",
+      "enabledflag",
+      "jester_rune",
+      "enabledflag",
+      "dragon",
+      "enabledflag",
+      "lakewitch",
+      "enabledflag",
+      "oldman_3_3",
+      "npcstyle",
+      "4"
+    ],
+    "id": 0,
+    "loc": "49048.4727, 37693.11",
+    "region": "npcs"
+  },
+  "scarecrow_6": {
+    "seg": 1274,
+    "monster": 136,
+    "npc": 12,
+    "scripts": [
+      "enabledflag",
+      "scare_talk5",
+      "enabledflag",
+      "squiddragon",
+      "enabledflag",
+      "nameless",
+      "talkphase",
+      "5_talk",
+      "npcstyle",
+      "10"
+    ],
+    "id": 0,
+    "loc": "67602.8359, 46979.77",
+    "region": "npcs"
+  }
+}

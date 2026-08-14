@@ -15071,6 +15071,6 @@
 		<Exec Command="dotnet tool restore" />
 	</Target>
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-	  <Exec Command="ROBOCOPY /E $(TargetDir) &quot;$(TargetDir)../../Shared/&quot; /XF *.json&#xD;&#xA;&#xD;&#xA;IF %25ERRORLEVEL%25 LEQ 7 EXIT 0" />
+	  <Exec Command="ROBOCOPY /E $(TargetDir) &quot;$(TargetDir)../../../Shared/&quot; /XF *.json&#xD;&#xA;&#xD;&#xA;IF %25ERRORLEVEL%25 LEQ 7 EXIT 0" />
 	</Target>
 </Project>

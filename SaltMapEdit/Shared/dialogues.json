@@ -1,0 +1,1357 @@
+{
+  "masterless_talk": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "the_festering_banquet"
+  },
+  "masterless_quest_yes": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "the_festering_banquet"
+  },
+  "masterless_quest_no": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "disabled"
+  },
+  "masterless_my_quest_yes": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "disabled"
+  },
+  "masterless_my_quest_no": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "disabled"
+  },
+  "masterless_talk2": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "the_festering_banquet"
+  },
+  "masterless_talk3": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "the_festering_banquet"
+  },
+  "masterless_talk4": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "the_festering_banquet"
+  },
+  "masterless_talk5": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "the_festering_banquet"
+  },
+  "masterless_talk6": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "the_festering_banquet"
+  },
+  "masterless_2_talk": {
+    "id": 110001,
+    "loc": "31442.2852, 5655.355",
+    "region": "castle_of_storms"
+  },
+  "masterless_2_talk_2": {
+    "id": 110001,
+    "loc": "31442.2852, 5655.355",
+    "region": "castle_of_storms"
+  },
+  "masterless_2_talk_3": {
+    "id": 110001,
+    "loc": "31442.2852, 5655.355",
+    "region": "castle_of_storms"
+  },
+  "masterless_3_talk": {
+    "id": 110001,
+    "loc": "45017.54, 13809.3467",
+    "region": "red_hall_of_cages"
+  },
+  "masterless_3_talk_2": {
+    "id": 110001,
+    "loc": "45017.54, 13809.3467",
+    "region": "red_hall_of_cages"
+  },
+  "masterless_3_talk_3": {
+    "id": 110001,
+    "loc": "45017.54, 13809.3467",
+    "region": "red_hall_of_cages"
+  },
+  "masterless_3_talk_4": {
+    "id": 110001,
+    "loc": "45017.54, 13809.3467",
+    "region": "red_hall_of_cages"
+  },
+  "masterless_4_talk": {
+    "id": 110001,
+    "loc": "38007.46, 27299.5469",
+    "region": "hagers_cavern"
+  },
+  "masterless_4_talk_2": {
+    "id": 110001,
+    "loc": "38007.46, 27299.5469",
+    "region": "hagers_cavern"
+  },
+  "masterless_4_talk_3": {
+    "id": 110001,
+    "loc": "38007.46, 27299.5469",
+    "region": "hagers_cavern"
+  },
+  "masterless_4_talk_4": {
+    "id": 110001,
+    "loc": "38007.46, 27299.5469",
+    "region": "hagers_cavern"
+  },
+  "masterless_5_talk": {
+    "id": 110001,
+    "loc": "63140.5039, 28981.1934",
+    "region": "siam_lake"
+  },
+  "masterless_5_talk_2": {
+    "id": 110001,
+    "loc": "63140.5039, 28981.1934",
+    "region": "siam_lake"
+  },
+  "masterless_5_talk_3": {
+    "id": 110001,
+    "loc": "63140.5039, 28981.1934",
+    "region": "siam_lake"
+  },
+  "masterless_5_talk_4": {
+    "id": 110001,
+    "loc": "63140.5039, 28981.1934",
+    "region": "siam_lake"
+  },
+  "masterless_6_talk": {
+    "id": 110001,
+    "loc": "98122.61, 30280.9551",
+    "region": "pitchwoods"
+  },
+  "masterless_6_talk_2": {
+    "id": 110001,
+    "loc": "98122.61, 30280.9551",
+    "region": "pitchwoods"
+  },
+  "masterless_6_talk_3": {
+    "id": 110001,
+    "loc": "98122.61, 30280.9551",
+    "region": "pitchwoods"
+  },
+  "masterless_coop2talk": {
+    "id": 110001,
+    "loc": "17922.123, 11601.01",
+    "region": "disabled"
+  },
+  "nomad_talk": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_talk_talk": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_leave": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_menu": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_shop": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_talk_talk2": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_talk_talk3": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_talk_coop": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_talk_talk4": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_talk_talk5": {
+    "id": 110002,
+    "loc": "17464.4941, 13519.4131",
+    "region": "the_festering_banquet"
+  },
+  "nomad_2_talk": {
+    "id": 110002,
+    "loc": "43696.9141, 7031.3125",
+    "region": "castle_of_storms"
+  },
+  "nomad_2_talktalk": {
+    "id": 110002,
+    "loc": "43696.9141, 7031.3125",
+    "region": "castle_of_storms"
+  },
+  "nomad_2_talktalk2": {
+    "id": 110002,
+    "loc": "43696.9141, 7031.3125",
+    "region": "castle_of_storms"
+  },
+  "jester_talk": {
+    "id": 110013,
+    "loc": "21623.9961, 15220.2568",
+    "region": "sunken_keep"
+  },
+  "jester_talk_2": {
+    "id": 110013,
+    "loc": "21623.9961, 15220.2568",
+    "region": "sunken_keep"
+  },
+  "jester_talk_3": {
+    "id": 110013,
+    "loc": "21623.9961, 15220.2568",
+    "region": "sunken_keep"
+  },
+  "jester_talk_yes": {
+    "id": 110013,
+    "loc": "21623.9961, 15220.2568",
+    "region": "sunken_keep"
+  },
+  "jester_talk_no": {
+    "id": 110013,
+    "loc": "21623.9961, 15220.2568",
+    "region": "sunken_keep"
+  },
+  "jester_talk_done": {
+    "id": 110013,
+    "loc": "21623.9961, 15220.2568",
+    "region": "sunken_keep"
+  },
+  "jester_2_talk": {
+    "id": 110013,
+    "loc": "43263.94, 12013.2539",
+    "region": "red_hall_of_cages"
+  },
+  "jester_2_talk_2": {
+    "id": 110013,
+    "loc": "43263.94, 12013.2539",
+    "region": "red_hall_of_cages"
+  },
+  "jester_2_talk_3": {
+    "id": 110013,
+    "loc": "43263.94, 12013.2539",
+    "region": "red_hall_of_cages"
+  },
+  "jester_coop2talk": {
+    "id": 110013,
+    "loc": "21623.9961, 15220.2568",
+    "region": "sunken_keep"
+  },
+  "despondent_talk": {
+    "id": 110014,
+    "loc": "38548.2422, 3490.707",
+    "region": "castle_of_storms"
+  },
+  "despondent_talk_2": {
+    "id": 110014,
+    "loc": "38548.2422, 3490.707",
+    "region": "castle_of_storms"
+  },
+  "despondent_talk_3": {
+    "id": 110014,
+    "loc": "38548.2422, 3490.707",
+    "region": "castle_of_storms"
+  },
+  "despondent_2_talk_1": {
+    "id": 110014,
+    "loc": "46148.91, 21525.7383",
+    "region": "red_hall_of_cages"
+  },
+  "despondent_2_talk_2": {
+    "id": 110014,
+    "loc": "46148.91, 21525.7383",
+    "region": "red_hall_of_cages"
+  },
+  "despondent_2_talk_3": {
+    "id": 110014,
+    "loc": "46148.91, 21525.7383",
+    "region": "red_hall_of_cages"
+  },
+  "despondent_2_talk_4": {
+    "id": 110014,
+    "loc": "46148.91, 21525.7383",
+    "region": "red_hall_of_cages"
+  },
+  "despondent_3_talk_1": {
+    "id": 110014,
+    "loc": "36553.5039, 24302.6",
+    "region": "sunken_keep"
+  },
+  "despondent_3_talk_2": {
+    "id": 110014,
+    "loc": "36553.5039, 24302.6",
+    "region": "sunken_keep"
+  },
+  "despondent_3_talk_3": {
+    "id": 110014,
+    "loc": "36553.5039, 24302.6",
+    "region": "sunken_keep"
+  },
+  "despondent_3_talk_yesno": {
+    "id": 110014,
+    "loc": "36553.5039, 24302.6",
+    "region": "sunken_keep"
+  },
+  "despondent_3_talk_yes": {
+    "id": 110014,
+    "loc": "36553.5039, 24302.6",
+    "region": "sunken_keep"
+  },
+  "despondent_3_talk_no": {
+    "id": 110014,
+    "loc": "36553.5039, 24302.6",
+    "region": "sunken_keep"
+  },
+  "despondent_3_talk_4": {
+    "id": 110014,
+    "loc": "36553.5039, 24302.6",
+    "region": "sunken_keep"
+  },
+  "despondent_3_talk_5": {
+    "id": 110014,
+    "loc": "36553.5039, 24302.6",
+    "region": "sunken_keep"
+  },
+  "despondent_4_talk_1": {
+    "id": 110014,
+    "loc": "97415.26, 14634.3857",
+    "region": "the_far_beach"
+  },
+  "despondent_4_talk_2": {
+    "id": 110014,
+    "loc": "97415.26, 14634.3857",
+    "region": "the_far_beach"
+  },
+  "despondent_4_talk_3": {
+    "id": 110014,
+    "loc": "97415.26, 14634.3857",
+    "region": "the_far_beach"
+  },
+  "despondent_4_talk_4": {
+    "id": 110014,
+    "loc": "97415.26, 14634.3857",
+    "region": "the_far_beach"
+  },
+  "despondent_coop2talk": {
+    "id": 110014,
+    "loc": "38548.2422, 3490.707",
+    "region": "castle_of_storms"
+  },
+  "oldman_talk": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "shivering_shore"
+  },
+  "oldman_talk2": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "shivering_shore"
+  },
+  "oldman_talk3": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "shivering_shore"
+  },
+  "oldman_iron_check": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_three_check": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_cleric_check": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_forest_check": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_fire_sky_check": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_three_confirm": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_iron_confirm": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_cleric_confirm": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_forest_confirm": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_fire_sky_confirm": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_no_creed": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "shivering_shore"
+  },
+  "oldman_talk4": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "shivering_shore"
+  },
+  "oldman_talk5": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "shivering_shore"
+  },
+  "oldman_talk_not_new": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "shivering_shore"
+  },
+  "oldman_talk_no_gods": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_2_talk_1": {
+    "id": 110015,
+    "loc": "33268.19, 9751.742",
+    "region": "bandits_pass"
+  },
+  "oldman_2_talk_2": {
+    "id": 110015,
+    "loc": "33268.19, 9751.742",
+    "region": "bandits_pass"
+  },
+  "oldman_2_talk_3": {
+    "id": 110015,
+    "loc": "33268.19, 9751.742",
+    "region": "bandits_pass"
+  },
+  "oldman_coop2talk": {
+    "id": 110015,
+    "loc": "3047.75244, 14576.8574",
+    "region": "disabled"
+  },
+  "oldman_3_talk_1": {
+    "id": 110015,
+    "loc": "60534.0156, 29507.752",
+    "region": "siam_lake"
+  },
+  "oldman_3_talk_2": {
+    "id": 110015,
+    "loc": "60534.0156, 29507.752",
+    "region": "siam_lake"
+  },
+  "oldman_3_talk_3": {
+    "id": 110015,
+    "loc": "60534.0156, 29507.752",
+    "region": "siam_lake"
+  },
+  "oldman_3_talk_4": {
+    "id": 110015,
+    "loc": "60534.0156, 29507.752",
+    "region": "siam_lake"
+  },
+  "oldman_4_talk_1": {
+    "id": 110015,
+    "loc": "49048.4727, 37693.11",
+    "region": "the_still_palace"
+  },
+  "oldman_4_talk_2": {
+    "id": 110015,
+    "loc": "49048.4727, 37693.11",
+    "region": "the_still_palace"
+  },
+  "oldman_4_talk_3": {
+    "id": 110015,
+    "loc": "49048.4727, 37693.11",
+    "region": "the_still_palace"
+  },
+  "oldman_4_talk_4": {
+    "id": 110015,
+    "loc": "49048.4727, 37693.11",
+    "region": "the_still_palace"
+  },
+  "oldman_4_talk_5": {
+    "id": 110015,
+    "loc": "49048.4727, 37693.11",
+    "region": "the_still_palace"
+  },
+  "oldman_4_talk_6": {
+    "id": 110015,
+    "loc": "49048.4727, 37693.11",
+    "region": "the_still_palace"
+  },
+  "oldgreg_talk": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk_talk": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_menu": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_shop": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk2": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk3": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk4": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk5": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_fond": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_fondyes": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_fondno": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk_like": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_leave": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk_talk1": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk_talk2": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk_talk3": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk_talk4": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_coop2talk": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_coop2talklike": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "oldgreg_talk_coop": {
+    "id": 110023,
+    "loc": "16679.1426, 28266.07",
+    "region": "mire_of_stench"
+  },
+  "memories_talk": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_talk2": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_yesno": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_harvest": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_plant": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_talk_good": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_menu": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_talk3": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_leave": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_shop": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_talk_talk": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_talk_bad": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_harvestprove": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_proveyesno": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_proveno": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_coop2talk": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_coop2talkgood": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "memories_talk_coop": {
+    "id": 110024,
+    "loc": "43752.7266, 29231.957",
+    "region": "salt_alkymancery"
+  },
+  "zenfern_talk": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_lookingyesno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_lookingyes": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_lookingno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_waryesno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_waryes": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_warno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_warfoundyesno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_warfoundyes": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_warfoundno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_lfoundyesno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_lfoundyes": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_lfoundno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_talk_p_y": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_talk_p_n": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_talk_w_y": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_talk_w_n": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_talk_got": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_talk_trinket": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_talk_trinketyes": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_talk_trinketno": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "zenfern_talk2": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "the_watching_woods"
+  },
+  "zenfern_coop2talk": {
+    "id": 110025,
+    "loc": "11193.792, 20307.8027",
+    "region": "disabled"
+  },
+  "choppy_talk": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_talk_2": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_talk_3": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_talk_4": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_talk_5": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_talk_6": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_2_talk": {
+    "id": 110026,
+    "loc": "58136.87, 24537.6953",
+    "region": "crans_pass"
+  },
+  "choppy_2_talk_2": {
+    "id": 110026,
+    "loc": "58136.87, 24537.6953",
+    "region": "crans_pass"
+  },
+  "choppy_2_talk_3": {
+    "id": 110026,
+    "loc": "58136.87, 24537.6953",
+    "region": "crans_pass"
+  },
+  "choppy_impyesno": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_impyes": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_impno": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_imp_yes_2": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_imp_no_2": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_coop2talk": {
+    "id": 110026,
+    "loc": "80167.27, 7922.661",
+    "region": "ziggurat_of_dust"
+  },
+  "choppy_3_talk": {
+    "id": 110026,
+    "loc": "989.893433, 14865.2373",
+    "region": "shivering_shore"
+  },
+  "choppy_3_talk_2": {
+    "id": 110026,
+    "loc": "989.893433, 14865.2373",
+    "region": "shivering_shore"
+  },
+  "choppy_3_talk_3": {
+    "id": 110026,
+    "loc": "989.893433, 14865.2373",
+    "region": "shivering_shore"
+  },
+  "choppy_3_talk_4": {
+    "id": 110026,
+    "loc": "989.893433, 14865.2373",
+    "region": "shivering_shore"
+  },
+  "choppy_3_talk_5": {
+    "id": 110026,
+    "loc": "989.893433, 14865.2373",
+    "region": "shivering_shore"
+  },
+  "shellshop_talk": {
+    "id": 110044,
+    "loc": "8353.15, 10995.8223",
+    "region": "disabled"
+  },
+  "shellshop_menu": {
+    "id": 110044,
+    "loc": "8353.15, 10995.8223",
+    "region": "disabled"
+  },
+  "shellshop_leave": {
+    "id": 110044,
+    "loc": "8353.15, 10995.8223",
+    "region": "disabled"
+  },
+  "shellshop_shop": {
+    "id": 110044,
+    "loc": "8353.15, 10995.8223",
+    "region": "disabled"
+  },
+  "catmerch_talk": {
+    "id": 110045,
+    "loc": "8732.532, 11001.6113",
+    "region": "disabled"
+  },
+  "scarecrow_talk": {
+    "id": 110046,
+    "loc": "8577.139, 10981.53",
+    "region": "disabled"
+  },
+  "scarecrow_kneelyesno": {
+    "id": 110046,
+    "loc": "8577.139, 10981.53",
+    "region": "disabled"
+  },
+  "scarecrow_kneelyes": {
+    "id": 110046,
+    "loc": "8577.139, 10981.53",
+    "region": "disabled"
+  },
+  "scarecrow_kneelno": {
+    "id": 110046,
+    "loc": "8577.139, 10981.53",
+    "region": "disabled"
+  },
+  "scarecrow_talk2": {
+    "id": 110046,
+    "loc": "8577.139, 10981.53",
+    "region": "disabled"
+  },
+  "scarecrow_2_talk": {
+    "id": 110046,
+    "loc": "6755.98926, 16998.1777",
+    "region": "village_of_smiles"
+  },
+  "scarecrow_2_joinyesno": {
+    "id": 110046,
+    "loc": "6755.98926, 16998.1777",
+    "region": "village_of_smiles"
+  },
+  "scarecrow_2_joinyes": {
+    "id": 110046,
+    "loc": "6755.98926, 16998.1777",
+    "region": "village_of_smiles"
+  },
+  "scarecrow_2_joinno": {
+    "id": 110046,
+    "loc": "6755.98926, 16998.1777",
+    "region": "village_of_smiles"
+  },
+  "scarecrow_3_talk": {
+    "id": 110046,
+    "loc": "42792.0078, 9544.357",
+    "region": "castle_of_storms"
+  },
+  "scarecrow_3_doneyesno": {
+    "id": 110046,
+    "loc": "42792.0078, 9544.357",
+    "region": "castle_of_storms"
+  },
+  "scarecrow_3_doneyes": {
+    "id": 110046,
+    "loc": "42792.0078, 9544.357",
+    "region": "castle_of_storms"
+  },
+  "scarecrow_3_doneno": {
+    "id": 110046,
+    "loc": "42792.0078, 9544.357",
+    "region": "castle_of_storms"
+  },
+  "scarecrow_coop2talk": {
+    "id": 110046,
+    "loc": "8577.139, 10981.53",
+    "region": "disabled"
+  },
+  "scarecrow_4_talk": {
+    "id": 110046,
+    "loc": "67147.19, 17996.3223",
+    "region": "the_ruined_temple"
+  },
+  "scarecrow_4_fleeyesno": {
+    "id": 110046,
+    "loc": "67147.19, 17996.3223",
+    "region": "the_ruined_temple"
+  },
+  "scarecrow_4_talk_survive": {
+    "id": 110046,
+    "loc": "67147.19, 17996.3223",
+    "region": "the_ruined_temple"
+  },
+  "scarecrow_4_talk_rule": {
+    "id": 110046,
+    "loc": "67147.19, 17996.3223",
+    "region": "the_ruined_temple"
+  },
+  "scarecrow_5_talk": {
+    "id": 110046,
+    "loc": "43554.4922, 33482.7969",
+    "region": "crypt_of_dead_gods"
+  },
+  "scarecrow_5_helmno": {
+    "id": 110046,
+    "loc": "43554.4922, 33482.7969",
+    "region": "crypt_of_dead_gods"
+  },
+  "scarecrow_5_helmyes": {
+    "id": 110046,
+    "loc": "43554.4922, 33482.7969",
+    "region": "crypt_of_dead_gods"
+  },
+  "shipcaptain_talk": {
+    "id": 110047,
+    "loc": "5213.568, 5129.353",
+    "region": "ship"
+  },
+  "shipcaptain_talk2": {
+    "id": 110047,
+    "loc": "5213.568, 5129.353",
+    "region": "ship"
+  },
+  "boatman_talk": {
+    "id": 110048,
+    "loc": "1850.3927, 28927.2773",
+    "region": "fort_beyond_the_mire"
+  },
+  "boatman_yesno": {
+    "id": 110048,
+    "loc": "1850.3927, 28927.2773",
+    "region": "fort_beyond_the_mire"
+  },
+  "boatman_travelyes": {
+    "id": 110048,
+    "loc": "1850.3927, 28927.2773",
+    "region": "fort_beyond_the_mire"
+  },
+  "boatman_travelno": {
+    "id": 110048,
+    "loc": "1850.3927, 28927.2773",
+    "region": "fort_beyond_the_mire"
+  },
+  "boatman_coop2talk": {
+    "id": 110048,
+    "loc": "1850.3927, 28927.2773",
+    "region": "fort_beyond_the_mire"
+  },
+  "rightboatman_talk": {
+    "id": 110049,
+    "loc": "99470.97, 14764.4922",
+    "region": "the_far_beach"
+  },
+  "rightboatman_yesno": {
+    "id": 110049,
+    "loc": "99470.97, 14764.4922",
+    "region": "the_far_beach"
+  },
+  "rightboatman_travelyes": {
+    "id": 110049,
+    "loc": "99470.97, 14764.4922",
+    "region": "the_far_beach"
+  },
+  "rightboatman_travelno": {
+    "id": 110049,
+    "loc": "99470.97, 14764.4922",
+    "region": "the_far_beach"
+  },
+  "rightboatman_coop2talk": {
+    "id": 110049,
+    "loc": "99470.97, 14764.4922",
+    "region": "the_far_beach"
+  },
+  "domefriend_talk": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_lightyesno": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_lightyes": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_lightno": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_helpyesno": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_helpyes": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_helpno": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_talk2": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_talk3": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_coop2talk": {
+    "id": 110050,
+    "loc": "56759.0938, 9237.674",
+    "region": "dome_of_the_forgotten"
+  },
+  "domefriend_2_talk": {
+    "id": 110050,
+    "loc": "83745.11, 11081.1807",
+    "region": "ziggurat_of_dust"
+  },
+  "domefriend_2_talk2": {
+    "id": 110050,
+    "loc": "83745.11, 11081.1807",
+    "region": "ziggurat_of_dust"
+  },
+  "swampfriend_talk": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_talkyesno": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_talkyes": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_talkno": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_readyyesno": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_readyyes": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_readyno": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_talk2": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_coop2talk": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_talk3": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_talk4": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_talk5": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "swampfriend_talk6": {
+    "id": 110051,
+    "loc": "16580.5723, 25804.4375",
+    "region": "mire_of_stench"
+  },
+  "treelady_talk": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_talk2": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_talk3": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_menu": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_talk_talk": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_leave": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_buy": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_coop2talk": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_cleanse": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "treelady_forgivesin": {
+    "id": 110052,
+    "loc": "17158.0488, 23384.2754",
+    "region": "the_watching_woods"
+  },
+  "dark_gatekeeper_talk": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_markyesno": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_markno": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_markyes": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_joinyesno": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_joinyes": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_joinno": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_joinyes2": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_joinyes3": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_talkgood": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_talkbad": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_coop2talk": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  },
+  "dark_gatekeeper_coop2talkgood": {
+    "id": 110067,
+    "loc": "72860.63, 38632.9727",
+    "region": "the_blackest_vault"
+  }
+}

@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -53,6 +54,7 @@ namespace SaltMap
 			[JsonProperty]
 			internal string region;
 
+			[JsonIgnore]
 			public CheckState checkState;
 
 			[NonSerialized]
@@ -145,9 +147,9 @@ namespace SaltMap
 				public string[] storeScript;			// lists the shop items
 			}
 
-			public string name;                     // internal name of the NPC
-			public Node[] nodeList;					// list of dialogues for the NPC
-			public int rune;						// unused value
+			public string name;							// internal name of the NPC
+			public Node[] nodeList;						// list of dialogues for the NPC
+			public int rune;							// unused value
 		}
 
 		public class Region
@@ -268,7 +270,7 @@ namespace SaltMap
 
 		private string subfolder = "";
 
-#if !DEBUGa
+#if !DEBUG
 
 		private CheckGroup hoveredCheckGroup = null;
 
@@ -382,109 +384,45 @@ namespace SaltMap
 
 			dialogues = new Dictionary<string, Dialogue>();
 
-			Stack<GameDialogue.Node> nodeStack = new Stack<GameDialogue.Node>();
+			string lastFail = "";
 
-			foreach (KeyValuePair<string, NPC> kvp in npcs)
+			foreach (GameDialogue gameDialogue in gameDialogues)
 			{
-				string name = kvp.Key.Substring(0, kvp.Key.Length - 2);
+				string npcName = gameDialogue.name;
 
-				GameDialogue gameDialogue = gameDialogues.Find((x) => x.name == name);
-
-				if (gameDialogue == null)
-					continue;
-
-				int talkIndex = Array.IndexOf(kvp.Value.scripts, "talkphase");
-				string talkPhase = talkIndex >= 0 ? kvp.Value.scripts[talkIndex + 1] : "talk";
-
-				GameDialogue.Node start = Array.Find(gameDialogue.nodeList, (x) => x.name == talkPhase);
-				nodeStack.Push(start);
-
-				string key = $"{name}_{start.name}";
-
-				// some npcs may have the same initial greeting
-				if (!dialogues.ContainsKey(key))
+				foreach (GameDialogue.Node node in gameDialogue.nodeList)
 				{
-					dialogues.Add(key, new Dialogue()
+					char spawn = node.name[0];
+					string key = npcName;
+
+					// dialogue is for the first spawn of the npc
+					if (spawn <= '1' || spawn > '9')
+						key += "_1";
+					else
+						key += $"_{spawn}";
+
+					if (!npcs.TryGetValue(key, out NPC npc))
 					{
-						id = start.id,
-						loc = kvp.Value.loc,
-						region = kvp.Value.region,
-						key = key,
-						NPC = kvp.Value
-					});
-				}
+						if (lastFail != key)
+							System.Diagnostics.Debug.WriteLine($"Could not find npc {key}");
 
-				while (nodeStack.Count > 0)
-				{
-					GameDialogue.Node node = nodeStack.Pop();
-
-					if (node.option != null)
-					{
-						foreach (GameDialogue.Node.Option option in node.option)
-						{
-							key = $"{name}_{option.action}";
-
-							if (!dialogues.ContainsKey(key))
-							{
-								GameDialogue.Node optionNode = Array.Find(gameDialogue.nodeList, (x) => x.name == option.action);
-
-								dialogues.Add(key, new Dialogue()
-								{
-									id = node.id,
-									loc = kvp.Value.loc,
-									region = kvp.Value.region,
-									key = key,
-									NPC = kvp.Value
-								});
-
-								nodeStack.Push(optionNode);
-							}
-						}
-					}
-
-					foreach (string precheck in node.precheckFlagGoto)
-					{
-						if (string.IsNullOrEmpty(precheck))
-							continue;
-
-						key = $"{name}_{precheck}";
-
-						if (!dialogues.ContainsKey(key))
-						{
-							GameDialogue.Node gotoNode = Array.Find(gameDialogue.nodeList, (x) => x.name == precheck);
-
-							dialogues.Add(key, new Dialogue()
-							{
-								id = node.id,
-								loc = kvp.Value.loc,
-								region = kvp.Value.region,
-								key = key,
-								NPC = kvp.Value
-							});
-
-							nodeStack.Push(gotoNode);
-						}
-					}
-
-					if (string.IsNullOrEmpty(node.postGoto))
+						lastFail = key;
 						continue;
+					}
 
-					key = $"{name}_{node.postGoto}";
+					string dialogueName = $"{npcName}_{node.name}";
 
-					if (!dialogues.ContainsKey(key))
+					// some npcs may have the same initial greeting
+					if (!dialogues.ContainsKey(dialogueName))
 					{
-						GameDialogue.Node gotoNode = Array.Find(gameDialogue.nodeList, (x) => x.name == node.postGoto);
-
-						dialogues.Add(key, new Dialogue()
+						dialogues.Add(dialogueName, new Dialogue()
 						{
 							id = node.id,
-							loc = kvp.Value.loc,
-							region = kvp.Value.region,
-							key = name,
-							NPC = kvp.Value
+							loc = npc.loc,
+							region = npc.region,
+							key = dialogueName,
+							NPC = npc
 						});
-
-						nodeStack.Push(gotoNode);
 					}
 				}
 			}
@@ -1020,7 +958,7 @@ namespace SaltMap
 			Profiler.Profiler.End(profile);
 		}
 
-#if DEBUGa
+#if DEBUG
 
 		private void DrawTexts(float scale)
 		{
@@ -1114,7 +1052,7 @@ namespace SaltMap
 
 			DrawBlocks(scale);
 
-#if DEBUGa
+#if DEBUG
 			DrawTexts(scale);
 #else
 			DrawHovered(pos, scale);
