@@ -53,6 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\blind.fx" />
+    <Content Include="Content\acid.fx" />
+    <Content Include="Content\drunk.fx" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
