@@ -3,7 +3,7 @@
     "shrine": 0,
     "id": 100000,
     "loc": "9056, 13382.4",
-    "region": "shivering_shore"
+    "region": "shivering_shore_sanctuary"
   },
   "sanctuary_forsaken_village": {
     "shrine": 0,
@@ -117,7 +117,7 @@
     "shrine": 1,
     "id": 100019,
     "loc": "23712, 16358.4",
-    "region": "sunken_keep"
+    "region": "jester_lower"
   },
   "shrine_red_dungeon": {
     "shrine": 1,
@@ -183,7 +183,7 @@
     "shrine": 1,
     "id": 100030,
     "loc": "71072, 17414.4",
-    "region": "shivering_shore"
+    "region": "shivering_shore_west"
   },
   "sanctuary_blackest_vault": {
     "shrine": 0,

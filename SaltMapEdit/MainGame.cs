@@ -75,7 +75,7 @@ namespace SaltMapEdit
 		protected override void LoadContent()
 		{
 			font = Content.Load<SpriteFont>("DefaultFont");
-			map.Init(".", GraphicsDevice, _spriteBatch, font);
+			map.Init(".", GraphicsDevice, _spriteBatch, font, false);
 
 			form.spriteFont = font;
 			form.MapLoaded();

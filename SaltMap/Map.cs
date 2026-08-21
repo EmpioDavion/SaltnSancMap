@@ -1,12 +1,14 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Threading;
+using static SaltMap.Map;
 using WinPoint = System.Drawing.Point;
 
 namespace SaltMap
@@ -39,7 +41,10 @@ namespace SaltMap
 			Chest,
 			Sack,
 			Mimic,
+			Switch,
+			Item,
 			Sequence,
+			DisabledSequence, // sequence controlled by switch
 			Sanctuary,
 			Boss,
 			NPC,
@@ -79,14 +84,19 @@ namespace SaltMap
 			public override string ToString() => key;
 		}
 
-		public class Sequence : Check
-		{
-			public string type;
-		}
-
 		public class CSM : Check
 		{
 			public string[] items;
+		}
+
+		public class Item : Check
+		{
+			public string item;
+		}
+
+		public class Sequence : Check
+		{
+			public string type;
 		}
 
 		public class Sanctuary : Check
@@ -193,6 +203,12 @@ namespace SaltMap
 			}
 
 			public override string ToString() => Region.ToString();
+
+			[OnSerializing]
+			internal void SetRegionString(StreamingContext context)
+			{
+				region = _region.key;
+			}
 		}
 
 		private class SegmentData
@@ -223,7 +239,10 @@ namespace SaltMap
 		private Dictionary<string, CSM> chests;
 		private Dictionary<string, CSM> sacks;
 		private Dictionary<string, CSM> mimics;
+		private Dictionary<string, CSM> switches;
+		private Dictionary<string, Item> items;
 		private Dictionary<string, Sequence> sequences;
+		private Dictionary<string, Sequence> disabledSequences;
 		private Dictionary<string, Sanctuary> sanctuaries;
 		private Dictionary<string, Boss> bosses;
 		private Dictionary<string, NPC> npcs;
@@ -282,7 +301,7 @@ namespace SaltMap
 		}
 
 		public void Init(string subfolder, GraphicsDevice graphicsDevice,
-			SpriteBatch spriteBatch, SpriteFont font)
+			SpriteBatch spriteBatch, SpriteFont font, bool loadItems)
 		{
 			this.subfolder = subfolder;
 			this.graphicsDevice = graphicsDevice;
@@ -319,7 +338,27 @@ namespace SaltMap
 			chests = LoadJson<Dictionary<string, CSM>>($"{subfolder}/chests.json");
 			sacks = LoadJson<Dictionary<string, CSM>>($"{subfolder}/sacks.json");
 			mimics = LoadJson<Dictionary<string, CSM>>($"{subfolder}/mimics.json");
+			switches = LoadJson<Dictionary<string, CSM>>($"{subfolder}/switches.json");
+
+			if (loadItems)
+			{
+				items = new Dictionary<string, Item>();
+				AddItems(chests);
+				AddItems(sacks);
+				AddItems(mimics);
+			}
+			else
+				items = null;
+
 			sequences = LoadJson<Dictionary<string, Sequence>>($"{subfolder}/sequences.json");
+			disabledSequences = LoadJson<Dictionary<string, Sequence>>($"{subfolder}/disabled_sequences.json");
+
+			foreach (KeyValuePair<string, Sequence> kvp in disabledSequences)
+			{
+				kvp.Value.key = kvp.Key;
+				kvp.Value.checkType = CheckType.DisabledSequence;
+			}
+
 			sanctuaries = LoadJson<Dictionary<string, Sanctuary>>($"{subfolder}/sanctuaries.json");
 			bosses = LoadJson<Dictionary<string, Boss>>($"{subfolder}/bosses.json");
 			npcs = LoadJson<Dictionary<string, NPC>>($"{subfolder}/npcs.json");
@@ -339,9 +378,16 @@ namespace SaltMap
 					connection._region = regions[connection.region];
 			}
 
+			locations.Clear();
+
 			AddLocations(chests, CheckType.Chest);
 			AddLocations(sacks, CheckType.Sack);
 			AddLocations(mimics, CheckType.Mimic);
+			AddLocations(switches, CheckType.Switch);
+
+			if (loadItems)
+				AddLocations(items, CheckType.Item);
+
 			AddLocations(sequences, CheckType.Sequence);
 			AddLocations(sanctuaries, CheckType.Sanctuary);
 			AddLocations(bosses, CheckType.Boss);
@@ -352,6 +398,9 @@ namespace SaltMap
 
 			foreach (KeyValuePair<string, Check> kvp in locations)
 			{
+				if (!regions.ContainsKey(kvp.Value.region))
+					regions[kvp.Value.region] = new Region() { key = kvp.Value.region };
+
 				kvp.Value._region = regions[kvp.Value.region];
 				kvp.Value._region.checks.Add(kvp.Key);
 
@@ -443,6 +492,11 @@ namespace SaltMap
 			SaveChecks("chests.json", chests);
 			SaveChecks("sacks.json", sacks);
 			SaveChecks("mimics.json", mimics);
+			SaveChecks("switches.json", switches);
+
+			if (items != null)
+				SaveChecks("items.json", items);
+
 			SaveChecks("sequences.json", sequences);
 			SaveChecks("sanctuaries.json", sanctuaries);
 			SaveChecks("bosses.json", bosses);
@@ -476,6 +530,25 @@ namespace SaltMap
 		{
 			string json = File.ReadAllText(path);
 			return JsonConvert.DeserializeObject<T>(json);
+		}
+
+		private void AddItems(Dictionary<string, CSM> csms)
+		{
+			foreach (KeyValuePair<string, CSM> kvp in csms)
+			{
+				for (int i = 0; i < kvp.Value.items.Length; i++)
+				{
+					string key = kvp.Key + $"_Item{i + 1}";
+
+					items.Add(key, new Item()
+					{
+						id = kvp.Value.id + i + 1,
+						loc = kvp.Value.loc,
+						region = kvp.Value.region,
+						key = key
+					});
+				}
+			}
 		}
 
 		private void AddLocations<T>(Dictionary<string, T> checks, CheckType checkType) where T : Check
@@ -650,7 +723,7 @@ namespace SaltMap
 			camera.Translation = new Vector3(worldPos, 0.0f);
 		}
 
-		public Color GetCheckColor(Check check)
+		public Color GetCheckStateColor(Check check)
 		{
 			return check.checkState switch
 			{
@@ -659,6 +732,25 @@ namespace SaltMap
 				CheckState.OutOfLogic => Color.LightGoldenrodYellow,
 				CheckState.Collected => Color.Gray,
 				_ => Color.Magenta,
+			};
+		}
+
+		public Color GetCheckTypeColor(Check check)
+		{
+			return check.checkType switch
+			{
+				CheckType.Chest => Color.LightBlue,
+				CheckType.Sack => Color.Cyan,
+				CheckType.Mimic => Color.Orchid,
+				CheckType.Item => Color.PaleGreen,
+				CheckType.Sequence => Color.Violet,
+				CheckType.DisabledSequence => Color.Gray,
+				CheckType.Switch => Color.MediumVioletRed,
+				CheckType.Sanctuary => Color.Goldenrod,
+				CheckType.Boss => Color.RosyBrown,
+				CheckType.NPC => Color.Chocolate,
+				CheckType.Dialogue => Color.Tan,
+				_ => Color.LightCoral
 			};
 		}
 
@@ -894,6 +986,38 @@ namespace SaltMap
 
 		private readonly List<Color> groupColors = new List<Color>();
 
+		private void DrawCheckBlock(Check check, float scale)
+		{
+			Vector2 loc4 = check.loc * itemScale;
+
+			if (drawMode == DrawMode.Full)
+				loc4 = (loc4 - mapPosition) * scale;
+			else
+				loc4 = Vector2.Transform(loc4, camera);
+
+			if (loc4.X < -100.0f || loc4.Y < -100.0f ||
+				loc4.X > ScreenWidth + 100.0f || loc4.Y > ScreenHeight + 100.0f)
+				return;
+
+			Color colour;
+
+			if (regionFilter != null)
+			{
+				if (check.Region == regionFilter)
+					colour = Color.LightGreen;
+				else
+					colour = Color.IndianRed;
+			}
+			else
+				colour = GetCheckStateColor(check);
+
+			bool selected = check == checkFilter;
+			Color borderColor = selected ? Color.DarkMagenta : Color.Black;
+
+			spriteBatch.Draw(pixel, loc4, null, borderColor, 0.0f, Vector2.One * 0.5f, blockBorderSize * scale, SpriteEffects.None, 0.0f);
+			spriteBatch.Draw(pixel, loc4, null, colour, 0.0f, Vector2.One * 0.5f, blockFillSize * scale, SpriteEffects.None, 0.0f);
+		}
+
 		private void DrawCheckGroupBlock(CheckGroup checkGroup, float scale)
 		{
 			Vector2 loc4 = checkGroup.loc * itemScale;
@@ -955,6 +1079,13 @@ namespace SaltMap
 			foreach (CheckGroup checkGroup in checkGroups)
 				DrawCheckGroupBlock(checkGroup, scale);
 
+#if DEBUG
+
+			foreach (KeyValuePair<string, Sequence> kvp in disabledSequences)
+				DrawCheckBlock(kvp.Value, scale);
+
+#endif
+
 			Profiler.Profiler.End(profile);
 		}
 
@@ -966,11 +1097,26 @@ namespace SaltMap
 
 			foreach (CheckGroup checkGroup in checkGroups)
 			{
-				DrawEntryText(checkGroup.checks[0].key, checkGroup.loc, scale);
+				Color? colour = null;
+
+				if (checkGroup.checks.Count == 1)
+					colour = GetCheckTypeColor(checkGroup.checks[0]);
+
+				DrawEntryText(checkGroup.checks[0].key, checkGroup.loc, scale, colour);
 
 				if (checkGroup.checks.Count > 1)
 					DrawEntryText("+", checkGroup.loc - new Vector2(0.0f, blockFillSize / itemScale), scale);
 			}
+
+#if DEBUG
+
+			foreach (KeyValuePair<string, Sequence> kvp in disabledSequences)
+			{
+				Color colour = GetCheckTypeColor(kvp.Value);
+				DrawEntryText(kvp.Key, kvp.Value.loc, scale, colour);
+			}
+
+#endif
 
 			Profiler.Profiler.End(profile);
 		}

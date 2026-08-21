@@ -1,30 +1,227 @@
 {
-	"dread": { "id": 40006, "loc": "17041.3457, 8626.176", "region": "the_festering_banquet", "items": [ "key_fortress", "dice_dread" ] },
-	"cutqueen": { "id": 40036, "loc": "2459.48022, 17944.5664", "region": "shivering_shore", "items": [ "dice_cutqueen" ] },
-	"bull": { "id": 40130, "loc": "26734.77, 23051.8086", "region": "sunken_keep", "items": [ "dice_bull", "key_green" ] },
-	"dragon": { "id": 40255, "loc": "38186.09, 1243.47021", "region": "castle_of_storms", "items": [ "dice_dragon" ] },
-	"alchemist": { "id": 40281, "loc": "21009.7324, 18165.9219", "region": "the_watching_woods", "items": [ "dice_alchemist" ] },
-	"torturetree": { "id": 40291, "loc": "41469.28, 28467.8457", "region": "red_hall_of_cages", "items": [ "dice_torturetree" ] },
-	"pirate": { "id": 40363, "loc": "28432.98, 29483.332", "region": "hagers_cavern", "items": [ "key_ship", "dice_pirate" ] },
-	"leviathon": { "id": 40373, "loc": "5133.833, 4273.77", "region": "shivering_shore", "items": [ "black_pearl", "drowning_nova", "amber_nova" ] },
-	"gasbag": { "id": 40485, "loc": "20563.0547, 24250.6875", "region": "the_watching_woods", "items": [ "dice_gasbag" ] },
-	"broken": { "id": 40486, "loc": "56019.2969, 23061.5332", "region": "crans_pass", "items": [ "dice_broken" ] },
-	"griffin": { "id": 40581, "loc": "60154.5625, 9221.357", "region": "dome_of_the_forgotten", "items": [ "dice_hippogriff" ] },
-	"lakewitch": { "id": 40594, "loc": "55811.5625, 30732.5664", "region": "siam_lake", "items": [ "dice_lakewitch" ] },
-	"fauxjester": { "id": 40668, "loc": "26812.873, 17064.8516", "region": "bandits_pass", "items": [ "dice_fauxjester" ] },
-	"mummy": { "id": 40688, "loc": "79848.26, 9045.742", "region": "ziggurat_of_dust", "items": [ "dice_mummy" ] },
-	"clay": { "id": 40700, "loc": "79093.98, 17606.04", "region": "ziggurat_of_dust", "items": [ "dice_clay" ] },
-	"inquisitor": { "id": 40732, "loc": "60699.5977, 13237.1963", "region": "the_ruined_temple", "items": [ "dice_inquisitor" ] },
-	"monster": { "id": 40789, "loc": "48561.28, 35031.3633", "region": "the_still_palace", "items": [ "dice_monster" ] },
-	"monsterwitch": { "id": 40790, "loc": "48368.16, 34674.63", "region": "the_still_palace", "items": [ "dice_monsterwitch" ] },
-	"ruinaxe": { "id": 40869, "loc": "62728.3633, 25636.96", "region": "the_ruined_temple", "items": [ "dice_ruinaxe" ] },
-	"ruinaxeghost1": { "id": 40870, "loc": "62340.03, 25371.5879", "region": "siam_lake", "items": [ ] },
-	"ruinaxeghost2": { "id": 40871, "loc": "63103.7852, 25371.5879", "region": "the_ruined_temple", "items": [ ] },
-	"squiddragon": { "id": 40937, "loc": "46111.42, 37679.4023", "region": "crypt_of_dead_gods", "items": [ "dice_squiddragon" ] },
-	"nameless": { "id": 40957, "loc": "62566.0938, 46780.81", "region": "the_still_palace", "items": [ "dice_nameless" ] },
-	"cloak": { "id": 40978, "loc": "94554.58, 30010.3848", "region": "pitchwoods", "items": [ "dice_cloak" ] },
-	"deadking": { "id": 41048, "loc": "32648.3418, 41882.8867", "region": "crypt_of_dead_gods", "items": [ "dice_deadking" ] },
-	"deadknight": { "id": 41049, "loc": "32411.7168, 41861.6133", "region": "crypt_of_dead_gods", "items": [ "dice_deadknight" ] },
-	"deadjudge": { "id": 41050, "loc": "32885.19, 41845.9961", "region": "crypt_of_dead_gods", "items": [ "dice_deadjudge" ] },
-	"murderfly": { "id": 41245, "loc": "49243.0156, 1219.70471", "region": "mals_floating_castle", "items": [ "dice_butterfly" ] }
+  "dread": {
+    "items": [
+      "key_fortress",
+      "dice_dread"
+    ],
+    "id": 40006,
+    "loc": "17041.3457, 8626.176",
+    "region": "the_festering_banquet"
+  },
+  "cutqueen": {
+    "items": [
+      "dice_cutqueen"
+    ],
+    "id": 40036,
+    "loc": "2459.48022, 17944.5664",
+    "region": "village_of_smiles"
+  },
+  "bull": {
+    "items": [
+      "dice_bull",
+      "key_green"
+    ],
+    "id": 40130,
+    "loc": "26734.77, 23051.8086",
+    "region": "sunken_keep"
+  },
+  "dragon": {
+    "items": [
+      "dice_dragon"
+    ],
+    "id": 40255,
+    "loc": "38186.09, 1243.47021",
+    "region": "castle_of_storms"
+  },
+  "alchemist": {
+    "items": [
+      "dice_alchemist"
+    ],
+    "id": 40281,
+    "loc": "21009.7324, 18165.9219",
+    "region": "the_watching_woods"
+  },
+  "torturetree": {
+    "items": [
+      "dice_torturetree"
+    ],
+    "id": 40291,
+    "loc": "41469.28, 28467.8457",
+    "region": "red_hall_of_cages"
+  },
+  "pirate": {
+    "items": [
+      "key_ship",
+      "dice_pirate"
+    ],
+    "id": 40363,
+    "loc": "28432.98, 29483.332",
+    "region": "hagers_cavern"
+  },
+  "leviathon": {
+    "items": [
+      "black_pearl",
+      "drowning_nova",
+      "amber_nova"
+    ],
+    "id": 40373,
+    "loc": "5133.833, 4273.77",
+    "region": "ship"
+  },
+  "gasbag": {
+    "items": [
+      "dice_gasbag"
+    ],
+    "id": 40485,
+    "loc": "20563.0547, 24250.6875",
+    "region": "the_watching_woods"
+  },
+  "broken": {
+    "items": [
+      "dice_broken"
+    ],
+    "id": 40486,
+    "loc": "56019.2969, 23061.5332",
+    "region": "crans_pass"
+  },
+  "griffin": {
+    "items": [
+      "dice_hippogriff"
+    ],
+    "id": 40581,
+    "loc": "60154.5625, 9221.357",
+    "region": "dome_of_the_forgotten"
+  },
+  "lakewitch": {
+    "items": [
+      "dice_lakewitch"
+    ],
+    "id": 40594,
+    "loc": "55811.5625, 30732.5664",
+    "region": "siam_lake"
+  },
+  "fauxjester": {
+    "items": [
+      "dice_fauxjester"
+    ],
+    "id": 40668,
+    "loc": "26812.873, 17064.8516",
+    "region": "bandits_pass"
+  },
+  "mummy": {
+    "items": [
+      "dice_mummy"
+    ],
+    "id": 40688,
+    "loc": "79848.26, 9045.742",
+    "region": "ziggurat_of_dust"
+  },
+  "clay": {
+    "items": [
+      "dice_clay"
+    ],
+    "id": 40700,
+    "loc": "79093.98, 17606.04",
+    "region": "ziggurat_of_dust"
+  },
+  "inquisitor": {
+    "items": [
+      "dice_inquisitor"
+    ],
+    "id": 40732,
+    "loc": "60699.5977, 13237.1963",
+    "region": "the_ruined_temple"
+  },
+  "monster": {
+    "items": [
+      "dice_monster"
+    ],
+    "id": 40789,
+    "loc": "48561.28, 35031.3633",
+    "region": "the_still_palace"
+  },
+  "monsterwitch": {
+    "items": [
+      "dice_monsterwitch"
+    ],
+    "id": 40790,
+    "loc": "48368.16, 34674.63",
+    "region": "the_still_palace"
+  },
+  "ruinaxe": {
+    "items": [
+      "dice_ruinaxe"
+    ],
+    "id": 40869,
+    "loc": "62728.3633, 25636.96",
+    "region": "the_ruined_temple"
+  },
+  "ruinaxeghost1": {
+    "items": [],
+    "id": 40870,
+    "loc": "62340.03, 25371.5879",
+    "region": "siam_lake"
+  },
+  "ruinaxeghost2": {
+    "items": [],
+    "id": 40871,
+    "loc": "63103.7852, 25371.5879",
+    "region": "the_ruined_temple"
+  },
+  "squiddragon": {
+    "items": [
+      "dice_squiddragon"
+    ],
+    "id": 40937,
+    "loc": "46111.42, 37679.4023",
+    "region": "crypt_of_dead_gods"
+  },
+  "nameless": {
+    "items": [
+      "dice_nameless"
+    ],
+    "id": 40957,
+    "loc": "62566.0938, 46780.81",
+    "region": "the_still_palace"
+  },
+  "cloak": {
+    "items": [
+      "dice_cloak"
+    ],
+    "id": 40978,
+    "loc": "94554.58, 30010.3848",
+    "region": "pitchwoods"
+  },
+  "deadking": {
+    "items": [
+      "dice_deadking"
+    ],
+    "id": 41048,
+    "loc": "32648.3418, 41882.8867",
+    "region": "crypt_of_dead_gods"
+  },
+  "deadknight": {
+    "items": [
+      "dice_deadknight"
+    ],
+    "id": 41049,
+    "loc": "32411.7168, 41861.6133",
+    "region": "crypt_of_dead_gods"
+  },
+  "deadjudge": {
+    "items": [
+      "dice_deadjudge"
+    ],
+    "id": 41050,
+    "loc": "32885.19, 41845.9961",
+    "region": "crypt_of_dead_gods"
+  },
+  "murderfly": {
+    "items": [
+      "dice_butterfly"
+    ],
+    "id": 41245,
+    "loc": "49243.0156, 1219.70471",
+    "region": "mals_floating_castle"
+  }
 }

@@ -1,309 +1,2511 @@
 {
-	"fortress_shield": { "id": 70001, "loc": "13829.9775, 12313.2637", "region": "the_festering_banquet", "items": [ "health_shard/3" ] },
-	"fortress_bow": { "id": 70002, "loc": "17420.252, 12588.0039", "region": "the_festering_banquet", "items": [ "bow", "arrow/50" ] },
-	"fortresssalt2": { "id": 70003, "loc": "13483.4111, 11750.3223", "region": "the_festering_banquet", "items": [ "salt2", "statue_merchant" ] },
-	"fortress_throw_dagger": { "id": 70004, "loc": "14406.5322, 11345.0313", "region": "the_festering_banquet", "items": [ "throw_dagger/25", "torch_oil" ] },
-	"fortress_lit_ball": { "id": 70005, "loc": "17709.71, 9733.217", "region": "the_festering_banquet", "items": [ "statue_blacksmith", "health_shard/3" ] },
-	"village_buff_holy": { "id": 70037, "loc": "1722.454, 17127.3789", "region": "shivering_shore", "items": [ "buff_holy/3" ] },
-	"village_salt2": { "id": 70038, "loc": "10499.0967, 17285.92", "region": "village_of_smiles", "items": [ "salt2" ] },
-	"fortress_lit_bolt": { "id": 70039, "loc": "12986.1514, 10530.209", "region": "the_festering_banquet", "items": [ "health_shard/3" ] },
-	"village_grenado": { "id": 70040, "loc": "14361.3535, 8783.246", "region": "the_festering_banquet", "items": [ "grenado/5" ] },
-	"village_statue_cleric": { "id": 70041, "loc": "4238.879, 17546.4434", "region": "village_of_smiles", "items": [ "statue_cleric" ] },
-	"forest_whip_18742": { "id": 70052, "loc": "18688.3867, 19311.7012", "region": "the_watching_woods", "items": [ "whip" ] },
-	"forest_amber_spark": { "id": 70053, "loc": "18287.64, 20541.32", "region": "the_watching_woods", "items": [ "salt3" ] },
-	"forest_redhigh_mage": { "id": 70059, "loc": "16864.8672, 18184.3027", "region": "the_watching_woods", "items": [ "statue_mage", "salt2" ] },
-	"hidden_tree_heal2": { "id": 70063, "loc": "26271.4434, 9361.818", "region": "bandits_pass", "items": [ "heal2", "waterpot/3" ] },
-	"fortress_mage_16430": { "id": 70070, "loc": "13809.21, 15370.6494", "region": "the_watching_woods", "items": [ "statue_mage", "buff_dark/3" ] },
-	"stone_ledge_salt": { "id": 70071, "loc": "29963.61, 9933.984", "region": "bandits_pass", "items": [ "salt3", "tribe_helm", "tribe_boots" ] },
-	"hidden_sanctuary_mag_boost": { "id": 70076, "loc": "22853.8438, 9474.53", "region": "bandits_pass", "items": [ "ring_mag_boost", "salt2" ] },
-	"hidden_sancledge_spark": { "id": 70077, "loc": "22507.2578, 10438.6914", "region": "bandits_pass", "items": [ "mace_flanged", "salt3" ] },
-	"castle_terror_ledge": { "id": 70093, "loc": "32164.0273, 6606.48975", "region": "castle_of_storms", "items": [ "gray_pearl" ] },
-	"under_village_scythe": { "id": 70155, "loc": "12295.9814, 21527.99", "region": "the_watching_woods", "items": [ "scythe" ] },
-	"under_village_salt": { "id": 70156, "loc": "11260.5059, 20304.1777", "region": "the_watching_woods", "items": [ "salt2", "horn_will/3" ] },
-	"greenvillage_blacksmith": { "id": 70157, "loc": "27413.7559, 20519.7363", "region": "sunken_keep", "items": [ "statue_blacksmith", "white_flame" ] },
-	"fortress_jurney_ld": { "id": 70198, "loc": "16038.5166, 10759.7979", "region": "the_festering_banquet", "items": [ "msg_bottle" ] },
-	"trap_cave_key_bronze": { "id": 70210, "loc": "29094.1133, 14970.1152", "region": "bandits_pass", "items": [ "key_bronze" ] },
-	"village_thief_armor": { "id": 70212, "loc": "14674.22, 9349.854", "region": "the_festering_banquet", "items": [ "thief_helm", "thief_armor", "thief_boots", "thief_gloves" ] },
-	"hidden_tunic_set": { "id": 70213, "loc": "19163.36, 12005.9639", "region": "the_festering_banquet", "items": [ "tunic_armor", "tunic_boots", "axe" ] },
-	"castle_real_lit_ball": { "id": 70214, "loc": "36429.8477, 6193.02051", "region": "castle_of_storms", "items": [ "lit_ball" ] },
-	"midsecretchainmail_gloves": { "id": 70215, "loc": "27337.6172, 11914.4258", "region": "bandits_pass", "items": [ "chain_gloves" ] },
-	"midsecretchainmail_helm": { "id": 70216, "loc": "27791.4785, 11917.418", "region": "bandits_pass", "items": [ "chain_helm" ] },
-	"midsecretchainmail_armor": { "id": 70217, "loc": "29497.0215, 15436.3184", "region": "bandits_pass", "items": [ "chain_armor" ] },
-	"midsecretchainmail_boots": { "id": 70218, "loc": "24668.4512, 16306.0791", "region": "sunken_keep", "items": [ "chain_boots" ] },
-	"stone_ledge_tribe_armor": { "id": 70253, "loc": "28861.4238, 10332.2314", "region": "bandits_pass", "items": [ "tribe_armor", "shield_viking" ] },
-	"castle_real_stat_black": { "id": 70254, "loc": "40323.17, 9743.883", "region": "castle_of_storms", "items": [ "statue_blacksmith", "salt4" ] },
-	"midsecretcharm_hp_leech": { "id": 70283, "loc": "33107.5039, 17329.3574", "region": "red_hall_of_cages", "items": [ "charm_hp_leech" ] },
-	"castle_dragon_key": { "id": 70287, "loc": "38315.7422, 3510.10669", "region": "castle_of_storms", "items": [ "key_dungeon" ] },
-	"forest_charm_speed": { "id": 70288, "loc": "13449.4961, 19977.1563", "region": "the_watching_woods", "items": [ "charm_speed" ] },
-	"forest_ring_stam": { "id": 70289, "loc": "16651.0117, 20311.9", "region": "the_watching_woods", "items": [ "ring_stam" ] },
-	"forest_alchemist_key": { "id": 70290, "loc": "18484.3359, 18193.65", "region": "the_watching_woods", "items": [ "key_forest" ] },
-	"fortress_ring_vit": { "id": 70301, "loc": "13058.2275, 8293.492", "region": "the_festering_banquet", "items": [ "ring_vit" ] },
-	"greenvillage_ring_str": { "id": 70302, "loc": "29214.8984, 19461.3223", "region": "sunken_keep", "items": [ "ring_str" ] },
-	"castle_charm_fire": { "id": 70303, "loc": "38468.2734, 2286.2417", "region": "castle_of_storms", "items": [ "charm_fire" ] },
-	"village_charm_atk": { "id": 70304, "loc": "2283.67554, 20815.3887", "region": "village_of_smiles", "items": [ "charm_atk" ] },
-	"greenvillage_ring_magb": { "id": 70305, "loc": "38196.7539, 20015.707", "region": "sunken_keep", "items": [ "ring_mag_balance" ] },
-	"dungeon_health_shard": { "id": 70307, "loc": "44411.13, 25092.4629", "region": "red_hall_of_cages", "items": [ "statue_merchant", "salt3" ] },
-	"dungeon_holy_def": { "id": 70308, "loc": "52535.89, 18610.6738", "region": "red_hall_of_cages", "items": [ "holy_def" ] },
-	"dungeon_charm_mp_leech": { "id": 70309, "loc": "32544.584, 23825.9434", "region": "hagers_cavern", "items": [ "charm_mp_leech" ] },
-	"dungeon_salt3statue_blacksmith": { "id": 70310, "loc": "43324.5859, 19116.123", "region": "red_hall_of_cages", "items": [ "salt3", "statue_blacksmith" ] },
-	"dungeon_beast_spark": { "id": 70311, "loc": "41655.17, 19131.6367", "region": "red_hall_of_cages", "items": [ "salt3", "beast_spark/3" ] },
-	"dungeon_sword_40349": { "id": 70312, "loc": "44104.96, 16558.207", "region": "red_hall_of_cages", "items": [ "sword_katana" ] },
-	"dungeon_lit_storm": { "id": 70313, "loc": "39979.0742, 12650.0781", "region": "red_hall_of_cages", "items": [ "lit_storm" ] },
-	"dungeon_charm_poison": { "id": 70315, "loc": "35143.7773, 17091.8945", "region": "sunken_keep", "items": [ "charm_poison" ] },
-	"castle_ivory_43710": { "id": 70316, "loc": "43710.11, 8073.781", "region": "castle_of_storms", "items": [ "staff_ivory" ] },
-	"castle_ring_salt": { "id": 70317, "loc": "40223.9648, 2270.40381", "region": "castle_of_storms", "items": [ "ring_salt" ] },
-	"hidden_passage_salt_12542": { "id": 70320, "loc": "12542.9287, 21526.27", "region": "the_watching_woods", "items": [ "salt2" ] },
-	"dungeon_health_statue_cleric": { "id": 70321, "loc": "39685.11, 27850.48", "region": "red_hall_of_cages", "items": [ "statue_cleric", "ring_dex" ] },
-	"village_trees_ring_vit": { "id": 70361, "loc": "13009.37, 17462.6113", "region": "the_watching_woods", "items": [ "ring_fort" ] },
-	"bluecave_statue_mage": { "id": 70362, "loc": "31901.4473, 29488.8027", "region": "hagers_cavern", "items": [ "statue_mage" ] },
-	"bluecave_charm_lit": { "id": 70364, "loc": "35802.7266, 28463", "region": "hagers_cavern", "items": [ "charm_lit" ] },
-	"fortress_spear": { "id": 70368, "loc": "16036.92, 13125.8135", "region": "the_festering_banquet", "items": [ "spear", "salt2" ] },
-	"village_ring_roll": { "id": 70370, "loc": "2086.409, 17062.4453", "region": "shivering_shore", "items": [ "ring_roll" ] },
-	"midsecret_shield_oval": { "id": 70425, "loc": "30729.6484, 17758.6523", "region": "bandits_pass", "items": [ "salt4", "shield_oval" ] },
-	"dungeon_salt_50208": { "id": 70440, "loc": "50301.44, 21069.1934", "region": "red_hall_of_cages", "items": [ "salt4", "waterpot/3" ] },
-	"dungeon_37107": { "id": 70458, "loc": "37279.7422, 10752.0371", "region": "red_hall_of_cages", "items": [ "salt3", "buff_lit/3" ] },
-	"dungeon_38275": { "id": 70459, "loc": "38275.1, 12465.1855", "region": "red_hall_of_cages", "items": [ "salt3", "waterpot/3" ] },
-	"village_trees_flame_storm": { "id": 70467, "loc": "12473.9355, 17127.041", "region": "the_watching_woods", "items": [ "flame_storm" ] },
-	"dungeon_salt_47480": { "id": 70468, "loc": "47480.2969, 22025.43", "region": "red_hall_of_cages", "items": [ "salt4" ] },
-	"hidden_salt_axe_16822": { "id": 70469, "loc": "17519.8066, 12295.4893", "region": "the_festering_banquet", "items": [ "salt1" ] },
-	"fortresssalt1_11670": { "id": 70470, "loc": "11670.1768, 12295.2354", "region": "shivering_shore", "items": [ "salt1" ] },
-	"statue_guide_40293": { "id": 70472, "loc": "40293.7969, 16939.416", "region": "red_hall_of_cages", "items": [ "statue_guide" ] },
-	"bluecave_red_spark_33749": { "id": 70474, "loc": "33749.0742, 27658.9", "region": "hagers_cavern", "items": [ "red_spark/3" ] },
-	"bluecave_beast_spark_31775": { "id": 70475, "loc": "31775.5938, 30001.4063", "region": "hagers_cavern", "items": [ "beast_spark/3" ] },
-	"bluecave_white_flame_33948": { "id": 70476, "loc": "33948.6563, 31085.62", "region": "crypt_of_dead_gods", "items": [ "white_flame" ] },
-	"village_white_spark_8031": { "id": 70478, "loc": "8031.39258, 15575.6328", "region": "shivering_shore", "items": [ "white_spark/3", "salt1" ] },
-	"dungeon_fire_oribts": { "id": 70480, "loc": "45540.1523, 26995.502", "region": "red_hall_of_cages", "items": [ "fire_oribts" ] },
-	"swamp_blue_spark_23759": { "id": 70499, "loc": "23759.5527, 24907.5664", "region": "sunken_keep", "items": [ "blue_spark/3" ] },
-	"swamp_salt5_23795": { "id": 70500, "loc": "23795.3418, 26930.4746", "region": "mire_of_stench", "items": [ "salt5" ] },
-	"swamp_poison_def_26836": { "id": 70501, "loc": "26836.77, 28693.9824", "region": "mire_of_stench", "items": [ "poison_def" ] },
-	"swamp_shield_cleric_26163": { "id": 70502, "loc": "16682.4121, 28023.6426", "region": "mire_of_stench", "items": [ "shield_cleric" ] },
-	"bluecave_shield_antler_30391": { "id": 70504, "loc": "38194.1328, 31786.873", "region": "crypt_of_dead_gods", "items": [ "shield_antler" ] },
-	"dungeon_waterpot_43939": { "id": 70505, "loc": "43445.9727, 27530.6348", "region": "red_hall_of_cages", "items": [ "waterpot/3" ] },
-	"bluecave_statue_cleric_31349": { "id": 70506, "loc": "31349.38, 32077.7832", "region": "hagers_cavern", "items": [ "statue_cleric" ] },
-	"swamp_dagger_shiv_20204": { "id": 70507, "loc": "20204.832, 28498.5586", "region": "mire_of_stench", "items": [ "dagger_shiv" ] },
-	"bluecave_staff_wood_28709": { "id": 70508, "loc": "29802.0977, 31655.7813", "region": "hagers_cavern", "items": [ "staff_wood" ] },
-	"village_trees_claymore": { "id": 70511, "loc": "8393.175, 17497.3711", "region": "village_of_smiles", "items": [ "claymore" ] },
-	"greenvillage_bell_31063": { "id": 70513, "loc": "31063.81, 23536.6973", "region": "hagers_cavern", "items": [ "return_bell" ] },
-	"dome_staff_60325": { "id": 70520, "loc": "60325.7969, 11690.4912", "region": "dome_of_the_forgotten", "items": [ "salt3" ] },
-	"ruins_whiteflame_62759": { "id": 70521, "loc": "62759.4844, 19689.6523", "region": "the_ruined_temple", "items": [ "white_flame/3" ] },
-	"hidden_sanctuary_spear_pitchfork": { "id": 70528, "loc": "21019.0879, 11753.0117", "region": "bandits_pass", "items": [ "salt1", "spear_pitchfork" ] },
-	"hidden_sanctuary_axe_great": { "id": 70529, "loc": "33125.09, 9274.463", "region": "bandits_pass", "items": [ "axe_great", "salt5" ] },
-	"hidden_sanctuary_31591": { "id": 70530, "loc": "31591.0449, 9891.452", "region": "bandits_pass", "items": [ "arrow_flame/25" ] },
-	"greenvillage_salt6_32253": { "id": 70531, "loc": "32253.2285, 19996.6738", "region": "sunken_keep", "items": [ "salt6", "statue_merchant" ] },
-	"greenvillage_hammer_great": { "id": 70532, "loc": "30155.959, 21943.16", "region": "hagers_cavern", "items": [ "hammer_great" ] },
-	"pcastle_34312": { "id": 70560, "loc": "34312.5352, 8951.308", "region": "castle_of_storms", "items": [ "salt3", "buff_lit/3" ] },
-	"hidden_sancledge_22763": { "id": 70562, "loc": "24548.7324, 10443.57", "region": "bandits_pass", "items": [ "return_bell" ] },
-	"fortress_bell_16140": { "id": 70563, "loc": "16140.7646, 11180.6084", "region": "the_festering_banquet", "items": [ "return_bell" ] },
-	"greenvillage_bell_29341": { "id": 70564, "loc": "29341.5762, 20778.5449", "region": "sunken_keep", "items": [ "return_bell" ] },
-	"village_bell_9554": { "id": 70565, "loc": "9554.847, 16822.8379", "region": "village_of_smiles", "items": [ "return_bell" ] },
-	"bluecave_key_cave_37705": { "id": 70567, "loc": "37755.1172, 32238.998", "region": "crypt_of_dead_gods", "items": [ "key_cave" ] },
-	"fortress_black_pearl": { "id": 70569, "loc": "13270.5068, 7153.633", "region": "the_festering_banquet", "items": [ "black_pearl" ] },
-	"hidden_black_pearl": { "id": 70570, "loc": "18541.86, 11498.8223", "region": "the_festering_banquet", "items": [ "black_pearl" ] },
-	"forest_black_pearl": { "id": 70571, "loc": "19441.68, 18065.9824", "region": "the_watching_woods", "items": [ "black_pearl" ] },
-	"village_black_pearl": { "id": 70573, "loc": "5771.40039, 18552.1", "region": "village_of_smiles", "items": [ "black_pearl" ] },
-	"hidden_passage_14332": { "id": 70611, "loc": "14348.3672, 22831.9648", "region": "the_watching_woods", "items": [ "shield_heater" ] },
-	"hidden_passage_6058": { "id": 70612, "loc": "6082.861, 21984.6445", "region": "village_of_smiles", "items": [ "lit_bolt2" ] },
-	"swamp_return_23587": { "id": 70629, "loc": "23587.7012, 24438.8965", "region": "sunken_keep", "items": [ "return_bell/3" ] },
-	"swamp_pirate_24248": { "id": 70630, "loc": "23377.4863, 26455.0039", "region": "mire_of_stench", "items": [ "pirate_armor", "pirate_helm", "pirate_boots" ] },
-	"fortress_lit_15226": { "id": 70646, "loc": "16916.1328, 14444.1895", "region": "the_festering_banquet", "items": [ "torch_oil", "lit_bolt" ] },
-	"ruin_room_spear_14388": { "id": 70650, "loc": "14388.2676, 27667.7852", "region": "mire_of_stench", "items": [ "trident_blue" ] },
-	"ruin_ring_def_5939": { "id": 70651, "loc": "5950.48926, 27416.0059", "region": "fort_beyond_the_mire", "items": [ "ring_def" ] },
-	"ruin_salt_4420": { "id": 70652, "loc": "4420.826, 26289.8047", "region": "fort_beyond_the_mire", "items": [ "salt6", "black_pearl" ] },
-	"ruin_bell_4084": { "id": 70653, "loc": "4084.25732, 26965.1113", "region": "fort_beyond_the_mire", "items": [ "return_bell" ] },
-	"fortress_torch_16220": { "id": 70654, "loc": "16187.9473, 13714.8076", "region": "the_festering_banquet", "items": [ "torch_oil" ] },
-	"midsecret_25589": { "id": 70666, "loc": "29535.8789, 16184.0566", "region": "bandits_pass", "items": [ "statue_merchant" ] },
-	"dungeon_fire2_33509": { "id": 70671, "loc": "33509.918, 15441.1406", "region": "red_hall_of_cages", "items": [ "fire2" ] },
-	"fortress_heal_16902": { "id": 70672, "loc": "16407.5313, 11757.0508", "region": "the_festering_banquet", "items": [ "heal" ] },
-	"greenvillage_holy_buff": { "id": 70673, "loc": "35881.67, 22351.7148", "region": "sunken_keep", "items": [ "holy_buff" ] },
-	"bluecave_holy_buff2": { "id": 70674, "loc": "35501.4, 26999.39", "region": "hagers_cavern", "items": [ "holy_buff2" ] },
-	"bluecave_fire_turret": { "id": 70675, "loc": "35051.625, 24276.31", "region": "sunken_keep", "items": [ "fire_turret" ] },
-	"castle_rapid_lit_34782": { "id": 70682, "loc": "34771.0469, 8720.366", "region": "castle_of_storms", "items": [ "rapid_lit" ] },
-	"castle_split_helm": { "id": 70686, "loc": "42076.418, 6254.339", "region": "castle_of_storms", "items": [ "split_helm" ] },
-	"castle_holy_cone": { "id": 70687, "loc": "39448.9453, 7560.113", "region": "castle_of_storms", "items": [ "holy_cone" ] },
-	"charm_poise_80996": { "id": 70690, "loc": "80909.33, 10523.8125", "region": "ziggurat_of_dust", "items": [ "charm_poise" ] },
-	"dome_gun_flintlock_60325": { "id": 70703, "loc": "55843.832, 11119.4639", "region": "dome_of_the_forgotten", "items": [ "gun_flintlock", "flintshot/50" ] },
-	"dome_buff_fire_59086": { "id": 70704, "loc": "59086.11, 10674.9443", "region": "dome_of_the_forgotten", "items": [ "buff_fire/3" ] },
-	"fortressstatue_guide_11407": { "id": 70706, "loc": "11404.1758, 13267.0576", "region": "shivering_shore", "items": [ "statue_guide", "horn_guide/3" ] },
-	"midsecretstatue_alchemist": { "id": 70707, "loc": "25369.6387, 15958.63", "region": "bandits_pass", "items": [ "statue_alchemist" ] },
-	"ruins_statue_guide_61709": { "id": 70709, "loc": "61709.0977, 21564.19", "region": "the_ruined_temple", "items": [ "statue_guide" ] },
-	"statue_guide_82894": { "id": 70710, "loc": "82894.95, 10854.748", "region": "ziggurat_of_dust", "items": [ "statue_guide" ] },
-	"statue_guide_62636": { "id": 70711, "loc": "62636.33, 11954.6406", "region": "the_ruined_temple", "items": [ "statue_guide" ] },
-	"statue_guide_35484": { "id": 70712, "loc": "35484.58, 4851.982", "region": "castle_of_storms", "items": [ "statue_guide" ] },
-	"statue_guide_27244": { "id": 70713, "loc": "27244.5664, 10154.5674", "region": "bandits_pass", "items": [ "statue_guide" ] },
-	"statue_guide_667": { "id": 70714, "loc": "667.260437, 16765.7344", "region": "shivering_shore", "items": [ "statue_guide" ] },
-	"statue_guide_25428": { "id": 70715, "loc": "25428.4023, 25822.4453", "region": "mire_of_stench", "items": [ "statue_guide" ] },
-	"statue_guide_38964": { "id": 70716, "loc": "38965.4375, 30633.4375", "region": "red_hall_of_cages", "items": [ "statue_guide" ] },
-	"bluecave_statue_mage_34244": { "id": 70718, "loc": "34192.6953, 26473.5918", "region": "hagers_cavern", "items": [ "statue_mage" ] },
-	"ruins_statue_cleric_65062": { "id": 70719, "loc": "65062.0234, 19183.916", "region": "the_ruined_temple", "items": [ "statue_cleric" ] },
-	"statue_statue_blacksmith_76993": { "id": 70720, "loc": "76993.7, 12572.2861", "region": "ziggurat_of_dust", "items": [ "statue_blacksmith" ] },
-	"statue_cleric_86774": { "id": 70721, "loc": "86740.07, 13677.3105", "region": "ziggurat_of_dust", "items": [ "statue_cleric" ] },
-	"whip_chain_87089": { "id": 70722, "loc": "87089.61, 13688.0977", "region": "ziggurat_of_dust", "items": [ "whip_chain" ] },
-	"dungeon_statue_alchemist_48137": { "id": 70723, "loc": "48137.2578, 24493.957", "region": "red_hall_of_cages", "items": [ "statue_alchemist" ] },
-	"midsecretcharm_statue_leader": { "id": 70724, "loc": "27454.3164, 17395.7129", "region": "sunken_keep", "items": [ "statue_leader" ] },
-	"village_statue_leader": { "id": 70725, "loc": "10642.5508, 18120.2246", "region": "village_of_smiles", "items": [ "statue_leader" ] },
-	"statue_leader_25068": { "id": 70730, "loc": "25853.4551, 25021.71", "region": "mire_of_stench", "items": [ "statue_leader" ] },
-	"greenvillage_light_26929": { "id": 70733, "loc": "26929.77, 19270.5684", "region": "sunken_keep", "items": [ "holy_light" ] },
-	"hidden_statue_sellsword_23996": { "id": 70734, "loc": "23996.7852, 11023.0156", "region": "bandits_pass", "items": [ "statue_sellsword" ] },
-	"midsecretshield_round": { "id": 70743, "loc": "23668.9141, 14194.168", "region": "sunken_keep", "items": [ "shield_silver" ] },
-	"castle_shield_silver": { "id": 70748, "loc": "38461.375, 6389.3623", "region": "castle_of_storms", "items": [ "shield_round" ] },
-	"castle_real_ring_hp": { "id": 70749, "loc": "31559.6445, 5974.753", "region": "castle_of_storms", "items": [ "ring_hp" ] },
-	"dome_ring_magic_61610": { "id": 70750, "loc": "61855.6836, 10896.9121", "region": "the_ruined_temple", "items": [ "ring_magic" ] },
-	"dungeon_ring_spirit_44551": { "id": 70751, "loc": "44551.87, 22409.8633", "region": "red_hall_of_cages", "items": [ "ring_spirit" ] },
-	"swamp_ring_stamina_18459": { "id": 70752, "loc": "16490.69, 25083.0488", "region": "mire_of_stench", "items": [ "ring_stamina" ] },
-	"ring_gold_40263": { "id": 70753, "loc": "40379.71, 29641.1563", "region": "red_hall_of_cages", "items": [ "ring_gold" ] },
-	"dungeon_shield_tower": { "id": 70758, "loc": "36240.11, 13521.459", "region": "red_hall_of_cages", "items": [ "shield_tower" ] },
-	"red_spark_38317": { "id": 70759, "loc": "38317.12, 17974.1855", "region": "sunken_keep", "items": [ "red_spark/3" ] },
-	"ruins_holy_orbits_71482": { "id": 70760, "loc": "71482.2, 24249.68", "region": "pitchwoods", "items": [ "holy_orbits" ] },
-	"ruins_spear_pilum": { "id": 70762, "loc": "60072.625, 19983.6758", "region": "the_ruined_temple", "items": [ "spear_pilum", "gray_pearl" ] },
-	"pyramid_statue_mage": { "id": 70763, "loc": "85372.79, 14866.2842", "region": "ziggurat_of_dust", "items": [ "statue_mage" ] },
-	"pyramid_ring_cheap_mag": { "id": 70764, "loc": "86826.62, 14638.042", "region": "ziggurat_of_dust", "items": [ "ring_cheap_mag" ] },
-	"pyramid_statue_cleric": { "id": 70765, "loc": "89973.17, 17775.6172", "region": "ziggurat_of_dust", "items": [ "statue_cleric" ] },
-	"village_shield_branches": { "id": 70766, "loc": "10203.0049, 16464.8652", "region": "village_of_smiles", "items": [ "shield_branches" ] },
-	"ruins_ring_damage": { "id": 70769, "loc": "67639.4844, 19918.793", "region": "the_ruined_temple", "items": [ "ring_damage" ] },
-	"red_spark_82798": { "id": 70810, "loc": "82798.18, 12264.2158", "region": "ziggurat_of_dust", "items": [ "red_spark/3" ] },
-	"lab_blue_spark_51496": { "id": 70811, "loc": "51360.1523, 26602.8242", "region": "crans_pass", "items": [ "blue_spark/3" ] },
-	"lab_axe_blue_50052": { "id": 70812, "loc": "51528.3477, 28198.3262", "region": "siam_lake", "items": [ "axe_blue" ] },
-	"lab_statue_guide_51459": { "id": 70813, "loc": "50057.207, 27603.9258", "region": "salt_alkymancery", "items": [ "statue_guide" ] },
-	"forest_buckler_19508": { "id": 70848, "loc": "19508.2441, 19238.8438", "region": "the_watching_woods", "items": [ "shield_buckler", "statue_sellsword" ] },
-	"lake_statue_guide_67994": { "id": 70872, "loc": "67994.13, 30741.74", "region": "pitchwoods", "items": [ "statue_guide" ] },
-	"lake_ring_cheap_wis_65846": { "id": 70873, "loc": "65846.33, 30757.3535", "region": "pitchwoods", "items": [ "ring_cheap_wis" ] },
-	"forest_axe_18935": { "id": 70874, "loc": "18935.58, 21837.2012", "region": "the_watching_woods", "items": [ "axe_crescent" ] },
-	"swamp_cdo_26825": { "id": 70875, "loc": "26825.7148, 24267.332", "region": "mire_of_stench", "items": [ "charm_dying_overkill" ] },
-	"ruin_holy_will_14878": { "id": 70876, "loc": "14878.3965, 31195.2227", "region": "mire_of_stench", "items": [ "holy_will" ] },
-	"dungeon_shield_iron_45075": { "id": 70877, "loc": "45075.457, 13797.7158", "region": "red_hall_of_cages", "items": [ "shield_iron" ] },
-	"ruins_spark_63361": { "id": 70893, "loc": "63361.6875, 16278.793", "region": "the_ruined_temple", "items": [ "drowning_spark/3" ] },
-	"lab_statue_flame_53398": { "id": 70900, "loc": "49747.0977, 33708.957", "region": "the_still_palace", "items": [ "blue_flame/3" ] },
-	"forest_salt_13409": { "id": 70915, "loc": "14738.6025, 19315.04", "region": "the_watching_woods", "items": [ "salt1", "antidote/3" ] },
-	"vert_guide_52176": { "id": 70916, "loc": "52176.582, 4628.31348", "region": "mals_floating_castle", "items": [ "statue_guide" ] },
-	"tomb_salt_42096": { "id": 70917, "loc": "42096.1055, 33486.54", "region": "crypt_of_dead_gods", "items": [ "salt7" ] },
-	"dungeon_lit_ghost": { "id": 70918, "loc": "52726.7852, 26617.83", "region": "crans_pass", "items": [ "lit_ghost" ] },
-	"lake_ring_light_58739": { "id": 70919, "loc": "29074.6719, 31033.22", "region": "hagers_cavern", "items": [ "ring_light" ] },
-	"bluecave_spark_35480": { "id": 70925, "loc": "35480.1445, 25283.4863", "region": "sunken_keep", "items": [ "drowning_spark/3" ] },
-	"earth_bag_85048": { "id": 70930, "loc": "85051.76, 12107.1641", "region": "ziggurat_of_dust", "items": [ "earth_bag" ] },
-	"hidden_passage_charm_reach": { "id": 70931, "loc": "12855.6, 21144.0977", "region": "the_watching_woods", "items": [ "charm_reach" ] },
-	"lab_ring_slash_42721": { "id": 70933, "loc": "42563.707, 31399.32", "region": "crypt_of_dead_gods", "items": [ "ring_slash" ] },
-	"ruins_charm_holy_65973": { "id": 70934, "loc": "65973.32, 28011.07", "region": "pitchwoods", "items": [ "charm_holy" ] },
-	"dome_war_scythe_61610": { "id": 70936, "loc": "65318.08, 15883.1162", "region": "the_ruined_temple", "items": [ "war_scythe" ] },
-	"sack_guide_87639": { "id": 70963, "loc": "87639.2344, 24274.2832", "region": "pitchwoods", "items": [ "statue_guide" ] },
-	"whiteblaze_81684": { "id": 70975, "loc": "81684.44, 29758.16", "region": "pitchwoods", "items": [ "white_blaze/3" ] },
-	"ruins_blaze_63821": { "id": 70976, "loc": "64403.76, 24559.3535", "region": "the_ruined_temple", "items": [ "white_blaze" ] },
-	"lab_white_blaze_52768": { "id": 70977, "loc": "49524.625, 26492.1211", "region": "salt_alkymancery", "items": [ "white_blaze/3" ] },
-	"wood_salt_97049": { "id": 70979, "loc": "97049.78, 29522.73", "region": "pitchwoods", "items": [ "salt8" ] },
-	"shield_bug_98672": { "id": 70980, "loc": "98672.06, 30357.5469", "region": "pitchwoods", "items": [ "shield_bug" ] },
-	"ruins_blaze_58795": { "id": 70981, "loc": "60764.3867, 25421.82", "region": "siam_lake", "items": [ "drowning_blaze" ] },
-	"sack_horn_59932": { "id": 70982, "loc": "59932.81, 39412.79", "region": "the_still_palace", "items": [ "horn_guide/3" ] },
-	"castle_white_flame_35400": { "id": 70984, "loc": "35368.3477, 6609.41748", "region": "castle_of_storms", "items": [ "white_flame/3" ] },
-	"castle_grenado_36186": { "id": 70985, "loc": "36186.0469, 6710.823", "region": "castle_of_storms", "items": [ "grenado/5" ] },
-	"dungeon_redspark_48102": { "id": 70986, "loc": "48102.2773, 22193.2363", "region": "red_hall_of_cages", "items": [ "red_spark/3" ] },
-	"ruins_lit_satellite": { "id": 70987, "loc": "63501.28, 19213.3066", "region": "the_ruined_temple", "items": [ "salt3", "lit_satellite" ] },
-	"ruins_whiteflame_59879": { "id": 70988, "loc": "59717.73, 18519.3652", "region": "the_ruined_temple", "items": [ "white_flame/3" ] },
-	"dark_guide_78731": { "id": 70989, "loc": "78734.16, 40072.99", "region": "the_blackest_vault", "items": [ "statue_guide" ] },
-	"dark_drowning_72431": { "id": 70990, "loc": "72431.2656, 38632.207", "region": "the_blackest_vault", "items": [ "drowning_flame/3" ] },
-	"vision_potion_57948": { "id": 70993, "loc": "57326.0977, 13332.18", "region": "dome_of_the_forgotten", "items": [ "vision_potion/3" ] },
-	"vision_potion_59027": { "id": 70994, "loc": "59027.6563, 11513.2725", "region": "dome_of_the_forgotten", "items": [ "vision_potion/3", "statue_mage" ] },
-	"shield_snakes_36862": { "id": 71003, "loc": "36862.1328, 15153.4795", "region": "red_hall_of_cages", "items": [ "shield_snakes" ] },
-	"white_flame_36251": { "id": 71012, "loc": "37585.6, 18064.127", "region": "sunken_keep", "items": [ "white_flame/3" ] },
-	"tomb_drowning_39444": { "id": 71021, "loc": "39444.5, 33941.082", "region": "crypt_of_dead_gods", "items": [ "drowning_flame/3" ] },
-	"tomb_drowning_34471": { "id": 71022, "loc": "34471.57, 33496.5078", "region": "crypt_of_dead_gods", "items": [ "drowning_blaze" ] },
-	"tomb_leader_33954": { "id": 71023, "loc": "33954.2344, 33196.582", "region": "crypt_of_dead_gods", "items": [ "statue_leader" ] },
-	"tomb_sellsword_32326": { "id": 71024, "loc": "32326.7813, 38445.52", "region": "crypt_of_dead_gods", "items": [ "statue_sellsword" ] },
-	"tomb_merchant_41183": { "id": 71025, "loc": "41183.24, 37616.68", "region": "crypt_of_dead_gods", "items": [ "statue_merchant" ] },
-	"tomb_red_43297": { "id": 71026, "loc": "43297.03, 35854.04", "region": "crypt_of_dead_gods", "items": [ "red_flame/3" ] },
-	"tomb_blaze_36102": { "id": 71027, "loc": "36102.64, 36947.76", "region": "crypt_of_dead_gods", "items": [ "white_blaze/3" ] },
-	"lake_drowning_spark_63525": { "id": 71039, "loc": "63525.4063, 33087.75", "region": "siam_lake", "items": [ "drowning_spark/3" ] },
-	"drowning_blaze_99197": { "id": 71040, "loc": "99197.99, 30391.4473", "region": "pitchwoods", "items": [ "drowning_blaze/4" ] },
-	"blue_blaze_89507": { "id": 71041, "loc": "89507.83, 26058.5977", "region": "pitchwoods", "items": [ "blue_blaze/3" ] },
-	"lab_statue_flame_53285": { "id": 71042, "loc": "53285.4844, 34129.6875", "region": "siam_lake", "items": [ "blue_blaze/3" ] },
-	"tomb_blueflame_32358": { "id": 71043, "loc": "32358.0547, 36826.38", "region": "crypt_of_dead_gods", "items": [ "blue_flame/3" ] },
-	"ruins_redblaze_62072": { "id": 71044, "loc": "62072.06, 28242.0527", "region": "the_ruined_temple", "items": [ "red_blaze/3" ] },
-	"salt10_59096": { "id": 71045, "loc": "59096.9375, 41802.1172", "region": "the_still_palace", "items": [ "salt10" ] },
-	"tomb_horn_33424": { "id": 71051, "loc": "33424.26, 35670.875", "region": "crypt_of_dead_gods", "items": [ "horn_will" ] },
-	"cave_horn_40269": { "id": 71052, "loc": "40269.55, 30671.51", "region": "red_hall_of_cages", "items": [ "horn_will" ] },
-	"dungeon_blueflame_41789": { "id": 71062, "loc": "41794.4648, 26156.0488", "region": "hagers_cavern", "items": [ "blue_flame/3" ] },
-	"amberspark_21678": { "id": 71063, "loc": "21678.0234, 14455.83", "region": "sunken_keep", "items": [ "amber_spark" ] },
-	"amberspark_29340": { "id": 71064, "loc": "29340.0938, 17175.79", "region": "sunken_keep", "items": [ "throw_p_dagger/25" ] },
-	"amberspark_34967": { "id": 71065, "loc": "34967.0547, 6423.54736", "region": "castle_of_storms", "items": [ "amber_spark" ] },
-	"amberspark_44009": { "id": 71066, "loc": "44009.6758, 3181.88354", "region": "castle_of_storms", "items": [ "amber_spark" ] },
-	"amberflame_55884": { "id": 71067, "loc": "55884.5977, 12596.0723", "region": "dome_of_the_forgotten", "items": [ "amber_flame" ] },
-	"amberflame_63733": { "id": 71068, "loc": "63733.3828, 11796.2061", "region": "dome_of_the_forgotten", "items": [ "amber_flame" ] },
-	"amberflame_57738": { "id": 71069, "loc": "57738.5547, 18389.8555", "region": "the_ruined_temple", "items": [ "amber_flame" ] },
-	"amberspark_35625": { "id": 71070, "loc": "35625.21, 15081.3262", "region": "red_hall_of_cages", "items": [ "amber_spark" ] },
-	"amberspark_89011": { "id": 71071, "loc": "89011.375, 15793.5029", "region": "ziggurat_of_dust", "items": [ "amber_spark" ] },
-	"amberflame_74984": { "id": 71078, "loc": "74984.27, 14001.1836", "region": "ziggurat_of_dust", "items": [ "amber_flame" ] },
-	"amberblaze_63398": { "id": 71079, "loc": "63397.9961, 21090.9336", "region": "the_ruined_temple", "items": [ "amber_blaze" ] },
-	"amberblaze_65995": { "id": 71080, "loc": "65995.22, 30360.4141", "region": "pitchwoods", "items": [ "amber_blaze" ] },
-	"amberblaze_44050": { "id": 71081, "loc": "44050.4922, 32092.1855", "region": "crypt_of_dead_gods", "items": [ "amber_blaze" ] },
-	"amberflame_36690": { "id": 71083, "loc": "36690.16, 30972.4141", "region": "crypt_of_dead_gods", "items": [ "amber_flame" ] },
-	"ambernova_37920": { "id": 71084, "loc": "37920.09, 41450.9375", "region": "crypt_of_dead_gods", "items": [ "amber_nova" ] },
-	"ambernova_26747": { "id": 71086, "loc": "26747.1914, 41208.21", "region": "hagers_cavern", "items": [ "amber_nova" ] },
-	"amberblaze_35703": { "id": 71087, "loc": "35703.35, 35507.4922", "region": "crypt_of_dead_gods", "items": [ "amber_blaze" ] },
-	"amberspark_32400": { "id": 71088, "loc": "32400.7539, 26679.2012", "region": "hagers_cavern", "items": [ "amber_spark/3" ] },
-	"amberspark_33302": { "id": 71089, "loc": "33302.86, 19083.0977", "region": "sunken_keep", "items": [ "throw_p_dagger/25" ] },
-	"statue_leader_40725": { "id": 71113, "loc": "40725.14, 15501.8232", "region": "red_hall_of_cages", "items": [ "statue_leader" ] },
-	"pyramid_horn_will": { "id": 71116, "loc": "83583.39, 14413.2754", "region": "ziggurat_of_dust", "items": [ "horn_will" ] },
-	"pyramid_ring_bloody": { "id": 71119, "loc": "80198.0156, 14574.8623", "region": "ziggurat_of_dust", "items": [ "ring_bloody" ] },
-	"axe_anchor_76586": { "id": 71137, "loc": "76586.76, 15222.1221", "region": "ziggurat_of_dust", "items": [ "axe_anchor" ] },
-	"amberflame_96931": { "id": 71138, "loc": "96931.13, 18857.1367", "region": "pitchwoods", "items": [ "amber_flame" ] },
-	"purpledress": { "id": 71139, "loc": "27370.3613, 16075.6826", "region": "sunken_keep", "items": [ "purpledress_armor", "purpledress_boots", "purpledress_helm" ] },
-	"crossbow_84383": { "id": 71142, "loc": "84383.51, 22015.7949", "region": "pitchwoods", "items": [ "crossbow_red" ] },
-	"crossbow_27928": { "id": 71143, "loc": "27108.7188, 10767.626", "region": "bandits_pass", "items": [ "crossbow", "bolt/50" ] },
-	"dome_staff_61236": { "id": 71162, "loc": "61236.01, 12212.8545", "region": "the_ruined_temple", "items": [ "staff_wood" ] },
-	"salt3_83579": { "id": 71164, "loc": "83579.6, 13979.1377", "region": "ziggurat_of_dust", "items": [ "salt6" ] },
-	"salt9_90297": { "id": 71165, "loc": "90297.45, 20455", "region": "pitchwoods", "items": [ "salt9" ] },
-	"salt7_76309": { "id": 71166, "loc": "76309.1953, 28401.4121", "region": "pitchwoods", "items": [ "salt7" ] },
-	"salt9_38479": { "id": 71167, "loc": "38478.0938, 34462.25", "region": "crypt_of_dead_gods", "items": [ "salt9" ] },
-	"salt4_37688": { "id": 71168, "loc": "37688.9258, 26545.5977", "region": "hagers_cavern", "items": [ "salt4" ] },
-	"salt4_31461": { "id": 71169, "loc": "31461.0742, 29136.4824", "region": "hagers_cavern", "items": [ "salt4" ] },
-	"castle_charm_dark": { "id": 71170, "loc": "73762.875, 26134.4", "region": "pitchwoods", "items": [ "charm_dark" ] },
-	"lit_def_65127": { "id": 71171, "loc": "65135.5273, 13008.3271", "region": "dome_of_the_forgotten", "items": [ "lit_def" ] },
-	"castle_fire_def_36739": { "id": 71172, "loc": "36739.94, 6994.359", "region": "castle_of_storms", "items": [ "fire_def" ] },
-	"ring_mp_moat_23891": { "id": 71173, "loc": "23891.416, 23160.2832", "region": "sunken_keep", "items": [ "ring_mp_moat" ] },
-	"swamp_salt4_19784": { "id": 71174, "loc": "19784.0977, 28062.2129", "region": "mire_of_stench", "items": [ "salt4", "charm_heavy_poison" ] },
-	"village_pumpkin_helm_16011": { "id": 71175, "loc": "16011.6055, 17255.29", "region": "the_watching_woods", "items": [ "pumpkin_helm" ] },
-	"shield_skulls_77787": { "id": 71190, "loc": "77787.61, 12101.9512", "region": "ziggurat_of_dust", "items": [ "shield_skulls" ] },
-	"swamp_rust_26825": { "id": 71192, "loc": "26704.2363, 26262.9961", "region": "mire_of_stench", "items": [ "sword_rust" ] },
-	"mag_poison_buff_31947": { "id": 71194, "loc": "32278.16, 25320.7617", "region": "hagers_cavern", "items": [ "mag_poison_buff" ] },
-	"village_smith_armor6464": { "id": 71195, "loc": "6464.30664, 17621.25", "region": "village_of_smiles", "items": [ "blacksmith_armor", "blacksmith_gloves", "blacksmith_boots" ] },
-	"forest_antidote_18143": { "id": 71197, "loc": "18143.08, 19367.6445", "region": "the_watching_woods", "items": [ "antidote/3" ] },
-	"forest_antidote_16501": { "id": 71198, "loc": "16501.92, 21520.0488", "region": "the_watching_woods", "items": [ "antidote/3" ] },
-	"village_gray_pearl_14826": { "id": 71199, "loc": "14826.125, 17139.54", "region": "the_watching_woods", "items": [ "gray_pearl" ] },
-	"frst_gray_pearl_23529": { "id": 71200, "loc": "23529.7656, 19268.6172", "region": "the_watching_woods", "items": [ "gray_pearl" ] },
-	"cave_gray_pearl_30650": { "id": 71201, "loc": "30650.125, 25177.6543", "region": "hagers_cavern", "items": [ "gray_pearl" ] },
-	"dng_gray_pearl_43910": { "id": 71202, "loc": "43910.55, 25771.957", "region": "red_hall_of_cages", "items": [ "gray_pearl" ] },
-	"ruins_gray_pearl_62452": { "id": 71203, "loc": "62452.7578, 16008.127", "region": "the_ruined_temple", "items": [ "gray_pearl" ] },
-	"ruins_gray_pearl_73816": { "id": 71204, "loc": "73816.86, 12757.1885", "region": "ziggurat_of_dust", "items": [ "gray_pearl" ] },
-	"woods_gray_pearl_77413": { "id": 71205, "loc": "77413.52, 24246.459", "region": "pitchwoods", "items": [ "gray_pearl" ] },
-	"woods_gray_pearl_70430": { "id": 71206, "loc": "70430.22, 30895.623", "region": "pitchwoods", "items": [ "gray_pearl" ] },
-	"dng_gray_pearl_46576": { "id": 71207, "loc": "46576.26, 26734.2754", "region": "red_hall_of_cages", "items": [ "gray_pearl" ] },
-	"dm_crystal_sphere_59492": { "id": 71208, "loc": "59492.9141, 12909.1465", "region": "the_ruined_temple", "items": [ "crystal_sphere" ] },
-	"cos_crystal_sphere_43675": { "id": 71209, "loc": "43675.5469, 11793.4023", "region": "red_hall_of_cages", "items": [ "crystal_sphere" ] },
-	"bp_crystal_sphere_26211": { "id": 71210, "loc": "26211.23, 14558.0117", "region": "bandits_pass", "items": [ "crystal_sphere" ] },
-	"tomb_crys_sphere_39557": { "id": 71211, "loc": "39557.35, 37004.34", "region": "crypt_of_dead_gods", "items": [ "crystal_sphere" ] },
-	"forest_flame_17206": { "id": 71214, "loc": "17206.73, 20396.7715", "region": "the_watching_woods", "items": [ "white_flame" ] },
-	"bluecave_ease_34622": { "id": 71219, "loc": "34622.36, 25451.1113", "region": "sunken_keep", "items": [ "charm_ease" ] },
-	"vert_guide_49983": { "id": 71255, "loc": "49983.0039, 7157.06152", "region": "mals_floating_castle", "items": [ "statue_guide" ] },
-	"vert_poleaxe_48693": { "id": 71256, "loc": "48693.5352, 7596.493", "region": "mals_floating_castle", "items": [ "poleaxe" ] },
-	"castle_gpearl_50257": { "id": 71257, "loc": "50257.89, 2448.48242", "region": "mals_floating_castle", "items": [ "gray_pearl" ] },
-	"graypearl_43563": { "id": 71259, "loc": "43549.17, 29897.332", "region": "salt_alkymancery", "items": [ "gray_pearl" ] },
-	"crystalsphere_28712": { "id": 71260, "loc": "28712.9316, 18835.9141", "region": "sunken_keep", "items": [ "crystal_sphere" ] },
-	"clerc_13574": { "id": 71261, "loc": "13574.0361, 11306.5244", "region": "the_festering_banquet", "items": [ "statue_cleric" ] },
-	"graypearl_79116": { "id": 71268, "loc": "79116.53, 31065.7676", "region": "pitchwoods", "items": [ "gray_pearl" ] },
-	"graypearl_90392": { "id": 71269, "loc": "90392.24, 21013.2188", "region": "pitchwoods", "items": [ "gray_pearl" ] },
-	"graypearl_33819": { "id": 71273, "loc": "33819.4258, 18444.7168", "region": "sunken_keep", "items": [ "gray_pearl" ] },
-	"halberd_30452": { "id": 71275, "loc": "30453.53, 10949.5762", "region": "bandits_pass", "items": [ "halberd" ] },
-	"hidden_sanctuary_ring_melee": { "id": 71276, "loc": "24319.8945, 9692.128", "region": "bandits_pass", "items": [ "ring_melee", "firepot/3" ] },
-	"dome_lords_mat": { "id": 71278, "loc": "59482.09, 13326.333", "region": "the_ruined_temple", "items": [ "white_blaze" ] },
-	"beach_g_pearl_31": { "id": 71279, "loc": "31.7981739, 14849.4609", "region": "shivering_shore", "items": [ "gray_pearl" ] },
-	"red_blaze_39215": { "id": 71280, "loc": "39315.17, 15749.0244", "region": "red_hall_of_cages", "items": [ "red_blaze" ] },
-	"blue_spark_31328": { "id": 71281, "loc": "31328.0527, 14777.4707", "region": "red_hall_of_cages", "items": [ "blue_spark/3" ] },
-	"blue_flame_13049": { "id": 71282, "loc": "13049.3887, 23018.9629", "region": "the_watching_woods", "items": [ "blue_flame/3" ] },
-	"ring_wis_17942": { "id": 71283, "loc": "17942.2715, 23369.2871", "region": "mire_of_stench", "items": [ "ring_wisdom" ] },
-	"blue_spark_24466": { "id": 71284, "loc": "24466.377, 21527.1348", "region": "sunken_keep", "items": [ "blue_spark" ] },
-	"boat_oar_3128": { "id": 71285, "loc": "3128.17065, 28911.1836", "region": "fort_beyond_the_mire", "items": [ "spear_oar" ] },
-	"gray_pearl_22879": { "id": 71286, "loc": "22879.8516, 21914.1523", "region": "the_watching_woods", "items": [ "gray_pearl" ] },
-	"red_flame_39666": { "id": 71287, "loc": "39666.1055, 23036.8418", "region": "red_hall_of_cages", "items": [ "red_flame" ] },
-	"red_flame_39924": { "id": 71288, "loc": "39922.03, 8708.073", "region": "castle_of_storms", "items": [ "red_flame/3" ] },
-	"charred_doll_25592": { "id": 71289, "loc": "25592.99, 15472.5771", "region": "bandits_pass", "items": [ "red_spark/3", "ring_fire_dmg" ] },
-	"beast_nova_37303": { "id": 71290, "loc": "37303.1875, 40190.61", "region": "crypt_of_dead_gods", "items": [ "beast_nova" ] },
-	"redspark_secret": { "id": 71291, "loc": "22568.6875, 12562.2373", "region": "bandits_pass", "items": [ "red_spark" ] }
+  "fortress_shield": {
+    "items": [
+      "health_shard/3"
+    ],
+    "id": 70001,
+    "loc": "13829.9775, 12313.2637",
+    "region": "the_festering_banquet"
+  },
+  "fortress_bow": {
+    "items": [
+      "bow",
+      "arrow/50"
+    ],
+    "id": 70002,
+    "loc": "17420.252, 12588.0039",
+    "region": "the_festering_banquet_cave"
+  },
+  "fortresssalt2": {
+    "items": [
+      "salt2",
+      "statue_merchant"
+    ],
+    "id": 70003,
+    "loc": "13483.4111, 11750.3223",
+    "region": "the_festering_banquet"
+  },
+  "fortress_throw_dagger": {
+    "items": [
+      "throw_dagger/25",
+      "torch_oil"
+    ],
+    "id": 70004,
+    "loc": "14406.5322, 11345.0313",
+    "region": "the_festering_banquet"
+  },
+  "fortress_lit_ball": {
+    "items": [
+      "statue_blacksmith",
+      "health_shard/3"
+    ],
+    "id": 70005,
+    "loc": "17709.71, 9733.217",
+    "region": "the_festering_banquet"
+  },
+  "village_buff_holy": {
+    "items": [
+      "buff_holy/3"
+    ],
+    "id": 70037,
+    "loc": "1722.454, 17127.3789",
+    "region": "village_of_smiles"
+  },
+  "village_salt2": {
+    "items": [
+      "salt2"
+    ],
+    "id": 70038,
+    "loc": "10499.0967, 17285.92",
+    "region": "village_of_smiles"
+  },
+  "fortress_lit_bolt": {
+    "items": [
+      "health_shard/3"
+    ],
+    "id": 70039,
+    "loc": "12986.1514, 10530.209",
+    "region": "the_festering_banquet"
+  },
+  "village_grenado": {
+    "items": [
+      "grenado/5"
+    ],
+    "id": 70040,
+    "loc": "14361.3535, 8783.246",
+    "region": "the_festering_banquet"
+  },
+  "village_statue_cleric": {
+    "items": [
+      "statue_cleric"
+    ],
+    "id": 70041,
+    "loc": "4238.879, 17546.4434",
+    "region": "village_of_smiles"
+  },
+  "forest_whip_18742": {
+    "items": [
+      "whip"
+    ],
+    "id": 70052,
+    "loc": "18688.3867, 19311.7012",
+    "region": "the_watching_woods"
+  },
+  "forest_amber_spark": {
+    "items": [
+      "salt3"
+    ],
+    "id": 70053,
+    "loc": "18287.64, 20541.32",
+    "region": "the_watching_woods"
+  },
+  "forest_redhigh_mage": {
+    "items": [
+      "statue_mage",
+      "salt2"
+    ],
+    "id": 70059,
+    "loc": "16864.8672, 18184.3027",
+    "region": "the_watching_woods"
+  },
+  "hidden_tree_heal2": {
+    "items": [
+      "heal2",
+      "waterpot/3"
+    ],
+    "id": 70063,
+    "loc": "26271.4434, 9361.818",
+    "region": "bandits_pass"
+  },
+  "fortress_mage_16430": {
+    "items": [
+      "statue_mage",
+      "buff_dark/3"
+    ],
+    "id": 70070,
+    "loc": "13809.21, 15370.6494",
+    "region": "the_festering_banquet_cave"
+  },
+  "stone_ledge_salt": {
+    "items": [
+      "salt3",
+      "tribe_helm",
+      "tribe_boots"
+    ],
+    "id": 70071,
+    "loc": "29963.61, 9933.984",
+    "region": "bandits_pass"
+  },
+  "hidden_sanctuary_mag_boost": {
+    "items": [
+      "ring_mag_boost",
+      "salt2"
+    ],
+    "id": 70076,
+    "loc": "22853.8438, 9474.53",
+    "region": "bandits_pass_vertigo"
+  },
+  "hidden_sancledge_spark": {
+    "items": [
+      "mace_flanged",
+      "salt3"
+    ],
+    "id": 70077,
+    "loc": "22507.2578, 10438.6914",
+    "region": "bandits_pass"
+  },
+  "castle_terror_ledge": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 70093,
+    "loc": "32164.0273, 6606.48975",
+    "region": "castle_of_storms"
+  },
+  "under_village_scythe": {
+    "items": [
+      "scythe"
+    ],
+    "id": 70155,
+    "loc": "12295.9814, 21527.99",
+    "region": "the_watching_woods"
+  },
+  "under_village_salt": {
+    "items": [
+      "salt2",
+      "horn_will/3"
+    ],
+    "id": 70156,
+    "loc": "11260.5059, 20304.1777",
+    "region": "the_watching_woods"
+  },
+  "greenvillage_blacksmith": {
+    "items": [
+      "statue_blacksmith",
+      "white_flame"
+    ],
+    "id": 70157,
+    "loc": "27413.7559, 20519.7363",
+    "region": "sunken_keep"
+  },
+  "fortress_jurney_ld": {
+    "items": [
+      "msg_bottle"
+    ],
+    "id": 70198,
+    "loc": "16038.5166, 10759.7979",
+    "region": "the_festering_banquet"
+  },
+  "trap_cave_key_bronze": {
+    "items": [
+      "key_bronze"
+    ],
+    "id": 70210,
+    "loc": "29094.1133, 14970.1152",
+    "region": "bronze_key_cave"
+  },
+  "village_thief_armor": {
+    "items": [
+      "thief_helm",
+      "thief_armor",
+      "thief_boots",
+      "thief_gloves"
+    ],
+    "id": 70212,
+    "loc": "14674.22, 9349.854",
+    "region": "the_festering_banquet"
+  },
+  "hidden_tunic_set": {
+    "items": [
+      "tunic_armor",
+      "tunic_boots",
+      "axe"
+    ],
+    "id": 70213,
+    "loc": "19163.36, 12005.9639",
+    "region": "bandits_pass"
+  },
+  "castle_real_lit_ball": {
+    "items": [
+      "lit_ball"
+    ],
+    "id": 70214,
+    "loc": "36429.8477, 6193.02051",
+    "region": "castle_of_storms"
+  },
+  "midsecretchainmail_gloves": {
+    "items": [
+      "chain_gloves"
+    ],
+    "id": 70215,
+    "loc": "27337.6172, 11914.4258",
+    "region": "bandits_pass"
+  },
+  "midsecretchainmail_helm": {
+    "items": [
+      "chain_helm"
+    ],
+    "id": 70216,
+    "loc": "27791.4785, 11917.418",
+    "region": "bandits_pass"
+  },
+  "midsecretchainmail_armor": {
+    "items": [
+      "chain_armor"
+    ],
+    "id": 70217,
+    "loc": "29497.0215, 15436.3184",
+    "region": "bronze_key_cave"
+  },
+  "midsecretchainmail_boots": {
+    "items": [
+      "chain_boots"
+    ],
+    "id": 70218,
+    "loc": "24668.4512, 16306.0791",
+    "region": "jester_lower"
+  },
+  "stone_ledge_tribe_armor": {
+    "items": [
+      "tribe_armor",
+      "shield_viking"
+    ],
+    "id": 70253,
+    "loc": "28861.4238, 10332.2314",
+    "region": "bandits_pass"
+  },
+  "castle_real_stat_black": {
+    "items": [
+      "statue_blacksmith",
+      "salt4"
+    ],
+    "id": 70254,
+    "loc": "40323.17, 9743.883",
+    "region": "castle_of_storms"
+  },
+  "midsecretcharm_hp_leech": {
+    "items": [
+      "charm_hp_leech"
+    ],
+    "id": 70283,
+    "loc": "33107.5039, 17329.3574",
+    "region": "red_hall_of_cages"
+  },
+  "castle_dragon_key": {
+    "items": [
+      "key_dungeon"
+    ],
+    "id": 70287,
+    "loc": "38315.7422, 3510.10669",
+    "region": "castle_of_storms"
+  },
+  "forest_charm_speed": {
+    "items": [
+      "charm_speed"
+    ],
+    "id": 70288,
+    "loc": "13449.4961, 19977.1563",
+    "region": "the_watching_woods"
+  },
+  "forest_ring_stam": {
+    "items": [
+      "ring_stam"
+    ],
+    "id": 70289,
+    "loc": "16651.0117, 20311.9",
+    "region": "the_watching_woods"
+  },
+  "forest_alchemist_key": {
+    "items": [
+      "key_forest"
+    ],
+    "id": 70290,
+    "loc": "18484.3359, 18193.65",
+    "region": "the_watching_woods"
+  },
+  "fortress_ring_vit": {
+    "items": [
+      "ring_vit"
+    ],
+    "id": 70301,
+    "loc": "13058.2275, 8293.492",
+    "region": "the_festering_banquet"
+  },
+  "greenvillage_ring_str": {
+    "items": [
+      "ring_str"
+    ],
+    "id": 70302,
+    "loc": "29214.8984, 19461.3223",
+    "region": "sunken_keep"
+  },
+  "castle_charm_fire": {
+    "items": [
+      "charm_fire"
+    ],
+    "id": 70303,
+    "loc": "38468.2734, 2286.2417",
+    "region": "castle_of_storms_shadowflip"
+  },
+  "village_charm_atk": {
+    "items": [
+      "charm_atk"
+    ],
+    "id": 70304,
+    "loc": "2283.67554, 20815.3887",
+    "region": "village_of_smiles_atk"
+  },
+  "greenvillage_ring_magb": {
+    "items": [
+      "ring_mag_balance"
+    ],
+    "id": 70305,
+    "loc": "38196.7539, 20015.707",
+    "region": "sunken_keep"
+  },
+  "dungeon_health_shard": {
+    "items": [
+      "statue_merchant",
+      "salt3"
+    ],
+    "id": 70307,
+    "loc": "44411.13, 25092.4629",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_holy_def": {
+    "items": [
+      "holy_def"
+    ],
+    "id": 70308,
+    "loc": "52535.89, 18610.6738",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_charm_mp_leech": {
+    "items": [
+      "charm_mp_leech"
+    ],
+    "id": 70309,
+    "loc": "32544.584, 23825.9434",
+    "region": "hagers_cavern"
+  },
+  "dungeon_salt3statue_blacksmith": {
+    "items": [
+      "salt3",
+      "statue_blacksmith"
+    ],
+    "id": 70310,
+    "loc": "43324.5859, 19116.123",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_beast_spark": {
+    "items": [
+      "salt3",
+      "beast_spark/3"
+    ],
+    "id": 70311,
+    "loc": "41655.17, 19131.6367",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_sword_40349": {
+    "items": [
+      "sword_katana"
+    ],
+    "id": 70312,
+    "loc": "44104.96, 16558.207",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_lit_storm": {
+    "items": [
+      "lit_storm"
+    ],
+    "id": 70313,
+    "loc": "39979.0742, 12650.0781",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_charm_poison": {
+    "items": [
+      "charm_poison"
+    ],
+    "id": 70315,
+    "loc": "35143.7773, 17091.8945",
+    "region": "sunken_keep"
+  },
+  "castle_ivory_43710": {
+    "items": [
+      "staff_ivory"
+    ],
+    "id": 70316,
+    "loc": "43710.11, 8073.781",
+    "region": "castle_of_storms"
+  },
+  "castle_ring_salt": {
+    "items": [
+      "ring_salt"
+    ],
+    "id": 70317,
+    "loc": "40223.9648, 2270.40381",
+    "region": "castle_of_storms"
+  },
+  "hidden_passage_salt_12542": {
+    "items": [
+      "salt2"
+    ],
+    "id": 70320,
+    "loc": "12542.9287, 21526.27",
+    "region": "the_watching_woods"
+  },
+  "dungeon_health_statue_cleric": {
+    "items": [
+      "statue_cleric",
+      "ring_dex"
+    ],
+    "id": 70321,
+    "loc": "39685.11, 27850.48",
+    "region": "red_hall_of_cages"
+  },
+  "village_trees_ring_vit": {
+    "items": [
+      "ring_fort"
+    ],
+    "id": 70361,
+    "loc": "13009.37, 17462.6113",
+    "region": "village_of_smiles"
+  },
+  "bluecave_statue_mage": {
+    "items": [
+      "statue_mage"
+    ],
+    "id": 70362,
+    "loc": "31901.4473, 29488.8027",
+    "region": "hagers_cavern"
+  },
+  "bluecave_charm_lit": {
+    "items": [
+      "charm_lit"
+    ],
+    "id": 70364,
+    "loc": "35802.7266, 28463",
+    "region": "hagers_cavern"
+  },
+  "fortress_spear": {
+    "items": [
+      "spear",
+      "salt2"
+    ],
+    "id": 70368,
+    "loc": "16036.92, 13125.8135",
+    "region": "the_festering_banquet_cave"
+  },
+  "village_ring_roll": {
+    "items": [
+      "ring_roll"
+    ],
+    "id": 70370,
+    "loc": "2086.409, 17062.4453",
+    "region": "village_of_smiles"
+  },
+  "midsecret_shield_oval": {
+    "items": [
+      "salt4",
+      "shield_oval"
+    ],
+    "id": 70425,
+    "loc": "30729.6484, 17758.6523",
+    "region": "bandits_pass"
+  },
+  "dungeon_salt_50208": {
+    "items": [
+      "salt4",
+      "waterpot/3"
+    ],
+    "id": 70440,
+    "loc": "50301.44, 21069.1934",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_37107": {
+    "items": [
+      "salt3",
+      "buff_lit/3"
+    ],
+    "id": 70458,
+    "loc": "37279.7422, 10752.0371",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_38275": {
+    "items": [
+      "salt3",
+      "waterpot/3"
+    ],
+    "id": 70459,
+    "loc": "38275.1, 12465.1855",
+    "region": "red_hall_of_cages"
+  },
+  "village_trees_flame_storm": {
+    "items": [
+      "flame_storm"
+    ],
+    "id": 70467,
+    "loc": "12473.9355, 17127.041",
+    "region": "village_of_smiles_trees"
+  },
+  "dungeon_salt_47480": {
+    "items": [
+      "salt4"
+    ],
+    "id": 70468,
+    "loc": "47480.2969, 22025.43",
+    "region": "red_hall_of_cages"
+  },
+  "hidden_salt_axe_16822": {
+    "items": [
+      "salt1"
+    ],
+    "id": 70469,
+    "loc": "17519.8066, 12295.4893",
+    "region": "the_festering_banquet"
+  },
+  "fortresssalt1_11670": {
+    "items": [
+      "salt1"
+    ],
+    "id": 70470,
+    "loc": "11670.1768, 12295.2354",
+    "region": "shivering_shore_east"
+  },
+  "statue_guide_40293": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70472,
+    "loc": "40293.7969, 16939.416",
+    "region": "red_hall_of_cages"
+  },
+  "bluecave_red_spark_33749": {
+    "items": [
+      "red_spark/3"
+    ],
+    "id": 70474,
+    "loc": "33749.0742, 27658.9",
+    "region": "hagers_cavern"
+  },
+  "bluecave_beast_spark_31775": {
+    "items": [
+      "beast_spark/3"
+    ],
+    "id": 70475,
+    "loc": "31775.5938, 30001.4063",
+    "region": "hagers_cavern"
+  },
+  "bluecave_white_flame_33948": {
+    "items": [
+      "white_flame"
+    ],
+    "id": 70476,
+    "loc": "33948.6563, 31085.62",
+    "region": "crypt_of_dead_gods"
+  },
+  "village_white_spark_8031": {
+    "items": [
+      "white_spark/3",
+      "salt1"
+    ],
+    "id": 70478,
+    "loc": "8031.39258, 15575.6328",
+    "region": "village_of_smiles"
+  },
+  "dungeon_fire_oribts": {
+    "items": [
+      "fire_oribts"
+    ],
+    "id": 70480,
+    "loc": "45540.1523, 26995.502",
+    "region": "red_hall_of_cages"
+  },
+  "swamp_blue_spark_23759": {
+    "items": [
+      "blue_spark/3"
+    ],
+    "id": 70499,
+    "loc": "23759.5527, 24907.5664",
+    "region": "sunken_keep"
+  },
+  "swamp_salt5_23795": {
+    "items": [
+      "salt5"
+    ],
+    "id": 70500,
+    "loc": "23795.3418, 26930.4746",
+    "region": "mire_of_stench"
+  },
+  "swamp_poison_def_26836": {
+    "items": [
+      "poison_def"
+    ],
+    "id": 70501,
+    "loc": "26836.77, 28693.9824",
+    "region": "mire_of_stench"
+  },
+  "swamp_shield_cleric_26163": {
+    "items": [
+      "shield_cleric"
+    ],
+    "id": 70502,
+    "loc": "16682.4121, 28023.6426",
+    "region": "mire_of_stench"
+  },
+  "bluecave_shield_antler_30391": {
+    "items": [
+      "shield_antler"
+    ],
+    "id": 70504,
+    "loc": "38194.1328, 31786.873",
+    "region": "crypt_of_dead_gods"
+  },
+  "dungeon_waterpot_43939": {
+    "items": [
+      "waterpot/3"
+    ],
+    "id": 70505,
+    "loc": "43445.9727, 27530.6348",
+    "region": "red_hall_of_cages"
+  },
+  "bluecave_statue_cleric_31349": {
+    "items": [
+      "statue_cleric"
+    ],
+    "id": 70506,
+    "loc": "31349.38, 32077.7832",
+    "region": "hagers_cavern"
+  },
+  "swamp_dagger_shiv_20204": {
+    "items": [
+      "dagger_shiv"
+    ],
+    "id": 70507,
+    "loc": "20204.832, 28498.5586",
+    "region": "mire_of_stench"
+  },
+  "bluecave_staff_wood_28709": {
+    "items": [
+      "staff_wood"
+    ],
+    "id": 70508,
+    "loc": "29802.0977, 31655.7813",
+    "region": "hagers_cavern"
+  },
+  "village_trees_claymore": {
+    "items": [
+      "claymore"
+    ],
+    "id": 70511,
+    "loc": "8393.175, 17497.3711",
+    "region": "village_of_smiles"
+  },
+  "greenvillage_bell_31063": {
+    "items": [
+      "return_bell"
+    ],
+    "id": 70513,
+    "loc": "31063.81, 23536.6973",
+    "region": "hagers_cavern"
+  },
+  "dome_staff_60325": {
+    "items": [
+      "salt3"
+    ],
+    "id": 70520,
+    "loc": "60325.7969, 11690.4912",
+    "region": "dome_of_the_forgotten"
+  },
+  "ruins_whiteflame_62759": {
+    "items": [
+      "white_flame/3"
+    ],
+    "id": 70521,
+    "loc": "62759.4844, 19689.6523",
+    "region": "the_ruined_temple"
+  },
+  "hidden_sanctuary_spear_pitchfork": {
+    "items": [
+      "salt1",
+      "spear_pitchfork"
+    ],
+    "id": 70528,
+    "loc": "21019.0879, 11753.0117",
+    "region": "bandits_pass"
+  },
+  "hidden_sanctuary_axe_great": {
+    "items": [
+      "axe_great",
+      "salt5"
+    ],
+    "id": 70529,
+    "loc": "33125.09, 9274.463",
+    "region": "bandits_pass"
+  },
+  "hidden_sanctuary_31591": {
+    "items": [
+      "arrow_flame/25"
+    ],
+    "id": 70530,
+    "loc": "31591.0449, 9891.452",
+    "region": "bandits_pass"
+  },
+  "greenvillage_salt6_32253": {
+    "items": [
+      "salt6",
+      "statue_merchant"
+    ],
+    "id": 70531,
+    "loc": "32253.2285, 19996.6738",
+    "region": "sunken_keep"
+  },
+  "greenvillage_hammer_great": {
+    "items": [
+      "hammer_great"
+    ],
+    "id": 70532,
+    "loc": "30155.959, 21943.16",
+    "region": "hagers_cavern"
+  },
+  "pcastle_34312": {
+    "items": [
+      "salt3",
+      "buff_lit/3"
+    ],
+    "id": 70560,
+    "loc": "34312.5352, 8951.308",
+    "region": "castle_of_storms"
+  },
+  "hidden_sancledge_22763": {
+    "items": [
+      "return_bell"
+    ],
+    "id": 70562,
+    "loc": "24548.7324, 10443.57",
+    "region": "bandits_pass"
+  },
+  "fortress_bell_16140": {
+    "items": [
+      "return_bell"
+    ],
+    "id": 70563,
+    "loc": "16140.7646, 11180.6084",
+    "region": "the_festering_banquet"
+  },
+  "greenvillage_bell_29341": {
+    "items": [
+      "return_bell"
+    ],
+    "id": 70564,
+    "loc": "29341.5762, 20778.5449",
+    "region": "sunken_keep"
+  },
+  "village_bell_9554": {
+    "items": [
+      "return_bell"
+    ],
+    "id": 70565,
+    "loc": "9554.847, 16822.8379",
+    "region": "village_of_smiles"
+  },
+  "bluecave_key_cave_37705": {
+    "items": [
+      "key_cave"
+    ],
+    "id": 70567,
+    "loc": "37755.1172, 32238.998",
+    "region": "crypt_of_dead_gods"
+  },
+  "fortress_black_pearl": {
+    "items": [
+      "black_pearl"
+    ],
+    "id": 70569,
+    "loc": "13270.5068, 7153.633",
+    "region": "the_festering_banquet_vertigo"
+  },
+  "hidden_black_pearl": {
+    "items": [
+      "black_pearl"
+    ],
+    "id": 70570,
+    "loc": "18541.86, 11498.8223",
+    "region": "bandits_pass"
+  },
+  "forest_black_pearl": {
+    "items": [
+      "black_pearl"
+    ],
+    "id": 70571,
+    "loc": "19441.68, 18065.9824",
+    "region": "the_watching_woods"
+  },
+  "village_black_pearl": {
+    "items": [
+      "black_pearl"
+    ],
+    "id": 70573,
+    "loc": "5771.40039, 18552.1",
+    "region": "village_of_smiles_black"
+  },
+  "hidden_passage_14332": {
+    "items": [
+      "shield_heater"
+    ],
+    "id": 70611,
+    "loc": "14348.3672, 22831.9648",
+    "region": "the_watching_woods"
+  },
+  "hidden_passage_6058": {
+    "items": [
+      "lit_bolt2"
+    ],
+    "id": 70612,
+    "loc": "6082.861, 21984.6445",
+    "region": "village_of_smiles"
+  },
+  "swamp_return_23587": {
+    "items": [
+      "return_bell/3"
+    ],
+    "id": 70629,
+    "loc": "23587.7012, 24438.8965",
+    "region": "sunken_keep"
+  },
+  "swamp_pirate_24248": {
+    "items": [
+      "pirate_armor",
+      "pirate_helm",
+      "pirate_boots"
+    ],
+    "id": 70630,
+    "loc": "23377.4863, 26455.0039",
+    "region": "mire_of_stench"
+  },
+  "fortress_lit_15226": {
+    "items": [
+      "torch_oil",
+      "lit_bolt"
+    ],
+    "id": 70646,
+    "loc": "16916.1328, 14444.1895",
+    "region": "the_festering_banquet_cave"
+  },
+  "ruin_room_spear_14388": {
+    "items": [
+      "trident_blue"
+    ],
+    "id": 70650,
+    "loc": "14388.2676, 27667.7852",
+    "region": "mire_of_stench"
+  },
+  "ruin_ring_def_5939": {
+    "items": [
+      "ring_def"
+    ],
+    "id": 70651,
+    "loc": "5950.48926, 27416.0059",
+    "region": "fort_beyond_the_mire"
+  },
+  "ruin_salt_4420": {
+    "items": [
+      "salt6",
+      "black_pearl"
+    ],
+    "id": 70652,
+    "loc": "4420.826, 26289.8047",
+    "region": "fort_beyond_the_mire"
+  },
+  "ruin_bell_4084": {
+    "items": [
+      "return_bell"
+    ],
+    "id": 70653,
+    "loc": "4084.25732, 26965.1113",
+    "region": "fort_beyond_the_mire"
+  },
+  "fortress_torch_16220": {
+    "items": [
+      "torch_oil"
+    ],
+    "id": 70654,
+    "loc": "16187.9473, 13714.8076",
+    "region": "the_festering_banquet_cave"
+  },
+  "midsecret_25589": {
+    "items": [
+      "statue_merchant"
+    ],
+    "id": 70666,
+    "loc": "29535.8789, 16184.0566",
+    "region": "bronze_key_cave"
+  },
+  "dungeon_fire2_33509": {
+    "items": [
+      "fire2"
+    ],
+    "id": 70671,
+    "loc": "33509.918, 15441.1406",
+    "region": "red_hall_of_cages"
+  },
+  "fortress_heal_16902": {
+    "items": [
+      "heal"
+    ],
+    "id": 70672,
+    "loc": "16407.5313, 11757.0508",
+    "region": "the_festering_banquet"
+  },
+  "greenvillage_holy_buff": {
+    "items": [
+      "holy_buff"
+    ],
+    "id": 70673,
+    "loc": "35881.67, 22351.7148",
+    "region": "sunken_keep"
+  },
+  "bluecave_holy_buff2": {
+    "items": [
+      "holy_buff2"
+    ],
+    "id": 70674,
+    "loc": "35501.4, 26999.39",
+    "region": "hagers_cavern"
+  },
+  "bluecave_fire_turret": {
+    "items": [
+      "fire_turret"
+    ],
+    "id": 70675,
+    "loc": "35051.625, 24276.31",
+    "region": "sunken_keep"
+  },
+  "castle_rapid_lit_34782": {
+    "items": [
+      "rapid_lit"
+    ],
+    "id": 70682,
+    "loc": "34771.0469, 8720.366",
+    "region": "castle_of_storms"
+  },
+  "castle_split_helm": {
+    "items": [
+      "split_helm"
+    ],
+    "id": 70686,
+    "loc": "42076.418, 6254.339",
+    "region": "castle_of_storms"
+  },
+  "castle_holy_cone": {
+    "items": [
+      "holy_cone"
+    ],
+    "id": 70687,
+    "loc": "39448.9453, 7560.113",
+    "region": "castle_of_storms"
+  },
+  "charm_poise_80996": {
+    "items": [
+      "charm_poise"
+    ],
+    "id": 70690,
+    "loc": "80909.33, 10523.8125",
+    "region": "ziggurat_of_dust"
+  },
+  "dome_gun_flintlock_60325": {
+    "items": [
+      "gun_flintlock",
+      "flintshot/50"
+    ],
+    "id": 70703,
+    "loc": "55843.832, 11119.4639",
+    "region": "dome_of_the_forgotten"
+  },
+  "dome_buff_fire_59086": {
+    "items": [
+      "buff_fire/3"
+    ],
+    "id": 70704,
+    "loc": "59086.11, 10674.9443",
+    "region": "dome_of_the_forgotten"
+  },
+  "fortressstatue_guide_11407": {
+    "items": [
+      "statue_guide",
+      "horn_guide/3"
+    ],
+    "id": 70706,
+    "loc": "11404.1758, 13267.0576",
+    "region": "the_festering_banquet_cave"
+  },
+  "midsecretstatue_alchemist": {
+    "items": [
+      "statue_alchemist"
+    ],
+    "id": 70707,
+    "loc": "25369.6387, 15958.63",
+    "region": "bronze_key_cave"
+  },
+  "ruins_statue_guide_61709": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70709,
+    "loc": "61709.0977, 21564.19",
+    "region": "the_ruined_temple"
+  },
+  "statue_guide_82894": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70710,
+    "loc": "82894.95, 10854.748",
+    "region": "ziggurat_of_dust"
+  },
+  "statue_guide_62636": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70711,
+    "loc": "62636.33, 11954.6406",
+    "region": "the_ruined_temple"
+  },
+  "statue_guide_35484": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70712,
+    "loc": "35484.58, 4851.982",
+    "region": "castle_of_storms"
+  },
+  "statue_guide_27244": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70713,
+    "loc": "27244.5664, 10154.5674",
+    "region": "bandits_pass"
+  },
+  "statue_guide_667": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70714,
+    "loc": "667.260437, 16765.7344",
+    "region": "village_of_smiles"
+  },
+  "statue_guide_25428": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70715,
+    "loc": "25428.4023, 25822.4453",
+    "region": "mire_of_stench"
+  },
+  "statue_guide_38964": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70716,
+    "loc": "38965.4375, 30633.4375",
+    "region": "red_hall_of_cages"
+  },
+  "bluecave_statue_mage_34244": {
+    "items": [
+      "statue_mage"
+    ],
+    "id": 70718,
+    "loc": "34192.6953, 26473.5918",
+    "region": "hagers_cavern"
+  },
+  "ruins_statue_cleric_65062": {
+    "items": [
+      "statue_cleric"
+    ],
+    "id": 70719,
+    "loc": "65062.0234, 19183.916",
+    "region": "the_ruined_temple"
+  },
+  "statue_statue_blacksmith_76993": {
+    "items": [
+      "statue_blacksmith"
+    ],
+    "id": 70720,
+    "loc": "76993.7, 12572.2861",
+    "region": "ziggurat_of_dust"
+  },
+  "statue_cleric_86774": {
+    "items": [
+      "statue_cleric"
+    ],
+    "id": 70721,
+    "loc": "86740.07, 13677.3105",
+    "region": "ziggurat_of_dust"
+  },
+  "whip_chain_87089": {
+    "items": [
+      "whip_chain"
+    ],
+    "id": 70722,
+    "loc": "87089.61, 13688.0977",
+    "region": "ziggurat_of_dust"
+  },
+  "dungeon_statue_alchemist_48137": {
+    "items": [
+      "statue_alchemist"
+    ],
+    "id": 70723,
+    "loc": "48137.2578, 24493.957",
+    "region": "red_hall_of_cages"
+  },
+  "midsecretcharm_statue_leader": {
+    "items": [
+      "statue_leader"
+    ],
+    "id": 70724,
+    "loc": "27454.3164, 17395.7129",
+    "region": "sunken_keep"
+  },
+  "village_statue_leader": {
+    "items": [
+      "statue_leader"
+    ],
+    "id": 70725,
+    "loc": "10642.5508, 18120.2246",
+    "region": "village_of_smiles"
+  },
+  "statue_leader_25068": {
+    "items": [
+      "statue_leader"
+    ],
+    "id": 70730,
+    "loc": "25853.4551, 25021.71",
+    "region": "mire_of_stench"
+  },
+  "greenvillage_light_26929": {
+    "items": [
+      "holy_light"
+    ],
+    "id": 70733,
+    "loc": "26929.77, 19270.5684",
+    "region": "sunken_keep"
+  },
+  "hidden_statue_sellsword_23996": {
+    "items": [
+      "statue_sellsword"
+    ],
+    "id": 70734,
+    "loc": "23996.7852, 11023.0156",
+    "region": "bandits_pass"
+  },
+  "midsecretshield_round": {
+    "items": [
+      "shield_silver"
+    ],
+    "id": 70743,
+    "loc": "23668.9141, 14194.168",
+    "region": "blade_bandit_lower"
+  },
+  "castle_shield_silver": {
+    "items": [
+      "shield_round"
+    ],
+    "id": 70748,
+    "loc": "38461.375, 6389.3623",
+    "region": "castle_of_storms"
+  },
+  "castle_real_ring_hp": {
+    "items": [
+      "ring_hp"
+    ],
+    "id": 70749,
+    "loc": "31559.6445, 5974.753",
+    "region": "castle_of_storms"
+  },
+  "dome_ring_magic_61610": {
+    "items": [
+      "ring_magic"
+    ],
+    "id": 70750,
+    "loc": "61855.6836, 10896.9121",
+    "region": "the_ruined_temple"
+  },
+  "dungeon_ring_spirit_44551": {
+    "items": [
+      "ring_spirit"
+    ],
+    "id": 70751,
+    "loc": "44551.87, 22409.8633",
+    "region": "red_hall_of_cages"
+  },
+  "swamp_ring_stamina_18459": {
+    "items": [
+      "ring_stamina"
+    ],
+    "id": 70752,
+    "loc": "16490.69, 25083.0488",
+    "region": "mire_of_stench"
+  },
+  "ring_gold_40263": {
+    "items": [
+      "ring_gold"
+    ],
+    "id": 70753,
+    "loc": "40379.71, 29641.1563",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_shield_tower": {
+    "items": [
+      "shield_tower"
+    ],
+    "id": 70758,
+    "loc": "36240.11, 13521.459",
+    "region": "red_hall_of_cages"
+  },
+  "red_spark_38317": {
+    "items": [
+      "red_spark/3"
+    ],
+    "id": 70759,
+    "loc": "38317.12, 17974.1855",
+    "region": "sunken_keep"
+  },
+  "ruins_holy_orbits_71482": {
+    "items": [
+      "holy_orbits"
+    ],
+    "id": 70760,
+    "loc": "71482.2, 24249.68",
+    "region": "pitchwoods"
+  },
+  "ruins_spear_pilum": {
+    "items": [
+      "spear_pilum",
+      "gray_pearl"
+    ],
+    "id": 70762,
+    "loc": "60072.625, 19983.6758",
+    "region": "the_ruined_temple"
+  },
+  "pyramid_statue_mage": {
+    "items": [
+      "statue_mage"
+    ],
+    "id": 70763,
+    "loc": "85372.79, 14866.2842",
+    "region": "ziggurat_of_dust"
+  },
+  "pyramid_ring_cheap_mag": {
+    "items": [
+      "ring_cheap_mag"
+    ],
+    "id": 70764,
+    "loc": "86826.62, 14638.042",
+    "region": "ziggurat_of_dust"
+  },
+  "pyramid_statue_cleric": {
+    "items": [
+      "statue_cleric"
+    ],
+    "id": 70765,
+    "loc": "89973.17, 17775.6172",
+    "region": "ziggurat_of_dust"
+  },
+  "village_shield_branches": {
+    "items": [
+      "shield_branches"
+    ],
+    "id": 70766,
+    "loc": "10203.0049, 16464.8652",
+    "region": "village_of_smiles_shield"
+  },
+  "ruins_ring_damage": {
+    "items": [
+      "ring_damage"
+    ],
+    "id": 70769,
+    "loc": "67639.4844, 19918.793",
+    "region": "the_ruined_temple"
+  },
+  "red_spark_82798": {
+    "items": [
+      "red_spark/3"
+    ],
+    "id": 70810,
+    "loc": "82798.18, 12264.2158",
+    "region": "ziggurat_of_dust"
+  },
+  "lab_blue_spark_51496": {
+    "items": [
+      "blue_spark/3"
+    ],
+    "id": 70811,
+    "loc": "51360.1523, 26602.8242",
+    "region": "crans_pass"
+  },
+  "lab_axe_blue_50052": {
+    "items": [
+      "axe_blue"
+    ],
+    "id": 70812,
+    "loc": "51528.3477, 28198.3262",
+    "region": "siam_lake"
+  },
+  "lab_statue_guide_51459": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70813,
+    "loc": "50057.207, 27603.9258",
+    "region": "salt_alkymancery"
+  },
+  "forest_buckler_19508": {
+    "items": [
+      "shield_buckler",
+      "statue_sellsword"
+    ],
+    "id": 70848,
+    "loc": "19508.2441, 19238.8438",
+    "region": "the_watching_woods"
+  },
+  "lake_statue_guide_67994": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70872,
+    "loc": "67994.13, 30741.74",
+    "region": "pitchwoods"
+  },
+  "lake_ring_cheap_wis_65846": {
+    "items": [
+      "ring_cheap_wis"
+    ],
+    "id": 70873,
+    "loc": "65846.33, 30757.3535",
+    "region": "pitchwoods"
+  },
+  "forest_axe_18935": {
+    "items": [
+      "axe_crescent"
+    ],
+    "id": 70874,
+    "loc": "18935.58, 21837.2012",
+    "region": "the_watching_woods"
+  },
+  "swamp_cdo_26825": {
+    "items": [
+      "charm_dying_overkill"
+    ],
+    "id": 70875,
+    "loc": "26825.7148, 24267.332",
+    "region": "mire_of_stench"
+  },
+  "ruin_holy_will_14878": {
+    "items": [
+      "holy_will"
+    ],
+    "id": 70876,
+    "loc": "14878.3965, 31195.2227",
+    "region": "mire_of_stench"
+  },
+  "dungeon_shield_iron_45075": {
+    "items": [
+      "shield_iron"
+    ],
+    "id": 70877,
+    "loc": "45075.457, 13797.7158",
+    "region": "red_hall_of_cages"
+  },
+  "ruins_spark_63361": {
+    "items": [
+      "drowning_spark/3"
+    ],
+    "id": 70893,
+    "loc": "63361.6875, 16278.793",
+    "region": "the_ruined_temple"
+  },
+  "lab_statue_flame_53398": {
+    "items": [
+      "blue_flame/3"
+    ],
+    "id": 70900,
+    "loc": "49747.0977, 33708.957",
+    "region": "the_still_palace"
+  },
+  "forest_salt_13409": {
+    "items": [
+      "salt1",
+      "antidote/3"
+    ],
+    "id": 70915,
+    "loc": "14738.6025, 19315.04",
+    "region": "the_watching_woods"
+  },
+  "vert_guide_52176": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70916,
+    "loc": "52176.582, 4628.31348",
+    "region": "mals_floating_castle"
+  },
+  "tomb_salt_42096": {
+    "items": [
+      "salt7"
+    ],
+    "id": 70917,
+    "loc": "42096.1055, 33486.54",
+    "region": "crypt_of_dead_gods"
+  },
+  "dungeon_lit_ghost": {
+    "items": [
+      "lit_ghost"
+    ],
+    "id": 70918,
+    "loc": "52726.7852, 26617.83",
+    "region": "crans_pass"
+  },
+  "lake_ring_light_58739": {
+    "items": [
+      "ring_light"
+    ],
+    "id": 70919,
+    "loc": "29074.6719, 31033.22",
+    "region": "hagers_cavern"
+  },
+  "bluecave_spark_35480": {
+    "items": [
+      "drowning_spark/3"
+    ],
+    "id": 70925,
+    "loc": "35480.1445, 25283.4863",
+    "region": "sunken_keep"
+  },
+  "earth_bag_85048": {
+    "items": [
+      "earth_bag"
+    ],
+    "id": 70930,
+    "loc": "85051.76, 12107.1641",
+    "region": "ziggurat_of_dust"
+  },
+  "hidden_passage_charm_reach": {
+    "items": [
+      "charm_reach"
+    ],
+    "id": 70931,
+    "loc": "12855.6, 21144.0977",
+    "region": "the_watching_woods"
+  },
+  "lab_ring_slash_42721": {
+    "items": [
+      "ring_slash"
+    ],
+    "id": 70933,
+    "loc": "42563.707, 31399.32",
+    "region": "crypt_of_dead_gods"
+  },
+  "ruins_charm_holy_65973": {
+    "items": [
+      "charm_holy"
+    ],
+    "id": 70934,
+    "loc": "65973.32, 28011.07",
+    "region": "pitchwoods"
+  },
+  "dome_war_scythe_61610": {
+    "items": [
+      "war_scythe"
+    ],
+    "id": 70936,
+    "loc": "65318.08, 15883.1162",
+    "region": "the_ruined_temple"
+  },
+  "sack_guide_87639": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70963,
+    "loc": "87639.2344, 24274.2832",
+    "region": "pitchwoods"
+  },
+  "whiteblaze_81684": {
+    "items": [
+      "white_blaze/3"
+    ],
+    "id": 70975,
+    "loc": "81684.44, 29758.16",
+    "region": "pitchwoods"
+  },
+  "ruins_blaze_63821": {
+    "items": [
+      "white_blaze"
+    ],
+    "id": 70976,
+    "loc": "64403.76, 24559.3535",
+    "region": "the_ruined_temple"
+  },
+  "lab_white_blaze_52768": {
+    "items": [
+      "white_blaze/3"
+    ],
+    "id": 70977,
+    "loc": "49524.625, 26492.1211",
+    "region": "salt_alkymancery"
+  },
+  "wood_salt_97049": {
+    "items": [
+      "salt8"
+    ],
+    "id": 70979,
+    "loc": "97049.78, 29522.73",
+    "region": "pitchwoods"
+  },
+  "shield_bug_98672": {
+    "items": [
+      "shield_bug"
+    ],
+    "id": 70980,
+    "loc": "98672.06, 30357.5469",
+    "region": "pitchwoods"
+  },
+  "ruins_blaze_58795": {
+    "items": [
+      "drowning_blaze"
+    ],
+    "id": 70981,
+    "loc": "60764.3867, 25421.82",
+    "region": "siam_lake"
+  },
+  "sack_horn_59932": {
+    "items": [
+      "horn_guide/3"
+    ],
+    "id": 70982,
+    "loc": "59932.81, 39412.79",
+    "region": "the_still_palace"
+  },
+  "castle_white_flame_35400": {
+    "items": [
+      "white_flame/3"
+    ],
+    "id": 70984,
+    "loc": "35368.3477, 6609.41748",
+    "region": "castle_of_storms"
+  },
+  "castle_grenado_36186": {
+    "items": [
+      "grenado/5"
+    ],
+    "id": 70985,
+    "loc": "36186.0469, 6710.823",
+    "region": "castle_of_storms"
+  },
+  "dungeon_redspark_48102": {
+    "items": [
+      "red_spark/3"
+    ],
+    "id": 70986,
+    "loc": "48102.2773, 22193.2363",
+    "region": "red_hall_of_cages"
+  },
+  "ruins_lit_satellite": {
+    "items": [
+      "salt3",
+      "lit_satellite"
+    ],
+    "id": 70987,
+    "loc": "63501.28, 19213.3066",
+    "region": "the_ruined_temple"
+  },
+  "ruins_whiteflame_59879": {
+    "items": [
+      "white_flame/3"
+    ],
+    "id": 70988,
+    "loc": "59717.73, 18519.3652",
+    "region": "the_ruined_temple"
+  },
+  "dark_guide_78731": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 70989,
+    "loc": "78734.16, 40072.99",
+    "region": "the_blackest_vault"
+  },
+  "dark_drowning_72431": {
+    "items": [
+      "drowning_flame/3"
+    ],
+    "id": 70990,
+    "loc": "72431.2656, 38632.207",
+    "region": "the_blackest_vault"
+  },
+  "vision_potion_57948": {
+    "items": [
+      "vision_potion/3"
+    ],
+    "id": 70993,
+    "loc": "57326.0977, 13332.18",
+    "region": "dome_of_the_forgotten"
+  },
+  "vision_potion_59027": {
+    "items": [
+      "vision_potion/3",
+      "statue_mage"
+    ],
+    "id": 70994,
+    "loc": "59027.6563, 11513.2725",
+    "region": "dome_of_the_forgotten"
+  },
+  "shield_snakes_36862": {
+    "items": [
+      "shield_snakes"
+    ],
+    "id": 71003,
+    "loc": "36862.1328, 15153.4795",
+    "region": "red_hall_of_cages"
+  },
+  "white_flame_36251": {
+    "items": [
+      "white_flame/3"
+    ],
+    "id": 71012,
+    "loc": "37585.6, 18064.127",
+    "region": "sunken_keep"
+  },
+  "tomb_drowning_39444": {
+    "items": [
+      "drowning_flame/3"
+    ],
+    "id": 71021,
+    "loc": "39444.5, 33941.082",
+    "region": "crypt_of_dead_gods"
+  },
+  "tomb_drowning_34471": {
+    "items": [
+      "drowning_blaze"
+    ],
+    "id": 71022,
+    "loc": "34471.57, 33496.5078",
+    "region": "crypt_of_dead_gods"
+  },
+  "tomb_leader_33954": {
+    "items": [
+      "statue_leader"
+    ],
+    "id": 71023,
+    "loc": "33954.2344, 33196.582",
+    "region": "crypt_of_dead_gods"
+  },
+  "tomb_sellsword_32326": {
+    "items": [
+      "statue_sellsword"
+    ],
+    "id": 71024,
+    "loc": "32326.7813, 38445.52",
+    "region": "crypt_of_dead_gods"
+  },
+  "tomb_merchant_41183": {
+    "items": [
+      "statue_merchant"
+    ],
+    "id": 71025,
+    "loc": "41183.24, 37616.68",
+    "region": "crypt_of_dead_gods"
+  },
+  "tomb_red_43297": {
+    "items": [
+      "red_flame/3"
+    ],
+    "id": 71026,
+    "loc": "43297.03, 35854.04",
+    "region": "crypt_of_dead_gods"
+  },
+  "tomb_blaze_36102": {
+    "items": [
+      "white_blaze/3"
+    ],
+    "id": 71027,
+    "loc": "36102.64, 36947.76",
+    "region": "crypt_of_dead_gods"
+  },
+  "lake_drowning_spark_63525": {
+    "items": [
+      "drowning_spark/3"
+    ],
+    "id": 71039,
+    "loc": "63525.4063, 33087.75",
+    "region": "siam_lake"
+  },
+  "drowning_blaze_99197": {
+    "items": [
+      "drowning_blaze/4"
+    ],
+    "id": 71040,
+    "loc": "99197.99, 30391.4473",
+    "region": "pitchwoods"
+  },
+  "blue_blaze_89507": {
+    "items": [
+      "blue_blaze/3"
+    ],
+    "id": 71041,
+    "loc": "89507.83, 26058.5977",
+    "region": "pitchwoods"
+  },
+  "lab_statue_flame_53285": {
+    "items": [
+      "blue_blaze/3"
+    ],
+    "id": 71042,
+    "loc": "53285.4844, 34129.6875",
+    "region": "siam_lake"
+  },
+  "tomb_blueflame_32358": {
+    "items": [
+      "blue_flame/3"
+    ],
+    "id": 71043,
+    "loc": "32358.0547, 36826.38",
+    "region": "crypt_of_dead_gods"
+  },
+  "ruins_redblaze_62072": {
+    "items": [
+      "red_blaze/3"
+    ],
+    "id": 71044,
+    "loc": "62072.06, 28242.0527",
+    "region": "the_ruined_temple"
+  },
+  "salt10_59096": {
+    "items": [
+      "salt10"
+    ],
+    "id": 71045,
+    "loc": "59096.9375, 41802.1172",
+    "region": "the_still_palace"
+  },
+  "tomb_horn_33424": {
+    "items": [
+      "horn_will"
+    ],
+    "id": 71051,
+    "loc": "33424.26, 35670.875",
+    "region": "crypt_of_dead_gods"
+  },
+  "cave_horn_40269": {
+    "items": [
+      "horn_will"
+    ],
+    "id": 71052,
+    "loc": "40269.55, 30671.51",
+    "region": "red_hall_of_cages"
+  },
+  "dungeon_blueflame_41789": {
+    "items": [
+      "blue_flame/3"
+    ],
+    "id": 71062,
+    "loc": "41794.4648, 26156.0488",
+    "region": "hagers_cavern"
+  },
+  "amberspark_21678": {
+    "items": [
+      "amber_spark"
+    ],
+    "id": 71063,
+    "loc": "21678.0234, 14455.83",
+    "region": "jester_upper"
+  },
+  "amberspark_29340": {
+    "items": [
+      "throw_p_dagger/25"
+    ],
+    "id": 71064,
+    "loc": "29340.0938, 17175.79",
+    "region": "sunken_keep"
+  },
+  "amberspark_34967": {
+    "items": [
+      "amber_spark"
+    ],
+    "id": 71065,
+    "loc": "34967.0547, 6423.54736",
+    "region": "castle_of_storms"
+  },
+  "amberspark_44009": {
+    "items": [
+      "amber_spark"
+    ],
+    "id": 71066,
+    "loc": "44009.6758, 3181.88354",
+    "region": "castle_of_storms"
+  },
+  "amberflame_55884": {
+    "items": [
+      "amber_flame"
+    ],
+    "id": 71067,
+    "loc": "55884.5977, 12596.0723",
+    "region": "dome_of_the_forgotten"
+  },
+  "amberflame_63733": {
+    "items": [
+      "amber_flame"
+    ],
+    "id": 71068,
+    "loc": "63733.3828, 11796.2061",
+    "region": "dome_of_the_forgotten"
+  },
+  "amberflame_57738": {
+    "items": [
+      "amber_flame"
+    ],
+    "id": 71069,
+    "loc": "57738.5547, 18389.8555",
+    "region": "the_ruined_temple"
+  },
+  "amberspark_35625": {
+    "items": [
+      "amber_spark"
+    ],
+    "id": 71070,
+    "loc": "35625.21, 15081.3262",
+    "region": "red_hall_of_cages"
+  },
+  "amberspark_89011": {
+    "items": [
+      "amber_spark"
+    ],
+    "id": 71071,
+    "loc": "89011.375, 15793.5029",
+    "region": "ziggurat_of_dust"
+  },
+  "amberflame_74984": {
+    "items": [
+      "amber_flame"
+    ],
+    "id": 71078,
+    "loc": "74984.27, 14001.1836",
+    "region": "ziggurat_of_dust"
+  },
+  "amberblaze_63398": {
+    "items": [
+      "amber_blaze"
+    ],
+    "id": 71079,
+    "loc": "63397.9961, 21090.9336",
+    "region": "the_ruined_temple"
+  },
+  "amberblaze_65995": {
+    "items": [
+      "amber_blaze"
+    ],
+    "id": 71080,
+    "loc": "65995.22, 30360.4141",
+    "region": "pitchwoods"
+  },
+  "amberblaze_44050": {
+    "items": [
+      "amber_blaze"
+    ],
+    "id": 71081,
+    "loc": "44050.4922, 32092.1855",
+    "region": "crypt_of_dead_gods"
+  },
+  "amberflame_36690": {
+    "items": [
+      "amber_flame"
+    ],
+    "id": 71083,
+    "loc": "36690.16, 30972.4141",
+    "region": "crypt_of_dead_gods"
+  },
+  "ambernova_37920": {
+    "items": [
+      "amber_nova"
+    ],
+    "id": 71084,
+    "loc": "37920.09, 41450.9375",
+    "region": "crypt_of_dead_gods"
+  },
+  "ambernova_26747": {
+    "items": [
+      "amber_nova"
+    ],
+    "id": 71086,
+    "loc": "26747.1914, 41208.21",
+    "region": "hagers_cavern"
+  },
+  "amberblaze_35703": {
+    "items": [
+      "amber_blaze"
+    ],
+    "id": 71087,
+    "loc": "35703.35, 35507.4922",
+    "region": "crypt_of_dead_gods"
+  },
+  "amberspark_32400": {
+    "items": [
+      "amber_spark/3"
+    ],
+    "id": 71088,
+    "loc": "32400.7539, 26679.2012",
+    "region": "hagers_cavern"
+  },
+  "amberspark_33302": {
+    "items": [
+      "throw_p_dagger/25"
+    ],
+    "id": 71089,
+    "loc": "33302.86, 19083.0977",
+    "region": "sunken_keep"
+  },
+  "statue_leader_40725": {
+    "items": [
+      "statue_leader"
+    ],
+    "id": 71113,
+    "loc": "40725.14, 15501.8232",
+    "region": "red_hall_of_cages"
+  },
+  "pyramid_horn_will": {
+    "items": [
+      "horn_will"
+    ],
+    "id": 71116,
+    "loc": "83583.39, 14413.2754",
+    "region": "ziggurat_of_dust"
+  },
+  "pyramid_ring_bloody": {
+    "items": [
+      "ring_bloody"
+    ],
+    "id": 71119,
+    "loc": "80198.0156, 14574.8623",
+    "region": "ziggurat_of_dust"
+  },
+  "axe_anchor_76586": {
+    "items": [
+      "axe_anchor"
+    ],
+    "id": 71137,
+    "loc": "76586.76, 15222.1221",
+    "region": "ziggurat_of_dust"
+  },
+  "amberflame_96931": {
+    "items": [
+      "amber_flame"
+    ],
+    "id": 71138,
+    "loc": "96931.13, 18857.1367",
+    "region": "pitchwoods"
+  },
+  "purpledress": {
+    "items": [
+      "purpledress_armor",
+      "purpledress_boots",
+      "purpledress_helm"
+    ],
+    "id": 71139,
+    "loc": "27370.3613, 16075.6826",
+    "region": "bronze_key_cave"
+  },
+  "crossbow_84383": {
+    "items": [
+      "crossbow_red"
+    ],
+    "id": 71142,
+    "loc": "84383.51, 22015.7949",
+    "region": "pitchwoods"
+  },
+  "crossbow_27928": {
+    "items": [
+      "crossbow",
+      "bolt/50"
+    ],
+    "id": 71143,
+    "loc": "27108.7188, 10767.626",
+    "region": "bandits_pass"
+  },
+  "dome_staff_61236": {
+    "items": [
+      "staff_wood"
+    ],
+    "id": 71162,
+    "loc": "61236.01, 12212.8545",
+    "region": "the_ruined_temple"
+  },
+  "salt3_83579": {
+    "items": [
+      "salt6"
+    ],
+    "id": 71164,
+    "loc": "83579.6, 13979.1377",
+    "region": "ziggurat_of_dust"
+  },
+  "salt9_90297": {
+    "items": [
+      "salt9"
+    ],
+    "id": 71165,
+    "loc": "90297.45, 20455",
+    "region": "pitchwoods"
+  },
+  "salt7_76309": {
+    "items": [
+      "salt7"
+    ],
+    "id": 71166,
+    "loc": "76309.1953, 28401.4121",
+    "region": "pitchwoods"
+  },
+  "salt9_38479": {
+    "items": [
+      "salt9"
+    ],
+    "id": 71167,
+    "loc": "38478.0938, 34462.25",
+    "region": "crypt_of_dead_gods"
+  },
+  "salt4_37688": {
+    "items": [
+      "salt4"
+    ],
+    "id": 71168,
+    "loc": "37688.9258, 26545.5977",
+    "region": "hagers_cavern"
+  },
+  "salt4_31461": {
+    "items": [
+      "salt4"
+    ],
+    "id": 71169,
+    "loc": "31461.0742, 29136.4824",
+    "region": "hagers_cavern"
+  },
+  "castle_charm_dark": {
+    "items": [
+      "charm_dark"
+    ],
+    "id": 71170,
+    "loc": "73762.875, 26134.4",
+    "region": "pitchwoods"
+  },
+  "lit_def_65127": {
+    "items": [
+      "lit_def"
+    ],
+    "id": 71171,
+    "loc": "65135.5273, 13008.3271",
+    "region": "dome_of_the_forgotten"
+  },
+  "castle_fire_def_36739": {
+    "items": [
+      "fire_def"
+    ],
+    "id": 71172,
+    "loc": "36739.94, 6994.359",
+    "region": "castle_of_storms"
+  },
+  "ring_mp_moat_23891": {
+    "items": [
+      "ring_mp_moat"
+    ],
+    "id": 71173,
+    "loc": "23891.416, 23160.2832",
+    "region": "sunken_keep"
+  },
+  "swamp_salt4_19784": {
+    "items": [
+      "salt4",
+      "charm_heavy_poison"
+    ],
+    "id": 71174,
+    "loc": "19784.0977, 28062.2129",
+    "region": "mire_of_stench"
+  },
+  "village_pumpkin_helm_16011": {
+    "items": [
+      "pumpkin_helm"
+    ],
+    "id": 71175,
+    "loc": "16011.6055, 17255.29",
+    "region": "village_of_smiles"
+  },
+  "shield_skulls_77787": {
+    "items": [
+      "shield_skulls"
+    ],
+    "id": 71190,
+    "loc": "77787.61, 12101.9512",
+    "region": "ziggurat_of_dust"
+  },
+  "swamp_rust_26825": {
+    "items": [
+      "sword_rust"
+    ],
+    "id": 71192,
+    "loc": "26704.2363, 26262.9961",
+    "region": "mire_of_stench"
+  },
+  "mag_poison_buff_31947": {
+    "items": [
+      "mag_poison_buff"
+    ],
+    "id": 71194,
+    "loc": "32278.16, 25320.7617",
+    "region": "hagers_cavern"
+  },
+  "village_smith_armor6464": {
+    "items": [
+      "blacksmith_armor",
+      "blacksmith_gloves",
+      "blacksmith_boots"
+    ],
+    "id": 71195,
+    "loc": "6464.30664, 17621.25",
+    "region": "village_of_smiles"
+  },
+  "forest_antidote_18143": {
+    "items": [
+      "antidote/3"
+    ],
+    "id": 71197,
+    "loc": "18143.08, 19367.6445",
+    "region": "the_watching_woods"
+  },
+  "forest_antidote_16501": {
+    "items": [
+      "antidote/3"
+    ],
+    "id": 71198,
+    "loc": "16501.92, 21520.0488",
+    "region": "the_watching_woods"
+  },
+  "village_gray_pearl_14826": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71199,
+    "loc": "14826.125, 17139.54",
+    "region": "village_of_smiles"
+  },
+  "frst_gray_pearl_23529": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71200,
+    "loc": "23529.7656, 19268.6172",
+    "region": "the_watching_woods"
+  },
+  "cave_gray_pearl_30650": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71201,
+    "loc": "30650.125, 25177.6543",
+    "region": "hagers_cavern"
+  },
+  "dng_gray_pearl_43910": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71202,
+    "loc": "43910.55, 25771.957",
+    "region": "red_hall_of_cages"
+  },
+  "ruins_gray_pearl_62452": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71203,
+    "loc": "62452.7578, 16008.127",
+    "region": "the_ruined_temple"
+  },
+  "ruins_gray_pearl_73816": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71204,
+    "loc": "73816.86, 12757.1885",
+    "region": "ziggurat_of_dust"
+  },
+  "woods_gray_pearl_77413": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71205,
+    "loc": "77413.52, 24246.459",
+    "region": "pitchwoods"
+  },
+  "woods_gray_pearl_70430": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71206,
+    "loc": "70430.22, 30895.623",
+    "region": "pitchwoods"
+  },
+  "dng_gray_pearl_46576": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71207,
+    "loc": "46576.26, 26734.2754",
+    "region": "red_hall_of_cages"
+  },
+  "dm_crystal_sphere_59492": {
+    "items": [
+      "crystal_sphere"
+    ],
+    "id": 71208,
+    "loc": "59492.9141, 12909.1465",
+    "region": "the_ruined_temple"
+  },
+  "cos_crystal_sphere_43675": {
+    "items": [
+      "crystal_sphere"
+    ],
+    "id": 71209,
+    "loc": "43675.5469, 11793.4023",
+    "region": "red_hall_of_cages"
+  },
+  "bp_crystal_sphere_26211": {
+    "items": [
+      "crystal_sphere"
+    ],
+    "id": 71210,
+    "loc": "26211.23, 14558.0117",
+    "region": "bronze_key_cave"
+  },
+  "tomb_crys_sphere_39557": {
+    "items": [
+      "crystal_sphere"
+    ],
+    "id": 71211,
+    "loc": "39557.35, 37004.34",
+    "region": "crypt_of_dead_gods"
+  },
+  "forest_flame_17206": {
+    "items": [
+      "white_flame"
+    ],
+    "id": 71214,
+    "loc": "17206.73, 20396.7715",
+    "region": "the_watching_woods"
+  },
+  "bluecave_ease_34622": {
+    "items": [
+      "charm_ease"
+    ],
+    "id": 71219,
+    "loc": "34622.36, 25451.1113",
+    "region": "sunken_keep"
+  },
+  "vert_guide_49983": {
+    "items": [
+      "statue_guide"
+    ],
+    "id": 71255,
+    "loc": "49983.0039, 7157.06152",
+    "region": "mals_floating_castle"
+  },
+  "vert_poleaxe_48693": {
+    "items": [
+      "poleaxe"
+    ],
+    "id": 71256,
+    "loc": "48693.5352, 7596.493",
+    "region": "mals_floating_castle"
+  },
+  "castle_gpearl_50257": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71257,
+    "loc": "50257.89, 2448.48242",
+    "region": "mals_floating_castle"
+  },
+  "graypearl_43563": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71259,
+    "loc": "43549.17, 29897.332",
+    "region": "salt_alkymancery"
+  },
+  "crystalsphere_28712": {
+    "items": [
+      "crystal_sphere"
+    ],
+    "id": 71260,
+    "loc": "28712.9316, 18835.9141",
+    "region": "sunken_keep"
+  },
+  "clerc_13574": {
+    "items": [
+      "statue_cleric"
+    ],
+    "id": 71261,
+    "loc": "13574.0361, 11306.5244",
+    "region": "the_festering_banquet"
+  },
+  "graypearl_79116": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71268,
+    "loc": "79116.53, 31065.7676",
+    "region": "pitchwoods"
+  },
+  "graypearl_90392": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71269,
+    "loc": "90392.24, 21013.2188",
+    "region": "pitchwoods"
+  },
+  "graypearl_33819": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71273,
+    "loc": "33819.4258, 18444.7168",
+    "region": "sunken_keep"
+  },
+  "halberd_30452": {
+    "items": [
+      "halberd"
+    ],
+    "id": 71275,
+    "loc": "30453.53, 10949.5762",
+    "region": "bandits_pass"
+  },
+  "hidden_sanctuary_ring_melee": {
+    "items": [
+      "ring_melee",
+      "firepot/3"
+    ],
+    "id": 71276,
+    "loc": "24319.8945, 9692.128",
+    "region": "bandits_pass_vertigo"
+  },
+  "dome_lords_mat": {
+    "items": [
+      "white_blaze"
+    ],
+    "id": 71278,
+    "loc": "59482.09, 13326.333",
+    "region": "the_ruined_temple"
+  },
+  "beach_g_pearl_31": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71279,
+    "loc": "31.7981739, 14849.4609",
+    "region": "shivering_shore_west"
+  },
+  "red_blaze_39215": {
+    "items": [
+      "red_blaze"
+    ],
+    "id": 71280,
+    "loc": "39315.17, 15749.0244",
+    "region": "red_hall_of_cages"
+  },
+  "blue_spark_31328": {
+    "items": [
+      "blue_spark/3"
+    ],
+    "id": 71281,
+    "loc": "31328.0527, 14777.4707",
+    "region": "bronze_key_cave"
+  },
+  "blue_flame_13049": {
+    "items": [
+      "blue_flame/3"
+    ],
+    "id": 71282,
+    "loc": "13049.3887, 23018.9629",
+    "region": "the_watching_woods"
+  },
+  "ring_wis_17942": {
+    "items": [
+      "ring_wisdom"
+    ],
+    "id": 71283,
+    "loc": "17942.2715, 23369.2871",
+    "region": "mire_of_stench"
+  },
+  "blue_spark_24466": {
+    "items": [
+      "blue_spark"
+    ],
+    "id": 71284,
+    "loc": "24466.377, 21527.1348",
+    "region": "sunken_keep"
+  },
+  "boat_oar_3128": {
+    "items": [
+      "spear_oar"
+    ],
+    "id": 71285,
+    "loc": "3128.17065, 28911.1836",
+    "region": "fort_beyond_the_mire"
+  },
+  "gray_pearl_22879": {
+    "items": [
+      "gray_pearl"
+    ],
+    "id": 71286,
+    "loc": "22879.8516, 21914.1523",
+    "region": "the_watching_woods"
+  },
+  "red_flame_39666": {
+    "items": [
+      "red_flame"
+    ],
+    "id": 71287,
+    "loc": "39666.1055, 23036.8418",
+    "region": "red_hall_of_cages"
+  },
+  "red_flame_39924": {
+    "items": [
+      "red_flame/3"
+    ],
+    "id": 71288,
+    "loc": "39922.03, 8708.073",
+    "region": "castle_of_storms"
+  },
+  "charred_doll_25592": {
+    "items": [
+      "red_spark/3",
+      "ring_fire_dmg"
+    ],
+    "id": 71289,
+    "loc": "25592.99, 15472.5771",
+    "region": "jester_lower_vertigo"
+  },
+  "beast_nova_37303": {
+    "items": [
+      "beast_nova"
+    ],
+    "id": 71290,
+    "loc": "37303.1875, 40190.61",
+    "region": "crypt_of_dead_gods"
+  },
+  "redspark_secret": {
+    "items": [
+      "red_spark"
+    ],
+    "id": 71291,
+    "loc": "22568.6875, 12562.2373",
+    "region": "redspark"
+  }
 }

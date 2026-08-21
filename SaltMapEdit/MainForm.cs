@@ -1,8 +1,9 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using SaltMap;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -32,8 +33,8 @@ namespace SaltMapEdit
 				dragDist.X -= x;
 				dragDist.Y -= y;
 
-				return System.Math.Abs(dragDist.X) > SystemInformation.DragSize.Width ||
-					System.Math.Abs(dragDist.Y) > SystemInformation.DragSize.Height;
+				return Math.Abs(dragDist.X) > SystemInformation.DragSize.Width ||
+					Math.Abs(dragDist.Y) > SystemInformation.DragSize.Height;
 			}
 		}
 
@@ -44,20 +45,13 @@ namespace SaltMapEdit
 		public Map.Region currentRegion;
 		public Map.Connection currentConnection;
 
-		public readonly BindingList<Map.Region> regionList = new BindingList<Map.Region>();
-		public readonly BindingList<Map.Connection> connectionList = new BindingList<Map.Connection>();
-		public readonly BindingList<Map.Check> locationList = new BindingList<Map.Check>();
-		public readonly BindingList<string> itemList = new BindingList<string>();
-
-		public readonly BindingList<Map.Region> regionSelect = new BindingList<Map.Region>();
+		public readonly List<Map.Region> regionList = new List<Map.Region>();
 
 		public readonly List<string> progressList = new List<string>();
 
-		private BindingList<Map.Check> stackedChecks = new BindingList<Map.Check>();
-
 		public Microsoft.Xna.Framework.Graphics.SpriteFont spriteFont;
 
-		private System.Action editAction;
+		private Action editAction;
 
 		private Drag regionDrag; // drag action for reordering regions
 
@@ -75,19 +69,31 @@ namespace SaltMapEdit
 
 		public void MapLoaded()
 		{
-			foreach (Map.Region region in map.regions.Values)
+			if (File.Exists("regions.json"))
 			{
-				regionList.Add(region);
-				regionSelect.Add(region);
+				string json = File.ReadAllText("regions.json");
+				JObject saved = JObject.Parse(json);
+				JEnumerable<JToken> regions = saved.Children();
+
+				foreach (JToken region in regions)
+					regionList.Add(map.regions[region.Path]);
+
+				foreach (Map.Region region in map.regions.Values)
+					if (!regionList.Contains(region))
+						regionList.Add(region);
+			}
+			else
+			{
+				// the map.regions dictionary does not preserve region order
+				foreach (Map.Region region in map.regions.Values)
+					regionList.Add(region);
 			}
 
-			lbRegions.DataSource = regionList;
-			lbConnections.DataSource = connectionList;
-			lbLocations.DataSource = locationList;
-			lbItems.DataSource = itemList;
+			currentRegion = regionList[0];
 
-			lbSelectRegion.DataSource = regionSelect;
-			lbSelectCheck.DataSource = stackedChecks;
+			RebuildRegions();
+			SortConnections();
+			SortRegionSelect();
 
 			map.saveRegions = SaveRegions;
 		}
@@ -113,7 +119,7 @@ namespace SaltMapEdit
 			btnRedo.Enabled = History.CanRedo;
 		}
 
-		private void ShowEdit(Rectangle rect, string text, System.Action editAction)
+		private void ShowEdit(Rectangle rect, string text, Action editAction)
 		{
 			tbEdit.Text = text;
 			tbEdit.Location = rect.Location;
@@ -125,7 +131,8 @@ namespace SaltMapEdit
 
 		private void ShowRegions(Rectangle rect, Map.Region region)
 		{
-			int index = regionSelect.IndexOf(region);
+			SortRegionSelect();
+			int index = lbSelectRegion.Items.IndexOf(region);
 			lbSelectRegion.SelectedIndex = index;
 			lbSelectRegion.Location = rect.Location;
 			lbSelectRegion.Size = new Size(rect.Size.Width, lbSelectRegion.Size.Height);
@@ -153,24 +160,33 @@ namespace SaltMapEdit
 
 		private void EditConnection()
 		{
-			Map.Connection connection = (Map.Connection)lbConnections.SelectedValue;
-			Map.Region newRegion = regionSelect[lbSelectRegion.SelectedIndex];
-			Track(new ChangeConnectionAction(this, connection, newRegion, false));
+			int index = lbSelectRegion.SelectedIndex;
+
+			if (index >= 0)
+			{
+				Map.Region newRegion = (Map.Region)lbSelectRegion.SelectedItem;
+				Track(new ChangeConnectionAction(this, currentConnection, newRegion, false));
+			}
 		}
 
 		private void EditCheck()
 		{
-			Map.Check check = (Map.Check)lbSelectCheck.SelectedValue;
-			Track(new ChangeCheckRegionAction(this, check, currentRegion, false));
+			int index = lbSelectCheck.SelectedIndex;
+
+			if (index >= 0)
+			{
+				Map.Check check = (Map.Check)lbSelectCheck.SelectedItem;
+				Track(new ChangeCheckRegionAction(this, check, currentRegion, false));
+			}
 		}
 
 		private void EditItem()
 		{
 			int index = lbItems.SelectedIndex;
-			string oldItem = itemList[index];
+			string oldItem = currentConnection.items[index];
 			string newItem = tbEdit.Text;
 
-			if (itemList.Contains(newItem))
+			if (currentConnection.items.Contains(newItem))
 				return;
 
 			Track(new RenameItemAction(this, currentConnection, oldItem, newItem, false));
@@ -195,21 +211,28 @@ namespace SaltMapEdit
 			return regionList.IndexOf(a.Region) - regionList.IndexOf(b.Region);
 		}
 
+		public void RebuildRegions()
+		{
+			lbRegions.SelectedIndex = -1;
+			lbRegions.Items.Clear();
+
+			foreach (Map.Region region in regionList)
+				lbRegions.Items.Add(region);
+
+			lbRegions.SelectedIndex = regionList.IndexOf(currentRegion);
+		}
+
 		internal void SortConnections()
 		{
 			if (currentRegion == null)
 				return;
 
-			lbConnections.DataSource = null;
-
-			connectionList.Clear();
+			lbConnections.Items.Clear();
 
 			currentRegion.connections.Sort(CompareConnections);
 
 			foreach (Map.Connection connection in currentRegion.connections)
-				connectionList.Add(connection);
-
-			lbConnections.DataSource = connectionList;
+				lbConnections.Items.Add(connection);
 		}
 
 		internal int CompareChecks(string a, string b)
@@ -223,33 +246,25 @@ namespace SaltMapEdit
 
 		internal void SortLocations()
 		{
-			lbLocations.DataSource = null;
-
-			locationList.Clear();
+			lbLocations.Items.Clear();
 
 			currentRegion.checks.Sort(CompareChecks);
 
 			foreach (string checkName in currentRegion.checks)
 			{
 				map.GetLocation(checkName, out Map.Check check);
-				locationList.Add(check);
+				lbLocations.Items.Add(check);
 			}
-
-			lbLocations.DataSource = locationList;
 		}
 
 		internal void SortItems()
 		{
-			lbItems.DataSource = null;
-
-			itemList.Clear();
+			lbItems.Items.Clear();
 
 			currentConnection.items.Sort();
 
 			foreach (string item in currentConnection.items)
-				itemList.Add(item);
-
-			lbItems.DataSource = itemList;
+				lbItems.Items.Add(item);
 		}
 
 		internal void SortProgress()
@@ -264,15 +279,13 @@ namespace SaltMapEdit
 
 		internal void SortRegionSelect()
 		{
-			lbSelectRegion.DataSource = null;
+			lbSelectRegion.SelectedIndex = -1;
 
-			regionSelect.Clear();
+			lbSelectRegion.Items.Clear();
 
 			foreach (Map.Region region in regionList)
 				if (region != currentRegion)
-					regionSelect.Add(region);
-
-			lbSelectRegion.DataSource = regionSelect;
+					lbSelectRegion.Items.Add(region);
 		}
 
 		internal void FocusCheck(Map.Check check)
@@ -283,7 +296,28 @@ namespace SaltMapEdit
 			map.Filter(currentRegion, check);
 		}
 
+		internal void ScrollToIndex(ListBox listBox, int index)
+		{
+			if (index < listBox.TopIndex)
+				listBox.TopIndex = index;
+			else
+			{
+				int visibleCount = listBox.ClientSize.Height / listBox.ItemHeight;
+				int bottomIndex = listBox.TopIndex + visibleCount - 1;
+
+				if (index > bottomIndex)
+					listBox.TopIndex = Math.Max(0, index - visibleCount + 1);
+			}
+		}
+
 		#region Events
+
+		private void MainForm_Click(object sender, EventArgs e)
+		{
+			lbSelectRegion.Visible = false;
+			lbSelectCheck.Visible = false;
+			tbEdit.Visible = false;
+		}
 
 		#region pnlMap
 
@@ -303,20 +337,17 @@ namespace SaltMapEdit
 					if (checkGroup == null)
 						return;
 
-					lbSelectCheck.DataSource = null;
-					stackedChecks.Clear();
+					lbSelectCheck.Items.Clear();
 
 					foreach (Map.Check check in checkGroup.checks)
 						if (check.Region != currentRegion)
-							stackedChecks.Add(check);
+							lbSelectCheck.Items.Add(check);
 
-					lbSelectCheck.DataSource = stackedChecks;
-
-					if (stackedChecks.Count > 0)
+					if (lbSelectCheck.Items.Count > 0)
 					{
-						if (stackedChecks.Count == 1)
+						if (lbSelectCheck.Items.Count == 1)
 						{
-							Map.Check check = stackedChecks[0];
+							Map.Check check = (Map.Check)lbSelectCheck.Items[0];
 							Map.Region oldRegion = check.Region;
 
 							if (oldRegion != currentRegion)
@@ -326,13 +357,13 @@ namespace SaltMapEdit
 						{
 							Microsoft.Xna.Framework.Vector2 size = default;
 
-							foreach (Map.Check check in stackedChecks)
+							foreach (Map.Check check in lbSelectCheck.Items)
 							{
 								Microsoft.Xna.Framework.Vector2 size2 = spriteFont.MeasureString(check.key);
-								size.X = System.Math.Max(size.X, size2.X);
+								size.X = Math.Max(size.X, size2.X);
 							}
 
-							size.Y = lbSelectCheck.ItemHeight * stackedChecks.Count;
+							size.Y = lbSelectCheck.ItemHeight * lbSelectCheck.Items.Count;
 
 							Point loc = pnlMap.PointToScreen(new Point(e.X, e.Y));
 							loc = PointToClient(loc);
@@ -372,7 +403,7 @@ namespace SaltMapEdit
 		private void pnlMap_MouseWheel(object sender, MouseEventArgs e)
 		{
 			if (e.Delta != 0)
-				System.Console.WriteLine(e.Delta);
+				Console.WriteLine(e.Delta);
 
 			map.Zoom(mousePos, e.Delta > 0 ? 1 : -1);
 		}
@@ -387,38 +418,33 @@ namespace SaltMapEdit
 
 		#region lbRegions
 
-		private void lbRegions_Click(object sender, System.EventArgs e)
+		private void lbRegions_Click(object sender, EventArgs e)
 		{
 			int i = lbRegions.SelectedIndex;
 			currentRegion = i >= 0 ? regionList[i] : null;
 			map.Filter(currentRegion, null);
-
+			
 			lbConnections.SelectedIndex = -1;
-			lbConnections.DataSource = null;
-			connectionList.Clear();
-			lbLocations.DataSource = null;
-			locationList.Clear();
+			lbConnections.Items.Clear();
+			lbLocations.Items.Clear();
 
 			if (currentRegion != null)
 			{
 				foreach (Map.Connection connection in currentRegion.connections)
-					connectionList.Add(connection);
+					lbConnections.Items.Add(connection);
 
 				foreach (string checkName in currentRegion.checks)
 				{
 					map.GetLocation(checkName, out Map.Check check);
-					locationList.Add(check);
+					lbLocations.Items.Add(check);
 				}
 
-				if (locationList.Count > 0)
-					FocusCheck(locationList[0]);
+				if (lbLocations.Items.Count > 0)
+					FocusCheck((Map.Check)lbLocations.Items[0]);
 			}
-
-			lbConnections.DataSource = connectionList;
-			lbLocations.DataSource = locationList;
 		}
 
-		private void lbRegions_DoubleClick(object sender, System.EventArgs e)
+		private void lbRegions_DoubleClick(object sender, EventArgs e)
 		{
 			int index = lbRegions.SelectedIndex;
 
@@ -433,11 +459,36 @@ namespace SaltMapEdit
 
 		private void lbRegions_MouseDown(object sender, MouseEventArgs e)
 		{
-			if (lbRegions.SelectedItem != null)
+			if (e.Button == MouseButtons.Right)
+			{
+				if (currentRegion != null)
+				{
+					int index = lbRegions.IndexFromPoint(e.Location);
+
+					if (index >= 0 && index < lbRegions.Items.Count)
+					{
+						if (regionList[index] != currentRegion)
+						{
+							Map.Connection connection = new Map.Connection()
+							{
+								Region = regionList[index]
+							};
+
+							Track(new AddConnectionAction(this, currentRegion, connection, false));
+						}
+					}
+				}
+			}
+			else if (e.Button == MouseButtons.Left && lbRegions.SelectedItem != null)
 			{
 				regionDrag.state = DragState.DragStart;
 				regionDrag.startPoint = new Point(e.X, e.Y);
 			}
+		}
+
+		private void lbRegions_MouseUp(object sender, MouseEventArgs e)
+		{
+			regionDrag.state = DragState.None;
 		}
 
 		private void lbRegions_MouseMove(object sender, MouseEventArgs e)
@@ -494,22 +545,23 @@ namespace SaltMapEdit
 
 		// connections are auto sorted by region order
 
-		private void lbConnections_SelectedValueChanged(object sender, System.EventArgs e)
+		private void lbConnections_SelectedValueChanged(object sender, EventArgs e)
 		{
-			Map.Connection connection = (Map.Connection)lbConnections.SelectedValue;
-			currentConnection = connection;
+			lbItems.Items.Clear();
+			currentConnection = null;
 
-			lbItems.DataSource = null;
-			itemList.Clear();
+			int index = lbConnections.SelectedIndex;
 
-			if (connection != null)
-				foreach (string item in connection.items)
-					itemList.Add(item);
+			if (index >= 0)
+			{
+				currentConnection = currentRegion.connections[index];
 
-			lbItems.DataSource = itemList;
+				foreach (string item in currentConnection.items)
+					lbItems.Items.Add(item);
+			}
 		}
 
-		private void lbConnections_DoubleClick(object sender, System.EventArgs e)
+		private void lbConnections_DoubleClick(object sender, EventArgs e)
 		{
 			int index = lbConnections.SelectedIndex;
 
@@ -518,7 +570,7 @@ namespace SaltMapEdit
 				Rectangle rect = lbConnections.GetItemRectangle(index);
 				rect.Location = lbConnections.PointToScreen(rect.Location);
 				rect.Location = PointToClient(rect.Location);
-				ShowRegions(rect, connectionList[index].Region);
+				ShowRegions(rect, currentRegion.connections[index].Region);
 			}
 		}
 
@@ -537,7 +589,7 @@ namespace SaltMapEdit
 
 		// locations are auto sorted by id
 
-		private void lbLocations_Click(object sender, System.EventArgs e)
+		private void lbLocations_Click(object sender, EventArgs e)
 		{
 			Map.Check check = (Map.Check)lbLocations.SelectedValue;
 
@@ -552,13 +604,14 @@ namespace SaltMapEdit
 		{
 			if (e.KeyCode == Keys.Delete && currentConnection != null)
 			{
-				int i = lbItems.SelectedIndex;
+				int index = lbItems.SelectedIndex;
+				string item = currentConnection.items[index];
 
-				Track(new AddItemAction(this, currentConnection, itemList[i], true));
+				Track(new AddItemAction(this, currentConnection, item, true));
 			}
 		}
 
-		private void lbItems_DoubleClick(object sender, System.EventArgs e)
+		private void lbItems_DoubleClick(object sender, EventArgs e)
 		{
 			int index = lbItems.SelectedIndex;
 
@@ -567,7 +620,7 @@ namespace SaltMapEdit
 				Rectangle rect = lbItems.GetItemRectangle(index);
 				rect.Location = lbItems.PointToScreen(rect.Location);
 				rect.Location = PointToClient(rect.Location);
-				ShowEdit(rect, itemList[index], EditItem);
+				ShowEdit(rect, currentConnection.items[index], EditItem);
 			}
 		}
 
@@ -585,7 +638,7 @@ namespace SaltMapEdit
 			}
 		}
 
-		private void lbProgress_DoubleClick(object sender, System.EventArgs e)
+		private void lbProgress_DoubleClick(object sender, EventArgs e)
 		{
 			int index = lbProgress.SelectedIndex;
 
@@ -602,22 +655,23 @@ namespace SaltMapEdit
 
 		#region lbSelectRegion
 
-		private void lbSelectRegion_Leave(object sender, System.EventArgs e)
+		private void lbSelectRegion_Leave(object sender, EventArgs e)
 		{
 			lbSelectRegion.Visible = false;
 		}
 
 		private void lbSelectRegion_KeyDown(object sender, KeyEventArgs e)
 		{
-
+			if (e.KeyCode == Keys.Escape)
+				lbSelectCheck.Visible = false;
 		}
 
-		private void lbSelectRegion_SelectedIndexChanged(object sender, System.EventArgs e)
+		private void lbSelectRegion_SelectedIndexChanged(object sender, EventArgs e)
 		{
 
 		}
 
-		private void lbSelectRegion_Click(object sender, System.EventArgs e)
+		private void lbSelectRegion_Click(object sender, EventArgs e)
 		{
 			EditConnection();
 			lbSelectRegion.Visible = false;
@@ -628,22 +682,23 @@ namespace SaltMapEdit
 
 		#region lbSelectCheck
 
-		private void lbSelectCheck_Leave(object sender, System.EventArgs e)
+		private void lbSelectCheck_Leave(object sender, EventArgs e)
 		{
 			lbSelectCheck.Visible = false;
 		}
 
 		private void lbSelectCheck_KeyDown(object sender, KeyEventArgs e)
 		{
-
+			if (e.KeyCode == Keys.Escape)
+				lbSelectCheck.Visible = false;
 		}
 
-		private void lbSelectCheck_SelectedIndexChanged(object sender, System.EventArgs e)
+		private void lbSelectCheck_SelectedIndexChanged(object sender, EventArgs e)
 		{
 
 		}
 
-		private void lbSelectCheck_Click(object sender, System.EventArgs e)
+		private void lbSelectCheck_Click(object sender, EventArgs e)
 		{
 			EditCheck();
 			lbSelectCheck.Visible = false;
@@ -654,7 +709,7 @@ namespace SaltMapEdit
 
 		#region tbEdit
 
-		private void tbEdit_Leave(object sender, System.EventArgs e)
+		private void tbEdit_Leave(object sender, EventArgs e)
 		{
 			tbEdit.Visible = false;
 		}
@@ -693,12 +748,12 @@ namespace SaltMapEdit
 
 		#region Buttons
 
-		private void btnClearFilter_Click(object sender, System.EventArgs e)
+		private void btnClearFilter_Click(object sender, EventArgs e)
 		{
 			map.Filter(null, null);
 		}
 
-		private void btnAddRegion_Click(object sender, System.EventArgs e)
+		private void btnAddRegion_Click(object sender, EventArgs e)
 		{
 			string baseName = "new_region";
 			string name = baseName;
@@ -713,42 +768,44 @@ namespace SaltMapEdit
 				key = name
 			};
 
-			int i = map.regions.Count;
-			Track(new AddRegionAction(this, region, i, false));
+			int i = regionList.Count;
 
-			lbRegions.SelectedIndex = regionList.Count - 1;
+			if (currentRegion != null)
+				i = regionList.IndexOf(currentRegion);
+
+			Track(new AddRegionAction(this, region, i, false));
 		}
 
-		private void btnAddConnection_Click(object sender, System.EventArgs e)
+		private void btnAddConnection_Click(object sender, EventArgs e)
 		{
 			if (currentRegion != null)
 			{
 				Map.Connection connection = new Map.Connection()
 				{
-					Region = regionSelect[0]
+					Region = regionList[0]
 				};
 
 				Track(new AddConnectionAction(this, currentRegion, connection, false));
 			}
 		}
 
-		private void btnAddItem_Click(object sender, System.EventArgs e)
+		private void btnAddItem_Click(object sender, EventArgs e)
 		{
 			if (currentConnection != null)
 				Track(new AddItemAction(this, currentConnection, "new_item", false));
 		}
 
-		private void btnAddProgress_Click(object sender, System.EventArgs e)
+		private void btnAddProgress_Click(object sender, EventArgs e)
 		{
 			Track(new AddProgressAction(this, "new_progress", false));
 		}
 
-		private void btnSave_Click(object sender, System.EventArgs e)
+		private void btnSave_Click(object sender, EventArgs e)
 		{
 			map.Save();
 		}
 
-		private void btnUndo_Click(object sender, System.EventArgs e)
+		private void btnUndo_Click(object sender, EventArgs e)
 		{
 			History.Undo();
 
@@ -756,7 +813,7 @@ namespace SaltMapEdit
 			btnRedo.Enabled = History.CanRedo;
 		}
 
-		private void btnRedo_Click(object sender, System.EventArgs e)
+		private void btnRedo_Click(object sender, EventArgs e)
 		{
 			History.Redo();
 
@@ -836,7 +893,12 @@ namespace SaltMapEdit
 				form.SortLocations();
 
 				if (newValue == form.currentRegion)
-					form.lbLocations.SelectedIndex = form.locationList.IndexOf(check);
+				{
+					int index = form.lbLocations.Items.IndexOf(check);
+					form.lbLocations.SelectedIndex = index;
+
+					form.ScrollToIndex(form.lbLocations, index);
+				}
 			}
 		}
 
@@ -865,15 +927,29 @@ namespace SaltMapEdit
 		public override void Undo()
 		{
 			form.regionList.RemoveAt(index);
-			form.regionSelect.RemoveAt(index);
 			form.map.regions.Remove(region.key);
+
+			foreach (Map.Region mapRegion in form.regionList)
+				mapRegion.connections.Sort(form.CompareConnections);
+
+			form.RebuildRegions();
+			form.SortConnections();
+			form.SortRegionSelect();
 		}
 
 		public override void Redo()
 		{
 			form.regionList.Insert(index, region);
-			form.regionSelect.Insert(index, region);
 			form.map.regions.Add(region.key, region);
+
+			foreach (Map.Region mapRegion in form.regionList)
+				mapRegion.connections.Sort(form.CompareConnections);
+
+			form.RebuildRegions();
+			form.SortConnections();
+			form.SortRegionSelect();
+
+			form.ScrollToIndex(form.lbRegions, index);
 		}
 	}
 
@@ -978,7 +1054,15 @@ namespace SaltMapEdit
 			form.map.regions.Remove(newItem);
 			form.map.regions.Add(oldItem, region);
 			form.regionList[index] = region;
-			form.regionSelect[index] = region;
+
+			foreach (Map.Region mapRegion in form.regionList)
+				mapRegion.connections.Sort(form.CompareConnections);
+
+			form.RebuildRegions();
+			form.SortConnections();
+			form.SortRegionSelect();
+
+			form.ScrollToIndex(form.lbRegions, index);
 		}
 
 		public override void Redo()
@@ -987,7 +1071,15 @@ namespace SaltMapEdit
 			form.map.regions.Remove(oldItem);
 			form.map.regions.Add(newItem, region);
 			form.regionList[index] = region;
-			form.regionSelect[index] = region;
+
+			foreach (Map.Region mapRegion in form.regionList)
+				mapRegion.connections.Sort(form.CompareConnections);
+
+			form.RebuildRegions();
+			form.SortConnections();
+			form.SortRegionSelect();
+
+			form.ScrollToIndex(form.lbRegions, index);
 		}
 	}
 
@@ -1104,38 +1196,38 @@ namespace SaltMapEdit
 		{
 			Map.Region region = form.regionList[newIndex];
 
-			form.lbRegions.DataSource = null;
-
+			form.lbRegions.SelectedIndex = -1;
 			form.regionList.RemoveAt(newIndex);
 			form.regionList.Insert(oldIndex, region);
 
 			foreach (Map.Region mapRegion in form.regionList)
 				mapRegion.connections.Sort(form.CompareConnections);
 
+			form.RebuildRegions();
 			form.SortConnections();
 			form.SortRegionSelect();
 
-			form.lbRegions.DataSource = form.regionList;
 			form.lbRegions.SelectedIndex = oldIndex;
+			form.ScrollToIndex(form.lbRegions, oldIndex);
 		}
 
 		public override void Redo()
 		{
 			Map.Region region = form.regionList[oldIndex];
 
-			form.lbRegions.DataSource = null;
-
+			form.lbRegions.SelectedIndex = -1;
 			form.regionList.RemoveAt(oldIndex);
 			form.regionList.Insert(newIndex, region);
 
 			foreach (Map.Region mapRegion in form.regionList)
 				mapRegion.connections.Sort(form.CompareConnections);
 
+			form.RebuildRegions();
 			form.SortConnections();
 			form.SortRegionSelect();
 
-			form.lbRegions.DataSource = form.regionList;
 			form.lbRegions.SelectedIndex = newIndex;
+			form.ScrollToIndex(form.lbRegions, newIndex);
 		}
 	}
 

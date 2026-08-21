@@ -6,7 +6,7 @@
         "items": []
       },
       {
-        "region": "shivering_shore",
+        "region": "shivering_shore_west",
         "items": []
       }
     ],
@@ -15,7 +15,7 @@
   "ship": {
     "connections": [
       {
-        "region": "shivering_shore",
+        "region": "shivering_shore_west",
         "items": [
           "leviathon"
         ]
@@ -23,8 +23,74 @@
     ],
     "updated": false
   },
-  "shivering_shore": {
+  "shivering_shore_west": {
     "connections": [
+      {
+        "region": "sancdoor",
+        "items": [
+          "sanc_key"
+        ]
+      },
+      {
+        "region": "shivering_shore_choppy",
+        "items": [
+          "choppy_2_talk_3"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "sancdoor": {
+    "connections": [
+      {
+        "region": "shivering_shore_west",
+        "items": []
+      },
+      {
+        "region": "shivering_shore_sanctuary",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "shivering_shore_sanctuary": {
+    "connections": [
+      {
+        "region": "sancdoor",
+        "items": [
+          "sanc_key"
+        ]
+      },
+      {
+        "region": "sancexit",
+        "items": [
+          "sanc_key"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "sancexit": {
+    "connections": [
+      {
+        "region": "shivering_shore_sanctuary",
+        "items": []
+      },
+      {
+        "region": "shivering_shore_east",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "shivering_shore_east": {
+    "connections": [
+      {
+        "region": "sancexit",
+        "items": [
+          "sanc_key"
+        ]
+      },
       {
         "region": "shivering_shore_roof",
         "items": [
@@ -32,39 +98,167 @@
         ]
       },
       {
-        "region": "the_festering_banquet",
+        "region": "cavedoor",
         "items": [
-          "sanctuary_key"
+          "cavedoor"
         ]
       },
       {
-        "region": "village_of_smiles",
-        "items": [
-          "sanctuary_key"
-        ]
+        "region": "castledoor",
+        "items": []
       }
     ],
     "updated": false
   },
   "shivering_shore_roof": {
-    "connections": [],
+    "connections": [
+      {
+        "region": "shivering_shore_west",
+        "items": []
+      },
+      {
+        "region": "shivering_shore_east",
+        "items": []
+      }
+    ],
     "updated": false
   },
   "shivering_shore_choppy": {
-    "connections": [],
+    "connections": [
+      {
+        "region": "shivering_shore_west",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "cavedoor": {
+    "connections": [
+      {
+        "region": "shivering_shore_east",
+        "items": [
+          "cavedoor"
+        ]
+      },
+      {
+        "region": "the_festering_banquet_cave",
+        "items": [
+          "cavedoor"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "castledoor": {
+    "connections": [
+      {
+        "region": "shivering_shore_east",
+        "items": [
+          "castledoor"
+        ]
+      },
+      {
+        "region": "the_festering_banquet",
+        "items": [
+          "castledoor"
+        ]
+      }
+    ],
     "updated": false
   },
   "the_festering_banquet": {
     "connections": [
       {
-        "region": "village_of_smiles",
+        "region": "menu",
         "items": []
       },
       {
-        "region": "sunken_keep",
+        "region": "castledoor",
+        "items": []
+      },
+      {
+        "region": "castlegate",
+        "items": []
+      },
+      {
+        "region": "castleexit",
         "items": [
-          "SEQUENCE"
+          "castleexit"
         ]
+      },
+      {
+        "region": "castledungeongate",
+        "items": []
+      },
+      {
+        "region": "fortblackset",
+        "items": [
+          "fortblackset"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "the_festering_banquet_vertigo": {
+    "connections": [],
+    "updated": false
+  },
+  "the_festering_banquet_cave": {
+    "connections": [
+      {
+        "region": "cavedoor",
+        "items": []
+      },
+      {
+        "region": "castledungeongate",
+        "items": []
+      },
+      {
+        "region": "forttoundergatevillage",
+        "items": [
+          "forttoundervillagegate"
+        ]
+      },
+      {
+        "region": "village_of_smiles",
+        "items": [
+          "villageenter"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "the_festering_banquet_black": {
+    "connections": [
+      {
+        "region": "the_festering_banquet_cave",
+        "items": []
+      },
+      {
+        "region": "fortblackset",
+        "items": [
+          "fortblackset"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "castlegate": {
+    "connections": [
+      {
+        "region": "the_festering_banquet",
+        "items": [
+          "castlegate"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "castleexit": {
+    "connections": [
+      {
+        "region": "the_festering_banquet",
+        "items": []
       },
       {
         "region": "bandits_pass",
@@ -73,8 +267,47 @@
     ],
     "updated": false
   },
-  "the_festering_banquet_vertigo": {
-    "connections": [],
+  "castledungeongate": {
+    "connections": [
+      {
+        "region": "the_festering_banquet",
+        "items": [
+          "castledungeongate"
+        ]
+      },
+      {
+        "region": "the_festering_banquet_cave",
+        "items": [
+          "castledungeongate"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "fortblackset": {
+    "connections": [
+      {
+        "region": "the_festering_banquet",
+        "items": []
+      },
+      {
+        "region": "the_festering_banquet_black",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "forttoundergatevillage": {
+    "connections": [
+      {
+        "region": "the_festering_banquet_cave",
+        "items": []
+      },
+      {
+        "region": "jester_upper",
+        "items": []
+      }
+    ],
     "updated": false
   },
   "village_of_smiles": {
@@ -84,7 +317,228 @@
         "items": []
       },
       {
+        "region": "village_of_smiles_atk",
+        "items": [
+          "villageatkexit"
+        ]
+      },
+      {
+        "region": "village_of_smiles_black",
+        "items": [
+          "secretundervillagegate"
+        ]
+      },
+      {
+        "region": "village_of_smiles_shield",
+        "items": [
+          "shadowflip"
+        ]
+      },
+      {
+        "region": "village_of_smiles_shield",
+        "items": [
+          "dart"
+        ]
+      },
+      {
+        "region": "village_of_smiles_trees",
+        "items": [
+          "shadowflip"
+        ]
+      },
+      {
         "region": "the_watching_woods",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "village_of_smiles_atk": {
+    "connections": [
+      {
+        "region": "village_of_smiles",
+        "items": [
+          "villageatkexit"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "village_of_smiles_black": {
+    "connections": [
+      {
+        "region": "village_of_smiles",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "village_of_smiles_shield": {
+    "connections": [
+      {
+        "region": "village_of_smiles",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "village_of_smiles_trees": {
+    "connections": [],
+    "updated": false
+  },
+  "jester_upper": {
+    "connections": [
+      {
+        "region": "forttoundergatevillage",
+        "items": []
+      },
+      {
+        "region": "jester_lower",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "jester_lower": {
+    "connections": [
+      {
+        "region": "jester_upper",
+        "items": [
+          "vertigo"
+        ]
+      },
+      {
+        "region": "jester_lower_vertigo",
+        "items": [
+          "vertigo"
+        ]
+      },
+      {
+        "region": "bronze_key_cave",
+        "items": [
+          "vertigo"
+        ]
+      },
+      {
+        "region": "bronze_key_cave",
+        "items": [
+          "dart"
+        ]
+      },
+      {
+        "region": "forestshrinegate",
+        "items": [
+          "forestshrinegate"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "jester_lower_vertigo": {
+    "connections": [],
+    "updated": false
+  },
+  "bladebanditrock": {
+    "connections": [
+      {
+        "region": "redspark",
+        "items": []
+      },
+      {
+        "region": "bandits_pass",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "bladebanditgate": {
+    "connections": [
+      {
+        "region": "redspark",
+        "items": [
+          "bladebanditgate"
+        ]
+      },
+      {
+        "region": "blade_bandit_upper",
+        "items": [
+          "bladebanditgate"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "redspark": {
+    "connections": [
+      {
+        "region": "bladebanditgate",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "blade_bandit_upper": {
+    "connections": [
+      {
+        "region": "bladebanditgate",
+        "items": []
+      },
+      {
+        "region": "blade_bandit_lower",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "blade_bandit_lower": {
+    "connections": [
+      {
+        "region": "jester_upper",
+        "items": []
+      },
+      {
+        "region": "blade_bandit_upper",
+        "items": [
+          "shadowflip"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "bronze_key_cave": {
+    "connections": [
+      {
+        "region": "jester_lower",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "forestshrinegate": {
+    "connections": [
+      {
+        "region": "jester_lower",
+        "items": []
+      },
+      {
+        "region": "forestkeygate",
+        "items": [
+          "forestkeygate"
+        ]
+      }
+    ],
+    "updated": false
+  },
+  "forestkeygate": {
+    "connections": [
+      {
+        "region": "forestshrinegate",
+        "items": [
+          "forestshrinegate"
+        ]
+      },
+      {
+        "region": "sunken_keep",
         "items": []
       }
     ],
@@ -145,14 +599,48 @@
   "bandits_pass": {
     "connections": [
       {
-        "region": "the_festering_banquet",
+        "region": "bladebanditrock",
+        "items": [
+          "bladebanditrock"
+        ]
+      },
+      {
+        "region": "bandits_pass_vertigo",
+        "items": [
+          "vertigo"
+        ]
+      },
+      {
+        "region": "oldman_2",
         "items": []
       },
       {
-        "region": "sunken_keep",
+        "region": "castledrawdoor",
         "items": [
-          "SEQUENCE"
+          "castledrawdoor"
         ]
+      }
+    ],
+    "updated": false
+  },
+  "bandits_pass_vertigo": {
+    "connections": [
+      {
+        "region": "bandits_pass",
+        "items": []
+      }
+    ],
+    "updated": false
+  },
+  "oldman_2": {
+    "connections": [],
+    "updated": false
+  },
+  "castledrawdoor": {
+    "connections": [
+      {
+        "region": "bandits_pass",
+        "items": []
       },
       {
         "region": "castle_of_storms",
@@ -185,6 +673,14 @@
         ]
       }
     ],
+    "updated": false
+  },
+  "castle_of_storms_shadowflip": {
+    "connections": [],
+    "updated": false
+  },
+  "stormdualgate": {
+    "connections": [],
     "updated": false
   },
   "red_hall_of_cages": {

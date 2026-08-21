@@ -25,7 +25,7 @@
     ],
     "id": 0,
     "loc": "17464.4941, 13519.4131",
-    "region": "the_festering_banquet"
+    "region": "npcs"
   },
   "oldman_1": {
     "seg": 372,
@@ -196,7 +196,7 @@
     ],
     "id": 0,
     "loc": "5213.568, 5129.353",
-    "region": "ship"
+    "region": "npcs"
   },
   "boatman_1": {
     "seg": 804,

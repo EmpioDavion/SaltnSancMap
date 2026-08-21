@@ -14,7 +14,7 @@
     ],
     "id": 70002,
     "loc": "17420.252, 12588.0039",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet_cave"
   },
   "fortresssalt2": {
     "items": [
@@ -49,7 +49,7 @@
     ],
     "id": 70037,
     "loc": "1722.454, 17127.3789",
-    "region": "shivering_shore"
+    "region": "village_of_smiles"
   },
   "village_salt2": {
     "items": [
@@ -124,7 +124,7 @@
     ],
     "id": 70070,
     "loc": "13809.21, 15370.6494",
-    "region": "the_watching_woods"
+    "region": "the_festering_banquet_cave"
   },
   "stone_ledge_salt": {
     "items": [
@@ -143,7 +143,7 @@
     ],
     "id": 70076,
     "loc": "22853.8438, 9474.53",
-    "region": "bandits_pass"
+    "region": "bandits_pass_vertigo"
   },
   "hidden_sancledge_spark": {
     "items": [
@@ -202,7 +202,7 @@
     ],
     "id": 70210,
     "loc": "29094.1133, 14970.1152",
-    "region": "bandits_pass"
+    "region": "bronze_key_cave"
   },
   "village_thief_armor": {
     "items": [
@@ -223,7 +223,7 @@
     ],
     "id": 70213,
     "loc": "19163.36, 12005.9639",
-    "region": "the_festering_banquet"
+    "region": "bandits_pass"
   },
   "castle_real_lit_ball": {
     "items": [
@@ -255,7 +255,7 @@
     ],
     "id": 70217,
     "loc": "29497.0215, 15436.3184",
-    "region": "bandits_pass"
+    "region": "bronze_key_cave"
   },
   "midsecretchainmail_boots": {
     "items": [
@@ -263,7 +263,7 @@
     ],
     "id": 70218,
     "loc": "24668.4512, 16306.0791",
-    "region": "sunken_keep"
+    "region": "jester_lower"
   },
   "stone_ledge_tribe_armor": {
     "items": [
@@ -345,7 +345,7 @@
     ],
     "id": 70303,
     "loc": "38468.2734, 2286.2417",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms_shadowflip"
   },
   "village_charm_atk": {
     "items": [
@@ -353,7 +353,7 @@
     ],
     "id": 70304,
     "loc": "2283.67554, 20815.3887",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles_atk"
   },
   "greenvillage_ring_magb": {
     "items": [
@@ -469,7 +469,7 @@
     ],
     "id": 70361,
     "loc": "13009.37, 17462.6113",
-    "region": "the_watching_woods"
+    "region": "village_of_smiles"
   },
   "bluecave_statue_mage": {
     "items": [
@@ -494,7 +494,7 @@
     ],
     "id": 70368,
     "loc": "16036.92, 13125.8135",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet_cave"
   },
   "village_ring_roll": {
     "items": [
@@ -502,7 +502,7 @@
     ],
     "id": 70370,
     "loc": "2086.409, 17062.4453",
-    "region": "shivering_shore"
+    "region": "village_of_smiles"
   },
   "midsecret_shield_oval": {
     "items": [
@@ -546,7 +546,7 @@
     ],
     "id": 70467,
     "loc": "12473.9355, 17127.041",
-    "region": "the_watching_woods"
+    "region": "village_of_smiles_trees"
   },
   "dungeon_salt_47480": {
     "items": [
@@ -570,7 +570,7 @@
     ],
     "id": 70470,
     "loc": "11670.1768, 12295.2354",
-    "region": "shivering_shore"
+    "region": "shivering_shore_east"
   },
   "statue_guide_40293": {
     "items": [
@@ -611,7 +611,7 @@
     ],
     "id": 70478,
     "loc": "8031.39258, 15575.6328",
-    "region": "shivering_shore"
+    "region": "village_of_smiles"
   },
   "dungeon_fire_oribts": {
     "items": [
@@ -831,7 +831,7 @@
     ],
     "id": 70570,
     "loc": "18541.86, 11498.8223",
-    "region": "the_festering_banquet"
+    "region": "bandits_pass"
   },
   "forest_black_pearl": {
     "items": [
@@ -847,7 +847,7 @@
     ],
     "id": 70573,
     "loc": "5771.40039, 18552.1",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles_black"
   },
   "hidden_passage_14332": {
     "items": [
@@ -890,7 +890,7 @@
     ],
     "id": 70646,
     "loc": "16916.1328, 14444.1895",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet_cave"
   },
   "ruin_room_spear_14388": {
     "items": [
@@ -931,7 +931,7 @@
     ],
     "id": 70654,
     "loc": "16187.9473, 13714.8076",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet_cave"
   },
   "midsecret_25589": {
     "items": [
@@ -939,7 +939,7 @@
     ],
     "id": 70666,
     "loc": "29535.8789, 16184.0566",
-    "region": "bandits_pass"
+    "region": "bronze_key_cave"
   },
   "dungeon_fire2_33509": {
     "items": [
@@ -1037,7 +1037,7 @@
     ],
     "id": 70706,
     "loc": "11404.1758, 13267.0576",
-    "region": "shivering_shore"
+    "region": "the_festering_banquet_cave"
   },
   "midsecretstatue_alchemist": {
     "items": [
@@ -1045,7 +1045,7 @@
     ],
     "id": 70707,
     "loc": "25369.6387, 15958.63",
-    "region": "bandits_pass"
+    "region": "bronze_key_cave"
   },
   "ruins_statue_guide_61709": {
     "items": [
@@ -1093,7 +1093,7 @@
     ],
     "id": 70714,
     "loc": "667.260437, 16765.7344",
-    "region": "shivering_shore"
+    "region": "village_of_smiles"
   },
   "statue_guide_25428": {
     "items": [
@@ -1205,7 +1205,7 @@
     ],
     "id": 70743,
     "loc": "23668.9141, 14194.168",
-    "region": "sunken_keep"
+    "region": "blade_bandit_lower"
   },
   "castle_shield_silver": {
     "items": [
@@ -1318,7 +1318,7 @@
     ],
     "id": 70766,
     "loc": "10203.0049, 16464.8652",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles_shield"
   },
   "ruins_ring_damage": {
     "items": [
@@ -1818,7 +1818,7 @@
     ],
     "id": 71063,
     "loc": "21678.0234, 14455.83",
-    "region": "sunken_keep"
+    "region": "jester_upper"
   },
   "amberspark_29340": {
     "items": [
@@ -2012,7 +2012,7 @@
     ],
     "id": 71139,
     "loc": "27370.3613, 16075.6826",
-    "region": "sunken_keep"
+    "region": "bronze_key_cave"
   },
   "crossbow_84383": {
     "items": [
@@ -2134,7 +2134,7 @@
     ],
     "id": 71175,
     "loc": "16011.6055, 17255.29",
-    "region": "the_watching_woods"
+    "region": "village_of_smiles"
   },
   "shield_skulls_77787": {
     "items": [
@@ -2192,7 +2192,7 @@
     ],
     "id": 71199,
     "loc": "14826.125, 17139.54",
-    "region": "the_watching_woods"
+    "region": "village_of_smiles"
   },
   "frst_gray_pearl_23529": {
     "items": [
@@ -2280,7 +2280,7 @@
     ],
     "id": 71210,
     "loc": "26211.23, 14558.0117",
-    "region": "bandits_pass"
+    "region": "bronze_key_cave"
   },
   "tomb_crys_sphere_39557": {
     "items": [
@@ -2393,7 +2393,7 @@
     ],
     "id": 71276,
     "loc": "24319.8945, 9692.128",
-    "region": "bandits_pass"
+    "region": "bandits_pass_vertigo"
   },
   "dome_lords_mat": {
     "items": [
@@ -2409,7 +2409,7 @@
     ],
     "id": 71279,
     "loc": "31.7981739, 14849.4609",
-    "region": "shivering_shore"
+    "region": "shivering_shore_west"
   },
   "red_blaze_39215": {
     "items": [
@@ -2425,7 +2425,7 @@
     ],
     "id": 71281,
     "loc": "31328.0527, 14777.4707",
-    "region": "red_hall_of_cages"
+    "region": "bronze_key_cave"
   },
   "blue_flame_13049": {
     "items": [
@@ -2490,7 +2490,7 @@
     ],
     "id": 71289,
     "loc": "25592.99, 15472.5771",
-    "region": "bandits_pass"
+    "region": "jester_lower_vertigo"
   },
   "beast_nova_37303": {
     "items": [
@@ -2506,6 +2506,6 @@
     ],
     "id": 71291,
     "loc": "22568.6875, 12562.2373",
-    "region": "bandits_pass"
+    "region": "redspark"
   }
 }
