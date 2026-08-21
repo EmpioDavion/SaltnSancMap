@@ -6,7 +6,7 @@
     ],
     "id": 40006,
     "loc": "17041.3457, 8626.176",
-    "region": "the_festering_banquet"
+    "region": "dread"
   },
   "cutqueen": {
     "items": [
@@ -14,7 +14,7 @@
     ],
     "id": 40036,
     "loc": "2459.48022, 17944.5664",
-    "region": "village_of_smiles"
+    "region": "cutqueen"
   },
   "bull": {
     "items": [
@@ -23,7 +23,7 @@
     ],
     "id": 40130,
     "loc": "26734.77, 23051.8086",
-    "region": "sunken_keep"
+    "region": "bull"
   },
   "dragon": {
     "items": [
@@ -31,7 +31,7 @@
     ],
     "id": 40255,
     "loc": "38186.09, 1243.47021",
-    "region": "castle_of_storms"
+    "region": "dragon"
   },
   "alchemist": {
     "items": [
@@ -39,7 +39,7 @@
     ],
     "id": 40281,
     "loc": "21009.7324, 18165.9219",
-    "region": "the_watching_woods"
+    "region": "alchemist"
   },
   "torturetree": {
     "items": [
@@ -47,7 +47,7 @@
     ],
     "id": 40291,
     "loc": "41469.28, 28467.8457",
-    "region": "red_hall_of_cages"
+    "region": "torturetree"
   },
   "pirate": {
     "items": [
@@ -56,7 +56,7 @@
     ],
     "id": 40363,
     "loc": "28432.98, 29483.332",
-    "region": "hagers_cavern"
+    "region": "pirate"
   },
   "leviathon": {
     "items": [
@@ -74,7 +74,7 @@
     ],
     "id": 40485,
     "loc": "20563.0547, 24250.6875",
-    "region": "the_watching_woods"
+    "region": "gasbag"
   },
   "broken": {
     "items": [
@@ -90,7 +90,7 @@
     ],
     "id": 40581,
     "loc": "60154.5625, 9221.357",
-    "region": "dome_of_the_forgotten"
+    "region": "griffin"
   },
   "lakewitch": {
     "items": [
@@ -106,7 +106,7 @@
     ],
     "id": 40668,
     "loc": "26812.873, 17064.8516",
-    "region": "bandits_pass"
+    "region": "fauxjester"
   },
   "mummy": {
     "items": [
@@ -114,7 +114,7 @@
     ],
     "id": 40688,
     "loc": "79848.26, 9045.742",
-    "region": "ziggurat_of_dust"
+    "region": "zigguratcorridor"
   },
   "clay": {
     "items": [
@@ -122,7 +122,7 @@
     ],
     "id": 40700,
     "loc": "79093.98, 17606.04",
-    "region": "ziggurat_of_dust"
+    "region": "zigguratcorridor"
   },
   "inquisitor": {
     "items": [
@@ -198,7 +198,7 @@
     ],
     "id": 41048,
     "loc": "32648.3418, 41882.8867",
-    "region": "crypt_of_dead_gods"
+    "region": "crypt_of_dead_gods_bottom"
   },
   "deadknight": {
     "items": [
@@ -206,7 +206,7 @@
     ],
     "id": 41049,
     "loc": "32411.7168, 41861.6133",
-    "region": "crypt_of_dead_gods"
+    "region": "crypt_of_dead_gods_bottom"
   },
   "deadjudge": {
     "items": [
@@ -214,7 +214,7 @@
     ],
     "id": 41050,
     "loc": "32885.19, 41845.9961",
-    "region": "crypt_of_dead_gods"
+    "region": "crypt_of_dead_gods_bottom"
   },
   "murderfly": {
     "items": [

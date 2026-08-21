@@ -45,7 +45,7 @@
     ],
     "id": 120010,
     "loc": "31010.4785, 14765.7119",
-    "region": "bandits_pass"
+    "region": "bronze_key_cave"
   },
   "under_village_boards_plat1": {
     "items": [
@@ -61,7 +61,7 @@
     ],
     "id": 120014,
     "loc": "5906.58447, 18535.31",
-    "region": "village_of_smiles"
+    "region": "village_cave"
   },
   "tunneltoforesttop1": {
     "items": [
@@ -69,7 +69,7 @@
     ],
     "id": 120016,
     "loc": "11517.5283, 20291.7578",
-    "region": "the_watching_woods"
+    "region": "village_cave"
   },
   "tunneltoforestbottom1": {
     "items": [
@@ -77,7 +77,7 @@
     ],
     "id": 120018,
     "loc": "12203.6895, 21510.8828",
-    "region": "the_watching_woods"
+    "region": "village_cave"
   },
   "castlebridgedropf": {
     "items": [
@@ -85,7 +85,7 @@
     ],
     "id": 120020,
     "loc": "42214.582, 7546.29443",
-    "region": "castle_of_storms"
+    "region": "castlebridgedropf"
   },
   "forttoundervillagegate": {
     "items": [
@@ -117,7 +117,7 @@
     ],
     "id": 120028,
     "loc": "62673.7539, 11689.8037",
-    "region": "the_ruined_temple"
+    "region": "dome_middle"
   },
   "skycastlegate": {
     "items": [
@@ -133,7 +133,7 @@
     ],
     "id": 120032,
     "loc": "31239.89, 29129.69",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern_vertigo"
   },
   "ruinstwinleft1": {
     "items": [
@@ -157,7 +157,7 @@
     ],
     "id": 120038,
     "loc": "59417.918, 12913.4893",
-    "region": "the_ruined_temple"
+    "region": "dome_middle"
   },
   "cavespigate": {
     "items": [
@@ -173,7 +173,7 @@
     ],
     "id": 120042,
     "loc": "79331.69, 11180.6074",
-    "region": "ziggurat_of_dust"
+    "region": "ziggurat_upper1"
   },
   "zigguratupgate": {
     "items": [
@@ -181,7 +181,7 @@
     ],
     "id": 120044,
     "loc": "78856.61, 10215.9189",
-    "region": "ziggurat_of_dust"
+    "region": "ziggurat_upper3"
   },
   "swampgate": {
     "items": [
@@ -189,7 +189,7 @@
     ],
     "id": 120046,
     "loc": "22075.668, 24066.2188",
-    "region": "the_watching_woods"
+    "region": "swampgate"
   },
   "dungeon2cave": {
     "items": [
@@ -205,7 +205,7 @@
     ],
     "id": 120050,
     "loc": "80458.64, 8183.6333",
-    "region": "ziggurat_of_dust"
+    "region": "ziggurat_apex"
   },
   "pyramid_plat_sf": {
     "items": [
@@ -213,7 +213,7 @@
     ],
     "id": 120052,
     "loc": "88043.375, 17613.2656",
-    "region": "ziggurat_of_dust"
+    "region": "pyramid_plat_sf"
   },
   "swampgate2": {
     "items": [
@@ -221,7 +221,7 @@
     ],
     "id": 120054,
     "loc": "24586.3711, 24264.668",
-    "region": "sunken_keep"
+    "region": "swampgate2"
   },
   "zigguratshortgate": {
     "items": [
@@ -229,7 +229,7 @@
     ],
     "id": 120056,
     "loc": "84840.71, 13809.0361",
-    "region": "ziggurat_of_dust"
+    "region": "ziggurat_east_upper"
   },
   "dungeontolab": {
     "items": [
@@ -237,7 +237,7 @@
     ],
     "id": 120058,
     "loc": "46508.7461, 26730.06",
-    "region": "red_hall_of_cages"
+    "region": "dungeontolab"
   },
   "dungeontoruins": {
     "items": [
@@ -269,7 +269,7 @@
     ],
     "id": 120066,
     "loc": "41864.6055, 26145.6777",
-    "region": "hagers_cavern"
+    "region": "cave2dungeonb"
   },
   "cavetombgate2": {
     "items": [
@@ -277,7 +277,7 @@
     ],
     "id": 120068,
     "loc": "27875.0469, 31886.2949",
-    "region": "hagers_cavern"
+    "region": "hagers_to_crypt"
   },
   "tombbackgate": {
     "items": [
@@ -317,7 +317,7 @@
     ],
     "id": 120078,
     "loc": "38545.0156, 6381.741",
-    "region": "castle_of_storms"
+    "region": "stormdualgate"
   },
   "bladebanditgate1": {
     "items": [
@@ -325,7 +325,7 @@
     ],
     "id": 120080,
     "loc": "22900.7656, 12559.708",
-    "region": "blade_bandit_upper"
+    "region": "blade_bandit"
   },
   "fortblackset1": {
     "items": [
@@ -349,7 +349,7 @@
     ],
     "id": 120086,
     "loc": "82688.78, 15673.1777",
-    "region": "ziggurat_of_dust"
+    "region": "zigropes1"
   },
   "zigropes2": {
     "items": [
@@ -357,7 +357,7 @@
     ],
     "id": 120088,
     "loc": "82785.76, 15272.7168",
-    "region": "ziggurat_of_dust"
+    "region": "zigropes2"
   },
   "ruincaveshort2": {
     "items": [
@@ -365,7 +365,7 @@
     ],
     "id": 120090,
     "loc": "56980.2227, 15597.5488",
-    "region": "dome_of_the_forgotten"
+    "region": "ruins_guide_armor"
   },
   "labtogold1": {
     "items": [
@@ -389,7 +389,7 @@
     ],
     "id": 120096,
     "loc": "45059.4961, 14200.5371",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages_hanged"
   },
   "dungeonmidshrtf": {
     "items": [
@@ -405,7 +405,7 @@
     ],
     "id": 120100,
     "loc": "23151.53, 16452.5273",
-    "region": "sunken_keep"
+    "region": "forestshrinegate"
   },
   "ruinblockfloor1": {
     "items": [

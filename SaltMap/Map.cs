@@ -168,6 +168,8 @@ namespace SaltMap
 			public List<string> checks = new List<string>();
 
 			public List<Connection> connections = new List<Connection>();
+
+			[JsonIgnore]
 			public bool updated;
 
 			[NonSerialized]
@@ -581,11 +583,16 @@ namespace SaltMap
 			}
 		}
 
+		// need to update this, currently only looks at what you have
+		// and not what is available
+		// should keep a list of blocked regions that were touched and
+		// keep looping through it until none of the regions can be entered
 		public void UpdateAvailable()
 		{
 			Region menu = regions["menu"];
 			updateStack.Push(menu);
 
+			// mark all non-collected checks as blocked to start
 			foreach (KeyValuePair<string, Check> kvp in locations)
 				if (kvp.Value.checkState != CheckState.Collected)
 					kvp.Value.checkState = CheckState.Blocked;
@@ -594,23 +601,30 @@ namespace SaltMap
 			{
 				Region current = updateStack.Peek();
 
+				// don't mark checks in this region again if
+				// we didn't enter any new regions last loop
 				if (!current.updated)
 				{
+					// mark every check in the region as available
 					foreach (string flag in current.checks)
 						if (locations[flag].checkState != CheckState.Collected)
 							locations[flag].checkState = CheckState.Available;
 
+					// don't mark checks for this region again
 					current.updated = true;
 				}
 
+				// move into enterable adjacent regions that have not been looked at already
 				foreach (Connection connection in current.connections)
 					if (!connection.Region.updated && connection.CanEnter(flags))
 						updateStack.Push(connection.Region);
 
+				// couldn't find any new regions to enter
 				if (updateStack.Peek() == current)
 					updateStack.Pop();
 			}
 
+			// reset for next time
 			foreach (KeyValuePair<string, Region> kvp in regions)
 				kvp.Value.updated = false;
 		}
@@ -715,9 +729,7 @@ namespace SaltMap
 
 		public void SetCameraPosition(Vector2 worldPos)
 		{
-			worldPos *= -itemScale;
-			worldPos += mapPosition;
-			worldPos *= ZoomScale;
+			worldPos *= (-itemScale * ZoomScale);
 			worldPos += new Vector2(ScreenWidth, ScreenHeight) * 0.5f;
 
 			camera.Translation = new Vector3(worldPos, 0.0f);
@@ -741,7 +753,7 @@ namespace SaltMap
 			{
 				CheckType.Chest => Color.LightBlue,
 				CheckType.Sack => Color.Cyan,
-				CheckType.Mimic => Color.Orchid,
+				CheckType.Mimic => Color.Green,
 				CheckType.Item => Color.PaleGreen,
 				CheckType.Sequence => Color.Violet,
 				CheckType.DisabledSequence => Color.Gray,
@@ -799,7 +811,7 @@ namespace SaltMap
 		public Vector2 GetMapPosition(Vector2 pos)
 		{
 			if (drawMode == DrawMode.Full)
-				pos = pos * 10.0f + mapPosition;
+				pos = pos / FULL_SCALE + mapPosition;
 			else
 			{
 				Matrix inv = Matrix.Invert(camera);

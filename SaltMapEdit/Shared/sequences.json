@@ -39,7 +39,7 @@
     "type": "Wood Door",
     "id": 90014,
     "loc": "25891.4141, 19656.9277",
-    "region": "sunken_keep"
+    "region": "treestocave"
   },
   "cavefortdoor": {
     "type": "Wood Door",
@@ -51,13 +51,13 @@
     "type": "None",
     "id": 90017,
     "loc": "32554.4414, 19787.541",
-    "region": "sunken_keep"
+    "region": "bluvillagesecret"
   },
   "dungeonsecpos": {
     "type": "None",
     "id": 90018,
     "loc": "35976.78, 16895.0566",
-    "region": "sunken_keep"
+    "region": "dungeonsecpos"
   },
   "ccaverollingrock": {
     "type": "Stone Door",
@@ -69,13 +69,13 @@
     "type": "Stone Door",
     "id": 90020,
     "loc": "3216.664, 16947.707",
-    "region": "village_of_smiles"
+    "region": "villagerollingrock"
   },
   "dungeonsec2": {
     "type": "None",
     "id": 90021,
     "loc": "47711.6875, 24360.3281",
-    "region": "red_hall_of_cages"
+    "region": "dungeonsec2"
   },
   "villageenter": {
     "type": "Wood Door",
@@ -99,13 +99,13 @@
     "type": "None",
     "id": 90026,
     "loc": "49550.1328, 16634.041",
-    "region": "red_hall_of_cages"
+    "region": "disabled"
   },
   "bodiespit2": {
     "type": "None",
     "id": 90027,
     "loc": "48864.75, 16444.4277",
-    "region": "red_hall_of_cages"
+    "region": "disabled"
   },
   "castlekeydoor": {
     "type": "Wood Door",
@@ -117,7 +117,7 @@
     "type": "Wood Door",
     "id": 90033,
     "loc": "31964.7422, 28545.36",
-    "region": "hagers_cavern"
+    "region": "cavespidoor"
   },
   "cavedungeondoor": {
     "type": "Wood Door",
@@ -153,7 +153,7 @@
     "type": "Wood Door",
     "id": 90060,
     "loc": "4138.54639, 19479.7676",
-    "region": "village_of_smiles_atk"
+    "region": "villageatkexit"
   },
   "bladebanditrock": {
     "type": "Stone Door",
@@ -171,13 +171,13 @@
     "type": "Wood Door",
     "id": 90064,
     "loc": "37746.3047, 18561.9277",
-    "region": "sunken_keep"
+    "region": "dungeonbotdoor"
   },
   "ruincaveshort1": {
     "type": "Wood Door",
     "id": 90069,
     "loc": "58367.043, 17245.39",
-    "region": "the_ruined_temple"
+    "region": "ruincaveshort1"
   },
   "forestkeygate": {
     "type": "Wood Door",

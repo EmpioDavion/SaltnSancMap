@@ -151,11 +151,16 @@ namespace SaltMapEdit
 
 		private void EditRegion()
 		{
-			int index = lbRegions.SelectedIndex;
-			Map.Region region = regionList[index];
-			string oldItem = region.key;
-			string newItem = tbEdit.Text;
-			Track(new RenameRegionAction(this, region, oldItem, newItem, index, false));
+			// don't create a duplicate name if an existing region name was entered
+			if (!map.regions.ContainsKey(tbEdit.Text))
+			{
+				int index = lbRegions.SelectedIndex;
+				Map.Region region = regionList[index];
+				string oldItem = region.key;
+				string newItem = tbEdit.Text;
+
+				Track(new RenameRegionAction(this, region, oldItem, newItem, index, false));
+			}
 		}
 
 		private void EditConnection()
@@ -261,10 +266,13 @@ namespace SaltMapEdit
 		{
 			lbItems.Items.Clear();
 
-			currentConnection.items.Sort();
+			if (currentConnection != null)
+			{
+				currentConnection.items.Sort();
 
-			foreach (string item in currentConnection.items)
-				lbItems.Items.Add(item);
+				foreach (string item in currentConnection.items)
+					lbItems.Items.Add(item);
+			}
 		}
 
 		internal void SortProgress()
@@ -438,10 +446,9 @@ namespace SaltMapEdit
 					map.GetLocation(checkName, out Map.Check check);
 					lbLocations.Items.Add(check);
 				}
-
-				if (lbLocations.Items.Count > 0)
-					FocusCheck((Map.Check)lbLocations.Items[0]);
 			}
+
+			map.Filter(currentRegion, null);
 		}
 
 		private void lbRegions_DoubleClick(object sender, EventArgs e)
@@ -591,7 +598,7 @@ namespace SaltMapEdit
 
 		private void lbLocations_Click(object sender, EventArgs e)
 		{
-			Map.Check check = (Map.Check)lbLocations.SelectedValue;
+			Map.Check check = (Map.Check)lbLocations.SelectedItem;
 
 			FocusCheck(check);
 		}
@@ -968,6 +975,11 @@ namespace SaltMapEdit
 		{
 			region.connections.Remove(connection);
 			form.SortConnections();
+
+			if (form.currentConnection == connection)
+				form.currentConnection = null;
+
+			form.SortItems();
 		}
 
 		public override void Redo()

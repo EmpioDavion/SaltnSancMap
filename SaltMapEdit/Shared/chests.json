@@ -42,7 +42,7 @@
     ],
     "id": 60318,
     "loc": "42419.16, 23083.6523",
-    "region": "red_hall_of_cages"
+    "region": "sunken_keep"
   },
   "hidden_passage_jester_boots_pkp": {
     "items": [
@@ -86,7 +86,7 @@
     ],
     "id": 60367,
     "loc": "31071.54, 27247.834",
-    "region": "hagers_cavern"
+    "region": "cave_mire_lower"
   },
   "hidden_cave_ring_itemfind_pkp": {
     "items": [
@@ -105,7 +105,7 @@
     ],
     "id": 60503,
     "loc": "16847.2383, 28262.4648",
-    "region": "mire_of_stench"
+    "region": "swamp_cleric"
   },
   "greenvillage_leather_set_pkp": {
     "items": [
@@ -137,7 +137,7 @@
     ],
     "id": 60523,
     "loc": "55888.3, 10251.2539",
-    "region": "dome_of_the_forgotten"
+    "region": "dome_west_upper"
   },
   "dome_patched_set_pkp": {
     "items": [
@@ -148,7 +148,7 @@
     ],
     "id": 60524,
     "loc": "41765.3633, 12529.3008",
-    "region": "red_hall_of_cages"
+    "region": "white_room"
   },
   "hidden_passage_7771_pkp": {
     "items": [
@@ -159,7 +159,7 @@
     ],
     "id": 60613,
     "loc": "7084.90869, 23118.4375",
-    "region": "fort_beyond_the_mire"
+    "region": "village_cave_vertigo"
   },
   "hidden_blades_23019_pkp": {
     "items": [
@@ -168,7 +168,7 @@
     ],
     "id": 60647,
     "loc": "23120.9, 12567.6943",
-    "region": "blade_bandit_upper"
+    "region": "blade_bandit"
   },
   "hidden_blades_24405_pkp": {
     "items": [
@@ -177,7 +177,7 @@
     ],
     "id": 60648,
     "loc": "24405.3574, 12951.917",
-    "region": "blade_bandit_upper"
+    "region": "blade_bandit"
   },
   "castle_golem_set_34559_pkp": {
     "items": [
@@ -199,7 +199,7 @@
     ],
     "id": 60705,
     "loc": "61077.625, 9902.208",
-    "region": "dome_of_the_forgotten"
+    "region": "dome_upper"
   },
   "alchemist_set_25603_pkp": {
     "items": [
@@ -209,7 +209,7 @@
     ],
     "id": 60731,
     "loc": "25080.6016, 24536.1816",
-    "region": "sunken_keep"
+    "region": "alchemist_set_25603_pkp"
   },
   "stag_armor_84279_pkp": {
     "items": [
@@ -221,7 +221,7 @@
     ],
     "id": 60809,
     "loc": "84279.39, 11860.9307",
-    "region": "ziggurat_of_dust"
+    "region": "ziggurat_stag"
   },
   "castle_ninja_38321_pkp": {
     "items": [
@@ -242,7 +242,7 @@
     ],
     "id": 60896,
     "loc": "5646.04736, 27853.62",
-    "region": "fort_beyond_the_mire"
+    "region": "fort_beyond_the_mire_upper"
   },
   "lab_saltknight_50361_pkp": {
     "items": [
@@ -272,7 +272,7 @@
     ],
     "id": 60958,
     "loc": "67709.4844, 14829.8965",
-    "region": "the_ruined_temple"
+    "region": "the_far_beach_east"
   },
   "chest_dapper_76601_pkp": {
     "items": [
@@ -291,7 +291,7 @@
     ],
     "id": 61028,
     "loc": "62127.4922, 20116.7852",
-    "region": "the_ruined_temple"
+    "region": "the_ruined_temple_middle"
   },
   "lake_blue_nova_58614_pkp": {
     "items": [
@@ -349,7 +349,7 @@
     ],
     "id": 61093,
     "loc": "53883.06, 14003.9277",
-    "region": "dome_of_the_forgotten"
+    "region": "dome_west_lower"
   },
   "tater_80183_pkp": {
     "items": [
@@ -371,7 +371,7 @@
     ],
     "id": 61161,
     "loc": "62526.0625, 12601.06",
-    "region": "the_ruined_temple"
+    "region": "dome_middle"
   },
   "village_chef_set_3635_pkp": {
     "items": [
@@ -382,7 +382,7 @@
     ],
     "id": 61191,
     "loc": "3635.32324, 19216.9648",
-    "region": "village_of_smiles"
+    "region": "village_cave"
   },
   "castle_samurai_48868_pkp": {
     "items": [
