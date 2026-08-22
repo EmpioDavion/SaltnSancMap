@@ -66,7 +66,7 @@
     ],
     "id": 40373,
     "loc": "5133.833, 4273.77",
-    "region": "ship"
+    "region": "leviathon"
   },
   "gasbag": {
     "items": [
@@ -82,7 +82,7 @@
     ],
     "id": 40486,
     "loc": "56019.2969, 23061.5332",
-    "region": "crans_pass"
+    "region": "broken"
   },
   "griffin": {
     "items": [
@@ -98,7 +98,7 @@
     ],
     "id": 40594,
     "loc": "55811.5625, 30732.5664",
-    "region": "siam_lake"
+    "region": "lakewitch"
   },
   "fauxjester": {
     "items": [
@@ -114,7 +114,7 @@
     ],
     "id": 40688,
     "loc": "79848.26, 9045.742",
-    "region": "zigguratcorridor"
+    "region": "mummy"
   },
   "clay": {
     "items": [
@@ -122,7 +122,7 @@
     ],
     "id": 40700,
     "loc": "79093.98, 17606.04",
-    "region": "zigguratcorridor"
+    "region": "clay"
   },
   "inquisitor": {
     "items": [
@@ -130,7 +130,7 @@
     ],
     "id": 40732,
     "loc": "60699.5977, 13237.1963",
-    "region": "the_ruined_temple"
+    "region": "inquisitor"
   },
   "monster": {
     "items": [
@@ -138,7 +138,7 @@
     ],
     "id": 40789,
     "loc": "48561.28, 35031.3633",
-    "region": "the_still_palace"
+    "region": "monster"
   },
   "monsterwitch": {
     "items": [
@@ -146,7 +146,7 @@
     ],
     "id": 40790,
     "loc": "48368.16, 34674.63",
-    "region": "the_still_palace"
+    "region": "monsterwitch"
   },
   "ruinaxe": {
     "items": [
@@ -154,19 +154,19 @@
     ],
     "id": 40869,
     "loc": "62728.3633, 25636.96",
-    "region": "the_ruined_temple"
+    "region": "ruinaxe"
   },
   "ruinaxeghost1": {
     "items": [],
     "id": 40870,
     "loc": "62340.03, 25371.5879",
-    "region": "siam_lake"
+    "region": "ruinaxeghost1"
   },
   "ruinaxeghost2": {
     "items": [],
     "id": 40871,
     "loc": "63103.7852, 25371.5879",
-    "region": "the_ruined_temple"
+    "region": "ruinaxeghost2"
   },
   "squiddragon": {
     "items": [
@@ -174,7 +174,7 @@
     ],
     "id": 40937,
     "loc": "46111.42, 37679.4023",
-    "region": "crypt_of_dead_gods"
+    "region": "squiddragon"
   },
   "nameless": {
     "items": [
@@ -182,7 +182,7 @@
     ],
     "id": 40957,
     "loc": "62566.0938, 46780.81",
-    "region": "the_still_palace"
+    "region": "nameless"
   },
   "cloak": {
     "items": [
@@ -190,7 +190,7 @@
     ],
     "id": 40978,
     "loc": "94554.58, 30010.3848",
-    "region": "pitchwoods"
+    "region": "cloak"
   },
   "deadking": {
     "items": [
@@ -198,7 +198,7 @@
     ],
     "id": 41048,
     "loc": "32648.3418, 41882.8867",
-    "region": "crypt_of_dead_gods_bottom"
+    "region": "deadking"
   },
   "deadknight": {
     "items": [
@@ -206,7 +206,7 @@
     ],
     "id": 41049,
     "loc": "32411.7168, 41861.6133",
-    "region": "crypt_of_dead_gods_bottom"
+    "region": "deadknight"
   },
   "deadjudge": {
     "items": [
@@ -214,7 +214,7 @@
     ],
     "id": 41050,
     "loc": "32885.19, 41845.9961",
-    "region": "crypt_of_dead_gods_bottom"
+    "region": "deadjudge"
   },
   "murderfly": {
     "items": [
@@ -222,6 +222,6 @@
     ],
     "id": 41245,
     "loc": "49243.0156, 1219.70471",
-    "region": "mals_floating_castle"
+    "region": "murderfly"
   }
 }

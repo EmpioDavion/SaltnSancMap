@@ -283,6 +283,7 @@ namespace SaltMap
 		private readonly List<CheckGroup> checkGroups = new List<CheckGroup>();
 
 		private Region regionFilter = null;
+		private Connection connectionFilter = null;
 		private Check checkFilter = null;
 
 		private Rune runes;
@@ -337,6 +338,16 @@ namespace SaltMap
 			pixel = new Texture2D(graphicsDevice, 1, 1);
 			pixel.SetData(new Color[] { Color.White });
 
+			regions = LoadJson<Dictionary<string, Region>>($"{subfolder}/regions.json");
+
+			foreach (KeyValuePair<string, Region> kvp in regions)
+			{
+				kvp.Value.key = kvp.Key;
+
+				foreach (Connection connection in kvp.Value.connections)
+					connection._region = regions[connection.region];
+			}
+
 			chests = LoadJson<Dictionary<string, CSM>>($"{subfolder}/chests.json");
 			sacks = LoadJson<Dictionary<string, CSM>>($"{subfolder}/sacks.json");
 			mimics = LoadJson<Dictionary<string, CSM>>($"{subfolder}/mimics.json");
@@ -369,16 +380,6 @@ namespace SaltMap
 				CreateDialogues();
 			else
 				dialogues = LoadJson<Dictionary<string, Dialogue>>($"{subfolder}/dialogues.json");
-
-			regions = LoadJson<Dictionary<string, Region>>($"{subfolder}/regions.json");
-
-			foreach (KeyValuePair<string, Region> kvp in regions)
-			{
-				kvp.Value.key = kvp.Key;
-
-				foreach (Connection connection in kvp.Value.connections)
-					connection._region = regions[connection.region];
-			}
 
 			locations.Clear();
 
@@ -466,11 +467,16 @@ namespace SaltMap
 					// some npcs may have the same initial greeting
 					if (!dialogues.ContainsKey(dialogueName))
 					{
+						string region = npc.region;
+
+						if (regions.ContainsKey(key))
+							region = key;
+
 						dialogues.Add(dialogueName, new Dialogue()
 						{
 							id = node.id,
 							loc = npc.loc,
-							region = npc.region,
+							region = region,
 							key = dialogueName,
 							NPC = npc
 						});
@@ -721,9 +727,10 @@ namespace SaltMap
 			segmentData.loading = false;
 		}
 
-		public void Filter(Region region, Check check)
+		public void Filter(Region region, Connection connection, Check check)
 		{
 			regionFilter = region;
+			connectionFilter = connection;
 			checkFilter = check;
 		}
 
@@ -784,6 +791,14 @@ namespace SaltMap
 				}
 				else
 					colors.Add(Color.IndianRed);
+
+				if (connectionFilter != null)
+				{
+					hasCheck = checkGroup.checks.Any((check) => check.Region == connectionFilter.Region);
+
+					if (hasCheck)
+						colors.Add(Color.LightBlue);
+				}
 			}
 			else
 			{
@@ -1059,6 +1074,14 @@ namespace SaltMap
 				}
 				else
 					groupColors.Add(Color.IndianRed);
+
+				if (connectionFilter != null)
+				{
+					hasCheck = checkGroup.checks.Any((check) => check.Region == connectionFilter.Region);
+
+					if (hasCheck)
+						groupColors.Add(Color.LightBlue);
+				}
 			}
 			else
 				GetCheckGroupColors(checkGroup, groupColors);

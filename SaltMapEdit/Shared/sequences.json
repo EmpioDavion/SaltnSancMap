@@ -87,13 +87,13 @@
     "type": "Wood Door",
     "id": 90023,
     "loc": "47838.1875, 4001.26953",
-    "region": "mals_floating_castle"
+    "region": "skycastleleftdoor"
   },
   "skycastlerightdoor": {
     "type": "Wood Door",
     "id": 90024,
     "loc": "50138.8672, 4531.26953",
-    "region": "mals_floating_castle"
+    "region": "skycastlerightdoor"
   },
   "bodiespit1": {
     "type": "None",
@@ -123,7 +123,7 @@
     "type": "Wood Door",
     "id": 90035,
     "loc": "40032.89, 30572.4648",
-    "region": "red_hall_of_cages"
+    "region": "cavedungeondoor"
   },
   "cavemagestatue": {
     "type": "Stone Door",
@@ -135,19 +135,19 @@
     "type": "Ladder",
     "id": 90047,
     "loc": "51005.93, 27987.2266",
-    "region": "siam_lake"
+    "region": "labladder"
   },
   "labsecretlake": {
     "type": "Stone Door",
     "id": 90052,
     "loc": "51674.68, 26447.7813",
-    "region": "crans_pass"
+    "region": "labsecretlake"
   },
   "darkruinsdoor": {
     "type": "Wood Door",
     "id": 90059,
     "loc": "73765.42, 38804.2578",
-    "region": "the_blackest_vault"
+    "region": "darkruinsdoor"
   },
   "villageatkexit": {
     "type": "Wood Door",
@@ -165,7 +165,7 @@
     "type": "Wood Door",
     "id": 90063,
     "loc": "36708.3438, 15591.8945",
-    "region": "red_hall_of_cages"
+    "region": "dungeontopdoor"
   },
   "dungeonbotdoor": {
     "type": "Wood Door",
@@ -189,12 +189,12 @@
     "type": "Ladder",
     "id": 90077,
     "loc": "51519.9453, 2157.49561",
-    "region": "mals_floating_castle"
+    "region": "skyladdershrt"
   },
   "skysideshrt": {
     "type": "Stone Door",
     "id": 90078,
     "loc": "50852.2969, 2191.3623",
-    "region": "mals_floating_castle"
+    "region": "skysideshrt"
   }
 }

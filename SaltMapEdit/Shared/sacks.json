@@ -297,7 +297,7 @@
     ],
     "id": 70287,
     "loc": "38315.7422, 3510.10669",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms_despondent"
   },
   "forest_charm_speed": {
     "items": [
@@ -378,7 +378,7 @@
     ],
     "id": 70308,
     "loc": "52535.89, 18610.6738",
-    "region": "red_hall_of_cages"
+    "region": "dungeontoruins_switch"
   },
   "dungeon_charm_mp_leech": {
     "items": [
@@ -602,7 +602,7 @@
     ],
     "id": 70476,
     "loc": "33948.6563, 31085.62",
-    "region": "crypt_of_dead_gods"
+    "region": "hagers_cavern"
   },
   "village_white_spark_8031": {
     "items": [
@@ -659,7 +659,7 @@
     ],
     "id": 70504,
     "loc": "38194.1328, 31786.873",
-    "region": "crypt_of_dead_gods"
+    "region": "hagers_cellar_key_cave"
   },
   "dungeon_waterpot_43939": {
     "items": [
@@ -815,7 +815,7 @@
     ],
     "id": 70567,
     "loc": "37755.1172, 32238.998",
-    "region": "crypt_of_dead_gods"
+    "region": "hagers_cellar_key_cave"
   },
   "fortress_black_pearl": {
     "items": [
@@ -1053,7 +1053,7 @@
     ],
     "id": 70709,
     "loc": "61709.0977, 21564.19",
-    "region": "the_ruined_temple"
+    "region": "the_ruined_temple_crans_pass"
   },
   "statue_guide_82894": {
     "items": [
@@ -1109,7 +1109,7 @@
     ],
     "id": 70716,
     "loc": "38965.4375, 30633.4375",
-    "region": "red_hall_of_cages"
+    "region": "hagers_cavern"
   },
   "bluecave_statue_mage_34244": {
     "items": [
@@ -1229,7 +1229,7 @@
     ],
     "id": 70750,
     "loc": "61855.6836, 10896.9121",
-    "region": "the_ruined_temple"
+    "region": "dome_ring_magic_61610"
   },
   "dungeon_ring_spirit_44551": {
     "items": [
@@ -1253,7 +1253,7 @@
     ],
     "id": 70753,
     "loc": "40379.71, 29641.1563",
-    "region": "red_hall_of_cages"
+    "region": "minty_approach"
   },
   "dungeon_shield_tower": {
     "items": [
@@ -1277,7 +1277,7 @@
     ],
     "id": 70760,
     "loc": "71482.2, 24249.68",
-    "region": "pitchwoods"
+    "region": "ruins_lower_east"
   },
   "ruins_spear_pilum": {
     "items": [
@@ -1286,7 +1286,7 @@
     ],
     "id": 70762,
     "loc": "60072.625, 19983.6758",
-    "region": "the_ruined_temple"
+    "region": "ruins_spear_pilum"
   },
   "pyramid_statue_mage": {
     "items": [
@@ -1326,7 +1326,7 @@
     ],
     "id": 70769,
     "loc": "67639.4844, 19918.793",
-    "region": "the_ruined_temple"
+    "region": "ruins_ring_damage"
   },
   "red_spark_82798": {
     "items": [
@@ -1342,7 +1342,7 @@
     ],
     "id": 70811,
     "loc": "51360.1523, 26602.8242",
-    "region": "salt_alkymancery_upper"
+    "region": "salt_alkymancery_top_east"
   },
   "lab_axe_blue_50052": {
     "items": [
@@ -1350,7 +1350,7 @@
     ],
     "id": 70812,
     "loc": "51528.3477, 28198.3262",
-    "region": "siam_lake"
+    "region": "lab_axe_blue_50052"
   },
   "lab_statue_guide_51459": {
     "items": [
@@ -1358,7 +1358,7 @@
     ],
     "id": 70813,
     "loc": "50057.207, 27603.9258",
-    "region": "salt_alkymancery_upper"
+    "region": "lab_statue_guide_51459"
   },
   "forest_buckler_19508": {
     "items": [
@@ -1375,7 +1375,7 @@
     ],
     "id": 70872,
     "loc": "67994.13, 30741.74",
-    "region": "pitchwoods"
+    "region": "siam_lake_east"
   },
   "lake_ring_cheap_wis_65846": {
     "items": [
@@ -1383,7 +1383,7 @@
     ],
     "id": 70873,
     "loc": "65846.33, 30757.3535",
-    "region": "pitchwoods"
+    "region": "lake_to_lab"
   },
   "forest_axe_18935": {
     "items": [
@@ -1431,7 +1431,7 @@
     ],
     "id": 70900,
     "loc": "49747.0977, 33708.957",
-    "region": "the_still_palace"
+    "region": "salt_alkymancery_east_lower"
   },
   "forest_salt_13409": {
     "items": [
@@ -1448,7 +1448,7 @@
     ],
     "id": 70916,
     "loc": "52176.582, 4628.31348",
-    "region": "mals_floating_castle"
+    "region": "mals_sanctuary"
   },
   "tomb_salt_42096": {
     "items": [
@@ -1456,7 +1456,7 @@
     ],
     "id": 70917,
     "loc": "42096.1055, 33486.54",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_salt_42096"
   },
   "dungeon_lit_ghost": {
     "items": [
@@ -1464,7 +1464,7 @@
     ],
     "id": 70918,
     "loc": "52726.7852, 26617.83",
-    "region": "crans_pass"
+    "region": "lab_to_crans_pass"
   },
   "lake_ring_light_58739": {
     "items": [
@@ -1504,7 +1504,7 @@
     ],
     "id": 70933,
     "loc": "42563.707, 31399.32",
-    "region": "crypt_of_dead_gods"
+    "region": "lab_ring_slash_42721"
   },
   "ruins_charm_holy_65973": {
     "items": [
@@ -1512,7 +1512,7 @@
     ],
     "id": 70934,
     "loc": "65973.32, 28011.07",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_west"
   },
   "dome_war_scythe_61610": {
     "items": [
@@ -1528,7 +1528,7 @@
     ],
     "id": 70963,
     "loc": "87639.2344, 24274.2832",
-    "region": "pitchwoods"
+    "region": "pitchwoods_sanctuary"
   },
   "whiteblaze_81684": {
     "items": [
@@ -1536,7 +1536,7 @@
     ],
     "id": 70975,
     "loc": "81684.44, 29758.16",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_middle"
   },
   "ruins_blaze_63821": {
     "items": [
@@ -1544,7 +1544,7 @@
     ],
     "id": 70976,
     "loc": "64403.76, 24559.3535",
-    "region": "the_ruined_temple"
+    "region": "ruins_lower_east"
   },
   "lab_white_blaze_52768": {
     "items": [
@@ -1552,7 +1552,7 @@
     ],
     "id": 70977,
     "loc": "49524.625, 26492.1211",
-    "region": "salt_alkymancery_upper"
+    "region": "salt_alkymancery_top_west"
   },
   "wood_salt_97049": {
     "items": [
@@ -1560,7 +1560,7 @@
     ],
     "id": 70979,
     "loc": "97049.78, 29522.73",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_east"
   },
   "shield_bug_98672": {
     "items": [
@@ -1568,7 +1568,7 @@
     ],
     "id": 70980,
     "loc": "98672.06, 30357.5469",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_east"
   },
   "ruins_blaze_58795": {
     "items": [
@@ -1576,7 +1576,7 @@
     ],
     "id": 70981,
     "loc": "60764.3867, 25421.82",
-    "region": "siam_lake"
+    "region": "ruins_bottom"
   },
   "sack_horn_59932": {
     "items": [
@@ -1584,7 +1584,7 @@
     ],
     "id": 70982,
     "loc": "59932.81, 39412.79",
-    "region": "the_still_palace"
+    "region": "the_still_palace_shrine"
   },
   "castle_white_flame_35400": {
     "items": [
@@ -1633,7 +1633,7 @@
     ],
     "id": 70989,
     "loc": "78734.16, 40072.99",
-    "region": "the_blackest_vault"
+    "region": "the_blackest_vault_east"
   },
   "dark_drowning_72431": {
     "items": [
@@ -1641,7 +1641,7 @@
     ],
     "id": 70990,
     "loc": "72431.2656, 38632.207",
-    "region": "the_blackest_vault"
+    "region": "the_blackest_vault_west"
   },
   "vision_potion_57948": {
     "items": [
@@ -1682,7 +1682,7 @@
     ],
     "id": 71021,
     "loc": "39444.5, 33941.082",
-    "region": "crypt_of_dead_gods"
+    "region": "crypt_upper"
   },
   "tomb_drowning_34471": {
     "items": [
@@ -1690,7 +1690,7 @@
     ],
     "id": 71022,
     "loc": "34471.57, 33496.5078",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_drowning_34471"
   },
   "tomb_leader_33954": {
     "items": [
@@ -1706,7 +1706,7 @@
     ],
     "id": 71024,
     "loc": "32326.7813, 38445.52",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_sellsword_32326"
   },
   "tomb_merchant_41183": {
     "items": [
@@ -1714,7 +1714,7 @@
     ],
     "id": 71025,
     "loc": "41183.24, 37616.68",
-    "region": "crypt_of_dead_gods"
+    "region": "crypt_shrine"
   },
   "tomb_red_43297": {
     "items": [
@@ -1722,7 +1722,7 @@
     ],
     "id": 71026,
     "loc": "43297.03, 35854.04",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_red_43297"
   },
   "tomb_blaze_36102": {
     "items": [
@@ -1730,7 +1730,7 @@
     ],
     "id": 71027,
     "loc": "36102.64, 36947.76",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_blaze_36102"
   },
   "lake_drowning_spark_63525": {
     "items": [
@@ -1738,7 +1738,7 @@
     ],
     "id": 71039,
     "loc": "63525.4063, 33087.75",
-    "region": "siam_lake"
+    "region": "lake_to_lab"
   },
   "drowning_blaze_99197": {
     "items": [
@@ -1746,7 +1746,7 @@
     ],
     "id": 71040,
     "loc": "99197.99, 30391.4473",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_east"
   },
   "blue_blaze_89507": {
     "items": [
@@ -1754,7 +1754,7 @@
     ],
     "id": 71041,
     "loc": "89507.83, 26058.5977",
-    "region": "pitchwoods"
+    "region": "blue_blaze_89507"
   },
   "lab_statue_flame_53285": {
     "items": [
@@ -1762,7 +1762,7 @@
     ],
     "id": 71042,
     "loc": "53285.4844, 34129.6875",
-    "region": "siam_lake"
+    "region": "salt_alkymancery_east_lower"
   },
   "tomb_blueflame_32358": {
     "items": [
@@ -1770,7 +1770,7 @@
     ],
     "id": 71043,
     "loc": "32358.0547, 36826.38",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_blueflame_32358"
   },
   "ruins_redblaze_62072": {
     "items": [
@@ -1778,7 +1778,7 @@
     ],
     "id": 71044,
     "loc": "62072.06, 28242.0527",
-    "region": "the_ruined_temple"
+    "region": "ruins_redblaze_62072"
   },
   "salt10_59096": {
     "items": [
@@ -1786,7 +1786,7 @@
     ],
     "id": 71045,
     "loc": "59096.9375, 41802.1172",
-    "region": "the_still_palace"
+    "region": "salt10_59096"
   },
   "tomb_horn_33424": {
     "items": [
@@ -1794,7 +1794,7 @@
     ],
     "id": 71051,
     "loc": "33424.26, 35670.875",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_horn_33424"
   },
   "cave_horn_40269": {
     "items": [
@@ -1802,7 +1802,7 @@
     ],
     "id": 71052,
     "loc": "40269.55, 30671.51",
-    "region": "red_hall_of_cages"
+    "region": "minty_approach"
   },
   "dungeon_blueflame_41789": {
     "items": [
@@ -1898,7 +1898,7 @@
     ],
     "id": 71079,
     "loc": "63397.9961, 21090.9336",
-    "region": "the_ruined_temple"
+    "region": "ruinblockfloor1"
   },
   "amberblaze_65995": {
     "items": [
@@ -1906,7 +1906,7 @@
     ],
     "id": 71080,
     "loc": "65995.22, 30360.4141",
-    "region": "pitchwoods"
+    "region": "siam_lake_east"
   },
   "amberblaze_44050": {
     "items": [
@@ -1914,7 +1914,7 @@
     ],
     "id": 71081,
     "loc": "44050.4922, 32092.1855",
-    "region": "crypt_of_dead_gods"
+    "region": "salt_alkymancery_west_lower"
   },
   "amberflame_36690": {
     "items": [
@@ -1922,7 +1922,7 @@
     ],
     "id": 71083,
     "loc": "36690.16, 30972.4141",
-    "region": "crypt_of_dead_gods"
+    "region": "amberflame_36690"
   },
   "ambernova_37920": {
     "items": [
@@ -1930,7 +1930,7 @@
     ],
     "id": 71084,
     "loc": "37920.09, 41450.9375",
-    "region": "crypt_of_dead_gods_bottom"
+    "region": "ambernova_37920"
   },
   "ambernova_26747": {
     "items": [
@@ -1938,7 +1938,7 @@
     ],
     "id": 71086,
     "loc": "26747.1914, 41208.21",
-    "region": "hagers_cavern"
+    "region": "ambernova_26747"
   },
   "amberblaze_35703": {
     "items": [
@@ -1946,7 +1946,7 @@
     ],
     "id": 71087,
     "loc": "35703.35, 35507.4922",
-    "region": "crypt_of_dead_gods"
+    "region": "amberblaze_35703"
   },
   "amberspark_32400": {
     "items": [
@@ -2002,7 +2002,7 @@
     ],
     "id": 71138,
     "loc": "96931.13, 18857.1367",
-    "region": "pitchwoods"
+    "region": "pitchwoods_upper6"
   },
   "purpledress": {
     "items": [
@@ -2020,7 +2020,7 @@
     ],
     "id": 71142,
     "loc": "84383.51, 22015.7949",
-    "region": "pitchwoods"
+    "region": "pitchwoods_upper4"
   },
   "crossbow_27928": {
     "items": [
@@ -2045,7 +2045,7 @@
     ],
     "id": 71164,
     "loc": "83579.6, 13979.1377",
-    "region": "zigguratcorridor"
+    "region": "salt3_83579"
   },
   "salt9_90297": {
     "items": [
@@ -2053,7 +2053,7 @@
     ],
     "id": 71165,
     "loc": "90297.45, 20455",
-    "region": "pitchwoods"
+    "region": "pitchwoods_upper5"
   },
   "salt7_76309": {
     "items": [
@@ -2061,7 +2061,7 @@
     ],
     "id": 71166,
     "loc": "76309.1953, 28401.4121",
-    "region": "pitchwoods"
+    "region": "salt7_76309"
   },
   "salt9_38479": {
     "items": [
@@ -2069,7 +2069,7 @@
     ],
     "id": 71167,
     "loc": "38478.0938, 34462.25",
-    "region": "crypt_of_dead_gods"
+    "region": "crypt_upper"
   },
   "salt4_37688": {
     "items": [
@@ -2093,7 +2093,7 @@
     ],
     "id": 71170,
     "loc": "73762.875, 26134.4",
-    "region": "pitchwoods"
+    "region": "pitchwoods_upper1"
   },
   "lit_def_65127": {
     "items": [
@@ -2240,7 +2240,7 @@
     ],
     "id": 71205,
     "loc": "77413.52, 24246.459",
-    "region": "pitchwoods"
+    "region": "pitchwoods_upper2"
   },
   "woods_gray_pearl_70430": {
     "items": [
@@ -2248,7 +2248,7 @@
     ],
     "id": 71206,
     "loc": "70430.22, 30895.623",
-    "region": "pitchwoods"
+    "region": "the_blackest_vault_entrance_west"
   },
   "dng_gray_pearl_46576": {
     "items": [
@@ -2256,7 +2256,7 @@
     ],
     "id": 71207,
     "loc": "46576.26, 26734.2754",
-    "region": "dungeontolab"
+    "region": "salt_alkymancery_top_west"
   },
   "dm_crystal_sphere_59492": {
     "items": [
@@ -2288,7 +2288,7 @@
     ],
     "id": 71211,
     "loc": "39557.35, 37004.34",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_crys_sphere_39557"
   },
   "forest_flame_17206": {
     "items": [
@@ -2312,7 +2312,7 @@
     ],
     "id": 71255,
     "loc": "49983.0039, 7157.06152",
-    "region": "mals_floating_castle"
+    "region": "mals_bottom"
   },
   "vert_poleaxe_48693": {
     "items": [
@@ -2320,7 +2320,7 @@
     ],
     "id": 71256,
     "loc": "48693.5352, 7596.493",
-    "region": "mals_floating_castle"
+    "region": "mals_bottom"
   },
   "castle_gpearl_50257": {
     "items": [
@@ -2328,7 +2328,7 @@
     ],
     "id": 71257,
     "loc": "50257.89, 2448.48242",
-    "region": "mals_floating_castle"
+    "region": "castle_gpearl_50257"
   },
   "graypearl_43563": {
     "items": [
@@ -2336,7 +2336,7 @@
     ],
     "id": 71259,
     "loc": "43549.17, 29897.332",
-    "region": "salt_alkymancery"
+    "region": "minty_approach"
   },
   "crystalsphere_28712": {
     "items": [
@@ -2360,7 +2360,7 @@
     ],
     "id": 71268,
     "loc": "79116.53, 31065.7676",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_middle"
   },
   "graypearl_90392": {
     "items": [
@@ -2368,7 +2368,7 @@
     ],
     "id": 71269,
     "loc": "90392.24, 21013.2188",
-    "region": "pitchwoods"
+    "region": "graypearl_90392"
   },
   "graypearl_33819": {
     "items": [
@@ -2498,7 +2498,7 @@
     ],
     "id": 71290,
     "loc": "37303.1875, 40190.61",
-    "region": "crypt_of_dead_gods"
+    "region": "beast_nova_37303"
   },
   "redspark_secret": {
     "items": [

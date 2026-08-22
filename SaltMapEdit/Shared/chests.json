@@ -126,7 +126,7 @@
     ],
     "id": 60522,
     "loc": "57979.4844, 24526.4883",
-    "region": "crans_pass"
+    "region": "choppy_2_room"
   },
   "dome_fat_set_pkp": {
     "items": [
@@ -251,7 +251,7 @@
     ],
     "id": 60902,
     "loc": "55749.02, 34686.58",
-    "region": "salt_alkymancery"
+    "region": "lake_to_lab"
   },
   "fortress_dreadset_14620_pkp": {
     "items": [
@@ -283,7 +283,7 @@
     ],
     "id": 60974,
     "loc": "76601.84, 28688.32",
-    "region": "pitchwoods"
+    "region": "chest_dapper_76601_pkp"
   },
   "ruins_white_nova_62127_pkp": {
     "items": [
@@ -291,7 +291,7 @@
     ],
     "id": 61028,
     "loc": "62127.4922, 20116.7852",
-    "region": "the_ruined_temple_middle"
+    "region": "ruinstwinleft1"
   },
   "lake_blue_nova_58614_pkp": {
     "items": [
@@ -299,7 +299,7 @@
     ],
     "id": 61029,
     "loc": "58830.8633, 33905.5977",
-    "region": "salt_alkymancery"
+    "region": "lake_blue_nova_58614_pkp"
   },
   "tomb_white_blaze_43101_pkp": {
     "items": [
@@ -307,7 +307,7 @@
     ],
     "id": 61034,
     "loc": "43128.9531, 37007.89",
-    "region": "crypt_of_dead_gods"
+    "region": "tomb_white_blaze_43101_pkp"
   },
   "red_nova_89055_pkp": {
     "items": [
@@ -315,7 +315,7 @@
     ],
     "id": 61035,
     "loc": "89055.8047, 23796.9648",
-    "region": "pitchwoods"
+    "region": "red_nova_89055_pkp"
   },
   "white_nova_54936_pkp": {
     "items": [
@@ -323,7 +323,7 @@
     ],
     "id": 61036,
     "loc": "54936.4961, 40229.17",
-    "region": "the_still_palace"
+    "region": "white_nova_54936"
   },
   "beast_nova_57914_pkp": {
     "items": [
@@ -331,7 +331,7 @@
     ],
     "id": 61037,
     "loc": "57914.6875, 22044.959",
-    "region": "crans_pass"
+    "region": "the_ruined_temple_crans_pass"
   },
   "drowning_nova_70536_pkp": {
     "items": [
@@ -339,7 +339,7 @@
     ],
     "id": 61038,
     "loc": "70536.61, 38644.81",
-    "region": "the_blackest_vault"
+    "region": "drowning_nova_70536_pkp"
   },
   "chest_monk_67709_pkp": {
     "items": [
@@ -349,7 +349,7 @@
     ],
     "id": 61093,
     "loc": "53883.06, 14003.9277",
-    "region": "dome_west_lower"
+    "region": "below_mals_floating_castle"
   },
   "tater_80183_pkp": {
     "items": [
@@ -360,7 +360,7 @@
     ],
     "id": 61157,
     "loc": "80183.26, 22482.373",
-    "region": "pitchwoods"
+    "region": "pitchwoods_upper3"
   },
   "dome_gold_archer_62526_pkp": {
     "items": [
@@ -393,7 +393,7 @@
     ],
     "id": 61215,
     "loc": "48734.7266, 2340.60938",
-    "region": "mals_floating_castle"
+    "region": "mals_west_upper"
   },
   "forest_redmage_13008_pkp": {
     "items": [
@@ -412,7 +412,7 @@
     ],
     "id": 61258,
     "loc": "51796.2, 1975.99158",
-    "region": "mals_floating_castle"
+    "region": "castle_csphere_51796_pkp"
   },
   "castle_mal_reward_pkp": {
     "items": [
@@ -421,6 +421,6 @@
     ],
     "id": 61277,
     "loc": "48324, 1519.833",
-    "region": "mals_floating_castle"
+    "region": "castle_mal_reward_pkp"
   }
 }

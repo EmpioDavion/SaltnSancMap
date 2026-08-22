@@ -125,7 +125,7 @@
     ],
     "id": 120030,
     "loc": "49795.46, 3265.76587",
-    "region": "mals_floating_castle"
+    "region": "mals_middle"
   },
   "cavebossdoor": {
     "items": [
@@ -141,7 +141,7 @@
     ],
     "id": 120034,
     "loc": "62367.37, 20361.83",
-    "region": "the_ruined_temple"
+    "region": "ruinstwinleft1"
   },
   "ruinstwinright1": {
     "items": [
@@ -149,7 +149,7 @@
     ],
     "id": 120036,
     "loc": "62893.0273, 20060.4375",
-    "region": "the_ruined_temple"
+    "region": "ruinstwinright1"
   },
   "domegates": {
     "items": [
@@ -165,7 +165,7 @@
     ],
     "id": 120040,
     "loc": "37674.4453, 32239.5215",
-    "region": "crypt_of_dead_gods"
+    "region": "hagers_cellar_key_cave"
   },
   "zigguratgates": {
     "items": [
@@ -237,7 +237,7 @@
     ],
     "id": 120058,
     "loc": "46508.7461, 26730.06",
-    "region": "dungeontolab"
+    "region": "salt_alkymancery_top_west"
   },
   "dungeontoruins": {
     "items": [
@@ -245,7 +245,7 @@
     ],
     "id": 120060,
     "loc": "52456.43, 18616.9414",
-    "region": "red_hall_of_cages"
+    "region": "dungeontoruins_switch"
   },
   "labtunnelgate": {
     "items": [
@@ -253,7 +253,7 @@
     ],
     "id": 120062,
     "loc": "46533.27, 31411.2227",
-    "region": "salt_alkymancery"
+    "region": "salt_alkymancery_west_lower"
   },
   "lakelabruins": {
     "items": [
@@ -261,7 +261,7 @@
     ],
     "id": 120064,
     "loc": "65329.96, 30597.084",
-    "region": "the_ruined_temple"
+    "region": "lake_to_lab"
   },
   "cave2dungeonb": {
     "items": [
@@ -285,7 +285,7 @@
     ],
     "id": 120070,
     "loc": "35453.5977, 33320.7578",
-    "region": "crypt_of_dead_gods"
+    "region": "tombbackgate_switch"
   },
   "pitchwoodcut1": {
     "items": [
@@ -293,7 +293,7 @@
     ],
     "id": 120072,
     "loc": "76058.72, 29539.248",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_middle"
   },
   "rpitchlakeshortcut2": {
     "items": [
@@ -301,7 +301,7 @@
     ],
     "id": 120074,
     "loc": "71551.63, 30744.5488",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_west"
   },
   "lpitchlakeshortcut1": {
     "items": [
@@ -309,7 +309,7 @@
     ],
     "id": 120076,
     "loc": "68674.97, 30740.77",
-    "region": "pitchwoods"
+    "region": "siam_lake_east"
   },
   "stormdualgatef": {
     "items": [
@@ -341,7 +341,7 @@
     ],
     "id": 120084,
     "loc": "38377.6875, 38771.1758",
-    "region": "crypt_of_dead_gods"
+    "region": "cryptgodswall_switch"
   },
   "zigropes1": {
     "items": [
@@ -373,7 +373,7 @@
     ],
     "id": 120092,
     "loc": "54038.05, 23300.873",
-    "region": "crans_pass"
+    "region": "princess_set"
   },
   "caveswampshrine": {
     "items": [
@@ -413,7 +413,7 @@
     ],
     "id": 120102,
     "loc": "65335.78, 21165.6816",
-    "region": "the_ruined_temple"
+    "region": "ruinblockfloor1"
   },
   "palaceescape1": {
     "items": [
@@ -421,6 +421,6 @@
     ],
     "id": 120104,
     "loc": "62184.3125, 34672.5625",
-    "region": "salt_alkymancery"
+    "region": "palaceescape1"
   }
 }

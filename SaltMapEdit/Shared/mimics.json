@@ -5,7 +5,7 @@
     ],
     "id": 80689,
     "loc": "77867.9141, 10239.4141",
-    "region": "disabled"
+    "region": "ziggurat_upper3"
   },
   "ruins_guide_armor_59910": {
     "items": [
@@ -33,7 +33,7 @@
     ],
     "id": 80814,
     "loc": "48065.832, 31828.8574",
-    "region": "salt_alkymancery"
+    "region": "48065"
   },
   "lab_statue_flame_50824": {
     "items": [
@@ -41,7 +41,7 @@
     ],
     "id": 80899,
     "loc": "50776.4375, 30318.498",
-    "region": "salt_alkymancery"
+    "region": "lab_statue_flame_50824"
   },
   "lab_saltknight_47048": {
     "items": [
@@ -52,7 +52,7 @@
     ],
     "id": 80901,
     "loc": "47048.63, 33722.9141",
-    "region": "salt_alkymancery"
+    "region": "lab_saltknight_47048"
   },
   "amberflame_77460": {
     "items": [
@@ -71,7 +71,7 @@
     ],
     "id": 81217,
     "loc": "54606.3125, 25290.4824",
-    "region": "crans_pass"
+    "region": "princess_set"
   },
   "flying_blue_blaze": {
     "items": [
@@ -79,7 +79,7 @@
     ],
     "id": 81246,
     "loc": "51507.27, 3990.71826",
-    "region": "mals_floating_castle"
+    "region": "mals_lower"
   },
   "flying_blue_blaze_47374": {
     "items": [
@@ -87,7 +87,7 @@
     ],
     "id": 81247,
     "loc": "47374.0625, 3685.56348",
-    "region": "mals_floating_castle"
+    "region": "mals_lower"
   },
   "flying_blue_blaze_48951": {
     "items": [
@@ -95,7 +95,7 @@
     ],
     "id": 81248,
     "loc": "48951.92, 2035.75",
-    "region": "mals_floating_castle"
+    "region": "mals_upper"
   },
   "flying_blue_blaze_48867": {
     "items": [
@@ -103,7 +103,7 @@
     ],
     "id": 81253,
     "loc": "48867.5664, 3497.01416",
-    "region": "mals_floating_castle"
+    "region": "mals_middle"
   },
   "flying_salt_47999": {
     "items": [
@@ -111,7 +111,7 @@
     ],
     "id": 81254,
     "loc": "47999.293, 2353.15527",
-    "region": "mals_floating_castle"
+    "region": "mals_west_upper"
   },
   "graypearl_60274": {
     "items": [
@@ -119,7 +119,7 @@
     ],
     "id": 81271,
     "loc": "60188.582, 36357.625",
-    "region": "salt_alkymancery"
+    "region": "palace_to_lake"
   },
   "graypearl_60705": {
     "items": [
@@ -127,6 +127,6 @@
     ],
     "id": 81272,
     "loc": "60695.8672, 36361.9375",
-    "region": "salt_alkymancery"
+    "region": "palace_to_lake"
   }
 }

@@ -301,7 +301,7 @@ namespace SaltMapEdit
 			if (check != null && map.drawMode == Map.DrawMode.Zoomable)
 				map.SetCameraPosition(check.loc);
 
-			map.Filter(currentRegion, check);
+			map.Filter(currentRegion, currentConnection, check);
 		}
 
 		internal void ScrollToIndex(ListBox listBox, int index)
@@ -430,7 +430,7 @@ namespace SaltMapEdit
 		{
 			int i = lbRegions.SelectedIndex;
 			currentRegion = i >= 0 ? regionList[i] : null;
-			map.Filter(currentRegion, null);
+			map.Filter(currentRegion, null, null);
 			
 			lbConnections.SelectedIndex = -1;
 			lbConnections.Items.Clear();
@@ -447,8 +447,6 @@ namespace SaltMapEdit
 					lbLocations.Items.Add(check);
 				}
 			}
-
-			map.Filter(currentRegion, null);
 		}
 
 		private void lbRegions_DoubleClick(object sender, EventArgs e)
@@ -566,6 +564,8 @@ namespace SaltMapEdit
 				foreach (string item in currentConnection.items)
 					lbItems.Items.Add(item);
 			}
+
+			map.Filter(currentRegion, currentConnection, null);
 		}
 
 		private void lbConnections_DoubleClick(object sender, EventArgs e)
@@ -757,7 +757,7 @@ namespace SaltMapEdit
 
 		private void btnClearFilter_Click(object sender, EventArgs e)
 		{
-			map.Filter(null, null);
+			map.Filter(null, null, null);
 		}
 
 		private void btnAddRegion_Click(object sender, EventArgs e)

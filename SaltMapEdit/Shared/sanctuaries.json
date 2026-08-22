@@ -63,7 +63,7 @@
     "shrine": 0,
     "id": 100010,
     "loc": "50976, 4582.4",
-    "region": "mals_floating_castle"
+    "region": "mals_sanctuary"
   },
   "sanctuary_dungeon_cave": {
     "shrine": 0,
@@ -87,13 +87,13 @@
     "shrine": 0,
     "id": 100014,
     "loc": "61600, 29958.4",
-    "region": "siam_lake"
+    "region": "siam_lake_east"
   },
   "sanctuary_darkwood": {
     "shrine": 0,
     "id": 100015,
     "loc": "88544, 24230.4",
-    "region": "pitchwoods"
+    "region": "pitchwoods_sanctuary"
   },
   "sanctuary_ziggurat": {
     "shrine": 0,
@@ -105,7 +105,7 @@
     "shrine": 0,
     "id": 100017,
     "loc": "68320, 24134.4",
-    "region": "the_ruined_temple"
+    "region": "ruins_lower_east"
   },
   "shrine_party_fort": {
     "shrine": 1,
@@ -135,7 +135,7 @@
     "shrine": 0,
     "id": 100022,
     "loc": "45472, 30086.4",
-    "region": "salt_alkymancery"
+    "region": "salt_alkymancery_middle"
   },
   "shrine_swamp": {
     "shrine": 1,
@@ -159,25 +159,25 @@
     "shrine": 0,
     "id": 100026,
     "loc": "37536, 33286.4",
-    "region": "crypt_of_dead_gods"
+    "region": "hagers_to_crypt"
   },
   "shrine_tomb": {
     "shrine": 1,
     "id": 100027,
     "loc": "40928, 37510.4",
-    "region": "crypt_of_dead_gods"
+    "region": "crypt_shrine"
   },
   "shrine_palace": {
     "shrine": 1,
     "id": 100028,
     "loc": "58784, 39078.4",
-    "region": "the_still_palace"
+    "region": "the_still_palace_shrine"
   },
   "shrine_darkwoods": {
     "shrine": 1,
     "id": 100029,
     "loc": "88096, 29414.4",
-    "region": "pitchwoods"
+    "region": "pitchwoods_lower_middle"
   },
   "shrine_unknown": {
     "shrine": 1,
@@ -189,6 +189,6 @@
     "shrine": 0,
     "id": 100031,
     "loc": "77664, 40038.4",
-    "region": "the_blackest_vault"
+    "region": "the_blackest_vault_east"
   }
 }

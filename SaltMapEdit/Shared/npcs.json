@@ -165,7 +165,7 @@
     "loc": "8732.532, 11001.6113",
     "region": "disabled"
   },
-  "scarecrow_1": {
+  "scarecrow_0": {
     "seg": 768,
     "monster": 136,
     "npc": 12,
@@ -174,7 +174,7 @@
     "loc": "8577.139, 10981.53",
     "region": "disabled"
   },
-  "scarecrow_2": {
+  "scarecrow_1": {
     "seg": 770,
     "monster": 136,
     "npc": 12,
@@ -302,7 +302,7 @@
     "loc": "38007.46, 27299.5469",
     "region": "npcs"
   },
-  "scarecrow_3": {
+  "scarecrow_2": {
     "seg": 995,
     "monster": 136,
     "npc": 12,
@@ -492,7 +492,7 @@
     ],
     "id": 0,
     "loc": "6150.11328, 4240.38135",
-    "region": "npcs"
+    "region": "disabled"
   },
   "princess_maid_1": {
     "seg": 1091,
@@ -504,9 +504,9 @@
     ],
     "id": 0,
     "loc": "6086.257, 4249.875",
-    "region": "npcs"
+    "region": "disabled"
   },
-  "scarecrow_4": {
+  "scarecrow_3": {
     "seg": 1094,
     "monster": 136,
     "npc": 12,
@@ -524,7 +524,7 @@
     "loc": "67147.19, 17996.3223",
     "region": "npcs"
   },
-  "scarecrow_5": {
+  "scarecrow_4": {
     "seg": 1095,
     "monster": 136,
     "npc": 12,
@@ -636,7 +636,7 @@
     "loc": "49048.4727, 37693.11",
     "region": "npcs"
   },
-  "scarecrow_6": {
+  "scarecrow_5": {
     "seg": 1274,
     "monster": 136,
     "npc": 12,
