@@ -1,426 +1,426 @@
 {
-  "sanc1salt_pkp": {
-    "items": [
-      "salt1",
-      "health_shard/3"
-    ],
-    "id": 60000,
-    "loc": "8275.848, 12986.5654",
-    "region": "shivering_shore_roof"
-  },
-  "key_sanc_5650_pkp": {
-    "items": [
-      "key_sanc"
-    ],
-    "id": 60013,
-    "loc": "5650.129, 13936.1934",
-    "region": "shivering_shore_west"
-  },
-  "hidden_black_set_pkp": {
-    "items": [
-      "black_helm",
-      "black_armor",
-      "black_gloves",
-      "black_boots"
-    ],
-    "id": 60062,
-    "loc": "18274.3242, 12177.0352",
-    "region": "the_festering_banquet_black"
-  },
-  "castle_statue_merchant_pkp": {
-    "items": [
-      "statue_merchant"
-    ],
-    "id": 60314,
-    "loc": "43231.6875, 2615.07764",
-    "region": "castle_of_storms"
-  },
-  "dungeon_health_statue_mage_pkp": {
-    "items": [
-      "health_shard/5",
-      "statue_mage"
-    ],
-    "id": 60318,
-    "loc": "42419.16, 23083.6523",
-    "region": "sunken_keep"
-  },
-  "hidden_passage_jester_boots_pkp": {
-    "items": [
-      "jester_boots",
-      "jester_armor",
-      "jester_helm"
-    ],
-    "id": 60319,
-    "loc": "21483.8359, 15222.7627",
-    "region": "jester_lower"
-  },
-  "village_hunter_armor_pkp": {
-    "items": [
-      "hunter_helm",
-      "hunter_armor",
-      "hunter_gloves",
-      "hunter_boots"
-    ],
-    "id": 60365,
-    "loc": "35675.12, 5697.98242",
-    "region": "castle_of_storms"
-  },
-  "dungeon_knight_armor_pkp": {
-    "items": [
-      "knight_helm",
-      "knight_armor",
-      "knight_gloves",
-      "knight_boots"
-    ],
-    "id": 60366,
-    "loc": "45258.0664, 20263.0352",
-    "region": "red_hall_of_cages"
-  },
-  "cave_paladin_armor_pkp": {
-    "items": [
-      "paladin_helm",
-      "paladin_armor",
-      "paladin_gloves",
-      "paladin_boots",
-      "shield_paladin"
-    ],
-    "id": 60367,
-    "loc": "31071.54, 27247.834",
-    "region": "cave_mire_lower"
-  },
-  "hidden_cave_ring_itemfind_pkp": {
-    "items": [
-      "salt2",
-      "ring_itemfind"
-    ],
-    "id": 60369,
-    "loc": "13367.9756, 15381.3281",
-    "region": "the_festering_banquet_cave_hidden_west"
-  },
-  "swamp_cleric_set_16647_pkp": {
-    "items": [
-      "cleric_helm",
-      "cleric_armor",
-      "cleric_boots"
-    ],
-    "id": 60503,
-    "loc": "16847.2383, 28262.4648",
-    "region": "swamp_cleric"
-  },
-  "greenvillage_leather_set_pkp": {
-    "items": [
-      "leather_helm",
-      "leather_armor",
-      "leather_gloves",
-      "leather_boots"
-    ],
-    "id": 60512,
-    "loc": "23915.3262, 19286.0215",
-    "region": "the_watching_woods"
-  },
-  "ruins_armor_sorceror_pkp": {
-    "items": [
-      "armor_sorceror",
-      "boots_sorceror",
-      "mag_firestar"
-    ],
-    "id": 60522,
-    "loc": "57979.4844, 24526.4883",
-    "region": "choppy_2_room"
-  },
-  "dome_fat_set_pkp": {
-    "items": [
-      "fat_helm",
-      "fat_armor",
-      "fat_gloves",
-      "fat_boots"
-    ],
-    "id": 60523,
-    "loc": "55888.3, 10251.2539",
-    "region": "dome_west_upper"
-  },
-  "dome_patched_set_pkp": {
-    "items": [
-      "patched_helm",
-      "patched_armor",
-      "patched_gloves",
-      "patched_boots"
-    ],
-    "id": 60524,
-    "loc": "41765.3633, 12529.3008",
-    "region": "white_room"
-  },
-  "hidden_passage_7771_pkp": {
-    "items": [
-      "dish_armor",
-      "dish_helm",
-      "dish_gloves",
-      "dish_boots"
-    ],
-    "id": 60613,
-    "loc": "7084.90869, 23118.4375",
-    "region": "village_cave_vertigo"
-  },
-  "hidden_blades_23019_pkp": {
-    "items": [
-      "blades_helm",
-      "blades_boots"
-    ],
-    "id": 60647,
-    "loc": "23120.9, 12567.6943",
-    "region": "bladebanditgate1"
-  },
-  "hidden_blades_24405_pkp": {
-    "items": [
-      "blades_armor",
-      "blades_gloves"
-    ],
-    "id": 60648,
-    "loc": "24405.3574, 12951.917",
-    "region": "hidden_blades_24405_pkp"
-  },
-  "castle_golem_set_34559_pkp": {
-    "items": [
-      "golem_helm",
-      "golem_armor",
-      "golem_boots",
-      "golem_gloves"
-    ],
-    "id": 60649,
-    "loc": "34559.8828, 8117.98",
-    "region": "castle_terror"
-  },
-  "dome_merchant_61077_pkp": {
-    "items": [
-      "merchant_helm",
-      "merchant_boots",
-      "merchant_gloves",
-      "merchant_armor"
-    ],
-    "id": 60705,
-    "loc": "61077.625, 9902.208",
-    "region": "dome_upper"
-  },
-  "alchemist_set_25603_pkp": {
-    "items": [
-      "alchemist_helm",
-      "alchemist_armor",
-      "alchemist_boots"
-    ],
-    "id": 60731,
-    "loc": "25080.6016, 24536.1816",
-    "region": "alchemist_set_25603_pkp"
-  },
-  "stag_armor_84279_pkp": {
-    "items": [
-      "stag_armor",
-      "stag_gloves",
-      "stag_boots",
-      "sword",
-      "shield_banner"
-    ],
-    "id": 60809,
-    "loc": "84279.39, 11860.9307",
-    "region": "ziggurat_stag"
-  },
-  "castle_ninja_38321_pkp": {
-    "items": [
-      "ninja_helm",
-      "ninja_armor",
-      "ninja_boots",
-      "ninja_gloves"
-    ],
-    "id": 60868,
-    "loc": "37556.69, 1947.2262",
-    "region": "castle_of_storms_shadowflip"
-  },
-  "fort_boat_5646_pkp": {
-    "items": [
-      "boat_armor",
-      "boat_helm",
-      "boat_boots"
-    ],
-    "id": 60896,
-    "loc": "5646.04736, 27853.62",
-    "region": "fort_beyond_the_mire_upper"
-  },
-  "lab_saltknight_50361_pkp": {
-    "items": [
-      "pole_ranseur",
-      "shield_saltknight"
-    ],
-    "id": 60902,
-    "loc": "55749.02, 34686.58",
-    "region": "lake_to_lab"
-  },
-  "fortress_dreadset_14620_pkp": {
-    "items": [
-      "dread_helm",
-      "dread_armor",
-      "dread_gloves",
-      "dread_boots"
-    ],
-    "id": 60947,
-    "loc": "14620.2334, 6731.2915",
-    "region": "the_festering_banquet_vertigo"
-  },
-  "chest_devil_67709_pkp": {
-    "items": [
-      "devil_armor",
-      "devil_boots",
-      "devil_helm"
-    ],
-    "id": 60958,
-    "loc": "67709.4844, 14829.8965",
-    "region": "the_far_beach_east"
-  },
-  "chest_dapper_76601_pkp": {
-    "items": [
-      "dapper_helm",
-      "dapper_armor",
-      "dapper_gloves",
-      "dapper_boots"
-    ],
-    "id": 60974,
-    "loc": "76601.84, 28688.32",
-    "region": "chest_dapper_76601_pkp"
-  },
-  "ruins_white_nova_62127_pkp": {
-    "items": [
-      "white_nova"
-    ],
-    "id": 61028,
-    "loc": "62127.4922, 20116.7852",
-    "region": "ruinstwinleft1"
-  },
-  "lake_blue_nova_58614_pkp": {
-    "items": [
-      "blue_nova"
-    ],
-    "id": 61029,
-    "loc": "58830.8633, 33905.5977",
-    "region": "lake_blue_nova_58614_pkp"
-  },
-  "tomb_white_blaze_43101_pkp": {
-    "items": [
-      "white_blaze/3"
-    ],
-    "id": 61034,
-    "loc": "43128.9531, 37007.89",
-    "region": "tomb_white_blaze_43101_pkp"
-  },
-  "red_nova_89055_pkp": {
-    "items": [
-      "red_nova"
-    ],
-    "id": 61035,
-    "loc": "89055.8047, 23796.9648",
-    "region": "red_nova_89055_pkp"
-  },
-  "white_nova_54936_pkp": {
-    "items": [
-      "white_nova"
-    ],
-    "id": 61036,
-    "loc": "54936.4961, 40229.17",
-    "region": "white_nova_54936"
-  },
-  "beast_nova_57914_pkp": {
-    "items": [
-      "beast_nova"
-    ],
-    "id": 61037,
-    "loc": "57914.6875, 22044.959",
-    "region": "the_ruined_temple_crans_pass"
-  },
-  "drowning_nova_70536_pkp": {
-    "items": [
-      "drowning_nova"
-    ],
-    "id": 61038,
-    "loc": "70536.61, 38644.81",
-    "region": "drowning_nova_70536_pkp"
-  },
-  "chest_monk_67709_pkp": {
-    "items": [
-      "monk_armor",
-      "monk_boots",
-      "monk_gloves"
-    ],
-    "id": 61093,
-    "loc": "53883.06, 14003.9277",
-    "region": "below_mals_floating_castle"
-  },
-  "tater_80183_pkp": {
-    "items": [
-      "tater_helm",
-      "tater_armor",
-      "tater_gloves",
-      "tater_boots"
-    ],
-    "id": 61157,
-    "loc": "80183.26, 22482.373",
-    "region": "pitchwoods_upper3"
-  },
-  "dome_gold_archer_62526_pkp": {
-    "items": [
-      "gold_archer_helm",
-      "gold_archer_boots",
-      "gold_archer_gloves",
-      "gold_archer_armor"
-    ],
-    "id": 61161,
-    "loc": "62526.0625, 12601.06",
-    "region": "dome_middle"
-  },
-  "village_chef_set_3635_pkp": {
-    "items": [
-      "chef_helm",
-      "chef_armor",
-      "chef_boots",
-      "mace_pot"
-    ],
-    "id": 61191,
-    "loc": "3635.32324, 19216.9648",
-    "region": "village_cave"
-  },
-  "castle_samurai_48868_pkp": {
-    "items": [
-      "samurai_helm",
-      "samurai_armor",
-      "samurai_gloves",
-      "samurai_boots"
-    ],
-    "id": 61215,
-    "loc": "48734.7266, 2340.60938",
-    "region": "mals_west_upper"
-  },
-  "forest_redmage_13008_pkp": {
-    "items": [
-      "redmage_helm",
-      "redmage_armor",
-      "redmage_gloves",
-      "redmage_boots"
-    ],
-    "id": 61216,
-    "loc": "13011.9229, 19385.33",
-    "region": "the_watching_woods"
-  },
-  "castle_csphere_51796_pkp": {
-    "items": [
-      "crystal_sphere"
-    ],
-    "id": 61258,
-    "loc": "51796.2, 1975.99158",
-    "region": "castle_csphere_51796_pkp"
-  },
-  "castle_mal_reward_pkp": {
-    "items": [
-      "salt8",
-      "amber_nova"
-    ],
-    "id": 61277,
-    "loc": "48324, 1519.833",
-    "region": "castle_mal_reward_pkp"
-  }
+ "sanc1salt_pkp": {
+  "items": [
+   "salt1",
+   "health_shard/3"
+  ],
+  "id": 60000,
+  "loc": "8275.848, 12986.5654",
+  "region": "shivering_shore_roof"
+ },
+ "key_sanc_5650_pkp": {
+  "items": [
+   "key_sanc"
+  ],
+  "id": 60004,
+  "loc": "5650.129, 13936.1934",
+  "region": "shivering_shore_west"
+ },
+ "hidden_black_set_pkp": {
+  "items": [
+   "black_helm",
+   "black_armor",
+   "black_gloves",
+   "black_boots"
+  ],
+  "id": 60007,
+  "loc": "18274.3242, 12177.0352",
+  "region": "the_festering_banquet_black"
+ },
+ "castle_statue_merchant_pkp": {
+  "items": [
+   "statue_merchant"
+  ],
+  "id": 60013,
+  "loc": "43231.6875, 2615.07764",
+  "region": "castle_of_storms"
+ },
+ "dungeon_health_statue_mage_pkp": {
+  "items": [
+   "health_shard/5",
+   "statue_mage"
+  ],
+  "id": 60016,
+  "loc": "42419.16, 23083.6523",
+  "region": "sunken_keep"
+ },
+ "hidden_passage_jester_boots_pkp": {
+  "items": [
+   "jester_boots",
+   "jester_armor",
+   "jester_helm"
+  ],
+  "id": 60020,
+  "loc": "21483.8359, 15222.7627",
+  "region": "jester_lower"
+ },
+ "village_hunter_armor_pkp": {
+  "items": [
+   "hunter_helm",
+   "hunter_armor",
+   "hunter_gloves",
+   "hunter_boots"
+  ],
+  "id": 60025,
+  "loc": "35675.12, 5697.98242",
+  "region": "castle_of_storms"
+ },
+ "dungeon_knight_armor_pkp": {
+  "items": [
+   "knight_helm",
+   "knight_armor",
+   "knight_gloves",
+   "knight_boots"
+  ],
+  "id": 60031,
+  "loc": "45258.0664, 20263.0352",
+  "region": "red_hall_of_cages"
+ },
+ "cave_paladin_armor_pkp": {
+  "items": [
+   "paladin_helm",
+   "paladin_armor",
+   "paladin_gloves",
+   "paladin_boots",
+   "shield_paladin"
+  ],
+  "id": 60037,
+  "loc": "31071.54, 27247.834",
+  "region": "cave_mire_lower"
+ },
+ "hidden_cave_ring_itemfind_pkp": {
+  "items": [
+   "salt2",
+   "ring_itemfind"
+  ],
+  "id": 60044,
+  "loc": "13367.9756, 15381.3281",
+  "region": "the_festering_banquet_cave_hidden_west"
+ },
+ "swamp_cleric_set_16647_pkp": {
+  "items": [
+   "cleric_helm",
+   "cleric_armor",
+   "cleric_boots"
+  ],
+  "id": 60048,
+  "loc": "16847.2383, 28262.4648",
+  "region": "swamp_cleric"
+ },
+ "greenvillage_leather_set_pkp": {
+  "items": [
+   "leather_helm",
+   "leather_armor",
+   "leather_gloves",
+   "leather_boots"
+  ],
+  "id": 60053,
+  "loc": "23915.3262, 19286.0215",
+  "region": "the_watching_woods"
+ },
+ "ruins_armor_sorceror_pkp": {
+  "items": [
+   "armor_sorceror",
+   "boots_sorceror",
+   "mag_firestar"
+  ],
+  "id": 60059,
+  "loc": "57979.4844, 24526.4883",
+  "region": "choppy_2_room"
+ },
+ "dome_fat_set_pkp": {
+  "items": [
+   "fat_helm",
+   "fat_armor",
+   "fat_gloves",
+   "fat_boots"
+  ],
+  "id": 60064,
+  "loc": "55888.3, 10251.2539",
+  "region": "dome_west_upper"
+ },
+ "dome_patched_set_pkp": {
+  "items": [
+   "patched_helm",
+   "patched_armor",
+   "patched_gloves",
+   "patched_boots"
+  ],
+  "id": 60070,
+  "loc": "41765.3633, 12529.3008",
+  "region": "white_room"
+ },
+ "hidden_passage_7771_pkp": {
+  "items": [
+   "dish_armor",
+   "dish_helm",
+   "dish_gloves",
+   "dish_boots"
+  ],
+  "id": 60076,
+  "loc": "7084.90869, 23118.4375",
+  "region": "village_cave_vertigo"
+ },
+ "hidden_blades_23019_pkp": {
+  "items": [
+   "blades_helm",
+   "blades_boots"
+  ],
+  "id": 60082,
+  "loc": "23120.9, 12567.6943",
+  "region": "bladebanditgate1"
+ },
+ "hidden_blades_24405_pkp": {
+  "items": [
+   "blades_armor",
+   "blades_gloves"
+  ],
+  "id": 60086,
+  "loc": "24405.3574, 12951.917",
+  "region": "hidden_blades_24405_pkp"
+ },
+ "castle_golem_set_34559_pkp": {
+  "items": [
+   "golem_helm",
+   "golem_armor",
+   "golem_boots",
+   "golem_gloves"
+  ],
+  "id": 60090,
+  "loc": "34559.8828, 8117.98",
+  "region": "castle_terror"
+ },
+ "dome_merchant_61077_pkp": {
+  "items": [
+   "merchant_helm",
+   "merchant_boots",
+   "merchant_gloves",
+   "merchant_armor"
+  ],
+  "id": 60096,
+  "loc": "61077.625, 9902.208",
+  "region": "dome_upper"
+ },
+ "alchemist_set_25603_pkp": {
+  "items": [
+   "alchemist_helm",
+   "alchemist_armor",
+   "alchemist_boots"
+  ],
+  "id": 60102,
+  "loc": "25080.6016, 24536.1816",
+  "region": "alchemist_set_25603_pkp"
+ },
+ "stag_armor_84279_pkp": {
+  "items": [
+   "stag_armor",
+   "stag_gloves",
+   "stag_boots",
+   "sword",
+   "shield_banner"
+  ],
+  "id": 60107,
+  "loc": "84279.39, 11860.9307",
+  "region": "ziggurat_stag"
+ },
+ "castle_ninja_38321_pkp": {
+  "items": [
+   "ninja_helm",
+   "ninja_armor",
+   "ninja_boots",
+   "ninja_gloves"
+  ],
+  "id": 60114,
+  "loc": "37556.69, 1947.2262",
+  "region": "castle_of_storms_shadowflip"
+ },
+ "fort_boat_5646_pkp": {
+  "items": [
+   "boat_armor",
+   "boat_helm",
+   "boat_boots"
+  ],
+  "id": 60120,
+  "loc": "5646.04736, 27853.62",
+  "region": "fort_beyond_the_mire_upper"
+ },
+ "lab_saltknight_50361_pkp": {
+  "items": [
+   "pole_ranseur",
+   "shield_saltknight"
+  ],
+  "id": 60125,
+  "loc": "55749.02, 34686.58",
+  "region": "lake_to_lab"
+ },
+ "fortress_dreadset_14620_pkp": {
+  "items": [
+   "dread_helm",
+   "dread_armor",
+   "dread_gloves",
+   "dread_boots"
+  ],
+  "id": 60129,
+  "loc": "14620.2334, 6731.2915",
+  "region": "the_festering_banquet_vertigo"
+ },
+ "chest_devil_67709_pkp": {
+  "items": [
+   "devil_armor",
+   "devil_boots",
+   "devil_helm"
+  ],
+  "id": 60135,
+  "loc": "67709.4844, 14829.8965",
+  "region": "the_far_beach_east"
+ },
+ "chest_dapper_76601_pkp": {
+  "items": [
+   "dapper_helm",
+   "dapper_armor",
+   "dapper_gloves",
+   "dapper_boots"
+  ],
+  "id": 60140,
+  "loc": "76601.84, 28688.32",
+  "region": "chest_dapper_76601_pkp"
+ },
+ "ruins_white_nova_62127_pkp": {
+  "items": [
+   "white_nova"
+  ],
+  "id": 60146,
+  "loc": "62127.4922, 20116.7852",
+  "region": "ruinstwinleft1"
+ },
+ "lake_blue_nova_58614_pkp": {
+  "items": [
+   "blue_nova"
+  ],
+  "id": 60149,
+  "loc": "58830.8633, 33905.5977",
+  "region": "lake_blue_nova_58614_pkp"
+ },
+ "tomb_white_blaze_43101_pkp": {
+  "items": [
+   "white_blaze/3"
+  ],
+  "id": 60152,
+  "loc": "43128.9531, 37007.89",
+  "region": "tomb_white_blaze_43101_pkp"
+ },
+ "red_nova_89055_pkp": {
+  "items": [
+   "red_nova"
+  ],
+  "id": 60155,
+  "loc": "89055.8047, 23796.9648",
+  "region": "red_nova_89055_pkp"
+ },
+ "white_nova_54936_pkp": {
+  "items": [
+   "white_nova"
+  ],
+  "id": 60158,
+  "loc": "54936.4961, 40229.17",
+  "region": "white_nova_54936"
+ },
+ "beast_nova_57914_pkp": {
+  "items": [
+   "beast_nova"
+  ],
+  "id": 60161,
+  "loc": "57914.6875, 22044.959",
+  "region": "the_ruined_temple_crans_pass"
+ },
+ "drowning_nova_70536_pkp": {
+  "items": [
+   "drowning_nova"
+  ],
+  "id": 60164,
+  "loc": "70536.61, 38644.81",
+  "region": "drowning_nova_70536_pkp"
+ },
+ "chest_monk_67709_pkp": {
+  "items": [
+   "monk_armor",
+   "monk_boots",
+   "monk_gloves"
+  ],
+  "id": 60167,
+  "loc": "53883.06, 14003.9277",
+  "region": "below_mals_floating_castle"
+ },
+ "tater_80183_pkp": {
+  "items": [
+   "tater_helm",
+   "tater_armor",
+   "tater_gloves",
+   "tater_boots"
+  ],
+  "id": 60172,
+  "loc": "80183.26, 22482.373",
+  "region": "pitchwoods_upper3"
+ },
+ "dome_gold_archer_62526_pkp": {
+  "items": [
+   "gold_archer_helm",
+   "gold_archer_boots",
+   "gold_archer_gloves",
+   "gold_archer_armor"
+  ],
+  "id": 60178,
+  "loc": "62526.0625, 12601.06",
+  "region": "dome_middle"
+ },
+ "village_chef_set_3635_pkp": {
+  "items": [
+   "chef_helm",
+   "chef_armor",
+   "chef_boots",
+   "mace_pot"
+  ],
+  "id": 60184,
+  "loc": "3635.32324, 19216.9648",
+  "region": "village_cave"
+ },
+ "castle_samurai_48868_pkp": {
+  "items": [
+   "samurai_helm",
+   "samurai_armor",
+   "samurai_gloves",
+   "samurai_boots"
+  ],
+  "id": 60190,
+  "loc": "48734.7266, 2340.60938",
+  "region": "mals_west_upper"
+ },
+ "forest_redmage_13008_pkp": {
+  "items": [
+   "redmage_helm",
+   "redmage_armor",
+   "redmage_gloves",
+   "redmage_boots"
+  ],
+  "id": 60196,
+  "loc": "13011.9229, 19385.33",
+  "region": "the_watching_woods"
+ },
+ "castle_csphere_51796_pkp": {
+  "items": [
+   "crystal_sphere"
+  ],
+  "id": 60202,
+  "loc": "51796.2, 1975.99158",
+  "region": "castle_csphere_51796_pkp"
+ },
+ "castle_mal_reward_pkp": {
+  "items": [
+   "salt8",
+   "amber_nova"
+  ],
+  "id": 60205,
+  "loc": "48324, 1519.833",
+  "region": "castle_mal_reward_pkp"
+ }
 }
