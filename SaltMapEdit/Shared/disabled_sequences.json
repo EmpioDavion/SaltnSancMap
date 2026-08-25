@@ -1,278 +1,278 @@
 {
   "castlegate": {
-	"type": "None",
+	"type": 2,
 	"id": 90001,
 	"loc": "16199.6719, 11490.6445",
 	"region": "castlegate"
   },
   "cavedoor": {
-	"type": "Wood Door",
+	"type": 1,
 	"id": 90003,
 	"loc": "11241.8652, 13180.4844",
 	"region": "cavedoor"
   },
   "castledungeongate": {
-	"type": "None",
+	"type": 2,
 	"id": 90007,
 	"loc": "16945.1152, 12336.7871",
 	"region": "castledungeongate"
   },
   "secretundervillagegate": {
-	"type": "None",
+	"type": 2,
 	"id": 90008,
 	"loc": "6098.741, 18286.42",
 	"region": "village_of_smiles_black"
   },
   "tunneltoforesttop": {
-	"type": "None",
+	"type": 2,
 	"id": 90009,
 	"loc": "11709.1582, 20057.37",
 	"region": "the_watching_woods"
   },
   "tunneltoforestbottom": {
-	"type": "None",
+	"type": 2,
 	"id": 90010,
 	"loc": "12341.5586, 21237.4785",
 	"region": "the_watching_woods"
   },
   "castlebridgedrop": {
-	"type": "Ladder",
+	"type": 4,
 	"id": 90012,
 	"loc": "42402.6836, 7977.37061",
 	"region": "castle_of_storms"
   },
   "forttoundervillagegate": {
-	"type": "None",
+	"type": 2,
 	"id": 90013,
 	"loc": "19205.2012, 13751.7168",
 	"region": "forttoundergatevillage"
   },
   "bluecaveentrance": {
-	"type": "None",
+	"type": 3,
 	"id": 90015,
 	"loc": "31433.4629, 23554.3438",
 	"region": "hagers_cavern"
   },
   "skycastlegate": {
-	"type": "None",
+	"type": 2,
 	"id": 90025,
 	"loc": "49859.082, 2743.90381",
 	"region": "mals_floating_castle"
   },
   "cavebossdoor": {
-	"type": "None",
+	"type": 2,
 	"id": 90028,
 	"loc": "31478.0859, 28356.1953",
 	"region": "hagers_cavern"
   },
   "ruinstwinleft": {
-	"type": "None",
+	"type": 2,
 	"id": 90029,
 	"loc": "62535.6875, 20433.3711",
 	"region": "the_ruined_temple"
   },
   "ruinstwinright": {
-	"type": "None",
+	"type": 2,
 	"id": 90030,
 	"loc": "62852.93, 20435.5547",
 	"region": "the_ruined_temple"
   },
   "domegate": {
-	"type": "None",
+	"type": 2,
 	"id": 90031,
 	"loc": "59249.6367, 13009.17",
 	"region": "dome_of_the_forgotten"
   },
   "cavespigate": {
-	"type": "None",
+	"type": 2,
 	"id": 90034,
 	"loc": "37507.3633, 31984.54",
 	"region": "crypt_of_dead_gods"
   },
   "zigguratgates": {
-	"type": "Stone Door",
+	"type": 2,
 	"id": 90037,
 	"loc": "79449.06, 11170.3125",
 	"region": "ziggurat_of_dust"
   },
   "zigguratupgate": {
-	"type": "None",
+	"type": 2,
 	"id": 90038,
 	"loc": "78965.24, 10230.6582",
 	"region": "ziggurat_of_dust"
   },
   "swampgate": {
-	"type": "None",
+	"type": 2,
 	"id": 90039,
 	"loc": "21892.875, 24046.2441",
 	"region": "the_watching_woods"
   },
   "dungeon2cave": {
-	"type": "None",
+	"type": 2,
 	"id": 90040,
 	"loc": "33105.9922, 15144.665",
 	"region": "red_hall_of_cages"
   },
   "pyramidrightout": {
-	"type": "None",
+	"type": 3,
 	"id": 90041,
 	"loc": "80710.625, 7977.422",
 	"region": "ziggurat_of_dust"
   },
   "swampgate2": {
-	"type": "None",
+	"type": 2,
 	"id": 90042,
 	"loc": "24594.2461, 24082.5",
 	"region": "sunken_keep"
   },
   "zigguratshortgate": {
-	"type": "None",
+	"type": 2,
 	"id": 90044,
 	"loc": "84681.17, 13512.8145",
 	"region": "ziggurat_of_dust"
   },
   "dungeontolab": {
-	"type": "None",
+	"type": 2,
 	"id": 90045,
 	"loc": "46349.6953, 26482.1211",
 	"region": "red_hall_of_cages"
   },
   "dungeontoruins": {
-	"type": "None",
+	"type": 2,
 	"id": 90046,
 	"loc": "52306.6641, 18324.0781",
 	"region": "red_hall_of_cages"
   },
   "labtunnelgate": {
-	"type": "None",
+	"type": 2,
 	"id": 90048,
 	"loc": "46954.7031, 31473.1621",
 	"region": "salt_alkymancery"
   },
   "lakelabruins": {
-	"type": "Wood Door",
+	"type": 1,
 	"id": 90049,
 	"loc": "65161.2969, 30512.7969",
 	"region": "the_ruined_temple"
   },
   "cave2dungeonb": {
-	"type": "None",
+	"type": 2,
 	"id": 90050,
 	"loc": "42015.6523, 25868.7188",
 	"region": "red_hall_of_cages"
   },
   "cavetombgate2": {
-	"type": "Stone Door",
+	"type": 1,
 	"id": 90051,
 	"loc": "28071.7344, 31807.0352",
 	"region": "hagers_cavern"
   },
   "tombbackgate": {
-	"type": "None",
+	"type": 2,
 	"id": 90053,
 	"loc": "35589.83, 33063.09",
 	"region": "crypt_of_dead_gods"
   },
   "pitchwoodcut": {
-	"type": "None",
+	"type": 2,
 	"id": 90054,
 	"loc": "75902.34, 29287.7",
 	"region": "pitchwoods"
   },
   "lpitchlakeshortcut": {
-	"type": "None",
+	"type": 2,
 	"id": 90055,
 	"loc": "68802.16, 30403.1875",
 	"region": "pitchwoods"
   },
   "rpitchlakeshortcut": {
-	"type": "None",
+	"type": 2,
 	"id": 90056,
 	"loc": "71419.7344, 30396.4961",
 	"region": "pitchwoods"
   },
   "stormdualgate": {
-	"type": "None",
+	"type": 2,
 	"id": 90058,
 	"loc": "38498.375, 6104.42969",
 	"region": "stormdualgate"
   },
   "bladebanditgate": {
-	"type": "None",
+	"type": 2,
 	"id": 90061,
 	"loc": "22786.07, 12284.7383",
 	"region": "bladebanditgate"
   },
   "fortblackset": {
-	"type": "None",
+	"type": 2,
 	"id": 90065,
 	"loc": "17662.6719, 12032.8115",
 	"region": "fortblackset"
   },
   "cryptgodswall": {
-	"type": "Stone Door",
+	"type": 1,
 	"id": 90066,
 	"loc": "38143.0039, 38609.48",
 	"region": "crypt_of_dead_gods"
   },
   "zigropes1": {
-	"type": "None",
+	"type": 2,
 	"id": 90067,
 	"loc": "82788.72, 15088.5322",
 	"region": "ziggurat_of_dust"
   },
   "zigropes2": {
-	"type": "None",
+	"type": 2,
 	"id": 90068,
 	"loc": "83054, 14611.8633",
 	"region": "ziggurat_of_dust"
   },
   "ruincaveshort2": {
-	"type": "Wood Door",
+	"type": 1,
 	"id": 90070,
 	"loc": "57129.59, 15514.4824",
 	"region": "the_ruined_temple"
   },
   "labtogold": {
-	"type": "Stone Door",
+	"type": 1,
 	"id": 90071,
 	"loc": "53598.8125, 23253.9766",
 	"region": "crans_pass"
   },
   "caveswampshrine": {
-	"type": "None",
+	"type": 2,
 	"id": 90072,
 	"loc": "32525.5762, 25081.2",
 	"region": "hagers_cavern"
   },
   "dungeonshrtdr": {
-	"type": "None",
+	"type": 1,
 	"id": 90073,
 	"loc": "45194.8047, 13909.8652",
 	"region": "red_hall_of_cages"
   },
   "dungeonmidshrt": {
-	"type": "None",
+	"type": 3,
 	"id": 90074,
 	"loc": "44297.9766, 18430.125",
 	"region": "red_hall_of_cages"
   },
   "forestshrinegate": {
-	"type": "None",
+	"type": 2,
 	"id": 90076,
 	"loc": "23303.7383, 16217.81",
 	"region": "forestshrinegate"
   },
   "ruinblockfloor": {
-	"type": "Stone Door",
+	"type": 1,
 	"id": 90079,
 	"loc": "65558.7656, 20814.3066",
 	"region": "the_ruined_temple"
   },
   "palaceescape": {
-	"type": "Stone Door",
+	"type": 1,
 	"id": 90080,
 	"loc": "61981.9336, 34587.69",
 	"region": "salt_alkymancery"
-  }
+  },
 }

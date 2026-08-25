@@ -325,7 +325,7 @@
     ],
     "id": 120080,
     "loc": "22900.7656, 12559.708",
-    "region": "blade_bandit"
+    "region": "bladebanditgate1"
   },
   "fortblackset1": {
     "items": [
@@ -365,7 +365,7 @@
     ],
     "id": 120090,
     "loc": "56980.2227, 15597.5488",
-    "region": "ruins_guide_armor"
+    "region": "ruins_cave"
   },
   "labtogold1": {
     "items": [
@@ -405,7 +405,7 @@
     ],
     "id": 120100,
     "loc": "23151.53, 16452.5273",
-    "region": "forestshrinegate"
+    "region": "forestshrinegatef"
   },
   "ruinblockfloor1": {
     "items": [

@@ -124,7 +124,7 @@
     ],
     "id": 70070,
     "loc": "13809.21, 15370.6494",
-    "region": "the_festering_banquet_cave"
+    "region": "the_festering_banquet_cave_hidden_east"
   },
   "stone_ledge_salt": {
     "items": [
@@ -160,7 +160,7 @@
     ],
     "id": 70093,
     "loc": "32164.0273, 6606.48975",
-    "region": "castle_of_storms"
+    "region": "castle_terror"
   },
   "under_village_scythe": {
     "items": [
@@ -741,7 +741,7 @@
     ],
     "id": 70529,
     "loc": "33125.09, 9274.463",
-    "region": "bandits_pass"
+    "region": "hidden_sanctuary_axe_great"
   },
   "hidden_sanctuary_31591": {
     "items": [
@@ -890,7 +890,7 @@
     ],
     "id": 70646,
     "loc": "16916.1328, 14444.1895",
-    "region": "the_festering_banquet_cave"
+    "region": "the_festering_banquet_cave_hidden_east"
   },
   "ruin_room_spear_14388": {
     "items": [
@@ -1608,7 +1608,7 @@
     ],
     "id": 70986,
     "loc": "48102.2773, 22193.2363",
-    "region": "red_hall_of_cages"
+    "region": "dungeon_redspark_48102"
   },
   "ruins_lit_satellite": {
     "items": [

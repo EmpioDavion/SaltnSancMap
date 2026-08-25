@@ -717,102 +717,102 @@
   "zenfern_lookingyesno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_bag"
   },
   "zenfern_lookingyes": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_lookingno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_waryesno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_bag"
   },
   "zenfern_waryes": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_warno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_warfoundyesno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_bag"
   },
   "zenfern_warfoundyes": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_warfoundno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_lfoundyesno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_bag"
   },
   "zenfern_lfoundyes": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_lfoundno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_talk_p_y": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_talk_p_n": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_talk_w_y": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_talk_w_n": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_talk_got": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_bag"
   },
   "zenfern_talk_trinket": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_bag"
   },
   "zenfern_talk_trinketyes": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_talk_trinketno": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1_filler"
   },
   "zenfern_talk2": {
     "id": 110025,
@@ -822,7 +822,7 @@
   "zenfern_coop2talk": {
     "id": 110025,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "disabled"
   },
   "choppy_talk": {
     "id": 110026,
@@ -1057,12 +1057,12 @@
   "shipcaptain_talk": {
     "id": 110047,
     "loc": "5213.568, 5129.353",
-    "region": "shipcaptain_1"
+    "region": "disabled"
   },
   "shipcaptain_talk2": {
     "id": 110047,
     "loc": "5213.568, 5129.353",
-    "region": "shipcaptain_1"
+    "region": "disabled"
   },
   "boatman_talk": {
     "id": 110048,

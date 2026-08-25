@@ -8,7 +8,6 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading;
-using static SaltMap.Map;
 using WinPoint = System.Drawing.Point;
 
 namespace SaltMap
@@ -38,17 +37,27 @@ namespace SaltMap
 
 		public enum CheckType
 		{
+			Bestiary,
 			Chest,
 			Sack,
 			Mimic,
-			Switch,
 			Item,
+			Switch,
 			Sequence,
 			DisabledSequence, // sequence controlled by switch
 			Sanctuary,
 			Boss,
 			NPC,
 			Dialogue
+		}
+
+		public enum SequenceType
+		{
+			Lift,
+			Door,
+			Gate,
+			Secret,
+			Ladder
 		}
 
 		public class Check
@@ -84,7 +93,7 @@ namespace SaltMap
 			public override string ToString() => key;
 		}
 
-		public class CSM : Check
+		public class Container : Check
 		{
 			public string[] items;
 		}
@@ -96,7 +105,7 @@ namespace SaltMap
 
 		public class Sequence : Check
 		{
-			public string type;
+			public SequenceType type;
 		}
 
 		public class Sanctuary : Check
@@ -172,6 +181,9 @@ namespace SaltMap
 			[JsonIgnore]
 			public bool updated;
 
+			[JsonIgnore]
+			public bool examined;
+
 			[NonSerialized]
 			public string key;
 
@@ -196,8 +208,8 @@ namespace SaltMap
 
 			public bool CanEnter(HashSet<string> flags)
 			{
-				if (this.items != null)
-					foreach (string flag in this.items)
+				if (items != null)
+					foreach (string flag in items)
 						if (!flags.Contains(flag))
 							return false;
 
@@ -238,17 +250,18 @@ namespace SaltMap
 		public static int ScreenWidth = 1178;
 		public static int ScreenHeight = 570;
 
-		private Dictionary<string, CSM> chests;
-		private Dictionary<string, CSM> sacks;
-		private Dictionary<string, CSM> mimics;
-		private Dictionary<string, CSM> switches;
-		private Dictionary<string, Item> items;
-		private Dictionary<string, Sequence> sequences;
-		private Dictionary<string, Sequence> disabledSequences;
-		private Dictionary<string, Sanctuary> sanctuaries;
-		private Dictionary<string, Boss> bosses;
-		private Dictionary<string, NPC> npcs;
-		private Dictionary<string, Dialogue> dialogues;
+		public Dictionary<string, Container> chests;
+		public Dictionary<string, Container> sacks;
+		public Dictionary<string, Container> mimics;
+		public Dictionary<string, Container> switches;
+		public Dictionary<string, Item> items;
+		public Dictionary<string, Sequence> sequences;
+		public Dictionary<string, Sequence> disabledSequences;
+		public Dictionary<string, Sequence[]> platforms;
+		public Dictionary<string, Sanctuary> sanctuaries;
+		public Dictionary<string, Boss> bosses;
+		public Dictionary<string, NPC> npcs;
+		public Dictionary<string, Dialogue> dialogues;
 
 		public Dictionary<string, Region> regions;
 
@@ -274,8 +287,6 @@ namespace SaltMap
 
 		public DrawMode drawMode = DrawMode.Zoomable;
 
-		private readonly Stack<Region> updateStack = new Stack<Region>();
-
 		private readonly HashSet<string> flags = new HashSet<string>();
 
 		private readonly Dictionary<string, Check> locations = new Dictionary<string, Check>();
@@ -291,6 +302,8 @@ namespace SaltMap
 		public Func<bool> saveRegions = () => true;
 
 		private string subfolder = "";
+
+		private readonly List<Connection> toExamine = new List<Connection>();
 
 #if !DEBUG
 
@@ -348,10 +361,10 @@ namespace SaltMap
 					connection._region = regions[connection.region];
 			}
 
-			chests = LoadJson<Dictionary<string, CSM>>($"{subfolder}/chests.json");
-			sacks = LoadJson<Dictionary<string, CSM>>($"{subfolder}/sacks.json");
-			mimics = LoadJson<Dictionary<string, CSM>>($"{subfolder}/mimics.json");
-			switches = LoadJson<Dictionary<string, CSM>>($"{subfolder}/switches.json");
+			chests = LoadJson<Dictionary<string, Container>>($"{subfolder}/chests.json");
+			sacks = LoadJson<Dictionary<string, Container>>($"{subfolder}/sacks.json");
+			mimics = LoadJson<Dictionary<string, Container>>($"{subfolder}/mimics.json");
+			switches = LoadJson<Dictionary<string, Container>>($"{subfolder}/switches.json");
 
 			if (loadItems)
 			{
@@ -370,6 +383,17 @@ namespace SaltMap
 			{
 				kvp.Value.key = kvp.Key;
 				kvp.Value.checkType = CheckType.DisabledSequence;
+			}
+
+			platforms = LoadJson<Dictionary<string, Sequence[]>>($"{subfolder}/platforms.json");
+
+			foreach (KeyValuePair<string, Sequence[]> kvp in platforms)
+			{
+				foreach (Sequence sequence in kvp.Value)
+				{
+					sequence.key = kvp.Key;
+					sequence.checkType = CheckType.DisabledSequence;
+				}
 			}
 
 			sanctuaries = LoadJson<Dictionary<string, Sanctuary>>($"{subfolder}/sanctuaries.json");
@@ -540,9 +564,9 @@ namespace SaltMap
 			return JsonConvert.DeserializeObject<T>(json);
 		}
 
-		private void AddItems(Dictionary<string, CSM> csms)
+		private void AddItems(Dictionary<string, Container> csms)
 		{
-			foreach (KeyValuePair<string, CSM> kvp in csms)
+			foreach (KeyValuePair<string, Container> kvp in csms)
 			{
 				for (int i = 0; i < kvp.Value.items.Length; i++)
 				{
@@ -589,50 +613,64 @@ namespace SaltMap
 			}
 		}
 
-		// need to update this, currently only looks at what you have
-		// and not what is available
-		// should keep a list of blocked regions that were touched and
-		// keep looping through it until none of the regions can be entered
+		// only sets immediately available locations to available
+		// locations that are behind boss kills or doors/gates etc will be blocked
 		public void UpdateAvailable()
 		{
-			Region menu = regions["menu"];
-			updateStack.Push(menu);
+			Region menu = regions["Menu"];
 
 			// mark all non-collected checks as blocked to start
 			foreach (KeyValuePair<string, Check> kvp in locations)
 				if (kvp.Value.checkState != CheckState.Collected)
 					kvp.Value.checkState = CheckState.Blocked;
 
-			while (updateStack.Count > 0)
+			toExamine.AddRange(menu.connections);
+
+			while (toExamine.Count > 0)
 			{
-				Region current = updateStack.Peek();
+				bool gotNewRegion = false;
 
-				// don't mark checks in this region again if
-				// we didn't enter any new regions last loop
-				if (!current.updated)
+				for (int i = 0; i < toExamine.Count; i++)
 				{
-					// mark every check in the region as available
-					foreach (string flag in current.checks)
-						if (locations[flag].checkState != CheckState.Collected)
-							locations[flag].checkState = CheckState.Available;
+					Connection connection = toExamine[i];
 
-					// don't mark checks for this region again
-					current.updated = true;
+					if (connection.Region.updated)
+					{
+						toExamine.RemoveAt(i--);
+						continue;
+					}
+					
+					if (connection.CanEnter(flags))
+					{
+						toExamine.AddRange(connection.Region.connections);
+						
+						// mark every check in the region as available
+						foreach (string flag in connection.Region.checks)
+							if (locations[flag].checkState != CheckState.Collected)
+								locations[flag].checkState = CheckState.Available;
+
+						// don't add this region again
+						connection.Region.updated = true;
+						gotNewRegion = true;
+
+						// done with this connection
+						toExamine.RemoveAt(i--);
+						continue;
+					}
 				}
 
-				// move into enterable adjacent regions that have not been looked at already
-				foreach (Connection connection in current.connections)
-					if (!connection.Region.updated && connection.CanEnter(flags))
-						updateStack.Push(connection.Region);
-
-				// couldn't find any new regions to enter
-				if (updateStack.Peek() == current)
-					updateStack.Pop();
+				if (!gotNewRegion)
+					break;
 			}
 
 			// reset for next time
 			foreach (KeyValuePair<string, Region> kvp in regions)
+			{
 				kvp.Value.updated = false;
+				kvp.Value.examined = false;
+			}
+
+			toExamine.Clear();
 		}
 
 		public bool AddFlag(string flag)
@@ -762,9 +800,9 @@ namespace SaltMap
 				CheckType.Sack => Color.Cyan,
 				CheckType.Mimic => Color.Green,
 				CheckType.Item => Color.PaleGreen,
+				CheckType.Switch => Color.MediumVioletRed,
 				CheckType.Sequence => Color.Violet,
 				CheckType.DisabledSequence => Color.Gray,
-				CheckType.Switch => Color.MediumVioletRed,
 				CheckType.Sanctuary => Color.Goldenrod,
 				CheckType.Boss => Color.RosyBrown,
 				CheckType.NPC => Color.Chocolate,
@@ -855,6 +893,11 @@ namespace SaltMap
 		public Vector2 GetScreenPosition(float x, float y) => GetScreenPosition(new Vector2(x, y));
 		public Vector2 GetScreenPosition(Point pos) => GetScreenPosition(new Vector2(pos.X, pos.Y));
 		public Vector2 GetScreenPosition(WinPoint pos) => GetScreenPosition(new Vector2(pos.X, pos.Y));
+
+		public bool GetDisabledSequence(string location, out Sequence sequence)
+		{
+			return disabledSequences.TryGetValue(location, out sequence);
+		}
 
 		public bool GetLocation(string location, out Check check) =>
 			locations.TryGetValue(location, out check);
@@ -1119,6 +1162,10 @@ namespace SaltMap
 			foreach (KeyValuePair<string, Sequence> kvp in disabledSequences)
 				DrawCheckBlock(kvp.Value, scale);
 
+			foreach (KeyValuePair<string, Sequence[]> kvp in platforms)
+				foreach (Sequence sequence in kvp.Value)
+					DrawCheckBlock(sequence, scale);
+
 #endif
 
 			Profiler.Profiler.End(profile);
@@ -1149,6 +1196,15 @@ namespace SaltMap
 			{
 				Color colour = GetCheckTypeColor(kvp.Value);
 				DrawEntryText(kvp.Key, kvp.Value.loc, scale, colour);
+			}
+
+			foreach (KeyValuePair<string, Sequence[]> kvp in platforms)
+			{
+				foreach (Sequence sequence in kvp.Value)
+				{
+					Color colour = GetCheckTypeColor(sequence);
+					DrawEntryText(kvp.Key, sequence.loc, scale, colour);
+				}
 			}
 
 #endif

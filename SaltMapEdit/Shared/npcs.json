@@ -196,7 +196,7 @@
     ],
     "id": 0,
     "loc": "5213.568, 5129.353",
-    "region": "npcs"
+    "region": "disabled"
   },
   "boatman_1": {
     "seg": 804,

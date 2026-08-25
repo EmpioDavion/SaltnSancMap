@@ -1,5 +1,5 @@
 {
-  "menu": {
+  "Menu": {
     "connections": [
       {
         "region": "ship",
@@ -33,7 +33,14 @@
       {
         "region": "sancdoor",
         "items": [
-          "sanc_key"
+          "key_sanc"
+        ]
+      },
+      {
+        "region": "shivering_shore_roof",
+        "items": [
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -72,13 +79,13 @@
       {
         "region": "sancdoor",
         "items": [
-          "sanc_key"
+          "key_sanc"
         ]
       },
       {
         "region": "sancexit",
         "items": [
-          "sanc_key"
+          "sancexit"
         ]
       }
     ]
@@ -100,14 +107,12 @@
       {
         "region": "sancexit",
         "items": [
-          "sanc_key"
+          "sancexit"
         ]
       },
       {
         "region": "shivering_shore_roof",
-        "items": [
-          "dart"
-        ]
+        "items": []
       },
       {
         "region": "cavedoor",
@@ -118,6 +123,12 @@
       {
         "region": "castledoor",
         "items": []
+      },
+      {
+        "region": "castleladder",
+        "items": [
+          "castleladder"
+        ]
       }
     ]
   },
@@ -176,11 +187,33 @@
       }
     ]
   },
+  "castleladder": {
+    "connections": [
+      {
+        "region": "shivering_shore_east",
+        "items": [
+          "castleladder"
+        ]
+      },
+      {
+        "region": "the_festering_banquet",
+        "items": [
+          "castleladder"
+        ]
+      }
+    ]
+  },
   "the_festering_banquet": {
     "connections": [
       {
         "region": "castledoor",
         "items": []
+      },
+      {
+        "region": "the_festering_banquet_vertigo",
+        "items": [
+          "rune_upside_down"
+        ]
       },
       {
         "region": "castlegate",
@@ -189,7 +222,7 @@
       {
         "region": "castleexit",
         "items": [
-          "castleexit"
+          "key_fortress"
         ]
       },
       {
@@ -211,7 +244,12 @@
     ]
   },
   "the_festering_banquet_vertigo": {
-    "connections": []
+    "connections": [
+      {
+        "region": "the_festering_banquet",
+        "items": []
+      }
+    ]
   },
   "the_festering_banquet_cave": {
     "connections": [
@@ -230,6 +268,14 @@
         "items": []
       },
       {
+        "region": "cavemagestatue",
+        "items": []
+      },
+      {
+        "region": "ccaverollingrock",
+        "items": []
+      },
+      {
         "region": "forttoundervillagegate",
         "items": [
           "forttoundervillagegate"
@@ -239,6 +285,24 @@
         "region": "village_of_smiles",
         "items": [
           "villageenter"
+        ]
+      }
+    ]
+  },
+  "the_festering_banquet_cave_hidden_west": {
+    "connections": [
+      {
+        "region": "ccaverollingrock",
+        "items": []
+      }
+    ]
+  },
+  "the_festering_banquet_cave_hidden_east": {
+    "connections": [
+      {
+        "region": "cavemagestatue",
+        "items": [
+          "cavemagestatue"
         ]
       }
     ]
@@ -274,11 +338,15 @@
     "connections": [
       {
         "region": "the_festering_banquet",
-        "items": []
+        "items": [
+          "castleexit"
+        ]
       },
       {
         "region": "bandits_pass",
-        "items": []
+        "items": [
+          "castleexit"
+        ]
       }
     ]
   },
@@ -294,6 +362,38 @@
         "region": "the_festering_banquet_cave",
         "items": [
           "castledungeongate"
+        ]
+      }
+    ]
+  },
+  "cavemagestatue": {
+    "connections": [
+      {
+        "region": "the_festering_banquet_cave",
+        "items": [
+          "cavemagestatue"
+        ]
+      },
+      {
+        "region": "the_festering_banquet_cave_hidden_east",
+        "items": [
+          "cavemagestatue"
+        ]
+      }
+    ]
+  },
+  "ccaverollingrock": {
+    "connections": [
+      {
+        "region": "the_festering_banquet_cave",
+        "items": [
+          "ccaverollingrock"
+        ]
+      },
+      {
+        "region": "the_festering_banquet_cave_hidden_west",
+        "items": [
+          "ccaverollingrock"
         ]
       }
     ]
@@ -326,21 +426,35 @@
       }
     ]
   },
+  "villageenter": {
+    "connections": [
+      {
+        "region": "the_festering_banquet_cave",
+        "items": [
+          "villageenter"
+        ]
+      },
+      {
+        "region": "village_of_smiles",
+        "items": [
+          "villageenter"
+        ]
+      }
+    ]
+  },
   "village_of_smiles": {
     "connections": [
       {
-        "region": "the_festering_banquet",
-        "items": []
+        "region": "villageenter",
+        "items": [
+          "villageenter"
+        ]
       },
       {
         "region": "scarecrow_1",
         "items": [
           "scarecrow_1"
         ]
-      },
-      {
-        "region": "villageatkexit",
-        "items": []
       },
       {
         "region": "villagerollingrock",
@@ -351,19 +465,19 @@
       {
         "region": "village_of_smiles_trees",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "village_shield_branches",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "village_shield_branches",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -388,13 +502,19 @@
         "items": [
           "villageatkexit"
         ]
+      },
+      {
+        "region": "village_cave",
+        "items": [
+          "villageatkexit"
+        ]
       }
     ]
   },
   "village_charm_atk": {
     "connections": [
       {
-        "region": "village_of_smiles",
+        "region": "villageatkexit",
         "items": [
           "villageatkexit"
         ]
@@ -439,9 +559,19 @@
   "village_cave": {
     "connections": [
       {
+        "region": "villageatkexit",
+        "items": []
+      },
+      {
         "region": "village_cave_vertigo",
         "items": [
-          "vertigo"
+          "rune_upside_down"
+        ]
+      },
+      {
+        "region": "zenfern_1",
+        "items": [
+          "zenfern_1"
         ]
       },
       {
@@ -465,7 +595,7 @@
       {
         "region": "village_cave",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       }
     ]
@@ -491,12 +621,20 @@
       {
         "region": "zenfern_1_bag",
         "items": [
-          "bag_of_earth"
+          "earth_bag"
         ]
       }
     ]
   },
   "zenfern_1_bag": {
+    "connections": [
+      {
+        "region": "zenfern_1_filler",
+        "items": []
+      }
+    ]
+  },
+  "zenfern_1_filler": {
     "connections": []
   },
   "tunneltoforesttop": {
@@ -557,9 +695,9 @@
         "items": []
       },
       {
-        "region": "blade_bandit",
+        "region": "hidden_blades_24405_pkp",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -569,7 +707,7 @@
       {
         "region": "jester_upper",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
@@ -606,16 +744,28 @@
   "bladebanditgate": {
     "connections": [
       {
-        "region": "redspark",
+        "region": "bladebanditgate1",
         "items": [
           "bladebanditgate"
         ]
       },
       {
-        "region": "blade_bandit",
+        "region": "redspark",
         "items": [
           "bladebanditgate"
         ]
+      }
+    ]
+  },
+  "bladebanditgate1": {
+    "connections": [
+      {
+        "region": "bladebanditgate",
+        "items": []
+      },
+      {
+        "region": "hidden_blades_24405_pkp",
+        "items": []
       }
     ]
   },
@@ -631,15 +781,17 @@
       }
     ]
   },
-  "blade_bandit": {
+  "hidden_blades_24405_pkp": {
     "connections": [
       {
         "region": "jester_upper",
         "items": []
       },
       {
-        "region": "bladebanditgate",
-        "items": []
+        "region": "bladebanditgate1",
+        "items": [
+          "rune_wall_jump"
+        ]
       }
     ]
   },
@@ -681,7 +833,9 @@
       },
       {
         "region": "treestocave",
-        "items": []
+        "items": [
+          "key_forest"
+        ]
       },
       {
         "region": "alchemist",
@@ -710,13 +864,13 @@
       {
         "region": "sunken_keep_top",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
         "region": "sunken_keep_top",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -737,7 +891,9 @@
       },
       {
         "region": "treestocave",
-        "items": []
+        "items": [
+          "treestocave"
+        ]
       },
       {
         "region": "red_hall_of_cages",
@@ -780,19 +936,19 @@
       {
         "region": "bronze_key_cave",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
         "region": "bronze_key_cave",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "sunken_bronze_jester_vertigo",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
@@ -843,10 +999,24 @@
         ]
       },
       {
-        "region": "forestshrinegate",
+        "region": "forestshrinegatef",
         "items": [
           "forestkeygate"
         ]
+      }
+    ]
+  },
+  "forestshrinegatef": {
+    "connections": [
+      {
+        "region": "forestkeygate",
+        "items": [
+          "key_green"
+        ]
+      },
+      {
+        "region": "forestshrinegate",
+        "items": []
       }
     ]
   },
@@ -859,9 +1029,9 @@
         ]
       },
       {
-        "region": "forestkeygate",
+        "region": "forestshrinegatef",
         "items": [
-          "key_green"
+          "forestshrinegate"
         ]
       }
     ]
@@ -885,10 +1055,14 @@
   "bandits_pass": {
     "connections": [
       {
-        "region": "bladebanditrock",
+        "region": "castleexit",
         "items": [
-          "bladebanditrock"
+          "castleexit"
         ]
+      },
+      {
+        "region": "bladebanditrock",
+        "items": []
       },
       {
         "region": "bronze_key_cave",
@@ -899,7 +1073,7 @@
       {
         "region": "bandits_pass_vertigo",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
@@ -919,6 +1093,12 @@
         "region": "castledrawdoor",
         "items": [
           "key_bronze"
+        ]
+      },
+      {
+        "region": "castle_of_storms",
+        "items": [
+          "rune_upside_down"
         ]
       }
     ]
@@ -941,13 +1121,24 @@
     "connections": [
       {
         "region": "bandits_pass",
-        "items": []
+        "items": [
+          "castledrawdoor"
+        ]
       },
       {
-        "region": "castle_of_storms",
+        "region": "hidden_sanctuary_axe_great",
         "items": [
-          "castledrawdoor",
-          "vertigo"
+          "castledrawdoor"
+        ]
+      }
+    ]
+  },
+  "hidden_sanctuary_axe_great": {
+    "connections": [
+      {
+        "region": "castledrawdoor",
+        "items": [
+          "castledrawdoor"
         ]
       }
     ]
@@ -967,6 +1158,12 @@
         ]
       },
       {
+        "region": "castlekeydoor",
+        "items": [
+          "key_dungeon"
+        ]
+      },
+      {
         "region": "masterless_2",
         "items": [
           "masterless_2",
@@ -976,7 +1173,7 @@
       {
         "region": "lit_ball",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -988,8 +1185,8 @@
       {
         "region": "castlebridgedropf",
         "items": [
-          "shadowflip",
-          "vertigo"
+          "rune_wall_jump",
+          "rune_upside_down"
         ]
       },
       {
@@ -1001,20 +1198,14 @@
         "items": [
           "nomad_2",
           "nomad_talk_talk5",
-          "vertigo"
-        ]
-      },
-      {
-        "region": "red_hall_of_cages",
-        "items": [
-          "SEQUENCE"
+          "rune_upside_down"
         ]
       },
       {
         "region": "mals_west_lower",
         "items": [
-          "hardlight",
-          "dart"
+          "rune_blue_ether",
+          "rune_dash"
         ]
       },
       {
@@ -1047,7 +1238,33 @@
       {
         "region": "split_helm",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
+        ]
+      }
+    ]
+  },
+  "castlekeydoor": {
+    "connections": [
+      {
+        "region": "castle_of_storms",
+        "items": [
+          "castlekeydoor"
+        ]
+      },
+      {
+        "region": "castle_terror",
+        "items": [
+          "castlekeydoor"
+        ]
+      }
+    ]
+  },
+  "castle_terror": {
+    "connections": [
+      {
+        "region": "castlekeydoor",
+        "items": [
+          "castlekeydoor"
         ]
       }
     ]
@@ -1153,13 +1370,13 @@
       {
         "region": "statue_guide_40293",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "red_hall_of_cages_hanged",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -1183,32 +1400,44 @@
       {
         "region": "white_room",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
         "region": "white_room",
         "items": [
-          "dart"
+          "rune_dash"
+        ]
+      },
+      {
+        "region": "dungeonsecpos",
+        "items": []
+      },
+      {
+        "region": "dungeonbotdoor",
+        "items": []
+      },
+      {
+        "region": "dungeonmidshrt",
+        "items": []
+      },
+      {
+        "region": "dungeon_redspark_48102",
+        "items": [
+          "rune_dash"
         ]
       },
       {
         "region": "dungeon_redspark_48102",
         "items": [
-          "dart"
-        ]
-      },
-      {
-        "region": "dungeon_redspark_48102",
-        "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "despondent_2_room_east",
         "items": [
-          "shadowflip",
-          "vertigo"
+          "rune_wall_jump",
+          "rune_upside_down"
         ]
       },
       {
@@ -1226,18 +1455,24 @@
       {
         "region": "dungeon_fire_oribts",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "dungeon_fire_oribts",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "below_mals_floating_castle",
         "items": []
+      },
+      {
+        "region": "dungeontoruins",
+        "items": [
+          "rune_wall_jump"
+        ]
       },
       {
         "region": "torturetree",
@@ -1259,7 +1494,7 @@
         "region": "red_hall_of_cages_hanged",
         "items": [
           "dungeontopdoor",
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -1276,7 +1511,9 @@
     "connections": [
       {
         "region": "dungeontopdoor",
-        "items": []
+        "items": [
+          "dungeontopdoor"
+        ]
       },
       {
         "region": "dungeonshrtdr",
@@ -1294,13 +1531,13 @@
         "items": [
           "jester_2",
           "jester_talk_3",
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
         "region": "cos_crystal_sphere",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       }
     ]
@@ -1373,6 +1610,14 @@
       {
         "region": "white_flame_36251",
         "items": [
+          "dungeonbotdoor",
+          "rune_wall_jump"
+        ]
+      },
+      {
+        "region": "white_flame_36251",
+        "items": [
+          "rune_dash",
           "dungeonbotdoor"
         ]
       }
@@ -1382,7 +1627,9 @@
     "connections": [
       {
         "region": "dungeonbotdoor",
-        "items": []
+        "items": [
+          "dungeonbotdoor"
+        ]
       }
     ]
   },
@@ -1415,14 +1662,14 @@
       {
         "region": "despondent_2_room_east",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "dng_gray_pearl_43910",
         "items": [
-          "shadowflip",
-          "vertigo"
+          "rune_wall_jump",
+          "rune_upside_down"
         ]
       }
     ]
@@ -1436,8 +1683,8 @@
       {
         "region": "despondent_2_room_west",
         "items": [
-          "shadowflip",
-          "vertigo"
+          "rune_wall_jump",
+          "rune_upside_down"
         ]
       },
       {
@@ -1461,13 +1708,13 @@
       {
         "region": "despondent_2_room_west",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "despondent_2_room_east",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -1497,35 +1744,35 @@
       {
         "region": "labtogold",
         "items": [
-          "dart",
-          "redshift",
-          "shadowflip"
+          "rune_dash",
+          "rune_red_block",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "labtogold",
         "items": [
-          "hardlight",
-          "redshift",
-          "shadowflip"
+          "rune_blue_ether",
+          "rune_red_block",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "broken",
         "items": [
           "broken_soul",
-          "hardlight",
-          "redshift",
-          "shadowflip"
+          "rune_blue_ether",
+          "rune_red_block",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "broken",
         "items": [
           "broken_soul",
-          "dart",
-          "redshift",
-          "shadowflip"
+          "rune_dash",
+          "rune_red_block",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -1594,7 +1841,7 @@
       {
         "region": "the_ruined_temple_upper",
         "items": [
-          "redshift"
+          "rune_red_block"
         ]
       },
       {
@@ -1604,9 +1851,9 @@
       {
         "region": "mals_bottom",
         "items": [
-          "dart",
-          "hardlight",
-          "vertigo"
+          "rune_dash",
+          "rune_blue_ether",
+          "rune_upside_down"
         ]
       }
     ]
@@ -1614,23 +1861,17 @@
   "hagers_cavern": {
     "connections": [
       {
-        "region": "red_hall_of_cages",
-        "items": [
-          "dart"
-        ]
-      },
-      {
         "region": "cave2dungeonb",
         "items": [
-          "hardlight",
-          "redshift",
-          "shadowflip"
+          "rune_blue_ether",
+          "rune_red_block",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "hagers_cavern_vertigo",
         "items": [
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
@@ -1645,13 +1886,13 @@
         "items": [
           "despondent_2_talk_4",
           "despondent_3",
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "bluecave_fire_turret",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -1659,8 +1900,28 @@
         "items": []
       },
       {
-        "region": "cavedungeondoor",
+        "region": "hagers_cellar_key_cave",
         "items": []
+      },
+      {
+        "region": "amberflame_36690",
+        "items": []
+      },
+      {
+        "region": "cavedungeondoor",
+        "items": [
+          "key_cave"
+        ]
+      },
+      {
+        "region": "cave_mire_lower",
+        "items": []
+      },
+      {
+        "region": "cavespidoor",
+        "items": [
+          "key_cave"
+        ]
       },
       {
         "region": "cavetombgate2",
@@ -1669,25 +1930,13 @@
       {
         "region": "hagers_to_fort",
         "items": [
-          "hardlight"
+          "rune_blue_ether"
         ]
       },
       {
-        "region": "mire_of_stench_lower",
+        "region": "torturetree",
         "items": [
-          "SPIKED_KEY"
-        ]
-      },
-      {
-        "region": "fort_beyond_the_mire_lower",
-        "items": [
-          "hardlight"
-        ]
-      },
-      {
-        "region": "crypt_from_lab",
-        "items": [
-          "SEQUENCE"
+          "rune_dash"
         ]
       }
     ]
@@ -1725,13 +1974,13 @@
       {
         "region": "hagers_cavern",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "hagers_cavern",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -1745,7 +1994,7 @@
       {
         "region": "hagers_cavern",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -1790,13 +2039,15 @@
     "connections": [
       {
         "region": "cavedungeondoor",
-        "items": []
+        "items": [
+          "cavedungeondoor"
+        ]
       },
       {
         "region": "memories_1",
         "items": [
           "memories_1",
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -1813,7 +2064,8 @@
       {
         "region": "cavefortdoor",
         "items": [
-          "shadowflip"
+          "key_ship",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -1838,7 +2090,9 @@
     "connections": [
       {
         "region": "cavefortdoor",
-        "items": []
+        "items": [
+          "key_ship"
+        ]
       },
       {
         "region": "mire_of_stench_lower",
@@ -1867,7 +2121,8 @@
       {
         "region": "cavespidoor",
         "items": [
-          "cavebossdoor"
+          "cavebossdoor",
+          "cavespidoor"
         ]
       },
       {
@@ -1912,13 +2167,13 @@
       {
         "region": "hagers_cavern",
         "items": [
-          "hardlight"
+          "rune_blue_ether"
         ]
       },
       {
         "region": "fort_beyond_the_mire_lower",
         "items": [
-          "hardlight"
+          "rune_blue_ether"
         ]
       }
     ]
@@ -1928,7 +2183,7 @@
       {
         "region": "swampgate2",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -1975,7 +2230,7 @@
       {
         "region": "mire_of_stench_shrine",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -1985,7 +2240,7 @@
       {
         "region": "alchemist_set_25603_pkp",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -2008,27 +2263,27 @@
       {
         "region": "swamp_cleric",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "oldgreg_1",
         "items": [
           "oldgreg_1",
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "fort_beyond_the_mire_lower",
         "items": [
-          "redshift"
+          "rune_red_block"
         ]
       },
       {
         "region": "gasbag",
         "items": [
           "gasbag_soul",
-          "shadowflip",
+          "rune_wall_jump",
           "swampgate"
         ]
       }
@@ -2039,13 +2294,13 @@
       {
         "region": "mire_to_fort",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "mire_to_fort",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -2061,7 +2316,7 @@
       {
         "region": "mire_of_stench_west",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -2071,7 +2326,7 @@
       {
         "region": "fort_beyond_the_mire_lower",
         "items": [
-          "redshift"
+          "rune_red_block"
         ]
       }
     ]
@@ -2101,8 +2356,8 @@
       {
         "region": "fort_beyond_the_mire_top",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -2116,19 +2371,19 @@
       {
         "region": "hagers_to_fort",
         "items": [
-          "hardlight"
+          "rune_blue_ether"
         ]
       },
       {
         "region": "mire_to_fort",
         "items": [
-          "redshift"
+          "rune_red_block"
         ]
       },
       {
         "region": "fort_beyond_the_mire_upper",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -2166,6 +2421,12 @@
   "the_far_beach_east": {
     "connections": [
       {
+        "region": "the_far_beach_west",
+        "items": [
+          "rune_dash"
+        ]
+      },
+      {
         "region": "rightboatman_1",
         "items": [
           "rightboatman_1"
@@ -2188,7 +2449,7 @@
       {
         "region": "dome_east",
         "items": [
-          "hardlight"
+          "rune_blue_ether"
         ]
       },
       {
@@ -2204,13 +2465,13 @@
       {
         "region": "the_ruined_temple_upper",
         "items": [
-          "redshift"
+          "rune_red_block"
         ]
       },
       {
         "region": "pitchwoods_lower_west",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -2238,7 +2499,7 @@
       {
         "region": "dome_west_upper",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -2250,13 +2511,7 @@
       {
         "region": "the_ruined_temple_upper",
         "items": [
-          "redshift"
-        ]
-      },
-      {
-        "region": "the_ruined_temple_middle",
-        "items": [
-          "SEQUENCE"
+          "rune_red_block"
         ]
       },
       {
@@ -2266,9 +2521,9 @@
       {
         "region": "mals_bottom",
         "items": [
-          "shadowflip",
-          "hardlight",
-          "dart"
+          "rune_wall_jump",
+          "rune_blue_ether",
+          "rune_dash"
         ]
       }
     ]
@@ -2282,21 +2537,21 @@
       {
         "region": "dome_upper",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "domefriend_1",
         "items": [
           "domefriend_1",
-          "hardlight"
+          "rune_blue_ether"
         ]
       },
       {
         "region": "griffin",
         "items": [
           "griffin_soul",
-          "hardlight"
+          "rune_blue_ether"
         ]
       }
     ]
@@ -2326,7 +2581,7 @@
       {
         "region": "dome_ring_magic_61610",
         "items": [
-          "hardlight"
+          "rune_blue_ether"
         ]
       },
       {
@@ -2346,6 +2601,12 @@
   },
   "dome_east": {
     "connections": [
+      {
+        "region": "the_far_beach_west",
+        "items": [
+          "rune_blue_ether"
+        ]
+      },
       {
         "region": "griffin",
         "items": [
@@ -2400,17 +2661,28 @@
   "zigguratcorridor": {
     "connections": [
       {
-        "region": "ziggurat_stag",
+        "region": "the_far_beach_east",
+        "items": []
+      },
+      {
+        "region": "ziggurat_upper1",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_blue_ether",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "ziggurat_stag",
         "items": [
-          "hardlight",
-          "shadowflip"
+          "rune_blue_ether",
+          "rune_wall_jump"
+        ]
+      },
+      {
+        "region": "ziggurat_stag",
+        "items": [
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -2430,14 +2702,14 @@
       {
         "region": "ziggurat_upper2",
         "items": [
-          "shadowflip",
-          "vertigo"
+          "rune_wall_jump",
+          "rune_upside_down"
         ]
       },
       {
         "region": "pyramid_plat_sf",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -2451,14 +2723,14 @@
       {
         "region": "ziggurat_upper1",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "ziggurat_upper3",
         "items": [
-          "shadowflip",
-          "vertigo"
+          "rune_wall_jump",
+          "rune_upside_down"
         ]
       }
     ]
@@ -2468,14 +2740,14 @@
       {
         "region": "ziggurat_upper1",
         "items": [
-          "shadowflip",
-          "vertigo"
+          "rune_wall_jump",
+          "rune_upside_down"
         ]
       },
       {
         "region": "ziggurat_upper2",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -2486,7 +2758,7 @@
         "region": "mummy",
         "items": [
           "mummy_soul",
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -2537,16 +2809,16 @@
       {
         "region": "ziggurat_upper1",
         "items": [
-          "shadowflip",
-          "vertigo",
+          "rune_wall_jump",
+          "rune_upside_down",
           "zigguratupgate"
         ]
       },
       {
         "region": "ziggurat_upper2",
         "items": [
-          "shadowflip",
-          "vertigo",
+          "rune_wall_jump",
+          "rune_upside_down",
           "zigguratupgate"
         ]
       },
@@ -2563,14 +2835,14 @@
       {
         "region": "zigguratcorridor",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "ziggurat_blacksmith",
         "items": [
-          "dart",
-          "redshift"
+          "rune_dash",
+          "rune_red_block"
         ]
       },
       {
@@ -2586,8 +2858,8 @@
       {
         "region": "ziggurat_lower",
         "items": [
-          "dart",
-          "redshift"
+          "rune_dash",
+          "rune_red_block"
         ]
       },
       {
@@ -2601,36 +2873,42 @@
       {
         "region": "ziggurat_lower",
         "items": [
-          "dart",
-          "redshift"
+          "rune_dash",
+          "rune_red_block"
         ]
       },
       {
         "region": "ziggurat_east_inner",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "pyramid_ring_bloody",
         "items": [
-          "dart",
-          "vertigo"
+          "rune_dash",
+          "rune_upside_down"
         ]
       },
       {
         "region": "zigropes1",
         "items": [
-          "dart",
-          "vertigo"
+          "rune_dash",
+          "rune_upside_down"
         ]
       },
       {
         "region": "zigropes2",
         "items": [
-          "dart",
-          "vertigo",
+          "rune_dash",
+          "rune_upside_down",
           "zigropes1"
+        ]
+      },
+      {
+        "region": "axe_anchor_76586",
+        "items": [
+          "rune_dash"
         ]
       }
     ]
@@ -2656,20 +2934,20 @@
       {
         "region": "pyramid_horn_will",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "pyramid_horn_will",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "ziggurat_east_middle",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -2681,14 +2959,14 @@
       {
         "region": "zigropes1",
         "items": [
-          "dart",
+          "rune_dash",
           "zigropes1"
         ]
       },
       {
         "region": "zigropes2",
         "items": [
-          "dart",
+          "rune_dash",
           "zigropes1"
         ]
       },
@@ -2706,13 +2984,13 @@
       {
         "region": "ziggurat_east_upper",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "ziggurat_east_middle",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -2728,14 +3006,14 @@
       {
         "region": "ziggurat_amberflame",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "salt3_83579",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -2757,7 +3035,7 @@
       {
         "region": "ziggurat_east_upper",
         "items": [
-          "dart",
+          "rune_dash",
           "zigropes1"
         ]
       }
@@ -2768,7 +3046,7 @@
       {
         "region": "ziggurat_east_upper",
         "items": [
-          "dart",
+          "rune_dash",
           "zigropes1"
         ]
       },
@@ -2785,13 +3063,13 @@
       {
         "region": "ziggurat_amberflame",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "ziggurat_east_inner",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -2853,19 +3131,19 @@
       {
         "region": "below_mals_floating_castle",
         "items": [
-          "redshift"
+          "rune_red_block"
         ]
       },
       {
         "region": "the_far_beach_east",
         "items": [
-          "redshift"
+          "rune_red_block"
         ]
       },
       {
         "region": "ruincaveshort2",
         "items": [
-          "redshift"
+          "rune_red_block"
         ]
       }
     ]
@@ -2875,8 +3153,8 @@
       {
         "region": "the_ruined_temple_flames",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -2896,7 +3174,7 @@
       {
         "region": "dungeontoruins_switch",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -2906,14 +3184,14 @@
       {
         "region": "ruins_lit_satellite",
         "items": [
-          "hardlight"
+          "rune_blue_ether"
         ]
       },
       {
         "region": "ruincaveshort1",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -2932,20 +3210,20 @@
       {
         "region": "ruins_lower_east",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "ruinstwinleft1",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "ruinblockfloor1",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -2965,8 +3243,8 @@
       {
         "region": "ruins_ring_damage",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -2980,8 +3258,8 @@
       {
         "region": "choppy_2_room",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -2994,7 +3272,7 @@
       {
         "region": "ruins_redblaze_62072",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -3104,7 +3382,7 @@
       {
         "region": "ruins_spear_pilum",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -3114,7 +3392,7 @@
       {
         "region": "the_ruined_temple_middle",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -3136,8 +3414,8 @@
       {
         "region": "ruinblockfloor",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -3170,7 +3448,7 @@
         "region": "ruinstwinright1",
         "items": [
           "ruinstwinleft",
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -3187,7 +3465,7 @@
         "region": "ruinstwinright1",
         "items": [
           "ruinstwinright",
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -3221,7 +3499,7 @@
       {
         "region": "ruins_ring_damage",
         "items": [
-          "dart",
+          "rune_dash",
           "ruinblockfloor"
         ]
       }
@@ -3248,8 +3526,8 @@
       {
         "region": "ruinblockfloor1",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -3275,18 +3553,20 @@
         ]
       },
       {
-        "region": "ruins_guide_armor",
+        "region": "ruins_cave",
         "items": [
           "ruincaveshort1"
         ]
       }
     ]
   },
-  "ruins_guide_armor": {
+  "ruins_cave": {
     "connections": [
       {
         "region": "ruincaveshort1",
-        "items": []
+        "items": [
+          "ruincaveshort1"
+        ]
       },
       {
         "region": "ruincaveshort2",
@@ -3309,7 +3589,7 @@
         ]
       },
       {
-        "region": "ruins_guide_armor",
+        "region": "ruins_cave",
         "items": [
           "ruincaveshort2"
         ]
@@ -3322,7 +3602,7 @@
         "region": "red_hall_of_cages_crans_pass",
         "items": [
           "labtogold",
-          "redshift"
+          "rune_red_block"
         ]
       },
       {
@@ -3342,7 +3622,7 @@
       {
         "region": "lab_to_crans_pass",
         "items": [
-          "hardlight"
+          "rune_blue_ether"
         ]
       }
     ]
@@ -3352,7 +3632,7 @@
       {
         "region": "mals_west_lower",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -3362,19 +3642,19 @@
       {
         "region": "mals_middle",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "mals_middle",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "mals_east",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -3404,7 +3684,7 @@
       {
         "region": "castle_csphere_51796_pkp",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -3426,14 +3706,14 @@
       {
         "region": "castle_of_storms",
         "items": [
-          "dart",
-          "hardlight"
+          "rune_dash",
+          "rune_blue_ether"
         ]
       },
       {
         "region": "castle_mal_reward_pkp",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -3460,7 +3740,9 @@
     "connections": [
       {
         "region": "skycastlerightdoor",
-        "items": []
+        "items": [
+          "skycastlerightdoor"
+        ]
       }
     ]
   },
@@ -3501,16 +3783,16 @@
       {
         "region": "mals_middle",
         "items": [
-          "shadowflip",
-          "vertigo"
+          "rune_wall_jump",
+          "rune_upside_down"
         ]
       },
       {
         "region": "mals_upper",
         "items": [
-          "shadowflip",
+          "rune_wall_jump",
           "skycastlegate",
-          "vertigo"
+          "rune_upside_down"
         ]
       },
       {
@@ -3586,7 +3868,7 @@
       {
         "region": "murderfly",
         "items": [
-          "dart",
+          "rune_dash",
           "murderfly_soul"
         ]
       }
@@ -3597,9 +3879,9 @@
       {
         "region": "ruins_bottom",
         "items": [
-          "shadowflip",
-          "hardlight",
-          "dart"
+          "rune_wall_jump",
+          "rune_blue_ether",
+          "rune_dash"
         ]
       },
       {
@@ -3609,7 +3891,7 @@
       {
         "region": "salt7_76309",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -3627,16 +3909,23 @@
         ]
       },
       {
+        "region": "pitchwoods_sanctuary",
+        "items": [
+          "rune_dash",
+          "rune_wall_jump"
+        ]
+      },
+      {
         "region": "chest_dapper_76601_pkp",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "blue_blaze_89507",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -3669,8 +3958,8 @@
       {
         "region": "red_nova_89055_pkp",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -3680,13 +3969,13 @@
       {
         "region": "pitchwoods_lower_west",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "pitchwoods_upper2",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -3700,8 +3989,8 @@
       {
         "region": "pitchwoods_upper3",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -3711,13 +4000,13 @@
       {
         "region": "pitchwoods_upper2",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "pitchwoods_upper4",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -3727,13 +4016,13 @@
       {
         "region": "pitchwoods_upper3",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "pitchwoods_upper5",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -3743,13 +4032,13 @@
       {
         "region": "pitchwoods_upper4",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "pitchwoods_upper6",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -3763,13 +4052,13 @@
       {
         "region": "the_far_beach_east",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "pitchwoods_upper5",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -3779,13 +4068,13 @@
       {
         "region": "pitchwoods_upper5",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "pitchwoods_upper5",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -3841,9 +4130,9 @@
       {
         "region": "graypearl_90392",
         "items": [
-          "dart",
-          "hardlight",
-          "shadowflip"
+          "rune_dash",
+          "rune_blue_ether",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -3889,7 +4178,7 @@
       {
         "region": "darkruinsdoor",
         "items": [
-          "key_bones"
+          "darkruinsdoor"
         ]
       }
     ]
@@ -3946,6 +4235,12 @@
       {
         "region": "lakelabruins",
         "items": []
+      },
+      {
+        "region": "lakewitch",
+        "items": [
+          "lakewitch_soul"
+        ]
       }
     ]
   },
@@ -3993,7 +4288,7 @@
       {
         "region": "lake_blue_nova_58614_pkp",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -4049,19 +4344,19 @@
       {
         "region": "lab_axe_blue_50052",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "lab_axe_blue_50052",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "lab_statue_guide_51459",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4107,15 +4402,15 @@
       {
         "region": "lab_ring_slash_42721",
         "items": [
-          "hardlight",
-          "shadowflip"
+          "rune_blue_ether",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "lab_ring_slash_42721",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4125,25 +4420,25 @@
       {
         "region": "lake_to_lab",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "salt_alkymancery_west_lower",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "48065",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "lab_saltknight_47048",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -4185,8 +4480,8 @@
       {
         "region": "princess_set",
         "items": [
-          "dart",
-          "hardlight"
+          "rune_dash",
+          "rune_blue_ether"
         ]
       },
       {
@@ -4256,13 +4551,13 @@
       {
         "region": "salt_alkymancery_east_lower",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "salt_alkymancery_east_lower",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4278,8 +4573,8 @@
       {
         "region": "salt_alkymancery_top_west",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -4300,7 +4595,7 @@
       {
         "region": "salt_alkymancery_bosses",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -4328,7 +4623,7 @@
       {
         "region": "tomb_salt_42096",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -4346,8 +4641,8 @@
       {
         "region": "crypt_from_lab",
         "items": [
-          "shadowflip",
-          "dart",
+          "rune_wall_jump",
+          "rune_dash",
           "CLIMB"
         ]
       },
@@ -4371,15 +4666,15 @@
       {
         "region": "tomb_blaze_36102",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "tomb_sellsword_32326",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4389,7 +4684,7 @@
       {
         "region": "tomb_red_43297",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -4407,22 +4702,22 @@
       {
         "region": "cryptgodswall",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "tomb_white_blaze_43101_pkp",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "tomb_sellsword_32326",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -4438,11 +4733,11 @@
       {
         "region": "ambernova_26747",
         "items": [
-          "dart",
+          "rune_dash",
           "deadjudge",
           "deadking",
           "deadknight",
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -4544,7 +4839,7 @@
       {
         "region": "hagers_to_crypt",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -4569,13 +4864,13 @@
       {
         "region": "crypt_east_upper",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
         "region": "tomb_red_43297",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       }
     ]
@@ -4589,14 +4884,14 @@
       {
         "region": "tomb_crys_sphere_39557",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "tomb_blueflame_32358",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4606,13 +4901,13 @@
       {
         "region": "crypt_shrine",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "tomb_blaze_36102",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -4636,8 +4931,8 @@
       {
         "region": "squiddragon",
         "items": [
-          "dart",
-          "shadowflip",
+          "rune_dash",
+          "rune_wall_jump",
           "squiddragon_soul"
         ]
       }
@@ -4648,20 +4943,20 @@
       {
         "region": "crypt_west_lower",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "tomb_blaze_36102",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "tomb_horn_33424",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4671,8 +4966,8 @@
       {
         "region": "tombbackgate_switch",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -4686,7 +4981,7 @@
       {
         "region": "tombbackgate_switch",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -4704,8 +4999,8 @@
       {
         "region": "tomb_sellsword_32326",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4719,7 +5014,7 @@
       {
         "region": "beast_nova_37303",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4729,8 +5024,8 @@
       {
         "region": "cryptgodswall_switch",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
@@ -4744,7 +5039,7 @@
       {
         "region": "the_still_palace_shrine",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -4757,13 +5052,13 @@
       {
         "region": "white_nova_54936",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
         "region": "salt10_59096",
         "items": [
-          "dart"
+          "rune_dash"
         ]
       },
       {
@@ -4789,8 +5084,8 @@
       {
         "region": "palace_to_lake",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4810,7 +5105,7 @@
       {
         "region": "palaceescape1",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       }
     ]
@@ -4856,14 +5151,14 @@
       {
         "region": "the_still_palace_upper",
         "items": [
-          "dart",
-          "shadowflip"
+          "rune_dash",
+          "rune_wall_jump"
         ]
       },
       {
         "region": "nameless",
         "items": [
-          "dart",
+          "rune_dash",
           "nameless_soul"
         ]
       }
@@ -4915,6 +5210,13 @@
       },
       {
         "region": "castle_of_storms_shadowflip",
+        "items": [
+          "dragon",
+          "rune_wall_jump"
+        ]
+      },
+      {
+        "region": "despondent_1",
         "items": [
           "dragon"
         ]
@@ -5003,13 +5305,13 @@
         "region": "red_hall_of_cages_crans_pass",
         "items": [
           "broken",
-          "redshift"
+          "rune_red_block"
         ]
       },
       {
         "region": "the_ruined_temple_crans_pass",
         "items": [
-          "shadowflip"
+          "rune_wall_jump"
         ]
       },
       {
@@ -5143,8 +5445,8 @@
       {
         "region": "crypt_west_lower",
         "items": [
-          "dart",
-          "shadowflip",
+          "rune_dash",
+          "rune_wall_jump",
           "squiddragon"
         ]
       },

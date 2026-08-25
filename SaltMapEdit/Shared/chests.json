@@ -95,7 +95,7 @@
     ],
     "id": 60369,
     "loc": "13367.9756, 15381.3281",
-    "region": "the_festering_banquet_cave"
+    "region": "the_festering_banquet_cave_hidden_west"
   },
   "swamp_cleric_set_16647_pkp": {
     "items": [
@@ -168,7 +168,7 @@
     ],
     "id": 60647,
     "loc": "23120.9, 12567.6943",
-    "region": "blade_bandit"
+    "region": "bladebanditgate1"
   },
   "hidden_blades_24405_pkp": {
     "items": [
@@ -177,7 +177,7 @@
     ],
     "id": 60648,
     "loc": "24405.3574, 12951.917",
-    "region": "blade_bandit"
+    "region": "hidden_blades_24405_pkp"
   },
   "castle_golem_set_34559_pkp": {
     "items": [
@@ -188,7 +188,7 @@
     ],
     "id": 60649,
     "loc": "34559.8828, 8117.98",
-    "region": "castle_of_storms"
+    "region": "castle_terror"
   },
   "dome_merchant_61077_pkp": {
     "items": [

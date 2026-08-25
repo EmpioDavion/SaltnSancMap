@@ -1,198 +1,186 @@
 {
   "castledoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90000,
     "loc": "13743.3467, 12547.749",
     "region": "castledoor"
   },
   "castleladder": {
-    "type": "Ladder",
+    "type": 4,
     "id": 90002,
     "loc": "13243.7861, 12049.4141",
-    "region": "the_festering_banquet"
+    "region": "castleladder"
   },
   "sancdoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90004,
     "loc": "8226.782, 13381.8965",
     "region": "sancdoor"
   },
   "sancexit": {
-    "type": "None",
+    "type": 1,
     "id": 90005,
     "loc": "9891.893, 13338.8594",
     "region": "sancexit"
   },
   "castleexit": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90006,
     "loc": "17016.5684, 11660.5684",
     "region": "castleexit"
   },
   "castledrawdoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90011,
     "loc": "32921.9766, 9173.211",
     "region": "castledrawdoor"
   },
   "treestocave": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90014,
     "loc": "25891.4141, 19656.9277",
     "region": "treestocave"
   },
   "cavefortdoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90016,
     "loc": "32054.0586, 26569.6074",
-    "region": "hagers_cavern"
+    "region": "cavefortdoor"
   },
   "bluvillagesecret": {
-    "type": "None",
+    "type": 3,
     "id": 90017,
     "loc": "32554.4414, 19787.541",
     "region": "bluvillagesecret"
   },
   "dungeonsecpos": {
-    "type": "None",
+    "type": 3,
     "id": 90018,
     "loc": "35976.78, 16895.0566",
     "region": "dungeonsecpos"
   },
   "ccaverollingrock": {
-    "type": "Stone Door",
+    "type": 3,
     "id": 90019,
     "loc": "12686.9141, 14360.9238",
-    "region": "disabled"
+    "region": "ccaverollingrock"
   },
   "villagerollingrock": {
-    "type": "Stone Door",
+    "type": 3,
     "id": 90020,
     "loc": "3216.664, 16947.707",
     "region": "villagerollingrock"
   },
   "dungeonsec2": {
-    "type": "None",
+    "type": 3,
     "id": 90021,
     "loc": "47711.6875, 24360.3281",
     "region": "dungeonsec2"
   },
   "villageenter": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90022,
     "loc": "11100.335, 15425.2168",
-    "region": "village_of_smiles"
+    "region": "villageenter"
   },
   "skycastleleftdoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90023,
     "loc": "47838.1875, 4001.26953",
     "region": "skycastleleftdoor"
   },
   "skycastlerightdoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90024,
     "loc": "50138.8672, 4531.26953",
     "region": "skycastlerightdoor"
   },
-  "bodiespit1": {
-    "type": "None",
-    "id": 90026,
-    "loc": "49550.1328, 16634.041",
-    "region": "disabled"
-  },
-  "bodiespit2": {
-    "type": "None",
-    "id": 90027,
-    "loc": "48864.75, 16444.4277",
-    "region": "disabled"
-  },
   "castlekeydoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90032,
     "loc": "33175.65, 7294.92627",
-    "region": "castle_of_storms"
+    "region": "castlekeydoor"
   },
   "cavespidoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90033,
     "loc": "31964.7422, 28545.36",
     "region": "cavespidoor"
   },
   "cavedungeondoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90035,
     "loc": "40032.89, 30572.4648",
     "region": "cavedungeondoor"
   },
   "cavemagestatue": {
-    "type": "Stone Door",
+    "type": 3,
     "id": 90036,
     "loc": "16769.28, 13496.5391",
-    "region": "the_festering_banquet"
+    "region": "cavemagestatue"
   },
   "labladder": {
-    "type": "Ladder",
+    "type": 4,
     "id": 90047,
     "loc": "51005.93, 27987.2266",
     "region": "labladder"
   },
   "labsecretlake": {
-    "type": "Stone Door",
+    "type": 3,
     "id": 90052,
     "loc": "51674.68, 26447.7813",
     "region": "labsecretlake"
   },
   "darkruinsdoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90059,
     "loc": "73765.42, 38804.2578",
     "region": "darkruinsdoor"
   },
   "villageatkexit": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90060,
     "loc": "4138.54639, 19479.7676",
     "region": "villageatkexit"
   },
   "bladebanditrock": {
-    "type": "Stone Door",
+    "type": 3,
     "id": 90062,
     "loc": "21260.83, 11706.5918",
     "region": "bladebanditrock"
   },
   "dungeontopdoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90063,
     "loc": "36708.3438, 15591.8945",
     "region": "dungeontopdoor"
   },
   "dungeonbotdoor": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90064,
     "loc": "37746.3047, 18561.9277",
     "region": "dungeonbotdoor"
   },
   "ruincaveshort1": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90069,
     "loc": "58367.043, 17245.39",
     "region": "ruincaveshort1"
   },
   "forestkeygate": {
-    "type": "Wood Door",
+    "type": 1,
     "id": 90075,
     "loc": "25562.2461, 17606.65",
     "region": "forestkeygate"
   },
   "skyladdershrt": {
-    "type": "Ladder",
+    "type": 4,
     "id": 90077,
     "loc": "51519.9453, 2157.49561",
     "region": "skyladdershrt"
   },
   "skysideshrt": {
-    "type": "Stone Door",
+    "type": 3,
     "id": 90078,
     "loc": "50852.2969, 2191.3623",
     "region": "skysideshrt"
