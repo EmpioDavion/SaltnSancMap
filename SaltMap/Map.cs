@@ -113,11 +113,6 @@ namespace SaltMap
 			public int shrine;
 		}
 
-		public class Boss : Check
-		{
-			public string[] items;
-		}
-
 		public class NPC : Check
 		{
 			public int seg;
@@ -259,7 +254,7 @@ namespace SaltMap
 		public Dictionary<string, Sequence> disabledSequences;
 		public Dictionary<string, Sequence[]> platforms;
 		public Dictionary<string, Sanctuary> sanctuaries;
-		public Dictionary<string, Boss> bosses;
+		public Dictionary<string, Container> bosses;
 		public Dictionary<string, NPC> npcs;
 		public Dictionary<string, Dialogue> dialogues;
 
@@ -364,6 +359,7 @@ namespace SaltMap
 			chests = LoadJson<Dictionary<string, Container>>($"{subfolder}/chests.json");
 			sacks = LoadJson<Dictionary<string, Container>>($"{subfolder}/sacks.json");
 			mimics = LoadJson<Dictionary<string, Container>>($"{subfolder}/mimics.json");
+			bosses = LoadJson<Dictionary<string, Container>>($"{subfolder}/bosses.json");
 			switches = LoadJson<Dictionary<string, Container>>($"{subfolder}/switches.json");
 
 			if (loadItems)
@@ -372,6 +368,7 @@ namespace SaltMap
 				AddItems(chests);
 				AddItems(sacks);
 				AddItems(mimics);
+				AddItems(bosses);
 			}
 			else
 				items = null;
@@ -397,7 +394,7 @@ namespace SaltMap
 			}
 
 			sanctuaries = LoadJson<Dictionary<string, Sanctuary>>($"{subfolder}/sanctuaries.json");
-			bosses = LoadJson<Dictionary<string, Boss>>($"{subfolder}/bosses.json");
+			bosses = LoadJson<Dictionary<string, Container>>($"{subfolder}/bosses.json");
 			npcs = LoadJson<Dictionary<string, NPC>>($"{subfolder}/npcs.json");
 
 			if (!File.Exists($"{subfolder}/dialogues.json"))
@@ -570,7 +567,7 @@ namespace SaltMap
 			{
 				for (int i = 0; i < kvp.Value.items.Length; i++)
 				{
-					string key = kvp.Key + $"_Item{i + 1}";
+					string key = kvp.Key + $"_Item{i}";
 
 					items.Add(key, new Item()
 					{
@@ -901,6 +898,8 @@ namespace SaltMap
 
 		public bool GetLocation(string location, out Check check) =>
 			locations.TryGetValue(location, out check);
+
+		public T GetLocation<T>(string location) where T : Check => (T)locations[location];
 
 		public void GetChecks(Vector2 pos, IList<Check> checks)
 		{

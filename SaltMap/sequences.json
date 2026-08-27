@@ -9,7 +9,7 @@
     "type": 4,
     "id": 90002,
     "loc": "13243.7861, 12049.4141",
-    "region": "the_festering_banquet"
+    "region": "castleladder"
   },
   "sancdoor": {
     "type": 1,
@@ -39,109 +39,109 @@
     "type": 1,
     "id": 90014,
     "loc": "25891.4141, 19656.9277",
-    "region": "sunken_keep"
+    "region": "treestocave"
   },
   "cavefortdoor": {
     "type": 1,
     "id": 90016,
     "loc": "32054.0586, 26569.6074",
-    "region": "hagers_cavern"
+    "region": "cavefortdoor"
   },
   "bluvillagesecret": {
     "type": 3,
     "id": 90017,
     "loc": "32554.4414, 19787.541",
-    "region": "sunken_keep"
+    "region": "bluvillagesecret"
   },
   "dungeonsecpos": {
     "type": 3,
     "id": 90018,
     "loc": "35976.78, 16895.0566",
-    "region": "sunken_keep"
+    "region": "dungeonsecpos"
   },
   "ccaverollingrock": {
     "type": 3,
     "id": 90019,
     "loc": "12686.9141, 14360.9238",
-    "region": "disabled"
+    "region": "ccaverollingrock"
   },
   "villagerollingrock": {
     "type": 3,
     "id": 90020,
     "loc": "3216.664, 16947.707",
-    "region": "village_of_smiles"
+    "region": "villagerollingrock"
   },
   "dungeonsec2": {
     "type": 3,
     "id": 90021,
     "loc": "47711.6875, 24360.3281",
-    "region": "red_hall_of_cages"
+    "region": "dungeonsec2"
   },
   "villageenter": {
     "type": 1,
     "id": 90022,
     "loc": "11100.335, 15425.2168",
-    "region": "village_of_smiles"
+    "region": "villageenter"
   },
   "skycastleleftdoor": {
     "type": 1,
     "id": 90023,
     "loc": "47838.1875, 4001.26953",
-    "region": "mals_floating_castle"
+    "region": "skycastleleftdoor"
   },
   "skycastlerightdoor": {
     "type": 1,
     "id": 90024,
     "loc": "50138.8672, 4531.26953",
-    "region": "mals_floating_castle"
+    "region": "skycastlerightdoor"
   },
   "castlekeydoor": {
     "type": 1,
     "id": 90032,
     "loc": "33175.65, 7294.92627",
-    "region": "castle_of_storms"
+    "region": "castlekeydoor"
   },
   "cavespidoor": {
     "type": 1,
     "id": 90033,
     "loc": "31964.7422, 28545.36",
-    "region": "hagers_cavern"
+    "region": "cavespidoor"
   },
   "cavedungeondoor": {
     "type": 1,
     "id": 90035,
     "loc": "40032.89, 30572.4648",
-    "region": "red_hall_of_cages"
+    "region": "cavedungeondoor"
   },
   "cavemagestatue": {
     "type": 3,
     "id": 90036,
     "loc": "16769.28, 13496.5391",
-    "region": "the_festering_banquet"
+    "region": "cavemagestatue"
   },
   "labladder": {
     "type": 4,
     "id": 90047,
     "loc": "51005.93, 27987.2266",
-    "region": "siam_lake"
+    "region": "labladder"
   },
   "labsecretlake": {
     "type": 3,
     "id": 90052,
     "loc": "51674.68, 26447.7813",
-    "region": "crans_pass"
+    "region": "labsecretlake"
   },
   "darkruinsdoor": {
     "type": 1,
     "id": 90059,
     "loc": "73765.42, 38804.2578",
-    "region": "the_blackest_vault"
+    "region": "darkruinsdoor"
   },
   "villageatkexit": {
     "type": 1,
     "id": 90060,
     "loc": "4138.54639, 19479.7676",
-    "region": "village_of_smiles_atk"
+    "region": "villageatkexit"
   },
   "bladebanditrock": {
     "type": 3,
@@ -153,19 +153,19 @@
     "type": 1,
     "id": 90063,
     "loc": "36708.3438, 15591.8945",
-    "region": "red_hall_of_cages"
+    "region": "dungeontopdoor"
   },
   "dungeonbotdoor": {
     "type": 1,
     "id": 90064,
     "loc": "37746.3047, 18561.9277",
-    "region": "sunken_keep"
+    "region": "dungeonbotdoor"
   },
   "ruincaveshort1": {
     "type": 1,
     "id": 90069,
     "loc": "58367.043, 17245.39",
-    "region": "the_ruined_temple"
+    "region": "ruincaveshort1"
   },
   "forestkeygate": {
     "type": 1,
@@ -177,12 +177,12 @@
     "type": 4,
     "id": 90077,
     "loc": "51519.9453, 2157.49561",
-    "region": "mals_floating_castle"
+    "region": "skyladdershrt"
   },
   "skysideshrt": {
     "type": 3,
     "id": 90078,
     "loc": "50852.2969, 2191.3623",
-    "region": "mals_floating_castle"
+    "region": "skysideshrt"
   }
 }

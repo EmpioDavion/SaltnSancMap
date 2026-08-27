@@ -331,7 +331,15 @@ namespace SaltMapEdit
 
 		private void pnlMap_MouseClick(object sender, MouseEventArgs e)
 		{
-			if (e.Button == MouseButtons.Middle)
+			if (e.Button == MouseButtons.Left)
+			{
+				if (map.GetCheck(e.Location, out Map.Check check))
+				{
+					lbRegions.SelectedIndex = regionList.IndexOf(check.Region);
+					SelectRegion(check.Region);
+				}
+			}
+			else if (e.Button == MouseButtons.Middle)
 			{
 				if (map.GetCheck(e.Location, out Map.Check check))
 					Track(new ToggleCheckAction(this, check, false));
@@ -429,7 +437,12 @@ namespace SaltMapEdit
 		private void lbRegions_Click(object sender, EventArgs e)
 		{
 			int i = lbRegions.SelectedIndex;
-			currentRegion = i >= 0 ? regionList[i] : null;
+			SelectRegion(i >= 0 ? regionList[i] : null);
+		}
+
+		private void SelectRegion(Map.Region region)
+		{
+			currentRegion = region;
 			map.Filter(currentRegion, null, null);
 			
 			lbConnections.SelectedIndex = -1;
@@ -615,6 +628,18 @@ namespace SaltMapEdit
 				string item = currentConnection.items[index];
 
 				Track(new AddItemAction(this, currentConnection, item, true));
+
+				if (lbItems.Items.Count > 0)
+				{
+					if (index >= lbItems.Items.Count)
+						index = lbItems.Items.Count - 1;
+					else if (index < 0)
+						index = 0;
+
+					lbItems.SelectedIndex = index;
+				}
+				else
+					lbItems.SelectedIndex = -1;
 			}
 		}
 
