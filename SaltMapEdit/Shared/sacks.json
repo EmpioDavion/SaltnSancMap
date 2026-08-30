@@ -5,7 +5,9 @@
     ],
     "id": 70000,
     "loc": "13829.9775, 12313.2637",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 8",
+    "description": "Sack above the west entrance of The Festering Banquet"
   },
   "fortress_bow_pkp": {
     "items": [
@@ -14,7 +16,9 @@
     ],
     "id": 70003,
     "loc": "17420.252, 12588.0039",
-    "region": "the_festering_banquet_cave"
+    "region": "the_festering_banquet_cave",
+    "name": "The Festering Banquet Sack 14",
+    "description": "Sack in lower east The Festering Banquet"
   },
   "fortresssalt2_pkp": {
     "items": [
@@ -23,7 +27,9 @@
     ],
     "id": 70007,
     "loc": "13483.4111, 11750.3223",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 10",
+    "description": "Sack above the west entrance of The Festering Banquet"
   },
   "fortress_throw_dagger_pkp": {
     "items": [
@@ -32,7 +38,9 @@
     ],
     "id": 70011,
     "loc": "14406.5322, 11345.0313",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 9",
+    "description": "Sack above the west entrance of The Festering Banquet"
   },
   "fortress_lit_ball_pkp": {
     "items": [
@@ -41,7 +49,9 @@
     ],
     "id": 70015,
     "loc": "17709.71, 9733.217",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 5",
+    "description": "Sack in upper east The Festering Banquet"
   },
   "village_buff_holy_pkp": {
     "items": [
@@ -49,7 +59,9 @@
     ],
     "id": 70019,
     "loc": "1722.454, 17127.3789",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 3",
+    "description": "Sack in west Village of Smiles"
   },
   "village_salt2_pkp": {
     "items": [
@@ -57,7 +69,9 @@
     ],
     "id": 70022,
     "loc": "10499.0967, 17285.92",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 6",
+    "description": "Sack in east Village of Smiles"
   },
   "fortress_lit_bolt_pkp": {
     "items": [
@@ -65,7 +79,9 @@
     ],
     "id": 70025,
     "loc": "12986.1514, 10530.209",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 6",
+    "description": "Sack above the west entrance of The Festering Banquet"
   },
   "village_grenado_pkp": {
     "items": [
@@ -73,7 +89,9 @@
     ],
     "id": 70028,
     "loc": "14361.3535, 8783.246",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 12",
+    "description": "Sack in upper west The Festering Banquet"
   },
   "village_statue_cleric_pkp": {
     "items": [
@@ -81,7 +99,9 @@
     ],
     "id": 70031,
     "loc": "4238.879, 17546.4434",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 8",
+    "description": "Sack in west Village of Smiles"
   },
   "forest_whip_18742_pkp": {
     "items": [
@@ -89,7 +109,9 @@
     ],
     "id": 70034,
     "loc": "18688.3867, 19311.7012",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 11",
+    "description": "Sack in middle The Watching Woods"
   },
   "forest_amber_spark_pkp": {
     "items": [
@@ -97,7 +119,9 @@
     ],
     "id": 70037,
     "loc": "18287.64, 20541.32",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 1",
+    "description": "Sack in middle The Watching Woods"
   },
   "forest_redhigh_mage_pkp": {
     "items": [
@@ -106,7 +130,9 @@
     ],
     "id": 70040,
     "loc": "16864.8672, 18184.3027",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 8",
+    "description": "Sack in upper The Watching Woods"
   },
   "hidden_tree_heal2_pkp": {
     "items": [
@@ -115,7 +141,9 @@
     ],
     "id": 70044,
     "loc": "26271.4434, 9361.818",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 7",
+    "description": "Sack on top of tree branches in middle Bandit's Pass"
   },
   "fortress_mage_16430_pkp": {
     "items": [
@@ -124,7 +152,9 @@
     ],
     "id": 70048,
     "loc": "13809.21, 15370.6494",
-    "region": "the_festering_banquet_cave_hidden_east"
+    "region": "the_festering_banquet_cave_hidden_east",
+    "name": "The Festering Banquet Sack 19",
+    "description": "Sack in hidden cave in lower western The Festering Banquet, underground"
   },
   "stone_ledge_salt_pkp": {
     "items": [
@@ -134,7 +164,9 @@
     ],
     "id": 70052,
     "loc": "29963.61, 9933.984",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 11",
+    "description": "Sack in middle Bandit's Pass"
   },
   "hidden_sanctuary_mag_boost_pkp": {
     "items": [
@@ -143,7 +175,9 @@
     ],
     "id": 70057,
     "loc": "22853.8438, 9474.53",
-    "region": "bandits_pass_vertigo"
+    "region": "bandits_pass_vertigo",
+    "name": "Bandit's Pass Sack 13",
+    "description": "Sack on top of Sanctuary in west Bandit's Pass"
   },
   "hidden_sancledge_spark_pkp": {
     "items": [
@@ -152,7 +186,9 @@
     ],
     "id": 70061,
     "loc": "22507.2578, 10438.6914",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 4",
+    "description": "Sack on top of the Sanctuary in west Bandit's Pass"
   },
   "castle_terror_ledge_pkp": {
     "items": [
@@ -160,7 +196,9 @@
     ],
     "id": 70065,
     "loc": "32164.0273, 6606.48975",
-    "region": "castle_terror"
+    "region": "castle_terror",
+    "name": "Castle of Storms Sack 17",
+    "description": "Sack below Masterless Knight in upper west Castle of Storms"
   },
   "under_village_scythe_pkp": {
     "items": [
@@ -168,7 +206,9 @@
     ],
     "id": 70068,
     "loc": "12295.9814, 21527.99",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "Village of Smiles Sack 25",
+    "description": "Sack in lower east Village of Smiles, underground"
   },
   "under_village_salt_pkp": {
     "items": [
@@ -177,7 +217,9 @@
     ],
     "id": 70071,
     "loc": "11260.5059, 20304.1777",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "Village of Smiles Sack 24",
+    "description": "Sack in lower east Village of Smiles, underground"
   },
   "greenvillage_blacksmith_pkp": {
     "items": [
@@ -186,7 +228,9 @@
     ],
     "id": 70075,
     "loc": "27413.7559, 20519.7363",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 8",
+    "description": "Sack in cave in west Sunken Keep"
   },
   "fortress_jurney_ld_pkp": {
     "items": [
@@ -194,7 +238,9 @@
     ],
     "id": 70079,
     "loc": "16038.5166, 10759.7979",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 4",
+    "description": "Sack in the middle of The Festering Banquet"
   },
   "trap_cave_key_bronze_pkp": {
     "items": [
@@ -202,7 +248,9 @@
     ],
     "id": 70082,
     "loc": "29094.1133, 14970.1152",
-    "region": "bronze_key_cave"
+    "region": "bronze_key_cave",
+    "name": "Bandit's Pass Sack 7",
+    "description": "Sack in lower Bandit's Pass, underground"
   },
   "village_thief_armor_pkp": {
     "items": [
@@ -213,7 +261,9 @@
     ],
     "id": 70085,
     "loc": "14674.22, 9349.854",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 13",
+    "description": "Sack in upper west The Festering Banquet"
   },
   "hidden_tunic_set_pkp": {
     "items": [
@@ -223,7 +273,9 @@
     ],
     "id": 70091,
     "loc": "19163.36, 12005.9639",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "The Festering Banquet Sack 25",
+    "description": "Sack below broken bridge in east The Festering Banquet"
   },
   "castle_real_lit_ball_pkp": {
     "items": [
@@ -231,7 +283,9 @@
     ],
     "id": 70096,
     "loc": "36429.8477, 6193.02051",
-    "region": "lit_ball"
+    "region": "lit_ball",
+    "name": "Castle of Storms Sack 18",
+    "description": "Sack west of double gate in upper Castle of Storms"
   },
   "midsecretchainmail_gloves_pkp": {
     "items": [
@@ -239,7 +293,9 @@
     ],
     "id": 70099,
     "loc": "27337.6172, 11914.4258",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 8",
+    "description": "Sack at end of upper cave in Bandit's Pass, underground"
   },
   "midsecretchainmail_helm_pkp": {
     "items": [
@@ -247,7 +303,9 @@
     ],
     "id": 70102,
     "loc": "27791.4785, 11917.418",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 9",
+    "description": "Sack at end of upper cave in Bandit's Pass"
   },
   "midsecretchainmail_armor_pkp": {
     "items": [
@@ -255,7 +313,9 @@
     ],
     "id": 70105,
     "loc": "29497.0215, 15436.3184",
-    "region": "bronze_key_cave"
+    "region": "bronze_key_cave",
+    "name": "Bandit's Pass Sack 4",
+    "description": "Sack in lower Bandit's Pass, underground"
   },
   "midsecretchainmail_boots_pkp": {
     "items": [
@@ -263,7 +323,9 @@
     ],
     "id": 70108,
     "loc": "24668.4512, 16306.0791",
-    "region": "sunken_bronze_jester"
+    "region": "sunken_bronze_jester",
+    "name": "Sunken Keep Sack 19",
+    "description": "Sack in upper west Sunken Keep"
   },
   "stone_ledge_tribe_armor_pkp": {
     "items": [
@@ -272,7 +334,9 @@
     ],
     "id": 70111,
     "loc": "28861.4238, 10332.2314",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 12",
+    "description": "Sack in middle Bandit's Pass"
   },
   "castle_real_stat_black_pkp": {
     "items": [
@@ -281,7 +345,9 @@
     ],
     "id": 70115,
     "loc": "40323.17, 9743.883",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 8",
+    "description": "Sack in lower Castle of Storms"
   },
   "midsecretcharm_hp_leech_pkp": {
     "items": [
@@ -289,7 +355,9 @@
     ],
     "id": 70119,
     "loc": "33107.5039, 17329.3574",
-    "region": "sunken_keep_top"
+    "region": "sunken_keep_top",
+    "name": "Sunken Keep Sack 18",
+    "description": "Sack on floating island in upper Sunken Keep"
   },
   "castle_dragon_key_pkp": {
     "items": [
@@ -297,7 +365,9 @@
     ],
     "id": 70122,
     "loc": "38315.7422, 3510.10669",
-    "region": "castle_of_storms_despondent"
+    "region": "castle_of_storms_despondent",
+    "name": "Castle of Storms Sack 16",
+    "description": "Sack next to Despondent Thief in upper Castle of Storms"
   },
   "forest_charm_speed_pkp": {
     "items": [
@@ -305,7 +375,9 @@
     ],
     "id": 70125,
     "loc": "13449.4961, 19977.1563",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 6",
+    "description": "Sack in west The Watching Woods"
   },
   "forest_ring_stam_pkp": {
     "items": [
@@ -313,7 +385,9 @@
     ],
     "id": 70128,
     "loc": "16651.0117, 20311.9",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 9",
+    "description": "Sack in middle The Watching Woods"
   },
   "forest_alchemist_key_pkp": {
     "items": [
@@ -321,7 +395,9 @@
     ],
     "id": 70131,
     "loc": "18484.3359, 18193.65",
-    "region": "the_watching_woods_top"
+    "region": "the_watching_woods_top",
+    "name": "The Watching Woods Sack 14",
+    "description": "Sack in upper The Watching Woods"
   },
   "fortress_ring_vit_pkp": {
     "items": [
@@ -329,7 +405,9 @@
     ],
     "id": 70134,
     "loc": "13058.2275, 8293.492",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 7",
+    "description": "Sack in upper west The Festering Banquet"
   },
   "greenvillage_ring_str_pkp": {
     "items": [
@@ -337,7 +415,9 @@
     ],
     "id": 70137,
     "loc": "29214.8984, 19461.3223",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 13",
+    "description": "Sack in west Sunken Keep"
   },
   "castle_charm_fire_pkp": {
     "items": [
@@ -345,7 +425,9 @@
     ],
     "id": 70140,
     "loc": "38468.2734, 2286.2417",
-    "region": "castle_of_storms_shadowflip"
+    "region": "castle_of_storms_shadowflip",
+    "name": "Castle of Storms Sack 14",
+    "description": "Sack below Kraekan Wyrm in upper Castle of Storms"
   },
   "village_charm_atk_pkp": {
     "items": [
@@ -353,7 +435,9 @@
     ],
     "id": 70143,
     "loc": "2283.67554, 20815.3887",
-    "region": "village_charm_atk"
+    "region": "village_charm_atk",
+    "name": "Village of Smiles Sack 13",
+    "description": "Sack in lower west Village of Smiles, undeground"
   },
   "greenvillage_ring_magb_pkp": {
     "items": [
@@ -361,7 +445,9 @@
     ],
     "id": 70146,
     "loc": "38196.7539, 20015.707",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 12",
+    "description": "Sack in east Sunken Keep"
   },
   "dungeon_health_shard_pkp": {
     "items": [
@@ -370,7 +456,9 @@
     ],
     "id": 70149,
     "loc": "44411.13, 25092.4629",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 5",
+    "description": "Sack on west side of multi-wheel platform room in middle Red Hall of Cages"
   },
   "dungeon_holy_def_pkp": {
     "items": [
@@ -378,7 +466,9 @@
     ],
     "id": 70153,
     "loc": "52535.89, 18610.6738",
-    "region": "dungeontoruins_switch"
+    "region": "dungeontoruins_switch",
+    "name": null,
+    "description": "Sack at the Red Hall of Cages entrance in west The Ruined Temple"
   },
   "dungeon_charm_mp_leech_pkp": {
     "items": [
@@ -386,7 +476,9 @@
     ],
     "id": 70156,
     "loc": "32544.584, 23825.9434",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 11",
+    "description": "Sack near the Sunken Keep entrance in upper west Hager's Cavern"
   },
   "dungeon_salt3statue_blacksmith_pkp": {
     "items": [
@@ -395,7 +487,9 @@
     ],
     "id": 70159,
     "loc": "43324.5859, 19116.123",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 7",
+    "description": "Sack near double lift, west of single-wheel room in middle Red Hall of Cages"
   },
   "dungeon_beast_spark_pkp": {
     "items": [
@@ -404,7 +498,9 @@
     ],
     "id": 70163,
     "loc": "41655.17, 19131.6367",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 3",
+    "description": "Sack above Sunken Keep entrance, in middle Red Hall of Cages"
   },
   "dungeon_sword_40349_pkp": {
     "items": [
@@ -412,7 +508,9 @@
     ],
     "id": 70167,
     "loc": "44104.96, 16558.207",
-    "region": "red_hall_of_cages_hanged"
+    "region": "red_hall_of_cages_hanged",
+    "name": "Red Hall of Cages Sack 13",
+    "description": "Sack in middle of shaft that leads up to the crater below Mal's Floating Castle, in upper Red Hall of Cages"
   },
   "dungeon_lit_storm_pkp": {
     "items": [
@@ -420,7 +518,9 @@
     ],
     "id": 70170,
     "loc": "39979.0742, 12650.0781",
-    "region": "white_room"
+    "region": "white_room",
+    "name": "Red Hall of Cages Sack 17",
+    "description": "Sack outside the white room leading to Mad Jester, in upper east Red Hall of Cages"
   },
   "dungeon_charm_poison_pkp": {
     "items": [
@@ -428,7 +528,9 @@
     ],
     "id": 70173,
     "loc": "35143.7773, 17091.8945",
-    "region": "dungeon_charm_poison"
+    "region": "dungeon_charm_poison",
+    "name": "Red Hall of Cages Sack 19",
+    "description": "Sack behind upper fake wall in west Red Hall of Cages"
   },
   "castle_ivory_43710_pkp": {
     "items": [
@@ -436,7 +538,9 @@
     ],
     "id": 70176,
     "loc": "43710.11, 8073.781",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Castle of Storms Sack 21",
+    "description": "Sack above Voice of the Nameless in east Castle of Storms"
   },
   "castle_ring_salt_pkp": {
     "items": [
@@ -444,7 +548,9 @@
     ],
     "id": 70179,
     "loc": "40223.9648, 2270.40381",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 9",
+    "description": "Sack east of Kraeken Wyrm in upper Castle of Storms"
   },
   "hidden_passage_salt_12542_pkp": {
     "items": [
@@ -452,7 +558,9 @@
     ],
     "id": 70182,
     "loc": "12542.9287, 21526.27",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "Village of Smiles Sack 23",
+    "description": "Sack in lower east Village of Smiles, underground"
   },
   "dungeon_health_statue_cleric_pkp": {
     "items": [
@@ -461,7 +569,9 @@
     ],
     "id": 70185,
     "loc": "39685.11, 27850.48",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 12",
+    "description": "Sack east of the Sanctuary in east Hager's Cavern"
   },
   "village_trees_ring_vit_pkp": {
     "items": [
@@ -469,7 +579,9 @@
     ],
     "id": 70189,
     "loc": "13009.37, 17462.6113",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 11",
+    "description": "Sack in east Village of Smiles"
   },
   "bluecave_statue_mage_pkp": {
     "items": [
@@ -477,7 +589,9 @@
     ],
     "id": 70192,
     "loc": "31901.4473, 29488.8027",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 9",
+    "description": "Upper sack below the entrance to the Disembowled Husk boss fight in Hager's Cavern"
   },
   "bluecave_charm_lit_pkp": {
     "items": [
@@ -485,7 +599,9 @@
     ],
     "id": 70195,
     "loc": "35802.7266, 28463",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 2",
+    "description": "Lower sack west of the Sanctuary in east Hager's Cavern"
   },
   "fortress_spear_pkp": {
     "items": [
@@ -494,7 +610,9 @@
     ],
     "id": 70198,
     "loc": "16036.92, 13125.8135",
-    "region": "the_festering_banquet_cave"
+    "region": "the_festering_banquet_cave",
+    "name": "The Festering Banquet Sack 15",
+    "description": "Sack in lower The Festering Banquet, underground"
   },
   "village_ring_roll_pkp": {
     "items": [
@@ -502,7 +620,9 @@
     ],
     "id": 70202,
     "loc": "2086.409, 17062.4453",
-    "region": "village_ring_roll"
+    "region": "village_ring_roll",
+    "name": "Village of Smiles Sack 14",
+    "description": "Sack in hidden room in west Village of Smiles"
   },
   "midsecret_shield_oval_pkp": {
     "items": [
@@ -511,7 +631,9 @@
     ],
     "id": 70205,
     "loc": "30729.6484, 17758.6523",
-    "region": "sunken_keep_top"
+    "region": "sunken_keep_top",
+    "name": "Sunken Keep Sack 17",
+    "description": "Sack in floating room in upper Sunken Keep"
   },
   "dungeon_salt_50208_pkp": {
     "items": [
@@ -520,7 +642,9 @@
     ],
     "id": 70209,
     "loc": "50301.44, 21069.1934",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 6",
+    "description": "Sack on east side of room east of Despondent Thief in middle Red Hall of Cages"
   },
   "dungeon_37107_pkp": {
     "items": [
@@ -529,7 +653,9 @@
     ],
     "id": 70213,
     "loc": "37279.7422, 10752.0371",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 2",
+    "description": "Sack near Castle of Storms entrance in upper Red Hall of Cages"
   },
   "dungeon_38275_pkp": {
     "items": [
@@ -538,7 +664,9 @@
     ],
     "id": 70217,
     "loc": "38275.1, 12465.1855",
-    "region": "white_room"
+    "region": "red_hall_of_cages_vertigo",
+    "name": "Red Hall of Cages Sack 11",
+    "description": "Sack west of the white room that leads to the Jester, in upper Red Hall of Cages"
   },
   "village_trees_flame_storm_pkp": {
     "items": [
@@ -546,7 +674,9 @@
     ],
     "id": 70221,
     "loc": "12473.9355, 17127.041",
-    "region": "village_of_smiles_trees"
+    "region": "village_of_smiles_trees",
+    "name": "Village of Smiles Sack 15",
+    "description": "Sack in east Village of Smiles"
   },
   "dungeon_salt_47480_pkp": {
     "items": [
@@ -554,7 +684,9 @@
     ],
     "id": 70224,
     "loc": "47480.2969, 22025.43",
-    "region": "despondent_2_room_east"
+    "region": "despondent_2_room_east",
+    "name": "Red Hall of Cages Sack 23",
+    "description": "Sack on east side of Despondent Thief room in middle Red Hall of Cages"
   },
   "hidden_salt_axe_16822_pkp": {
     "items": [
@@ -562,7 +694,9 @@
     ],
     "id": 70227,
     "loc": "17519.8066, 12295.4893",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 11",
+    "description": "Sack outside the middle east entrance of The Festering Banquet"
   },
   "fortresssalt1_11670_pkp": {
     "items": [
@@ -570,7 +704,9 @@
     ],
     "id": 70230,
     "loc": "11670.1768, 12295.2354",
-    "region": "shivering_shore_east"
+    "region": "shivering_shore_east",
+    "name": "Shivering Shore Sack 2",
+    "description": "Sack on the scaffolding east of sanctuary in east Shivering Shore"
   },
   "statue_guide_40293_pkp": {
     "items": [
@@ -578,7 +714,9 @@
     ],
     "id": 70233,
     "loc": "40293.7969, 16939.416",
-    "region": "red_hall_of_cages"
+    "region": "statue_guide_40293",
+    "name": "Red Hall of Cages Sack 12",
+    "description": "Sack below the room that normally contains Hanged Man enemies, in middle Red Hall of Cages"
   },
   "bluecave_red_spark_33749_pkp": {
     "items": [
@@ -586,7 +724,9 @@
     ],
     "id": 70236,
     "loc": "33749.0742, 27658.9",
-    "region": "cave_mire_lower"
+    "region": "cave_mire_lower",
+    "name": "Hager's Cavern Sack 27",
+    "description": "Sack above and east of the entrance to the Disemboweled Husk boss fight, in middle Hager's Cavern"
   },
   "bluecave_beast_spark_31775_pkp": {
     "items": [
@@ -594,7 +734,9 @@
     ],
     "id": 70239,
     "loc": "31775.5938, 30001.4063",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 1",
+    "description": "Lower sack below the entrance to the Disemboweled Husk boss fight, in Hager's Cavern"
   },
   "bluecave_white_flame_33948_pkp": {
     "items": [
@@ -602,7 +744,9 @@
     ],
     "id": 70242,
     "loc": "33948.6563, 31085.62",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 10",
+    "description": "Sack above bottom of slope in lower Hager's Cavern"
   },
   "village_white_spark_8031_pkp": {
     "items": [
@@ -611,7 +755,9 @@
     ],
     "id": 70245,
     "loc": "8031.39258, 15575.6328",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 12",
+    "description": "Sack on scaffolding in upper Village of Smiles"
   },
   "dungeon_fire_oribts_pkp": {
     "items": [
@@ -619,7 +765,9 @@
     ],
     "id": 70249,
     "loc": "45540.1523, 26995.502",
-    "region": "dungeon_fire_oribts"
+    "region": "dungeon_fire_oribts",
+    "name": "Red Hall of Cages Sack 27",
+    "description": "Sack west of the Shrine in lower west Red Hall of Cages"
   },
   "swamp_blue_spark_23759_pkp": {
     "items": [
@@ -627,7 +775,9 @@
     ],
     "id": 70252,
     "loc": "23759.5527, 24907.5664",
-    "region": "mire_of_stench_upper"
+    "region": "mire_of_stench_upper",
+    "name": null,
+    "description": "Lower sack west of the top building in upper Mire of Stench"
   },
   "swamp_salt5_23795_pkp": {
     "items": [
@@ -635,7 +785,9 @@
     ],
     "id": 70255,
     "loc": "23795.3418, 26930.4746",
-    "region": "mire_of_stench_upper"
+    "region": "mire_of_stench_upper",
+    "name": null,
+    "description": "Lower sack below the middle building in middle Mire of Stench"
   },
   "swamp_poison_def_26836_pkp": {
     "items": [
@@ -643,7 +795,9 @@
     ],
     "id": 70258,
     "loc": "26836.77, 28693.9824",
-    "region": "mire_of_stench_lower"
+    "region": "mire_of_stench_lower",
+    "name": null,
+    "description": "Sack east of the Sanctuary in lower Mire of Stench"
   },
   "swamp_shield_cleric_26163_pkp": {
     "items": [
@@ -651,7 +805,9 @@
     ],
     "id": 70261,
     "loc": "16682.4121, 28023.6426",
-    "region": "swamp_cleric"
+    "region": "swamp_cleric",
+    "name": null,
+    "description": "Sack above Alde Griggs in lower west Mire of Stench"
   },
   "bluecave_shield_antler_30391_pkp": {
     "items": [
@@ -659,7 +815,9 @@
     ],
     "id": 70264,
     "loc": "38194.1328, 31786.873",
-    "region": "hagers_cellar_key_cave"
+    "region": "hagers_cellar_key_cave",
+    "name": "Hager's Cavern Sack 19",
+    "description": "Sack on middle platform in cave in lower east Hager's Cavern"
   },
   "dungeon_waterpot_43939_pkp": {
     "items": [
@@ -667,7 +825,9 @@
     ],
     "id": 70267,
     "loc": "43445.9727, 27530.6348",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 9",
+    "description": "Sack west of Shrine in lower Red Hall of Cages"
   },
   "bluecave_statue_cleric_31349_pkp": {
     "items": [
@@ -675,7 +835,9 @@
     ],
     "id": 70270,
     "loc": "31349.38, 32077.7832",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 7",
+    "description": "Sack on the lower end of the wrecked ship half in lower west Hager's Cavern"
   },
   "swamp_dagger_shiv_20204_pkp": {
     "items": [
@@ -683,7 +845,9 @@
     ],
     "id": 70273,
     "loc": "20204.832, 28498.5586",
-    "region": "mire_of_stench_lower"
+    "region": "mire_of_stench_lower",
+    "name": null,
+    "description": "Lower sack west of the Sanctuary in lower Mire of Stench"
   },
   "bluecave_staff_wood_28709_pkp": {
     "items": [
@@ -691,7 +855,9 @@
     ],
     "id": 70276,
     "loc": "29802.0977, 31655.7813",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 6",
+    "description": "Sack on the upper end of the wrecked ship half in lower west Hager's Cavern"
   },
   "village_trees_claymore_pkp": {
     "items": [
@@ -699,7 +865,9 @@
     ],
     "id": 70279,
     "loc": "8393.175, 17497.3711",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 10",
+    "description": "Sack in middle Village of Smiles"
   },
   "greenvillage_bell_31063_pkp": {
     "items": [
@@ -707,7 +875,9 @@
     ],
     "id": 70282,
     "loc": "31063.81, 23536.6973",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 7",
+    "description": "Sack by Hager's Cavern entrance in lower Sunken Keep"
   },
   "dome_staff_60325_pkp": {
     "items": [
@@ -715,7 +885,9 @@
     ],
     "id": 70285,
     "loc": "60325.7969, 11690.4912",
-    "region": "dome_middle"
+    "region": "dome_middle",
+    "name": null,
+    "description": "Upper sack above The Untouched Inquisitor, in middle Dome of the Forgotten"
   },
   "ruins_whiteflame_62759_pkp": {
     "items": [
@@ -723,7 +895,9 @@
     ],
     "id": 70288,
     "loc": "62759.4844, 19689.6523",
-    "region": "the_ruined_temple_middle"
+    "region": "the_ruined_temple_middle",
+    "name": null,
+    "description": "Sack above the double gates in middle The Ruined Temple"
   },
   "hidden_sanctuary_spear_pitchfork_pkp": {
     "items": [
@@ -732,7 +906,9 @@
     ],
     "id": 70291,
     "loc": "21019.0879, 11753.0117",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "The Festering Banquet Sack 24",
+    "description": "Sack outside fake wall in east The Festering Banquet"
   },
   "hidden_sanctuary_axe_great_pkp": {
     "items": [
@@ -741,7 +917,9 @@
     ],
     "id": 70295,
     "loc": "33125.09, 9274.463",
-    "region": "hidden_sanctuary_axe_great"
+    "region": "hidden_sanctuary_axe_great",
+    "name": "Bandit's Pass Sack 16",
+    "description": "Sack behind door above Castle of Storms entrance in east Bandit's Pass"
   },
   "hidden_sanctuary_31591_pkp": {
     "items": [
@@ -749,7 +927,9 @@
     ],
     "id": 70299,
     "loc": "31591.0449, 9891.452",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 5",
+    "description": "Sack near Castle of Storms in east Bandit's Pass"
   },
   "greenvillage_salt6_32253_pkp": {
     "items": [
@@ -758,7 +938,9 @@
     ],
     "id": 70302,
     "loc": "32253.2285, 19996.6738",
-    "region": "greenvillage_salt6"
+    "region": "greenvillage_salt6",
+    "name": "Sunken Keep Sack 21",
+    "description": "Sack behind fake wall in tall building in east Sunken Keep"
   },
   "greenvillage_hammer_great_pkp": {
     "items": [
@@ -766,7 +948,9 @@
     ],
     "id": 70306,
     "loc": "30155.959, 21943.16",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 9",
+    "description": "Sack in lower Sunken Keep"
   },
   "pcastle_34312_pkp": {
     "items": [
@@ -775,7 +959,9 @@
     ],
     "id": 70309,
     "loc": "34312.5352, 8951.308",
-    "region": "castle_of_storms"
+    "region": "bandits_pass_vertigo",
+    "name": "Bandit's Pass Sack 15",
+    "description": "Sack above Castle of Storms entrance in east Bandit's Pass"
   },
   "hidden_sancledge_22763_pkp": {
     "items": [
@@ -783,7 +969,9 @@
     ],
     "id": 70313,
     "loc": "24548.7324, 10443.57",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 3",
+    "description": "Sack on top of the Sanctuary in west Bandit's Pass"
   },
   "fortress_bell_16140_pkp": {
     "items": [
@@ -791,7 +979,9 @@
     ],
     "id": 70316,
     "loc": "16140.7646, 11180.6084",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 2",
+    "description": "Sack in the middle of The Festering Banquet"
   },
   "greenvillage_bell_29341_pkp": {
     "items": [
@@ -799,7 +989,9 @@
     ],
     "id": 70319,
     "loc": "29341.5762, 20778.5449",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 6",
+    "description": "Sack in lower Sunken Keep"
   },
   "village_bell_9554_pkp": {
     "items": [
@@ -807,7 +999,9 @@
     ],
     "id": 70322,
     "loc": "9554.847, 16822.8379",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 2",
+    "description": "Sack in middle Village of Smiles"
   },
   "bluecave_key_cave_37705_pkp": {
     "items": [
@@ -815,7 +1009,9 @@
     ],
     "id": 70325,
     "loc": "37755.1172, 32238.998",
-    "region": "hagers_cellar_key_cave"
+    "region": "hagers_cellar_key_cave",
+    "name": "Hager's Cavern Sack 18",
+    "description": "Sack on lowest floor in cave in lower east Hager's Cavern"
   },
   "fortress_black_pearl_pkp": {
     "items": [
@@ -823,7 +1019,9 @@
     ],
     "id": 70328,
     "loc": "13270.5068, 7153.633",
-    "region": "the_festering_banquet_vertigo"
+    "region": "the_festering_banquet_vertigo",
+    "name": "The Festering Banquet Sack 14",
+    "description": "Sack in upper west The Festering Banquet"
   },
   "hidden_black_pearl_pkp": {
     "items": [
@@ -831,7 +1029,9 @@
     ],
     "id": 70331,
     "loc": "18541.86, 11498.8223",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "The Festering Banquet Sack 23",
+    "description": "Sack by Masterless Knight in east The Festering Banquet"
   },
   "forest_black_pearl_pkp": {
     "items": [
@@ -839,7 +1039,9 @@
     ],
     "id": 70334,
     "loc": "19441.68, 18065.9824",
-    "region": "the_watching_woods_top"
+    "region": "the_watching_woods_top",
+    "name": "The Watching Woods Sack 15",
+    "description": "Sack in upper The Watching Woods"
   },
   "village_black_pearl_pkp": {
     "items": [
@@ -847,7 +1049,9 @@
     ],
     "id": 70337,
     "loc": "5771.40039, 18552.1",
-    "region": "village_cave"
+    "region": "village_cave",
+    "name": "Village of Smiles Sack 17",
+    "description": "Sack in lower Village of Smiles, underground"
   },
   "hidden_passage_14332_pkp": {
     "items": [
@@ -855,7 +1059,9 @@
     ],
     "id": 70340,
     "loc": "14348.3672, 22831.9648",
-    "region": "village_cave_vertigo"
+    "region": "village_cave_vertigo",
+    "name": "Village of Smiles Sack 19",
+    "description": "Sack in lower east Village of Smiles, underground"
   },
   "hidden_passage_6058_pkp": {
     "items": [
@@ -863,7 +1069,9 @@
     ],
     "id": 70343,
     "loc": "6082.861, 21984.6445",
-    "region": "village_cave_vertigo"
+    "region": "village_cave_vertigo",
+    "name": "Village of Smiles Sack 20",
+    "description": "Sack in lower Village of Smiles, underground"
   },
   "swamp_return_23587_pkp": {
     "items": [
@@ -871,7 +1079,9 @@
     ],
     "id": 70346,
     "loc": "23587.7012, 24438.8965",
-    "region": "mire_of_stench_upper"
+    "region": "mire_of_stench_upper",
+    "name": null,
+    "description": "Upper sack west of the top building in upper Mire of Stench"
   },
   "swamp_pirate_24248_pkp": {
     "items": [
@@ -881,7 +1091,9 @@
     ],
     "id": 70349,
     "loc": "23377.4863, 26455.0039",
-    "region": "mire_of_stench_upper"
+    "region": "mire_of_stench_upper",
+    "name": null,
+    "description": "Upper sack below the middle building in middle Mire of Stench"
   },
   "fortress_lit_15226_pkp": {
     "items": [
@@ -890,7 +1102,9 @@
     ],
     "id": 70354,
     "loc": "16916.1328, 14444.1895",
-    "region": "the_festering_banquet_cave_hidden_east"
+    "region": "the_festering_banquet_cave_hidden_east",
+    "name": "The Festering Banquet Sack 18",
+    "description": "Sack in hidden cave in lower eastern The Festering Banquet, underground"
   },
   "ruin_room_spear_14388_pkp": {
     "items": [
@@ -898,7 +1112,9 @@
     ],
     "id": 70358,
     "loc": "14388.2676, 27667.7852",
-    "region": "hagers_to_fort"
+    "region": "hagers_to_fort",
+    "name": "Hager's Cavern Sack 29",
+    "description": "Sack east of the entrance to Fort-Beyond-The-Mire in far west Hager's Cavern"
   },
   "ruin_ring_def_5939_pkp": {
     "items": [
@@ -906,7 +1122,9 @@
     ],
     "id": 70361,
     "loc": "5950.48926, 27416.0059",
-    "region": "fort_beyond_the_mire_upper"
+    "region": "fort_beyond_the_mire_upper",
+    "name": null,
+    "description": "Sack east of the Sanctuary in the fort in Fort-Beyond-The-Mire"
   },
   "ruin_salt_4420_pkp": {
     "items": [
@@ -915,7 +1133,9 @@
     ],
     "id": 70364,
     "loc": "4420.826, 26289.8047",
-    "region": "fort_beyond_the_mire_top"
+    "region": "fort_beyond_the_mire_top",
+    "name": null,
+    "description": "Upper sack on the roof of the fort in Fort-Beyond-The-Mire"
   },
   "ruin_bell_4084_pkp": {
     "items": [
@@ -923,7 +1143,9 @@
     ],
     "id": 70368,
     "loc": "4084.25732, 26965.1113",
-    "region": "fort_beyond_the_mire_top"
+    "region": "fort_beyond_the_mire_top",
+    "name": null,
+    "description": "Lower sack on the roof of the fort in Fort-Beyond-The-Mire"
   },
   "fortress_torch_16220_pkp": {
     "items": [
@@ -931,7 +1153,9 @@
     ],
     "id": 70371,
     "loc": "16187.9473, 13714.8076",
-    "region": "the_festering_banquet_cave"
+    "region": "the_festering_banquet_cave",
+    "name": "The Festering Banquet Sack 16",
+    "description": "Sack in lower The Festering Banquet, underground"
   },
   "midsecret_25589_pkp": {
     "items": [
@@ -939,7 +1163,9 @@
     ],
     "id": 70374,
     "loc": "29535.8789, 16184.0566",
-    "region": "bronze_key_cave"
+    "region": "bronze_key_cave",
+    "name": "Bandit's Pass Sack 3",
+    "description": "Sack in lower Bandit's Pass, underground"
   },
   "dungeon_fire2_33509_pkp": {
     "items": [
@@ -947,7 +1173,9 @@
     ],
     "id": 70377,
     "loc": "33509.918, 15441.1406",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 4",
+    "description": "Sack near Bandit's Pass cave entrance in west Red Hall of Cages"
   },
   "fortress_heal_16902_pkp": {
     "items": [
@@ -955,7 +1183,9 @@
     ],
     "id": 70380,
     "loc": "16407.5313, 11757.0508",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 3",
+    "description": "Sack at the upper east entrance of The Festering Banquet"
   },
   "greenvillage_holy_buff_pkp": {
     "items": [
@@ -963,7 +1193,9 @@
     ],
     "id": 70383,
     "loc": "35881.67, 22351.7148",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 10",
+    "description": "Sack in lower east Sunken Keep"
   },
   "bluecave_holy_buff2_pkp": {
     "items": [
@@ -971,7 +1203,9 @@
     ],
     "id": 70386,
     "loc": "35501.4, 26999.39",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 4",
+    "description": "Upper sack west of the Sanctuary in east Hager's Cavern"
   },
   "bluecave_fire_turret_pkp": {
     "items": [
@@ -979,7 +1213,9 @@
     ],
     "id": 70389,
     "loc": "35051.625, 24276.31",
-    "region": "bluecave_fire_turret"
+    "region": "bluecave_fire_turret",
+    "name": "Hager's Cavern Sack 17",
+    "description": "Sack west of Despondent Thief in upper east Hager's Cavern"
   },
   "castle_rapid_lit_34782_pkp": {
     "items": [
@@ -987,7 +1223,9 @@
     ],
     "id": 70392,
     "loc": "34771.0469, 8720.366",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 6",
+    "description": "Sack in lower west Castle of Storms"
   },
   "castle_split_helm_pkp": {
     "items": [
@@ -995,7 +1233,9 @@
     ],
     "id": 70395,
     "loc": "42076.418, 6254.339",
-    "region": "castle_split_helm"
+    "region": "castle_split_helm",
+    "name": "Castle of Storms Sack 19",
+    "description": "Sack east of double gate, in east Castle of Storms"
   },
   "castle_holy_cone_pkp": {
     "items": [
@@ -1003,7 +1243,9 @@
     ],
     "id": 70398,
     "loc": "39448.9453, 7560.113",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 5",
+    "description": "Sack below double gate in middle Castle of Storms"
   },
   "charm_poise_80996_pkp": {
     "items": [
@@ -1011,7 +1253,9 @@
     ],
     "id": 70401,
     "loc": "80909.33, 10523.8125",
-    "region": "ziggurat_upper2"
+    "region": "ziggurat_upper2",
+    "name": null,
+    "description": "West sack below The Dried King in upper Ziggurat of Dust"
   },
   "dome_gun_flintlock_60325_pkp": {
     "items": [
@@ -1020,7 +1264,9 @@
     ],
     "id": 70404,
     "loc": "55843.832, 11119.4639",
-    "region": "dome_west_upper"
+    "region": "dome_west_upper",
+    "name": null,
+    "description": "Sack against the west wall near the blinking platforms in west Dome of the Forgotten"
   },
   "dome_buff_fire_59086_pkp": {
     "items": [
@@ -1028,7 +1274,9 @@
     ],
     "id": 70408,
     "loc": "59086.11, 10674.9443",
-    "region": "dome_west_upper"
+    "region": "dome_west_upper",
+    "name": null,
+    "description": "Sack in the upper east corner of west Dome of the Forgotten"
   },
   "fortressstatue_guide_11407_pkp": {
     "items": [
@@ -1037,7 +1285,9 @@
     ],
     "id": 70411,
     "loc": "11404.1758, 13267.0576",
-    "region": "the_festering_banquet_cave"
+    "region": "the_festering_banquet_cave",
+    "name": "The Festering Banquet Sack 17",
+    "description": "Sack in lower west The Festering Banquet, underground"
   },
   "midsecretstatue_alchemist_pkp": {
     "items": [
@@ -1045,7 +1295,9 @@
     ],
     "id": 70415,
     "loc": "25369.6387, 15958.63",
-    "region": "bronze_key_cave"
+    "region": "bronze_key_cave",
+    "name": "Bandit's Pass Sack 5",
+    "description": "Sack in lower west Bandit's Pass, underground"
   },
   "ruins_statue_guide_61709_pkp": {
     "items": [
@@ -1053,7 +1305,9 @@
     ],
     "id": 70418,
     "loc": "61709.0977, 21564.19",
-    "region": "the_ruined_temple_crans_pass"
+    "region": "the_ruined_temple_crans_pass",
+    "name": null,
+    "description": "Sack near the Cran's Pass entrance in west The Ruined Temple"
   },
   "statue_guide_82894_pkp": {
     "items": [
@@ -1061,7 +1315,9 @@
     ],
     "id": 70421,
     "loc": "82894.95, 10854.748",
-    "region": "ziggurat_upper2"
+    "region": "ziggurat_upper2",
+    "name": null,
+    "description": "East sack below The Dried King in upper Ziggurat of Dust"
   },
   "statue_guide_62636_pkp": {
     "items": [
@@ -1069,7 +1325,9 @@
     ],
     "id": 70424,
     "loc": "62636.33, 11954.6406",
-    "region": "dome_middle"
+    "region": "dome_middle",
+    "name": null,
+    "description": "Sack by the Switch in east Dome of the Forgotten"
   },
   "statue_guide_35484_pkp": {
     "items": [
@@ -1077,7 +1335,9 @@
     ],
     "id": 70427,
     "loc": "35484.58, 4851.982",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 13",
+    "description": "Sack on zigzag stairs in upper west Castle of Storms"
   },
   "statue_guide_27244_pkp": {
     "items": [
@@ -1085,7 +1345,9 @@
     ],
     "id": 70430,
     "loc": "27244.5664, 10154.5674",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 10",
+    "description": "Sack on tree branches in Bandit's Pass"
   },
   "statue_guide_667_pkp": {
     "items": [
@@ -1093,7 +1355,9 @@
     ],
     "id": 70433,
     "loc": "667.260437, 16765.7344",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 1",
+    "description": "Sack in west Village of Smiles"
   },
   "statue_guide_25428_pkp": {
     "items": [
@@ -1101,7 +1365,9 @@
     ],
     "id": 70436,
     "loc": "25428.4023, 25822.4453",
-    "region": "mire_of_stench_upper"
+    "region": "mire_of_stench_upper",
+    "name": null,
+    "description": "Sack on narrow platform east of the middle building, in east Mire of Stench"
   },
   "statue_guide_38964_pkp": {
     "items": [
@@ -1109,7 +1375,9 @@
     ],
     "id": 70439,
     "loc": "38965.4375, 30633.4375",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 15",
+    "description": "Sack west of door in cave in lower east Hager's Cavern"
   },
   "bluecave_statue_mage_34244_pkp": {
     "items": [
@@ -1117,7 +1385,9 @@
     ],
     "id": 70442,
     "loc": "34192.6953, 26473.5918",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 8",
+    "description": "Sack on a floating island across blinking platforms west of the Sanctuary in Hager's Cavern"
   },
   "ruins_statue_cleric_65062_pkp": {
     "items": [
@@ -1125,7 +1395,9 @@
     ],
     "id": 70445,
     "loc": "65062.0234, 19183.916",
-    "region": "the_ruined_temple_middle"
+    "region": "the_ruined_temple_middle",
+    "name": null,
+    "description": "Sack near the east wall in middle The Ruined Temple"
   },
   "statue_statue_blacksmith_76993_pkp": {
     "items": [
@@ -1133,7 +1405,9 @@
     ],
     "id": 70448,
     "loc": "76993.7, 12572.2861",
-    "region": "ziggurat_blacksmith"
+    "region": "ziggurat_blacksmith",
+    "name": null,
+    "description": "Sack above the western room in west Ziggurat of Dust"
   },
   "statue_cleric_86774_pkp": {
     "items": [
@@ -1141,7 +1415,9 @@
     ],
     "id": 70451,
     "loc": "86740.07, 13677.3105",
-    "region": "the_far_beach_east"
+    "region": "the_far_beach_east",
+    "name": null,
+    "description": "West sack in the pit at the middle east The Far Beach entrance in east Ziggurat of Dust"
   },
   "whip_chain_87089_pkp": {
     "items": [
@@ -1149,7 +1425,9 @@
     ],
     "id": 70454,
     "loc": "87089.61, 13688.0977",
-    "region": "the_far_beach_east"
+    "region": "the_far_beach_east",
+    "name": null,
+    "description": "East sack in the pit at the middle east The Far Beach entrance in east Ziggurat of Dust"
   },
   "dungeon_statue_alchemist_48137_pkp": {
     "items": [
@@ -1157,7 +1435,9 @@
     ],
     "id": 70457,
     "loc": "48137.2578, 24493.957",
-    "region": "red_hall_of_cages_crans_pass"
+    "region": "red_hall_of_cages_crans_pass",
+    "name": "Red Hall of Cages Sack 25",
+    "description": "Sack behind fake wall leading to Cran's Pass in lower east Red Hall of Cages"
   },
   "midsecretcharm_statue_leader_pkp": {
     "items": [
@@ -1165,7 +1445,9 @@
     ],
     "id": 70460,
     "loc": "27454.3164, 17395.7129",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 14",
+    "description": "Sack in upper west Sunken Keep"
   },
   "village_statue_leader_pkp": {
     "items": [
@@ -1173,7 +1455,9 @@
     ],
     "id": 70463,
     "loc": "10642.5508, 18120.2246",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 9",
+    "description": "Sack in east Village of Smiles"
   },
   "statue_leader_25068_pkp": {
     "items": [
@@ -1181,7 +1465,9 @@
     ],
     "id": 70466,
     "loc": "25853.4551, 25021.71",
-    "region": "mire_of_stench_upper"
+    "region": "mire_of_stench_upper",
+    "name": null,
+    "description": "Sack in the top building in upper east Mire of Stench"
   },
   "greenvillage_light_26929_pkp": {
     "items": [
@@ -1189,7 +1475,9 @@
     ],
     "id": 70469,
     "loc": "26929.77, 19270.5684",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 11",
+    "description": "Sack in cave in west Sunken Keep"
   },
   "hidden_statue_sellsword_23996_pkp": {
     "items": [
@@ -1197,7 +1485,9 @@
     ],
     "id": 70472,
     "loc": "23996.7852, 11023.0156",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 6",
+    "description": "Sack in the Sanctuary in west Bandit's Pass"
   },
   "midsecretshield_round_pkp": {
     "items": [
@@ -1205,7 +1495,9 @@
     ],
     "id": 70475,
     "loc": "23668.9141, 14194.168",
-    "region": "jester_upper"
+    "region": "jester_upper",
+    "name": "The Festering Banquet Sack 21",
+    "description": "Sack in lower east The Festering Banquet, underground"
   },
   "castle_shield_silver_pkp": {
     "items": [
@@ -1213,7 +1505,9 @@
     ],
     "id": 70478,
     "loc": "38461.375, 6389.3623",
-    "region": "stormdualgatef"
+    "region": "stormdualgatef",
+    "name": "Castle of Storms Sack 20",
+    "description": "Sack between double gate in middle Castle of Storms"
   },
   "castle_real_ring_hp_pkp": {
     "items": [
@@ -1221,7 +1515,9 @@
     ],
     "id": 70481,
     "loc": "31559.6445, 5974.753",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 7",
+    "description": "Sack next to Masterless Knight in upper west Castle of Storms"
   },
   "dome_ring_magic_61610_pkp": {
     "items": [
@@ -1229,7 +1525,9 @@
     ],
     "id": 70484,
     "loc": "61855.6836, 10896.9121",
-    "region": "dome_ring_magic_61610"
+    "region": "dome_ring_magic_61610",
+    "name": null,
+    "description": "Sack across some Hardlight platforms above The Untouched Inquisitor, in middle Dome of the Forgotten"
   },
   "dungeon_ring_spirit_44551_pkp": {
     "items": [
@@ -1237,7 +1535,9 @@
     ],
     "id": 70487,
     "loc": "44551.87, 22409.8633",
-    "region": "despondent_2_room_west"
+    "region": "despondent_2_room_west",
+    "name": "Red Hall of Cages Sack 22",
+    "description": "Sack on upper west side of Despondent Thief room in middle Red Hall of Cages"
   },
   "swamp_ring_stamina_18459_pkp": {
     "items": [
@@ -1245,7 +1545,9 @@
     ],
     "id": 70490,
     "loc": "16490.69, 25083.0488",
-    "region": "mire_of_stench_west"
+    "region": "mire_of_stench_west",
+    "name": null,
+    "description": "Sack above The Mirekeeper in upper west Mire of Stench"
   },
   "ring_gold_40263_pkp": {
     "items": [
@@ -1253,7 +1555,9 @@
     ],
     "id": 70493,
     "loc": "40379.71, 29641.1563",
-    "region": "minty_approach"
+    "region": "minty_approach",
+    "name": "Hager's Cavern Sack 23",
+    "description": "Sack west of Minty Skell in the cave in lower east Hager's Cavern"
   },
   "dungeon_shield_tower_pkp": {
     "items": [
@@ -1261,7 +1565,9 @@
     ],
     "id": 70496,
     "loc": "36240.11, 13521.459",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 8",
+    "description": "Sack above Hager's Cavern entrance in west Red Hall of Cages"
   },
   "red_spark_38317_pkp": {
     "items": [
@@ -1269,7 +1575,9 @@
     ],
     "id": 70499,
     "loc": "38317.12, 17974.1855",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 10",
+    "description": "Sack east of the two fake walls in west Red Hall of Cages"
   },
   "ruins_holy_orbits_71482_pkp": {
     "items": [
@@ -1277,7 +1585,9 @@
     ],
     "id": 70502,
     "loc": "71482.2, 24249.68",
-    "region": "ruins_lower_east"
+    "region": "ruins_lower_east",
+    "name": null,
+    "description": "Sack east of the Sanctuary in lower east The Ruined Temple"
   },
   "ruins_spear_pilum_pkp": {
     "items": [
@@ -1286,7 +1596,9 @@
     ],
     "id": 70505,
     "loc": "60072.625, 19983.6758",
-    "region": "ruins_spear_pilum"
+    "region": "ruins_spear_pilum",
+    "name": null,
+    "description": "Sack west of the double gates in middle The Ruined Temple"
   },
   "pyramid_statue_mage_pkp": {
     "items": [
@@ -1294,7 +1606,9 @@
     ],
     "id": 70509,
     "loc": "85372.79, 14866.2842",
-    "region": "ziggurat_east_middle"
+    "region": "ziggurat_east_middle",
+    "name": null,
+    "description": "West sack above the tall ladder leading down to lower east Ziggurat of Dust"
   },
   "pyramid_ring_cheap_mag_pkp": {
     "items": [
@@ -1302,7 +1616,9 @@
     ],
     "id": 70512,
     "loc": "86826.62, 14638.042",
-    "region": "ziggurat_east_middle"
+    "region": "ziggurat_east_middle",
+    "name": null,
+    "description": "East sack above the tall ladder leading down to lower east Ziggurat of Dust"
   },
   "pyramid_statue_cleric_pkp": {
     "items": [
@@ -1310,7 +1626,9 @@
     ],
     "id": 70515,
     "loc": "89973.17, 17775.6172",
-    "region": "pyramid_statue_cleric"
+    "region": "pyramid_statue_cleric",
+    "name": null,
+    "description": "Sack in the lower east corner of Ziggurat of Dust"
   },
   "village_shield_branches_pkp": {
     "items": [
@@ -1318,7 +1636,9 @@
     ],
     "id": 70518,
     "loc": "10203.0049, 16464.8652",
-    "region": "village_shield_branches"
+    "region": "village_shield_branches",
+    "name": "Village of Smiles Sack 16",
+    "description": "Sack in east Village of Smiles"
   },
   "ruins_ring_damage_pkp": {
     "items": [
@@ -1326,7 +1646,9 @@
     ],
     "id": 70521,
     "loc": "67639.4844, 19918.793",
-    "region": "ruins_ring_damage"
+    "region": "ruins_ring_damage",
+    "name": null,
+    "description": "Sack east of the double gates, in east The Ruined Temple"
   },
   "red_spark_82798_pkp": {
     "items": [
@@ -1334,7 +1656,9 @@
     ],
     "id": 70524,
     "loc": "82798.18, 12264.2158",
-    "region": "ziggurat_stag"
+    "region": "ziggurat_stag",
+    "name": null,
+    "description": "Sack west of the Sanctuary in east Ziggurat of Dust"
   },
   "lab_blue_spark_51496_pkp": {
     "items": [
@@ -1342,7 +1666,9 @@
     ],
     "id": 70527,
     "loc": "51360.1523, 26602.8242",
-    "region": "salt_alkymancery_top_east"
+    "region": "salt_alkymancery_top_east",
+    "name": null,
+    "description": "Sack west of the fake wall on the way to Cran's Pass in upper Salt Alkymancery"
   },
   "lab_axe_blue_50052_pkp": {
     "items": [
@@ -1350,7 +1676,9 @@
     ],
     "id": 70530,
     "loc": "51528.3477, 28198.3262",
-    "region": "lab_axe_blue_50052"
+    "region": "lab_axe_blue_50052",
+    "name": null,
+    "description": "Sack next to the ladder in upper Salt Alkymancery"
   },
   "lab_statue_guide_51459_pkp": {
     "items": [
@@ -1358,7 +1686,9 @@
     ],
     "id": 70533,
     "loc": "50057.207, 27603.9258",
-    "region": "lab_statue_guide_51459"
+    "region": "lab_statue_guide_51459",
+    "name": null,
+    "description": "Sack west of the ladder in upper Salt Alkymancery"
   },
   "forest_buckler_19508_pkp": {
     "items": [
@@ -1367,7 +1697,9 @@
     ],
     "id": 70536,
     "loc": "19508.2441, 19238.8438",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 5",
+    "description": "Sack in middle The Watching Woods"
   },
   "lake_statue_guide_67994_pkp": {
     "items": [
@@ -1375,7 +1707,9 @@
     ],
     "id": 70540,
     "loc": "67994.13, 30741.74",
-    "region": "siam_lake_east"
+    "region": "siam_lake_east",
+    "name": null,
+    "description": "Sack west of the west The Blackest Vault entrance in east Siam Lake"
   },
   "lake_ring_cheap_wis_65846_pkp": {
     "items": [
@@ -1383,7 +1717,9 @@
     ],
     "id": 70543,
     "loc": "65846.33, 30757.3535",
-    "region": "lake_to_lab"
+    "region": "lake_to_lab",
+    "name": null,
+    "description": "Lower sack east of the Sanctuary in east Siam Lake"
   },
   "forest_axe_18935_pkp": {
     "items": [
@@ -1391,7 +1727,9 @@
     ],
     "id": 70546,
     "loc": "18935.58, 21837.2012",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 4",
+    "description": "Sack in lower The Watching Woods"
   },
   "swamp_cdo_26825_pkp": {
     "items": [
@@ -1399,7 +1737,9 @@
     ],
     "id": 70549,
     "loc": "26825.7148, 24267.332",
-    "region": "mire_of_stench_shrine"
+    "region": "mire_of_stench_shrine",
+    "name": "Mire of Stench Sack 1",
+    "description": "Sack west of the shrine in upper east Mire of Stench"
   },
   "ruin_holy_will_14878_pkp": {
     "items": [
@@ -1407,7 +1747,9 @@
     ],
     "id": 70552,
     "loc": "14878.3965, 31195.2227",
-    "region": "hagers_to_fort"
+    "region": "hagers_to_fort",
+    "name": "Hager's Cavern Sack 28",
+    "description": "Sack next to the high wall on the way leading to Fort-Beyond-The-Mire in far west Hager's Cavern"
   },
   "dungeon_shield_iron_45075_pkp": {
     "items": [
@@ -1415,7 +1757,9 @@
     ],
     "id": 70555,
     "loc": "45075.457, 13797.7158",
-    "region": "red_hall_of_cages"
+    "region": "below_mals_floating_castle",
+    "name": "Red Hall of Cages Sack 28",
+    "description": "Sack next to the Masterless Knight in upper east Red Hall of Cages"
   },
   "ruins_spark_63361_pkp": {
     "items": [
@@ -1423,7 +1767,9 @@
     ],
     "id": 70558,
     "loc": "63361.6875, 16278.793",
-    "region": "the_ruined_temple_upper"
+    "region": "the_ruined_temple_upper",
+    "name": null,
+    "description": "Middle sack in upper The Ruined Temple"
   },
   "lab_statue_flame_53398_pkp": {
     "items": [
@@ -1431,7 +1777,9 @@
     ],
     "id": 70561,
     "loc": "49747.0977, 33708.957",
-    "region": "salt_alkymancery_east_lower"
+    "region": "salt_alkymancery_east_lower",
+    "name": null,
+    "description": "Sack above the boss arena in lower Salt Alkymancery"
   },
   "forest_salt_13409_pkp": {
     "items": [
@@ -1440,7 +1788,9 @@
     ],
     "id": 70564,
     "loc": "14738.6025, 19315.04",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 10",
+    "description": "Sack in west The Watching Woods"
   },
   "vert_guide_52176_pkp": {
     "items": [
@@ -1448,7 +1798,9 @@
     ],
     "id": 70568,
     "loc": "52176.582, 4628.31348",
-    "region": "mals_sanctuary"
+    "region": "mals_sanctuary",
+    "name": null,
+    "description": "Sack east of the Sanctuary in east Mal's Floating Castle"
   },
   "tomb_salt_42096_pkp": {
     "items": [
@@ -1456,7 +1808,9 @@
     ],
     "id": 70571,
     "loc": "42096.1055, 33486.54",
-    "region": "tomb_salt_42096"
+    "region": "tomb_salt_42096",
+    "name": null,
+    "description": "Sack west of the Voice of the Nameless in upper east Crypt of Dead Gods"
   },
   "dungeon_lit_ghost_pkp": {
     "items": [
@@ -1464,7 +1818,9 @@
     ],
     "id": 70574,
     "loc": "52726.7852, 26617.83",
-    "region": "lab_to_crans_pass"
+    "region": "lab_to_crans_pass",
+    "name": null,
+    "description": "Sack east of the fake wall on the way to Cran's Pass in upper east Salt Alkymancery"
   },
   "lake_ring_light_58739_pkp": {
     "items": [
@@ -1472,7 +1828,9 @@
     ],
     "id": 70577,
     "loc": "29074.6719, 31033.22",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 13",
+    "description": "Sack east of the Shrine in west Hager's Cavern"
   },
   "bluecave_spark_35480_pkp": {
     "items": [
@@ -1480,7 +1838,9 @@
     ],
     "id": 70580,
     "loc": "35480.1445, 25283.4863",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 5",
+    "description": "Sack above scaffolding in upper east Hager's Cavern"
   },
   "earth_bag_85048_pkp": {
     "items": [
@@ -1488,7 +1848,9 @@
     ],
     "id": 70583,
     "loc": "85051.76, 12107.1641",
-    "region": "the_far_beach_east"
+    "region": "the_far_beach_east",
+    "name": null,
+    "description": "Sack below Luna Sage east of the Ziggurat in middle The Far Beach"
   },
   "hidden_passage_charm_reach_pkp": {
     "items": [
@@ -1496,7 +1858,9 @@
     ],
     "id": 70586,
     "loc": "12855.6, 21144.0977",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "Village of Smiles Sack 22",
+    "description": "Sack in lower east Village of Smiles, underground"
   },
   "lab_ring_slash_42721_pkp": {
     "items": [
@@ -1504,7 +1868,9 @@
     ],
     "id": 70589,
     "loc": "42563.707, 31399.32",
-    "region": "lab_ring_slash_42721"
+    "region": "lab_ring_slash_42721",
+    "name": null,
+    "description": "Sack on the platform above a Hardlight wall in west Salt Alkymancery"
   },
   "ruins_charm_holy_65973_pkp": {
     "items": [
@@ -1512,7 +1878,9 @@
     ],
     "id": 70592,
     "loc": "65973.32, 28011.07",
-    "region": "pitchwoods_lower_west"
+    "region": "pitchwoods_lower_west",
+    "name": null,
+    "description": "Sack above the entrance to The Ruined Temple in lower west Pitchwoods"
   },
   "dome_war_scythe_61610_pkp": {
     "items": [
@@ -1520,7 +1888,9 @@
     ],
     "id": 70595,
     "loc": "65318.08, 15883.1162",
-    "region": "the_ruined_temple_upper"
+    "region": "the_ruined_temple_upper",
+    "name": null,
+    "description": "Sack in the upper east corner of The Ruined Temple"
   },
   "sack_guide_87639_pkp": {
     "items": [
@@ -1528,7 +1898,9 @@
     ],
     "id": 70598,
     "loc": "87639.2344, 24274.2832",
-    "region": "pitchwoods_sanctuary"
+    "region": "pitchwoods_sanctuary",
+    "name": null,
+    "description": "Sack west of the Sanctuary at the top of the east building in lower Pitchwoods"
   },
   "whiteblaze_81684_pkp": {
     "items": [
@@ -1536,7 +1908,9 @@
     ],
     "id": 70601,
     "loc": "81684.44, 29758.16",
-    "region": "pitchwoods_lower_middle"
+    "region": "pitchwoods_lower_middle",
+    "name": null,
+    "description": "Sack between the two buildings in lower Pitchwoods"
   },
   "ruins_blaze_63821_pkp": {
     "items": [
@@ -1544,7 +1918,9 @@
     ],
     "id": 70604,
     "loc": "64403.76, 24559.3535",
-    "region": "ruins_lower_east"
+    "region": "ruins_lower_east",
+    "name": null,
+    "description": "Sack east of The Coveted in lower The Ruined Temple"
   },
   "lab_white_blaze_52768_pkp": {
     "items": [
@@ -1552,7 +1928,9 @@
     ],
     "id": 70607,
     "loc": "49524.625, 26492.1211",
-    "region": "salt_alkymancery_top_west"
+    "region": "salt_alkymancery_top_west",
+    "name": null,
+    "description": "Sack east of the Red Hall of Cages entrance in upper Salt Alkymancery"
   },
   "wood_salt_97049_pkp": {
     "items": [
@@ -1560,7 +1938,9 @@
     ],
     "id": 70610,
     "loc": "97049.78, 29522.73",
-    "region": "pitchwoods_lower_east"
+    "region": "pitchwoods_lower_east",
+    "name": null,
+    "description": "Sack west of Masterless Knight in lower east Pitchwoods"
   },
   "shield_bug_98672_pkp": {
     "items": [
@@ -1568,7 +1948,9 @@
     ],
     "id": 70613,
     "loc": "98672.06, 30357.5469",
-    "region": "pitchwoods_lower_east"
+    "region": "pitchwoods_lower_east",
+    "name": null,
+    "description": "West sack east of Masterless Knight in lower east Pitchwoods"
   },
   "ruins_blaze_58795_pkp": {
     "items": [
@@ -1576,7 +1958,9 @@
     ],
     "id": 70616,
     "loc": "60764.3867, 25421.82",
-    "region": "ruins_bottom"
+    "region": "ruins_bottom",
+    "name": null,
+    "description": "Sack west of The Coveted in lower The Ruined Temple"
   },
   "sack_horn_59932_pkp": {
     "items": [
@@ -1584,7 +1968,9 @@
     ],
     "id": 70619,
     "loc": "59932.81, 39412.79",
-    "region": "the_still_palace_shrine"
+    "region": "the_still_palace_shrine",
+    "name": null,
+    "description": "Sack east of the shrine in The Still Palace"
   },
   "castle_white_flame_35400_pkp": {
     "items": [
@@ -1592,7 +1978,9 @@
     ],
     "id": 70622,
     "loc": "35368.3477, 6609.41748",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 10",
+    "description": "Sack below the Sanctuary in west Castle of Storms"
   },
   "castle_grenado_36186_pkp": {
     "items": [
@@ -1600,7 +1988,9 @@
     ],
     "id": 70625,
     "loc": "36186.0469, 6710.823",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 4",
+    "description": "Sack west of double gate in middle Castle of Storms"
   },
   "dungeon_redspark_48102_pkp": {
     "items": [
@@ -1608,7 +1998,9 @@
     ],
     "id": 70628,
     "loc": "48102.2773, 22193.2363",
-    "region": "dungeon_redspark_48102"
+    "region": "dungeon_redspark_48102",
+    "name": "Red Hall of Cages Sack 21",
+    "description": "Sack east of Despondent Thief room in east Red Hall of Cages"
   },
   "ruins_lit_satellite_pkp": {
     "items": [
@@ -1617,7 +2009,9 @@
     ],
     "id": 70631,
     "loc": "63501.28, 19213.3066",
-    "region": "ruins_lit_satellite"
+    "region": "ruins_lit_satellite",
+    "name": null,
+    "description": "Sack across some Hardlight platforms above the double gates in middle The Ruined Temple"
   },
   "ruins_whiteflame_59879_pkp": {
     "items": [
@@ -1625,7 +2019,9 @@
     ],
     "id": 70635,
     "loc": "59717.73, 18519.3652",
-    "region": "the_ruined_temple_flames"
+    "region": "the_ruined_temple_flames",
+    "name": null,
+    "description": "East sack east of the Red Hall of Cages entrance in west The Ruined Temple"
   },
   "dark_guide_78731_pkp": {
     "items": [
@@ -1633,7 +2029,9 @@
     ],
     "id": 70638,
     "loc": "78734.16, 40072.99",
-    "region": "the_blackest_vault_east"
+    "region": "the_blackest_vault_east",
+    "name": null,
+    "description": "Sack east of the Sanctuary in lower east The Blackest Vault"
   },
   "dark_drowning_72431_pkp": {
     "items": [
@@ -1641,7 +2039,9 @@
     ],
     "id": 70641,
     "loc": "72431.2656, 38632.207",
-    "region": "the_blackest_vault_west"
+    "region": "the_blackest_vault_west",
+    "name": null,
+    "description": "Sack next to the Gatekeeper in lower west The Blackest Vault"
   },
   "vision_potion_57948_pkp": {
     "items": [
@@ -1649,7 +2049,9 @@
     ],
     "id": 70644,
     "loc": "57326.0977, 13332.18",
-    "region": "dome_west_lower"
+    "region": "dome_west_lower",
+    "name": null,
+    "description": "Sack below the Sanctuary in lower west Dome of the Forgotten"
   },
   "vision_potion_59027_pkp": {
     "items": [
@@ -1658,7 +2060,9 @@
     ],
     "id": 70647,
     "loc": "59027.6563, 11513.2725",
-    "region": "dome_west_upper"
+    "region": "dome_west_upper",
+    "name": null,
+    "description": "Sack against the east wall in west Dome of the Forgotten"
   },
   "shield_snakes_36862_pkp": {
     "items": [
@@ -1666,7 +2070,9 @@
     ],
     "id": 70651,
     "loc": "36862.1328, 15153.4795",
-    "region": "red_hall_of_cages_hanged"
+    "region": "red_hall_of_cages_hanged",
+    "name": "Red Hall of Cages Sack 15",
+    "description": "Sack on west side of the room that normally contains Hanged Man enemies, in upper Red Hall of Cages"
   },
   "white_flame_36251_pkp": {
     "items": [
@@ -1674,7 +2080,9 @@
     ],
     "id": 70654,
     "loc": "37585.6, 18064.127",
-    "region": "white_flame_36251"
+    "region": "white_flame_36251",
+    "name": "Red Hall of Cages Sack 20",
+    "description": "Sack behind lower fake wall below the Bandit's Pass cave entrance in West Red Hall of Cages"
   },
   "tomb_drowning_39444_pkp": {
     "items": [
@@ -1682,7 +2090,9 @@
     ],
     "id": 70657,
     "loc": "39444.5, 33941.082",
-    "region": "crypt_upper"
+    "region": "crypt_upper",
+    "name": null,
+    "description": "Upper sack below the sanctuary in upper Crypt of Dead Gods"
   },
   "tomb_drowning_34471_pkp": {
     "items": [
@@ -1690,7 +2100,9 @@
     ],
     "id": 70660,
     "loc": "34471.57, 33496.5078",
-    "region": "tomb_drowning_34471"
+    "region": "tomb_drowning_34471",
+    "name": null,
+    "description": "Sack under the way to Hager's Cavern in upper west Crypt of Dead Gods"
   },
   "tomb_leader_33954_pkp": {
     "items": [
@@ -1698,7 +2110,9 @@
     ],
     "id": 70663,
     "loc": "33954.2344, 33196.582",
-    "region": "hagers_to_crypt"
+    "region": "hagers_to_crypt",
+    "name": "Crypt of Dead Gods Sack 1",
+    "description": "Sack west of the Sanctuary in upper west Crypt of Dead Gods"
   },
   "tomb_sellsword_32326_pkp": {
     "items": [
@@ -1706,7 +2120,9 @@
     ],
     "id": 70666,
     "loc": "32326.7813, 38445.52",
-    "region": "tomb_sellsword_32326"
+    "region": "tomb_sellsword_32326",
+    "name": null,
+    "description": "Sack below the entrance to the west route to the boss arena in west Crypt of Dead Gods"
   },
   "tomb_merchant_41183_pkp": {
     "items": [
@@ -1714,7 +2130,9 @@
     ],
     "id": 70669,
     "loc": "41183.24, 37616.68",
-    "region": "crypt_shrine"
+    "region": "crypt_shrine",
+    "name": null,
+    "description": "Sack on east side of the Sanctuary in lower east Crypt of Dead Gods"
   },
   "tomb_red_43297_pkp": {
     "items": [
@@ -1722,7 +2140,9 @@
     ],
     "id": 70672,
     "loc": "43297.03, 35854.04",
-    "region": "tomb_red_43297"
+    "region": "tomb_red_43297",
+    "name": null,
+    "description": "Sack on the wall below the Voice of the Nameless, in east Crypt of Dead Gods"
   },
   "tomb_blaze_36102_pkp": {
     "items": [
@@ -1730,7 +2150,9 @@
     ],
     "id": 70675,
     "loc": "36102.64, 36947.76",
-    "region": "tomb_blaze_36102"
+    "region": "tomb_blaze_36102",
+    "name": null,
+    "description": "Sack in the dark room in west Crypt of Dead Gods"
   },
   "lake_drowning_spark_63525_pkp": {
     "items": [
@@ -1738,7 +2160,9 @@
     ],
     "id": 70678,
     "loc": "63525.4063, 33087.75",
-    "region": "lake_to_lab"
+    "region": "lake_to_lab",
+    "name": null,
+    "description": "Sack on the slope on the way  to The Still Palace in lower east Siam Lake"
   },
   "drowning_blaze_99197_pkp": {
     "items": [
@@ -1746,7 +2170,9 @@
     ],
     "id": 70681,
     "loc": "99197.99, 30391.4473",
-    "region": "pitchwoods_lower_east"
+    "region": "pitchwoods_lower_east",
+    "name": null,
+    "description": "East sack east of Masterless Knight in lower east Pitchwoods"
   },
   "blue_blaze_89507_pkp": {
     "items": [
@@ -1754,7 +2180,9 @@
     ],
     "id": 70684,
     "loc": "89507.83, 26058.5977",
-    "region": "blue_blaze_89507"
+    "region": "blue_blaze_89507",
+    "name": null,
+    "description": "Sack below the Sanctuary at the top of the east building in lower Pitchwoods"
   },
   "lab_statue_flame_53285_pkp": {
     "items": [
@@ -1762,7 +2190,9 @@
     ],
     "id": 70687,
     "loc": "53285.4844, 34129.6875",
-    "region": "salt_alkymancery_east_lower"
+    "region": "salt_alkymancery_east_lower",
+    "name": null,
+    "description": "Sack next to the ventilation tunnel in lower east Salt Alkymancery"
   },
   "tomb_blueflame_32358_pkp": {
     "items": [
@@ -1770,7 +2200,9 @@
     ],
     "id": 70690,
     "loc": "32358.0547, 36826.38",
-    "region": "tomb_blueflame_32358"
+    "region": "tomb_blueflame_32358",
+    "name": null,
+    "description": "Sack above the entrance to the west route to the boss arena in west Crypt of Dead Gods"
   },
   "ruins_redblaze_62072_pkp": {
     "items": [
@@ -1778,7 +2210,9 @@
     ],
     "id": 70693,
     "loc": "62072.06, 28242.0527",
-    "region": "ruins_redblaze_62072"
+    "region": "ruins_redblaze_62072",
+    "name": null,
+    "description": "Sack above the Siam Lake entrance in lower The Ruined Temple"
   },
   "salt10_59096_pkp": {
     "items": [
@@ -1786,7 +2220,9 @@
     ],
     "id": 70696,
     "loc": "59096.9375, 41802.1172",
-    "region": "salt10_59096"
+    "region": "salt10_59096",
+    "name": null,
+    "description": "Sack above the entrance to the boss arena, in east The Still Palace"
   },
   "tomb_horn_33424_pkp": {
     "items": [
@@ -1794,7 +2230,9 @@
     ],
     "id": 70699,
     "loc": "33424.26, 35670.875",
-    "region": "tomb_horn_33424"
+    "region": "tomb_horn_33424",
+    "name": null,
+    "description": "Sack above and west of the dark room in west Crypt of Dead Gods"
   },
   "cave_horn_40269_pkp": {
     "items": [
@@ -1802,7 +2240,9 @@
     ],
     "id": 70702,
     "loc": "40269.55, 30671.51",
-    "region": "minty_approach"
+    "region": "minty_approach",
+    "name": "Hager's Cavern Sack 21",
+    "description": "Sack next to door in the cave in lower east Hager's Cavern"
   },
   "dungeon_blueflame_41789_pkp": {
     "items": [
@@ -1810,7 +2250,9 @@
     ],
     "id": 70705,
     "loc": "41794.4648, 26156.0488",
-    "region": "cave2dungeonb_switch"
+    "region": "cave2dungeonb_switch",
+    "name": "Red Hall of Cages Sack 26",
+    "description": "Sack next to Hager's Cavern entrance in lower Red Hall of Cages"
   },
   "amberspark_21678_pkp": {
     "items": [
@@ -1818,7 +2260,9 @@
     ],
     "id": 70708,
     "loc": "21678.0234, 14455.83",
-    "region": "jester_upper"
+    "region": "jester_upper",
+    "name": "The Festering Banquet Sack 20",
+    "description": "Sack above the Jester in lower east The Festering Banquet"
   },
   "amberspark_29340_pkp": {
     "items": [
@@ -1826,7 +2270,9 @@
     ],
     "id": 70711,
     "loc": "29340.0938, 17175.79",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 1",
+    "description": "Sack in upper west Sunken Keep"
   },
   "amberspark_34967_pkp": {
     "items": [
@@ -1834,7 +2280,9 @@
     ],
     "id": 70714,
     "loc": "34967.0547, 6423.54736",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 1",
+    "description": "Sack in west Castle of Storms"
   },
   "amberspark_44009_pkp": {
     "items": [
@@ -1842,7 +2290,9 @@
     ],
     "id": 70717,
     "loc": "44009.6758, 3181.88354",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 2",
+    "description": "Sack on top of Shrine in upper east Castle of Storms"
   },
   "amberflame_55884_pkp": {
     "items": [
@@ -1850,7 +2300,9 @@
     ],
     "id": 70720,
     "loc": "55884.5977, 12596.0723",
-    "region": "dome_west_lower"
+    "region": "dome_west_lower",
+    "name": null,
+    "description": "Sack at west side of Sanctuary in lower west Dome of the Forgotten"
   },
   "amberflame_63733_pkp": {
     "items": [
@@ -1858,7 +2310,9 @@
     ],
     "id": 70723,
     "loc": "63733.3828, 11796.2061",
-    "region": "dome_east"
+    "region": "dome_east",
+    "name": null,
+    "description": "Sack in east Dome of the Forgotten"
   },
   "amberflame_57738_pkp": {
     "items": [
@@ -1866,7 +2320,9 @@
     ],
     "id": 70726,
     "loc": "57738.5547, 18389.8555",
-    "region": "the_ruined_temple_flames"
+    "region": "the_ruined_temple_flames",
+    "name": null,
+    "description": "West sack east of the Red Hall of Cages entrance in west The Ruined Temple"
   },
   "amberspark_35625_pkp": {
     "items": [
@@ -1874,7 +2330,9 @@
     ],
     "id": 70729,
     "loc": "35625.21, 15081.3262",
-    "region": "red_hall_of_cages"
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Sack 1",
+    "description": "Sack near Bandit's Pass cave entrance in west Red Hall of Cages"
   },
   "amberspark_89011_pkp": {
     "items": [
@@ -1882,7 +2340,9 @@
     ],
     "id": 70732,
     "loc": "89011.375, 15793.5029",
-    "region": "the_far_beach_east"
+    "region": "the_far_beach_east",
+    "name": null,
+    "description": "Sack west of the The Far Beach Sanctuary, in east Ziggurat of Dust"
   },
   "amberflame_74984_pkp": {
     "items": [
@@ -1890,7 +2350,9 @@
     ],
     "id": 70735,
     "loc": "74984.27, 14001.1836",
-    "region": "ziggurat_amberflame"
+    "region": "ziggurat_amberflame",
+    "name": null,
+    "description": "Sack west of the west room in west Ziggurat of Dust"
   },
   "amberblaze_63398_pkp": {
     "items": [
@@ -1898,7 +2360,9 @@
     ],
     "id": 70738,
     "loc": "63397.9961, 21090.9336",
-    "region": "ruinblockfloor1"
+    "region": "ruinblockfloor1",
+    "name": null,
+    "description": "Sack below the double gates in middle The Ruined Temple"
   },
   "amberblaze_65995_pkp": {
     "items": [
@@ -1906,7 +2370,9 @@
     ],
     "id": 70741,
     "loc": "65995.22, 30360.4141",
-    "region": "siam_lake_east"
+    "region": "siam_lake_east",
+    "name": null,
+    "description": "Upper sack east of the Sanctuary in east Siam Lake in east Siam Lake"
   },
   "amberblaze_44050_pkp": {
     "items": [
@@ -1914,7 +2380,9 @@
     ],
     "id": 70744,
     "loc": "44050.4922, 32092.1855",
-    "region": "salt_alkymancery_west_lower"
+    "region": "salt_alkymancery_west_lower",
+    "name": null,
+    "description": "Sack below the Sanctuary in west Salt Alkymancery"
   },
   "amberflame_36690_pkp": {
     "items": [
@@ -1922,7 +2390,9 @@
     ],
     "id": 70747,
     "loc": "36690.16, 30972.4141",
-    "region": "amberflame_36690"
+    "region": "amberflame_36690",
+    "name": "Hager's Cavern Sack 20",
+    "description": "Sack underneath floor in cave entrance in lower east Hager's Cavern"
   },
   "ambernova_37920_pkp": {
     "items": [
@@ -1930,7 +2400,9 @@
     ],
     "id": 70750,
     "loc": "37920.09, 41450.9375",
-    "region": "ambernova_37920"
+    "region": "ambernova_37920",
+    "name": null,
+    "description": "Lower sack east of the lower west boss arena, in lower Crypt of Dead Gods"
   },
   "ambernova_26747_pkp": {
     "items": [
@@ -1938,7 +2410,9 @@
     ],
     "id": 70753,
     "loc": "26747.1914, 41208.21",
-    "region": "ambernova_26747"
+    "region": "ambernova_26747",
+    "name": null,
+    "description": "Sack west of the lower west boss arena in lower west Crypt of Dead Gods"
   },
   "amberblaze_35703_pkp": {
     "items": [
@@ -1946,7 +2420,9 @@
     ],
     "id": 70756,
     "loc": "35703.35, 35507.4922",
-    "region": "amberblaze_35703"
+    "region": "amberblaze_35703",
+    "name": null,
+    "description": "West sack below the Sanctuary in upper Crypt of Dead Gods"
   },
   "amberspark_32400_pkp": {
     "items": [
@@ -1954,7 +2430,9 @@
     ],
     "id": 70759,
     "loc": "32400.7539, 26679.2012",
-    "region": "cave_mire_middle"
+    "region": "cave_mire_middle",
+    "name": "Hager's Cavern Sack 26",
+    "description": "Sack near the door leading to the lower Mire of Stench entrance, in middle Hager's Cavern"
   },
   "amberspark_33302_pkp": {
     "items": [
@@ -1962,7 +2440,9 @@
     ],
     "id": 70762,
     "loc": "33302.86, 19083.0977",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 2",
+    "description": "Sack in upper east Sunken Keep"
   },
   "statue_leader_40725_pkp": {
     "items": [
@@ -1970,7 +2450,9 @@
     ],
     "id": 70765,
     "loc": "40725.14, 15501.8232",
-    "region": "red_hall_of_cages_hanged"
+    "region": "red_hall_of_cages_hanged",
+    "name": "Red Hall of Cages Sack 16",
+    "description": "Sack on east side of the room that normally contains Hanged Man enemies, in upper Red Hall of Cages"
   },
   "pyramid_horn_will_pkp": {
     "items": [
@@ -1978,7 +2460,9 @@
     ],
     "id": 70768,
     "loc": "83583.39, 14413.2754",
-    "region": "pyramid_horn_will"
+    "region": "pyramid_horn_will",
+    "name": null,
+    "description": "Lower sack east of the east room in east Ziggurat of Dust"
   },
   "pyramid_ring_bloody_pkp": {
     "items": [
@@ -1986,7 +2470,9 @@
     ],
     "id": 70771,
     "loc": "80198.0156, 14574.8623",
-    "region": "pyramid_ring_bloody"
+    "region": "pyramid_ring_bloody",
+    "name": null,
+    "description": "Sack on the platform between the two rooms in middle Ziggurat of Dust"
   },
   "axe_anchor_76586_pkp": {
     "items": [
@@ -1994,7 +2480,9 @@
     ],
     "id": 70774,
     "loc": "76586.76, 15222.1221",
-    "region": "axe_anchor_76586"
+    "region": "axe_anchor_76586",
+    "name": null,
+    "description": "Sack below the west room in west Ziggurat of Dust"
   },
   "amberflame_96931_pkp": {
     "items": [
@@ -2002,7 +2490,9 @@
     ],
     "id": 70777,
     "loc": "96931.13, 18857.1367",
-    "region": "pitchwoods_upper6"
+    "region": "pitchwoods_upper6",
+    "name": null,
+    "description": "Sack in east building in upper Pitchwoods"
   },
   "purpledress_pkp": {
     "items": [
@@ -2012,7 +2502,9 @@
     ],
     "id": 70780,
     "loc": "27370.3613, 16075.6826",
-    "region": "bronze_key_cave"
+    "region": "bronze_key_cave",
+    "name": "Bandit's Pass Sack 6",
+    "description": "Sack in lower west Bandit's Pass, underground"
   },
   "crossbow_84383_pkp": {
     "items": [
@@ -2020,7 +2512,9 @@
     ],
     "id": 70785,
     "loc": "84383.51, 22015.7949",
-    "region": "pitchwoods_upper4"
+    "region": "pitchwoods_upper4",
+    "name": null,
+    "description": "Sack in the third west building in upper Pitchwoods"
   },
   "crossbow_27928_pkp": {
     "items": [
@@ -2029,7 +2523,9 @@
     ],
     "id": 70788,
     "loc": "27108.7188, 10767.626",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 1",
+    "description": null
   },
   "dome_staff_61236_pkp": {
     "items": [
@@ -2037,7 +2533,9 @@
     ],
     "id": 70792,
     "loc": "61236.01, 12212.8545",
-    "region": "dome_middle"
+    "region": "dome_middle",
+    "name": null,
+    "description": "Lower sack above The Untouched Inquisitor in lower Dome of the Forgotten"
   },
   "salt3_83579_pkp": {
     "items": [
@@ -2045,7 +2543,9 @@
     ],
     "id": 70795,
     "loc": "83579.6, 13979.1377",
-    "region": "salt3_83579"
+    "region": "salt3_83579",
+    "name": null,
+    "description": "Upper sack east of the east room in east Ziggurat of Dust"
   },
   "salt9_90297_pkp": {
     "items": [
@@ -2053,7 +2553,9 @@
     ],
     "id": 70798,
     "loc": "90297.45, 20455",
-    "region": "pitchwoods_upper5"
+    "region": "pitchwoods_upper5",
+    "name": null,
+    "description": "Upper sack in the third east building in upper Pitchwoods"
   },
   "salt7_76309_pkp": {
     "items": [
@@ -2061,7 +2563,9 @@
     ],
     "id": 70801,
     "loc": "76309.1953, 28401.4121",
-    "region": "salt7_76309"
+    "region": "salt7_76309",
+    "name": null,
+    "description": "Sack on the west building roof in lower Pitchwoods"
   },
   "salt9_38479_pkp": {
     "items": [
@@ -2069,7 +2573,9 @@
     ],
     "id": 70804,
     "loc": "38478.0938, 34462.25",
-    "region": "crypt_upper"
+    "region": "crypt_upper",
+    "name": null,
+    "description": "Lower sack below the sanctuary in upper Crypt of Dead Gods"
   },
   "salt4_37688_pkp": {
     "items": [
@@ -2077,7 +2583,9 @@
     ],
     "id": 70807,
     "loc": "37688.9258, 26545.5977",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 14",
+    "description": "Sack above Masterless Knight in east Hager's Cavern"
   },
   "salt4_31461_pkp": {
     "items": [
@@ -2085,7 +2593,9 @@
     ],
     "id": 70810,
     "loc": "31461.0742, 29136.4824",
-    "region": "hagers_cavern_vertigo"
+    "region": "hagers_cavern_vertigo",
+    "name": "Hager's Cavern Sack 16",
+    "description": "Sack next to switch below the entrance to the Disemboweled Husk boss fight in west Hager's Cavern"
   },
   "castle_charm_dark_pkp": {
     "items": [
@@ -2093,7 +2603,9 @@
     ],
     "id": 70813,
     "loc": "73762.875, 26134.4",
-    "region": "pitchwoods_upper1"
+    "region": "pitchwoods_upper1",
+    "name": null,
+    "description": "Sack along the wooden platforms in the trees in west Pitchwoods"
   },
   "lit_def_65127_pkp": {
     "items": [
@@ -2101,7 +2613,9 @@
     ],
     "id": 70816,
     "loc": "65135.5273, 13008.3271",
-    "region": "dome_east"
+    "region": "dome_east",
+    "name": null,
+    "description": "Sack in Shrine in lower east Dome of the Forgotten"
   },
   "castle_fire_def_36739_pkp": {
     "items": [
@@ -2109,7 +2623,9 @@
     ],
     "id": 70819,
     "loc": "36739.94, 6994.359",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 3",
+    "description": "Sack west of double gate in middle Castle of Storms"
   },
   "ring_mp_moat_23891_pkp": {
     "items": [
@@ -2117,7 +2633,9 @@
     ],
     "id": 70822,
     "loc": "23891.416, 23160.2832",
-    "region": "sunken_keep_west"
+    "region": "sunken_keep_west",
+    "name": "Sunken Keep Sack 16",
+    "description": "Sack in lower west Sunken Keep"
   },
   "swamp_salt4_19784_pkp": {
     "items": [
@@ -2126,7 +2644,9 @@
     ],
     "id": 70825,
     "loc": "19784.0977, 28062.2129",
-    "region": "mire_of_stench_lower"
+    "region": "mire_of_stench_lower",
+    "name": null,
+    "description": "Upper sack west of the Sanctuary in lower Mire of Stench"
   },
   "village_pumpkin_helm_16011_pkp": {
     "items": [
@@ -2134,7 +2654,9 @@
     ],
     "id": 70829,
     "loc": "16011.6055, 17255.29",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 5",
+    "description": "Sack in east Village of Smiles"
   },
   "shield_skulls_77787_pkp": {
     "items": [
@@ -2142,7 +2664,9 @@
     ],
     "id": 70832,
     "loc": "77787.61, 12101.9512",
-    "region": "zigguratcorridor"
+    "region": "zigguratcorridor",
+    "name": null,
+    "description": "Sack near the western The Far Beach entrance in west Ziggurat of Dust"
   },
   "swamp_rust_26825_pkp": {
     "items": [
@@ -2150,7 +2674,9 @@
     ],
     "id": 70835,
     "loc": "26704.2363, 26262.9961",
-    "region": "mire_of_stench_upper"
+    "region": "mire_of_stench_upper",
+    "name": null,
+    "description": "Sack below the vertical shaft leading up to the Shrine, in east Mire of Stench"
   },
   "mag_poison_buff_31947_pkp": {
     "items": [
@@ -2158,7 +2684,9 @@
     ],
     "id": 70838,
     "loc": "32278.16, 25320.7617",
-    "region": "cave_mire_upper"
+    "region": "cave_mire_upper",
+    "name": "Hager's Cavern Sack 25",
+    "description": "Sack next to switch on the way to the Mire of Stench Shrine, in upper west Hager's Cavern"
   },
   "village_smith_armor6464_pkp": {
     "items": [
@@ -2168,7 +2696,9 @@
     ],
     "id": 70841,
     "loc": "6464.30664, 17621.25",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 7",
+    "description": "Sack in Village of Smiles Sanctuary"
   },
   "forest_antidote_18143_pkp": {
     "items": [
@@ -2176,7 +2706,9 @@
     ],
     "id": 70846,
     "loc": "18143.08, 19367.6445",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 3",
+    "description": "Sack in middle The Watching Woods"
   },
   "forest_antidote_16501_pkp": {
     "items": [
@@ -2184,7 +2716,9 @@
     ],
     "id": 70849,
     "loc": "16501.92, 21520.0488",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 2",
+    "description": "Sack in lower The Watching Woods"
   },
   "village_gray_pearl_14826_pkp": {
     "items": [
@@ -2192,7 +2726,9 @@
     ],
     "id": 70852,
     "loc": "14826.125, 17139.54",
-    "region": "village_of_smiles"
+    "region": "village_of_smiles",
+    "name": "Village of Smiles Sack 4",
+    "description": "Sack in east Village of Smiles"
   },
   "frst_gray_pearl_23529_pkp": {
     "items": [
@@ -2200,7 +2736,9 @@
     ],
     "id": 70855,
     "loc": "23529.7656, 19268.6172",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 12",
+    "description": "Sack above The Watching Woods Sanctuary in east The Watching Woods"
   },
   "cave_gray_pearl_30650_pkp": {
     "items": [
@@ -2208,7 +2746,9 @@
     ],
     "id": 70858,
     "loc": "30650.125, 25177.6543",
-    "region": "cave_mire_upper"
+    "region": "cave_mire_upper",
+    "name": "Hager's Cavern Sack 24",
+    "description": "Sack near the entrance to the Mire of Stench Shrine, in upper west Hager's Cavern"
   },
   "dng_gray_pearl_43910_pkp": {
     "items": [
@@ -2216,7 +2756,9 @@
     ],
     "id": 70861,
     "loc": "43910.55, 25771.957",
-    "region": "dng_gray_pearl_43910"
+    "region": "dng_gray_pearl_43910",
+    "name": "Red Hall of Cages Sack 24",
+    "description": "Sack in lower west side of Despondent Thief room, west of the multi-wheel platform room in lower Red Hall of Cages"
   },
   "ruins_gray_pearl_62452_pkp": {
     "items": [
@@ -2224,7 +2766,9 @@
     ],
     "id": 70864,
     "loc": "62452.7578, 16008.127",
-    "region": "the_ruined_temple_upper"
+    "region": "the_ruined_temple_upper",
+    "name": null,
+    "description": "West sack in upper The Ruined Temple"
   },
   "ruins_gray_pearl_73816_pkp": {
     "items": [
@@ -2232,7 +2776,9 @@
     ],
     "id": 70867,
     "loc": "73816.86, 12757.1885",
-    "region": "the_far_beach_west"
+    "region": "the_far_beach_west",
+    "name": null,
+    "description": "Sack west of the Ziggurat in west The Far Beach"
   },
   "woods_gray_pearl_77413_pkp": {
     "items": [
@@ -2240,7 +2786,9 @@
     ],
     "id": 70870,
     "loc": "77413.52, 24246.459",
-    "region": "pitchwoods_upper2"
+    "region": "pitchwoods_upper2",
+    "name": null,
+    "description": "Sack in the west building in upper Pitchwoods"
   },
   "woods_gray_pearl_70430_pkp": {
     "items": [
@@ -2248,7 +2796,9 @@
     ],
     "id": 70873,
     "loc": "70430.22, 30895.623",
-    "region": "the_blackest_vault_entrance_west"
+    "region": "the_blackest_vault_entrance_west",
+    "name": null,
+    "description": "Sack next to the west entrance to The Blackest Vault in lower west Pitchwoods"
   },
   "dng_gray_pearl_46576_pkp": {
     "items": [
@@ -2256,7 +2806,9 @@
     ],
     "id": 70876,
     "loc": "46576.26, 26734.2754",
-    "region": "salt_alkymancery_top_west"
+    "region": "salt_alkymancery_top_west",
+    "name": null,
+    "description": "Sack next to the Red Hall of Cages entrance in upper west Salt Alkymancery"
   },
   "dm_crystal_sphere_59492_pkp": {
     "items": [
@@ -2264,7 +2816,9 @@
     ],
     "id": 70879,
     "loc": "59492.9141, 12909.1465",
-    "region": "dome_middle"
+    "region": "dome_middle",
+    "name": null,
+    "description": "Upper sack west of The Untouched Inquisitor in lower Dome of the Forgotten"
   },
   "cos_crystal_sphere_43675_pkp": {
     "items": [
@@ -2272,7 +2826,9 @@
     ],
     "id": 70882,
     "loc": "43675.5469, 11793.4023",
-    "region": "cos_crystal_sphere"
+    "region": "cos_crystal_sphere_43675",
+    "name": "Red Hall of Cages Sack 18",
+    "description": "Sack above Mad Jester in upper east Red Hall of Cages"
   },
   "bp_crystal_sphere_26211_pkp": {
     "items": [
@@ -2280,7 +2836,9 @@
     ],
     "id": 70885,
     "loc": "26211.23, 14558.0117",
-    "region": "bronze_key_cave"
+    "region": "bronze_key_cave",
+    "name": "Bandit's Pass Sack 2",
+    "description": "Sack in lower west Bandit's Pass, underground"
   },
   "tomb_crys_sphere_39557_pkp": {
     "items": [
@@ -2288,7 +2846,9 @@
     ],
     "id": 70888,
     "loc": "39557.35, 37004.34",
-    "region": "tomb_crys_sphere_39557"
+    "region": "tomb_crys_sphere_39557",
+    "name": null,
+    "description": "Sack east of the dark room, in middle Crypt of Dead Gods"
   },
   "forest_flame_17206_pkp": {
     "items": [
@@ -2296,7 +2856,9 @@
     ],
     "id": 70891,
     "loc": "17206.73, 20396.7715",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 7",
+    "description": "Sack in middle The Watching Woods"
   },
   "bluecave_ease_34622_pkp": {
     "items": [
@@ -2304,7 +2866,9 @@
     ],
     "id": 70894,
     "loc": "34622.36, 25451.1113",
-    "region": "hagers_cavern"
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Sack 3",
+    "description": "Sack on scaffolding in upper east Hager's Cavern"
   },
   "vert_guide_49983_pkp": {
     "items": [
@@ -2312,7 +2876,9 @@
     ],
     "id": 70897,
     "loc": "49983.0039, 7157.06152",
-    "region": "mals_bottom"
+    "region": "mals_bottom",
+    "name": null,
+    "description": "East sack on the roots underneath the castle in Mal's Floating Castle"
   },
   "vert_poleaxe_48693_pkp": {
     "items": [
@@ -2320,7 +2886,9 @@
     ],
     "id": 70900,
     "loc": "48693.5352, 7596.493",
-    "region": "mals_bottom"
+    "region": "mals_bottom",
+    "name": null,
+    "description": "West sack on the roots underneath the castle in Mal's Floating Castle"
   },
   "castle_gpearl_50257_pkp": {
     "items": [
@@ -2328,7 +2896,9 @@
     ],
     "id": 70903,
     "loc": "50257.89, 2448.48242",
-    "region": "castle_gpearl_50257"
+    "region": "castle_gpearl_50257",
+    "name": null,
+    "description": "Sack near fake wall in upper east Mal's Floating Castle"
   },
   "graypearl_43563_pkp": {
     "items": [
@@ -2336,7 +2906,9 @@
     ],
     "id": 70906,
     "loc": "43549.17, 29897.332",
-    "region": "minty_approach"
+    "region": "minty_approach",
+    "name": "Hager's Cavern Sack 22",
+    "description": "Sack below Minty Skell in the cave in lower east Hager's Cavern"
   },
   "crystalsphere_28712_pkp": {
     "items": [
@@ -2344,7 +2916,9 @@
     ],
     "id": 70909,
     "loc": "28712.9316, 18835.9141",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 4",
+    "description": "Sack in upper west Sunken Keep"
   },
   "clerc_13574_pkp": {
     "items": [
@@ -2352,7 +2926,9 @@
     ],
     "id": 70912,
     "loc": "13574.0361, 11306.5244",
-    "region": "the_festering_banquet"
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Sack 1",
+    "description": "Sack in west The Festering Banquet"
   },
   "graypearl_79116_pkp": {
     "items": [
@@ -2360,7 +2936,9 @@
     ],
     "id": 70915,
     "loc": "79116.53, 31065.7676",
-    "region": "pitchwoods_lower_middle"
+    "region": "pitchwoods_lower_middle",
+    "name": null,
+    "description": "Sack above the east entrance to The Blackest Vault in lower Pitchwoods"
   },
   "graypearl_90392_pkp": {
     "items": [
@@ -2368,7 +2946,9 @@
     ],
     "id": 70918,
     "loc": "90392.24, 21013.2188",
-    "region": "graypearl_90392"
+    "region": "graypearl_90392",
+    "name": null,
+    "description": "Lower sack in third east building in upper Pitchwoods"
   },
   "graypearl_33819_pkp": {
     "items": [
@@ -2376,7 +2956,9 @@
     ],
     "id": 70921,
     "loc": "33819.4258, 18444.7168",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 5",
+    "description": "Sack on top of tall house in upper east Sunken Keep"
   },
   "halberd_30452_pkp": {
     "items": [
@@ -2384,7 +2966,9 @@
     ],
     "id": 70924,
     "loc": "30453.53, 10949.5762",
-    "region": "bandits_pass"
+    "region": "bandits_pass",
+    "name": "Bandit's Pass Sack 2",
+    "description": null
   },
   "hidden_sanctuary_ring_melee_pkp": {
     "items": [
@@ -2393,7 +2977,9 @@
     ],
     "id": 70927,
     "loc": "24319.8945, 9692.128",
-    "region": "bandits_pass_vertigo"
+    "region": "bandits_pass_vertigo",
+    "name": "Bandit's Pass Sack 14",
+    "description": "Sack on top of Sanctuary in west Bandit's Pass"
   },
   "dome_lords_mat_pkp": {
     "items": [
@@ -2401,7 +2987,9 @@
     ],
     "id": 70931,
     "loc": "59482.09, 13326.333",
-    "region": "dome_middle_floor"
+    "region": "dome_middle_floor",
+    "name": null,
+    "description": "Lower sack west of The Untouched Inquisitor in lower Dome of the Forgotten"
   },
   "beach_g_pearl_31_pkp": {
     "items": [
@@ -2409,7 +2997,9 @@
     ],
     "id": 70934,
     "loc": "31.7981739, 14849.4609",
-    "region": "shivering_shore_west"
+    "region": "shivering_shore_west",
+    "name": "Shivering Shore Sack 1",
+    "description": "Sack west of Black Sands Sorcerer in west Shivering Shore"
   },
   "red_blaze_39215_pkp": {
     "items": [
@@ -2417,7 +3007,9 @@
     ],
     "id": 70937,
     "loc": "39315.17, 15749.0244",
-    "region": "red_hall_of_cages_hanged"
+    "region": "red_hall_of_cages_hanged",
+    "name": "Red Hall of Cages Sack 14",
+    "description": "Sack on the floor in the room that normally contains Hanged Man enemies, in upper Red Hall of Cages"
   },
   "blue_spark_31328_pkp": {
     "items": [
@@ -2425,7 +3017,9 @@
     ],
     "id": 70940,
     "loc": "31328.0527, 14777.4707",
-    "region": "bronze_key_cave"
+    "region": "bronze_key_cave",
+    "name": "Bandit's Pass Sack 1",
+    "description": "Sack in lower east Bandit's Pass, underground"
   },
   "blue_flame_13049_pkp": {
     "items": [
@@ -2433,7 +3027,9 @@
     ],
     "id": 70943,
     "loc": "13049.3887, 23018.9629",
-    "region": "village_cave_vertigo"
+    "region": "village_cave_vertigo",
+    "name": "Village of Smiles Sack 18",
+    "description": "Sack in lower east Village of Smiles, underground"
   },
   "ring_wis_17942_pkp": {
     "items": [
@@ -2441,7 +3037,9 @@
     ],
     "id": 70946,
     "loc": "17942.2715, 23369.2871",
-    "region": "tree"
+    "region": "tree",
+    "name": "Village of Smiles Sack 21",
+    "description": "Sack in lower east Village of Smiles, underground"
   },
   "blue_spark_24466_pkp": {
     "items": [
@@ -2449,7 +3047,9 @@
     ],
     "id": 70949,
     "loc": "24466.377, 21527.1348",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 3",
+    "description": "Sack in lower west Sunken Keep"
   },
   "boat_oar_3128_pkp": {
     "items": [
@@ -2457,7 +3057,9 @@
     ],
     "id": 70952,
     "loc": "3128.17065, 28911.1836",
-    "region": "fort_beyond_the_mire_lower"
+    "region": "fort_beyond_the_mire_lower",
+    "name": null,
+    "description": "Sack west of the fort in Fort-Beyond-The-Mire"
   },
   "gray_pearl_22879_pkp": {
     "items": [
@@ -2465,7 +3067,9 @@
     ],
     "id": 70955,
     "loc": "22879.8516, 21914.1523",
-    "region": "the_watching_woods"
+    "region": "the_watching_woods",
+    "name": "The Watching Woods Sack 13",
+    "description": "Sack in lower east The Watching Woods"
   },
   "red_flame_39666_pkp": {
     "items": [
@@ -2473,7 +3077,9 @@
     ],
     "id": 70958,
     "loc": "39666.1055, 23036.8418",
-    "region": "sunken_keep"
+    "region": "sunken_keep",
+    "name": "Sunken Keep Sack 15",
+    "description": "Sack in lower east Sunken Keep"
   },
   "red_flame_39924_pkp": {
     "items": [
@@ -2481,7 +3087,9 @@
     ],
     "id": 70961,
     "loc": "39922.03, 8708.073",
-    "region": "castle_of_storms"
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Sack 12",
+    "description": "Sack in lower Castle of Storms"
   },
   "charred_doll_25592_pkp": {
     "items": [
@@ -2490,7 +3098,9 @@
     ],
     "id": 70964,
     "loc": "25592.99, 15472.5771",
-    "region": "sunken_bronze_jester_vertigo"
+    "region": "sunken_bronze_jester_vertigo",
+    "name": "Sunken Keep Sack 20",
+    "description": "Sack in upper west Sunken Keep"
   },
   "beast_nova_37303_pkp": {
     "items": [
@@ -2498,7 +3108,9 @@
     ],
     "id": 70968,
     "loc": "37303.1875, 40190.61",
-    "region": "beast_nova_37303"
+    "region": "beast_nova_37303",
+    "name": null,
+    "description": "Upper sack east of the lower west boss arena, in lower Crypt of Dead Gods"
   },
   "redspark_secret_pkp": {
     "items": [
@@ -2506,6 +3118,8 @@
     ],
     "id": 70971,
     "loc": "22568.6875, 12562.2373",
-    "region": "redspark"
+    "region": "redspark",
+    "name": "The Festering Banquet Sack 22",
+    "description": "Sack in east The Festering Banquet, underground"
   }
 }

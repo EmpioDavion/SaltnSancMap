@@ -11,7 +11,9 @@
     ],
     "id": 0,
     "loc": "17922.123, 11601.01",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "nomad_1": {
     "seg": 61,
@@ -25,7 +27,9 @@
     ],
     "id": 0,
     "loc": "17464.4941, 13519.4131",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "oldman_1": {
     "seg": 372,
@@ -39,7 +43,9 @@
     ],
     "id": 0,
     "loc": "3047.75244, 14576.8574",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "jester_1": {
     "seg": 423,
@@ -55,7 +61,9 @@
     ],
     "id": 0,
     "loc": "21623.9961, 15220.2568",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "despondent_1": {
     "seg": 424,
@@ -71,7 +79,9 @@
     ],
     "id": 0,
     "loc": "38548.2422, 3490.707",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "oldgreg_1": {
     "seg": 664,
@@ -83,7 +93,9 @@
     ],
     "id": 0,
     "loc": "16679.1426, 28266.07",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "memories_1": {
     "seg": 665,
@@ -92,7 +104,9 @@
     "scripts": [],
     "id": 0,
     "loc": "43752.7266, 29231.957",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "masterless_2": {
     "seg": 667,
@@ -112,7 +126,9 @@
     ],
     "id": 0,
     "loc": "31442.2852, 5655.355",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "zenfern_1": {
     "seg": 669,
@@ -124,7 +140,9 @@
     ],
     "id": 0,
     "loc": "11193.792, 20307.8027",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "choppy_1": {
     "seg": 702,
@@ -142,7 +160,9 @@
     ],
     "id": 0,
     "loc": "80167.27, 7922.661",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "shellshop_1": {
     "seg": 735,
@@ -154,7 +174,9 @@
     ],
     "id": 0,
     "loc": "8353.15, 10995.8223",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "catmerch_1": {
     "seg": 767,
@@ -163,7 +185,9 @@
     "scripts": [],
     "id": 0,
     "loc": "8732.532, 11001.6113",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "scarecrow_0": {
     "seg": 768,
@@ -172,7 +196,9 @@
     "scripts": [],
     "id": 0,
     "loc": "8577.139, 10981.53",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "scarecrow_1": {
     "seg": 770,
@@ -184,7 +210,9 @@
     ],
     "id": 0,
     "loc": "6755.98926, 16998.1777",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "shipcaptain_1": {
     "seg": 803,
@@ -196,7 +224,9 @@
     ],
     "id": 0,
     "loc": "5213.568, 5129.353",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "boatman_1": {
     "seg": 804,
@@ -208,7 +238,9 @@
     ],
     "id": 0,
     "loc": "1850.3927, 28927.2773",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "rightboatman_1": {
     "seg": 805,
@@ -220,7 +252,9 @@
     ],
     "id": 0,
     "loc": "99470.97, 14764.4922",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "swampfriend_1": {
     "seg": 806,
@@ -234,7 +268,9 @@
     ],
     "id": 0,
     "loc": "16580.5723, 25804.4375",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "domefriend_1": {
     "seg": 807,
@@ -250,7 +286,9 @@
     ],
     "id": 0,
     "loc": "56759.0938, 9237.674",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "treelady_1": {
     "seg": 852,
@@ -262,7 +300,9 @@
     ],
     "id": 0,
     "loc": "17158.0488, 23384.2754",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "masterless_3": {
     "seg": 991,
@@ -280,7 +320,9 @@
     ],
     "id": 0,
     "loc": "45017.54, 13809.3467",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "masterless_4": {
     "seg": 992,
@@ -300,7 +342,9 @@
     ],
     "id": 0,
     "loc": "38007.46, 27299.5469",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "scarecrow_2": {
     "seg": 995,
@@ -318,7 +362,9 @@
     ],
     "id": 0,
     "loc": "42792.0078, 9544.357",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "masterless_5": {
     "seg": 996,
@@ -336,7 +382,9 @@
     ],
     "id": 0,
     "loc": "63140.5039, 28981.1934",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "oldman_2": {
     "seg": 997,
@@ -354,7 +402,9 @@
     ],
     "id": 0,
     "loc": "33268.19, 9751.742",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "jester_2": {
     "seg": 998,
@@ -372,7 +422,9 @@
     ],
     "id": 0,
     "loc": "43263.94, 12013.2539",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "choppy_2": {
     "seg": 999,
@@ -390,7 +442,9 @@
     ],
     "id": 0,
     "loc": "58136.87, 24537.6953",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "despondent_2": {
     "seg": 1000,
@@ -410,7 +464,9 @@
     ],
     "id": 0,
     "loc": "46148.91, 21525.7383",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "dark_gatekeeper_1": {
     "seg": 1001,
@@ -422,7 +478,9 @@
     ],
     "id": 0,
     "loc": "72860.63, 38632.9727",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "masterless_6": {
     "seg": 1046,
@@ -440,7 +498,9 @@
     ],
     "id": 0,
     "loc": "98122.61, 30280.9551",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "despondent_3": {
     "seg": 1054,
@@ -460,7 +520,9 @@
     ],
     "id": 0,
     "loc": "36553.5039, 24302.6",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "despondent_4": {
     "seg": 1055,
@@ -480,7 +542,9 @@
     ],
     "id": 0,
     "loc": "97415.26, 14634.3857",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "princess_1": {
     "seg": 1090,
@@ -492,7 +556,9 @@
     ],
     "id": 0,
     "loc": "6150.11328, 4240.38135",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "princess_maid_1": {
     "seg": 1091,
@@ -504,7 +570,9 @@
     ],
     "id": 0,
     "loc": "6086.257, 4249.875",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "scarecrow_3": {
     "seg": 1094,
@@ -522,7 +590,9 @@
     ],
     "id": 0,
     "loc": "67147.19, 17996.3223",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "scarecrow_4": {
     "seg": 1095,
@@ -540,7 +610,9 @@
     ],
     "id": 0,
     "loc": "43554.4922, 33482.7969",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "choppy_3": {
     "seg": 1098,
@@ -562,7 +634,9 @@
     ],
     "id": 0,
     "loc": "989.893433, 14865.2373",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "oldman_3": {
     "seg": 1159,
@@ -582,7 +656,9 @@
     ],
     "id": 0,
     "loc": "60534.0156, 29507.752",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "domefriend_2": {
     "seg": 1196,
@@ -598,7 +674,9 @@
     ],
     "id": 0,
     "loc": "83745.11, 11081.1807",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "nomad_2": {
     "seg": 1220,
@@ -612,7 +690,9 @@
     ],
     "id": 0,
     "loc": "43696.9141, 7031.3125",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "oldman_4": {
     "seg": 1221,
@@ -634,7 +714,9 @@
     ],
     "id": 0,
     "loc": "49048.4727, 37693.11",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   },
   "scarecrow_5": {
     "seg": 1274,
@@ -654,6 +736,8 @@
     ],
     "id": 0,
     "loc": "67602.8359, 46979.77",
-    "region": "npcs"
+    "region": "npcs",
+    "name": null,
+    "description": null
   }
 }

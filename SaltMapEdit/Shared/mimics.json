@@ -5,7 +5,9 @@
     ],
     "id": 80000,
     "loc": "77867.9141, 10239.4141",
-    "region": "ziggurat_upper3"
+    "region": "ziggurat_upper3",
+    "name": null,
+    "description": "Mimic below The Dried King in upper Ziggurat of Dust"
   },
   "ruins_guide_armor_59910_pkp": {
     "items": [
@@ -16,7 +18,9 @@
     ],
     "id": 80003,
     "loc": "56243.6, 16968.4473",
-    "region": "ruins_cave"
+    "region": "ruins_cave",
+    "name": null,
+    "description": "Mimic in upper west The Ruined Temple"
   },
   "statue_alchemist_59047_pkp": {
     "items": [
@@ -24,7 +28,9 @@
     ],
     "id": 80009,
     "loc": "59047.81, 13322.2559",
-    "region": "dome_west_lower"
+    "region": "dome_west_lower",
+    "name": null,
+    "description": "Mimic at the east wall on the bottom floor in lower west Dome of the Forgotten"
   },
   "48065_pkp": {
     "items": [
@@ -33,7 +39,9 @@
     ],
     "id": 80012,
     "loc": "48065.832, 31828.8574",
-    "region": "48065"
+    "region": "48065",
+    "name": null,
+    "description": "Mimic below the west Siam Lake entrance, in middle Salt Alkymancery"
   },
   "lab_statue_flame_50824_pkp": {
     "items": [
@@ -41,7 +49,9 @@
     ],
     "id": 80016,
     "loc": "50776.4375, 30318.498",
-    "region": "lab_statue_flame_50824"
+    "region": "lab_statue_flame_50824",
+    "name": null,
+    "description": "Mimic above the west Siam Lake entrance in east Salt Alkymancery"
   },
   "lab_saltknight_47048_pkp": {
     "items": [
@@ -52,7 +62,9 @@
     ],
     "id": 80019,
     "loc": "47048.63, 33722.9141",
-    "region": "lab_saltknight_47048"
+    "region": "lab_saltknight_47048",
+    "name": null,
+    "description": "Mimic above the boss arena in lower Salt Alkymancery"
   },
   "amberflame_77460_pkp": {
     "items": [
@@ -60,7 +72,9 @@
     ],
     "id": 80025,
     "loc": "77460.2344, 14107.8691",
-    "region": "ziggurat_amberflame"
+    "region": "ziggurat_amberflame",
+    "name": null,
+    "description": "Mimic next to the west room in west Ziggurat of Dust"
   },
   "chest_princess_set_pkp": {
     "items": [
@@ -71,7 +85,9 @@
     ],
     "id": 80028,
     "loc": "54606.3125, 25290.4824",
-    "region": "princess_set"
+    "region": "princess_set",
+    "name": null,
+    "description": "Chest on the way to Salt Alkymancery in lower Cran's Pass"
   },
   "flying_blue_blaze_pkp": {
     "items": [
@@ -79,7 +95,9 @@
     ],
     "id": 80034,
     "loc": "51507.27, 3990.71826",
-    "region": "mals_lower"
+    "region": "mals_lower",
+    "name": null,
+    "description": "Mimic above the Sanctuary in east Mal's Floating Castle"
   },
   "flying_blue_blaze_47374_pkp": {
     "items": [
@@ -87,7 +105,9 @@
     ],
     "id": 80037,
     "loc": "47374.0625, 3685.56348",
-    "region": "mals_lower"
+    "region": "mals_lower",
+    "name": null,
+    "description": "West mimic above the west door in west Mal's Floating Castle"
   },
   "flying_blue_blaze_48951_pkp": {
     "items": [
@@ -95,7 +115,9 @@
     ],
     "id": 80040,
     "loc": "48951.92, 2035.75",
-    "region": "mals_upper"
+    "region": "mals_upper",
+    "name": null,
+    "description": "East mimic below Murdiella Mal"
   },
   "flying_blue_blaze_48867_pkp": {
     "items": [
@@ -103,7 +125,9 @@
     ],
     "id": 80043,
     "loc": "48867.5664, 3497.01416",
-    "region": "mals_middle"
+    "region": "mals_middle",
+    "name": null,
+    "description": "East mimic above the west door in west Mal's Floating Castle"
   },
   "flying_salt_47999_pkp": {
     "items": [
@@ -111,7 +135,9 @@
     ],
     "id": 80046,
     "loc": "47999.293, 2353.15527",
-    "region": "mals_west_upper"
+    "region": "mals_west_upper",
+    "name": null,
+    "description": "West mimic below Murdiella Mal"
   },
   "graypearl_60274_pkp": {
     "items": [
@@ -119,7 +145,9 @@
     ],
     "id": 80049,
     "loc": "60188.582, 36357.625",
-    "region": "palace_to_lake"
+    "region": "palace_to_lake",
+    "name": null,
+    "description": "West mimic on the way to east Siam Lake in upper The Still Palace"
   },
   "graypearl_60705_pkp": {
     "items": [
@@ -127,6 +155,8 @@
     ],
     "id": 80052,
     "loc": "60695.8672, 36361.9375",
-    "region": "palace_to_lake"
+    "region": "palace_to_lake",
+    "name": null,
+    "description": "East mimic on the way to east Siam Lake in upper The Still Palace"
   }
 }

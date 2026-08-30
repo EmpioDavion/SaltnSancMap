@@ -6,7 +6,9 @@
     ],
     "id": 40000,
     "loc": "17041.3457, 8626.176",
-    "region": "dread"
+    "region": "dread",
+    "name": "The Festering Banquet Boss",
+    "description": "Vanquish the boss in upper east The Festering Banquet"
   },
   "cutqueen": {
     "items": [
@@ -14,7 +16,9 @@
     ],
     "id": 40004,
     "loc": "2459.48022, 17944.5664",
-    "region": "cutqueen"
+    "region": "cutqueen",
+    "name": "Village of Smiles Boss",
+    "description": "Vanquish the boss in west Village of Smiles"
   },
   "bull": {
     "items": [
@@ -23,7 +27,9 @@
     ],
     "id": 40007,
     "loc": "26734.77, 23051.8086",
-    "region": "bull"
+    "region": "bull",
+    "name": "Sunken Keep Boss 1",
+    "description": "Vanquish the boss in lower west Sunken Keep"
   },
   "dragon": {
     "items": [
@@ -31,7 +37,9 @@
     ],
     "id": 40011,
     "loc": "38186.09, 1243.47021",
-    "region": "dragon"
+    "region": "dragon",
+    "name": "Castle of Storms Boss",
+    "description": "Vanquish the boss in upper Castle of Storms"
   },
   "alchemist": {
     "items": [
@@ -39,7 +47,9 @@
     ],
     "id": 40014,
     "loc": "21009.7324, 18165.9219",
-    "region": "alchemist"
+    "region": "alchemist",
+    "name": "The Watching Woods Boss",
+    "description": "Vanquish the boss in upper east The Watching Woods"
   },
   "torturetree": {
     "items": [
@@ -47,7 +57,9 @@
     ],
     "id": 40017,
     "loc": "41469.28, 28467.8457",
-    "region": "torturetree"
+    "region": "torturetree",
+    "name": "Red Hall of Cages Boss",
+    "description": "Vanquish the boss in lower west Red Hall of Cages"
   },
   "pirate": {
     "items": [
@@ -56,7 +68,9 @@
     ],
     "id": 40020,
     "loc": "28432.98, 29483.332",
-    "region": "pirate"
+    "region": "pirate",
+    "name": "Hager's Cavern Boss",
+    "description": "Vanquish the boss in west Hager's Cavern"
   },
   "leviathon": {
     "items": [
@@ -66,7 +80,9 @@
     ],
     "id": 40024,
     "loc": "5133.833, 4273.77",
-    "region": "leviathon"
+    "region": "leviathon",
+    "name": "Ship Boss",
+    "description": "Vanquish the boss on the Ship"
   },
   "gasbag": {
     "items": [
@@ -74,7 +90,9 @@
     ],
     "id": 40029,
     "loc": "20563.0547, 24250.6875",
-    "region": "gasbag"
+    "region": "gasbag",
+    "name": "Mire of Stench Boss",
+    "description": "Vanquish the boss in upper west Mire of Stench"
   },
   "broken": {
     "items": [
@@ -82,7 +100,9 @@
     ],
     "id": 40032,
     "loc": "56019.2969, 23061.5332",
-    "region": "broken"
+    "region": "broken",
+    "name": "Cran's Pass Boss",
+    "description": "Vanquish the boss in Cran's Pass"
   },
   "griffin": {
     "items": [
@@ -90,7 +110,9 @@
     ],
     "id": 40035,
     "loc": "60154.5625, 9221.357",
-    "region": "griffin"
+    "region": "griffin",
+    "name": "Dome of the Forgotten Boss 2",
+    "description": "Vanquish the boss in upper Dome of the Forgotten"
   },
   "lakewitch": {
     "items": [
@@ -98,7 +120,9 @@
     ],
     "id": 40038,
     "loc": "55811.5625, 30732.5664",
-    "region": "lakewitch"
+    "region": "lakewitch",
+    "name": "Siam Lake Boss",
+    "description": "Vanquish the boss in Siam Lake"
   },
   "fauxjester": {
     "items": [
@@ -106,7 +130,9 @@
     ],
     "id": 40041,
     "loc": "26812.873, 17064.8516",
-    "region": "fauxjester"
+    "region": "fauxjester",
+    "name": "Sunken Keep Boss 2",
+    "description": "Vanquish the boss in upper west Sunken Keep"
   },
   "mummy": {
     "items": [
@@ -114,7 +140,9 @@
     ],
     "id": 40044,
     "loc": "79848.26, 9045.742",
-    "region": "mummy"
+    "region": "mummy",
+    "name": "Ziggurat of Dust Boss 1",
+    "description": "Vanquish the boss in upper Ziggurat of Dust"
   },
   "clay": {
     "items": [
@@ -122,7 +150,9 @@
     ],
     "id": 40047,
     "loc": "79093.98, 17606.04",
-    "region": "clay"
+    "region": "clay",
+    "name": "Ziggurat of Dust Boss 2",
+    "description": "Vanquish the boss in lower Ziggurat of Dust"
   },
   "inquisitor": {
     "items": [
@@ -130,7 +160,9 @@
     ],
     "id": 40050,
     "loc": "60699.5977, 13237.1963",
-    "region": "inquisitor"
+    "region": "inquisitor",
+    "name": "Dome of the Forgotten Boss 1",
+    "description": "Vanquish the boss in lower Dome of the Forgotten"
   },
   "monster": {
     "items": [
@@ -138,7 +170,9 @@
     ],
     "id": 40053,
     "loc": "48561.28, 35031.3633",
-    "region": "monster"
+    "region": "monster",
+    "name": "Salt Alkymancery Boss 1",
+    "description": "Vanquish the duo boss in lower Salt Alkymancery"
   },
   "monsterwitch": {
     "items": [
@@ -146,7 +180,9 @@
     ],
     "id": 40056,
     "loc": "48368.16, 34674.63",
-    "region": "monsterwitch"
+    "region": "monsterwitch",
+    "name": "Salt Alkymancery Boss 2",
+    "description": "Vanquish the duo boss in lower Salt Alkymancery"
   },
   "ruinaxe": {
     "items": [
@@ -154,19 +190,25 @@
     ],
     "id": 40059,
     "loc": "62728.3633, 25636.96",
-    "region": "ruinaxe"
+    "region": "ruinaxe",
+    "name": "The Ruined Temple Boss",
+    "description": "Vanquish the trio boss in The Ruined Temple"
   },
   "ruinaxeghost1": {
     "items": [],
     "id": 40062,
     "loc": "62340.03, 25371.5879",
-    "region": "ruinaxeghost1"
+    "region": "ruinaxeghost1",
+    "name": "The Ruined Temple Boss 2",
+    "description": "Vanquish the trio boss in The Ruined Temple"
   },
   "ruinaxeghost2": {
     "items": [],
     "id": 40064,
     "loc": "63103.7852, 25371.5879",
-    "region": "ruinaxeghost2"
+    "region": "ruinaxeghost2",
+    "name": "The Ruined Temple Boss 3",
+    "description": "Vanquish the trio boss in The Ruined Temple"
   },
   "squiddragon": {
     "items": [
@@ -174,7 +216,9 @@
     ],
     "id": 40066,
     "loc": "46111.42, 37679.4023",
-    "region": "squiddragon"
+    "region": "squiddragon",
+    "name": "Crypt of Dead Gods Boss 1",
+    "description": "Vanquish the boss in lower east Crypt of Dead Gods"
   },
   "nameless": {
     "items": [
@@ -182,7 +226,9 @@
     ],
     "id": 40069,
     "loc": "62566.0938, 46780.81",
-    "region": "nameless"
+    "region": "nameless",
+    "name": "The Still Palace Boss",
+    "description": "Vanquish the boss in lower east The Still Palace"
   },
   "cloak": {
     "items": [
@@ -190,7 +236,9 @@
     ],
     "id": 40072,
     "loc": "94554.58, 30010.3848",
-    "region": "cloak"
+    "region": "cloak",
+    "name": "Pitchwoods Boss",
+    "description": "Vanquish the boss in lower east Pitchwoods"
   },
   "deadking": {
     "items": [
@@ -198,7 +246,9 @@
     ],
     "id": 40075,
     "loc": "32648.3418, 41882.8867",
-    "region": "deadking"
+    "region": "deadking",
+    "name": "Crypt of Dead Gods Boss 2",
+    "description": "Vanquish the trio boss in lower west Crypt of Dead Gods"
   },
   "deadknight": {
     "items": [
@@ -206,7 +256,9 @@
     ],
     "id": 40078,
     "loc": "32411.7168, 41861.6133",
-    "region": "deadknight"
+    "region": "deadknight",
+    "name": "Crypt of Dead Gods Boss 3",
+    "description": "Vanquish the trio boss in lower west Crypt of Dead Gods"
   },
   "deadjudge": {
     "items": [
@@ -214,7 +266,9 @@
     ],
     "id": 40081,
     "loc": "32885.19, 41845.9961",
-    "region": "deadjudge"
+    "region": "deadjudge",
+    "name": "Crypt of Dead Gods Boss 4",
+    "description": "Vanquish the trio boss in lower west Crypt of Dead Gods"
   },
   "murderfly": {
     "items": [
@@ -222,6 +276,8 @@
     ],
     "id": 40084,
     "loc": "49243.0156, 1219.70471",
-    "region": "murderfly"
+    "region": "murderfly",
+    "name": null,
+    "description": null
   }
 }

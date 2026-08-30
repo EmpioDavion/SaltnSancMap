@@ -2,1356 +2,1898 @@
   "masterless_talk": {
     "id": 110015,
     "loc": "17922.123, 11601.01",
-    "region": "masterless_1"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 5",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_quest_yes": {
     "id": 110016,
     "loc": "17922.123, 11601.01",
-    "region": "disabled"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 4",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_quest_no": {
     "id": 110017,
     "loc": "17922.123, 11601.01",
-    "region": "disabled"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 3",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_my_quest_yes": {
     "id": 110018,
     "loc": "17922.123, 11601.01",
-    "region": "masterless_1"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 2",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_my_quest_no": {
     "id": 110019,
     "loc": "17922.123, 11601.01",
-    "region": "disabled"
+    "region": "disabled",
+    "name": "Masterless Knight The Festering Banquet Dialogue 1",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_talk2": {
     "id": 110020,
     "loc": "17922.123, 11601.01",
-    "region": "masterless_1"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 6",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_talk3": {
     "id": 110021,
     "loc": "17922.123, 11601.01",
-    "region": "masterless_1"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 7",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_talk4": {
     "id": 110022,
     "loc": "17922.123, 11601.01",
-    "region": "masterless_1"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 8",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_talk5": {
     "id": 110023,
     "loc": "17922.123, 11601.01",
-    "region": "masterless_1"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 9",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_talk6": {
     "id": 110024,
     "loc": "17922.123, 11601.01",
-    "region": "masterless_1"
+    "region": "masterless_1",
+    "name": "Masterless Knight The Festering Banquet Dialogue 10",
+    "description": "Masterless Knight dialogue in east The Festering Banquet"
   },
   "masterless_2_talk": {
     "id": 110025,
     "loc": "31442.2852, 5655.355",
-    "region": "masterless_2"
+    "region": "masterless_2",
+    "name": "Masterless Knight Castle of Storms Dialogue 1",
+    "description": "Masterless Knight dialogue in upper west Castle of Storms"
   },
   "masterless_2_talk_2": {
     "id": 110026,
     "loc": "31442.2852, 5655.355",
-    "region": "masterless_2"
+    "region": "masterless_2",
+    "name": "Masterless Knight Castle of Storms Dialogue 2",
+    "description": "Masterless Knight dialogue in upper west Castle of Storms"
   },
   "masterless_2_talk_3": {
     "id": 110027,
     "loc": "31442.2852, 5655.355",
-    "region": "masterless_2"
+    "region": "masterless_2",
+    "name": "Masterless Knight Castle of Storms Dialogue 3",
+    "description": "Masterless Knight dialogue in upper west Castle of Storms"
   },
   "masterless_3_talk": {
     "id": 110028,
     "loc": "45017.54, 13809.3467",
-    "region": "masterless_3"
+    "region": "masterless_3",
+    "name": "Masterless Knight Red Hall of Cages Dialogue 1",
+    "description": "Masterless Knight dialogue in upper east Red Hall of Cages"
   },
   "masterless_3_talk_2": {
     "id": 110029,
     "loc": "45017.54, 13809.3467",
-    "region": "masterless_3"
+    "region": "masterless_3",
+    "name": "Masterless Knight Red Hall of Cages Dialogue 2",
+    "description": "Masterless Knight dialogue in upper east Red Hall of Cages"
   },
   "masterless_3_talk_3": {
     "id": 110030,
     "loc": "45017.54, 13809.3467",
-    "region": "masterless_3"
+    "region": "masterless_3",
+    "name": "Masterless Knight Red Hall of Cages Dialogue 3",
+    "description": "Masterless Knight dialogue in upper east Red Hall of Cages"
   },
   "masterless_3_talk_4": {
     "id": 110031,
     "loc": "45017.54, 13809.3467",
-    "region": "masterless_3"
+    "region": "masterless_3",
+    "name": "Masterless Knight Red Hall of Cages Dialogue 4",
+    "description": "Masterless Knight dialogue in upper east Red Hall of Cages"
   },
   "masterless_4_talk": {
     "id": 110032,
     "loc": "38007.46, 27299.5469",
-    "region": "masterless_4"
+    "region": "masterless_4",
+    "name": "Masterless Knight Hager's Cavern Dialogue 1",
+    "description": "Masterless Knight dialogue in east Hager's Cavern"
   },
   "masterless_4_talk_2": {
     "id": 110033,
     "loc": "38007.46, 27299.5469",
-    "region": "masterless_4"
+    "region": "masterless_4",
+    "name": "Masterless Knight Hager's Cavern Dialogue 2",
+    "description": null
   },
   "masterless_4_talk_3": {
     "id": 110034,
     "loc": "38007.46, 27299.5469",
-    "region": "masterless_4"
+    "region": "masterless_4",
+    "name": "Masterless Knight Hager's Cavern Dialogue 3",
+    "description": null
   },
   "masterless_4_talk_4": {
     "id": 110035,
     "loc": "38007.46, 27299.5469",
-    "region": "masterless_4"
+    "region": "masterless_4",
+    "name": "Masterless Knight Hager's Cavern Dialogue 4",
+    "description": null
   },
   "masterless_5_talk": {
     "id": 110036,
     "loc": "63140.5039, 28981.1934",
-    "region": "masterless_5"
+    "region": "masterless_5",
+    "name": "Masterless Knight The Ruined Temple Dialogue 1",
+    "description": "Masterless Knight dialogue in lower The Ruined Temple"
   },
   "masterless_5_talk_2": {
     "id": 110037,
     "loc": "63140.5039, 28981.1934",
-    "region": "masterless_5"
+    "region": "masterless_5",
+    "name": "Masterless Knight The Ruined Temple Dialogue 2",
+    "description": "Masterless Knight dialogue in lower The Ruined Temple"
   },
   "masterless_5_talk_3": {
     "id": 110038,
     "loc": "63140.5039, 28981.1934",
-    "region": "masterless_5"
+    "region": "masterless_5",
+    "name": "Masterless Knight The Ruined Temple Dialogue 3",
+    "description": "Masterless Knight dialogue in lower The Ruined Temple"
   },
   "masterless_5_talk_4": {
     "id": 110039,
     "loc": "63140.5039, 28981.1934",
-    "region": "masterless_5"
+    "region": "masterless_5",
+    "name": "Masterless Knight The Ruined Temple Dialogue 4",
+    "description": "Masterless Knight dialogue in lower The Ruined Temple"
   },
   "masterless_6_talk": {
     "id": 110040,
     "loc": "98122.61, 30280.9551",
-    "region": "masterless_6"
+    "region": "masterless_6",
+    "name": "Masterless Knight Pitchwoods Dialogue 1",
+    "description": "Masterless Knight dialogue in Pitchwoods"
   },
   "masterless_6_talk_2": {
     "id": 110041,
     "loc": "98122.61, 30280.9551",
-    "region": "masterless_6"
+    "region": "masterless_6",
+    "name": "Masterless Knight Pitchwoods Dialogue 2",
+    "description": "Masterless Knight dialogue in Pitchwoods"
   },
   "masterless_6_talk_3": {
     "id": 110042,
     "loc": "98122.61, 30280.9551",
-    "region": "masterless_6"
+    "region": "masterless_6",
+    "name": "Masterless Knight Pitchwoods Dialogue 3",
+    "description": "Masterless Knight dialogue in Pitchwoods"
   },
   "masterless_coop2talk": {
     "id": 110043,
     "loc": "17922.123, 11601.01",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "nomad_talk": {
     "id": 110044,
     "loc": "17464.4941, 13519.4131",
-    "region": "nomad_1"
+    "region": "nomad_1",
+    "name": "Nomad The Festering Banquet Dialogue 1",
+    "description": "Nomad dialogue in The Festering Banquet"
   },
   "nomad_talk_talk": {
     "id": 110045,
     "loc": "17464.4941, 13519.4131",
-    "region": "nomad_1"
+    "region": "nomad_1",
+    "name": "Nomad The Festering Banquet Dialogue 2",
+    "description": "Nomad dialogue in The Festering Banquet"
   },
   "nomad_leave": {
     "id": 110046,
     "loc": "17464.4941, 13519.4131",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "nomad_menu": {
     "id": 110047,
     "loc": "17464.4941, 13519.4131",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "nomad_shop": {
     "id": 110048,
     "loc": "17464.4941, 13519.4131",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "nomad_talk_talk2": {
     "id": 110049,
     "loc": "17464.4941, 13519.4131",
-    "region": "nomad_1"
+    "region": "nomad_1",
+    "name": "Nomad The Festering Banquet Dialogue 3",
+    "description": "Nomad dialogue in The Festering Banquet"
   },
   "nomad_talk_talk3": {
     "id": 110050,
     "loc": "17464.4941, 13519.4131",
-    "region": "nomad_1"
+    "region": "nomad_1",
+    "name": "Nomad The Festering Banquet Dialogue 4",
+    "description": "Nomad dialogue in The Festering Banquet"
   },
   "nomad_talk_coop": {
     "id": 110051,
     "loc": "17464.4941, 13519.4131",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "nomad_talk_talk4": {
     "id": 110052,
     "loc": "17464.4941, 13519.4131",
-    "region": "nomad_1"
+    "region": "nomad_1",
+    "name": "Nomad The Festering Banquet Dialogue 5",
+    "description": "Nomad dialogue in The Festering Banquet"
   },
   "nomad_talk_talk5": {
     "id": 110053,
     "loc": "17464.4941, 13519.4131",
-    "region": "nomad_1"
+    "region": "nomad_1",
+    "name": "Nomad The Festering Banquet Dialogue 6",
+    "description": "Nomad dialogue in The Festering Banquet"
   },
   "nomad_2_talk": {
     "id": 110054,
     "loc": "43696.9141, 7031.3125",
-    "region": "nomad_2"
+    "region": "nomad_2",
+    "name": "Nomad Castle of Storms Dialogue 1",
+    "description": "Nomad dialogue in east Castle of Storms"
   },
   "nomad_2_talktalk": {
     "id": 110055,
     "loc": "43696.9141, 7031.3125",
-    "region": "nomad_2"
+    "region": "nomad_2",
+    "name": "Nomad Castle of Storms Dialogue 2",
+    "description": "Nomad dialogue in east Castle of Storms"
   },
   "nomad_2_talktalk2": {
     "id": 110056,
     "loc": "43696.9141, 7031.3125",
-    "region": "nomad_2"
+    "region": "nomad_2",
+    "name": "Nomad Castle of Storms Dialogue 3",
+    "description": "Nomad dialogue in east Castle of Storms"
   },
   "jester_talk": {
     "id": 110142,
     "loc": "21623.9961, 15220.2568",
-    "region": "jester_1"
+    "region": "jester_1",
+    "name": "Jester The Festering Banquet Dialogue 1",
+    "description": "Jester dialogue in lower east The Festering Banquet"
   },
   "jester_talk_2": {
     "id": 110143,
     "loc": "21623.9961, 15220.2568",
-    "region": "jester_1"
+    "region": "jester_1",
+    "name": "Jester The Festering Banquet Dialogue 2",
+    "description": "Jester dialogue in lower east The Festering Banquet"
   },
   "jester_talk_3": {
     "id": 110144,
     "loc": "21623.9961, 15220.2568",
-    "region": "jester_1"
+    "region": "jester_1",
+    "name": "Jester The Festering Banquet Dialogue 3",
+    "description": "Jester dialogue in lower east The Festering Banquet"
   },
   "jester_talk_yes": {
     "id": 110145,
     "loc": "21623.9961, 15220.2568",
-    "region": "jester_1"
+    "region": "jester_1",
+    "name": "Jester The Festering Banquet Dialogue 5",
+    "description": "Jester dialogue in lower east The Festering Banquet"
   },
   "jester_talk_no": {
     "id": 110146,
     "loc": "21623.9961, 15220.2568",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "jester_talk_done": {
     "id": 110147,
     "loc": "21623.9961, 15220.2568",
-    "region": "jester_1"
+    "region": "jester_1",
+    "name": "Jester The Festering Banquet Dialogue 4",
+    "description": "Jester dialogue in lower east The Festering Banquet"
   },
   "jester_2_talk": {
     "id": 110148,
     "loc": "43263.94, 12013.2539",
-    "region": "jester_2"
+    "region": "jester_2",
+    "name": "Jester Red Hall of Cages Dialogue 1",
+    "description": "Jester dialogue in upper Red Hall of Cages"
   },
   "jester_2_talk_2": {
     "id": 110149,
     "loc": "43263.94, 12013.2539",
-    "region": "jester_2"
+    "region": "jester_2",
+    "name": "Jester Red Hall of Cages Dialogue 2",
+    "description": "Jester dialogue in upper Red Hall of Cages"
   },
   "jester_2_talk_3": {
     "id": 110150,
     "loc": "43263.94, 12013.2539",
-    "region": "jester_2"
+    "region": "jester_2",
+    "name": "Jester Red Hall of Cages Dialogue 3",
+    "description": "Jester dialogue in upper Red Hall of Cages"
   },
   "jester_coop2talk": {
     "id": 110151,
     "loc": "21623.9961, 15220.2568",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "despondent_talk": {
     "id": 110152,
     "loc": "38548.2422, 3490.707",
-    "region": "despondent_1"
+    "region": "despondent_1",
+    "name": "Despondent Thief Castle of Storms Dialogue 1",
+    "description": "Despondent Thief dialogue in upper Castle of Storms"
   },
   "despondent_talk_2": {
     "id": 110153,
     "loc": "38548.2422, 3490.707",
-    "region": "despondent_1"
+    "region": "despondent_1",
+    "name": "Despondent Thief Castle of Storms Dialogue 2",
+    "description": "Despondent Thief dialogue in upper Castle of Storms"
   },
   "despondent_talk_3": {
     "id": 110154,
     "loc": "38548.2422, 3490.707",
-    "region": "despondent_1"
+    "region": "despondent_1",
+    "name": "Despondent Thief Castle of Storms Dialogue 3",
+    "description": "Despondent Thief dialogue in upper Castle of Storms"
   },
   "despondent_2_talk_1": {
     "id": 110155,
     "loc": "46148.91, 21525.7383",
-    "region": "despondent_2"
+    "region": "despondent_2",
+    "name": "Despondent Thief Red Hall of Cages Dialogue 1",
+    "description": "Despondent Thief dialogue in Red Hall of Cages"
   },
   "despondent_2_talk_2": {
     "id": 110156,
     "loc": "46148.91, 21525.7383",
-    "region": "despondent_2"
+    "region": "despondent_2",
+    "name": "Despondent Thief Red Hall of Cages Dialogue 2",
+    "description": "Despondent Thief dialogue in Red Hall of Cages"
   },
   "despondent_2_talk_3": {
     "id": 110157,
     "loc": "46148.91, 21525.7383",
-    "region": "despondent_2"
+    "region": "despondent_2",
+    "name": "Despondent Thief Red Hall of Cages Dialogue 3",
+    "description": "Despondent Thief dialogue in Red Hall of Cages"
   },
   "despondent_2_talk_4": {
     "id": 110158,
     "loc": "46148.91, 21525.7383",
-    "region": "despondent_2"
+    "region": "despondent_2",
+    "name": "Despondent Thief Red Hall of Cages Dialogue 4",
+    "description": "Despondent Thief dialogue in Red Hall of Cages"
   },
   "despondent_3_talk_1": {
     "id": 110159,
     "loc": "36553.5039, 24302.6",
-    "region": "despondent_3"
+    "region": "despondent_3",
+    "name": "Despondent Thief Hager's Cavern Dialogue 1",
+    "description": "Despondent Thief dialogue in upper east Hager's Cavern"
   },
   "despondent_3_talk_2": {
     "id": 110160,
     "loc": "36553.5039, 24302.6",
-    "region": "despondent_3"
+    "region": "despondent_3",
+    "name": "Despondent Thief Hager's Cavern Dialogue 2",
+    "description": "Despondent Thief dialogue in upper east Hager's Cavern"
   },
   "despondent_3_talk_3": {
     "id": 110161,
     "loc": "36553.5039, 24302.6",
-    "region": "despondent_3"
+    "region": "despondent_3",
+    "name": "Despondent Thief Hager's Cavern Dialogue 3",
+    "description": "Despondent Thief dialogue in upper east Hager's Cavern"
   },
   "despondent_3_talk_yesno": {
     "id": 110162,
     "loc": "36553.5039, 24302.6",
-    "region": "despondent_3"
+    "region": "despondent_3",
+    "name": "Despondent Thief Hager's Cavern Dialogue 7",
+    "description": "Despondent Thief dialogue in upper east Hager's Cavern"
   },
   "despondent_3_talk_yes": {
     "id": 110163,
     "loc": "36553.5039, 24302.6",
-    "region": "despondent_3"
+    "region": "despondent_3",
+    "name": "Despondent Thief Hager's Cavern Dialogue 6",
+    "description": "Despondent Thief dialogue in upper east Hager's Cavern"
   },
   "despondent_3_talk_no": {
     "id": 110164,
     "loc": "36553.5039, 24302.6",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "despondent_3_talk_4": {
     "id": 110165,
     "loc": "36553.5039, 24302.6",
-    "region": "despondent_3"
+    "region": "despondent_3",
+    "name": "Despondent Thief Hager's Cavern Dialogue 4",
+    "description": "Despondent Thief dialogue in upper east Hager's Cavern"
   },
   "despondent_3_talk_5": {
     "id": 110166,
     "loc": "36553.5039, 24302.6",
-    "region": "despondent_3"
+    "region": "despondent_3",
+    "name": "Despondent Thief Hager's Cavern Dialogue 5",
+    "description": "Despondent Thief dialogue in upper east Hager's Cavern"
   },
   "despondent_4_talk_1": {
     "id": 110167,
     "loc": "97415.26, 14634.3857",
-    "region": "despondent_4"
+    "region": "despondent_4",
+    "name": "Despondent Thief The Far Beach Dialogue 1",
+    "description": "Despondent Thief dialogue in east The Far Beach"
   },
   "despondent_4_talk_2": {
     "id": 110168,
     "loc": "97415.26, 14634.3857",
-    "region": "despondent_4"
+    "region": "despondent_4",
+    "name": "Despondent Thief The Far Beach Dialogue 2",
+    "description": "Despondent Thief dialogue in east The Far Beach"
   },
   "despondent_4_talk_3": {
     "id": 110169,
     "loc": "97415.26, 14634.3857",
-    "region": "despondent_4"
+    "region": "despondent_4",
+    "name": "Despondent Thief The Far Beach Dialogue 3",
+    "description": "Despondent Thief dialogue in east The Far Beach"
   },
   "despondent_4_talk_4": {
     "id": 110170,
     "loc": "97415.26, 14634.3857",
-    "region": "despondent_4"
+    "region": "despondent_4",
+    "name": "Despondent Thief The Far Beach Dialogue 4",
+    "description": "Despondent Thief dialogue in east The Far Beach"
   },
   "despondent_coop2talk": {
     "id": 110171,
     "loc": "38548.2422, 3490.707",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldman_talk": {
     "id": 110172,
     "loc": "3047.75244, 14576.8574",
-    "region": "oldman_1"
+    "region": "oldman_1",
+    "name": "Old Man Shivering Shore Dialogue 1",
+    "description": "Old Man dialogue in Shivering Shore"
   },
   "oldman_talk2": {
     "id": 110173,
     "loc": "3047.75244, 14576.8574",
-    "region": "oldman_1"
+    "region": "oldman_1",
+    "name": "Old Man Shivering Shore Dialogue 2",
+    "description": "Old Man dialogue in Shivering Shore"
   },
   "oldman_talk3": {
     "id": 110174,
     "loc": "3047.75244, 14576.8574",
-    "region": "oldman_1"
+    "region": "oldman_1",
+    "name": "Old Man Shivering Shore Dialogue 3",
+    "description": "Old Man dialogue in Shivering Shore"
   },
   "oldman_iron_check": {
     "id": 110175,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_three_check": {
     "id": 110176,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_cleric_check": {
     "id": 110177,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_forest_check": {
     "id": 110178,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_fire_sky_check": {
     "id": 110179,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_three_confirm": {
     "id": 110180,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_iron_confirm": {
     "id": 110181,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_cleric_confirm": {
     "id": 110182,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_forest_confirm": {
     "id": 110183,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_fire_sky_confirm": {
     "id": 110184,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_no_creed": {
     "id": 110185,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldman_talk4": {
     "id": 110186,
     "loc": "3047.75244, 14576.8574",
-    "region": "oldman_1"
+    "region": "oldman_1",
+    "name": "Old Man Shivering Shore Dialogue 4",
+    "description": "Old Man dialogue in Shivering Shore"
   },
   "oldman_talk5": {
     "id": 110187,
     "loc": "3047.75244, 14576.8574",
-    "region": "oldman_1"
+    "region": "oldman_1",
+    "name": "Old Man Shivering Shore Dialogue 5",
+    "description": "Old Man dialogue in Shivering Shore"
   },
   "oldman_talk_not_new": {
     "id": 110188,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "oldman_1",
+    "name": null,
+    "description": null
   },
   "oldman_talk_no_gods": {
     "id": 110189,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldman_2_talk_1": {
     "id": 110190,
     "loc": "33268.19, 9751.742",
-    "region": "oldman_2"
+    "region": "oldman_2",
+    "name": "Old Man Bandit's Pass Dialogue 1",
+    "description": "Old Man dialogue in east Bandit's Pass"
   },
   "oldman_2_talk_2": {
     "id": 110191,
     "loc": "33268.19, 9751.742",
-    "region": "oldman_2"
+    "region": "oldman_2",
+    "name": "Old Man Bandit's Pass Dialogue 2",
+    "description": "Old Man dialogue in east Bandit's Pass"
   },
   "oldman_2_talk_3": {
     "id": 110192,
     "loc": "33268.19, 9751.742",
-    "region": "oldman_2"
+    "region": "oldman_2",
+    "name": "Old Man Bandit's Pass Dialogue 3",
+    "description": "Old Man dialogue in east Bandit's Pass"
   },
   "oldman_coop2talk": {
     "id": 110193,
     "loc": "3047.75244, 14576.8574",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldman_3_talk_1": {
     "id": 110194,
     "loc": "60534.0156, 29507.752",
-    "region": "oldman_3"
+    "region": "oldman_3",
+    "name": "Old Man Siam Lake Dialogue 1",
+    "description": "Old Man dialogue in east Siam Lake"
   },
   "oldman_3_talk_2": {
     "id": 110195,
     "loc": "60534.0156, 29507.752",
-    "region": "oldman_3"
+    "region": "oldman_3",
+    "name": "Old Man Siam Lake Dialogue 2",
+    "description": "Old Man dialogue in east Siam Lake"
   },
   "oldman_3_talk_3": {
     "id": 110196,
     "loc": "60534.0156, 29507.752",
-    "region": "oldman_3"
+    "region": "oldman_3",
+    "name": "Old Man Siam Lake Dialogue 3",
+    "description": "Old Man dialogue in east Siam Lake"
   },
   "oldman_3_talk_4": {
     "id": 110197,
     "loc": "60534.0156, 29507.752",
-    "region": "oldman_3"
+    "region": "oldman_3",
+    "name": "Old Man Siam Lake Dialogue 4",
+    "description": "Old Man dialogue in east Siam Lake"
   },
   "oldman_4_talk_1": {
     "id": 110198,
     "loc": "49048.4727, 37693.11",
-    "region": "oldman_4"
+    "region": "oldman_4",
+    "name": "Old Man The Still Palace Dialogue 1",
+    "description": "Old Man dialogue in The Still Palace"
   },
   "oldman_4_talk_2": {
     "id": 110199,
     "loc": "49048.4727, 37693.11",
-    "region": "oldman_4"
+    "region": "oldman_4",
+    "name": "Old Man The Still Palace Dialogue 2",
+    "description": "Old Man dialogue in The Still Palace"
   },
   "oldman_4_talk_3": {
     "id": 110200,
     "loc": "49048.4727, 37693.11",
-    "region": "oldman_4"
+    "region": "oldman_4",
+    "name": "Old Man The Still Palace Dialogue 3",
+    "description": "Old Man dialogue in The Still Palace"
   },
   "oldman_4_talk_4": {
     "id": 110201,
     "loc": "49048.4727, 37693.11",
-    "region": "oldman_4"
+    "region": "oldman_4",
+    "name": "Old Man The Still Palace Dialogue 4",
+    "description": "Old Man dialogue in The Still Palace"
   },
   "oldman_4_talk_5": {
     "id": 110202,
     "loc": "49048.4727, 37693.11",
-    "region": "oldman_4"
+    "region": "oldman_4",
+    "name": "Old Man The Still Palace Dialogue 5",
+    "description": "Old Man dialogue in The Still Palace"
   },
   "oldman_4_talk_6": {
     "id": 110203,
     "loc": "49048.4727, 37693.11",
-    "region": "oldman_4"
+    "region": "oldman_4",
+    "name": "Old Man The Still Palace Dialogue 6",
+    "description": "Old Man dialogue in The Still Palace"
   },
   "oldgreg_talk": {
     "id": 110268,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 4",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_talk_talk": {
     "id": 110269,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 6",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_menu": {
     "id": 110270,
     "loc": "16679.1426, 28266.07",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldgreg_shop": {
     "id": 110271,
     "loc": "16679.1426, 28266.07",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldgreg_talk2": {
     "id": 110272,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 11",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_talk3": {
     "id": 110273,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 12",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_talk4": {
     "id": 110274,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 13",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_talk5": {
     "id": 110275,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 14",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_fond": {
     "id": 110276,
     "loc": "16679.1426, 28266.07",
-    "region": "disabled"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 1",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_fondyes": {
     "id": 110277,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 3",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_fondno": {
     "id": 110278,
     "loc": "16679.1426, 28266.07",
-    "region": "disabled"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 2",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_talk_like": {
     "id": 110279,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 5",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_leave": {
     "id": 110280,
     "loc": "16679.1426, 28266.07",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldgreg_talk_talk1": {
     "id": 110281,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 7",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_talk_talk2": {
     "id": 110282,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 8",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_talk_talk3": {
     "id": 110283,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 9",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_talk_talk4": {
     "id": 110284,
     "loc": "16679.1426, 28266.07",
-    "region": "oldgreg_1"
+    "region": "oldgreg_1",
+    "name": "Alde Griggs Mire of Stench Dialogue 10",
+    "description": "Alde Griggs dialogue in lower west Mire of Stench"
   },
   "oldgreg_coop2talk": {
     "id": 110285,
     "loc": "16679.1426, 28266.07",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldgreg_coop2talklike": {
     "id": 110286,
     "loc": "16679.1426, 28266.07",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "oldgreg_talk_coop": {
     "id": 110287,
     "loc": "16679.1426, 28266.07",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_talk": {
     "id": 110288,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 4",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_talk2": {
     "id": 110289,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 7",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_yesno": {
     "id": 110290,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 9",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_harvest": {
     "id": 110291,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 1",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_plant": {
     "id": 110292,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_talk_good": {
     "id": 110293,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 5",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_menu": {
     "id": 110294,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_talk3": {
     "id": 110295,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 8",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_leave": {
     "id": 110296,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_shop": {
     "id": 110297,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_talk_talk": {
     "id": 110298,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 6",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_talk_bad": {
     "id": 110299,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_harvestprove": {
     "id": 110300,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 2",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_proveyesno": {
     "id": 110301,
     "loc": "43752.7266, 29231.957",
-    "region": "memories_1"
+    "region": "memories_1",
+    "name": "Minty Skell Hager's Cavern Dialogue 3",
+    "description": "Minty Skell dialogue in lower east Hager's Cavern"
   },
   "memories_proveno": {
     "id": 110302,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_coop2talk": {
     "id": 110303,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_coop2talkgood": {
     "id": 110304,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "memories_talk_coop": {
     "id": 110305,
     "loc": "43752.7266, 29231.957",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "zenfern_talk": {
     "id": 110306,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1",
+    "name": "Fern Village of Smiles Dialogue 1",
+    "description": "Fern dialogue in Village of Smiles"
   },
   "zenfern_lookingyesno": {
     "id": 110307,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_bag"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 8",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_lookingyes": {
     "id": 110308,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 7",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_lookingno": {
-    "id": 110309,
+    "id": 110308,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 6",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_waryesno": {
     "id": 110310,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_bag"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 22",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_waryes": {
     "id": 110311,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 21",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_warno": {
-    "id": 110312,
+    "id": 110311,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 20",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_warfoundyesno": {
     "id": 110313,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_bag"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 19",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_warfoundyes": {
     "id": 110314,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 18",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_warfoundno": {
-    "id": 110315,
+    "id": 110314,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 17",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_lfoundyesno": {
     "id": 110316,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_bag"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 5",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_lfoundyes": {
     "id": 110317,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 4",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_lfoundno": {
-    "id": 110318,
+    "id": 110317,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 3",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk_p_y": {
     "id": 110319,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 11",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk_p_n": {
-    "id": 110320,
+    "id": 110319,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 10",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk_w_y": {
     "id": 110321,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 16",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk_w_n": {
-    "id": 110322,
+    "id": 110321,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 15",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk_got": {
     "id": 110323,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_bag"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 9",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk_trinket": {
     "id": 110324,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_bag"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 12",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk_trinketyes": {
     "id": 110325,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 14",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk_trinketno": {
-    "id": 110326,
+    "id": 110325,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1_filler"
+    "region": "zenfern_1_bag",
+    "name": "Fern Village of Smiles Dialogue 13",
+    "description": "Fern dialogue in Village of Smiles after acquiring Bag of Earth"
   },
   "zenfern_talk2": {
     "id": 110327,
     "loc": "11193.792, 20307.8027",
-    "region": "zenfern_1"
+    "region": "zenfern_1",
+    "name": "Fern Village of Smiles Dialogue 2",
+    "description": "Fern dialogue in Village of Smiles"
   },
   "zenfern_coop2talk": {
     "id": 110328,
     "loc": "11193.792, 20307.8027",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "choppy_talk": {
     "id": 110329,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 6",
+    "description": null
   },
   "choppy_talk_2": {
     "id": 110330,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 7",
+    "description": null
   },
   "choppy_talk_3": {
     "id": 110331,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 8",
+    "description": null
   },
   "choppy_talk_4": {
     "id": 110332,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 9",
+    "description": null
   },
   "choppy_talk_5": {
     "id": 110333,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 10",
+    "description": null
   },
   "choppy_talk_6": {
     "id": 110334,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 11",
+    "description": null
   },
   "choppy_2_talk": {
     "id": 110335,
     "loc": "58136.87, 24537.6953",
-    "region": "choppy_2"
+    "region": "choppy_2",
+    "name": "Black Sands Sorcerer The Ruined Temple Dialogue 1",
+    "description": "Black Sands Sorcerer dialogue in The Ruined Temple"
   },
   "choppy_2_talk_2": {
     "id": 110336,
     "loc": "58136.87, 24537.6953",
-    "region": "choppy_2"
+    "region": "choppy_2",
+    "name": "Black Sands Sorcerer The Ruined Temple Dialogue 2",
+    "description": "Black Sands Sorcerer dialogue in The Ruined Temple"
   },
   "choppy_2_talk_3": {
     "id": 110337,
     "loc": "58136.87, 24537.6953",
-    "region": "choppy_2"
+    "region": "choppy_2",
+    "name": "Black Sands Sorcerer The Ruined Temple Dialogue 3",
+    "description": "Black Sands Sorcerer dialogue in The Ruined Temple"
   },
   "choppy_impyesno": {
     "id": 110338,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 5",
+    "description": null
   },
   "choppy_impyes": {
     "id": 110339,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 4",
+    "description": null
   },
   "choppy_impno": {
     "id": 110340,
     "loc": "80167.27, 7922.661",
-    "region": "disabled"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue ",
+    "description": null
   },
   "choppy_imp_yes_2": {
     "id": 110341,
     "loc": "80167.27, 7922.661",
-    "region": "choppy_1"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 2",
+    "description": null
   },
   "choppy_imp_no_2": {
     "id": 110342,
     "loc": "80167.27, 7922.661",
-    "region": "disabled"
+    "region": "choppy_1",
+    "name": "Black Sands Sorcerer Ziggurat of Dust Dialogue 1",
+    "description": null
   },
   "choppy_coop2talk": {
     "id": 110343,
     "loc": "80167.27, 7922.661",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "choppy_3_talk": {
     "id": 110344,
     "loc": "989.893433, 14865.2373",
-    "region": "choppy_3"
+    "region": "choppy_3",
+    "name": "Black Sands Sorcerer Shivering Shore Dialogue 1",
+    "description": "Black Sands Sorcerer dialogue in Shivering Shore"
   },
   "choppy_3_talk_2": {
     "id": 110345,
     "loc": "989.893433, 14865.2373",
-    "region": "choppy_3"
+    "region": "choppy_3",
+    "name": "Black Sands Sorcerer Shivering Shore Dialogue 2",
+    "description": "Black Sands Sorcerer dialogue in Shivering Shore"
   },
   "choppy_3_talk_3": {
     "id": 110346,
     "loc": "989.893433, 14865.2373",
-    "region": "choppy_3"
+    "region": "choppy_3",
+    "name": "Black Sands Sorcerer Shivering Shore Dialogue 3",
+    "description": "Black Sands Sorcerer dialogue in Shivering Shore"
   },
   "choppy_3_talk_4": {
     "id": 110347,
     "loc": "989.893433, 14865.2373",
-    "region": "choppy_3"
+    "region": "choppy_3",
+    "name": "Black Sands Sorcerer Shivering Shore Dialogue 4",
+    "description": "Black Sands Sorcerer dialogue in Shivering Shore"
   },
   "choppy_3_talk_5": {
     "id": 110348,
     "loc": "989.893433, 14865.2373",
-    "region": "choppy_3"
+    "region": "choppy_3",
+    "name": "Black Sands Sorcerer Shivering Shore Dialogue 5",
+    "description": "Black Sands Sorcerer dialogue in Shivering Shore"
   },
   "shellshop_talk": {
     "id": 110471,
     "loc": "8353.15, 10995.8223",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "shellshop_menu": {
     "id": 110472,
     "loc": "8353.15, 10995.8223",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "shellshop_leave": {
     "id": 110473,
     "loc": "8353.15, 10995.8223",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "shellshop_shop": {
     "id": 110474,
     "loc": "8353.15, 10995.8223",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "catmerch_talk": {
     "id": 110475,
     "loc": "8732.532, 11001.6113",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "scarecrow_talk": {
     "id": 110476,
     "loc": "6755.98926, 16998.1777",
-    "region": "scarecrow_1"
+    "region": "scarecrow_1",
+    "name": "Voice of the Nameless Village of Smiles Dialogue 4",
+    "description": "Voice of the Nameless dialogue in Village of Smiles"
   },
   "scarecrow_kneelyesno": {
     "id": 110477,
     "loc": "6755.98926, 16998.1777",
-    "region": "scarecrow_1"
+    "region": "scarecrow_1",
+    "name": "Voice of the Nameless Village of Smiles Dialogue 3",
+    "description": "Voice of the Nameless dialogue in Village of Smiles"
   },
   "scarecrow_kneelyes": {
     "id": 110478,
     "loc": "6755.98926, 16998.1777",
-    "region": "disabled"
+    "region": "scarecrow_1",
+    "name": "Voice of the Nameless Village of Smiles Dialogue 2",
+    "description": "Voice of the Nameless dialogue in Village of Smiles"
   },
   "scarecrow_kneelno": {
     "id": 110479,
     "loc": "6755.98926, 16998.1777",
-    "region": "disabled"
+    "region": "scarecrow_1",
+    "name": "Voice of the Nameless Village of Smiles Dialogue 1",
+    "description": "Voice of the Nameless dialogue in Village of Smiles"
   },
   "scarecrow_talk2": {
     "id": 110480,
     "loc": "6755.98926, 16998.1777",
-    "region": "scarecrow_1"
+    "region": "scarecrow_1",
+    "name": "Voice of the Nameless Village of Smiles Dialogue 5",
+    "description": "Voice of the Nameless dialogue in Village of Smiles"
   },
   "scarecrow_2_talk": {
     "id": 110481,
     "loc": "42792.0078, 9544.357",
-    "region": "scarecrow_2"
+    "region": "scarecrow_2",
+    "name": "Voice of the Nameless Castle of Storms Dialogue 4",
+    "description": "Voice of the Nameless dialogue in east Castle of Storms"
   },
   "scarecrow_2_joinyesno": {
     "id": 110482,
     "loc": "42792.0078, 9544.357",
-    "region": "scarecrow_2"
+    "region": "scarecrow_2",
+    "name": "Voice of the Nameless Castle of Storms Dialogue 3",
+    "description": "Voice of the Nameless dialogue in east Castle of Storms"
   },
   "scarecrow_2_joinyes": {
     "id": 110483,
     "loc": "42792.0078, 9544.357",
-    "region": "scarecrow_2"
+    "region": "scarecrow_2",
+    "name": "Voice of the Nameless Castle of Storms Dialogue 2",
+    "description": "Voice of the Nameless dialogue in east Castle of Storms"
   },
   "scarecrow_2_joinno": {
     "id": 110484,
     "loc": "42792.0078, 9544.357",
-    "region": "scarecrow_2"
+    "region": "scarecrow_2",
+    "name": "Voice of the Nameless Castle of Storms Dialogue 1",
+    "description": "Voice of the Nameless dialogue in east Castle of Storms"
   },
   "scarecrow_3_talk": {
     "id": 110485,
     "loc": "67147.19, 17996.3223",
-    "region": "scarecrow_3"
+    "region": "scarecrow_3",
+    "name": "Voice of the Nameless The Ruined Temple Dialogue 4",
+    "description": "Voice of the Nameless dialogue in The Ruined Temple"
   },
   "scarecrow_3_doneyesno": {
     "id": 110486,
     "loc": "67147.19, 17996.3223",
-    "region": "scarecrow_3"
+    "region": "scarecrow_3",
+    "name": "Voice of the Nameless The Ruined Temple Dialogue 3",
+    "description": "Voice of the Nameless dialogue in The Ruined Temple"
   },
   "scarecrow_3_doneyes": {
     "id": 110487,
     "loc": "67147.19, 17996.3223",
-    "region": "scarecrow_3"
+    "region": "scarecrow_3",
+    "name": "Voice of the Nameless The Ruined Temple Dialogue 2",
+    "description": "Voice of the Nameless dialogue in The Ruined Temple"
   },
   "scarecrow_3_doneno": {
     "id": 110488,
     "loc": "67147.19, 17996.3223",
-    "region": "scarecrow_3"
+    "region": "scarecrow_3",
+    "name": "Voice of the Nameless The Ruined Temple Dialogue 1",
+    "description": "Voice of the Nameless dialogue in The Ruined Temple"
   },
   "scarecrow_coop2talk": {
     "id": 110489,
     "loc": "6755.98926, 16998.1777",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "scarecrow_4_talk": {
     "id": 110490,
     "loc": "43554.4922, 33482.7969",
-    "region": "scarecrow_4"
+    "region": "scarecrow_4",
+    "name": "Voice of the Nameless Crypt of Dead Gods Dialogue 2",
+    "description": "Voice of the Nameless dialogue in Crypt of Dead Gods"
   },
   "scarecrow_4_fleeyesno": {
     "id": 110491,
     "loc": "43554.4922, 33482.7969",
-    "region": "scarecrow_4"
+    "region": "scarecrow_4",
+    "name": "Voice of the Nameless Crypt of Dead Gods Dialogue 1",
+    "description": "Voice of the Nameless dialogue in Crypt of Dead Gods"
   },
   "scarecrow_4_talk_survive": {
     "id": 110492,
     "loc": "43554.4922, 33482.7969",
-    "region": "scarecrow_4"
+    "region": "scarecrow_4",
+    "name": "Voice of the Nameless Crypt of Dead Gods Dialogue 4",
+    "description": "Voice of the Nameless dialogue in Crypt of Dead Gods"
   },
   "scarecrow_4_talk_rule": {
     "id": 110493,
     "loc": "43554.4922, 33482.7969",
-    "region": "scarecrow_4"
+    "region": "scarecrow_4",
+    "name": "Voice of the Nameless Crypt of Dead Gods Dialogue 3",
+    "description": "Voice of the Nameless dialogue in Crypt of Dead Gods"
   },
   "scarecrow_5_talk": {
     "id": 110494,
     "loc": "67602.8359, 46979.77",
-    "region": "scarecrow_5"
+    "region": "scarecrow_5",
+    "name": "Voice of the Nameless The Still Palace Dialogue 3",
+    "description": "Voice of the Nameless dialogue in The Still Palace"
   },
   "scarecrow_5_helmno": {
     "id": 110495,
     "loc": "67602.8359, 46979.77",
-    "region": "scarecrow_5"
+    "region": "scarecrow_5",
+    "name": "Voice of the Nameless The Still Palace Dialogue 1",
+    "description": "Voice of the Nameless dialogue in The Still Palace"
   },
   "scarecrow_5_helmyes": {
     "id": 110496,
     "loc": "67602.8359, 46979.77",
-    "region": "scarecrow_5"
+    "region": "scarecrow_5",
+    "name": "Voice of the Nameless The Still Palace Dialogue 2",
+    "description": "Voice of the Nameless dialogue in The Still Palace"
   },
   "shipcaptain_talk": {
     "id": 110497,
     "loc": "5213.568, 5129.353",
-    "region": "shipcaptain_1"
+    "region": "shipcaptain_1",
+    "name": "Ship Captain Dialogue 1",
+    "description": "Ship Captain dialogue on the Ship"
   },
   "shipcaptain_talk2": {
     "id": 110498,
     "loc": "5213.568, 5129.353",
-    "region": "shipcaptain_1"
+    "region": "shipcaptain_1",
+    "name": "Ship Captain Dialogue 2",
+    "description": "Ship Captain dialogue on the Ship"
   },
   "boatman_talk": {
     "id": 110499,
     "loc": "1850.3927, 28927.2773",
-    "region": "boatman_1"
+    "region": "boatman_1",
+    "name": "Boatman Fort-Beyond-The-Mire Dialogue 1",
+    "description": "Boatman dialogue in Fort-Beyond-The-Mire"
   },
   "boatman_yesno": {
     "id": 110500,
     "loc": "1850.3927, 28927.2773",
-    "region": "boatman_1"
+    "region": "boatman_1",
+    "name": "Boatman Fort-Beyond-The-Mire Dialogue 4",
+    "description": "Boatman dialogue in Fort-Beyond-The-Mire"
   },
   "boatman_travelyes": {
     "id": 110501,
     "loc": "1850.3927, 28927.2773",
-    "region": "disabled"
+    "region": "boatman_1",
+    "name": "Boatman Fort-Beyond-The-Mire Dialogue 3",
+    "description": "Boatman dialogue in Fort-Beyond-The-Mire"
   },
   "boatman_travelno": {
     "id": 110502,
     "loc": "1850.3927, 28927.2773",
-    "region": "disabled"
+    "region": "boatman_1",
+    "name": "Boatman Fort-Beyond-The-Mire Dialogue 2",
+    "description": "Boatman dialogue in Fort-Beyond-The-Mire"
   },
   "boatman_coop2talk": {
     "id": 110503,
     "loc": "1850.3927, 28927.2773",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "rightboatman_talk": {
     "id": 110504,
     "loc": "99470.97, 14764.4922",
-    "region": "rightboatman_1"
+    "region": "rightboatman_1",
+    "name": null,
+    "description": null
   },
   "rightboatman_yesno": {
     "id": 110505,
     "loc": "99470.97, 14764.4922",
-    "region": "rightboatman_1"
+    "region": "rightboatman_1",
+    "name": null,
+    "description": null
   },
   "rightboatman_travelyes": {
     "id": 110506,
     "loc": "99470.97, 14764.4922",
-    "region": "rightboatman_1"
+    "region": "rightboatman_1",
+    "name": null,
+    "description": null
   },
   "rightboatman_travelno": {
     "id": 110507,
     "loc": "99470.97, 14764.4922",
-    "region": "rightboatman_1"
+    "region": "rightboatman_1",
+    "name": null,
+    "description": null
   },
   "rightboatman_coop2talk": {
     "id": 110508,
     "loc": "99470.97, 14764.4922",
-    "region": "rightboatman_1"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "domefriend_talk": {
     "id": 110509,
     "loc": "56759.0938, 9237.674",
-    "region": "domefriend_1"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 7",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_lightyesno": {
     "id": 110510,
     "loc": "56759.0938, 9237.674",
-    "region": "domefriend_1"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 6",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_lightyes": {
     "id": 110511,
     "loc": "56759.0938, 9237.674",
-    "region": "domefriend_1"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 5",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_lightno": {
     "id": 110512,
     "loc": "56759.0938, 9237.674",
-    "region": "disabled"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 4",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_helpyesno": {
     "id": 110513,
     "loc": "56759.0938, 9237.674",
-    "region": "domefriend_1"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 3",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_helpyes": {
     "id": 110514,
     "loc": "56759.0938, 9237.674",
-    "region": "domefriend_1"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 2",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_helpno": {
     "id": 110515,
     "loc": "56759.0938, 9237.674",
-    "region": "disabled"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 1",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_talk2": {
     "id": 110516,
     "loc": "56759.0938, 9237.674",
-    "region": "domefriend_1"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 8",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_talk3": {
     "id": 110517,
     "loc": "56759.0938, 9237.674",
-    "region": "domefriend_1"
+    "region": "domefriend_1",
+    "name": "Luna Sage Dome of the Forgotten Dialogue 9",
+    "description": "Luna Sage dialogue in upper west Dome of the Forgotten"
   },
   "domefriend_coop2talk": {
     "id": 110518,
     "loc": "56759.0938, 9237.674",
-    "region": "disabled"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "domefriend_2_talk": {
     "id": 110519,
     "loc": "83745.11, 11081.1807",
-    "region": "domefriend_2"
+    "region": "domefriend_2",
+    "name": "Luna Sage The Far Beach Dialogue 1",
+    "description": "Luna Sage dialogue in middle The Far Beach"
   },
   "domefriend_2_talk2": {
     "id": 110520,
     "loc": "83745.11, 11081.1807",
-    "region": "domefriend_2"
+    "region": "domefriend_2",
+    "name": "Luna Sage The Far Beach Dialogue 2",
+    "description": "Luna Sage dialogue in middle The Far Beach"
   },
   "swampfriend_talk": {
     "id": 110521,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 3",
+    "description": null
   },
   "swampfriend_talkyesno": {
     "id": 110522,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 10",
+    "description": null
   },
   "swampfriend_talkyes": {
     "id": 110523,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 9",
+    "description": null
   },
   "swampfriend_talkno": {
     "id": 110524,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "swampfriend_readyyesno": {
     "id": 110525,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 2",
+    "description": null
   },
   "swampfriend_readyyes": {
     "id": 110526,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 1",
+    "description": null
   },
   "swampfriend_readyno": {
     "id": 110527,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "swampfriend_talk2": {
     "id": 110528,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 4",
+    "description": null
   },
   "swampfriend_coop2talk": {
     "id": 110529,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "disabled",
+    "name": null,
+    "description": null
   },
   "swampfriend_talk3": {
     "id": 110530,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 5",
+    "description": null
   },
   "swampfriend_talk4": {
     "id": 110531,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 6",
+    "description": null
   },
   "swampfriend_talk5": {
     "id": 110532,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 7",
+    "description": null
   },
   "swampfriend_talk6": {
     "id": 110533,
     "loc": "16580.5723, 25804.4375",
-    "region": "swampfriend_1"
+    "region": "swampfriend_1",
+    "name": "The Mirekeeper Mire of Stench Dialogue 8",
+    "description": null
   },
   "treelady_talk": {
     "id": 110534,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "treelady_1",
+    "name": "The Candlelit Lady Dialogue 1",
+    "description": null
   },
   "treelady_talk2": {
     "id": 110535,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "treelady_1",
+    "name": "The Candlelit Lady Dialogue 3",
+    "description": null
   },
   "treelady_talk3": {
     "id": 110536,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "treelady_1",
+    "name": "The Candlelit Lady Dialogue 4",
+    "description": null
   },
   "treelady_menu": {
     "id": 110537,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "disabled",
+    "name": "The Candlelit Lady Disabled Dialogue",
+    "description": null
   },
   "treelady_talk_talk": {
     "id": 110538,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "treelady_1",
+    "name": "The Candlelit Lady Dialogue 2",
+    "description": null
   },
   "treelady_leave": {
     "id": 110539,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "disabled",
+    "name": "The Candlelit Lady Disabled Dialogue",
+    "description": null
   },
   "treelady_buy": {
     "id": 110540,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "disabled",
+    "name": "The Candlelit Lady Disabled Dialogue",
+    "description": null
   },
   "treelady_coop2talk": {
     "id": 110541,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "disabled",
+    "name": "The Candlelit Lady Disabled Dialogue",
+    "description": null
   },
   "treelady_cleanse": {
     "id": 110542,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "disabled",
+    "name": "The Candlelit Lady Disabled Dialogue",
+    "description": null
   },
   "treelady_forgivesin": {
     "id": 110543,
     "loc": "17158.0488, 23384.2754",
-    "region": "treelady_1"
+    "region": "disabled",
+    "name": "The Candlelit Lady Disabled Dialogue",
+    "description": null
   },
   "dark_gatekeeper_talk": {
     "id": 110671,
     "loc": "72860.63, 38632.9727",
-    "region": "dark_gatekeeper_1"
+    "region": "dark_gatekeeper_1",
+    "name": "The Gatewoman The Blackest Vault Dialogue 11",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_markyesno": {
     "id": 110672,
     "loc": "72860.63, 38632.9727",
-    "region": "dark_gatekeeper_1"
+    "region": "dark_gatekeeper_1",
+    "name": "The Gatewoman The Blackest Vault Dialogue 10",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_markno": {
     "id": 110673,
     "loc": "72860.63, 38632.9727",
-    "region": "disabled"
+    "region": "dark_gatekeeper_1",
+    "name": "The Gatewoman The Blackest Vault Dialogue 8",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_markyes": {
     "id": 110674,
     "loc": "72860.63, 38632.9727",
-    "region": "dark_gatekeeper_1"
+    "region": "dark_gatekeeper_1_bloody_writ",
+    "name": "The Gatewoman The Blackest Vault Dialogue 9",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_joinyesno": {
     "id": 110675,
     "loc": "72860.63, 38632.9727",
-    "region": "dark_gatekeeper_1"
+    "region": "dark_gatekeeper_1_bloody_writ",
+    "name": "The Gatewoman The Blackest Vault Dialogue 7",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_joinyes": {
     "id": 110676,
     "loc": "72860.63, 38632.9727",
-    "region": "dark_gatekeeper_1"
+    "region": "dark_gatekeeper_1_bloody_writ",
+    "name": "The Gatewoman The Blackest Vault Dialogue 4",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_joinno": {
     "id": 110677,
     "loc": "72860.63, 38632.9727",
-    "region": "disabled"
+    "region": "dark_gatekeeper_1_bloody_writ",
+    "name": "The Gatewoman The Blackest Vault Dialogue 3",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_joinyes2": {
     "id": 110678,
     "loc": "72860.63, 38632.9727",
-    "region": "dark_gatekeeper_1"
+    "region": "dark_gatekeeper_1_bloody_writ",
+    "name": "The Gatewoman The Blackest Vault Dialogue 5",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_joinyes3": {
     "id": 110679,
     "loc": "72860.63, 38632.9727",
-    "region": "dark_gatekeeper_1"
+    "region": "dark_gatekeeper_1_bloody_writ",
+    "name": "The Gatewoman The Blackest Vault Dialogue 6",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_talkgood": {
     "id": 110680,
     "loc": "72860.63, 38632.9727",
-    "region": "dark_gatekeeper_1"
+    "region": "dark_gatekeeper_1_bloody_writ",
+    "name": "The Gatewoman The Blackest Vault Dialogue 13",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_talkbad": {
     "id": 110681,
     "loc": "72860.63, 38632.9727",
-    "region": "disabled"
+    "region": "dark_gatekeeper_1_bloody_writ",
+    "name": "The Gatewoman The Blackest Vault Dialogue 12",
+    "description": "The Gatewoman dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_coop2talk": {
     "id": 110682,
     "loc": "72860.63, 38632.9727",
-    "region": "disabled"
+    "region": "disabled",
+    "name": "Gatekeeper The Blackest Vault Dialogue 1",
+    "description": "Gatekeeper dialogue in lower west The Blackest Vault"
   },
   "dark_gatekeeper_coop2talkgood": {
     "id": 110683,
     "loc": "72860.63, 38632.9727",
-    "region": "disabled"
+    "region": "disabled",
+    "name": "Gatekeeper The Blackest Vault Dialogue 2",
+    "description": "Gatekeeper dialogue in lower west The Blackest Vault"
   }
 }

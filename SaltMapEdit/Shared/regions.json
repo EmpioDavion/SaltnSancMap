@@ -30,9 +30,7 @@
     "connections": [
       {
         "region": "sancdoor",
-        "items": [
-          "key_sanc"
-        ]
+        "items": []
       },
       {
         "region": "shivering_shore_roof",
@@ -68,16 +66,23 @@
         "items": [
           "sancdoor"
         ]
+      },
+      {
+        "region": "sancdoor_door",
+        "items": [
+          "key_sanc"
+        ]
       }
     ]
+  },
+  "sancdoor_door": {
+    "connections": []
   },
   "shivering_shore_sanctuary": {
     "connections": [
       {
         "region": "sancdoor",
-        "items": [
-          "key_sanc"
-        ]
+        "items": []
       },
       {
         "region": "sancexit",
@@ -218,9 +223,7 @@
       },
       {
         "region": "castleexit",
-        "items": [
-          "key_fortress"
-        ]
+        "items": []
       },
       {
         "region": "castledungeongate",
@@ -334,8 +337,17 @@
         "items": [
           "castleexit"
         ]
+      },
+      {
+        "region": "castleexit_door",
+        "items": [
+          "key_fortress"
+        ]
       }
     ]
+  },
+  "castleexit_door": {
+    "connections": []
   },
   "castledungeongate": {
     "connections": [
@@ -636,14 +648,6 @@
     ]
   },
   "zenfern_1_bag": {
-    "connections": [
-      {
-        "region": "zenfern_1_filler",
-        "items": []
-      }
-    ]
-  },
-  "zenfern_1_filler": {
     "connections": []
   },
   "tunneltoforesttop": {
@@ -856,9 +860,7 @@
       },
       {
         "region": "treestocave",
-        "items": [
-          "key_forest"
-        ]
+        "items": []
       },
       {
         "region": "alchemist",
@@ -908,9 +910,7 @@
       },
       {
         "region": "forestkeygate",
-        "items": [
-          "key_green"
-        ]
+        "items": []
       },
       {
         "region": "treestocave",
@@ -1060,16 +1060,23 @@
         "items": [
           "forestkeygate"
         ]
+      },
+      {
+        "region": "forestkeygate_door",
+        "items": [
+          "key_green"
+        ]
       }
     ]
+  },
+  "forestkeygate_door": {
+    "connections": []
   },
   "forestshrinegatef": {
     "connections": [
       {
         "region": "forestkeygate",
-        "items": [
-          "key_green"
-        ]
+        "items": []
       },
       {
         "region": "forestshrinegate",
@@ -1106,8 +1113,17 @@
         "items": [
           "treestocave"
         ]
+      },
+      {
+        "region": "treestocave_door",
+        "items": [
+          "key_forest"
+        ]
       }
     ]
+  },
+  "treestocave_door": {
+    "connections": []
   },
   "bandits_pass": {
     "connections": [
@@ -1145,9 +1161,7 @@
       },
       {
         "region": "castledrawdoor",
-        "items": [
-          "key_bronze"
-        ]
+        "items": []
       },
       {
         "region": "castle_of_storms",
@@ -1188,8 +1202,17 @@
         "items": [
           "castledrawdoor"
         ]
+      },
+      {
+        "region": "castledrawdoor_door",
+        "items": [
+          "key_bronze"
+        ]
       }
     ]
+  },
+  "castledrawdoor_door": {
+    "connections": []
   },
   "hidden_sanctuary_axe_great": {
     "connections": [
@@ -1213,9 +1236,7 @@
       },
       {
         "region": "castlekeydoor",
-        "items": [
-          "key_dungeon"
-        ]
+        "items": []
       },
       {
         "region": "masterless_2",
@@ -1367,8 +1388,17 @@
         "items": [
           "castlekeydoor"
         ]
+      },
+      {
+        "region": "castlekeydoor_door",
+        "items": [
+          "key_dungeon"
+        ]
       }
     ]
+  },
+  "castlekeydoor_door": {
+    "connections": []
   },
   "castle_terror": {
     "connections": [
@@ -1520,6 +1550,12 @@
         "items": []
       },
       {
+        "region": "red_hall_of_cages_vertigo",
+        "items": [
+          "rune_upside_down"
+        ]
+      },
+      {
         "region": "dungeon_double_plat",
         "items": []
       },
@@ -1564,13 +1600,13 @@
       {
         "region": "dungeon_redspark_48102",
         "items": [
-          "rune_wall_jump"
+          "rune_dash"
         ]
       },
       {
         "region": "dungeon_redspark_48102",
         "items": [
-          "rune_dash"
+          "rune_wall_jump"
         ]
       },
       {
@@ -1619,6 +1655,14 @@
         "items": [
           "torturetree_soul"
         ]
+      }
+    ]
+  },
+  "red_hall_of_cages_vertigo": {
+    "connections": [
+      {
+        "region": "red_hall_of_cages",
+        "items": []
       }
     ]
   },
@@ -1704,14 +1748,14 @@
         ]
       },
       {
-        "region": "cos_crystal_sphere",
+        "region": "cos_crystal_sphere_43675",
         "items": [
           "rune_upside_down"
         ]
       }
     ]
   },
-  "cos_crystal_sphere": {
+  "cos_crystal_sphere_43675": {
     "connections": []
   },
   "dungeonshrtdr": {
@@ -2086,9 +2130,7 @@
       },
       {
         "region": "cavedungeondoor",
-        "items": [
-          "key_cave"
-        ]
+        "items": []
       },
       {
         "region": "caveswampshrine",
@@ -2100,9 +2142,7 @@
       },
       {
         "region": "cavespidoor",
-        "items": [
-          "key_cave"
-        ]
+        "items": []
       },
       {
         "region": "cavetombgate2",
@@ -2213,8 +2253,17 @@
         "items": [
           "cavedungeondoor"
         ]
+      },
+      {
+        "region": "cavedungeondoor_door",
+        "items": [
+          "key_cave"
+        ]
       }
     ]
+  },
+  "cavedungeondoor_door": {
+    "connections": []
   },
   "minty_approach": {
     "connections": [
@@ -2249,8 +2298,17 @@
         "items": [
           "cavefortdoor"
         ]
+      },
+      {
+        "region": "cavefortdoor_door",
+        "items": [
+          "key_ship"
+        ]
       }
     ]
+  },
+  "cavefortdoor_door": {
+    "connections": []
   },
   "caveswampshrine": {
     "connections": [
@@ -2276,7 +2334,9 @@
       },
       {
         "region": "mire_of_stench_shrine",
-        "items": []
+        "items": [
+          "rune_upside_down"
+        ]
       }
     ]
   },
@@ -2284,9 +2344,7 @@
     "connections": [
       {
         "region": "cavefortdoor",
-        "items": [
-          "key_ship"
-        ]
+        "items": []
       },
       {
         "region": "mire_of_stench_lower",
@@ -2303,7 +2361,6 @@
       {
         "region": "cavefortdoor",
         "items": [
-          "key_ship",
           "rune_wall_jump"
         ]
       }
@@ -2322,8 +2379,17 @@
         "items": [
           "cavespidoor"
         ]
+      },
+      {
+        "region": "cavespidoor_door",
+        "items": [
+          "key_cave"
+        ]
       }
     ]
+  },
+  "cavespidoor_door": {
+    "connections": []
   },
   "cavebossdoor": {
     "connections": [
@@ -4458,7 +4524,9 @@
     "connections": [
       {
         "region": "the_blackest_vault_west",
-        "items": []
+        "items": [
+          "rune_dash"
+        ]
       },
       {
         "region": "drowning_nova_70536_pkp",
@@ -4484,9 +4552,7 @@
       },
       {
         "region": "darkruinsdoor",
-        "items": [
-          "key_bones"
-        ]
+        "items": []
       }
     ]
   },
@@ -4529,8 +4595,17 @@
         "items": [
           "darkruinsdoor"
         ]
+      },
+      {
+        "region": "darkruinsdoor_door",
+        "items": [
+          "key_bones"
+        ]
       }
     ]
+  },
+  "darkruinsdoor_door": {
+    "connections": []
   },
   "siam_lake_east": {
     "connections": [

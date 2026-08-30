@@ -252,7 +252,7 @@
 	"region": "red_hall_of_cages"
   },
   "dungeonmidshrt": {
-	"type": 3,
+	"type": 2,
 	"id": 90074,
 	"loc": "44297.9766, 18430.125",
 	"region": "red_hall_of_cages"
@@ -264,7 +264,7 @@
 	"region": "forestshrinegate"
   },
   "ruinblockfloor": {
-	"type": 1,
+	"type": 2,
 	"id": 90079,
 	"loc": "65558.7656, 20814.3066",
 	"region": "the_ruined_temple"
@@ -274,5 +274,5 @@
 	"id": 90080,
 	"loc": "61981.9336, 34587.69",
 	"region": "salt_alkymancery"
-  },
+  }
 }

@@ -15,18 +15,6 @@ namespace SaltMap
 	public class Map
 	{
 		[Flags]
-		public enum Rune
-		{
-			None,
-			Vertigo		= 1 << 0,
-			Dart		= 1 << 1,
-			Shadowflip	= 1 << 2,
-			DoubleJump	= 1 << 3,	// unused
-			Redshift	= 1 << 4,
-			Hardlight	= 1 << 5
-		}
-
-		[Flags]
 		public enum CheckState
 		{
 			Available	= 1 << 0,
@@ -48,7 +36,9 @@ namespace SaltMap
 			Sanctuary,
 			Boss,
 			NPC,
-			Dialogue
+			Dialogue,
+			Brand,
+			Unknown
 		}
 
 		public enum SequenceType
@@ -68,16 +58,20 @@ namespace SaltMap
 			[JsonProperty]
 			internal string region;
 
+			public string name;
+
+			public string description;
+
 			[JsonIgnore]
 			public CheckState checkState;
 
-			[NonSerialized]
+			[JsonIgnore]
 			public CheckType checkType;
 
-			[NonSerialized]
+			[JsonIgnore]
 			public string key;
 
-			[NonSerialized]
+			[JsonIgnore]
 			internal Region _region;
 
 			[JsonIgnore]
@@ -168,7 +162,7 @@ namespace SaltMap
 
 		public class Region
 		{
-			[NonSerialized]
+			[JsonIgnore]
 			public List<string> checks = new List<string>();
 
 			public List<Connection> connections = new List<Connection>();
@@ -201,11 +195,11 @@ namespace SaltMap
 				set { _region = value; region = value?.key; }
 			}
 
-			public bool CanEnter(HashSet<string> flags)
+			public bool CanEnter(Func<string, bool> hasItem)
 			{
 				if (items != null)
-					foreach (string flag in items)
-						if (!flags.Contains(flag))
+					foreach (string item in items)
+						if (!hasItem(item))
 							return false;
 
 				return true;
@@ -257,6 +251,7 @@ namespace SaltMap
 		public Dictionary<string, Container> bosses;
 		public Dictionary<string, NPC> npcs;
 		public Dictionary<string, Dialogue> dialogues;
+		public Dictionary<string, Check> brands;
 
 		public Dictionary<string, Region> regions;
 
@@ -282,8 +277,6 @@ namespace SaltMap
 
 		public DrawMode drawMode = DrawMode.Zoomable;
 
-		private readonly HashSet<string> flags = new HashSet<string>();
-
 		private readonly Dictionary<string, Check> locations = new Dictionary<string, Check>();
 
 		private readonly List<CheckGroup> checkGroups = new List<CheckGroup>();
@@ -291,8 +284,6 @@ namespace SaltMap
 		private Region regionFilter = null;
 		private Connection connectionFilter = null;
 		private Check checkFilter = null;
-
-		private Rune runes;
 
 		public Func<bool> saveRegions = () => true;
 
@@ -402,6 +393,16 @@ namespace SaltMap
 			else
 				dialogues = LoadJson<Dictionary<string, Dialogue>>($"{subfolder}/dialogues.json");
 
+			dialogues["zenfern_lookingno"].id = dialogues["zenfern_lookingyes"].id;
+			dialogues["zenfern_warno"].id = dialogues["zenfern_waryes"].id;
+			dialogues["zenfern_warfoundno"].id = dialogues["zenfern_warfoundyes"].id;
+			dialogues["zenfern_lfoundno"].id = dialogues["zenfern_lfoundyes"].id;
+			dialogues["zenfern_talk_p_n"].id = dialogues["zenfern_talk_p_y"].id;
+			dialogues["zenfern_talk_w_n"].id = dialogues["zenfern_talk_w_y"].id;
+			dialogues["zenfern_talk_trinketno"].id = dialogues["zenfern_talk_trinketyes"].id;
+
+			brands = LoadJson<Dictionary<string, Check>>($"{subfolder}/brands.json");
+
 			locations.Clear();
 
 			AddLocations(chests, CheckType.Chest);
@@ -417,6 +418,7 @@ namespace SaltMap
 			AddLocations(bosses, CheckType.Boss);
 			AddLocations(npcs, CheckType.NPC);
 			AddLocations(dialogues, CheckType.Dialogue);
+			AddLocations(brands, CheckType.Brand);
 
 			float maxRange = 10f * 10f;
 
@@ -448,7 +450,7 @@ namespace SaltMap
 				}
 			}
 
-			UpdateAvailable();
+			UpdateAvailable((x) => false);
 		}
 
 		private void CreateDialogues()
@@ -504,16 +506,6 @@ namespace SaltMap
 					}
 				}
 			}
-		}
-
-		// pass in player.runes
-		public void UpdateRunes(bool[] playerRunes)
-		{
-			runes = Rune.None;
-
-			for (int i = 0; i < playerRunes.Length; i++)
-				if (playerRunes[i])
-					runes = (Rune)((int)runes | (1 << i));
 		}
 
 		public void Save()
@@ -612,7 +604,7 @@ namespace SaltMap
 
 		// only sets immediately available locations to available
 		// locations that are behind boss kills or doors/gates etc will be blocked
-		public void UpdateAvailable()
+		public void UpdateAvailable(Func<string, bool> hasItem)
 		{
 			Region menu = regions["Menu"];
 
@@ -637,7 +629,7 @@ namespace SaltMap
 						continue;
 					}
 					
-					if (connection.CanEnter(flags))
+					if (connection.CanEnter(hasItem))
 					{
 						toExamine.AddRange(connection.Region.connections);
 						
@@ -669,32 +661,6 @@ namespace SaltMap
 
 			toExamine.Clear();
 		}
-
-		public bool AddFlag(string flag)
-		{
-			if (flags.Add(flag))
-			{
-				UpdateAvailable();
-				return true;
-			}
-
-			return false;
-		}
-
-		public bool RemoveFlag(string flag)
-		{
-			if (flags.Remove(flag))
-			{
-				UpdateAvailable();
-				return true;
-			}
-
-			return false;
-		}
-
-		public bool HasFlag(string flag) => flags.Contains(flag);
-
-		public void ClearFlags() => flags.Clear();
 
 		public void ToggleMode() => drawMode = (DrawMode)(DrawMode.Full - drawMode);
 
@@ -891,9 +857,20 @@ namespace SaltMap
 		public Vector2 GetScreenPosition(Point pos) => GetScreenPosition(new Vector2(pos.X, pos.Y));
 		public Vector2 GetScreenPosition(WinPoint pos) => GetScreenPosition(new Vector2(pos.X, pos.Y));
 
-		public bool GetDisabledSequence(string location, out Sequence sequence)
+		public bool GetDisabledSequence(string location, out Sequence sequence) =>
+			disabledSequences.TryGetValue(location, out sequence);
+
+		public bool GetPlatform(string location, out Sequence sequence)
 		{
-			return disabledSequences.TryGetValue(location, out sequence);
+			if (platforms.TryGetValue(location, out Sequence[] sequences))
+			{
+				sequence = sequences[0];
+				return true;
+			}
+
+			sequence = null;
+
+			return false;
 		}
 
 		public bool GetLocation(string location, out Check check) =>
@@ -1011,17 +988,10 @@ namespace SaltMap
 		{
 			if (GetCheck(pos, out Check check))
 			{
-				flags.Remove(check.key);
-
 				if (check.checkState == CheckState.Collected)
 					check.checkState = CheckState.Blocked;
 				else
-				{
 					check.checkState = CheckState.Collected;
-					flags.Add(check.key);
-				}
-
-				UpdateAvailable();
 			}
 		}
 

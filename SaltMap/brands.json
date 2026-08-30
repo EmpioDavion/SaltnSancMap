@@ -1,0 +1,32 @@
+{
+  "rune_upside_down": {
+    "id": 130000,
+    "loc": "21623.9961, 15220.2568",
+    "region": "jester_1",
+	"name": "Vertigo Brand"
+  },
+  "rune_dash": {
+    "id": 130001,
+    "loc": "80167.27, 7922.661",
+    "region": "choppy_1",
+	"name": "Dart Brand"
+  },
+  "rune_wall_jump": {
+    "id": 130002,
+    "loc": "38548.2422, 3490.707",
+    "region": "despondent_1",
+	"name": "Shadowflip Brand"
+  },
+  "rune_red_block": {
+    "id": 130003,
+    "loc": "16580.5723, 25804.4375",
+    "region": "swampfriend_1",
+	"name": "Redshift Brand"
+  },
+  "rune_blue_ether": {
+    "id": 130004,
+    "loc": "56759.0938, 9237.674",
+    "region": "domefriend_1",
+	"name": "Hardlight Brand"
+  }
+}

@@ -39,17 +39,20 @@
 			this.btnRedo = new System.Windows.Forms.Button();
 			this.btnUndo = new System.Windows.Forms.Button();
 			this.btnSave = new System.Windows.Forms.Button();
-			this.lbLocations = new System.Windows.Forms.ListBox();
+			this.lbChecks = new System.Windows.Forms.ListBox();
 			this.btnAddItem = new System.Windows.Forms.Button();
 			this.lbItems = new System.Windows.Forms.ListBox();
 			this.lbRegions = new System.Windows.Forms.ListBox();
 			this.lblRegions = new System.Windows.Forms.Label();
 			this.lbSelectRegion = new System.Windows.Forms.ListBox();
 			this.pnlRegions = new System.Windows.Forms.Panel();
+			this.lbAreas = new System.Windows.Forms.ListBox();
 			this.btnClearFilter = new System.Windows.Forms.Button();
+			this.btnAddArea = new System.Windows.Forms.Button();
 			this.pnlLocations = new System.Windows.Forms.Panel();
-			this.lblLocations = new System.Windows.Forms.Label();
+			this.lblChecks = new System.Windows.Forms.Label();
 			this.pnlGapLocations = new System.Windows.Forms.Panel();
+			this.lblCheckType = new System.Windows.Forms.Label();
 			this.pnlItems = new System.Windows.Forms.Panel();
 			this.lblItems = new System.Windows.Forms.Label();
 			this.pnlGapItems = new System.Windows.Forms.Panel();
@@ -62,9 +65,16 @@
 			this.pnlSplit = new System.Windows.Forms.SplitContainer();
 			this.pnlData = new System.Windows.Forms.TableLayoutPanel();
 			this.pnlManage = new System.Windows.Forms.Panel();
+			this.tbCheckDescription = new System.Windows.Forms.TextBox();
+			this.lblCheckDescription = new System.Windows.Forms.Label();
+			this.tbCheckName = new System.Windows.Forms.TextBox();
+			this.lblCheckName = new System.Windows.Forms.Label();
+			this.btnChangeMode = new System.Windows.Forms.Button();
+			this.lblAreas = new System.Windows.Forms.Label();
 			this.pnlConnections.SuspendLayout();
 			this.pnlRegions.SuspendLayout();
 			this.pnlLocations.SuspendLayout();
+			this.pnlGapLocations.SuspendLayout();
 			this.pnlItems.SuspendLayout();
 			this.pnlProgress.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pnlSplit)).BeginInit();
@@ -162,7 +172,7 @@
 			this.btnAddConnection.Name = "btnAddConnection";
 			this.btnAddConnection.Size = new System.Drawing.Size(180, 21);
 			this.btnAddConnection.TabIndex = 5;
-			this.btnAddConnection.Text = "Add";
+			this.btnAddConnection.Text = "Add Connection";
 			this.btnAddConnection.UseVisualStyleBackColor = false;
 			this.btnAddConnection.Click += new System.EventHandler(this.btnAddConnection_Click);
 			// 
@@ -175,7 +185,7 @@
 			this.btnAddRegion.Name = "btnAddRegion";
 			this.btnAddRegion.Size = new System.Drawing.Size(180, 21);
 			this.btnAddRegion.TabIndex = 3;
-			this.btnAddRegion.Text = "Add";
+			this.btnAddRegion.Text = "Add Region";
 			this.btnAddRegion.UseVisualStyleBackColor = false;
 			this.btnAddRegion.Click += new System.EventHandler(this.btnAddRegion_Click);
 			// 
@@ -188,21 +198,21 @@
 			this.btnRedo.Location = new System.Drawing.Point(0, 228);
 			this.btnRedo.Name = "btnRedo";
 			this.btnRedo.Size = new System.Drawing.Size(180, 29);
-			this.btnRedo.TabIndex = 13;
+			this.btnRedo.TabIndex = 14;
 			this.btnRedo.Text = "Redo";
 			this.btnRedo.UseVisualStyleBackColor = false;
 			this.btnRedo.Click += new System.EventHandler(this.btnRedo_Click);
 			// 
 			// btnUndo
 			// 
-			this.btnUndo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnUndo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnUndo.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.btnUndo.Enabled = false;
 			this.btnUndo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.btnUndo.Location = new System.Drawing.Point(0, 113);
+			this.btnUndo.Location = new System.Drawing.Point(0, 199);
 			this.btnUndo.Name = "btnUndo";
 			this.btnUndo.Size = new System.Drawing.Size(180, 29);
-			this.btnUndo.TabIndex = 12;
+			this.btnUndo.TabIndex = 13;
 			this.btnUndo.Text = "Undo";
 			this.btnUndo.UseVisualStyleBackColor = false;
 			this.btnUndo.Click += new System.EventHandler(this.btnUndo_Click);
@@ -210,29 +220,29 @@
 			// btnSave
 			// 
 			this.btnSave.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.btnSave.Dock = System.Windows.Forms.DockStyle.Top;
+			this.btnSave.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.btnSave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.btnSave.Location = new System.Drawing.Point(0, 0);
+			this.btnSave.Location = new System.Drawing.Point(0, 170);
 			this.btnSave.Name = "btnSave";
 			this.btnSave.Size = new System.Drawing.Size(180, 29);
-			this.btnSave.TabIndex = 11;
+			this.btnSave.TabIndex = 12;
 			this.btnSave.Text = "Save";
 			this.btnSave.UseVisualStyleBackColor = false;
 			this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
 			// 
-			// lbLocations
+			// lbChecks
 			// 
-			this.lbLocations.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.lbLocations.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.lbLocations.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.lbLocations.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.lbLocations.IntegralHeight = false;
-			this.lbLocations.ItemHeight = 15;
-			this.lbLocations.Location = new System.Drawing.Point(0, 15);
-			this.lbLocations.Name = "lbLocations";
-			this.lbLocations.Size = new System.Drawing.Size(180, 201);
-			this.lbLocations.TabIndex = 6;
-			this.lbLocations.Click += new System.EventHandler(this.lbLocations_Click);
+			this.lbChecks.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lbChecks.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.lbChecks.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.lbChecks.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbChecks.IntegralHeight = false;
+			this.lbChecks.ItemHeight = 15;
+			this.lbChecks.Location = new System.Drawing.Point(0, 15);
+			this.lbChecks.Name = "lbChecks";
+			this.lbChecks.Size = new System.Drawing.Size(180, 201);
+			this.lbChecks.TabIndex = 6;
+			this.lbChecks.Click += new System.EventHandler(this.lbChecks_Click);
 			// 
 			// btnAddItem
 			// 
@@ -243,7 +253,7 @@
 			this.btnAddItem.Name = "btnAddItem";
 			this.btnAddItem.Size = new System.Drawing.Size(180, 21);
 			this.btnAddItem.TabIndex = 8;
-			this.btnAddItem.Text = "Add";
+			this.btnAddItem.Text = "Add Item";
 			this.btnAddItem.UseVisualStyleBackColor = false;
 			this.btnAddItem.Click += new System.EventHandler(this.btnAddItem_Click);
 			// 
@@ -272,9 +282,9 @@
 			this.lbRegions.FormattingEnabled = true;
 			this.lbRegions.IntegralHeight = false;
 			this.lbRegions.ItemHeight = 15;
-			this.lbRegions.Location = new System.Drawing.Point(0, 15);
+			this.lbRegions.Location = new System.Drawing.Point(0, 28);
 			this.lbRegions.Name = "lbRegions";
-			this.lbRegions.Size = new System.Drawing.Size(180, 201);
+			this.lbRegions.Size = new System.Drawing.Size(180, 167);
 			this.lbRegions.TabIndex = 1;
 			this.lbRegions.Click += new System.EventHandler(this.lbRegions_Click);
 			this.lbRegions.DragDrop += new System.Windows.Forms.DragEventHandler(this.lbRegions_DragDrop);
@@ -319,9 +329,12 @@
 			// 
 			// pnlRegions
 			// 
+			this.pnlRegions.Controls.Add(this.lbAreas);
 			this.pnlRegions.Controls.Add(this.lbRegions);
+			this.pnlRegions.Controls.Add(this.lblAreas);
 			this.pnlRegions.Controls.Add(this.lblRegions);
 			this.pnlRegions.Controls.Add(this.btnClearFilter);
+			this.pnlRegions.Controls.Add(this.btnAddArea);
 			this.pnlRegions.Controls.Add(this.btnAddRegion);
 			this.pnlRegions.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pnlRegions.Location = new System.Drawing.Point(3, 3);
@@ -330,12 +343,32 @@
 			this.pnlRegions.Size = new System.Drawing.Size(180, 257);
 			this.pnlRegions.TabIndex = 11;
 			// 
+			// lbAreas
+			// 
+			this.lbAreas.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.lbAreas.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.lbAreas.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lbAreas.FormattingEnabled = true;
+			this.lbAreas.Location = new System.Drawing.Point(0, 28);
+			this.lbAreas.Name = "lbAreas";
+			this.lbAreas.Size = new System.Drawing.Size(180, 167);
+			this.lbAreas.TabIndex = 4;
+			this.lbAreas.Visible = false;
+			this.lbAreas.Click += new System.EventHandler(this.lbAreas_Click);
+			this.lbAreas.DragDrop += new System.Windows.Forms.DragEventHandler(this.lbAreas_DragDrop);
+			this.lbAreas.DragOver += new System.Windows.Forms.DragEventHandler(this.lbAreas_DragOver);
+			this.lbAreas.DoubleClick += new System.EventHandler(this.lbAreas_DoubleClick);
+			this.lbAreas.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lbAreas_KeyDown);
+			this.lbAreas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbAreas_MouseDown);
+			this.lbAreas.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lbAreas_MouseMove);
+			this.lbAreas.MouseUp += new System.Windows.Forms.MouseEventHandler(this.lbAreas_MouseUp);
+			// 
 			// btnClearFilter
 			// 
 			this.btnClearFilter.BackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.btnClearFilter.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.btnClearFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-			this.btnClearFilter.Location = new System.Drawing.Point(0, 216);
+			this.btnClearFilter.Location = new System.Drawing.Point(0, 195);
 			this.btnClearFilter.Name = "btnClearFilter";
 			this.btnClearFilter.Size = new System.Drawing.Size(180, 20);
 			this.btnClearFilter.TabIndex = 2;
@@ -343,10 +376,23 @@
 			this.btnClearFilter.UseVisualStyleBackColor = false;
 			this.btnClearFilter.Click += new System.EventHandler(this.btnClearFilter_Click);
 			// 
+			// btnAddArea
+			// 
+			this.btnAddArea.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnAddArea.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.btnAddArea.Location = new System.Drawing.Point(0, 215);
+			this.btnAddArea.Name = "btnAddArea";
+			this.btnAddArea.Size = new System.Drawing.Size(180, 21);
+			this.btnAddArea.TabIndex = 5;
+			this.btnAddArea.Text = "Add Area";
+			this.btnAddArea.UseVisualStyleBackColor = false;
+			this.btnAddArea.Visible = false;
+			this.btnAddArea.Click += new System.EventHandler(this.btnAddArea_Click);
+			// 
 			// pnlLocations
 			// 
-			this.pnlLocations.Controls.Add(this.lbLocations);
-			this.pnlLocations.Controls.Add(this.lblLocations);
+			this.pnlLocations.Controls.Add(this.lbChecks);
+			this.pnlLocations.Controls.Add(this.lblChecks);
 			this.pnlLocations.Controls.Add(this.pnlGapLocations);
 			this.pnlLocations.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pnlLocations.Location = new System.Drawing.Point(375, 3);
@@ -355,26 +401,37 @@
 			this.pnlLocations.Size = new System.Drawing.Size(180, 257);
 			this.pnlLocations.TabIndex = 10;
 			// 
-			// lblLocations
+			// lblChecks
 			// 
-			this.lblLocations.AutoSize = true;
-			this.lblLocations.BackColor = System.Drawing.Color.Transparent;
-			this.lblLocations.Dock = System.Windows.Forms.DockStyle.Top;
-			this.lblLocations.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblLocations.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.lblLocations.Location = new System.Drawing.Point(0, 0);
-			this.lblLocations.Name = "lblLocations";
-			this.lblLocations.Size = new System.Drawing.Size(59, 15);
-			this.lblLocations.TabIndex = 0;
-			this.lblLocations.Text = "Locations";
+			this.lblChecks.AutoSize = true;
+			this.lblChecks.BackColor = System.Drawing.Color.Transparent;
+			this.lblChecks.Dock = System.Windows.Forms.DockStyle.Top;
+			this.lblChecks.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblChecks.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lblChecks.Location = new System.Drawing.Point(0, 0);
+			this.lblChecks.Name = "lblChecks";
+			this.lblChecks.Size = new System.Drawing.Size(46, 15);
+			this.lblChecks.TabIndex = 0;
+			this.lblChecks.Text = "Checks";
 			// 
 			// pnlGapLocations
 			// 
+			this.pnlGapLocations.Controls.Add(this.lblCheckType);
 			this.pnlGapLocations.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlGapLocations.Location = new System.Drawing.Point(0, 216);
 			this.pnlGapLocations.Name = "pnlGapLocations";
 			this.pnlGapLocations.Size = new System.Drawing.Size(180, 41);
 			this.pnlGapLocations.TabIndex = 7;
+			// 
+			// lblCheckType
+			// 
+			this.lblCheckType.AutoSize = true;
+			this.lblCheckType.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.lblCheckType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblCheckType.Location = new System.Drawing.Point(0, 21);
+			this.lblCheckType.Name = "lblCheckType";
+			this.lblCheckType.Size = new System.Drawing.Size(0, 20);
+			this.lblCheckType.TabIndex = 0;
 			// 
 			// pnlItems
 			// 
@@ -484,7 +541,7 @@
 			this.btnAddProgress.Name = "btnAddProgress";
 			this.btnAddProgress.Size = new System.Drawing.Size(180, 21);
 			this.btnAddProgress.TabIndex = 10;
-			this.btnAddProgress.Text = "Add";
+			this.btnAddProgress.Text = "Add Progress";
 			this.btnAddProgress.UseVisualStyleBackColor = false;
 			this.btnAddProgress.Click += new System.EventHandler(this.btnAddProgress_Click);
 			// 
@@ -511,12 +568,12 @@
 			// pnlData
 			// 
 			this.pnlData.ColumnCount = 6;
-			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+			this.pnlData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
 			this.pnlData.Controls.Add(this.pnlRegions);
 			this.pnlData.Controls.Add(this.pnlConnections);
 			this.pnlData.Controls.Add(this.pnlLocations);
@@ -534,15 +591,96 @@
 			// 
 			// pnlManage
 			// 
+			this.pnlManage.Controls.Add(this.tbCheckDescription);
+			this.pnlManage.Controls.Add(this.lblCheckDescription);
+			this.pnlManage.Controls.Add(this.tbCheckName);
+			this.pnlManage.Controls.Add(this.lblCheckName);
+			this.pnlManage.Controls.Add(this.btnChangeMode);
 			this.pnlManage.Controls.Add(this.btnSave);
 			this.pnlManage.Controls.Add(this.btnUndo);
 			this.pnlManage.Controls.Add(this.btnRedo);
-			this.pnlManage.Dock = System.Windows.Forms.DockStyle.Right;
+			this.pnlManage.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pnlManage.Location = new System.Drawing.Point(933, 3);
 			this.pnlManage.MinimumSize = new System.Drawing.Size(0, 255);
 			this.pnlManage.Name = "pnlManage";
 			this.pnlManage.Size = new System.Drawing.Size(180, 257);
 			this.pnlManage.TabIndex = 14;
+			// 
+			// tbCheckDescription
+			// 
+			this.tbCheckDescription.AcceptsReturn = true;
+			this.tbCheckDescription.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.tbCheckDescription.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.tbCheckDescription.Enabled = false;
+			this.tbCheckDescription.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.tbCheckDescription.Location = new System.Drawing.Point(0, 46);
+			this.tbCheckDescription.Multiline = true;
+			this.tbCheckDescription.Name = "tbCheckDescription";
+			this.tbCheckDescription.Size = new System.Drawing.Size(180, 95);
+			this.tbCheckDescription.TabIndex = 16;
+			this.tbCheckDescription.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbCheckDescription_KeyDown);
+			this.tbCheckDescription.Leave += new System.EventHandler(this.tbCheckDescription_Leave);
+			// 
+			// lblCheckDescription
+			// 
+			this.lblCheckDescription.AutoSize = true;
+			this.lblCheckDescription.BackColor = System.Drawing.Color.Transparent;
+			this.lblCheckDescription.Dock = System.Windows.Forms.DockStyle.Top;
+			this.lblCheckDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblCheckDescription.Location = new System.Drawing.Point(0, 33);
+			this.lblCheckDescription.Name = "lblCheckDescription";
+			this.lblCheckDescription.Size = new System.Drawing.Size(111, 13);
+			this.lblCheckDescription.TabIndex = 15;
+			this.lblCheckDescription.Text = "Check Description";
+			// 
+			// tbCheckName
+			// 
+			this.tbCheckName.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.tbCheckName.Dock = System.Windows.Forms.DockStyle.Top;
+			this.tbCheckName.Enabled = false;
+			this.tbCheckName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.tbCheckName.Location = new System.Drawing.Point(0, 13);
+			this.tbCheckName.Name = "tbCheckName";
+			this.tbCheckName.Size = new System.Drawing.Size(180, 20);
+			this.tbCheckName.TabIndex = 11;
+			this.tbCheckName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbCheckName_KeyDown);
+			this.tbCheckName.Leave += new System.EventHandler(this.tbCheckName_Leave);
+			// 
+			// lblCheckName
+			// 
+			this.lblCheckName.AutoSize = true;
+			this.lblCheckName.BackColor = System.Drawing.Color.Transparent;
+			this.lblCheckName.Dock = System.Windows.Forms.DockStyle.Top;
+			this.lblCheckName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblCheckName.Location = new System.Drawing.Point(0, 0);
+			this.lblCheckName.Name = "lblCheckName";
+			this.lblCheckName.Size = new System.Drawing.Size(79, 13);
+			this.lblCheckName.TabIndex = 14;
+			this.lblCheckName.Text = "Check Name";
+			// 
+			// btnChangeMode
+			// 
+			this.btnChangeMode.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.btnChangeMode.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.btnChangeMode.Location = new System.Drawing.Point(0, 141);
+			this.btnChangeMode.Name = "btnChangeMode";
+			this.btnChangeMode.Size = new System.Drawing.Size(180, 29);
+			this.btnChangeMode.TabIndex = 17;
+			this.btnChangeMode.Text = "Change Mode";
+			this.btnChangeMode.UseVisualStyleBackColor = false;
+			this.btnChangeMode.Click += new System.EventHandler(this.btnChangeMode_Click);
+			// 
+			// lblAreas
+			// 
+			this.lblAreas.AutoSize = true;
+			this.lblAreas.Dock = System.Windows.Forms.DockStyle.Top;
+			this.lblAreas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblAreas.Location = new System.Drawing.Point(0, 15);
+			this.lblAreas.Name = "lblAreas";
+			this.lblAreas.Size = new System.Drawing.Size(39, 13);
+			this.lblAreas.TabIndex = 6;
+			this.lblAreas.Text = "Areas";
+			this.lblAreas.Visible = false;
 			// 
 			// MainForm
 			// 
@@ -555,6 +693,7 @@
 			this.Controls.Add(this.tbEdit);
 			this.Controls.Add(this.pnlSplit);
 			this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.MinimumSize = new System.Drawing.Size(640, 640);
 			this.Name = "MainForm";
 			this.Text = "MainForm";
 			this.Click += new System.EventHandler(this.MainForm_Click);
@@ -564,6 +703,8 @@
 			this.pnlRegions.PerformLayout();
 			this.pnlLocations.ResumeLayout(false);
 			this.pnlLocations.PerformLayout();
+			this.pnlGapLocations.ResumeLayout(false);
+			this.pnlGapLocations.PerformLayout();
 			this.pnlItems.ResumeLayout(false);
 			this.pnlItems.PerformLayout();
 			this.pnlProgress.ResumeLayout(false);
@@ -574,6 +715,7 @@
 			this.pnlSplit.ResumeLayout(false);
 			this.pnlData.ResumeLayout(false);
 			this.pnlManage.ResumeLayout(false);
+			this.pnlManage.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -584,7 +726,7 @@
 		private System.Windows.Forms.Label lblRegions;
 		public System.Windows.Forms.Panel pnlMap;
 		public System.Windows.Forms.ListBox lbRegions;
-		public System.Windows.Forms.ListBox lbLocations;
+		public System.Windows.Forms.ListBox lbChecks;
 		private System.Windows.Forms.Button btnSave;
 		public System.Windows.Forms.ListBox lbConnections;
 		private System.Windows.Forms.Button btnAddItem;
@@ -598,7 +740,7 @@
 		private System.Windows.Forms.Panel pnlLocations;
 		private System.Windows.Forms.Panel pnlItems;
 		private System.Windows.Forms.Label lblConnections;
-		private System.Windows.Forms.Label lblLocations;
+		private System.Windows.Forms.Label lblChecks;
 		private System.Windows.Forms.Label lblItems;
 		private System.Windows.Forms.Button btnClearFilter;
 		private System.Windows.Forms.Panel pnlProgress;
@@ -614,5 +756,14 @@
 		private System.Windows.Forms.Panel pnlGapLocations;
 		private System.Windows.Forms.Panel pnlGapItems;
 		private System.Windows.Forms.Panel pnlGapProgress;
+		private System.Windows.Forms.TextBox tbCheckName;
+		private System.Windows.Forms.Label lblCheckName;
+		private System.Windows.Forms.TextBox tbCheckDescription;
+		private System.Windows.Forms.Label lblCheckDescription;
+		private System.Windows.Forms.Label lblCheckType;
+		private System.Windows.Forms.Button btnChangeMode;
+		public System.Windows.Forms.ListBox lbAreas;
+		private System.Windows.Forms.Button btnAddArea;
+		private System.Windows.Forms.Label lblAreas;
 	}
 }
