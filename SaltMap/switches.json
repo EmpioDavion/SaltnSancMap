@@ -1,426 +1,585 @@
 {
- "fortresscastlegate1": {
-  "items": [
-   "castlegate"
-  ],
-  "id": 120000,
-  "loc": "16349.0186, 11759.0566",
-  "region": "the_festering_banquet"
- },
- "cavedoorswitch1": {
-  "items": [
-   "cavedoor"
-  ],
-  "id": 120002,
-  "loc": "11362.3955, 13268.8613",
-  "region": "the_festering_banquet_cave"
- },
- "castledungeongate": {
-  "items": [
-   "castledungeongate"
-  ],
-  "id": 120004,
-  "loc": "17304.38, 12589.7168",
-  "region": "the_festering_banquet_cave"
- },
- "ledge_edge_plat1": {
-  "items": [
-   "ledge_edge_plat"
-  ],
-  "id": 120006,
-  "loc": "31466.7285, 5958.22656",
-  "region": "castle_of_storms"
- },
- "middle_double_plat1": {
-  "items": [
-   "middle_double_plat"
-  ],
-  "id": 120008,
-  "loc": "38491.8242, 4395.57",
-  "region": "castle_of_storms"
- },
- "cave_mine_shaft1": {
-  "items": [
-   "cave_mine_shaft1"
-  ],
-  "id": 120010,
-  "loc": "31010.4785, 14765.7119",
-  "region": "bronze_key_cave"
- },
- "under_village_boards_plat1": {
-  "items": [
-   "under_village_boards_plat1"
-  ],
-  "id": 120012,
-  "loc": "24104.0371, 21531.4785",
-  "region": "sunken_keep"
- },
- "secretundervillagegate1": {
-  "items": [
-   "secretundervillagegate"
-  ],
-  "id": 120014,
-  "loc": "5906.58447, 18535.31",
-  "region": "village_cave"
- },
- "tunneltoforesttop1": {
-  "items": [
-   "tunneltoforesttop"
-  ],
-  "id": 120016,
-  "loc": "11517.5283, 20291.7578",
-  "region": "village_cave"
- },
- "tunneltoforestbottom1": {
-  "items": [
-   "tunneltoforestbottom"
-  ],
-  "id": 120018,
-  "loc": "12203.6895, 21510.8828",
-  "region": "village_cave"
- },
- "castlebridgedropf": {
-  "items": [
-   "castlebridgedrop"
-  ],
-  "id": 120020,
-  "loc": "42214.582, 7546.29443",
-  "region": "castlebridgedropf"
- },
- "forttoundervillagegate": {
-  "items": [
-   "forttoundervillagegate"
-  ],
-  "id": 120022,
-  "loc": "19400.39, 13993.9443",
-  "region": "the_festering_banquet"
- },
- "dungeon_double_plat1": {
-  "items": [
-   "dungeon_double_plat"
-  ],
-  "id": 120024,
-  "loc": "43290.9336, 26150.6387",
-  "region": "red_hall_of_cages"
- },
- "bluecaveentrance": {
-  "items": [
-   "bluecaveentrance"
-  ],
-  "id": 120026,
-  "loc": "31641.4258, 23830.3281",
-  "region": "hagers_cavern"
- },
- "dome_plat_f": {
-  "items": [
-   "dome_plat"
-  ],
-  "id": 120028,
-  "loc": "62673.7539, 11689.8037",
-  "region": "dome_middle"
- },
- "skycastlegate": {
-  "items": [
-   "skycastlegate"
-  ],
-  "id": 120030,
-  "loc": "49795.46, 3265.76587",
-  "region": "mals_middle"
- },
- "cavebossdoor": {
-  "items": [
-   "cavebossdoor"
-  ],
-  "id": 120032,
-  "loc": "31239.89, 29129.69",
-  "region": "hagers_cavern_vertigo"
- },
- "ruinstwinleft1": {
-  "items": [
-   "ruinstwinleft"
-  ],
-  "id": 120034,
-  "loc": "62367.37, 20361.83",
-  "region": "ruinstwinleft1"
- },
- "ruinstwinright1": {
-  "items": [
-   "ruinstwinright"
-  ],
-  "id": 120036,
-  "loc": "62893.0273, 20060.4375",
-  "region": "ruinstwinright1"
- },
- "domegates": {
-  "items": [
-   "domegate"
-  ],
-  "id": 120038,
-  "loc": "59417.918, 12913.4893",
-  "region": "dome_middle"
- },
- "cavespigate": {
-  "items": [
-   "cavespigate"
-  ],
-  "id": 120040,
-  "loc": "37674.4453, 32239.5215",
-  "region": "hagers_cellar_key_cave"
- },
- "zigguratgates": {
-  "items": [
-   "zigguratgates"
-  ],
-  "id": 120042,
-  "loc": "79331.69, 11180.6074",
-  "region": "ziggurat_upper1"
- },
- "zigguratupgate": {
-  "items": [
-   "zigguratupgate"
-  ],
-  "id": 120044,
-  "loc": "78856.61, 10215.9189",
-  "region": "ziggurat_upper3"
- },
- "swampgate": {
-  "items": [
-   "swampgate"
-  ],
-  "id": 120046,
-  "loc": "22075.668, 24066.2188",
-  "region": "swampgate"
- },
- "dungeon2cave": {
-  "items": [
-   "dungeon2cave"
-  ],
-  "id": 120048,
-  "loc": "33286.5, 15427.7813",
-  "region": "red_hall_of_cages"
- },
- "pyramidrightout": {
-  "items": [
-   "pyramidrightout"
-  ],
-  "id": 120050,
-  "loc": "80458.64, 8183.6333",
-  "region": "ziggurat_apex"
- },
- "pyramid_plat_sf": {
-  "items": [
-   "pyramid_plat_sf"
-  ],
-  "id": 120052,
-  "loc": "88043.375, 17613.2656",
-  "region": "pyramid_plat_sf"
- },
- "swampgate2": {
-  "items": [
-   "swampgate2"
-  ],
-  "id": 120054,
-  "loc": "24586.3711, 24264.668",
-  "region": "swampgate2"
- },
- "zigguratshortgate": {
-  "items": [
-   "zigguratshortgate"
-  ],
-  "id": 120056,
-  "loc": "84840.71, 13809.0361",
-  "region": "ziggurat_east_upper"
- },
- "dungeontolab": {
-  "items": [
-   "dungeontolab"
-  ],
-  "id": 120058,
-  "loc": "46508.7461, 26730.06",
-  "region": "salt_alkymancery_top_west"
- },
- "dungeontoruins": {
-  "items": [
-   "dungeontoruins"
-  ],
-  "id": 120060,
-  "loc": "52456.43, 18616.9414",
-  "region": "dungeontoruins_switch"
- },
- "labtunnelgate": {
-  "items": [
-   "labtunnelgate"
-  ],
-  "id": 120062,
-  "loc": "46533.27, 31411.2227",
-  "region": "salt_alkymancery_west_lower"
- },
- "lakelabruins": {
-  "items": [
-   "lakelabruins"
-  ],
-  "id": 120064,
-  "loc": "65329.96, 30597.084",
-  "region": "lake_to_lab"
- },
- "cave2dungeonb": {
-  "items": [
-   "cave2dungeonb"
-  ],
-  "id": 120066,
-  "loc": "41864.6055, 26145.6777",
-  "region": "cave2dungeonb"
- },
- "cavetombgate2": {
-  "items": [
-   "cavetombgate2"
-  ],
-  "id": 120068,
-  "loc": "27875.0469, 31886.2949",
-  "region": "hagers_to_crypt"
- },
- "tombbackgate": {
-  "items": [
-   "tombbackgate"
-  ],
-  "id": 120070,
-  "loc": "35453.5977, 33320.7578",
-  "region": "tombbackgate_switch"
- },
- "pitchwoodcut1": {
-  "items": [
-   "pitchwoodcut"
-  ],
-  "id": 120072,
-  "loc": "76058.72, 29539.248",
-  "region": "pitchwoods_lower_middle"
- },
- "rpitchlakeshortcut2": {
-  "items": [
-   "rpitchlakeshortcut"
-  ],
-  "id": 120074,
-  "loc": "71551.63, 30744.5488",
-  "region": "pitchwoods_lower_west"
- },
- "lpitchlakeshortcut1": {
-  "items": [
-   "lpitchlakeshortcut"
-  ],
-  "id": 120076,
-  "loc": "68674.97, 30740.77",
-  "region": "siam_lake_east"
- },
- "stormdualgatef": {
-  "items": [
-   "stormdualgate"
-  ],
-  "id": 120078,
-  "loc": "38545.0156, 6381.741",
-  "region": "stormdualgate"
- },
- "bladebanditgate1": {
-  "items": [
-   "bladebanditgate"
-  ],
-  "id": 120080,
-  "loc": "22900.7656, 12559.708",
-  "region": "bladebanditgate1"
- },
- "fortblackset1": {
-  "items": [
-   "fortblackset"
-  ],
-  "id": 120082,
-  "loc": "17837.9941, 12305.4971",
-  "region": "the_festering_banquet"
- },
- "cryptgodswall": {
-  "items": [
-   "cryptgodswall"
-  ],
-  "id": 120084,
-  "loc": "38377.6875, 38771.1758",
-  "region": "cryptgodswall_switch"
- },
- "zigropes1": {
-  "items": [
-   "zigropes1"
-  ],
-  "id": 120086,
-  "loc": "82688.78, 15673.1777",
-  "region": "zigropes1"
- },
- "zigropes2": {
-  "items": [
-   "zigropes2"
-  ],
-  "id": 120088,
-  "loc": "82785.76, 15272.7168",
-  "region": "zigropes2"
- },
- "ruincaveshort2": {
-  "items": [
-   "ruincaveshort2"
-  ],
-  "id": 120090,
-  "loc": "56980.2227, 15597.5488",
-  "region": "ruins_cave"
- },
- "labtogold1": {
-  "items": [
-   "labtogold"
-  ],
-  "id": 120092,
-  "loc": "54038.05, 23300.873",
-  "region": "princess_set"
- },
- "caveswampshrine": {
-  "items": [
-   "caveswampshrine"
-  ],
-  "id": 120094,
-  "loc": "32368.2441, 25325.3418",
-  "region": "hagers_cavern"
- },
- "dungeonshrtdrf": {
-  "items": [
-   "dungeonshrtdr"
-  ],
-  "id": 120096,
-  "loc": "45059.4961, 14200.5371",
-  "region": "red_hall_of_cages_hanged"
- },
- "dungeonmidshrtf": {
-  "items": [
-   "dungeonmidshrt"
-  ],
-  "id": 120098,
-  "loc": "44210.17, 18700.9082",
-  "region": "red_hall_of_cages"
- },
- "forestshrinegatef": {
-  "items": [
-   "forestshrinegate"
-  ],
-  "id": 120100,
-  "loc": "23151.53, 16452.5273",
-  "region": "forestshrinegatef"
- },
- "ruinblockfloor1": {
-  "items": [
-   "ruinblockfloor"
-  ],
-  "id": 120102,
-  "loc": "65335.78, 21165.6816",
-  "region": "ruinblockfloor1"
- },
- "palaceescape1": {
-  "items": [
-   "palaceescape"
-  ],
-  "id": 120104,
-  "loc": "62184.3125, 34672.5625",
-  "region": "palaceescape1"
- }
+  "fortresscastlegate1": {
+    "items": [
+      "castlegate"
+    ],
+	"type": 2,
+    "id": 180000,
+    "loc": "16349.0186, 11759.0566",
+    "region": "the_festering_banquet",
+    "name": "The Festering Banquet Switch 5",
+    "description": "Switch at the upper east entrance of The Festering Banquet"
+  },
+  "cavedoorswitch1": {
+    "items": [
+      "cavedoor"
+    ],
+	"type": 1,
+    "id": 180002,
+    "loc": "11362.3955, 13268.8613",
+    "region": "the_festering_banquet_cave",
+    "name": "The Festering Banquet Switch 3",
+    "description": "Switch in west The Festering Banquet, underground"
+  },
+  "castledungeongate": {
+    "items": [
+      "castledungeongate"
+    ],
+	"type": 2,
+    "id": 180004,
+    "loc": "17304.38, 12589.7168",
+    "region": "the_festering_banquet_cave",
+    "name": "The Festering Banquet Switch 2",
+    "description": "Switch in lower east The Festering Banquet"
+  },
+  "ledge_edge_plat1": {
+    "items": [
+      "ledge_edge_plat"
+    ],
+	"type": 0,
+    "id": 180006,
+    "loc": "31466.7285, 5958.22656",
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Switch 2",
+    "description": "Switch next to Masterless Knight in upper west Castle of Storms"
+  },
+  "middle_double_plat1": {
+    "items": [
+      "middle_double_plat"
+    ],
+	"type": 0,
+    "id": 180008,
+    "loc": "38491.8242, 4395.57",
+    "region": "castle_of_storms",
+    "name": "Castle of Storms Switch 3",
+    "description": "Switch below Despondent Thief in upper Castle of Storms"
+  },
+  "cave_mine_shaft1": {
+    "items": [
+      "cave_mine_shaft1"
+    ],
+	"type": 0,
+    "id": 180010,
+    "loc": "31010.4785, 14765.7119",
+    "region": "bronze_key_cave",
+    "name": "Bandit's Pass Switch 1",
+    "description": "Switch in lower east Bandit's Pass, underground"
+  },
+  "under_village_boards_plat1": {
+    "items": [
+      "under_village_boards_plat1"
+    ],
+	"type": 0,
+    "id": 180012,
+    "loc": "24104.0371, 21531.4785",
+    "region": "sunken_keep",
+    "name": "Sunken Keep Switch 2",
+    "description": "Switch in lower west Sunken Keep"
+  },
+  "secretundervillagegate1": {
+    "items": [
+      "secretundervillagegate"
+    ],
+	"type": 2,
+    "id": 180014,
+    "loc": "5906.58447, 18535.31",
+    "region": "village_cave",
+    "name": "Village of Smiles Switch 1",
+    "description": "Switch in lower Village of Smiles, underground"
+  },
+  "tunneltoforesttop1": {
+    "items": [
+      "tunneltoforesttop"
+    ],
+	"type": 2,
+    "id": 180016,
+    "loc": "11517.5283, 20291.7578",
+    "region": "village_cave",
+    "name": "Village of Smiles Switch 3",
+    "description": "Switch in lower east Village of Smiles, underground"
+  },
+  "tunneltoforestbottom1": {
+    "items": [
+      "tunneltoforestbottom"
+    ],
+	"type": 2,
+    "id": 180018,
+    "loc": "12203.6895, 21510.8828",
+    "region": "village_cave",
+    "name": "Village of Smiles Switch 2",
+    "description": "Switch in lower east Village of Smiles, underground"
+  },
+  "castlebridgedropf": {
+    "items": [
+      "castlebridgedrop"
+    ],
+	"type": 4,
+    "id": 180020,
+    "loc": "42214.582, 7546.29443",
+    "region": "castlebridgedropf",
+    "name": "Castle of Storms Switch 1",
+    "description": "Switch in east Castle of Storms"
+  },
+  "forttoundervillagegate": {
+    "items": [
+      "forttoundervillagegate"
+    ],
+	"type": 2,
+    "id": 180022,
+    "loc": "19400.39, 13993.9443",
+    "region": "jester_upper",
+    "name": "The Festering Banquet Switch 6",
+    "description": "Switch in lower east The Festering Banquet, underground"
+  },
+  "dungeon_double_plat1": {
+    "items": [
+      "dungeon_double_plat"
+    ],
+	"type": 0,
+    "id": 180024,
+    "loc": "43290.9336, 26150.6387",
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Switch 2",
+    "description": "Switch at bottom of double lift by Hager's Cavern entrance in lower Red Hall of Cages"
+  },
+  "bluecaveentrance": {
+    "items": [
+      "bluecaveentrance"
+    ],
+	"type": 3,
+    "id": 180026,
+    "loc": "31641.4258, 23830.3281",
+    "region": "hagers_cavern",
+    "name": "Hager's Cavern Switch 1",
+    "description": "Switch at the Sunken Keep entrance in upper west Hager's Cavern"
+  },
+  "dome_plat_f": {
+    "items": [
+      "dome_plat"
+    ],
+	"type": 0,
+    "id": 180028,
+    "loc": "62673.7539, 11689.8037",
+    "region": "dome_middle",
+    "name": "Dome of the Forgotten Switch 1",
+    "description": "Switch in east Dome of the Forgotten"
+  },
+  "skycastlegate": {
+    "items": [
+      "skycastlegate"
+    ],
+	"type": 2,
+    "id": 180030,
+    "loc": "49795.46, 3265.76587",
+    "region": "mals_middle",
+    "name": "Mal's Floating Castle Switch 1",
+    "description": "Switch in middle Mal's Floating Castle"
+  },
+  "cavebossdoor": {
+    "items": [
+      "cavebossdoor"
+    ],
+	"type": 2,
+    "id": 180032,
+    "loc": "31239.89, 29129.69",
+    "region": "hagers_cavern_vertigo",
+    "name": "Hager's Cavern Switch 2",
+    "description": "Switch below the entrance to the Disembowled Husk boss fight in west Hager's Cavern"
+  },
+  "ruinstwinleft1": {
+    "items": [
+      "ruinstwinleft"
+    ],
+	"type": 2,
+    "id": 180034,
+    "loc": "62367.37, 20361.83",
+    "region": "ruinstwinleft1",
+    "name": "The Ruined Temple Switch 3",
+    "description": "Switch west of the double gates in middle The Ruined Temple"
+  },
+  "ruinstwinright1": {
+    "items": [
+      "ruinstwinright"
+    ],
+	"type": 2,
+    "id": 180036,
+    "loc": "62893.0273, 20060.4375",
+    "region": "ruinstwinright1",
+    "name": "The Ruined Temple Switch 4",
+    "description": "Switch above the double gates in middle The Ruined Temple"
+  },
+  "domegates": {
+    "items": [
+      "domegate"
+    ],
+	"type": 2,
+    "id": 180038,
+    "loc": "59417.918, 12913.4893",
+    "region": "dome_middle",
+    "name": "Dome of the Forgotten Switch 2",
+    "description": "Switch west of The Untouched Inquisitor in lower Dome of the Forgotten"
+  },
+  "cavespigate": {
+    "items": [
+      "cavespigate"
+    ],
+	"type": 2,
+    "id": 180040,
+    "loc": "37674.4453, 32239.5215",
+    "region": "hagers_cellar_key_cave",
+    "name": "Hager's Cavern Switch 3",
+    "description": "Switch in cave in lower east Hager's Cavern"
+  },
+  "zigguratgates": {
+    "items": [
+      "zigguratgates"
+    ],
+	"type": 2,
+    "id": 180042,
+    "loc": "79331.69, 11180.6074",
+    "region": "ziggurat_upper1",
+    "name": "Ziggurat of Dust Switch 3",
+    "description": "Lower switch below The Dried King in upper Ziggurat of Dust"
+  },
+  "zigguratupgate": {
+    "items": [
+      "zigguratupgate"
+    ],
+	"type": 2,
+    "id": 180044,
+    "loc": "78856.61, 10215.9189",
+    "region": "ziggurat_upper3",
+    "name": "Ziggurat of Dust Switch 5",
+    "description": "Upper switch below The Dried King in upper Ziggurat of Dust"
+  },
+  "swampgate": {
+    "items": [
+      "swampgate"
+    ],
+	"type": 2,
+    "id": 180046,
+    "loc": "22075.668, 24066.2188",
+    "region": "swampgate_switch",
+    "name": "Mire of Stench Switch 1",
+    "description": "Switch east of the That Stench Most Foul boss fight in upper Mire of Stench"
+  },
+  "dungeon2cave": {
+    "items": [
+      "dungeon2cave"
+    ],
+	"type": 2,
+    "id": 180048,
+    "loc": "33286.5, 15427.7813",
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Switch 3",
+    "description": "Switch next to Bandit's Pass cave entrance in west Red Hall of Cages"
+  },
+  "pyramidrightout": {
+    "items": [
+      "pyramidrightout"
+    ],
+	"type": 3,
+    "id": 180050,
+    "loc": "80458.64, 8183.6333",
+    "region": "ziggurat_apex",
+    "name": "Ziggurat of Dust Switch 2",
+    "description": "Switch above The Dried King in upper Ziggurat of Dust"
+  },
+  "pyramid_plat_sf": {
+    "items": [
+      "pyramid_plat_sf"
+    ],
+	"type": 0,
+    "id": 180052,
+    "loc": "88043.375, 17613.2656",
+    "region": "pyramid_plat_sf",
+    "name": "Ziggurat of Dust Switch 1",
+    "description": "Switch in lower east Ziggurat of Dust"
+  },
+  "swampgate2": {
+    "items": [
+      "swampgate2"
+    ],
+	"type": 2,
+    "id": 180054,
+    "loc": "24586.3711, 24264.668",
+    "region": "swampgate2_switch",
+    "name": "Mire of Stench Switch 2",
+    "description": "Switch between the Shrine and That Stench Most Foul boss fight in upper Mire of Stench"
+  },
+  "zigguratshortgate": {
+    "items": [
+      "zigguratshortgate"
+    ],
+	"type": 2,
+    "id": 180056,
+    "loc": "84840.71, 13809.0361",
+    "region": "ziggurat_east_upper",
+    "name": "Ziggurat of Dust Switch 4",
+    "description": "Switch below the Sanctuary in east Ziggurat of Dust"
+  },
+  "dungeontolab": {
+    "items": [
+      "dungeontolab"
+    ],
+	"type": 2,
+    "id": 180058,
+    "loc": "46508.7461, 26730.06",
+    "region": "salt_alkymancery_top_west",
+    "name": "Red Hall of Cages Switch 6",
+    "description": "Switch next to the Red Hall of Cages entrance in upper west Salt Alkymancery"
+  },
+  "dungeontoruins": {
+    "items": [
+      "dungeontoruins"
+    ],
+	"type": 2,
+    "id": 180060,
+    "loc": "52456.43, 18616.9414",
+    "region": "dungeontoruins_switch",
+    "name": "Red Hall of Cages Switch 7",
+    "description": "Switch at the Red Hall of Cages entrance in west The Ruined Temple"
+  },
+  "labtunnelgate": {
+    "items": [
+      "labtunnelgate"
+    ],
+	"type": 2,
+    "id": 180062,
+    "loc": "46533.27, 31411.2227",
+    "region": "salt_alkymancery_west_lower",
+    "name": "Salt Alkymancery Switch 1",
+    "description": "Switch below the Sanctuary in west Salt Alkymancery"
+  },
+  "lakelabruins": {
+    "items": [
+      "lakelabruins"
+    ],
+	"type": 1,
+    "id": 180064,
+    "loc": "65329.96, 30597.084",
+    "region": "lake_to_lab",
+    "name": "Siam Lake Switch 1",
+    "description": "Switch east of the Sanctuary in east Siam Lake"
+  },
+  "cave2dungeonb": {
+    "items": [
+      "cave2dungeonb"
+    ],
+	"type": 2,
+    "id": 180066,
+    "loc": "41864.6055, 26145.6777",
+    "region": "cave2dungeonb_switch",
+    "name": "Red Hall of Cages Switch 1",
+    "description": "Switch next to Hager's Cavern entrance in Red Hall of Cages"
+  },
+  "cavetombgate2": {
+    "items": [
+      "cavetombgate2"
+    ],
+	"type": 1,
+    "id": 180068,
+    "loc": "27875.0469, 31886.2949",
+    "region": "hagers_to_crypt",
+    "name": "Hager's Cavern Switch 5",
+    "description": "Switch below Hager's Cavern Shrine, connecting to Crypt of Dead Gods, in lower west Hager's Cavern"
+  },
+  "tombbackgate": {
+    "items": [
+      "tombbackgate"
+    ],
+	"type": 2,
+    "id": 180070,
+    "loc": "35453.5977, 33320.7578",
+    "region": "tombbackgate_switch",
+    "name": "Crypt of Dead Gods Switch 2",
+    "description": "Switch west of the sanctuary in upper west Crypt of Dead Gods"
+  },
+  "pitchwoodcut1": {
+    "items": [
+      "pitchwoodcut"
+    ],
+	"type": 2,
+    "id": 180072,
+    "loc": "76058.72, 29539.248",
+    "region": "pitchwoods_lower_middle",
+    "name": "Pitchwoods Switch 2",
+    "description": "Switch in the west building in lower Pitchwoods"
+  },
+  "rpitchlakeshortcut2": {
+    "items": [
+      "rpitchlakeshortcut"
+    ],
+	"type": 2,
+    "id": 180074,
+    "loc": "71551.63, 30744.5488",
+    "region": "pitchwoods_lower_west",
+    "name": "Pitchwoods Switch 3",
+    "description": "Switch east of the west The Blackest Vault entrance in lower west Pitchwoods"
+  },
+  "lpitchlakeshortcut1": {
+    "items": [
+      "lpitchlakeshortcut"
+    ],
+	"type": 2,
+    "id": 180076,
+    "loc": "68674.97, 30740.77",
+    "region": "siam_lake_east",
+    "name": "Pitchwoods Switch 1",
+    "description": "Switch west of the west The Blackest Vault entrance in lower west Pitchwoods"
+  },
+  "stormdualgatef": {
+    "items": [
+      "stormdualgate"
+    ],
+	"type": 2,
+    "id": 180078,
+    "loc": "38545.0156, 6381.741",
+    "region": "stormdualgatef",
+    "name": "Castle of Storms Switch 4",
+    "description": "Switch between double gate in middle Castle of Storms"
+  },
+  "bladebanditgate1": {
+    "items": [
+      "bladebanditgate"
+    ],
+	"type": 2,
+    "id": 180080,
+    "loc": "22900.7656, 12559.708",
+    "region": "bladebanditgate1",
+    "name": "The Festering Banquet Switch 1",
+    "description": "Switch in east The Festering Banquet, underground"
+  },
+  "fortblackset1": {
+    "items": [
+      "fortblackset"
+    ],
+	"type": 2,
+    "id": 180082,
+    "loc": "17837.9941, 12305.4971",
+    "region": "fortblackset1",
+    "name": "The Festering Banquet Switch 4",
+    "description": "Chest outside the middle east entrance of The Festering Banquet"
+  },
+  "cryptgodswall": {
+    "items": [
+      "cryptgodswall"
+    ],
+	"type": 1,
+    "id": 180084,
+    "loc": "38377.6875, 38771.1758",
+    "region": "cryptgodswall_switch",
+    "name": "Crypt of Dead Gods Switch 1",
+    "description": "Switch west of the shrine in lower Crypt of Dead Gods"
+  },
+  "zigropes1": {
+    "items": [
+      "zigropes1"
+    ],
+	"type": 2,
+    "id": 180086,
+    "loc": "82688.78, 15673.1777",
+    "region": "zigropes1_switch",
+    "name": "Ziggurat of Dust Switch 6",
+    "description": "Lower switch below the east room in east Ziggurat of Dust"
+  },
+  "zigropes2": {
+    "items": [
+      "zigropes2"
+    ],
+	"type": 2,
+    "id": 180088,
+    "loc": "82785.76, 15272.7168",
+    "region": "zigropes2_switch",
+    "name": "Ziggurat of Dust Switch 7",
+    "description": "Upper switch below the east room in east Ziggurat of Dust"
+  },
+  "ruincaveshort2": {
+    "items": [
+      "ruincaveshort2"
+    ],
+	"type": 1,
+    "id": 180090,
+    "loc": "56980.2227, 15597.5488",
+    "region": "ruins_cave",
+    "name": "The Ruined Temple Switch 2",
+    "description": "Switch in upper west The Ruined Temple"
+  },
+  "labtogold1": {
+    "items": [
+      "labtogold"
+    ],
+	"type": 1,
+    "id": 180092,
+    "loc": "54038.05, 23300.873",
+    "region": "princess_set",
+    "name": "Cran's Pass Switch 1",
+    "description": "Switch near Hardlight surfaces in west Cran's Pass"
+  },
+  "caveswampshrine": {
+    "items": [
+      "caveswampshrine"
+    ],
+	"type": 2,
+    "id": 180094,
+    "loc": "32368.2441, 25325.3418",
+    "region": "cave_mire_upper",
+    "name": "Hager's Cavern Switch 4",
+    "description": "Switch on the way to the Mire of Stench Shrine"
+  },
+  "dungeonshrtdrf": {
+    "items": [
+      "dungeonshrtdr"
+    ],
+	"type": 1,
+    "id": 180096,
+    "loc": "45059.4961, 14200.5371",
+    "region": "red_hall_of_cages_hanged",
+    "name": "Red Hall of Cages Switch 5",
+    "description": "Switch at the top of the shaft that leads to the crater below Mal's Floating Castle, in upper east Red Hall of Cages"
+  },
+  "dungeonmidshrtf": {
+    "items": [
+      "dungeonmidshrt"
+    ],
+	"type": 2,
+    "id": 180098,
+    "loc": "44210.17, 18700.9082",
+    "region": "red_hall_of_cages",
+    "name": "Red Hall of Cages Switch 4",
+    "description": "Switch at the bottom of the shaft leading up to the crater below Mal's Floating Castle, in middle Red Hall of Cages"
+  },
+  "forestshrinegatef": {
+    "items": [
+      "forestshrinegate"
+    ],
+	"type": 2,
+    "id": 180100,
+    "loc": "23151.53, 16452.5273",
+    "region": "forestshrinegatef",
+    "name": "Sunken Keep Switch 1",
+    "description": "Switch in upper west Sunken Keep"
+  },
+  "ruinblockfloor1": {
+    "items": [
+      "ruinblockfloor"
+    ],
+	"type": 2,
+    "id": 180102,
+    "loc": "65335.78, 21165.6816",
+    "region": "ruinblockfloor1",
+    "name": "The Ruined Temple Switch 1",
+    "description": "Switch east of the double gates in middle The Ruined Temple"
+  },
+  "palaceescape1": {
+    "items": [
+      "palaceescape"
+    ],
+	"type": 1,
+    "id": 180104,
+    "loc": "62184.3125, 34672.5625",
+    "region": "palaceescape1",
+    "name": "The Still Palace Switch 1",
+    "description": "Switch at the entrance to lower east Siam Lake cave in upper east The Still Palace"
+  }
 }

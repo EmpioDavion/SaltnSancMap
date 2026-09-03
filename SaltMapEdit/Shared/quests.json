@@ -1,0 +1,74 @@
+{
+  "masterless_white_nova": {
+	"items": [ "white_nova" ],
+	"id": 230000,
+    "loc": "98122.61, 30280.9551",
+    "region": "masterless_6",
+	"name": "Masterless Knight Quest Wise Words",
+	"description": "Finish the questline of Masterless Knight"
+  },
+  "despondent_blue_nova": {
+	"items": [ "blue_nova" ],
+	"id": 230002,
+    "loc": "97415.26, 14634.3857",
+    "region": "despondent_4",
+	"name": "Despondent Thief Quest Coastrock",
+	"description": "Finish the questline of Despondent Thief"
+  },
+  "choppy_red_nova": {
+	"items": [ "red_nova" ],
+	"id": 230004,
+    "loc": "989.893433, 14865.2373",
+    "region": "choppy_3",
+	"name": "Black Sands Sorcerer Quest Fading Fast",
+	"description": "Finish the questline of Black Sands Sorcerer"
+  },
+  "domefriend_bluering_helm": {
+	"items": [ "bluering_helm", "bluering_armor", "bluering_gloves", "bluering_boots" ],
+	"id": 230006,
+    "loc": "83745.11, 11081.1807",
+    "region": "domefriend_2",
+	"name": "Luna Sage Quest Domefriend",
+	"description": "Finish the questline of Luna Sage"
+  },
+  "zenfern_white_helm": {
+	"items": [ "white_helm", "white_armor", "white_gloves", "white_boots" ],
+	"id": 230011,
+    "loc": "11193.792, 20307.8027",
+    "region": "zenfern_1",
+	"name": "Fern Quest Bag of Earth",
+	"description": "Finish the questline of Fern"
+  },
+  "zenfern_axe_great": {
+	"items": [ "axe_great" ],
+	"id": 230016,
+    "loc": "11193.792, 20307.8027",
+    "region": "zenfern_1",
+	"name": "Fern Quest Bag of Earth",
+	"description": "Finish the questline of Fern"
+  },
+  "zenfern_dagger_jagged": {
+	"items": [ "dagger_jagged" ],
+	"id": 230018,
+    "loc": "11193.792, 20307.8027",
+    "region": "zenfern_1",
+	"name": "Fern Quest Bag of Earth",
+	"description": "Finish the questline of Fern"
+  },
+  "zenfern_shield_tree": {
+	"items": [ "shield_tree" ],
+	"id": 230020,
+    "loc": "11193.792, 20307.8027",
+    "region": "zenfern_1",
+	"name": "Fern Quest Bag of Earth",
+	"description": "Finish the questline of Fern"
+  },
+  "dark_gatekeeper_key_bones": {
+	"items": [ "key_bones" ],
+	"id": 230022,
+    "loc": "72860.63, 38632.9727",
+    "region": "dark_gatekeeper_1",
+	"name": "The Gatewoman Quest Desecration",
+	"description": "Finish the questline of The Gatewoman"
+  }
+}

@@ -1,206 +1,688 @@
 {
-	"bestiary_chest": { "name": "Chest", "id": 50000 },
-	"bestiary_soldier": { "name": "Drowned Soldier", "id": 50001 },
-	"bestiary_raider": { "name": "Drowned Raider", "id": 50002 },
-	"bestiary_hero": { "name": "Hero", "id": 50003 },
-	"bestiary_bull": { "name": "Kraekan Cyclops", "id": 50004 },
-	"bestiary_archer": { "name": "Drowned Archer", "id": 50005 },
-	"bestiary_dread": { "name": "The Sodden Knight", "id": 50006 },
-	"bestiary_priest": { "name": "Priest of Devara", "id": 50007 },
-	"bestiary_priest_cleric": { "name": "Priestess of Devara", "id": 50008 },
-	"bestiary_smith": { "name": "Blacksmith", "id": 50009 },
-	"bestiary_merchant": { "name": "Merchant", "id": 50010 },
-	"bestiary_mage": { "name": "Mage", "id": 50011 },
-	"bestiary_rags": { "name": "Drowned Peasant", "id": 50012 },
-	"bestiary_drowned": { "name": "Drowned Berzerker", "id": 50013 },
-	"bestiary_dog": { "name": "Feral Beast", "id": 50014 },
-	"bestiary_switch": { "name": "Mechanical Lever", "id": 50015 },
-	"bestiary_knight": { "name": "Bronze Knight", "id": 50016 },
-	"bestiary_wraith": { "name": "Blade Wraith", "id": 50017 },
-	"bestiary_blob": { "name": "Poison Cytoplasm", "id": 50018 },
-	"bestiary_cutqueen": { "name": "The Queen Of Smiles", "id": 50019 },
-	"bestiary_ogre": { "name": "Bloated Monstrosity", "id": 50020 },
-	"bestiary_masterless": { "name": "Ronin Jaenke", "id": 50021 },
-	"bestiary_nomad": { "name": "Nomadic Vendor", "id": 50022 },
-	"bestiary_peasant": { "name": "Tired Peasant", "id": 50023 },
-	"bestiary_bandit": { "name": "Drowned Bandit", "id": 50024 },
-	"bestiary_sorceror": { "name": "Court Sorcerer", "id": 50025 },
-	"bestiary_bat": { "name": "Skullbat", "id": 50026 },
-	"bestiary_golem": { "name": "Armor Guardian", "id": 50027 },
-	"bestiary_tripwire": { "name": "Tripwire", "id": 50028 },
-	"bestiary_xbow": { "name": "Crossbow Trap", "id": 50029 },
-	"bestiary_ropetrap": { "name": "Rope Trap", "id": 50030 },
-	"bestiary_raketrap": { "name": "Rake Trap", "id": 50031 },
-	"bestiary_leviathan": { "name": "The Unspeakable Deep", "id": 50032 },
-	"bestiary_dragon": { "name": "Kraekan Wyrm", "id": 50033 },
-	"bestiary_fiend": { "name": "Retchfeeder", "id": 50034 },
-	"bestiary_deadprop": { "name": "Deadprop", "id": 50035 },
-	"bestiary_smith_iron": { "name": "Mountainsmith", "id": 50036 },
-	"bestiary_crusher": { "name": "Crusher", "id": 50037 },
-	"bestiary_hawk": { "name": "Vilehawk", "id": 50038 },
-	"bestiary_gaoler": { "name": "Gaoler", "id": 50039 },
-	"bestiary_phantasm": { "name": "Clay Phantom", "id": 50040 },
-	"bestiary_captain": { "name": "The Fated Captain", "id": 50041 },
-	"bestiary_torturer": { "name": "Torturer", "id": 50042 },
-	"bestiary_imp": { "name": "Spear Imp", "id": 50043 },
-	"bestiary_alchemist": { "name": "The Mad Alchemist", "id": 50044 },
-	"bestiary_torturetree": { "name": "The Tree of Men", "id": 50045 },
-	"bestiary_tortured": { "name": "Chained Man", "id": 50046 },
-	"bestiary_flamejet": { "name": "Flame Jet", "id": 50047 },
-	"bestiary_hookman": { "name": "Caged Man", "id": 50048 },
-	"bestiary_skeleton": { "name": "Angsty Bones", "id": 50049 },
-	"bestiary_skeleton_tribe": { "name": "Primitive Bones", "id": 50050 },
-	"bestiary_poisonrocktrap": { "name": "Blighted Trap", "id": 50051 },
-	"bestiary_crab": { "name": "Armor Mite", "id": 50052 },
-	"bestiary_pirate": { "name": "Disemboweled Husk", "id": 50053 },
-	"bestiary_wisewoman": { "name": "The Lady by the Shore", "id": 50054 },
-	"bestiary_mage_fire": { "name": "Mage", "id": 50055 },
-	"bestiary_merchant_cleric": { "name": "Merchant", "id": 50056 },
-	"bestiary_smith_cleric": { "name": "Blacksmith", "id": 50057 },
-	"bestiary_merchant_iron": { "name": "Merchant", "id": 50058 },
-	"bestiary_priest_iron": { "name": "Priest of Devara", "id": 50059 },
-	"bestiary_mage_iron": { "name": "Mage", "id": 50060 },
-	"bestiary_mage_cleric": { "name": "Mage", "id": 50061 },
-	"bestiary_obelisk": { "name": "Obelisk", "id": 50062 },
-	"bestiary_zombie": { "name": "Rotten Walker", "id": 50063 },
-	"bestiary_zombow": { "name": "Rotten Crossbowman", "id": 50064 },
-	"bestiary_jester": { "name": "Mad Jester", "id": 50065 },
-	"bestiary_broken": { "name": "Ronin Cran", "id": 50066 },
-	"bestiary_despondent": { "name": "The Despondent Thief", "id": 50067 },
-	"bestiary_sack": { "name": "Simple Sack", "id": 50068 },
-	"bestiary_skull": { "name": "Emberskull", "id": 50069 },
-	"bestiary_witch": { "name": "Pale Witch", "id": 50070 },
-	"bestiary_gasbag": { "name": "That Stench Most Foul", "id": 50071 },
-	"bestiary_smith_woods": { "name": "Blacksmith", "id": 50072 },
-	"bestiary_cleric_woods": { "name": "Cleric", "id": 50073 },
-	"bestiary_mage_woods": { "name": "Mage", "id": 50074 },
-	"bestiary_merchant_woods": { "name": "Merchant", "id": 50075 },
-	"bestiary_gasface": { "name": "Stenchpod", "id": 50076 },
-	"bestiary_bandages": { "name": "Lepris", "id": 50077 },
-	"bestiary_lakewitch": { "name": "The Witch of the Lake", "id": 50078 },
-	"bestiary_oldman": { "name": "Rodnal the Mad", "id": 50079 },
-	"bestiary_spider": { "name": "Bedspider", "id": 50080 },
-	"bestiary_marauder": { "name": "Marauder", "id": 50081 },
-	"bestiary_sailor": { "name": "Sailor", "id": 50082 },
-	"bestiary_skeleton_archer": { "name": "Hunting Bones", "id": 50083 },
-	"bestiary_torturer_bow": { "name": "Vile Guard", "id": 50084 },
-	"bestiary_spider_blue": { "name": "Dropspider", "id": 50085 },
-	"bestiary_blue_blob": { "name": "Frozen Cytoplasm", "id": 50086 },
-	"bestiary_hippogriff": { "name": "The Third Lamb", "id": 50087 },
-	"bestiary_ghost": { "name": "Whisperman", "id": 50088 },
-	"bestiary_knight_axe": { "name": "Bronze Axe Knight", "id": 50089 },
-	"bestiary_piranha": { "name": "Saltfin Creature", "id": 50090 },
-	"bestiary_unicorn": { "name": "Unihorn", "id": 50091 },
-	"bestiary_littlecorn": { "name": "Spindlebeast", "id": 50092 },
-	"bestiary_poisonspin": { "name": "Blighted Mechanism", "id": 50093 },
-	"bestiary_lich": { "name": "Lietch", "id": 50094 },
-	"bestiary_clay": { "name": "The Bloodless Prince", "id": 50095 },
-	"bestiary_oldgreg": { "name": "Alde Griggs", "id": 50096 },
-	"bestiary_memories": { "name": "Minty Jern", "id": 50097 },
-	"bestiary_fauxjester": { "name": "The False Jester", "id": 50098 },
-	"bestiary_zenfern": { "name": "Ferngilligan", "id": 50099 },
-	"bestiary_stonetrip": { "name": "Tripwire", "id": 50100 },
-	"bestiary_littrap": { "name": "Shock Trap", "id": 50101 },
-	"bestiary_mummy": { "name": "The Dried King", "id": 50102 },
-	"bestiary_troll": { "name": "Bound Arrox", "id": 50103 },
-	"bestiary_bluetroll": { "name": "Vexing Brat", "id": 50104 },
-	"bestiary_bluewraith": { "name": "Vacant Blades", "id": 50105 },
-	"bestiary_betus": { "name": "Fetal Brat", "id": 50106 },
-	"bestiary_choppy": { "name": "Choppy Balk", "id": 50107 },
-	"bestiary_chemist": { "name": "Alchemist", "id": 50108 },
-	"bestiary_guide": { "name": "Guide", "id": 50109 },
-	"bestiary_leader": { "name": "Leader", "id": 50110 },
-	"bestiary_chemist_cleric": { "name": "Alchemist", "id": 50111 },
-	"bestiary_chemist_iron": { "name": "Alchemist", "id": 50112 },
-	"bestiary_chemist_woods": { "name": "Alchemist", "id": 50113 },
-	"bestiary_chemist_fire": { "name": "Alchemist", "id": 50114 },
-	"bestiary_guide_cleric": { "name": "Guide", "id": 50115 },
-	"bestiary_guide_iron": { "name": "Guide", "id": 50116 },
-	"bestiary_guide_woods": { "name": "Guide", "id": 50117 },
-	"bestiary_guide_fire": { "name": "Guide", "id": 50118 },
-	"bestiary_leader_cleric": { "name": "Leader", "id": 50119 },
-	"bestiary_leader_iron": { "name": "Leader", "id": 50120 },
-	"bestiary_leader_woods": { "name": "Leader", "id": 50121 },
-	"bestiary_leader_fire": { "name": "Leader", "id": 50122 },
-	"bestiary_smith_fire": { "name": "Blacksmith", "id": 50123 },
-	"bestiary_inquisitor": { "name": "The Untouched Inquisitor", "id": 50124 },
-	"bestiary_sellsword": { "name": "Sellsword", "id": 50125 },
-	"bestiary_shellshop": { "name": "Shellshop", "id": 50126 },
-	"bestiary_split": { "name": "Split Swordsman", "id": 50127 },
-	"bestiary_guardian": { "name": "Guardian of the Three", "id": 50128 },
-	"bestiary_gold_archer": { "name": "Hornet Steel", "id": 50129 },
-	"bestiary_guardmage": { "name": "Guardian Mage", "id": 50130 },
-	"bestiary_guardian_cleric": { "name": "Guardian of Devara", "id": 50131 },
-	"bestiary_guardmage_cleric": { "name": "Mage of Devara", "id": 50132 },
-	"bestiary_guardian_rotten": { "name": "Red Lord", "id": 50133 },
-	"bestiary_hangman": { "name": "Hanged Man", "id": 50134 },
-	"bestiary_catmerch": { "name": "Fine Tabworth", "id": 50135 },
-	"bestiary_scarecrow": { "name": "The Voice of the Nameless", "id": 50136 },
-	"bestiary_eyeball": { "name": "Heartseeker", "id": 50137 },
-	"bestiary_horseman": { "name": "Dread Horseman (Mounted)", "id": 50138 },
-	"bestiary_horseknight": { "name": "Dread Horseman", "id": 50139 },
-	"bestiary_eyescorpion": { "name": "Bola Eye", "id": 50140 },
-	"bestiary_squidface": { "name": "Clay Hybrid", "id": 50141 },
-	"bestiary_guardian_gen": { "name": "Sanctuary Guard", "id": 50142 },
-	"bestiary_monster": { "name": "The Unskinned", "id": 50143 },
-	"bestiary_monsterwitch": { "name": "The Architect", "id": 50144 },
-	"bestiary_angler": { "name": "Cave Keeper", "id": 50145 },
-	"bestiary_shipcaptain": { "name": "Captain", "id": 50146 },
-	"bestiary_boatman": { "name": "The Ferryman", "id": 50147 },
-	"bestiary_rightboatman": { "name": "The Ferryman", "id": 50148 },
-	"bestiary_domefriend": { "name": "The Domekeeper", "id": 50149 },
-	"bestiary_swampfriend": { "name": "The Mirekeeper", "id": 50150 },
-	"bestiary_saltbat": { "name": "Saltbat", "id": 50151 },
-	"bestiary_saltknight": { "name": "Alkymancery Knight", "id": 50152 },
-	"bestiary_bouldertrap": { "name": "Boulder Trap", "id": 50153 },
-	"bestiary_arms": { "name": "Thing of Arms", "id": 50154 },
-	"bestiary_crow": { "name": "Crow", "id": 50155 },
-	"bestiary_treelady": { "name": "The Candlelit Lady", "id": 50156 },
-	"bestiary_ruinaxe": { "name": "The Coveted", "id": 50157 },
-	"bestiary_ruinghost": { "name": "The Coveting", "id": 50158 },
-	"bestiary_ruinknight": { "name": "The Coveted", "id": 50159 },
-	"bestiary_greenspider": { "name": "Flying Spider", "id": 50160 },
-	"bestiary_cult": { "name": "Saltless", "id": 50161 },
-	"bestiary_stonesoul": { "name": "Gravewalker", "id": 50162 },
-	"bestiary_cryptkeeper": { "name": "Crypt Keeper", "id": 50163 },
-	"bestiary_priest_dark": { "name": "Priestess of Azmodak", "id": 50164 },
-	"bestiary_smith_dark": { "name": "Darksmith", "id": 50165 },
-	"bestiary_mage_dark": { "name": "Mage", "id": 50166 },
-	"bestiary_leader_dark": { "name": "Leader", "id": 50167 },
-	"bestiary_merchant_dark": { "name": "Merchant", "id": 50168 },
-	"bestiary_guide_dark": { "name": "Guide", "id": 50169 },
-	"bestiary_chemist_dark": { "name": "Alchemist", "id": 50170 },
-	"bestiary_ghostwitch": { "name": "Whisperlady", "id": 50171 },
-	"bestiary_squiddragon": { "name": "Kraekan Dragon Skourzh", "id": 50172 },
-	"bestiary_doll": { "name": "Drowned Porcelain", "id": 50173 },
-	"bestiary_nameless": { "name": "The Nameless God", "id": 50174 },
-	"bestiary_nightmare": { "name": "Wrathful Dead", "id": 50175 },
-	"bestiary_salad": { "name": "The Green", "id": 50176 },
-	"bestiary_priest_woods": { "name": "Cleric", "id": 50177 },
-	"bestiary_horsehead": { "name": "Impaled Knight", "id": 50178 },
-	"bestiary_headhorse": { "name": "Headhorse", "id": 50179 },
-	"bestiary_cloak": { "name": "Carsejaw the Cruel", "id": 50180 },
-	"bestiary_priest_splendor": { "name": "Priestess", "id": 50181 },
-	"bestiary_smith_splendor": { "name": "Blacksmith", "id": 50182 },
-	"bestiary_mage_splendor": { "name": "Mage", "id": 50183 },
-	"bestiary_leader_splendor": { "name": "Leader", "id": 50184 },
-	"bestiary_merchant_splendor": { "name": "Merchant", "id": 50185 },
-	"bestiary_guide_splendor": { "name": "Guide", "id": 50186 },
-	"bestiary_chemist_splendor": { "name": "Alchemist", "id": 50187 },
-	"bestiary_dark_gatekeeper": { "name": "The Gatewoman", "id": 50188 },
-	"bestiary_butterfly": { "name": "Murdiella Mal", "id": 50189 },
-	"bestiary_deadlord": { "name": "Dead Lord", "id": 50190 },
-	"bestiary_deadknight": { "name": "The Forgotten Knight", "id": 50191 },
-	"bestiary_deadking": { "name": "The Forgotten King", "id": 50192 },
-	"bestiary_deadjudge": { "name": "The Forgotten Judge", "id": 50193 },
-	"bestiary_maraudzom": { "name": "Drowned Marauder", "id": 50194 },
-	"bestiary_princess": { "name": "The Princess", "id": 50195 },
-	"bestiary_princess_maid": { "name": "Princess' Maid", "id": 50196 },
-	"bestiary_zomblack": { "name": "Rotten Raider", "id": 50197 },
-	"bestiary_knight_white": { "name": "White Knight", "id": 50198 },
-	"bestiary_birdy": { "name": "Mother Merle", "id": 50199 },
-	"bestiary_priest_fire": { "name": "Cleric of Fire", "id": 50200 },
-	"bestiary_merchant_fire": { "name": "Merchant", "id": 50201 },
-	"bestiary_squidmimic": { "name": "Mimku", "id": 50202 },
-	"bestiary_summoner": { "name": "Summoner", "id": 50203 }
+  "bestiary_soldier": {
+    "id": 110001,
+    "loc": "4413.397, 16093.5664",
+    "region": "village_of_smiles",
+    "name": "Drowned Soldier Bestiary",
+    "description": "Drowned Soldier bestiary entry"
+  },
+  "bestiary_raider": {
+    "id": 110002,
+    "loc": "29061.9785, 10691.4531",
+    "region": "bandits_pass",
+    "name": "Drowned Raider Bestiary",
+    "description": "Drowned Raider bestiary entry"
+  },
+  "bestiary_bull": {
+    "id": 110004,
+    "loc": "26734.77, 23051.8086",
+    "region": "bull",
+    "name": "Kraekan Cyclops Bestiary",
+    "description": "Kraekan Cyclops bestiary entry"
+  },
+  "bestiary_archer": {
+    "id": 110005,
+    "loc": "2607.3208, 16071.5332",
+    "region": "village_of_smiles",
+    "name": "Drowned Archer Bestiary",
+    "description": "Drowned Archer bestiary entry"
+  },
+  "bestiary_dread": {
+    "id": 110006,
+    "loc": "17041.3457, 8626.176",
+    "region": "dread",
+    "name": "The Sodden Knight Bestiary",
+    "description": "The Sodden Knight bestiary entry"
+  },
+  "bestiary_rags": {
+    "id": 110012,
+    "loc": "8392.29, 16873.5234",
+    "region": "village_of_smiles",
+    "name": "Drowned Peasant Bestiary",
+    "description": "Drowned Peasant bestiary entry"
+  },
+  "bestiary_drowned": {
+    "id": 110013,
+    "loc": "15934.03, 10443.6846",
+    "region": "the_festering_banquet",
+    "name": "Drowned Berzerker Bestiary",
+    "description": "Drowned Berzerker bestiary entry"
+  },
+  "bestiary_dog": {
+    "id": 110014,
+    "loc": "16066.24, 11339.2129",
+    "region": "the_festering_banquet",
+    "name": "Feral Beast Bestiary",
+    "description": "Feral Beast bestiary entry"
+  },
+  "bestiary_knight": {
+    "id": 110016,
+    "loc": "10427.4355, 17834.6563",
+    "region": "village_of_smiles",
+    "name": "Bronze Knight Bestiary",
+    "description": "Bronze Knight bestiary entry"
+  },
+  "bestiary_wraith": {
+    "id": 110017,
+    "loc": "15133.9688, 13676.77",
+    "region": "the_festering_banquet_cave",
+    "name": "Blade Wraith Bestiary",
+    "description": "Blade Wraith bestiary entry"
+  },
+  "bestiary_blob": {
+    "id": 110018,
+    "loc": "15950.2012, 21096.3613",
+    "region": "the_watching_woods",
+    "name": "Poison Cytoplasm Bestiary",
+    "description": "Poison Cytoplasm bestiary entry"
+  },
+  "bestiary_cutqueen": {
+    "id": 110019,
+    "loc": "2459.48022, 17944.5664",
+    "region": "cutqueen",
+    "name": "The Queen Of Smiles Bestiary",
+    "description": "The Queen Of Smiles bestiary entry"
+  },
+  "bestiary_ogre": {
+    "id": 110020,
+    "loc": "13445.3008, 21507.9941",
+    "region": "the_watching_woods",
+    "name": "Bloated Monstrosity Bestiary",
+    "description": "Bloated Monstrosity bestiary entry"
+  },
+  "bestiary_bandit": {
+    "id": 110024,
+    "loc": "28208.666, 10712",
+    "region": "bandits_pass",
+    "name": "Drowned Bandit Bestiary",
+    "description": "Drowned Bandit bestiary entry"
+  },
+  "bestiary_sorceror": {
+    "id": 110025,
+    "loc": "34976.1563, 7384.025",
+    "region": "castle_of_storms",
+    "name": "Court Sorcerer Bestiary",
+    "description": "Court Sorcerer bestiary entry"
+  },
+  "bestiary_bat": {
+    "id": 110026,
+    "loc": "18227.5469, 12823.82",
+    "region": "the_festering_banquet_cave",
+    "name": "Skullbat Bestiary",
+    "description": "Skullbat bestiary entry"
+  },
+  "bestiary_golem": {
+    "id": 110027,
+    "loc": "33797.7539, 7360.17334",
+    "region": "castle_of_storms",
+    "name": "Armor Guardian Bestiary",
+    "description": "Armor Guardian bestiary entry"
+  },
+  "bestiary_leviathan": {
+    "id": 110032,
+    "loc": "5133.833, 4273.77",
+    "region": "leviathon",
+    "name": "The Unspeakable Deep Bestiary",
+    "description": "The Unspeakable Deep bestiary entry"
+  },
+  "bestiary_dragon": {
+    "id": 110033,
+    "loc": "38186.09, 1243.47021",
+    "region": "dragon",
+    "name": "Kraekan Wyrm Bestiary",
+    "description": "Kraekan Wyrm bestiary entry"
+  },
+  "bestiary_fiend": {
+    "id": 110034,
+    "loc": "27417.2285, 20776.9219",
+    "region": "sunken_keep",
+    "name": "Retchfeeder Bestiary",
+    "description": "Retchfeeder bestiary entry"
+  },
+  "bestiary_hawk": {
+    "id": 110038,
+    "loc": "29822.0664, 18206.8086",
+    "region": "sunken_keep",
+    "name": "Vilehawk Bestiary",
+    "description": "Vilehawk bestiary entry"
+  },
+  "bestiary_gaoler": {
+    "id": 110039,
+    "loc": "39984.65, 18641.3984",
+    "region": "red_hall_of_cages",
+    "name": "Gaoler Bestiary",
+    "description": "Gaoler bestiary entry"
+  },
+  "bestiary_phantasm": {
+    "id": 110040,
+    "loc": "38744.25, 17397.12",
+    "region": "red_hall_of_cages",
+    "name": "Clay Phantom Bestiary",
+    "description": "Clay Phantom bestiary entry"
+  },
+  "bestiary_torturer": {
+    "id": 110042,
+    "loc": "39882.1836, 18641.6953",
+    "region": "red_hall_of_cages",
+    "name": "Torturer Bestiary",
+    "description": "Torturer bestiary entry"
+  },
+  "bestiary_imp": {
+    "id": 110043,
+    "loc": "10698.5869, 22896.59",
+    "region": "village_cave_vertigo",
+    "name": "Spear Imp Bestiary",
+    "description": "Spear Imp bestiary entry"
+  },
+  "bestiary_alchemist": {
+    "id": 110044,
+    "loc": "21009.7324, 18165.9219",
+    "region": "alchemist",
+    "name": "The Mad Alchemist Bestiary",
+    "description": "The Mad Alchemist bestiary entry"
+  },
+  "bestiary_torturetree": {
+    "id": 110045,
+    "loc": "41469.28, 28467.8457",
+    "region": "torturetree",
+    "name": "The Tree of Men Bestiary",
+    "description": "The Tree of Men bestiary entry"
+  },
+  "bestiary_tortured": {
+    "id": 110046,
+    "loc": "41469.28, 28467.8457",
+    "region": "torturetree",
+    "name": "Chained Man Bestiary",
+    "description": "Chained Man bestiary entry"
+  },
+  "bestiary_hookman": {
+    "id": 110048,
+    "loc": "37551.707, 8726.67",
+    "region": "castle_of_storms",
+    "name": "Caged Man Bestiary",
+    "description": "Caged Man bestiary entry"
+  },
+  "bestiary_skeleton": {
+    "id": 110049,
+    "loc": "36945.5977, 28823.9746",
+    "region": "hagers_cavern",
+    "name": "Angsty Bones Bestiary",
+    "description": "Angsty Bones bestiary entry"
+  },
+  "bestiary_skeleton_tribe": {
+    "id": 110050,
+    "loc": "32197.04, 27248.9824",
+    "region": "cave_mire_lower",
+    "name": "Primitive Bones Bestiary",
+    "description": "Primitive Bones bestiary entry"
+  },
+  "bestiary_crab": {
+    "id": 110052,
+    "loc": "31456.627, 32401.2227",
+    "region": "hagers_cavern",
+    "name": "Armor Mite Bestiary",
+    "description": "Armor Mite bestiary entry"
+  },
+  "bestiary_pirate": {
+    "id": 110053,
+    "loc": "28432.98, 29483.332",
+    "region": "pirate",
+    "name": "Disemboweled Husk Bestiary",
+    "description": "Disemboweled Husk bestiary entry"
+  },
+  "bestiary_zombie": {
+    "id": 110063,
+    "loc": "5560.15967, 13921.4883",
+    "region": "shivering_shore_west",
+    "name": "Rotten Walker Bestiary",
+    "description": "Rotten Walker bestiary entry"
+  },
+  "bestiary_zombow": {
+    "id": 110064,
+    "loc": "11700.7646, 12301.2373",
+    "region": "shivering_shore_east",
+    "name": "Rotten Crossbowman Bestiary",
+    "description": "Rotten Crossbowman bestiary entry"
+  },
+  "bestiary_broken": {
+    "id": 110066,
+    "loc": "56019.2969, 23061.5332",
+    "region": "broken",
+    "name": "Ronin Cran Bestiary",
+    "description": "Ronin Cran bestiary entry"
+  },
+  "bestiary_skull": {
+    "id": 110069,
+    "loc": "37457.28, 8675.4375",
+    "region": "castle_of_storms",
+    "name": "Emberskull Bestiary",
+    "description": "Emberskull bestiary entry"
+  },
+  "bestiary_witch": {
+    "id": 110070,
+    "loc": "34320.74, 24625.6113",
+    "region": "hagers_cavern",
+    "name": "Pale Witch Bestiary",
+    "description": "Pale Witch bestiary entry"
+  },
+  "bestiary_gasbag": {
+    "id": 110071,
+    "loc": "20563.0547, 24250.6875",
+    "region": "gasbag",
+    "name": "That Stench Most Foul Bestiary",
+    "description": "That Stench Most Foul bestiary entry"
+  },
+  "bestiary_gasface": {
+    "id": 110076,
+    "loc": "20563.0547, 24250.6875",
+    "region": "gasbag",
+    "name": "Stenchpod Bestiary",
+    "description": "Stenchpod bestiary entry"
+  },
+  "bestiary_bandages": {
+    "id": 110077,
+    "loc": "20077.793, 27305.2129",
+    "region": "mire_of_stench_lower",
+    "name": "Lepris Bestiary",
+    "description": "Lepris bestiary entry"
+  },
+  "bestiary_lakewitch": {
+    "id": 110078,
+    "loc": "55811.5625, 30732.5664",
+    "region": "lakewitch",
+    "name": "The Witch of the Lake Bestiary",
+    "description": "The Witch of the Lake bestiary entry"
+  },
+  "bestiary_spider": {
+    "id": 110080,
+    "loc": "64491.8, 21266.53",
+    "region": "ruinblockfloor1",
+    "name": "Bedspider Bestiary",
+    "description": "Bedspider bestiary entry"
+  },
+  "bestiary_marauder": {
+    "id": 110081,
+    "loc": "5133.833, 4273.77",
+    "region": "ship",
+    "name": "Marauder Bestiary",
+    "description": "Marauder bestiary entry"
+  },
+  "bestiary_skeleton_archer": {
+    "id": 110083,
+    "loc": "32743.2617, 30683.3789",
+    "region": "hagers_cavern",
+    "name": "Hunting Bones Bestiary",
+    "description": "Hunting Bones bestiary entry"
+  },
+  "bestiary_torturer_bow": {
+    "id": 110084,
+    "loc": "41552.207, 18645.7754",
+    "region": "red_hall_of_cages",
+    "name": "Vile Guard Bestiary",
+    "description": "Vile Guard bestiary entry"
+  },
+  "bestiary_spider_blue": {
+    "id": 110085,
+    "loc": "37935.51, 32012.4961",
+    "region": "hagers_cellar_key_cave",
+    "name": "Dropspider Bestiary",
+    "description": "Dropspider bestiary entry"
+  },
+  "bestiary_hippogriff": {
+    "id": 110087,
+    "loc": "60154.5625, 9221.357",
+    "region": "griffin",
+    "name": "The Third Lamb Bestiary",
+    "description": "The Third Lamb bestiary entry"
+  },
+  "bestiary_ghost": {
+    "id": 110088,
+    "loc": "56917.7969, 11775.6123",
+    "region": "dome_west_lower",
+    "name": "Whisperman Bestiary",
+    "description": "Whisperman bestiary entry"
+  },
+  "bestiary_knight_axe": {
+    "id": 110089,
+    "loc": "63458.41, 13332.1553",
+    "region": "dome_east",
+    "name": "Bronze Axe Knight Bestiary",
+    "description": "Bronze Axe Knight bestiary entry"
+  },
+  "bestiary_piranha": {
+    "id": 110090,
+    "loc": "56619.2227, 34677.668",
+    "region": "lake_to_lab",
+    "name": "Saltfin Creature Bestiary",
+    "description": "Saltfin Creature bestiary entry"
+  },
+  "bestiary_littlecorn": {
+    "id": 110092,
+    "loc": "68882.98, 29128.0156",
+    "region": "pitchwoods_lower_west",
+    "name": "Spindlebeast Bestiary",
+    "description": "Spindlebeast bestiary entry"
+  },
+  "bestiary_lich": {
+    "id": 110094,
+    "loc": "79024.4, 12084.6318",
+    "region": "zigguratcorridor",
+    "name": "Lietch Bestiary",
+    "description": "Lietch bestiary entry"
+  },
+  "bestiary_clay": {
+    "id": 110095,
+    "loc": "79093.98, 17606.04",
+    "region": "clay",
+    "name": "The Bloodless Prince Bestiary",
+    "description": "The Bloodless Prince bestiary entry"
+  },
+  "bestiary_fauxjester": {
+    "id": 110098,
+    "loc": "26812.873, 17064.8516",
+    "region": "fauxjester",
+    "name": "The False Jester Bestiary",
+    "description": "The False Jester bestiary entry"
+  },
+  "bestiary_mummy": {
+    "id": 110102,
+    "loc": "79848.26, 9045.742",
+    "region": "mummy",
+    "name": "The Dried King Bestiary",
+    "description": "The Dried King bestiary entry"
+  },
+  "bestiary_troll": {
+    "id": 110103,
+    "loc": "79649.41, 11542.3809",
+    "region": "ziggurat_upper1",
+    "name": "Bound Arrox Bestiary",
+    "description": "Bound Arrox bestiary entry"
+  },
+  "bestiary_bluetroll": {
+    "id": 110104,
+    "loc": "7763.75049, 22148.0957",
+    "region": "village_cave_vertigo",
+    "name": "Vexing Brat Bestiary",
+    "description": "Vexing Brat bestiary entry"
+  },
+  "bestiary_bluewraith": {
+    "id": 110105,
+    "loc": "30538.2012, 31609.4238",
+    "region": "hagers_cavern",
+    "name": "Vacant Blades Bestiary",
+    "description": "Vacant Blades bestiary entry"
+  },
+  "bestiary_betus": {
+    "id": 110106,
+    "loc": "0, 0",
+    "region": "village_of_smiles",
+    "name": "Fetal Brat Bestiary",
+    "description": "Fetal Brat bestiary entry"
+  },
+  "bestiary_inquisitor": {
+    "id": 110124,
+    "loc": "60699.5977, 13237.1963",
+    "region": "inquisitor",
+    "name": "The Untouched Inquisitor Bestiary",
+    "description": "The Untouched Inquisitor bestiary entry"
+  },
+  "bestiary_split": {
+    "id": 110127,
+    "loc": "38181.0469, 30697.83",
+    "region": "hagers_cavern",
+    "name": "Split Swordsman Bestiary",
+    "description": "Split Swordsman bestiary entry"
+  },
+  "bestiary_gold_archer": {
+    "id": 110129,
+    "loc": "60716.01, 9820.933",
+    "region": "dome_upper",
+    "name": "Hornet Steel Bestiary",
+    "description": "Hornet Steel bestiary entry"
+  },
+  "bestiary_guardian_rotten": {
+    "id": 110133,
+    "loc": "38498.9, 18647.6563",
+    "region": "red_hall_of_cages",
+    "name": "Red Lord Bestiary",
+    "description": "Red Lord bestiary entry"
+  },
+  "bestiary_hangman": {
+    "id": 110134,
+    "loc": "46702.6, 22758.4043",
+    "region": "red_hall_of_cages_hanged",
+    "name": "Hanged Man Bestiary",
+    "description": "Hanged Man bestiary entry"
+  },
+  "bestiary_eyeball": {
+    "id": 110137,
+    "loc": "34242.88, 22347.6211",
+    "region": "sunken_keep",
+    "name": "Heartseeker Bestiary",
+    "description": "Heartseeker bestiary entry"
+  },
+  "bestiary_horseknight": {
+    "id": 110139,
+    "loc": "70300.95, 13103.1133",
+    "region": "the_far_beach_west",
+    "name": "Dread Horseman Bestiary",
+    "description": "Dread Horseman bestiary entry"
+  },
+  "bestiary_eyescorpion": {
+    "id": 110140,
+    "loc": "49182.97, 30981.502",
+    "region": "salt_alkymancery_middle",
+    "name": "Bola Eye Bestiary",
+    "description": "Bola Eye bestiary entry"
+  },
+  "bestiary_squidface": {
+    "id": 110141,
+    "loc": "76443.21, 14954.59",
+    "region": "ziggurat_amberflame",
+    "name": "Clay Hybrid Bestiary",
+    "description": "Clay Hybrid bestiary entry"
+  },
+  "bestiary_guardian_gen": {
+    "id": 110142,
+    "loc": "0, 0",
+    "region": "sanctuary_desecration",
+    "name": "Sanctuary Guard Bestiary",
+    "description": "Sanctuary Guard bestiary entry"
+  },
+  "bestiary_monster": {
+    "id": 110143,
+    "loc": "48561.28, 35031.3633",
+    "region": "monster",
+    "name": "The Unskinned Bestiary",
+    "description": "The Unskinned bestiary entry"
+  },
+  "bestiary_monsterwitch": {
+    "id": 110144,
+    "loc": "48368.16, 34674.63",
+    "region": "monsterwitch",
+    "name": "The Architect Bestiary",
+    "description": "The Architect bestiary entry"
+  },
+  "bestiary_angler": {
+    "id": 110145,
+    "loc": "67034.64, 15783.29",
+    "region": "the_far_beach_east",
+    "name": "Cave Keeper Bestiary",
+    "description": "Cave Keeper bestiary entry"
+  },
+  "bestiary_saltbat": {
+    "id": 110151,
+    "loc": "0, 0",
+    "region": "shivering_shore_west",
+    "name": "Saltbat Bestiary",
+    "description": "Saltbat bestiary entry"
+  },
+  "bestiary_saltknight": {
+    "id": 110152,
+    "loc": "51306.1953, 28527.3086",
+    "region": "salt_alkymancery_upper",
+    "name": "Alkymancery Knight Bestiary",
+    "description": "Alkymancery Knight bestiary entry"
+  },
+  "bestiary_arms": {
+    "id": 110154,
+    "loc": "61839.6, 20375.3887",
+    "region": "ruinstwinleft1",
+    "name": "Thing of Arms Bestiary",
+    "description": "Thing of Arms bestiary entry"
+  },
+  "bestiary_ruinghost": {
+    "id": 110158,
+    "loc": "62340.03, 25371.5879",
+    "region": "ruinaxeghost1",
+    "name": "The Coveting Bestiary",
+    "description": "The Coveting bestiary entry"
+  },
+  "bestiary_ruinknight": {
+    "id": 110159,
+    "loc": "62340.03, 25371.5879",
+    "region": "ruinaxeghost1",
+    "name": "The Coveted Bestiary",
+    "description": "The Coveted bestiary entry"
+  },
+  "bestiary_greenspider": {
+    "id": 110160,
+    "loc": "25522.1719, 25687.5039",
+    "region": "mire_of_stench_upper",
+    "name": "Flying Spider Bestiary",
+    "description": "Flying Spider bestiary entry"
+  },
+  "bestiary_cult": {
+    "id": 110161,
+    "loc": "44934.59, 31912.2754",
+    "region": "salt_alkymancery_west_lower",
+    "name": "Saltless Bestiary",
+    "description": "Saltless bestiary entry"
+  },
+  "bestiary_stonesoul": {
+    "id": 110162,
+    "loc": "42604.3672, 34538.02",
+    "region": "crypt_upper",
+    "name": "Gravewalker Bestiary",
+    "description": "Gravewalker bestiary entry"
+  },
+  "bestiary_cryptkeeper": {
+    "id": 110163,
+    "loc": "36828.1172, 35495.6875",
+    "region": "amberblaze_35703",
+    "name": "Crypt Keeper Bestiary",
+    "description": "Crypt Keeper bestiary entry"
+  },
+  "bestiary_ghostwitch": {
+    "id": 110171,
+    "loc": "60285.59, 12162.8115",
+    "region": "dome_middle",
+    "name": "Whisperlady Bestiary",
+    "description": "Whisperlady bestiary entry"
+  },
+  "bestiary_squiddragon": {
+    "id": 110172,
+    "loc": "46111.42, 37679.4023",
+    "region": "squiddragon",
+    "name": "Kraekan Dragon Skourzh Bestiary",
+    "description": "Kraekan Dragon Skourzh bestiary entry"
+  },
+  "bestiary_doll": {
+    "id": 110173,
+    "loc": "57091.09, 18324.1016",
+    "region": "the_ruined_temple_flames",
+    "name": "Drowned Porcelain Bestiary",
+    "description": "Drowned Porcelain bestiary entry"
+  },
+  "bestiary_nameless": {
+    "id": 110174,
+    "loc": "62566.0938, 46780.81",
+    "region": "nameless",
+    "name": "The Nameless God Bestiary",
+    "description": "The Nameless God bestiary entry"
+  },
+  "bestiary_nightmare": {
+    "id": 110175,
+    "loc": "35675.39, 29460.5156",
+    "region": "hagers_cavern",
+    "name": "Wrathful Dead Bestiary",
+    "description": "Wrathful Dead bestiary entry"
+  },
+  "bestiary_horsehead": {
+    "id": 110178,
+    "loc": "82117.65, 29736.4941",
+    "region": "pitchwoods_lower_middle",
+    "name": "Impaled Knight Bestiary",
+    "description": "Impaled Knight bestiary entry"
+  },
+  "bestiary_cloak": {
+    "id": 110180,
+    "loc": "94554.58, 30010.3848",
+    "region": "cloak",
+    "name": "Carsejaw the Cruel Bestiary",
+    "description": "Carsejaw the Cruel bestiary entry"
+  },
+  "bestiary_butterfly": {
+    "id": 110189,
+    "loc": "49243.0156, 1219.70471",
+    "region": "murderfly",
+    "name": "Murdiella Mal Bestiary",
+    "description": "Murdiella Mal bestiary entry"
+  },
+  "bestiary_deadknight": {
+    "id": 110191,
+    "loc": "32411.7168, 41861.6133",
+    "region": "deadknight",
+    "name": "The Forgotten Knight Bestiary",
+    "description": "The Forgotten Knight bestiary entry"
+  },
+  "bestiary_deadking": {
+    "id": 110192,
+    "loc": "32648.3418, 41882.8867",
+    "region": "deadking",
+    "name": "The Forgotten King Bestiary",
+    "description": "The Forgotten King bestiary entry"
+  },
+  "bestiary_deadjudge": {
+    "id": 110193,
+    "loc": "32885.19, 41845.9961",
+    "region": "deadjudge",
+    "name": "The Forgotten Judge Bestiary",
+    "description": "The Forgotten Judge bestiary entry"
+  },
+  "bestiary_maraudzom": {
+    "id": 110194,
+    "loc": "31924.4375, 30442.7266",
+    "region": "hagers_cavern",
+    "name": "Drowned Marauder Bestiary",
+    "description": "Drowned Marauder bestiary entry"
+  },
+  "bestiary_zomblack": {
+    "id": 110197,
+    "loc": "4649.235, 28922.6484",
+    "region": "fort_beyond_the_mire_lower",
+    "name": "Rotten Raider Bestiary",
+    "description": "Rotten Raider bestiary entry"
+  },
+  "bestiary_knight_white": {
+    "id": 110198,
+    "loc": "85106.69, 12109.2148",
+    "region": "the_far_beach_east",
+    "name": "White Knight Bestiary",
+    "description": "White Knight bestiary entry"
+  },
+  "bestiary_birdy": {
+    "id": 110199,
+    "loc": "50267.8945, 3000.54736",
+    "region": "mals_east",
+    "name": "Mother Merle Bestiary",
+    "description": "Mother Merle bestiary entry"
+  },
+  "bestiary_squidmimic": {
+    "id": 110202,
+    "loc": "77867.9141, 10239.4141",
+    "region": "ziggurat_upper3",
+    "name": "Mimku Bestiary",
+    "description": "Mimku bestiary entry"
+  }
 }

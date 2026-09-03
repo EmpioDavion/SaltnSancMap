@@ -3,10 +3,10 @@
     "items": [
       "rapid_fire"
     ],
-    "id": 80000,
+    "id": 140000,
     "loc": "77867.9141, 10239.4141",
     "region": "ziggurat_upper3",
-    "name": null,
+    "name": "Ziggurat of Dust Mimic 2",
     "description": "Mimic below The Dried King in upper Ziggurat of Dust"
   },
   "ruins_guide_armor_59910_pkp": {
@@ -16,20 +16,20 @@
       "guide_gloves",
       "guide_armor"
     ],
-    "id": 80003,
+    "id": 140003,
     "loc": "56243.6, 16968.4473",
     "region": "ruins_cave",
-    "name": null,
+    "name": "The Ruined Temple Mimic 1",
     "description": "Mimic in upper west The Ruined Temple"
   },
   "statue_alchemist_59047_pkp": {
     "items": [
       "statue_alchemist"
     ],
-    "id": 80009,
+    "id": 140009,
     "loc": "59047.81, 13322.2559",
     "region": "dome_west_lower",
-    "name": null,
+    "name": "Dome of the Forgotten Mimic 1",
     "description": "Mimic at the east wall on the bottom floor in lower west Dome of the Forgotten"
   },
   "48065_pkp": {
@@ -37,20 +37,20 @@
       "shield_blue",
       "statue_alchemist"
     ],
-    "id": 80012,
+    "id": 140012,
     "loc": "48065.832, 31828.8574",
     "region": "48065",
-    "name": null,
+    "name": "Salt Alkymancery Mimic 1",
     "description": "Mimic below the west Siam Lake entrance, in middle Salt Alkymancery"
   },
   "lab_statue_flame_50824_pkp": {
     "items": [
       "blue_flame"
     ],
-    "id": 80016,
+    "id": 140016,
     "loc": "50776.4375, 30318.498",
     "region": "lab_statue_flame_50824",
-    "name": null,
+    "name": "Salt Alkymancery Mimic 3",
     "description": "Mimic above the west Siam Lake entrance in east Salt Alkymancery"
   },
   "lab_saltknight_47048_pkp": {
@@ -60,20 +60,20 @@
       "saltknight_gloves",
       "saltknight_boots"
     ],
-    "id": 80019,
+    "id": 140019,
     "loc": "47048.63, 33722.9141",
     "region": "lab_saltknight_47048",
-    "name": null,
+    "name": "Salt Alkymancery Mimic 2",
     "description": "Mimic above the boss arena in lower Salt Alkymancery"
   },
   "amberflame_77460_pkp": {
     "items": [
       "amber_flame"
     ],
-    "id": 80025,
+    "id": 140025,
     "loc": "77460.2344, 14107.8691",
     "region": "ziggurat_amberflame",
-    "name": null,
+    "name": "Ziggurat of Dust Mimic 1",
     "description": "Mimic next to the west room in west Ziggurat of Dust"
   },
   "chest_princess_set_pkp": {
@@ -83,80 +83,80 @@
       "reddress_helm",
       "white_nova"
     ],
-    "id": 80028,
+    "id": 140028,
     "loc": "54606.3125, 25290.4824",
     "region": "princess_set",
-    "name": null,
+    "name": "Cran's Pass Mimic 1",
     "description": "Chest on the way to Salt Alkymancery in lower Cran's Pass"
   },
   "flying_blue_blaze_pkp": {
     "items": [
       "gray_pearl"
     ],
-    "id": 80034,
+    "id": 140034,
     "loc": "51507.27, 3990.71826",
     "region": "mals_lower",
-    "name": null,
+    "name": "Mal's Floating Castle Mimic 4",
     "description": "Mimic above the Sanctuary in east Mal's Floating Castle"
   },
   "flying_blue_blaze_47374_pkp": {
     "items": [
       "crystal_sphere"
     ],
-    "id": 80037,
+    "id": 140037,
     "loc": "47374.0625, 3685.56348",
     "region": "mals_lower",
-    "name": null,
+    "name": "Mal's Floating Castle Mimic 1",
     "description": "West mimic above the west door in west Mal's Floating Castle"
   },
   "flying_blue_blaze_48951_pkp": {
     "items": [
       "blue_blaze"
     ],
-    "id": 80040,
+    "id": 140040,
     "loc": "48951.92, 2035.75",
     "region": "mals_upper",
-    "name": null,
+    "name": "Mal's Floating Castle Mimic 3",
     "description": "East mimic below Murdiella Mal"
   },
   "flying_blue_blaze_48867_pkp": {
     "items": [
       "charm_salt_overload"
     ],
-    "id": 80043,
+    "id": 140043,
     "loc": "48867.5664, 3497.01416",
     "region": "mals_middle",
-    "name": null,
+    "name": "Mal's Floating Castle Mimic 2",
     "description": "East mimic above the west door in west Mal's Floating Castle"
   },
   "flying_salt_47999_pkp": {
     "items": [
       "salt8"
     ],
-    "id": 80046,
+    "id": 140046,
     "loc": "47999.293, 2353.15527",
     "region": "mals_west_upper",
-    "name": null,
+    "name": "Mal's Floating Castle Mimic 5",
     "description": "West mimic below Murdiella Mal"
   },
   "graypearl_60274_pkp": {
     "items": [
       "gray_pearl"
     ],
-    "id": 80049,
+    "id": 140049,
     "loc": "60188.582, 36357.625",
     "region": "palace_to_lake",
-    "name": null,
+    "name": "The Still Palace Mimic 1",
     "description": "West mimic on the way to east Siam Lake in upper The Still Palace"
   },
   "graypearl_60705_pkp": {
     "items": [
       "gray_pearl"
     ],
-    "id": 80052,
+    "id": 140052,
     "loc": "60695.8672, 36361.9375",
     "region": "palace_to_lake",
-    "name": null,
+    "name": "The Still Palace Mimic 2",
     "description": "East mimic on the way to east Siam Lake in upper The Still Palace"
   }
 }

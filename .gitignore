@@ -1,4 +1,5 @@
 .mgstats
+.salt
 .vs
 **/bin
 **/obj

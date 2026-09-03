@@ -1,7 +1,7 @@
 {
   "sanctuary_ashen_shore": {
     "shrine": 0,
-    "id": 100000,
+    "id": 160000,
     "loc": "9056, 13382.4",
     "region": "shivering_shore_sanctuary",
     "name": "Shivering Shore Sanctuary",
@@ -9,7 +9,7 @@
   },
   "sanctuary_forsaken_village": {
     "shrine": 0,
-    "id": 100001,
+    "id": 160001,
     "loc": "5984, 17510.4",
     "region": "village_of_smiles",
     "name": "Village of Smiles Sanctuary",
@@ -17,7 +17,7 @@
   },
   "sanctuary_bandits_pass": {
     "shrine": 0,
-    "id": 100002,
+    "id": 160002,
     "loc": "23648, 10918.4",
     "region": "bandits_pass",
     "name": "Bandit's Pass Sanctuary",
@@ -25,7 +25,7 @@
   },
   "sanctuary_castle_of_storms": {
     "shrine": 0,
-    "id": 100003,
+    "id": 160003,
     "loc": "33952, 5926.4",
     "region": "castle_of_storms",
     "name": "Castle of Storms Sanctuary",
@@ -33,7 +33,7 @@
   },
   "sanctuary_sunken_keep": {
     "shrine": 0,
-    "id": 100004,
+    "id": 160004,
     "loc": "34848, 20038.4",
     "region": "sunken_keep",
     "name": "Sunken Keep Sanctuary",
@@ -41,7 +41,7 @@
   },
   "sanctuary_red_dungeon": {
     "shrine": 0,
-    "id": 100005,
+    "id": 160005,
     "loc": "41568, 13318.4",
     "region": "red_hall_of_cages",
     "name": "Red Hall of Cages Sanctuary",
@@ -49,7 +49,7 @@
   },
   "sanctuary_lost_woods": {
     "shrine": 0,
-    "id": 100006,
+    "id": 160006,
     "loc": "24352, 19718.4",
     "region": "the_watching_woods",
     "name": "The Watching Woods Sanctuary",
@@ -57,7 +57,7 @@
   },
   "sanctuary_caves": {
     "shrine": 0,
-    "id": 100007,
+    "id": 160007,
     "loc": "38560, 27814.4",
     "region": "hagers_cavern",
     "name": "Hager's Cavern Sanctuary",
@@ -65,7 +65,7 @@
   },
   "sanctuary_swamp": {
     "shrine": 0,
-    "id": 100008,
+    "id": 160008,
     "loc": "22688, 28582.4",
     "region": "mire_of_stench_lower",
     "name": "Mire of Stench Sanctuary",
@@ -73,7 +73,7 @@
   },
   "sanctuary_dome": {
     "shrine": 0,
-    "id": 100009,
+    "id": 160009,
     "loc": "56864, 12550.4",
     "region": "dome_west_lower",
     "name": "Dome of the Forgotten Sanctuary",
@@ -81,7 +81,7 @@
   },
   "sanctuary_sky_castle": {
     "shrine": 0,
-    "id": 100010,
+    "id": 160010,
     "loc": "50976, 4582.4",
     "region": "mals_sanctuary",
     "name": "Mal's Floating Castle Sanctuary",
@@ -89,7 +89,7 @@
   },
   "sanctuary_dungeon_cave": {
     "shrine": 0,
-    "id": 100011,
+    "id": 160011,
     "loc": "50144, 24550.4",
     "region": "red_hall_of_cages_crans_pass",
     "name": "Cran's Pass Sanctuary",
@@ -97,7 +97,7 @@
   },
   "sanctuary_far_beach": {
     "shrine": 0,
-    "id": 100012,
+    "id": 160012,
     "loc": "94880, 14854.4",
     "region": "the_far_beach_east",
     "name": "The Far Beach Sanctuary",
@@ -105,7 +105,7 @@
   },
   "sanctuary_coastal_fort": {
     "shrine": 0,
-    "id": 100013,
+    "id": 160013,
     "loc": "4896, 27366.4",
     "region": "fort_beyond_the_mire_upper",
     "name": "Fort-Beyond-The-Mire Sanctuary",
@@ -113,7 +113,7 @@
   },
   "sanctuary_siam_lake": {
     "shrine": 0,
-    "id": 100014,
+    "id": 160014,
     "loc": "61600, 29958.4",
     "region": "siam_lake_east",
     "name": "Siam Lake Sanctuary",
@@ -121,7 +121,7 @@
   },
   "sanctuary_darkwood": {
     "shrine": 0,
-    "id": 100015,
+    "id": 160015,
     "loc": "88544, 24230.4",
     "region": "pitchwoods_sanctuary",
     "name": "Pitchwoods Sanctuary",
@@ -129,7 +129,7 @@
   },
   "sanctuary_ziggurat": {
     "shrine": 0,
-    "id": 100016,
+    "id": 160016,
     "loc": "84000, 12614.4",
     "region": "zigguratcorridor",
     "name": "Ziggurat of Dust Sanctuary",
@@ -137,7 +137,7 @@
   },
   "sanctuary_ruins": {
     "shrine": 0,
-    "id": 100017,
+    "id": 160017,
     "loc": "68320, 24134.4",
     "region": "ruins_lower_east",
     "name": "The Ruined Temple Sanctuary",
@@ -145,7 +145,7 @@
   },
   "shrine_party_fort": {
     "shrine": 1,
-    "id": 100018,
+    "id": 160018,
     "loc": "17376, 10214.4",
     "region": "the_festering_banquet",
     "name": "The Festering Banquet Shrine",
@@ -153,7 +153,7 @@
   },
   "shrine_sunken_keep": {
     "shrine": 1,
-    "id": 100019,
+    "id": 160019,
     "loc": "23712, 16358.4",
     "region": "sunken_bronze_jester",
     "name": "Sunken Keep Shrine",
@@ -161,7 +161,7 @@
   },
   "shrine_red_dungeon": {
     "shrine": 1,
-    "id": 100020,
+    "id": 160020,
     "loc": "47264, 27686.4",
     "region": "red_hall_of_cages",
     "name": "Red Hall of Cages Shrine",
@@ -169,7 +169,7 @@
   },
   "shrine_dome": {
     "shrine": 1,
-    "id": 100021,
+    "id": 160021,
     "loc": "65248, 12902.4",
     "region": "dome_east",
     "name": "Dome of the Forgotten Shrine",
@@ -177,7 +177,7 @@
   },
   "sanctuary_lab": {
     "shrine": 0,
-    "id": 100022,
+    "id": 160022,
     "loc": "45472, 30086.4",
     "region": "salt_alkymancery_middle",
     "name": "Salt Alkymancery Sanctuary",
@@ -185,7 +185,7 @@
   },
   "shrine_swamp": {
     "shrine": 1,
-    "id": 100023,
+    "id": 160023,
     "loc": "29920, 24518.4",
     "region": "mire_of_stench_shrine",
     "name": "Mire of Stench Shrine",
@@ -193,7 +193,7 @@
   },
   "shrine_castle_of_storms": {
     "shrine": 1,
-    "id": 100024,
+    "id": 160024,
     "loc": "43680, 3558.4",
     "region": "castle_of_storms",
     "name": "Castle of Storms Shrine",
@@ -201,7 +201,7 @@
   },
   "shrine_caves": {
     "shrine": 1,
-    "id": 100025,
+    "id": 160025,
     "loc": "27552, 30918.4",
     "region": "hagers_cavern",
     "name": "Hager's Cavern Shrine",
@@ -209,7 +209,7 @@
   },
   "sanctuary_tomb": {
     "shrine": 0,
-    "id": 100026,
+    "id": 160026,
     "loc": "37536, 33286.4",
     "region": "hagers_to_crypt",
     "name": "Crypt of Dead Gods Sanctuary",
@@ -217,7 +217,7 @@
   },
   "shrine_tomb": {
     "shrine": 1,
-    "id": 100027,
+    "id": 160027,
     "loc": "40928, 37510.4",
     "region": "crypt_shrine",
     "name": "Crypt of Dead Gods Shrine",
@@ -225,7 +225,7 @@
   },
   "shrine_palace": {
     "shrine": 1,
-    "id": 100028,
+    "id": 160028,
     "loc": "58784, 39078.4",
     "region": "the_still_palace_shrine",
     "name": "The Still Palace Shrine",
@@ -233,7 +233,7 @@
   },
   "shrine_darkwoods": {
     "shrine": 1,
-    "id": 100029,
+    "id": 160029,
     "loc": "88096, 29414.4",
     "region": "pitchwoods_lower_middle",
     "name": "Pitchwoods Shrine",
@@ -241,7 +241,7 @@
   },
   "shrine_unknown": {
     "shrine": 1,
-    "id": 100030,
+    "id": 160030,
     "loc": "71072, 17414.4",
     "region": "the_ruined_temple_middle",
     "name": "Ziggurat of Dust Shrine",
@@ -249,7 +249,7 @@
   },
   "sanctuary_blackest_vault": {
     "shrine": 0,
-    "id": 100031,
+    "id": 160031,
     "loc": "77664, 40038.4",
     "region": "the_blackest_vault_east",
     "name": "The Blackest Vault Sanctuary",

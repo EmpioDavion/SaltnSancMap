@@ -47,6 +47,7 @@
 			this.lbSelectRegion = new System.Windows.Forms.ListBox();
 			this.pnlRegions = new System.Windows.Forms.Panel();
 			this.lbAreas = new System.Windows.Forms.ListBox();
+			this.lblAreas = new System.Windows.Forms.Label();
 			this.btnClearFilter = new System.Windows.Forms.Button();
 			this.btnAddArea = new System.Windows.Forms.Button();
 			this.pnlLocations = new System.Windows.Forms.Panel();
@@ -70,7 +71,6 @@
 			this.tbCheckName = new System.Windows.Forms.TextBox();
 			this.lblCheckName = new System.Windows.Forms.Label();
 			this.btnChangeMode = new System.Windows.Forms.Button();
-			this.lblAreas = new System.Windows.Forms.Label();
 			this.pnlConnections.SuspendLayout();
 			this.pnlRegions.SuspendLayout();
 			this.pnlLocations.SuspendLayout();
@@ -345,6 +345,7 @@
 			// 
 			// lbAreas
 			// 
+			this.lbAreas.AllowDrop = true;
 			this.lbAreas.BackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.lbAreas.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.lbAreas.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -354,7 +355,7 @@
 			this.lbAreas.Size = new System.Drawing.Size(180, 167);
 			this.lbAreas.TabIndex = 4;
 			this.lbAreas.Visible = false;
-			this.lbAreas.Click += new System.EventHandler(this.lbAreas_Click);
+			this.lbAreas.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lbAreas_MouseClick);
 			this.lbAreas.DragDrop += new System.Windows.Forms.DragEventHandler(this.lbAreas_DragDrop);
 			this.lbAreas.DragOver += new System.Windows.Forms.DragEventHandler(this.lbAreas_DragOver);
 			this.lbAreas.DoubleClick += new System.EventHandler(this.lbAreas_DoubleClick);
@@ -362,6 +363,18 @@
 			this.lbAreas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbAreas_MouseDown);
 			this.lbAreas.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lbAreas_MouseMove);
 			this.lbAreas.MouseUp += new System.Windows.Forms.MouseEventHandler(this.lbAreas_MouseUp);
+			// 
+			// lblAreas
+			// 
+			this.lblAreas.AutoSize = true;
+			this.lblAreas.Dock = System.Windows.Forms.DockStyle.Top;
+			this.lblAreas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblAreas.Location = new System.Drawing.Point(0, 15);
+			this.lblAreas.Name = "lblAreas";
+			this.lblAreas.Size = new System.Drawing.Size(39, 13);
+			this.lblAreas.TabIndex = 6;
+			this.lblAreas.Text = "Areas";
+			this.lblAreas.Visible = false;
 			// 
 			// btnClearFilter
 			// 
@@ -670,18 +683,6 @@
 			this.btnChangeMode.UseVisualStyleBackColor = false;
 			this.btnChangeMode.Click += new System.EventHandler(this.btnChangeMode_Click);
 			// 
-			// lblAreas
-			// 
-			this.lblAreas.AutoSize = true;
-			this.lblAreas.Dock = System.Windows.Forms.DockStyle.Top;
-			this.lblAreas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblAreas.Location = new System.Drawing.Point(0, 15);
-			this.lblAreas.Name = "lblAreas";
-			this.lblAreas.Size = new System.Drawing.Size(39, 13);
-			this.lblAreas.TabIndex = 6;
-			this.lblAreas.Text = "Areas";
-			this.lblAreas.Visible = false;
-			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -696,6 +697,7 @@
 			this.MinimumSize = new System.Drawing.Size(640, 640);
 			this.Name = "MainForm";
 			this.Text = "MainForm";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
 			this.Click += new System.EventHandler(this.MainForm_Click);
 			this.pnlConnections.ResumeLayout(false);
 			this.pnlConnections.PerformLayout();

@@ -1,32 +1,37 @@
 {
   "rune_upside_down": {
-    "id": 130000,
+    "id": 190000,
     "loc": "21623.9961, 15220.2568",
     "region": "jester_1",
-	"name": "Vertigo Brand"
+	"name": "Vertigo Brand",
+	"description": "Brand received from Mad Jester in upper west Sunken Keep"
   },
   "rune_dash": {
-    "id": 130001,
+    "id": 190001,
     "loc": "80167.27, 7922.661",
     "region": "choppy_1",
-	"name": "Dart Brand"
+	"name": "Dart Brand",
+	"description": "Brand received from Black Sands Sorcerer in upper Ziggurat of Dust"
   },
   "rune_wall_jump": {
-    "id": 130002,
+    "id": 190002,
     "loc": "38548.2422, 3490.707",
     "region": "despondent_1",
-	"name": "Shadowflip Brand"
+	"name": "Shadowflip Brand",
+	"description": "Brand received from Despondent Thief in upper Castle of Storms"
   },
   "rune_red_block": {
-    "id": 130003,
+    "id": 190003,
     "loc": "16580.5723, 25804.4375",
     "region": "swampfriend_1",
-	"name": "Redshift Brand"
+	"name": "Redshift Brand",
+	"description": "Brand received from The Mirekeeper in upper west Mire of Stench"
   },
   "rune_blue_ether": {
-    "id": 130004,
+    "id": 190004,
     "loc": "56759.0938, 9237.674",
     "region": "domefriend_1",
-	"name": "Hardlight Brand"
+	"name": "Hardlight Brand",
+	"description": "Brand received from Luna Sage in upper west Dome of the Forgotten"
   }
 }

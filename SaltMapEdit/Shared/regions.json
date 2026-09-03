@@ -62,15 +62,15 @@
         ]
       },
       {
-        "region": "shivering_shore_sanctuary",
-        "items": [
-          "sancdoor"
-        ]
-      },
-      {
         "region": "sancdoor_door",
         "items": [
           "key_sanc"
+        ]
+      },
+      {
+        "region": "shivering_shore_sanctuary",
+        "items": [
+          "sancdoor"
         ]
       }
     ]
@@ -85,12 +85,21 @@
         "items": []
       },
       {
+        "region": "sanctuary_desecration",
+        "items": [
+          "buff_dark"
+        ]
+      },
+      {
         "region": "sancexit",
         "items": [
           "sancexit"
         ]
       }
     ]
+  },
+  "sanctuary_desecration": {
+    "connections": []
   },
   "sancexit": {
     "connections": [
@@ -118,9 +127,7 @@
       },
       {
         "region": "cavedoor",
-        "items": [
-          "cavedoor"
-        ]
+        "items": []
       },
       {
         "region": "castledoor",
@@ -319,7 +326,7 @@
       {
         "region": "the_festering_banquet",
         "items": [
-          "fortress1castlegate"
+          "fortresscastlegate1"
         ]
       }
     ]
@@ -333,15 +340,15 @@
         ]
       },
       {
-        "region": "bandits_pass",
-        "items": [
-          "castleexit"
-        ]
-      },
-      {
         "region": "castleexit_door",
         "items": [
           "key_fortress"
+        ]
+      },
+      {
+        "region": "bandits_pass",
+        "items": [
+          "castleexit"
         ]
       }
     ]
@@ -901,7 +908,7 @@
       {
         "region": "sunken_bronze_jester",
         "items": [
-          "green_key"
+          "key_green"
         ]
       },
       {
@@ -1056,15 +1063,15 @@
         ]
       },
       {
-        "region": "forestshrinegatef",
-        "items": [
-          "forestkeygate"
-        ]
-      },
-      {
         "region": "forestkeygate_door",
         "items": [
           "key_green"
+        ]
+      },
+      {
+        "region": "forestshrinegatef",
+        "items": [
+          "forestkeygate"
         ]
       }
     ]
@@ -1198,15 +1205,15 @@
         ]
       },
       {
-        "region": "hidden_sanctuary_axe_great",
-        "items": [
-          "castledrawdoor"
-        ]
-      },
-      {
         "region": "castledrawdoor_door",
         "items": [
           "key_bronze"
+        ]
+      },
+      {
+        "region": "hidden_sanctuary_axe_great",
+        "items": [
+          "castledrawdoor"
         ]
       }
     ]
@@ -1384,15 +1391,15 @@
         ]
       },
       {
-        "region": "castle_terror",
-        "items": [
-          "castlekeydoor"
-        ]
-      },
-      {
         "region": "castlekeydoor_door",
         "items": [
           "key_dungeon"
+        ]
+      },
+      {
+        "region": "castle_terror",
+        "items": [
+          "castlekeydoor"
         ]
       }
     ]
@@ -2249,15 +2256,15 @@
         ]
       },
       {
-        "region": "minty_approach",
-        "items": [
-          "cavedungeondoor"
-        ]
-      },
-      {
         "region": "cavedungeondoor_door",
         "items": [
           "key_cave"
+        ]
+      },
+      {
+        "region": "minty_approach",
+        "items": [
+          "cavedungeondoor"
         ]
       }
     ]
@@ -2288,6 +2295,12 @@
   "cavefortdoor": {
     "connections": [
       {
+        "region": "cavefortdoor_door",
+        "items": [
+          "key_ship"
+        ]
+      },
+      {
         "region": "cave_mire_middle",
         "items": [
           "cavefortdoor"
@@ -2297,12 +2310,6 @@
         "region": "cave_mire_lower",
         "items": [
           "cavefortdoor"
-        ]
-      },
-      {
-        "region": "cavefortdoor_door",
-        "items": [
-          "key_ship"
         ]
       }
     ]
@@ -2375,15 +2382,15 @@
         ]
       },
       {
-        "region": "cavebossdoor",
-        "items": [
-          "cavespidoor"
-        ]
-      },
-      {
         "region": "cavespidoor_door",
         "items": [
           "key_cave"
+        ]
+      },
+      {
+        "region": "cavebossdoor",
+        "items": [
+          "cavespidoor"
         ]
       }
     ]
@@ -2555,7 +2562,7 @@
       {
         "region": "hagers_cavern",
         "items": [
-          "SPIKED_KEY"
+          "key_ship"
         ]
       },
       {
@@ -5046,8 +5053,7 @@
         "region": "crypt_from_lab",
         "items": [
           "rune_wall_jump",
-          "rune_dash",
-          "CLIMB"
+          "rune_dash"
         ]
       },
       {
@@ -5937,6 +5943,9 @@
     "connections": []
   },
   "npcs": {
+    "connections": []
+  },
+  "bestiary": {
     "connections": []
   }
 }

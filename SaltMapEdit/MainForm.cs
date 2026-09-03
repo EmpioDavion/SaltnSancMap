@@ -2,10 +2,12 @@
 using Newtonsoft.Json.Linq;
 using SaltMap;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Drawing;
 using System.IO;
+using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -39,7 +41,7 @@ namespace SaltMapEdit
 			}
 		}
 
-		private enum Mode
+		internal enum Mode
 		{
 			Regions,
 			Areas
@@ -47,7 +49,7 @@ namespace SaltMapEdit
 
 		private struct AreaData
 		{
-			public List<Map.Region> areas;
+			public List<string> keys;
 			public Dictionary<string, List<string>> checks;
 		}
 
@@ -75,7 +77,7 @@ namespace SaltMapEdit
 		private Drag areaDrag; // drag action for reordering areas
 		private Drag regionDrag; // drag action for reordering regions
 
-		private Mode mode = Mode.Regions;
+		internal Mode mode = Mode.Regions;
 
 		private Task saveTask;
 
@@ -182,8 +184,22 @@ namespace SaltMapEdit
 					regionList.Add(region);
 			}
 
-			currentRegion = regionList[0];
+			if (File.Exists("areas.json"))
+			{
+				string json = File.ReadAllText("areas.json");
 
+				AreaData areaData = JsonConvert.DeserializeObject<AreaData>(json);
+
+				for (int i = 0; i < areaData.keys.Count; i++)
+				{
+					Map.Region area = new Map.Region() { key = areaData.keys[i] };
+					areaDict.Add(area.key, area);
+					areaList.Add(area);
+					area.checks.AddRange(areaData.checks[area.key]);
+				}
+			}
+
+			RebuildAreas();
 			RebuildRegions();
 			SortConnections();
 			SortRegionSelect();
@@ -245,7 +261,7 @@ namespace SaltMapEdit
 		private void EditArea()
 		{
 			// don't create a duplicate name if an existing region name was entered
-			if (areaDict.ContainsKey(tbEdit.Text))
+			if (!areaDict.ContainsKey(tbEdit.Text))
 			{
 				int index = lbAreas.SelectedIndex;
 				Map.Region area = areaList[index];
@@ -424,6 +440,16 @@ namespace SaltMapEdit
 				map.SetCameraPosition(check.loc);
 		}
 
+		private bool FilterArea(Map.Check check) => currentArea?.checks.Contains(check.key) ?? false;
+		private bool FilterAreaConnection(Map.Check check) => false;
+
+		private int GetClickedIndex(ListBox listBox, Point mousePos)
+		{
+			int index = listBox.TopIndex + mousePos.Y / listBox.ItemHeight;
+
+			return index >= 0 && index < listBox.Items.Count ? index : -1;
+		}
+
 		internal void ScrollToIndex(ListBox listBox, int index)
 		{
 			if (index < listBox.TopIndex)
@@ -519,6 +545,17 @@ namespace SaltMapEdit
 				map.Filter(currentArea, null, check);
 		}
 
+		private Map.Region GetArea(string checkName)
+		{
+			foreach (Map.Region area in areaList)
+				if (area.checks.Contains(checkName))
+					return area;
+
+			return null;
+		}
+
+		private Map.Region GetArea(Map.Check check) => GetArea(check.key);
+
 		#region Events
 
 		private void MainForm_Click(object sender, EventArgs e)
@@ -526,6 +563,12 @@ namespace SaltMapEdit
 			lbSelectRegion.Visible = false;
 			lbSelectCheck.Visible = false;
 			tbEdit.Visible = false;
+		}
+
+		private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+		{
+			saveTimer = 0.0f;
+			saveTask?.Wait();
 		}
 
 		#region pnlMap
@@ -543,8 +586,15 @@ namespace SaltMapEdit
 					}
 					else
 					{
-						lbAreas.SelectedIndex = areaList.IndexOf(check.Region);
-						SelectArea(check.Region);
+						for (int i = 0; i < areaList.Count; i++)
+						{
+							if (areaList[i].checks.Contains(check.key))
+							{
+								lbAreas.SelectedIndex = i;
+								SelectArea((Map.Region)lbAreas.SelectedItem);
+								break;
+							}
+						}
 					}
 
 					SelectCheck(check);
@@ -625,7 +675,7 @@ namespace SaltMapEdit
 						if (lbSelectCheck.Items.Count == 1)
 						{
 							Map.Check check = (Map.Check)lbSelectCheck.Items[0];
-							Map.Region oldArea = check.Region;
+							Map.Region oldArea = GetArea(check);
 
 							if (oldArea != currentArea)
 								Track(new ChangeCheckAreaAction(this, check, currentArea, false));
@@ -695,10 +745,14 @@ namespace SaltMapEdit
 
 		#region lbAreas
 
-		private void lbAreas_Click(object sender, EventArgs e)
+		private void lbAreas_MouseClick(object sender, MouseEventArgs e)
 		{
-			int i = lbAreas.SelectedIndex;
-			SelectArea(i >= 0 ? areaList[i] : null);
+			int index = GetClickedIndex(lbAreas, e.Location);
+
+			if (index == -1)
+				lbAreas.SelectedIndex = -1;
+
+			SelectArea(index >= 0 ? areaList[index] : null);
 		}
 
 		private void lbAreas_DoubleClick(object sender, EventArgs e)
@@ -1101,7 +1155,11 @@ namespace SaltMapEdit
 					e.KeyCode == Keys.Home || e.KeyCode == Keys.End;
 
 				if (mode == Mode.Areas)
+				{
 					validKey |= e.KeyCode == Keys.Space;
+					validKey |= e.KeyCode == Keys.OemQuotes && !e.Shift;
+					validKey |= e.KeyCode == Keys.OemMinus;
+				}
 
 				if (e.KeyCode != Keys.A)
 					validKey &= !e.Control; // control is not pressed
@@ -1137,8 +1195,8 @@ namespace SaltMapEdit
 
 			int i = areaList.Count;
 
-			if (currentArea != null)
-				i = areaList.IndexOf(currentArea);
+			if (lbAreas.SelectedItem != null)
+				i = areaList.IndexOf((Map.Region)lbAreas.SelectedItem);
 
 			Track(new AddAreaAction(this, area, i, false));
 		}
@@ -1160,8 +1218,8 @@ namespace SaltMapEdit
 
 			int i = regionList.Count;
 
-			if (currentRegion != null)
-				i = regionList.IndexOf(currentRegion);
+			if (lbRegions.SelectedItem != null)
+				i = regionList.IndexOf((Map.Region)lbRegions.SelectedItem);
 
 			Track(new AddRegionAction(this, region, i, false));
 		}
@@ -1205,9 +1263,14 @@ namespace SaltMapEdit
 				pnlConnections.Enabled = true;
 				pnlItems.Enabled = true;
 
+				map.RegionFilterLogic = null;
+				map.ConnectionFilterLogic = null;
+
 				SortConnections();
 				SortChecks();
 				SortItems();
+
+				map.Filter(currentRegion, currentConnection, currentCheck);
 			}
 			else
 			{
@@ -1220,28 +1283,70 @@ namespace SaltMapEdit
 				pnlConnections.Enabled = false;
 				pnlItems.Enabled = false;
 
+				map.RegionFilterLogic = FilterArea;
+				map.ConnectionFilterLogic = FilterAreaConnection;
+
 				lbConnections.Items.Clear();
 				SortChecks();
 				lbItems.Items.Clear();
+
+				map.Filter(currentArea, null, currentCheck);
 			}
+
+			map.UpdateAvailable(GetProgress);
 		}
 
 		private void btnSave_Click(object sender, EventArgs e)
 		{
-			map.Save();
-
 			AreaData areaData = new AreaData()
 			{
-				areas = areaList,
+				keys = areaList.ConvertAll((x) => x.key),
 				checks = new Dictionary<string, List<string>>()
 			};
 
 			foreach (Map.Region area in areaList)
-				areaData[area.key] = area.checks;
+			{
+				int chestCount = 1;
+				int sackCount = 1;
+				int mimicCount = 1;
+				int switchCount = 1;
+				int liftCount = 1;
+				int doorCount = 1;
+				int gateCount = 1;
+				int secretCount = 1;
 
-			string json = JsonConvert.SerializeObject(areaList);
-			File.WriteAllText("areas")
+				areaData.checks[area.key] = area.checks;
 
+				foreach (string checkName in area.checks)
+				{
+					map.GetLocation(checkName, out Map.Check check);
+
+					string obj = check.checkType switch
+					{
+						Map.CheckType.Chest => $"Chest {chestCount++}",
+						Map.CheckType.Sack => $"Sack {sackCount++}",
+						Map.CheckType.Mimic => $"Mimic {mimicCount++}",
+						Map.CheckType.Switch => $"Switch {switchCount++}",
+						Map.CheckType.Sequence => ((Map.Sequence)check).type switch
+						{
+							Map.SequenceType.Lift => $"Lift {liftCount++}",
+							Map.SequenceType.Door => $"Door {doorCount++}",
+							Map.SequenceType.Gate => $"Gate {gateCount++}",
+							Map.SequenceType.Secret => $"Secret {secretCount++}",
+							_ => null
+						},
+						_ => null
+					};
+
+					if (obj != null)
+						check.name = $"{area.key} {obj}";
+				}
+			}
+
+			string json = JsonConvert.SerializeObject(areaData, Formatting.Indented);
+			File.WriteAllText("areas.json", json);
+
+			map.Save();
 			StartSave();
 		}
 
@@ -1390,19 +1495,17 @@ namespace SaltMapEdit
 
 		private void ChangeCheckArea(Map.Region oldValue, Map.Region newValue)
 		{
-			check.Region = newValue;
-
 			oldValue.checks.Remove(check.key);
 			newValue.checks.Add(check.key);
 
 			oldValue.checks.Sort(form.CompareChecks);
 			newValue.checks.Sort(form.CompareChecks);
 
-			if (oldValue == form.currentRegion || newValue == form.currentRegion)
+			if (oldValue == form.currentArea || newValue == form.currentArea)
 			{
 				form.SortChecks();
 
-				if (newValue == form.currentArea)
+				if (newValue == form.currentArea && form.mode == MainForm.Mode.Areas)
 				{
 					int index = form.lbChecks.Items.IndexOf(check);
 					form.lbChecks.SelectedIndex = index;
@@ -1450,7 +1553,7 @@ namespace SaltMapEdit
 			{
 				form.SortChecks();
 
-				if (newValue == form.currentRegion)
+				if (newValue == form.currentRegion && form.mode == MainForm.Mode.Regions)
 				{
 					int index = form.lbChecks.Items.IndexOf(check);
 					form.lbChecks.SelectedIndex = index;
@@ -1662,7 +1765,7 @@ namespace SaltMapEdit
 			form.areaDict.Add(newItem, area);
 			form.areaList[index] = area;
 
-			form.RebuildRegions();
+			form.RebuildAreas();
 
 			form.ScrollToIndex(form.lbAreas, index);
 		}
@@ -1923,7 +2026,7 @@ namespace SaltMapEdit
 			form.areaList.RemoveAt(oldIndex);
 			form.areaList.Insert(newIndex, area);
 
-			form.RebuildRegions();
+			form.RebuildAreas();
 
 			form.lbAreas.SelectedIndex = newIndex;
 			form.ScrollToIndex(form.lbAreas, newIndex);

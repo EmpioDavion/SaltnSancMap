@@ -9,11 +9,11 @@
       "disabledflag",
       "villageenter&masterless_quest_yes"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "17922.123, 11601.01",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Masterless Knight The Festering Banquet",
+    "description": "Masterless Knight in east The Festering Banquet"
   },
   "nomad_1": {
     "seg": 61,
@@ -25,11 +25,11 @@
       "npcstyle",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "17464.4941, 13519.4131",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Nomad The Festering Banquet",
+    "description": "Nomad in lower east The Festering Banquet"
   },
   "oldman_1": {
     "seg": 372,
@@ -41,11 +41,11 @@
       "npcstyle",
       "4"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "3047.75244, 14576.8574",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Old Man Shivering Shore",
+    "description": "Old Man in Shivering Shore"
   },
   "jester_1": {
     "seg": 423,
@@ -59,11 +59,11 @@
       "brandfire",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "21623.9961, 15220.2568",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Mad Jester The Festering Banquet",
+    "description": "Mad Jester in lower east The Festering Banquet"
   },
   "despondent_1": {
     "seg": 424,
@@ -77,11 +77,11 @@
       "brandfire",
       "1"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "38548.2422, 3490.707",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Despondent Thief Castle of Storms",
+    "description": "Despondent Thief in upper Castle of Storms"
   },
   "oldgreg_1": {
     "seg": 664,
@@ -91,22 +91,22 @@
       "npcstyle",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "16679.1426, 28266.07",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Alde Griggs Mire of Stench",
+    "description": "Alde Grigges in lower west Mire of Stench"
   },
   "memories_1": {
     "seg": 665,
     "monster": 97,
     "npc": 7,
     "scripts": [],
-    "id": 0,
+    "id": 230000,
     "loc": "43752.7266, 29231.957",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Minty Skell Hager's Cavern",
+    "description": "Minty Skell in lower east Hager's Cavern"
   },
   "masterless_2": {
     "seg": 667,
@@ -124,11 +124,11 @@
       "npcstyle",
       "5"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "31442.2852, 5655.355",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Masterless Knight Castle of Storms",
+    "description": "Masterless Knight in upper west Castle of Storms"
   },
   "zenfern_1": {
     "seg": 669,
@@ -138,11 +138,11 @@
       "npcstyle",
       "1"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "11193.792, 20307.8027",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Fern Village of Smiles",
+    "description": "Fern in lower east Village of Smiles"
   },
   "choppy_1": {
     "seg": 702,
@@ -158,11 +158,11 @@
       "npcstyle",
       "1"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "80167.27, 7922.661",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Black Sands Sorcerer Ziggurat of Dust",
+    "description": "Black Sands Sorcerer in upper Ziggurat of Dust"
   },
   "shellshop_1": {
     "seg": 735,
@@ -172,33 +172,33 @@
       "npcstyle",
       "1"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "8353.15, 10995.8223",
     "region": "disabled",
-    "name": null,
-    "description": null
+    "name": "The Shell Market Shivering Shore",
+    "description": "The Shell Market on the floating island above Shivering Shore"
   },
   "catmerch_1": {
     "seg": 767,
     "monster": 135,
     "npc": 11,
     "scripts": [],
-    "id": 0,
+    "id": 230000,
     "loc": "8732.532, 11001.6113",
     "region": "disabled",
-    "name": null,
-    "description": null
+    "name": "Fine Tabsworth Shivering Shore",
+    "description": "Fine Tabsworth on the floating island above Shivering Shore"
   },
   "scarecrow_0": {
     "seg": 768,
     "monster": 136,
     "npc": 12,
     "scripts": [],
-    "id": 0,
+    "id": 230000,
     "loc": "8577.139, 10981.53",
     "region": "disabled",
-    "name": null,
-    "description": null
+    "name": "Voice of the Nameless Shivering Shore",
+    "description": "Voice of the Nameless on the floating island above Shivering Shore"
   },
   "scarecrow_1": {
     "seg": 770,
@@ -208,11 +208,11 @@
       "disabledflag",
       "scare_talk2&bull"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "6755.98926, 16998.1777",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Voice of the Nameless Village of Smiles",
+    "description": "Voice of the Nameless in Village of Smiles"
   },
   "shipcaptain_1": {
     "seg": 803,
@@ -222,11 +222,11 @@
       "npcstyle",
       "6"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "5213.568, 5129.353",
     "region": "disabled",
-    "name": null,
-    "description": null
+    "name": "Ship Captain Ship",
+    "description": "Ship Captain on the Ship"
   },
   "boatman_1": {
     "seg": 804,
@@ -236,11 +236,11 @@
       "npcstyle",
       "7"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "1850.3927, 28927.2773",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Boatman Fort-Beyond-The-Mire",
+    "description": "Boatman in west Fort-Beyond-The-Mire"
   },
   "rightboatman_1": {
     "seg": 805,
@@ -250,11 +250,11 @@
       "npcstyle",
       "7"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "99470.97, 14764.4922",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Boatman The Far Beach",
+    "description": "Boatman in east The Far Beach"
   },
   "swampfriend_1": {
     "seg": 806,
@@ -266,11 +266,11 @@
       "brandfire",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "16580.5723, 25804.4375",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "The Mirekeeper Mire of Stench",
+    "description": "The Mirekeeper in upper west Mire of Stench"
   },
   "domefriend_1": {
     "seg": 807,
@@ -284,11 +284,11 @@
       "disabledflag",
       "mummy"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "56759.0938, 9237.674",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Luna Sage Dome of the Forgotten",
+    "description": "Luna Sage in upper west Dome of the Forgotten"
   },
   "treelady_1": {
     "seg": 852,
@@ -298,11 +298,11 @@
       "npcstyle",
       "1"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "17158.0488, 23384.2754",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "The Candlelit Lady Village of Smiles",
+    "description": "The Candlelit Lady in lower east Village of Smiles"
   },
   "masterless_3": {
     "seg": 991,
@@ -318,11 +318,11 @@
       "talkphase",
       "3_talk"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "45017.54, 13809.3467",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Masterless Knight Red Hall of Cages",
+    "description": "Masterless Knight in upper east Red Hall of Cages"
   },
   "masterless_4": {
     "seg": 992,
@@ -340,11 +340,11 @@
       "npcstyle",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "38007.46, 27299.5469",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Masterless Knight Hager's Cavern",
+    "description": "Masterless Knight in east Hager's Cavern"
   },
   "scarecrow_2": {
     "seg": 995,
@@ -360,11 +360,11 @@
       "talkphase",
       "2_talk"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "42792.0078, 9544.357",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Voice of The Nameless Castle of Storms",
+    "description": "Voice of the Nameless in lower east Castle of Storms"
   },
   "masterless_5": {
     "seg": 996,
@@ -380,11 +380,11 @@
       "talkphase",
       "5_talk"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "63140.5039, 28981.1934",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Masterless Knight The Ruined Temple",
+    "description": "Masterless Knight in lower The Ruined Temple"
   },
   "oldman_2": {
     "seg": 997,
@@ -400,11 +400,11 @@
       "npcstyle",
       "4"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "33268.19, 9751.742",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Old Man Bandit's Pass",
+    "description": "Old Man in east Bandit's Pass"
   },
   "jester_2": {
     "seg": 998,
@@ -420,11 +420,11 @@
       "npcstyle",
       "2"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "43263.94, 12013.2539",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Mad Jester Red Hall of Cages",
+    "description": "Mad Jester in upper east Red Hall of Cages"
   },
   "choppy_2": {
     "seg": 999,
@@ -440,11 +440,11 @@
       "npcstyle",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "58136.87, 24537.6953",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Black Sands Sorcerer The Ruined Temple",
+    "description": "Black Sands Sorcerer in lower west The Ruined Temple"
   },
   "despondent_2": {
     "seg": 1000,
@@ -462,11 +462,11 @@
       "npcstyle",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "46148.91, 21525.7383",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Despondent Thief Red Hall of Cages",
+    "description": "Despondent Thief in middle Red Hall of Cages"
   },
   "dark_gatekeeper_1": {
     "seg": 1001,
@@ -476,11 +476,11 @@
       "npcstyle",
       "1"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "72860.63, 38632.9727",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "The Gatewoman",
+    "description": "The Gatewoman in lower west The Blackest Vault"
   },
   "masterless_6": {
     "seg": 1046,
@@ -496,11 +496,11 @@
       "talkphase",
       "6_talk"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "98122.61, 30280.9551",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Masterless Knight Pitchwoods",
+    "description": "Masterless Knight in lower east Pitchwoods"
   },
   "despondent_3": {
     "seg": 1054,
@@ -518,11 +518,11 @@
       "npcstyle",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "36553.5039, 24302.6",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Despondent Thief Hager's Cavern",
+    "description": "Despondent Thief in upper east Hager's Cavern"
   },
   "despondent_4": {
     "seg": 1055,
@@ -540,11 +540,11 @@
       "npcstyle",
       "5"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "97415.26, 14634.3857",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Despondent Thief The Far Beach",
+    "description": "Despondent Thief in east The Far Beach"
   },
   "princess_1": {
     "seg": 1090,
@@ -554,11 +554,11 @@
       "npcstyle",
       "8"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "6150.11328, 4240.38135",
     "region": "disabled",
-    "name": null,
-    "description": null
+    "name": "Princess Ship",
+    "description": "Princess on the Ship"
   },
   "princess_maid_1": {
     "seg": 1091,
@@ -568,11 +568,11 @@
       "npcstyle",
       "9"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "6086.257, 4249.875",
     "region": "disabled",
-    "name": null,
-    "description": null
+    "name": "Princess's Maid Ship",
+    "description": "Princess's Maid on the Ship"
   },
   "scarecrow_3": {
     "seg": 1094,
@@ -588,11 +588,11 @@
       "talkphase",
       "3_talk"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "67147.19, 17996.3223",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Voice of the Nameless The Ruined Temple",
+    "description": "Voice of the Nameless in upper east The Ruined Temple"
   },
   "scarecrow_4": {
     "seg": 1095,
@@ -608,11 +608,11 @@
       "talkphase",
       "4_talk"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "43554.4922, 33482.7969",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Voice of the Nameless Crypt of Dead Gods",
+    "description": "Voice of the Nameless in upper east Crypt of Dead Gods"
   },
   "choppy_3": {
     "seg": 1098,
@@ -632,11 +632,11 @@
       "npcstyle",
       "1"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "989.893433, 14865.2373",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Black Sands Sorcerer Shivering Shore",
+    "description": "Black Sands Sorcerer in west Shivering Shore"
   },
   "oldman_3": {
     "seg": 1159,
@@ -654,11 +654,11 @@
       "npcstyle",
       "4"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "60534.0156, 29507.752",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Old Man Siam Lake",
+    "description": "Old Man in east Siam Lake"
   },
   "domefriend_2": {
     "seg": 1196,
@@ -672,11 +672,11 @@
       "enabledflag",
       "dome_talk_2"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "83745.11, 11081.1807",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Luna Sage The Far Beach",
+    "description": "Luna Sage in middle The Far Beach"
   },
   "nomad_2": {
     "seg": 1220,
@@ -688,11 +688,11 @@
       "npcstyle",
       "0"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "43696.9141, 7031.3125",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Nomad Castle of Storms",
+    "description": "Nomad in east Castle of Storms"
   },
   "oldman_4": {
     "seg": 1221,
@@ -712,11 +712,11 @@
       "npcstyle",
       "4"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "49048.4727, 37693.11",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Old Man The Still Palace",
+    "description": "Old Man in west The Still Palace"
   },
   "scarecrow_5": {
     "seg": 1274,
@@ -734,10 +734,10 @@
       "npcstyle",
       "10"
     ],
-    "id": 0,
+    "id": 230000,
     "loc": "67602.8359, 46979.77",
     "region": "npcs",
-    "name": null,
-    "description": null
+    "name": "Voice of the Nameless The Still Palace",
+    "description": "Voice of the Nameless in lower east The Still Palace"
   }
 }

@@ -25,6 +25,9 @@
     <None Update="chests.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="creeds.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="dialogues.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -214,10 +217,16 @@
     <None Update="mimics.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="monsters.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="npcs.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="platforms.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="quests.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="regions.json">
@@ -237,6 +246,6 @@
     </None>
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="SET TAR=F:/Program Files/Steam/steamapps/common/Salt and Sanctuary/BepInEx/plugins/SaltnSancAP&#xD;&#xA;MKDIR &quot;%25TAR%25&quot;&#xD;&#xA;MKDIR &quot;%25TAR%25/map_cut&quot;&#xD;&#xA;COPY &quot;$(TargetPath)&quot; &quot;%25TAR%25/$(TargetName)$(TargetExt)&quot;&#xD;&#xA;COPY &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;%25TAR%25/$(TargetName).pdb&quot;&#xD;&#xA;COPY &quot;$(TargetDir)map_full_low.jpg&quot; &quot;%25TAR%25/map_full_low.jpg&quot;&#xD;&#xA;ROBOCOPY $(TargetDir) &quot;%25TAR%25/&quot; *.json&#xD;&#xA;ROBOCOPY /XO $(TargetDir)map_cut/ &quot;%25TAR%25/map_cut/&quot; *.jpg /XF &quot;%25TAR%25/SaltMap.deps.json&quot;" />
+    <Exec Command="@ECHO OFF&#xD;&#xA;SETLOCAL EnableDelayedExpansion&#xD;&#xA;&#xD;&#xA;SET SALT=$(ProjectDir)..\.salt&#xD;&#xA;&#xD;&#xA;IF EXIST &quot;!SALT!&quot; (&#xD;&#xA;  CALL :SetTar&#xD;&#xA;&#xD;&#xA;  IF &quot;!TAR!&quot; NEQ &quot;&quot; (&#xD;&#xA;    CALL :CopyFiles&#xD;&#xA;    EXIT 0&#xD;&#xA;  )&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;dotnet run --file &quot;$(ProjectDir)..\GetSalt.cs&quot; --framework net10.0-windows --property:_SuppressWinFormsTrimError=true&#xD;&#xA;&#xD;&#xA;IF NOT EXIST &quot;!SALT!&quot; EXIT 1&#xD;&#xA;&#xD;&#xA;CALL :SetTar&#xD;&#xA;&#xD;&#xA;IF &quot;!TAR!&quot; EQU &quot;&quot; EXIT 2&#xD;&#xA;&#xD;&#xA;CALL :CopyFiles&#xD;&#xA;&#xD;&#xA;EXIT 0&#xD;&#xA;&#xD;&#xA;:SetTar&#xD;&#xA;&#xD;&#xA;SET /p &quot;LOC=&quot;&lt;&quot;$(ProjectDir)..\.salt&quot;&#xD;&#xA;&#xD;&#xA;IF EXIST &quot;!LOC!\salt.exe&quot; (&#xD;&#xA;  SET TAR=!LOC!\BepInEx\plugins\SaltnSancAP&#xD;&#xA;) ELSE (&#xD;&#xA;  SET TAR=&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;EXIT /b 0&#xD;&#xA;&#xD;&#xA;:CopyFiles&#xD;&#xA;&#xD;&#xA;MKDIR &quot;!TAR!&quot;&#xD;&#xA;MKDIR &quot;!TAR!/map_cut&quot;&#xD;&#xA;COPY &quot;$(TargetPath)&quot; &quot;!TAR!/$(TargetName)$(TargetExt)&quot;&#xD;&#xA;COPY &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;!TAR!/$(TargetName).pdb&quot;&#xD;&#xA;COPY &quot;$(TargetDir)map_full_low.jpg&quot; &quot;!TAR!/map_full_low.jpg&quot;&#xD;&#xA;ROBOCOPY $(TargetDir) &quot;!TAR!/&quot; *.json /NFL /NDL /NJH /NJS&#xD;&#xA;ROBOCOPY /XO $(TargetDir)map_cut/ &quot;!TAR!/map_cut/&quot; *.jpg /XF &quot;!TAR!/SaltMap.deps.json&quot; /NFL /NDL /NJH /NJS&#xD;&#xA;&#xD;&#xA;EXIT /b 0" />
   </Target>
 </Project>

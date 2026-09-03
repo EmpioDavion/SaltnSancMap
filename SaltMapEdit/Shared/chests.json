@@ -4,7 +4,7 @@
       "salt1",
       "health_shard/3"
     ],
-    "id": 60000,
+    "id": 120000,
     "loc": "8275.848, 12986.5654",
     "region": "shivering_shore_roof",
     "name": "Shivering Shore Chest 2",
@@ -14,7 +14,7 @@
     "items": [
       "key_sanc"
     ],
-    "id": 60004,
+    "id": 120004,
     "loc": "5650.129, 13936.1934",
     "region": "shivering_shore_west",
     "name": "Shivering Shore Chest 1",
@@ -27,20 +27,20 @@
       "black_gloves",
       "black_boots"
     ],
-    "id": 60007,
+    "id": 120007,
     "loc": "18274.3242, 12177.0352",
     "region": "fortblackset1",
-    "name": "The Festering Banquet Chest 3",
+    "name": "The Festering Banquet Chest 2",
     "description": "Chest outside the middle east entrance of The Festering Banquet"
   },
   "castle_statue_merchant_pkp": {
     "items": [
       "statue_merchant"
     ],
-    "id": 60013,
+    "id": 120013,
     "loc": "43231.6875, 2615.07764",
     "region": "castle_of_storms",
-    "name": "Castle of Storms Chest 1",
+    "name": "Castle of Storms Chest 3",
     "description": "Chest above Shrine in upper east Castle of Storms"
   },
   "dungeon_health_statue_mage_pkp": {
@@ -48,7 +48,7 @@
       "health_shard/5",
       "statue_mage"
     ],
-    "id": 60016,
+    "id": 120016,
     "loc": "42419.16, 23083.6523",
     "region": "sunken_keep",
     "name": "Sunken Keep Chest 1",
@@ -60,10 +60,10 @@
       "jester_armor",
       "jester_helm"
     ],
-    "id": 60020,
+    "id": 120020,
     "loc": "21483.8359, 15222.7627",
     "region": "jester_lower",
-    "name": "The Festering Banquet Chest 4",
+    "name": "The Festering Banquet Chest 6",
     "description": "Chest next to the Jester in lower east The Festering Banquet"
   },
   "village_hunter_armor_pkp": {
@@ -73,10 +73,10 @@
       "hunter_gloves",
       "hunter_boots"
     ],
-    "id": 60025,
+    "id": 120025,
     "loc": "35675.12, 5697.98242",
     "region": "castle_of_storms",
-    "name": "Castle of Storms Chest 2",
+    "name": "Castle of Storms Chest 4",
     "description": "Chest east of Sanctuary in upper west Castle of Storms"
   },
   "dungeon_knight_armor_pkp": {
@@ -86,10 +86,10 @@
       "knight_gloves",
       "knight_boots"
     ],
-    "id": 60031,
+    "id": 120031,
     "loc": "45258.0664, 20263.0352",
     "region": "red_hall_of_cages",
-    "name": "Red Hall of Cages Chest 1",
+    "name": "Red Hall of Cages Chest 2",
     "description": "Chest on west side of single-wheel platform room in middle Red Hall of Cages"
   },
   "cave_paladin_armor_pkp": {
@@ -100,7 +100,7 @@
       "paladin_boots",
       "shield_paladin"
     ],
-    "id": 60037,
+    "id": 120037,
     "loc": "31071.54, 27247.834",
     "region": "cave_mire_lower",
     "name": "Hager's Cavern Chest 1",
@@ -111,10 +111,10 @@
       "salt2",
       "ring_itemfind"
     ],
-    "id": 60044,
+    "id": 120044,
     "loc": "13367.9756, 15381.3281",
     "region": "the_festering_banquet_cave_hidden_west",
-    "name": "The Festering Banquet Chest 3",
+    "name": "The Festering Banquet Chest 5",
     "description": "Chest in hidden cave in lower The Festering Banquet, underground"
   },
   "swamp_cleric_set_16647_pkp": {
@@ -123,10 +123,10 @@
       "cleric_armor",
       "cleric_boots"
     ],
-    "id": 60048,
+    "id": 120048,
     "loc": "16847.2383, 28262.4648",
     "region": "swamp_cleric",
-    "name": null,
+    "name": "Mire of Stench Chest 2",
     "description": "Chest next to Alde Griggs in lower west Mire of Stench"
   },
   "greenvillage_leather_set_pkp": {
@@ -136,7 +136,7 @@
       "leather_gloves",
       "leather_boots"
     ],
-    "id": 60053,
+    "id": 120053,
     "loc": "23915.3262, 19286.0215",
     "region": "the_watching_woods",
     "name": "The Watching Woods Chest 2",
@@ -148,10 +148,10 @@
       "boots_sorceror",
       "mag_firestar"
     ],
-    "id": 60059,
+    "id": 120059,
     "loc": "57979.4844, 24526.4883",
     "region": "choppy_2_room",
-    "name": null,
+    "name": "The Ruined Temple Chest 1",
     "description": "Chest next to Black Sands Sorcerer in lower west The Ruined Temple"
   },
   "dome_fat_set_pkp": {
@@ -161,10 +161,10 @@
       "fat_gloves",
       "fat_boots"
     ],
-    "id": 60064,
+    "id": 120064,
     "loc": "55888.3, 10251.2539",
     "region": "dome_west_upper",
-    "name": null,
+    "name": "Dome of the Forgotten Chest 2",
     "description": "Chest on the lower balcony in upper west Dome of the Forgotten"
   },
   "dome_patched_set_pkp": {
@@ -174,10 +174,10 @@
       "patched_gloves",
       "patched_boots"
     ],
-    "id": 60070,
+    "id": 120070,
     "loc": "41765.3633, 12529.3008",
     "region": "white_room",
-    "name": "Red Hall of Cages Chest 2",
+    "name": "Red Hall of Cages Chest 1",
     "description": "Chest in the white room leading to Mad Jester, in upper east Red Hall of Cages"
   },
   "hidden_passage_7771_pkp": {
@@ -187,10 +187,10 @@
       "dish_gloves",
       "dish_boots"
     ],
-    "id": 60076,
+    "id": 120076,
     "loc": "7084.90869, 23118.4375",
     "region": "village_cave_vertigo",
-    "name": "Village of Smiles Chest 2",
+    "name": "Village of Smiles Chest 1",
     "description": "Chest in lower Village of Smiles, underground"
   },
   "hidden_blades_23019_pkp": {
@@ -198,10 +198,10 @@
       "blades_helm",
       "blades_boots"
     ],
-    "id": 60082,
+    "id": 120082,
     "loc": "23120.9, 12567.6943",
     "region": "bladebanditgate1",
-    "name": "The Festering Banquet Chest 5",
+    "name": "The Festering Banquet Chest 3",
     "description": "Chest in east The Festering Banquet, underground"
   },
   "hidden_blades_24405_pkp": {
@@ -209,10 +209,10 @@
       "blades_armor",
       "blades_gloves"
     ],
-    "id": 60086,
+    "id": 120086,
     "loc": "24405.3574, 12951.917",
     "region": "hidden_blades_24405_pkp",
-    "name": "The Festering Banquet Chest 6",
+    "name": "The Festering Banquet Chest 4",
     "description": "Chest in east The Festering Banquet, underground"
   },
   "castle_golem_set_34559_pkp": {
@@ -222,10 +222,10 @@
       "golem_boots",
       "golem_gloves"
     ],
-    "id": 60090,
+    "id": 120090,
     "loc": "34559.8828, 8117.98",
     "region": "castle_terror",
-    "name": "Castle of Storms Chest 4",
+    "name": "Castle of Storms Chest 1",
     "description": "Chest behind Jagged Key door in west Castle of Storms"
   },
   "dome_merchant_61077_pkp": {
@@ -235,10 +235,10 @@
       "merchant_gloves",
       "merchant_armor"
     ],
-    "id": 60096,
+    "id": 120096,
     "loc": "61077.625, 9902.208",
     "region": "dome_upper",
-    "name": null,
+    "name": "Dome of the Forgotten Chest 4",
     "description": "Chest below The Third Lamb in upper Dome of the Forgotten"
   },
   "alchemist_set_25603_pkp": {
@@ -247,10 +247,10 @@
       "alchemist_armor",
       "alchemist_boots"
     ],
-    "id": 60102,
+    "id": 120102,
     "loc": "25080.6016, 24536.1816",
     "region": "alchemist_set_25603_pkp",
-    "name": null,
+    "name": "Mire of Stench Chest 1",
     "description": "Chest in the top building in upper Mire of Stench"
   },
   "stag_armor_84279_pkp": {
@@ -261,10 +261,10 @@
       "sword",
       "shield_banner"
     ],
-    "id": 60107,
+    "id": 120107,
     "loc": "84279.39, 11860.9307",
     "region": "ziggurat_stag",
-    "name": null,
+    "name": "Ziggurat of Dust Chest 1",
     "description": "Chest above the Sanctuary in east Ziggurat of Dust"
   },
   "castle_ninja_38321_pkp": {
@@ -274,10 +274,10 @@
       "ninja_boots",
       "ninja_gloves"
     ],
-    "id": 60114,
+    "id": 120114,
     "loc": "37556.69, 1947.2262",
     "region": "castle_of_storms_shadowflip",
-    "name": "Castle of Storms Chest 3",
+    "name": "Castle of Storms Chest 2",
     "description": "Chest below Kraekan Wyrm in upper Castle of Storms"
   },
   "fort_boat_5646_pkp": {
@@ -286,10 +286,10 @@
       "boat_helm",
       "boat_boots"
     ],
-    "id": 60120,
+    "id": 120120,
     "loc": "5646.04736, 27853.62",
     "region": "fort_beyond_the_mire_upper",
-    "name": null,
+    "name": "Fort-Beyond-The-Mire Chest 1",
     "description": "Chest below the Sanctuary in the fort in Fort-Beyond-The-Mire"
   },
   "lab_saltknight_50361_pkp": {
@@ -297,10 +297,10 @@
       "pole_ranseur",
       "shield_saltknight"
     ],
-    "id": 60125,
+    "id": 120125,
     "loc": "55749.02, 34686.58",
     "region": "lake_to_lab",
-    "name": null,
+    "name": "Salt Alkymancery Chest 1",
     "description": "Chest east of The Unskinned and The Architect in lower Salt Alkymancery"
   },
   "fortress_dreadset_14620_pkp": {
@@ -310,7 +310,7 @@
       "dread_gloves",
       "dread_boots"
     ],
-    "id": 60129,
+    "id": 120129,
     "loc": "14620.2334, 6731.2915",
     "region": "the_festering_banquet_vertigo",
     "name": "The Festering Banquet Chest 1",
@@ -322,10 +322,10 @@
       "devil_boots",
       "devil_helm"
     ],
-    "id": 60135,
+    "id": 120135,
     "loc": "67709.4844, 14829.8965",
     "region": "the_far_beach_east",
-    "name": null,
+    "name": "The Far Beach Chest 1",
     "description": "Chest in the cave leading to The Ruined Temple in west The Far Beach"
   },
   "chest_dapper_76601_pkp": {
@@ -335,80 +335,80 @@
       "dapper_gloves",
       "dapper_boots"
     ],
-    "id": 60140,
+    "id": 120140,
     "loc": "76601.84, 28688.32",
     "region": "chest_dapper_76601_pkp",
-    "name": null,
+    "name": "Pitchwoods Chest 1",
     "description": "Chest in the top of the west building in lower Pitchwoods"
   },
   "ruins_white_nova_62127_pkp": {
     "items": [
       "white_nova"
     ],
-    "id": 60146,
+    "id": 120146,
     "loc": "62127.4922, 20116.7852",
     "region": "ruinstwinleft1",
-    "name": null,
+    "name": "The Ruined Temple Chest 2",
     "description": "Chest west of the double gates in middle The Ruined Temple"
   },
   "lake_blue_nova_58614_pkp": {
     "items": [
       "blue_nova"
     ],
-    "id": 60149,
+    "id": 120149,
     "loc": "58830.8633, 33905.5977",
     "region": "lake_blue_nova_58614_pkp",
-    "name": null,
+    "name": "Siam Lake Chest 1",
     "description": "Chest above the cave leading to Salt Alkymancery in lower east Siam Lake"
   },
   "tomb_white_blaze_43101_pkp": {
     "items": [
       "white_blaze/3"
     ],
-    "id": 60152,
+    "id": 120152,
     "loc": "43128.9531, 37007.89",
     "region": "tomb_white_blaze_43101_pkp",
-    "name": null,
+    "name": "Crypt of Dead Gods Chest 1",
     "description": "Chest east of the shrine in lower east Crypt of Dead Gods"
   },
   "red_nova_89055_pkp": {
     "items": [
       "red_nova"
     ],
-    "id": 60155,
+    "id": 120155,
     "loc": "89055.8047, 23796.9648",
     "region": "red_nova_89055_pkp",
-    "name": null,
+    "name": "Pitchwoods Chest 2",
     "description": "Sack above the Sanctuary at the top of the east building in lower Pitchwoods"
   },
   "white_nova_54936_pkp": {
     "items": [
       "white_nova"
     ],
-    "id": 60158,
+    "id": 120158,
     "loc": "54936.4961, 40229.17",
     "region": "white_nova_54936",
-    "name": null,
+    "name": "The Still Palace Chest 1",
     "description": "Chest above the bottom of the slope in west The Still Palace"
   },
   "beast_nova_57914_pkp": {
     "items": [
       "beast_nova"
     ],
-    "id": 60161,
+    "id": 120161,
     "loc": "57914.6875, 22044.959",
     "region": "the_ruined_temple_crans_pass",
-    "name": null,
+    "name": "Cran's Pass Chest 1",
     "description": "Chest east of Ronin Cran in Cran's Pass"
   },
   "drowning_nova_70536_pkp": {
     "items": [
       "drowning_nova"
     ],
-    "id": 60164,
+    "id": 120164,
     "loc": "70536.61, 38644.81",
     "region": "drowning_nova_70536_pkp",
-    "name": null,
+    "name": "The Blackest Vault Chest 1",
     "description": "Chest in lower west The Blackest Vault"
   },
   "chest_monk_67709_pkp": {
@@ -417,11 +417,11 @@
       "monk_boots",
       "monk_gloves"
     ],
-    "id": 60167,
+    "id": 120167,
     "loc": "53883.06, 14003.9277",
     "region": "below_mals_floating_castle",
-    "name": "Dome of the Forgotten Sack 1",
-    "description": "Sack west of the west entrance to the Dome of the Forgotten"
+    "name": "Dome of the Forgotten Chest 1",
+    "description": "Chest west of the dome in west Dome of the Forgotten"
   },
   "tater_80183_pkp": {
     "items": [
@@ -430,10 +430,10 @@
       "tater_gloves",
       "tater_boots"
     ],
-    "id": 60172,
+    "id": 120172,
     "loc": "80183.26, 22482.373",
     "region": "pitchwoods_upper3",
-    "name": null,
+    "name": "Pitchwoods Chest 3",
     "description": "Chest in the second west building in upper Pitchwoods"
   },
   "dome_gold_archer_62526_pkp": {
@@ -443,10 +443,10 @@
       "gold_archer_gloves",
       "gold_archer_armor"
     ],
-    "id": 60178,
+    "id": 120178,
     "loc": "62526.0625, 12601.06",
     "region": "dome_middle",
-    "name": null,
+    "name": "Dome of the Forgotten Chest 3",
     "description": "Chest west of the Shrine in lower east Dome of the Forgotten"
   },
   "village_chef_set_3635_pkp": {
@@ -456,10 +456,10 @@
       "chef_boots",
       "mace_pot"
     ],
-    "id": 60184,
+    "id": 120184,
     "loc": "3635.32324, 19216.9648",
     "region": "village_cave",
-    "name": "Village of Smiles Chest 1",
+    "name": "Village of Smiles Chest 2",
     "description": "Chest in lower west Village of Smiles, underground"
   },
   "castle_samurai_48868_pkp": {
@@ -469,10 +469,10 @@
       "samurai_gloves",
       "samurai_boots"
     ],
-    "id": 60190,
+    "id": 120190,
     "loc": "48734.7266, 2340.60938",
     "region": "mals_west_upper",
-    "name": null,
+    "name": "Mal's Floating Castle Chest 3",
     "description": "Middle mimic below Murdiella Mal"
   },
   "forest_redmage_13008_pkp": {
@@ -482,7 +482,7 @@
       "redmage_gloves",
       "redmage_boots"
     ],
-    "id": 60196,
+    "id": 120196,
     "loc": "13011.9229, 19385.33",
     "region": "the_watching_woods",
     "name": "The Watching Woods Chest 1",
@@ -492,10 +492,10 @@
     "items": [
       "crystal_sphere"
     ],
-    "id": 60202,
+    "id": 120202,
     "loc": "51796.2, 1975.99158",
     "region": "castle_csphere_51796_pkp",
-    "name": null,
+    "name": "Mal's Floating Castle Chest 1",
     "description": "Chest near ladder in upper east Mal's Floating Castle"
   },
   "castle_mal_reward_pkp": {
@@ -503,10 +503,10 @@
       "salt8",
       "amber_nova"
     ],
-    "id": 60205,
+    "id": 120205,
     "loc": "48324, 1519.833",
     "region": "castle_mal_reward_pkp",
-    "name": null,
+    "name": "Mal's Floating Castle Chest 2",
     "description": "Chest west of Murdiella Mal in upper Mal's Floating Castle"
   }
 }

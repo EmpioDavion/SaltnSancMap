@@ -4,7 +4,8 @@
       "key_fortress",
       "dice_dread"
     ],
-    "id": 40000,
+    "required": 1,
+    "id": 100000,
     "loc": "17041.3457, 8626.176",
     "region": "dread",
     "name": "The Festering Banquet Boss",
@@ -14,7 +15,8 @@
     "items": [
       "dice_cutqueen"
     ],
-    "id": 40004,
+    "required": 0,
+    "id": 100004,
     "loc": "2459.48022, 17944.5664",
     "region": "cutqueen",
     "name": "Village of Smiles Boss",
@@ -25,7 +27,8 @@
       "dice_bull",
       "key_green"
     ],
-    "id": 40007,
+    "required": 1,
+    "id": 100007,
     "loc": "26734.77, 23051.8086",
     "region": "bull",
     "name": "Sunken Keep Boss 1",
@@ -35,7 +38,8 @@
     "items": [
       "dice_dragon"
     ],
-    "id": 40011,
+    "required": 1,
+    "id": 100011,
     "loc": "38186.09, 1243.47021",
     "region": "dragon",
     "name": "Castle of Storms Boss",
@@ -45,7 +49,8 @@
     "items": [
       "dice_alchemist"
     ],
-    "id": 40014,
+    "required": 1,
+    "id": 100014,
     "loc": "21009.7324, 18165.9219",
     "region": "alchemist",
     "name": "The Watching Woods Boss",
@@ -55,7 +60,8 @@
     "items": [
       "dice_torturetree"
     ],
-    "id": 40017,
+    "required": 0,
+    "id": 100017,
     "loc": "41469.28, 28467.8457",
     "region": "torturetree",
     "name": "Red Hall of Cages Boss",
@@ -66,7 +72,8 @@
       "key_ship",
       "dice_pirate"
     ],
-    "id": 40020,
+    "required": 0,
+    "id": 100020,
     "loc": "28432.98, 29483.332",
     "region": "pirate",
     "name": "Hager's Cavern Boss",
@@ -78,7 +85,8 @@
       "drowning_nova",
       "amber_nova"
     ],
-    "id": 40024,
+	"required": 0,
+    "id": 100024,
     "loc": "5133.833, 4273.77",
     "region": "leviathon",
     "name": "Ship Boss",
@@ -88,7 +96,8 @@
     "items": [
       "dice_gasbag"
     ],
-    "id": 40029,
+    "required": 1,
+    "id": 100029,
     "loc": "20563.0547, 24250.6875",
     "region": "gasbag",
     "name": "Mire of Stench Boss",
@@ -98,7 +107,8 @@
     "items": [
       "dice_broken"
     ],
-    "id": 40032,
+    "id": 100032,
+    "required": 0,
     "loc": "56019.2969, 23061.5332",
     "region": "broken",
     "name": "Cran's Pass Boss",
@@ -108,7 +118,8 @@
     "items": [
       "dice_hippogriff"
     ],
-    "id": 40035,
+    "id": 100035,
+    "required": 1,
     "loc": "60154.5625, 9221.357",
     "region": "griffin",
     "name": "Dome of the Forgotten Boss 2",
@@ -118,7 +129,8 @@
     "items": [
       "dice_lakewitch"
     ],
-    "id": 40038,
+    "required": 1,
+    "id": 100038,
     "loc": "55811.5625, 30732.5664",
     "region": "lakewitch",
     "name": "Siam Lake Boss",
@@ -128,7 +140,8 @@
     "items": [
       "dice_fauxjester"
     ],
-    "id": 40041,
+    "required": 1,
+    "id": 100041,
     "loc": "26812.873, 17064.8516",
     "region": "fauxjester",
     "name": "Sunken Keep Boss 2",
@@ -138,7 +151,8 @@
     "items": [
       "dice_mummy"
     ],
-    "id": 40044,
+    "required": 1,
+    "id": 100044,
     "loc": "79848.26, 9045.742",
     "region": "mummy",
     "name": "Ziggurat of Dust Boss 1",
@@ -148,7 +162,8 @@
     "items": [
       "dice_clay"
     ],
-    "id": 40047,
+    "required": 0,
+    "id": 100047,
     "loc": "79093.98, 17606.04",
     "region": "clay",
     "name": "Ziggurat of Dust Boss 2",
@@ -158,7 +173,8 @@
     "items": [
       "dice_inquisitor"
     ],
-    "id": 40050,
+    "required": 0,
+    "id": 100050,
     "loc": "60699.5977, 13237.1963",
     "region": "inquisitor",
     "name": "Dome of the Forgotten Boss 1",
@@ -168,7 +184,8 @@
     "items": [
       "dice_monster"
     ],
-    "id": 40053,
+    "required": 1,
+    "id": 100053,
     "loc": "48561.28, 35031.3633",
     "region": "monster",
     "name": "Salt Alkymancery Boss 1",
@@ -178,7 +195,8 @@
     "items": [
       "dice_monsterwitch"
     ],
-    "id": 40056,
+    "required": 1,
+    "id": 100056,
     "loc": "48368.16, 34674.63",
     "region": "monsterwitch",
     "name": "Salt Alkymancery Boss 2",
@@ -188,15 +206,17 @@
     "items": [
       "dice_ruinaxe"
     ],
-    "id": 40059,
+    "required": 0,
+    "id": 100059,
     "loc": "62728.3633, 25636.96",
     "region": "ruinaxe",
-    "name": "The Ruined Temple Boss",
+    "name": "The Ruined Temple Boss 1",
     "description": "Vanquish the trio boss in The Ruined Temple"
   },
   "ruinaxeghost1": {
     "items": [],
-    "id": 40062,
+    "required": 0,
+    "id": 100062,
     "loc": "62340.03, 25371.5879",
     "region": "ruinaxeghost1",
     "name": "The Ruined Temple Boss 2",
@@ -204,7 +224,8 @@
   },
   "ruinaxeghost2": {
     "items": [],
-    "id": 40064,
+    "required": 0,
+    "id": 100064,
     "loc": "63103.7852, 25371.5879",
     "region": "ruinaxeghost2",
     "name": "The Ruined Temple Boss 3",
@@ -214,7 +235,8 @@
     "items": [
       "dice_squiddragon"
     ],
-    "id": 40066,
+    "required": 1,
+    "id": 100066,
     "loc": "46111.42, 37679.4023",
     "region": "squiddragon",
     "name": "Crypt of Dead Gods Boss 1",
@@ -224,7 +246,8 @@
     "items": [
       "dice_nameless"
     ],
-    "id": 40069,
+    "required": 1,
+    "id": 100069,
     "loc": "62566.0938, 46780.81",
     "region": "nameless",
     "name": "The Still Palace Boss",
@@ -234,7 +257,8 @@
     "items": [
       "dice_cloak"
     ],
-    "id": 40072,
+    "required": 0,
+    "id": 100072,
     "loc": "94554.58, 30010.3848",
     "region": "cloak",
     "name": "Pitchwoods Boss",
@@ -244,7 +268,8 @@
     "items": [
       "dice_deadking"
     ],
-    "id": 40075,
+    "required": 0,
+    "id": 100075,
     "loc": "32648.3418, 41882.8867",
     "region": "deadking",
     "name": "Crypt of Dead Gods Boss 2",
@@ -254,7 +279,8 @@
     "items": [
       "dice_deadknight"
     ],
-    "id": 40078,
+    "required": 0,
+    "id": 100078,
     "loc": "32411.7168, 41861.6133",
     "region": "deadknight",
     "name": "Crypt of Dead Gods Boss 3",
@@ -264,7 +290,8 @@
     "items": [
       "dice_deadjudge"
     ],
-    "id": 40081,
+    "required": 0,
+    "id": 100081,
     "loc": "32885.19, 41845.9961",
     "region": "deadjudge",
     "name": "Crypt of Dead Gods Boss 4",
@@ -274,10 +301,11 @@
     "items": [
       "dice_butterfly"
     ],
-    "id": 40084,
+    "required": 0,
+    "id": 100084,
     "loc": "49243.0156, 1219.70471",
     "region": "murderfly",
-    "name": null,
-    "description": null
+    "name": "Mal's Floating Castle Boss",
+    "description": "Vanquish the boss in upper Mal's Floating Castle"
   }
 }

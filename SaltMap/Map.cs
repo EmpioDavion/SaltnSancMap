@@ -38,6 +38,8 @@ namespace SaltMap
 			NPC,
 			Dialogue,
 			Brand,
+			Creed,
+			Quest,
 			Unknown
 		}
 
@@ -61,6 +63,9 @@ namespace SaltMap
 			public string name;
 
 			public string description;
+
+			[JsonIgnore]
+			public bool enabled;
 
 			[JsonIgnore]
 			public CheckState checkState;
@@ -97,6 +102,16 @@ namespace SaltMap
 			public string item;
 		}
 
+		public class Boss : Container
+		{
+			public bool required;
+		}
+
+		public class Switch : Container
+		{
+			public SequenceType type;
+		}
+
 		public class Sequence : Check
 		{
 			public SequenceType type;
@@ -125,6 +140,10 @@ namespace SaltMap
 		{
 			public Vector2 loc;
 			public readonly List<Check> checks = new List<Check>();
+
+			public int enabledCount;
+
+			public void Count() => enabledCount = checks.Count((x) => x.enabled);
 		}
 
 		private class GameDialogue
@@ -242,18 +261,23 @@ namespace SaltMap
 		public Dictionary<string, Container> chests;
 		public Dictionary<string, Container> sacks;
 		public Dictionary<string, Container> mimics;
-		public Dictionary<string, Container> switches;
+		public Dictionary<string, Switch> switches;
 		public Dictionary<string, Item> items;
 		public Dictionary<string, Sequence> sequences;
 		public Dictionary<string, Sequence> disabledSequences;
 		public Dictionary<string, Sequence[]> platforms;
 		public Dictionary<string, Sanctuary> sanctuaries;
-		public Dictionary<string, Container> bosses;
+		public Dictionary<string, Boss> bosses;
 		public Dictionary<string, NPC> npcs;
 		public Dictionary<string, Dialogue> dialogues;
 		public Dictionary<string, Check> brands;
+		public Dictionary<string, Check> bestiary;
+		public Dictionary<string, Check> creeds;
+		public Dictionary<string, Container> quests;
 
 		public Dictionary<string, Region> regions;
+
+		public readonly List<Sanctuary> sanctuaryList = new List<Sanctuary>();
 
 		private GraphicsDevice graphicsDevice;
 		private SpriteBatch spriteBatch;
@@ -277,7 +301,7 @@ namespace SaltMap
 
 		public DrawMode drawMode = DrawMode.Zoomable;
 
-		private readonly Dictionary<string, Check> locations = new Dictionary<string, Check>();
+		public readonly Dictionary<string, Check> locations = new Dictionary<string, Check>();
 
 		private readonly List<CheckGroup> checkGroups = new List<CheckGroup>();
 
@@ -285,11 +309,76 @@ namespace SaltMap
 		private Connection connectionFilter = null;
 		private Check checkFilter = null;
 
+		private Func<Check, bool> _regionFilterLogic;
+		private Func<Check, bool> _connectionFilterLogic;
+
+		public Func<Check, bool> RegionFilterLogic { set => _regionFilterLogic = value ?? BaseRegionFilter; }
+		public Func<Check, bool> ConnectionFilterLogic { set => _connectionFilterLogic = value ?? BaseConnectionFilter; }
+
 		public Func<bool> saveRegions = () => true;
 
 		private string subfolder = "";
 
 		private readonly List<Connection> toExamine = new List<Connection>();
+
+		private bool initialized = false;
+
+		public readonly Dictionary<string, string> bindings = new Dictionary<string, string>()
+		{
+			{ "zenfern_lookingno",		  "zenfern_lookingyes" },
+			{ "zenfern_warno",			  "zenfern_waryes" },
+			{ "zenfern_warfoundno",		  "zenfern_warfoundyes" },
+			{ "zenfern_lfoundno",		  "zenfern_lfoundyes" },
+			{ "zenfern_talk_p_n",		  "zenfern_talk_p_y" },
+			{ "zenfern_talk_w_n",		  "zenfern_talk_w_y" },
+			{ "zenfern_talk_trinketno",	  "zenfern_talk_trinketyes" },
+			{ "scarecrow_kneelno",        "scarecrow_kneelyes" },
+			{ "scarecrow_2_joinno",       "scarecrow_2_joinyes" },
+			{ "scarecrow_3_doneno",       "scarecrow_3_doneyes" },
+			{ "scarecrow_4_talk_rule",    "scarecrow_4_talk_survive" },
+			{ "scarecrow_5_helmno",       "scarecrow_helm_yes" },
+			{ "boatman_travelno",         "boatman_travelyes" },
+			{ "rightboatman_travelno",    "rightboatman_travelyes" },
+			{ "memories_plant",           "memories_harvestprove" },
+			{ "memories_proveno",         "memories_proveyes" },
+			{ "zenfern_lookingno",        "zenfern_lookingyes" },
+			{ "zenfern_warno",            "zenfern_waryes" },
+			{ "zenfern_warfoundno",       "zenfern_warfoundyes" },
+			{ "zenfern_lfoundno",         "zenfern_lfoundyes" },
+			{ "zenfern_talk_p_n",         "zenfern_talk_p_y" },
+			{ "zenfern_talk_w_n",         "zenfern_talk_w_y" },
+			{ "zenfern_talk_trinketno",   "zenfern_talk_trinketyes" },
+			{ "oldman_iron_check",        "oldman_talk_not_new" },
+			{ "oldman_three_check",       "oldman_talk_not_new" },
+			{ "oldman_cleric_check",      "oldman_talk_not_new" },
+			{ "oldman_forest_check",      "oldman_talk_not_new" },
+			{ "oldman_fire_sky_check",    "oldman_talk_not_new" },
+			{ "oldman_three_confirm",     "oldman_fire_sky_confirm" },
+			{ "oldman_cleric_confirm",    "oldman_fire_sky_confirm" },
+			{ "oldman_forest_confirm",    "oldman_fire_sky_confirm" },
+			{ "jester_talk_no",           "jester_talk_yes" },
+			{ "despondent_3_talk_no",     "despondent_3_talk_yes" },
+			{ "masterless_my_quest_no",   "masterless_my_quest_yes" },
+			{ "masterless_quest_no",      "masterless_quest_yes" },
+			{ "oldgreg_fondno",           "oldgreg_fondyes" },
+			{ "domefriend_lightno",       "domefriend_lightyes" },
+			{ "domefriend_helpno",        "domefriend_helpyes" },
+			{ "swampfriend_talkno",       "swampfriend_talkyes" },
+			{ "swampfriend_readyno",      "swampfriend_readyyes" },
+			{ "choppy_impno",             "choppy_impyes" },
+			{ "choppy_imp_no_2",          "choppy_imp_yes_2" },
+			{ "dark_gatekeeper_joinno",   "dark_gatekeeper_joinyes" },
+			{ "dark_gatekeeper_markno",   "dark_gatekeeper_markyes" },
+			{ "dark_gatekeeper_talkbad",  "dark_gatekeeper_talkgood" },
+			{ "zenfern_axe_great",		  "zenfern_white_helm" },
+			{ "zenfern_dagger_jagged",    "zenfern_white_helm" },
+			{ "zenfern_shield_tree",      "zenfern_white_helm" },
+			{ "zenfern_white_armor",      "zenfern_white_helm" },
+			{ "zenfern_white_gloves",     "zenfern_white_helm" },
+			{ "zenfern_white_boots",      "zenfern_white_helm" },
+		};
+
+		public readonly Dictionary<string, List<string>> binders = new Dictionary<string, List<string>>();
 
 #if !DEBUG
 
@@ -300,11 +389,22 @@ namespace SaltMap
 		public Map()
 		{
 			camera = Matrix.CreateTranslation(new Vector3(-mapPosition * ZoomScale, 0.0f));
+
+			_regionFilterLogic = BaseRegionFilter;
+			_connectionFilterLogic = BaseConnectionFilter;
 		}
 
 		public void Init(string subfolder, GraphicsDevice graphicsDevice,
 			SpriteBatch spriteBatch, SpriteFont font, bool loadItems)
 		{
+			if (initialized)
+			{
+				Reset();
+				return;
+			}
+
+			initialized = true;
+
 			this.subfolder = subfolder;
 			this.graphicsDevice = graphicsDevice;
 			this.spriteBatch = spriteBatch;
@@ -350,19 +450,14 @@ namespace SaltMap
 			chests = LoadJson<Dictionary<string, Container>>($"{subfolder}/chests.json");
 			sacks = LoadJson<Dictionary<string, Container>>($"{subfolder}/sacks.json");
 			mimics = LoadJson<Dictionary<string, Container>>($"{subfolder}/mimics.json");
-			bosses = LoadJson<Dictionary<string, Container>>($"{subfolder}/bosses.json");
-			switches = LoadJson<Dictionary<string, Container>>($"{subfolder}/switches.json");
+			bosses = LoadJson<Dictionary<string, Boss>>($"{subfolder}/bosses.json");
+			switches = LoadJson<Dictionary<string, Switch>>($"{subfolder}/switches.json");
 
-			if (loadItems)
-			{
-				items = new Dictionary<string, Item>();
-				AddItems(chests);
-				AddItems(sacks);
-				AddItems(mimics);
-				AddItems(bosses);
-			}
-			else
-				items = null;
+			items = new Dictionary<string, Item>();
+			AddItems(chests);
+			AddItems(sacks);
+			AddItems(mimics);
+			AddItems(bosses);
 
 			sequences = LoadJson<Dictionary<string, Sequence>>($"{subfolder}/sequences.json");
 			disabledSequences = LoadJson<Dictionary<string, Sequence>>($"{subfolder}/disabled_sequences.json");
@@ -385,7 +480,6 @@ namespace SaltMap
 			}
 
 			sanctuaries = LoadJson<Dictionary<string, Sanctuary>>($"{subfolder}/sanctuaries.json");
-			bosses = LoadJson<Dictionary<string, Container>>($"{subfolder}/bosses.json");
 			npcs = LoadJson<Dictionary<string, NPC>>($"{subfolder}/npcs.json");
 
 			if (!File.Exists($"{subfolder}/dialogues.json"))
@@ -393,15 +487,10 @@ namespace SaltMap
 			else
 				dialogues = LoadJson<Dictionary<string, Dialogue>>($"{subfolder}/dialogues.json");
 
-			dialogues["zenfern_lookingno"].id = dialogues["zenfern_lookingyes"].id;
-			dialogues["zenfern_warno"].id = dialogues["zenfern_waryes"].id;
-			dialogues["zenfern_warfoundno"].id = dialogues["zenfern_warfoundyes"].id;
-			dialogues["zenfern_lfoundno"].id = dialogues["zenfern_lfoundyes"].id;
-			dialogues["zenfern_talk_p_n"].id = dialogues["zenfern_talk_p_y"].id;
-			dialogues["zenfern_talk_w_n"].id = dialogues["zenfern_talk_w_y"].id;
-			dialogues["zenfern_talk_trinketno"].id = dialogues["zenfern_talk_trinketyes"].id;
-
 			brands = LoadJson<Dictionary<string, Check>>($"{subfolder}/brands.json");
+			bestiary = LoadJson<Dictionary<string, Check>>($"{subfolder}/monsters.json");
+			creeds = LoadJson<Dictionary<string, Check>>($"{subfolder}/creeds.json");
+			quests = LoadJson<Dictionary<string, Container>>($"{subfolder}/quests.json");
 
 			locations.Clear();
 
@@ -409,16 +498,16 @@ namespace SaltMap
 			AddLocations(sacks, CheckType.Sack);
 			AddLocations(mimics, CheckType.Mimic);
 			AddLocations(switches, CheckType.Switch);
-
-			if (loadItems)
-				AddLocations(items, CheckType.Item);
-
+			AddLocations(items, CheckType.Item);
 			AddLocations(sequences, CheckType.Sequence);
 			AddLocations(sanctuaries, CheckType.Sanctuary);
 			AddLocations(bosses, CheckType.Boss);
 			AddLocations(npcs, CheckType.NPC);
 			AddLocations(dialogues, CheckType.Dialogue);
 			AddLocations(brands, CheckType.Brand);
+			AddLocations(bestiary, CheckType.Bestiary);
+			AddLocations(creeds, CheckType.Creed);
+			AddLocations(quests, CheckType.Quest);
 
 			float maxRange = 10f * 10f;
 
@@ -450,7 +539,34 @@ namespace SaltMap
 				}
 			}
 
+			foreach (KeyValuePair<string, string> kvp in bindings)
+			{
+				if (!binders.TryGetValue(kvp.Value, out List<string> bindingsList))
+					binders[kvp.Value] = bindingsList = new List<string>();
+
+				locations[kvp.Key].id = locations[kvp.Value].id;
+				bindingsList.Add(kvp.Key);
+			}
+
+			Reset();
+
+			if (!loadItems)
+				foreach (KeyValuePair<string, Item> kvp in items)
+					kvp.Value.enabled = false;
+
+			foreach (CheckGroup checkGroup in checkGroups)
+				checkGroup.enabledCount = checkGroup.checks.Count;
+
+			sanctuaryList.AddRange(sanctuaries.Values);
+			sanctuaryList.Sort((a, b) => a.id - b.id);
+
 			UpdateAvailable((x) => false);
+		}
+
+		public void Reset()
+		{
+			foreach (KeyValuePair<string, Check> kvp in locations)
+				kvp.Value.enabled = true;
 		}
 
 		private void CreateDialogues()
@@ -514,15 +630,16 @@ namespace SaltMap
 			SaveChecks("sacks.json", sacks);
 			SaveChecks("mimics.json", mimics);
 			SaveChecks("switches.json", switches);
-
-			if (items != null)
-				SaveChecks("items.json", items);
-
+			//SaveChecks("items.json", items);
 			SaveChecks("sequences.json", sequences);
 			SaveChecks("sanctuaries.json", sanctuaries);
 			SaveChecks("bosses.json", bosses);
 			SaveChecks("npcs.json", npcs);
 			SaveChecks("dialogues.json", dialogues);
+			SaveChecks("brands.json", brands);
+			SaveChecks("monsters.json", bestiary);
+			SaveChecks("creeds.json", creeds);
+			SaveChecks("quests.json", quests);
 
 			SaveRegions();
 		}
@@ -553,13 +670,13 @@ namespace SaltMap
 			return JsonConvert.DeserializeObject<T>(json);
 		}
 
-		private void AddItems(Dictionary<string, Container> csms)
+		private void AddItems<T>(Dictionary<string, T> csms) where T : Container
 		{
-			foreach (KeyValuePair<string, Container> kvp in csms)
+			foreach (KeyValuePair<string, T> kvp in csms)
 			{
 				for (int i = 0; i < kvp.Value.items.Length; i++)
 				{
-					string key = kvp.Key + $"_Item{i}";
+					string key = $"{kvp.Key}_Item{i}";
 
 					items.Add(key, new Item()
 					{
@@ -735,6 +852,9 @@ namespace SaltMap
 			checkFilter = check;
 		}
 
+		private bool BaseRegionFilter(Check check) => check.Region == regionFilter;
+		private bool BaseConnectionFilter(Check check) => check.Region == connectionFilter.Region;
+
 		public void SetCameraPosition(Vector2 worldPos)
 		{
 			worldPos *= (-itemScale * ZoomScale);
@@ -780,8 +900,8 @@ namespace SaltMap
 
 			if (regionFilter != null)
 			{
-				bool hasCheck = checkGroup.checks.Any((check) => check.Region == regionFilter);
-				bool allChecks = checkGroup.checks.All((check) => check.Region == regionFilter);
+				bool hasCheck = checkGroup.checks.Any(_regionFilterLogic);
+				bool allChecks = checkGroup.checks.All(_regionFilterLogic);
 
 				if (allChecks)
 					colors.Add(Color.LightGreen);
@@ -795,7 +915,7 @@ namespace SaltMap
 
 				if (connectionFilter != null)
 				{
-					hasCheck = checkGroup.checks.Any((check) => check.Region == connectionFilter.Region);
+					hasCheck = checkGroup.checks.Any(_connectionFilterLogic);
 
 					if (hasCheck)
 						colors.Add(Color.LightBlue);
@@ -873,10 +993,15 @@ namespace SaltMap
 			return false;
 		}
 
-		public bool GetLocation(string location, out Check check) =>
-			locations.TryGetValue(location, out check);
+		public bool GetLocation(string location, out Check check)
+		{
+			bindings.TryGetValue(location, out location);
 
-		public T GetLocation<T>(string location) where T : Check => (T)locations[location];
+			return locations.TryGetValue(location, out check);
+		}
+
+		public T GetLocation<T>(string location) where T : Check => 
+			GetLocation(location, out Check check) ? check as T : null;
 
 		public void GetChecks(Vector2 pos, IList<Check> checks)
 		{
@@ -1042,7 +1167,7 @@ namespace SaltMap
 
 			if (regionFilter != null)
 			{
-				if (check.Region == regionFilter)
+				if (_regionFilterLogic(check))
 					colour = Color.LightGreen;
 				else
 					colour = Color.IndianRed;
@@ -1074,8 +1199,8 @@ namespace SaltMap
 
 			if (regionFilter != null)
 			{
-				bool hasCheck = checkGroup.checks.Any((check) => check.Region == regionFilter);
-				bool allChecks = checkGroup.checks.All((check) => check.Region == regionFilter);
+				bool hasCheck = checkGroup.checks.Any(_regionFilterLogic);
+				bool allChecks = checkGroup.checks.All(_regionFilterLogic);
 
 				if (allChecks)
 					groupColors.Add(Color.LightGreen);
@@ -1089,7 +1214,7 @@ namespace SaltMap
 
 				if (connectionFilter != null)
 				{
-					hasCheck = checkGroup.checks.Any((check) => check.Region == connectionFilter.Region);
+					hasCheck = checkGroup.checks.Any(_connectionFilterLogic);
 
 					if (hasCheck)
 						groupColors.Add(Color.LightBlue);
@@ -1124,7 +1249,8 @@ namespace SaltMap
 			Profiler.Profile profile = Profiler.Profiler.Start("Map.DrawBlocks");
 
 			foreach (CheckGroup checkGroup in checkGroups)
-				DrawCheckGroupBlock(checkGroup, scale);
+				if (checkGroup.enabledCount > 0)
+					DrawCheckGroupBlock(checkGroup, scale);
 
 #if DEBUG
 
@@ -1148,6 +1274,9 @@ namespace SaltMap
 
 			foreach (CheckGroup checkGroup in checkGroups)
 			{
+				if (checkGroup.enabledCount == 0)
+					continue;
+
 				Color? colour = null;
 
 				if (checkGroup.checks.Count == 1)

@@ -1,0 +1,51 @@
+{
+  "the_iron_ones": {
+	"id": 200001,
+	"loc": "3047.75244, 14576.8574",
+	"region": "pitchwoods_sanctuary",
+    "name": "Join The Iron Ones",
+    "description": "Join the creed The Iron Ones"
+  },
+  "devaras_light": {
+	"id": 200002,
+	"loc": "3047.75244, 14576.8574",
+	"region": "pitchwoods_sanctuary",
+    "name": "Join Devara's Light",
+    "description": "Join the creed Devara's Light"
+  },
+  "the_three": {
+	"id": 200003,
+	"loc": "3047.75244, 14576.8574",
+	"region": "pitchwoods_sanctuary",
+    "name": "Join the creed The Three",
+    "description": "Join the creed The Three"
+  },
+  "the_stone_roots": {
+	"id": 200004,
+	"loc": "24352, 19718.4",
+	"region": "the_watching_woods",
+    "name": "Join The Stone Roots",
+    "description": "Join the creed The Stone Roots"
+  },
+  "order_of_the_betrayer": {
+	"id": 200005,
+	"loc": "72860.63, 38632.9727",
+	"region": "dark_gatekeeper_1",
+    "name": "Join Order of the Betrayer",
+    "description": "Join the creed Order of the Betrayer"
+  },
+  "the_house_of_splendor": {
+	"id": 200007,
+	"loc": "50144, 24550.4",
+	"region": "red_hall_of_cages_crans_pass",
+    "name": "Join The House of Splendor",
+    "description": "Join the creed The House of Splendor"
+  },
+  "keepers_of_fire_and_sky": {
+	"id": 200008,
+	"loc": "88544, 24230.4",
+	"region": "pitchwoods_sanctuary",
+    "name": "Join Keepers of Fire and Sky",
+    "description": "Join the creed Keepers of Fire and Sky"
+  }
+}
